@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895476"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154389"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Erstellen von Matrixvisualisierungen in Power BI
 
@@ -136,17 +136,32 @@ Sie können die Einstellungen für das abgestufte Layout einfach anpassen. Erwei
 
 Wenn Sie das abgestufte Layout deaktivieren, zeigt Power BI die Unterkategorien nicht mehr unter der übergeordneten Kategorie eingerückt, sondern in einer eigenen Spalte an.
 
-## <a name="subtotals-with-matrix-visuals"></a>Teilergebnisse mit Matrixvisuals
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>Teilsummen und Gesamtsumme mit Matrixvisuals
 
-Sie können in Matrixvisuals Teilergebnisse sowohl für Zeilen als auch für Spalten aktivieren und deaktivieren. In der folgenden Abbildung sind die Teilergebnisse auf **Ein** festgelegt.
+Sie können in Matrixvisuals Teilergebnisse sowohl für Zeilen als auch für Spalten aktivieren und deaktivieren. In der folgenden Abbildung sind die Teilsummen für Zeilen auf **Ein** und darauf festgelegt, dass sie unten angezeigt werden.
 
-![Matrix mit Summen und Teilergebnissen](media/desktop-matrix-visual/matrix-visual_20.png)
+![Matrix mit Summen und Teilergebnissen](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-Erweitern Sie im Abschnitt „Format“ des Bereichs „Visualisierungen“ die Karte **Teilsummen**, und ziehen Sie den Schieberegler „Zeilenzwischensummen“ auf **Aus**. Wenn Sie dies tun, werden die Teilergebnisse nicht angezeigt.
+Wenn Sie die Option **Teilsummen** und eine Bezeichnung hinzufügen, fügt Power BI auch eine Zeile und dieselbe Bezeichnung für den Wert „Gesamtsumme“ hinzu. Zum Formatieren der Gesamtsumme wählen Sie die Option **Gesamtsumme** aus. 
 
-![Matrix mit deaktivierten Teilergebnissen](media/desktop-matrix-visual/matrix-visual_21.png)
+![Matrix mit Karte „Gesamtsumme“](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+Wenn Sie die Optionen „Teilsummen“ und „Gesamtsumme“ deaktivieren möchten, erweitern Sie im Abschnitt „Format“ des Bereichs „Visualisierungen“ die Karte **Teilsummen**. Setzen Sie dann den Schieberegler für Teilsummen von Zeilen auf **Aus**. Wenn Sie dies tun, werden die Teilergebnisse nicht angezeigt.
+
+![Matrix mit deaktivierten Teilergebnissen](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 Dasselbe Verfahren wird für die Spaltenteilergebnisse angewendet.
+
+## <a name="add-conditional-icons"></a>Bedingte Symbole hinzufügen
+Fügen Sie der Tabelle oder Matrix mithilfe von *bedingten Symbolen* visuelle Hinweise hinzu. 
+
+Erweitern Sie im Abschnitt „Format“ des Bereichs „Visualisierungen“ die Karte **Bedingte Formatierung**. Setzen Sie den Schieberegler **Symbole** auf **Ein**, und klicken Sie auf **Erweiterte Steuerelemente**.
+
+![Matrix, Bildschirm „Symbole“ wird angezeigt](media/desktop-matrix-visual/power-bi-icons.png)
+
+Passen Sie die Bedingungen, Symbole und Farben für Ihre Matrix an, und klicken Sie auf **OK**. In diesem Beispiel wurde ein rotes Fähnchen für niedrige Werte, ein lila Kreis für hohe Werte und ein gelbes Dreieck für alle Werte dazwischen verwendet. 
+
+![Matrix, in der Symbole angezeigt werden](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Kreuzhervorhebung mit visuellen Matrixelementen
 

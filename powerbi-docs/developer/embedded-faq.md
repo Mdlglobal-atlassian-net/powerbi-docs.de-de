@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539047"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259699"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -55,37 +55,11 @@ Da Einbettungstoken mit einer Pro-Lizenz nur für Entwicklungstests vorgesehen s
 
 ## <a name="technical"></a>Technische Fragen
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Worin unterscheiden sich die A-SKUs in Azure von den EM-SKUs in Office 365?
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>Wo kann ich mehr über Kapazitäten und SKUs in Power BI Embedded Analytics erfahren?
 
-PowerBI.com ist eine SaaS-Lösung (Software-as-a-Service) mit Funktionen wie der Zusammenarbeit in sozialen Netzwerken und E-Mail-Abonnements. PowerBI.com kann unabhängige Softwarehersteller dabei unterstützen, die Inhalte der Embedded Analytics-Lösung und Einstellungen auf Mandantenebene zu verwalten.
+Weitere Informationen finden Sie unter [Kapazität und SKUs in Power BI Embedded Analytics](embedded-capacity.md).
 
-Power BI Embedded besteht aus PaaS-APIs (Platform-as-a-Service), die Entwickler verwenden können, um eine Embedded Analytics-Lösung zu erstellen.
-
-Im Folgenden finden Sie eine unvollständige Liste der Unterschiede zwischen den Features.
-
-| Feature | Power BI Embedded | Power BI Premium-Kapazität | Power BI Premium-Kapazität |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | Eine SKUs-Azure-Kapazität | EM SKUs-O365-Kapazität | P SKUs-O365-Kapazität |
-| Einbetten von Artefakten aus dem Power BI-Arbeitsbereich | Ja | Ja | Ja |
-| Nutzen von Power BI-Berichten in einer für Ihre Organisation eingebetteten Anwendung  | Nein | Ja | Ja |
-| Nutzen von Power BI-Berichten in einer für Ihre Kunden eingebetteten Anwendung | Ja | Ja | Ja |
-| Power BI-Berichte in SharePoint nutzen | Nein | Ja | Ja |
-| Power BI-Berichte in Dynamics nutzen | Nein | Ja | Ja |
-| Power BI-Berichte in Teams nutzen (keine mobile App) | Nein | Ja | Ja |
-| Mit einer kostenlosen Power BI-Lizenz auf Inhalte unter Powerbi.com und Power BI Mobile zugreifen | Nein | Nein | Ja |
-| Mit einer kostenlosen Power BI-Lizenz auf in Microsoft Office-Apps eingebettete Inhalte zugreifen | Nein | Ja | Ja |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI bietet jetzt drei SKUs für die Einbettung: A-SKUs, EM-SKUs und P-SKUs. Welche SKU ist für mein Szenario optimal?
-
-|  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
-|---------|---------|---------|---------|
-|Einkauf  |Azure-Portal |Office |Office |
-|Anwendungsfälle | Einbetten von Inhalten in Ihre eigene Anwendung | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br><br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br><br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/)  |
-|Abrechnung |Stündlich |Monatlich |Monatlich |
-|Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
-|Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Einbetten von Inhalten in SharePoint Online und Microsoft Teams (nicht für mobile Apps) |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure?
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen für das Erstellen einer PBIE-Kapazität in Azure?
 
 * Sie müssen sich bei Ihrem Organisationsverzeichnis anmelden (Microsoft-Konten werden nicht unterstützt).
 * Sie müssen über einen Power BI-Mandanten verfügen, d. h. mindestens ein Benutzer in Ihrem Verzeichnis muss bei Power BI registriert sein. 

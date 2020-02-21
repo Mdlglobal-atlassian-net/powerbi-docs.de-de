@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852224"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260123"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Grundkonzepte für Benutzer des Power BI-Diensts
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-In diesem Artikel wird davon ausgegangen, dass Sie bereits den Übersichtsartikel zu [Power BI](../fundamentals/power-bi-overview.md) gelesen haben und sich als [***Benutzer*** von Power BI](end-user-consumer.md) identifiziert haben. Benutzer erhalten Power BI-Inhalte wie Dashboards und Berichte von Kollegen. Benutzer nutzen den Power BI-Dienst, also die Website-basierte Version von Power BI.
+In diesem Artikel wird davon ausgegangen, dass Sie bereits den [Übersichtsartikel zu Power BI](../fundamentals/power-bi-overview.md) gelesen haben und sich als [Benutzer **von _Power BI_** ](end-user-consumer.md) identifiziert haben. Benutzer erhalten Power BI-Inhalte wie Dashboards und Berichte von Kollegen. Benutzer nutzen den Power BI-Dienst, also die Website-basierte Version von Power BI.
 
 Sie hören zweifellos den Begriff „Power BI Desktop“ oder einfach „Desktop“. Es ist das eigenständige Tool, das von *Designern* verwendet wird, die Dashboards und Berichte erstellen und mit Ihnen teilen. Sie müssen wissen, dass es andere Power BI-Tools gibt. Solange Sie ein Benutzer sind, arbeiten Sie nur mit dem Power BI-Dienst. Dieser Artikel bezieht sich nur auf den Power BI-Dienst.
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Einführung in die Bausteine
 
-Für Power BI-Benutzer gibt es 5 Bausteine: ***Visualisierungen***, ***Dashboards***, ***Berichte***, ***Apps*** und ***Datasets***. Diese werden manchmal als *Power BI*-***Inhalt*** bezeichnet. *Inhalt* ist in ***Arbeitsbereichen*** vorhanden. Ein typischer Workflow umfasst alle diese Bausteine: Ein Power BI-*Designer* (gelb im folgenden Diagramm) sammelt Daten aus *Datasets*, bringt sie für die Analyse in Power BI, erstellt *Berichte* voller *Visualisierungen*, die interessante Fakten und Erkenntnisse hervorheben, heftet Visualisierungen aus Berichten an ein Dashboard an und teilt die Berichte und Dashboards mit *Benutzern* wie Ihnen (schwarz im folgenden Diagramm). Der *Designer* teilt sie in Form von *Apps* oder anderen Arten freigegebener Inhalte.
+Für Power BI-Benutzer gibt es 5 Bausteine: **_Visualisierungen_** , **_Dashboards_** , **_Berichte_** , **_Apps_** und **_Datasets_** . Diese werden manchmal als *Power BI*- **_Inhalte_** bezeichnet. *Inhalte* befinden sich in **_Arbeitsbereichen_** . Ein typischer Workflow umfasst alle diese Bausteine: Ein Power BI-*Designer* (gelb im folgenden Diagramm) sammelt Daten aus *Datasets*, bringt sie für die Analyse in Power BI, erstellt *Berichte* voller *Visualisierungen*, die interessante Fakten und Erkenntnisse hervorheben, heftet Visualisierungen aus Berichten an ein Dashboard an und teilt die Berichte und Dashboards mit *Benutzern* wie Ihnen (schwarz im folgenden Diagramm). Der *Designer* teilt sie in Form von *Apps* oder anderen Arten freigegebener Inhalte.
 
 ![Ein einfaches Diagramm eines Power BI-Workflows.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Im Wesentlichen:
 
-- ![Ein Screenshot des Visualisierungssymbols.](media/end-user-basic-concepts/visual.png) Eine ***Visualisierung*** (oder *visuelles Element*) ist ein von Power BI-*Designern* erstellter Diagrammtyp. Die visuellen Elemente zeigen die Daten aus *Berichten* und *Datasets* an. In der Regel erstellen *Designer* die Visuals in Power BI Desktop.
+- ![Ein Screenshot des Visualisierungssymbols.](media/end-user-basic-concepts/visual.png) Eine **_Visualisierung_** (oder *Visual*) ist ein von Power BI-*Designern* erstellter Diagrammtyp. Die visuellen Elemente zeigen die Daten aus *Berichten* und *Datasets* an. In der Regel erstellen *Designer* die Visuals in Power BI Desktop.
 
     Weitere Informationen finden Sie unter [Interagieren mit visuellen Elementen in Berichten, Dashboards und Apps](end-user-visualizations.md).
 
@@ -148,7 +148,7 @@ Ein Dashboard stellt eine angepasste Ansicht einer Teilmenge des/der zugrunde li
 
   ![Screenshot eines Beispieldashboards](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Eine Kachel ist ein Rendering eines visuellen Elements, das ein *Designer* zum Beispiel aus einem Report an ein Dashboard *anheftet*. Jede angeheftete Kachel zeigt eine [Visualisierung](end-user-visualizations.md) an, die ein Designer aus einem Dataset erstellt und an dieses Dashboard angeheftet hat. Eine Kachel kann auch eine komplette Berichtsseite, Livestreamingdaten oder ein Video enthalten. Es gibt viele Möglichkeiten, wie *Designer* Dashboards Kacheln hinzufügen können. Es sind zu viele, um sie in diesem allgemeinen Artikel zu behandeln. Weitere Informationen finden Sie unter [Dashboardkacheln in Power BI](end-user-tiles.md).
+Eine Kachel ist das Rendering eines Visuals, das ein *Designer* zum Beispiel aus einem Bericht an ein Dashboard *anheftet*. Jede angeheftete Kachel zeigt eine [Visualisierung](end-user-visualizations.md) an, die ein Designer aus einem Dataset erstellt und an dieses Dashboard angeheftet hat. Eine Kachel kann auch eine komplette Berichtsseite, Livestreamingdaten oder ein Video enthalten. Es gibt viele Möglichkeiten, wie *Designer* Dashboards Kacheln hinzufügen können. Es sind zu viele, um sie in diesem allgemeinen Artikel zu behandeln. Weitere Informationen finden Sie unter [Dashboardkacheln in Power BI](end-user-tiles.md).
 
 Benutzer können keine Dashboards bearbeiten. Sie können jedoch Kommentare hinzufügen, verwandte Daten anzeigen, Dashboards als Favorit speichern, sie abonnieren und vieles mehr.
 

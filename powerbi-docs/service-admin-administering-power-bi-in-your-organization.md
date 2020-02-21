@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548591"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115260"
 ---
 # <a name="what-is-power-bi-administration"></a>Was ist die Power BI-Verwaltung?
 
@@ -80,10 +80,9 @@ In der Power BI-Verwaltung gibt es verschiedene Tools, die in der folgenden Tabe
 
 In diesem Artikel haben Sie einige kurze Einblicke in den Arbeit eines Power BI-Administrators sowie die zugehörigen Rollen, Aufgaben und Tools erhalten. Um Ihre Kenntnisse zu vertiefen, empfehlen wir die folgenden Artikel.
 
-[Verwenden des Power BI-Verwaltungsportals](service-admin-portal.md)
-
-[Verwenden von PowerShell-Cmdlets](/powershell/power-bi/overview)
-
-[Häufig gestellte Fragen zur Power BI-Verwaltung](service-admin-faq.md)
-
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- [Verwenden des Power BI-Verwaltungsportals](service-admin-portal.md)
+- [Administratorleitfaden zu Mandanteneinstellungen](guidance/admin-tenant-settings.md)
+- [Verwenden von PowerShell-Cmdlets](/powershell/power-bi/overview)
+- [Häufig gestellte Fragen zur Power BI-Verwaltung](service-admin-faq.md)
+- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

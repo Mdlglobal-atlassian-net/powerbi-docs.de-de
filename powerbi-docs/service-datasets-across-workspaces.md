@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877196"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179218"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Einführung in die Verwendung von Datasets in mehreren Arbeitsbereichen (Vorschau)
 
@@ -62,7 +62,7 @@ Die spezifischen Features und Erfahrungen, die auf der Grundlage geteilter Datas
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
 - Als App-Herausgeber müssen Sie sicherstellen, dass Ihre Zielgruppe auf Datasets außerhalb des Arbeitsbereichs zugreifen kann. Andernfalls treten bei der Interaktion mit Ihrer App Probleme auf. Berichte werden ohne Zugriff auf das Dataset nicht geöffnet, und Dashboardkacheln werden gesperrt angezeigt. Außerdem können Benutzer die App nicht öffnen, wenn das erste Element in der Navigationsstruktur ein Bericht ohne Zugriff auf das Dataset ist.
-- Das Erstellen eines Berichts auf der Grundlage eines Datasets in einem anderen Arbeitsbereich setzt die neue Arbeitsbereichsoberfläche an beiden Enden voraus: Der Bericht muss sich in einer neuen Arbeitsbereichsoberfläche befinden, und das Dataset muss sich in einer neuen Arbeitsbereichsoberfläche befinden.
+- Das Erstellen eines Berichts auf der Grundlage eines Datasets in einem anderen Arbeitsbereich setzt die neue Arbeitsbereichsoberfläche an beiden Enden voraus: Der Bericht muss sich in einer neuen Arbeitsbereichsoberfläche befinden, und das Dataset muss sich in einer neuen Arbeitsbereichsoberfläche befinden. Sie können Berichte nur aus einer neuen Arbeitsbereichs-Benutzeroberfläche in eine andere neue Arbeitsbereichs-Benutzeroberfläche kopieren, nicht in klassische Arbeitsbereiche oder den Arbeitsbereich „Mein Arbeitsbereich“. 
 - In einem klassischen Arbeitsbereich zeigt die Oberfläche zur Datasetermittlung nur die Datasets in dem betreffenden Arbeitsbereich an.
 - Prinzipbedingt funktioniert „Im Web veröffentlichen“ nicht für Berichte, die auf einem freigegebenen Dataset basieren.
 - Wenn zwei Personen Mitglieder eines Arbeitsbereichs sind, der auf ein freigegebenes Dataset zugreift, ist es möglich, dass nur eine von ihnen das zugehörige Dataset im Arbeitsbereich sieht. Nur Personen, die mindestens Lesezugriff auf das Dataset besitzen, können das freigegebene Dataset sehen. 

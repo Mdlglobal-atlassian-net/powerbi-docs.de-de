@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220204"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259802"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Erste Schritte mit der mobilen Power BI-App auf Android-Geräten
 Die Android-App für Microsoft Power BI bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. 
@@ -52,11 +52,11 @@ Wenn Sie sich noch nicht registriert haben, wechseln Sie zum [Power BI-Dienst](h
 1. Öffnen Sie auf dem Startbildschirm Ihres Android-Geräts die Power BI für Android-App.
    
    ![Power BI-Symbol](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Um Ihre Power BI-Dashboards und -Berichte anzuzeigen, tippen Sie auf **Power BI**.  
-   
-   Wenn eine Meldung angezeigt wird, dass Sie nicht bei Power BI angemeldet werden können, finden Sie unter [Meldung mit dem Hinweis, dass keine Anmeldung möglich ist](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) ausführliche Informationen zur Behebung des Problems.
+2. Zum Anmelden bei Power BI tippen Sie auf die Registerkarte **Power BI**, und geben Sie Ihre Anmeldeinformationen ein.
 
-   Zum Anzeigen der Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs tippen Sie auf **Berichtsserver**.
+    Wenn eine Meldung angezeigt wird, dass Sie nicht bei Power BI angemeldet werden können, finden Sie unter [Meldung mit dem Hinweis, dass keine Anmeldung möglich ist](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) ausführliche Informationen zur Behebung des Problems.
+
+   Wenn Sie sich bei Ihren mobilen Berichten und KPIs von Reporting Services anmelden möchten, tippen Sie auf die Registerkarte **Berichtsserver**, und geben Sie Ihre Anmeldeinformationen ein.
    
    ![Bei Power BI anmelden](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699090"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115283"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Echtzeitstreaming in Power BI
 Mit dem Power BI-Echtzeitstreaming können Sie in Echtzeit Daten streamen und Dashboards aktualisieren. Alle visuellen Elemente und Dashboards, die in Power BI erstellt werden können, können so erstellt werden, dass Echtzeitdaten und visuelle Echtzeitelemente angezeigt und aktualisiert werden. Die Geräte und Quellen von Streamingdaten können Factorysensoren, soziale Medien, Servicenutzungsmetriken sowie alle Elemente sein, über die zeitkritische Daten erfasst oder übertragen werden können.
@@ -35,7 +35,7 @@ Informieren Sie sich zunächst über die Unterschiede zwischen diesen Datasets (
 ### <a name="push-dataset"></a>Pushdataset
 Bei einem **Pushdataset** werden Daten per Push in den Power BI-Dienst übertragen. Beim Erstellen des Datasets erstellt der Power BI-Dienst automatisch eine neue Datenbank im Dienst, in dem die Daten gespeichert werden. Da eine zugrundeliegende Datenbank vorhanden ist, in der weiterhin eingehende Daten gespeichert werden, können anhand der Daten Berichte erstellt werden. Diese Berichte und die zugehörigen visuellen Elemente gleichen beliebigen anderen visuellen Berichtselementen. Das heißt, Sie können sämtliche Power BI-Berichterstellungsfunktionen nutzen, um visuelle Elemente zu erstellen. Hierzu zählen u.a. benutzerdefinierte visuelle Elemente, Datenwarnungen und angeheftete Dashboardkacheln.
 
-Sobald ein Bericht mit dem Pushdataset erstellt wurde, können seine visuellen Elemente an ein Dashboard angeheftet werden. In diesem Dashboard werden visuelle Elemente bei Aktualisierungen der Daten in Echtzeit aktualisiert. Innerhalb des Diensts löst das Dashboard bei jedem Empfang neuer Daten eine Aktualisierung der Kachel aus.
+Sobald ein Bericht mit dem Pushdataset erstellt wurde, können seine Visuals an ein Dashboard angeheftet werden. In diesem Dashboard werden visuelle Elemente bei Aktualisierungen der Daten in Echtzeit aktualisiert. Innerhalb des Diensts löst das Dashboard bei jedem Empfang neuer Daten eine Aktualisierung der Kachel aus.
 
 Bei angehefteten Kacheln aus einem Pushdataset sind zwei Aspekte zu beachten:
 

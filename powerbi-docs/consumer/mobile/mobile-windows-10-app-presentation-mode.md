@@ -1,19 +1,19 @@
 ---
 title: Anzeigen im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI
 description: Erfahren Sie, wie Sie Power BI-Berichte auf dem Surface Hub sowie Power BI-Dashboards, -Berichte und -Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen können.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/10/2018
-ms.author: mshenhav
-ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/08/2020
+ms.author: painbar
+ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869542"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259900"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Anzeigen von Berichten und Dashboards im Präsentationsmodus auf dem Surface Hub und Windows 10-Geräten
 Sie können den Präsentationsmodus zum Anzeigen von Berichten und Dashboards auf Windows 10-Geräten und dem Surface Hub im Vollbildmodus verwenden. 
@@ -37,14 +37,17 @@ Tippen Sie in der mobilen Power BI-App auf das Symbol **Vollbild**, um in den Vo
 
 ![Bericht im Vollbildmodus mit seitlichen Symbolleisten](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
-Auf der Symbolleiste können Sie die folgenden Aktionen ausführen:
+Auf der Symbolleiste können Sie über ein Tippen die folgenden Aktionen ausführen:
 
-1. Tippen Sie auf das Symbol "Zurück", ![Symbol „Zurück“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) um zur vorherigen Seite zurück zu gelangen. Durch langes Tippen auf das Symbol werden die Brotkrümelfenster eingeblendet, mit denen Sie zum enthaltenden Ordner Ihres Berichts oder Dashboards navigieren können.
-2. Mit dem Symbol „Freihand“ ![Symbol „Freihand“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) können Sie eine Farbe für Zeichnungen und Anmerkungen mit dem Surface-Stift auf Ihrer Berichtsseite auswählen. 
-3. Verwenden Sie das Symbol „Seiten“, ![Paginierungssymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) um die aktuell präsentierte Berichtsseite zu ersetzen.
-4. Das Wiedergabesymbol  ![Wiedergabesymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) blendet die Aktionsleiste aus und startet die Diashow, bei der die App die Berichtseiten automatisch nacheinander wiedergibt. 
-5. Tippen Sie auf das Suchsymbol ![Suchsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) um nach weiteren Artefakten in Power BI zu suchen.
-6. Tippen Sie zum Beenden des Präsentationsmodus auf das Symbol mit den gegeneinander gerichteten Pfeilen ![Beenden des Vollbildmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) auf der Symbolleiste.
+1. **Zurück** ![Zurück-Symbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) zur vorherigen Seite gehen. Durch langes Tippen auf das Symbol werden die Brotkrümelfenster eingeblendet, mit denen Sie zum Ordner navigieren können, der Ihren Bericht oder Ihr Dashboard enthält.
+2. **Farbe für Freihandmarkierungen auswählen** ![Farbsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png), wenn Sie mit dem mit dem Surface Pen auf Ihrer Berichtsseite zeichnen oder diese kommentieren
+3. **Freihandmarkierungen löschen** ![Löschsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png), die Sie möglicherweise mit dem Surface Pen beim Zeichnen auf oder kommentieren der Berichtsseite gemacht haben  
+4. **Seiten wechseln** ![Paginierungssymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png), um in Ihrer Präsentation zu einer anderen Seite zu blättern
+5. **Präsentation abspielen** ![Wiedergabesymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png), um die Aktionsleiste auszublenden und die Präsentation zu starten. Die App wechselt automatisch zwischen den Berichtsseiten. 
+6. **Suchen** ![Suchsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png), um weitere Artefakte in Power BI zu finden
+7. **Aktualisieren** ![Aktualisierungssymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png) des Berichts
+8. **Beenden** ![Vollbildmodus beenden](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) des Vollbildmodus
+8. **Freigeben** ![Freigabesymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png) eines Bilds aus der Präsentation für Ihre Kollegen. Das Bild enthält alle Anmerkungen, die Sie mit dem Surface Pen während der Präsentation notiert haben.
 
 Sie können die Symbolleiste lösen und sie an eine beliebige Position auf dem Bildschirm ziehen. Dies ist auf großen Bildschirmen nützlich, wenn Sie sich auf einen bestimmten Bereich in Ihrem Bericht konzentrieren, aber die Tools zugleich zu Ihrer Verfügung haben möchten. Platzieren Sie einfach Ihren Finger auf der Symbolleiste, und wischen Sie mit ihr in den Zeichenbereich des Berichts.
 

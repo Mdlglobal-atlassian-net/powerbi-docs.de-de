@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761839"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154210"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Anwenden der automatischen Angabe von Datum/Uhrzeit in Power BI Desktop
 
@@ -24,6 +24,7 @@ Dieser Artikel richtet sich an Datenmodellierer, die Importmodelle oder zusammen
 Wenn die Option aktiviert ist, erstellt Power BI Desktop für jede Datumsspalte eine ausgeblendete automatische Datums-/Uhrzeittabelle, sofern alle der folgenden Bedingungen erfüllt sind:
 
 - Der Tabellenspeichermodus lautet „Import“.
+- Die Spalte ist keine berechnete Spalte.
 - Der Spaltendatentyp lautet „date“ oder „date/time“.
 - Die Spalte stellt nicht die n-Seite einer 1:n-, n:1- oder n:n-Modellbeziehung dar.
 
@@ -44,6 +45,8 @@ Wenn es möglich war, die Zeilen einer automatischen Datums-/Uhrzeittabelle anzu
 
 > [!NOTE]
 > Automatische Datums-/Uhrzeittabellen sind dauerhaft ausgeblendet, selbst für Modellierer. Sie sind weder im Bereich **Felder** noch im Modellansichtsdiagramm sichtbar, und die zugehörigen Zeilen können nicht in der Datenansicht angezeigt werden. Darüber hinaus können die Tabelle und zugehörige Spalten nicht direkt über DAX-Ausdrücke referenziert werden.
+>
+> Außerdem ist es nicht möglich, damit zu arbeiten, wenn Sie das Feature [In Excel analysieren](service-analyze-in-excel.md) verwenden oder die Verbindung zum Modell mit einem anderen Designer als dem Power BI-Berichts-Designer hergestellt haben.
 
 Die Tabelle definiert auch eine Hierarchie, die für Visuals einen Drilldownpfad durch Jahr, Quartal, Monat und Tag bereitstellt.
 
@@ -98,3 +101,4 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 - [Automatische Angabe von Datum/Uhrzeit in Power BI Desktop](guidance/auto-date-time.md)
 - [Festlegen und Verwenden von Datumstabellen in Power BI Desktop](desktop-date-tables.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

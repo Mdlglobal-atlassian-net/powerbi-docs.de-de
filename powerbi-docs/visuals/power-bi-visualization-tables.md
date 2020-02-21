@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830896"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154265"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-Berichten und -Dashboards
 
@@ -98,22 +98,19 @@ Es gibt viele Möglichkeiten, eine Tabelle zu formatieren. Nur wenige werden hie
 
 ### <a name="conditional-formatting"></a>Bedingte Formatierung
 
-*Bedingte Formatierung* ist eine Art der Formatierung. Power BI wendet bedingte Formatierung auf Felder im Bereich **Werte** des Bereichs **Visualisierungen** an.
+*Bedingte Formatierung* ist eine Art der Formatierung. Power BI kann die bedingte Formatierung auf jedes Feld anwenden, das Sie dem Bereich **Werte** im Bereich **Visualisierungen** hinzugefügt haben.
 
-Mit der bedingten Formatierung für Tabellen können Sie benutzerdefinierte Hintergrundfarben für Zellen und Schriftfarben auf Grundlage von Zellwerten angeben, u.a. mit Verlaufsfarben.
+![Visualisierungsbereich](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. Wählen Sie im Bereich **Visualisierungen** das Symbol **Felder** ![Feldersymbol](media/power-bi-visualization-tables/power-bi-fields-icon.png) aus.
+Mit der bedingten Formatierung für Tabellen können Sie Symbole, URLs, Hintergrundfarben für Zellen und Schriftfarben auf Grundlage von Zellwerten angeben, u. a. mit Farbverläufen.
 
-1. Wählen Sie im Bereich **Werte** neben dem Wert, den Sie formatieren möchten, den nach unten gerichteten Pfeil aus (oder klicken Sie mit der rechten Maustaste in das Feld).
+1. Öffnen Sie im Bereich **Format** die Karte **Bedingte Formatierung**.
 
-    > [!NOTE]
-    > Sie können die bedingte Formatierung nur für Felder im Bereich **Werte** des Bereichs **Felder** verwalten.
+    ![Karte „Bedingte Formatierung“](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![Pfad zu Skalen für die Hintergrundfarbe](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. Wählen Sie ein zu formatierendes Feld aus, und setzen Sie den Schieberegler für **Hintergrundfarbe** auf „Ein“. Power BI wendet einen Farbverlauf auf Grundlage der Werte in der Spalte an. Zum Ändern der Standardfarben klicken Sie auf **Erweiterte Steuerelemente**.
 
-1. Wählen Sie **Hintergrundfarbe** aus.
-
-1. Im angezeigten Dialogfeld können Sie die Farbe sowie die Werte für **Minimum** und **Maximum** konfigurieren. Wenn Sie die Option **Abweichend** aktivieren, können Sie auch einen optionalen Wert für **Zentriert** konfigurieren.
+    Wenn Sie die Option **Abweichend** aktivieren, können Sie auch einen optionalen Wert für **Zentriert** konfigurieren.
 
     ![Anzeige „Skalen für die Hintergrundfarbe“](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,24 +121,24 @@ Mit der bedingten Formatierung für Tabellen können Sie benutzerdefinierte Hint
 
     ![Neues Feld auf der rechten Seite](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. Fügen Sie eine bedingte Formatierung für Datenbalken hinzu, indem Sie den Dropdownpfeil neben **Gesamtabweichung Verkäufe** und dann **Bedingte Formatierung > Datenbalken** auswählen.
+1. Fügen Sie den Datenbalken für die bedingte Formatierung hinzu, indem Sie den Schieberegler **Datenbalken** auf „Ein“ setzen.  
 
-    ![Pfad zum Auswählen von Datenbalken](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![Karte für bedingte Formatierung, auf der Datenbalken auf „Ein“ festgelegt sind](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Legen Sie im daraufhin angezeigten Dialogfeld Farben für **Positiver Balken** und **Negativer Balken** fest, aktivieren Sie die Option **Nur Balken anzeigen**, und nehmen Sie ggf. weitere Änderungen vor.
+1. Zum Anpassen der Datenbalken klicken Sie auf **Erweiterte Steuerelemente**. Legen Sie im daraufhin angezeigten Dialogfeld Farben für **Positiver Balken** und **Negativer Balken** fest, aktivieren Sie die Option **Nur Balken anzeigen**, und nehmen Sie ggf. weitere Änderungen vor.
 
     ![Kontrollkästchen „Show bar only“ (Nur Balken anzeigen)](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. Wählen Sie **OK**aus.
+1. Wählen Sie **OK** aus.
 
     Datenbalken ersetzen die numerischen Werte in der Tabelle und sind so leichter zu erkennen.
 
     ![Dieselbe Tabelle, aber mit Balken in der letzten Spalte](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-Wenn Sie eine bedingte Formatierung aus einer Visualisierung entfernen möchten, klicken Sie einfach mit der rechten Maustaste erneut auf das Feld, und wählen Sie **Bedingte Formatierung entfernen** aus.
+1. Fügen Sie der Tabelle mithilfe von *bedingten Symbolen* visuelle Hinweise hinzu.  Wählen Sie auf der Karte **Bedingte Formatierung** aus der Dropdownliste die Option **This year sales** (Verkäufe in diesem Jahr) aus. Setzen Sie den Schieberegler **Symbole** auf **Ein**.  Zum Anpassen der Symbole klicken Sie auf **Erweiterte Steuerelemente**.
 
-> [!TIP]
-> Die bedingte Formatierung ist auch über den Bereich **Format** verfügbar. Wählen Sie den zu formatierenden Wert aus, und legen Sie dann **Farbskalen** oder **Datenbalken** auf **Ein** fest, um die Standardeinstellungen zu übernehmen. Wenn Sie die Einstellungen anpassen möchten, wählen Sie **Erweiterte Steuerelemente** aus.
+    ![Tabelle mit hinzugefügten Symbolen](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Kopieren von Werten aus Power BI-Tabellen zum Verwenden in anderen Anwendungen
 
@@ -175,12 +172,13 @@ Gelegentlich wird in Power BI eine Spaltenüberschrift in einem Bericht oder in 
 
 ![Video: Nahaufnahme zum Ändern der Größe von Spalten](media/power-bi-visualization-tables/resizetable.gif)
 
+
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 
 Wenn Sie die Spaltenformatierung anwenden, können Sie nur eine Ausrichtungsoption pro Spalte auswählen: **Auto**, **Links**, **Zentriert**, **Rechts**. Normalerweise enthält eine Spalte den gesamten Text oder alle Zahlen und keine Mischung daraus. In Fällen, in denen eine Spalte jeweils Zahlen und Text enthält, wird durch die Auswahl von **Auto** der Text links ausgerichtet, und die Zahlen werden rechts ausgerichtet. Dieses Verhalten unterstützt Sprachen, bei denen von links nach rechts gelesen wird.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* [Treemaps in Power BI](power-bi-visualization-treemaps.md)
+* [Strukturkarten in Power BI](power-bi-visualization-treemaps.md)
 
 * [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

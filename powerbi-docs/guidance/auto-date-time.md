@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 30bfacc1024035f0849440eec8b1c7051ff4d82a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a65b17c91640f6ea7fff1d762e8d5b71cc99575e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002441"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154141"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Anleitung zur automatischen Angabe von Datum/Uhrzeit in Power BI Desktop
 
@@ -26,7 +26,7 @@ Die Option _Autom. Datum/Uhrzeit_ liefert praktische, schnelle und leicht zu ver
 
 Die folgende Auflistung enthält Überlegungen – und mögliche Einschränkungen – in Bezug auf die Option _Autom. Datum/Uhrzeit_.
 
-- **Gilt für alle Tabellen oder keine**: Wenn die Option _Autom. Datum/Uhrzeit_ aktiviert ist, gilt sie für alle Datumsspalten in Importtabellen, die sich nicht auf der Seite &quot;n&quot; einer Beziehung befinden. Sie kann nicht für einzelne Spalten aktiviert oder deaktiviert werden.
+- **Gilt für alle Tabellen oder keine**: Wenn die Option _Autom. Datum/Uhrzeit_ aktiviert ist, gilt sie für alle Datumsspalten (außer berechnete Spalten) in Importtabellen, die sich nicht auf der Seite &quot;n&quot; einer Beziehung befinden. Sie kann nicht für einzelne Spalten aktiviert oder deaktiviert werden.
 - **Nur Kalenderzeiträume**: Die Spalten zu Jahr und Quartal beziehen sich auf Kalenderzeiträume. Das bedeutet, dass das Jahr am 1. Januar beginnt und am 31. Dezember endet. Es gibt keine Möglichkeit, Jahresbeginn und -ende anzupassen.
 - **Anpassung**: Es ist nicht möglich, die Werte anzupassen, die zur Beschreibung von Zeiträumen verwendet werden. Darüber hinaus ist es nicht möglich, zusätzliche Spalten einzufügen, um andere Zeiträume wie z. B. Wochen zu beschreiben.
 - **Jahresfilterung**: Die Werte der Spalten für **Quartal**, **Monat** und **Tag** enthalten keinen Wert für das Jahr. Die Spalte für den **Monat** beispielsweise enthält nur die Monatsnamen (Januar, Februar usw.). Die Werte sind nicht vollständig selbstbeschreibend, und in einigen Berichtsentwürfen wird der Kontext des Jahresfilters möglicherweise nicht mitgeteilt.
@@ -34,6 +34,7 @@ Die folgende Auflistung enthält Überlegungen – und mögliche Einschränkunge
     Daher ist es wichtig, Filterungen oder Gruppierungen in der Spalte für das **Jahr** auszuführen. Beim Ausführen eines Drilldowns mithilfe der Hierarchie wird nach Jahr gefiltert, sofern die Ebene **Jahr** nicht absichtlich entfernt wurde. Wenn keine Filterung oder Gruppierung nach Jahr vorhanden ist, würde beispielsweise eine Gruppierung nach Monat Werte für diesen Monat über alle Jahre hinweg zusammenfassen.
 - **Filterung nach Daten in einer einzelnen Tabellen**: Da jede Datumsspalte eine eigene (verborgene) Tabelle mit automatischer Datums-/Uhrzeitangabe erzeugt, ist es nicht möglich, einen Zeitfilter auf eine Tabelle anzuwenden und diesen an mehrere Modelltabellen weiterzugeben. Eine solche Filterung ist eine gängige Anforderung bei der Modellierung von Berichten für mehrere Themenbereiche (Faktentabellen) wie z. B. Vertrieb und Vertriebsbudget. Beim Verwenden der Option „Autom. Datum/Uhrzeit“ muss der Autor des Berichts Filter auf jede einzelne Datumsspalte anwenden.
 - **Modellgröße**: Jede Datumsspalte, die eine verborgene Tabelle mit automatischer Datums-/Uhrzeitangabe erzeugt, erhöht die Modellgröße und verlängert zudem die Datenaktualisierung.
+- **Andere Berichterstellungstools:** Es ist nicht möglich, mit automatischen Datums-/Uhrzeittabellen zu arbeiten, wenn Sie das Feature [In Excel analysieren](../service-analyze-in-excel.md) verwenden oder die Verbindung zum Modell mit einem anderen Designer als dem Power BI-Berichts-Designer hergestellt haben.
 
 ## <a name="recommendations"></a>Empfehlungen
 
@@ -50,3 +51,4 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 - [Automatische Angabe von Datum/Uhrzeit in Power BI Desktop](../desktop-auto-date-time.md)
 - [Festlegen und Verwenden von Datumstabellen in Power BI Desktop](../desktop-date-tables.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
