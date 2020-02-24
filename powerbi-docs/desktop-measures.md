@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889326"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427390"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Erstellen von Measures für die Datenanalyse in Power BI Desktop
 
@@ -49,7 +49,7 @@ Lea fällt auf, dass eine Berechnung automatisch durchgeführt wurde, obwohl sie
 
 Lea benötigt jedoch ein Measure zum Berechnen der Prognosen für das nächste Jahr, das auf den Umsätzen des letzten Jahres basiert, multipliziert mit 1,06, um dem erwarteten Wachstum der Geschäftsaktivitäten von 6 Prozent Rechnung zu tragen. Für diese Berechnung erstellt Lea ein Measure. Mithilfe des Features *Neues Measure* erstellt sie ein neues Measure und gibt dann die folgende DAX-Formel ein:
 
-```sql
+```dax
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 ```
 

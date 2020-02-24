@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223993"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427735"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
 
 In diesem Artikel wird beschrieben, wie Sie eine Power BI Premium-Kapazität für Ihre Organisation erwerben. In diesem Artikel werden zwei Szenarios beschrieben:
 
-- Verwenden von P-SKUs für übliche Produktionsszenarios. Für P-SKUs gilt ein monatlicher oder jährlicher Prepaidtarif, und sie werden monatlich abgerechnet. P-SKUs können Sie im [Microsoft 365 Admin Center](https://admmin.microsoft.com) erwerben.
+- Verwenden von P-SKUs für übliche Produktionsszenarios. Für P-SKUs gilt ein monatlicher oder jährlicher Prepaidtarif, und sie werden monatlich abgerechnet.
 
 - Verwenden von A-SKUs für Testszenarios und für Fälle, in denen Sie nicht die Berechtigungen haben, um P-SKUs erwerben zu können (Microsoft 365-Rollen „Globaler Administrator“ oder „Rechnungsadministrator“). Tarife für A-SKUs sind nicht zeitlich gebunden und werden stündlich abgerechnet. A-SKUs können Sie über das [Azure-Portal](https://portal.azure.com) erwerben.
 

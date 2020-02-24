@@ -62,6 +62,10 @@
           items:
             - name: Einsatzbereiche für paginierte Berichte
               href: report-paginated-or-power-bi.md
+            - name: Leitfaden zum Datenabruf
+              href: report-paginated-data-retrieval.md
+            - name: Leitfaden zur Bildnutzung
+              href: report-paginated-image.md
             - name: Verwenden kaskadierender Parameter
               href: paginated-report-cascading-parameter.md
             - name: Vermeiden leerer Seiten beim Drucken

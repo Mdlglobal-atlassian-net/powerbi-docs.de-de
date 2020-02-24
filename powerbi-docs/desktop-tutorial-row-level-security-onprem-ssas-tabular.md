@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539597"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427367"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementieren der Sicherheit auf Zeilenebene in einem tabellarischen Analysis Services-Modell
 
@@ -82,7 +82,7 @@ Sobald Ihr relationales Data Warehouse vorhanden ist, müssen Sie das Tabellenmo
 
 1. Die Funktion `LOOKUPVALUE` gibt Werte für eine Spalte zurück, bei denen der Windows-Benutzername dem von der Funktion `USERNAME` zurückgegebenen Benutzernamen entspricht. Dann können Sie die Abfragen einschränken, sodass die von `LOOKUPVALUE` zurückgegebenen Werte den Werten in derselben oder einer ähnlichen Tabelle entsprechen. Geben Sie in der Spalte **DAX Filter** die folgende Formel ein:
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ Sobald Ihr relationales Data Warehouse vorhanden ist, müssen Sie das Tabellenmo
 
 1. Fügen Sie für die Tabelle `DimUserSecurity` in der Spalte **DAX-Filter** die folgende Formel ein:
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Wenn im Dashboard weitere Aktivitäten auftreten, wird im SQL Profiler eine spez
 
 Sie können unten auch die DAX-Abfrage sehen, die ausgeführt wird, um die Berichtsdaten aufzufüllen.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

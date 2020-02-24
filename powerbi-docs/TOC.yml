@@ -579,6 +579,8 @@
           items:
             - name: Konfigurieren von geplanten Aktualisierungen
               href: refresh-scheduled-refresh.md
+            - name: Konfigurieren inkrementeller Aktualisierungen
+              href: service-premium-incremental-refresh.md
             - name: Aktualisieren eines aus einer lokalen Power BI Desktop-Datei erstellten Datasets
               href: refresh-desktop-file-local-drive.md
             - name: Aktualisieren eines aus einer Power BI Desktop-Datei aus der Cloud erstellten Datasets
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: Abonnieren (selbst oder stellvertretend)
               href: service-report-subscribe.md
+            - name: Einbetten von Berichten in Microsoft Teams
+              href: service-embed-report-microsoft-teams.md
             - name: Einbetten eines Berichts in SharePoint Online
               href: service-embed-report-spo.md
             - name: Einbetten eines Berichts in ein sicheres Portal oder eine Website
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: Überwachen von Kapazitäten im Verwaltungsportal
           href: service-admin-premium-monitor-portal.md
-        - name: Konfigurieren inkrementeller Aktualisierungen
-          href: service-premium-incremental-refresh.md
         - name: Konfigurieren großer Modelle (Vorschauversion)
           href: service-premium-large-models.md
         - name: Konfigurieren von Multi-Geo-Funktionen

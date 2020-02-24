@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/12/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6ffce8b209d78f5297812f2345f454aa94ac1c9a
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75224228"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527815"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Verwenden von Cognitive Services in Power BI
 
@@ -56,7 +56,7 @@ Fügen Sie diese URL in das URL-Feld ein: [https://pbiaitutorials.blob.core.wind
 
 ![Erstellen eines Dataflows](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-Wählen Sie im oberen Menüband **Tabelle transformieren** aus, und wählen Sie dann **Erste Zeile als Überschriften verwenden** aus. Die Daten können jetzt zur Textanalyse verwendet werden, und wir können Standpunktbewertung und Schlüsselbegriffserkennung auf die „Customer comments“-Spalte anwenden.
+Die Daten können jetzt zur Textanalyse verwendet werden, und wir können Standpunktbewertung und Schlüsselbegriffserkennung auf die „Customer comments“-Spalte anwenden.
 
 Wählen Sie im Power Query-Editor **KI-Erkenntnisse** aus.
 
