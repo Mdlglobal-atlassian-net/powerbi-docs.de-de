@@ -123,7 +123,7 @@ Um die verschiedenen Arten von Ausdrücken zu verstehen, sollten Sie sich zunäc
 Attributausdrücke sind das Hauptarbeitsmittel von Q&A, das verwendet wird, wenn eine Sache als Attribut einer anderen Sache fungiert. Sie sind einfach, unkompliziert und leisten die meiste Arbeit, wenn Sie keinen präziseren, detaillierteren Ausdruck definiert haben. Attributausdrücke werden mit dem Basisverb „haben“ („Produkte haben Kategorien“ und „Gastgeberländer haben Gastgeberstädte“) beschrieben. Sie ermöglichen ebenfalls automatisch, Fragen mit den Präpositionen „von“ und „für“ („Kategorien von Produkten“, „Aufträge für Produkte“) und Fragen zu Besitzverhältnissen („Johns Aufträge“) zu stellen. In Fragen wie diesen werden Attributausdrücke verwendet:
 
 - Welche Kunden haben Aufträge?
-- Gastgeberstädte nach Land aufsteigend auflisten
+- Gastgeberstädte nach Land/Region aufsteigend auflisten
 - Aufträge anzeigen, die Chai enthalten
 - Kunden mit Aufträgen auflisten
 - Was ist die Kategorie jedes Produkts?

@@ -53,7 +53,7 @@ Nehmen wir an, dass die folgenden *Standardelemente* für diese Spalten festgele
 
 * Stadt > Seattle
 * Staat > WA
-* Land > US
+* Land/Region > US
 * Bevölkerung > Groß
 
 Untersuchen wir jetzt, was geschieht, wenn jede der Spalten in Power BI verwendet wird. Hier sehen Sie die Ergebnisse, wenn Visuals nach den folgenden Spalten gruppiert werden:
@@ -62,7 +62,7 @@ Untersuchen wir jetzt, was geschieht, wenn jede der Spalten in Power BI verwende
     > [!NOTE]
     > *Bevölkerung* befindet sich nicht im ARP von *Stadt*, sondern bezieht sich ausschließlich auf *Staat* und wird somit nicht von Power BI gelöscht.
 * **Staat**: Power BI zeigt alle *Staaten* an, indem alle **Standardelemente** für *Stadt*, *Staat*, *Land* und *Bevölkerung* gelöscht werden.
-* **Land**: Power BI zeigt alle Länder an, indem alle **Standardelemente** für *Stadt*, *Staat* und *Land* gelöscht werden, behält aber das **Standardelement** für *Bevölkerung* bei.
+* **Land/Region**: Power BI zeigt alle Länder an, indem alle **Standardelemente** für *Stadt*, *Staat* und *Land* gelöscht werden, behält aber das **Standardelement** für *Bevölkerung* bei.
 * **Stadt und Staat**: Power BI löscht alle **Standardelemente** für alle Spalten.
 
 Für im Visual angezeigte Gruppen wird der gesamte ARP gelöscht. 

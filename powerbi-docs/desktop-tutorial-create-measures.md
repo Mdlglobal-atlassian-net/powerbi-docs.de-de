@@ -55,7 +55,7 @@ Abhängig vom gewünschten Ergebnis können Sie den Aggregationstyp ändern. All
 
 Aus Measures berechnete Werte ändern sich als Reaktion auf Ihre Interaktionen mit Ihrem Bericht. Wenn Sie z. B. das Feld **RegionCountryName** aus der Tabelle **Geography** auf Ihr Diagramm **SalesAmount** ziehen, ändert sich die Anzeige in die durchschnittlichen Umsatzbeträge für jedes Land.
 
-![Umsatzbetrag nach Land](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
+![Umsatzbetrag nach Land/Region](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
 Wenn sich das Ergebnis eines Measures aufgrund einer Interaktion mit unserem Bericht ändert, nehmen Sie Einfluss auf den *Kontext* Ihres Measures. Bei jeder Interaktion mit Ihren Berichtvisualisierungen ändern Sie den Kontext, in dem ein Measure seine Ergebnisse berechnet und anzeigt.
 
@@ -163,7 +163,7 @@ Sehen Sie sich den Nettoumsatz nach Ländern an:
     
     ![Nettoumsatz nach Ländern](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
     
-1. Um den Unterschied zwischen Nettoumsatz und Umsatzbetrag nach Land darzustellen, wählen Sie das Feld **SalesAmount** aus und ziehen es in das Diagramm. 
+1. Um den Unterschied zwischen Nettoumsatz und Umsatzbetrag nach Land/Region darzustellen, wählen Sie das Feld **SalesAmount** aus und ziehen es in das Diagramm. 
 
     ![Umsatzbetrag und Nettoumsatz nach Ländern](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 

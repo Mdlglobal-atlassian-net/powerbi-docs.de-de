@@ -96,7 +96,7 @@ Ihre Vorgesetzte möchte wissen, welche Länder die meisten Gewinne erzeugen. Be
 
 1. Klicken Sie auf eine leere Fläche im Zeichenbereich Ihres Berichts. 
 
-2. Ziehen Sie aus dem Bereich **Felder** die Elemente **Land** und **Gewinn** auf den Zeichenbereich Ihres Berichts.
+2. Ziehen Sie aus dem Bereich **Felder** die Elemente **Land/Region** und **Gewinn** auf den Zeichenbereich Ihres Berichts.
 
    Power BI erstellt eine Kartenvisualisierung mit Blasendiagramm, die den relativen Gewinn jedes Standorts darstellt.
 

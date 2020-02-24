@@ -55,7 +55,7 @@ Sie können wie gewohnt Beziehungen zwischen Tabellen herstellen, auch wenn dies
 
 ## <a name="example-of-a-composite-model"></a>Beispiel für ein zusammengesetztes Modell
 
-Nehmen Sie für das Beispiel eines zusammengesetzten Modells an, dass Sie über einen Bericht verfügen, der über DirectQuery mit einem Data Warehouse eines Unternehmens in SQL Server verbunden ist. In diesem Fall enthält das Data Warehouse die Daten **Sales by Country** (Verkäufe nach Land), **Quarter** (Quartal) und **Bike (Product)** (Fahrrad (Produkt)), so wie in folgender Abbildung dargestellt:
+Nehmen Sie für das Beispiel eines zusammengesetzten Modells an, dass Sie über einen Bericht verfügen, der über DirectQuery mit einem Data Warehouse eines Unternehmens in SQL Server verbunden ist. In diesem Fall enthält das Data Warehouse die Daten **Sales by Country** (Verkäufe nach Land/Region), **Quarter** (Quartal) und **Bike (Product)** (Fahrrad (Produkt)), so wie in folgender Abbildung dargestellt:
 
 ![Beziehungsansicht bei zusammengesetzten Modellen](media/desktop-composite-models/composite-models_04.png)
 

@@ -21,7 +21,7 @@ ms.locfileid: "75761109"
 
 Visuals veranschaulichen oft Datenpunkte. Doch ist die Verteilung für verschiedene Kategorien gleich? Mit **Einblicken** in **Power BI Desktop** können Sie das mit wenigen Klicks herausfinden.
 
-Betrachten Sie das folgende Visual, das den *Gesamtumsatz* pro *Land* veranschaulicht. Wie das Diagramm zeigt, stammen die meisten Umsätze aus den USA – 57 % des Gesamtumsatzes. Der Anteil der anderen Länder ist geringer. In solchen Fällen ist es oft interessant zu untersuchen, ob die gleiche Verteilung für verschiedene Teilgesamtheiten angezeigt wird. Gilt dies beispielsweise gleichermaßen für alle Jahre, alle Vertriebskanäle und alle Produktkategorien?  Sie können zwar verschiedene Filter anwenden und die Ergebnisse visuell vergleichen, doch dieser Ansatz kann zeitaufwendig und fehleranfällig sein. 
+Betrachten Sie das folgende Visual, das den *Gesamtumsatz* pro *Land/Region* veranschaulicht. Wie das Diagramm zeigt, stammen die meisten Umsätze aus den USA – 57 % des Gesamtumsatzes. Der Anteil der anderen Länder ist geringer. In solchen Fällen ist es oft interessant zu untersuchen, ob die gleiche Verteilung für verschiedene Teilgesamtheiten angezeigt wird. Gilt dies beispielsweise gleichermaßen für alle Jahre, alle Vertriebskanäle und alle Produktkategorien?  Sie können zwar verschiedene Filter anwenden und die Ergebnisse visuell vergleichen, doch dieser Ansatz kann zeitaufwendig und fehleranfällig sein. 
 
 ![Diagramm mit großer Verteilung](media/desktop-insights-find-where-different/find-where-different_01.png)
 

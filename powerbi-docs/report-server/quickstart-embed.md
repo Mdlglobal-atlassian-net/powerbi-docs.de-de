@@ -25,7 +25,7 @@ In diesem Artikel erfahren Sie, wie Sie einen Bericht des Power BI-Berichtsserv
 * Der [Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/) ist installiert und konfiguriert.
 * Die [für den Power BI-Berichtsserver optimierte Version von Power BI Desktop](install-powerbi-desktop.md) ist installiert.
 * Eine [SharePoint-Umgebung](https://docs.microsoft.com/sharepoint/install/install) ist installiert und konfiguriert.
-* Internet Explorer 11 wird nur unterstützt, wenn der Dokumentmodus auf den Modus „IE11 (Edge)“ festgelegt ist oder wenn SharePoint Online verwendet wird. Sie können mit lokalem SharePoint und SharePoint Online auch andere unterstützte Browser verwenden.
+* Internet Explorer 11 wird nur unterstützt, wenn der Dokumentmodus auf den Modus „IE11 (Microsoft Edge)“ festgelegt ist oder wenn SharePoint Online verwendet wird. Sie können mit lokalem SharePoint und SharePoint Online auch andere unterstützte Browser verwenden.
 
 ## <a name="create-the-power-bi-report-url"></a>Erstellen der Power BI-Berichts-URL
 

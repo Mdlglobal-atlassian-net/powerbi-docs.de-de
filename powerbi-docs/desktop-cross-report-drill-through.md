@@ -94,7 +94,7 @@ Wenn Sie **Alle Filter beibehalten** auf **On** (Ein) festgelegt haben, kann der
 
 Wenn der Zielbericht für den Drillthrough geöffnet wird, wendet Power BI nur Filter für Felder an, für die genaue Zeichenfolgenübereinstimmungen für Feldname und Tabellenname gefunden werden. 
 
-Power BI wendet keine dauerhaften Filter aus dem Zielbericht an, dafür jedoch Ihr persönliches Standardlesezeichen, wenn Sie über eines verfügen. Wenn Ihr persönliches Standardlesezeichen z. B. einen Filter auf Berichtsebene für *Land = USA* enthält, wendet Power BI diesen Filter an, bevor der Filterkontext aus dem Quellvisual angewendet wird. 
+Power BI wendet keine dauerhaften Filter aus dem Zielbericht an, dafür jedoch Ihr persönliches Standardlesezeichen, wenn Sie über eines verfügen. Wenn Ihr persönliches Standardlesezeichen z. B. einen Filter auf Berichtsebene für *Land/Region = USA* enthält, wendet Power BI diesen Filter an, bevor der Filterkontext aus dem Quellvisual angewendet wird. 
 
 Für den berichtsübergreifenden Drillthrough übergibt Power BI den Filterkontext an die Standardseiten des Zielberichts. Power BI übergibt den Filterkontext nicht für QuickInfo-Seiten, da QuickInfo-Seiten auf Basis des Quellvisuals gefiltert werden, das die QuickInfo aufruft.
 

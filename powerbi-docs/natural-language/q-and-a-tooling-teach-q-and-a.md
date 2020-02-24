@@ -77,8 +77,8 @@ Geben Sie die Bedingung in das Feld ein.
 
 Nachfolgend einige Beispielbedingungen, die Sie definieren können:
 
-- „Land“ mit dem Wert „USA“
-- „Land“ mit einem anderen Wert als „USA“
+- „Land/Region“ mit dem Wert „USA“
+- „Land/Region“ mit einem anderen Wert als „USA“
 - „Gewicht“ > 2000
 - „Gewicht“ = 2000
 - „Gewicht“ < 2000

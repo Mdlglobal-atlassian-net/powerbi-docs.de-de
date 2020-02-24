@@ -54,7 +54,7 @@ oder ein Zeichenbereich mit Straßen- und Verkehrsinformationen.
 
 ![Dunkelgraue Basiskarte](media/power-bi-visualizations-arcgis/power-bi-streets-basemap.png)  
 
-Die Basiskarte wird vollständig auf den Zeichenbereich angewendet und automatisch aktualisiert, wenn Sie sie schwenken und vergrößern. Vergrößern Sie sie, um immer ausführlichere Straßen- und Verkehrsinformationen anzuzeigen. Wenn Sie von einem Kontinent zu einem anderen schwenken, bleibt der Detailgrad konstant. Hier wurde von Porto nach Peking geschwenkt.
+Die Basiskarte wird vollständig auf den Zeichenbereich angewendet und automatisch aktualisiert, wenn Sie sie schwenken und vergrößern. Vergrößern Sie sie, um immer ausführlichere Straßen- und Verkehrsinformationen anzuzeigen. Wenn Sie von einem Kontinent zu einem anderen schwenken, bleibt der Detailgrad konstant. Hier wurde von Porto nach Peking (Beijing) geschwenkt.
 
 ![Straßenbasiskarte](media/power-bi-visualizations-arcgis/power-bi-basemap-pan.png)  
 

@@ -61,8 +61,8 @@ Q&A-Training ermöglicht Ihnen die Behebung zweier Typen von Fehlern:
 
 Aktuell unterstützen wir die Neudefinition eines erkannten Ausdrucks oder das Definieren anderer Typen von Bedingungen oder Formulierungen nicht. Darüber hinaus kann beim Definieren von Filterbedingungen nur eine eingeschränkte Teilmenge der Sprache verwendet werden, darunter:
 
-- „Land“ mit dem Wert „USA“
-- „Land“ mit einem anderen Wert als „USA“
+- „Land/Region“ mit dem Wert „USA“
+- „Land/Region“ mit einem anderen Wert als „USA“
 - „Gewicht“ > 2000
 - „Gewicht“ = 2000
 - „Gewicht“ < 2000

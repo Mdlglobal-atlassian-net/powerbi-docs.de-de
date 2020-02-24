@@ -34,7 +34,7 @@ Mithilfe der *Beziehungen mit m:n-Kardinalität* in Power BI Desktop können Sie
 
 Bevor *Beziehungen mit m:n-Kardinalität* verfügbar waren, wurde die Beziehung zwischen zwei Tabellen in Power BI definiert. Mindestens eine der Tabellenspalten, die an der Beziehung beteiligt war, musste eindeutige Werte enthalten. Häufig hat jedoch keine Spalte eindeutige Werte enthalten.
 
-Angenommen, zwei Tabellen verfügten über eine Spalte mit der Bezeichnung „Land“. Jedoch waren die Werte für „Land“ in keiner Tabelle eindeutig. Solche Tabellen konnten nur über eine Problemumgehung miteinander verknüpft werden. Eine Möglichkeit zur Umgehung des Problems bestand darin, zusätzliche Tabellen mit den erforderlichen eindeutigen Werten einzufügen. Mithilfe der *Beziehungen mit m:n-Kardinalität* können Sie solche Tabellen direkt miteinander verknüpfen, indem Sie eine Beziehung mit *m:n-Kardinalität* verwenden.
+Angenommen, zwei Tabellen verfügten über eine Spalte mit der Bezeichnung „Land/Region“. Jedoch waren die Werte für „Land/Region“ in keiner Tabelle eindeutig. Solche Tabellen konnten nur über eine Problemumgehung miteinander verknüpft werden. Eine Möglichkeit zur Umgehung des Problems bestand darin, zusätzliche Tabellen mit den erforderlichen eindeutigen Werten einzufügen. Mithilfe der *Beziehungen mit m:n-Kardinalität* können Sie solche Tabellen direkt miteinander verknüpfen, indem Sie eine Beziehung mit *m:n-Kardinalität* verwenden.
 
 ## <a name="use-relationships-with-a-many-many-cardinality"></a>Verwenden von Beziehungen mit m:n-Kardinalität
 

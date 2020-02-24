@@ -64,7 +64,7 @@ So importieren Sie die Daten:
 
 Um eine bessere Übersicht über die Daten zu ermöglichen, möchten Sie nur die Jahre und die Sieger anzeigen. Um diese Schritte zur Datenstrukturierung und -bereinigung auszuführen, können Sie den Power Query-Editor verwenden.
 
-Entfernen Sie zunächst alle Spalten bis auf zwei aus der Tabelle. Benennen Sie diese Spalten im weiteren Verlauf in *Year* (Jahr) und *County* (Land) um.
+Entfernen Sie zunächst alle Spalten bis auf zwei aus der Tabelle. Benennen Sie diese Spalten im weiteren Verlauf in *Year* (Jahr) und *County* (Land/Region) um.
 
 1. Wählen Sie die Spalten im **Power Query-Editor**-Raster aus. Drücken Sie die STRG-Taste, um mehrere Elemente auszuwählen.
 
@@ -100,7 +100,7 @@ Einige Zellen enthalten nur das Wort „Year“, aber keine Jahreszahlenwerte. S
 
    ![Daten filtern](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
 
-Da Sie nur die Sieger betrachten, können Sie diese Spalte in **Country** (Land) umbenennen. So benennen Sie die Spalte um:
+Da Sie nur die Sieger betrachten, können Sie diese Spalte in **Country** (Land/Region) umbenennen. So benennen Sie die Spalte um:
 
 1. Doppelklicken Sie auf die zweite Spaltenüberschrift, oder klicken Sie darauf und halten die Maustaste gedrückt.
    - Sie können auch mit der rechten Maustaste auf die Spaltenüberschrift klicken und **Umbenennen** auswählen.
