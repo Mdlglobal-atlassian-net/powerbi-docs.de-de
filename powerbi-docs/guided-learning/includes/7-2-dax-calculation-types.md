@@ -36,7 +36,7 @@ Es wird empfohlen, *immer* folgendermaßen vorzugehen:
 ## <a name="creating-calculated-columns"></a>Erstellen von berechneten Spalten
 **Berechnete Spalten** sind nützlich, wenn Sie aus dem Wert Slices erstellen oder danach filtern möchten, oder wenn Sie eine Berechnung für jede Zeile in der Tabelle benötigen.
 
-Sie können berechnete Spalten in Power BI Desktop erstellen, indem Sie **New Column** (Neue Spalte) auf der Registerkarte **Modeling** (Modellierung) auswählen. Hierzu wird die Datenansicht empfohlen (anstatt die Berichtsansicht oder die **Beziehungsansicht**), da Sie die neu erstelle Spalte und anzeigen können, und die **Bearbeitungsleiste** ist aufgefüllt und bereit für Ihre DAX-Formeln.
+Sie können berechnete Spalten in Power BI Desktop erstellen, indem Sie **New Column** (Neue Spalte) auf der Registerkarte **Modeling** (Modellierung) auswählen. Hierzu wird die **Datenansicht** empfohlen (anstatt die **Berichtsansicht** oder die **Beziehungsansicht**), da Sie die neu erstelle Spalte und anzeigen können, und die **Bearbeitungsleiste** ist aufgefüllt und bereit für Ihre DAX-Formeln.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 
