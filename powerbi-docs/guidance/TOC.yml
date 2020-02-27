@@ -7,6 +7,8 @@
       items:
         - name: Übersicht
           href: overview.md
+        - name: Leitfaden für die Optimierung von Power BI
+          href: power-bi-optimization.md
     - name: Konzepte
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: Festlegen der Größe des lokalen Datengateways
               href: gateway-onprem-sizing.md
+            - name: Überprüfen der Berichtsleistung
+              href: monitor-report-performance.md
     - name: Whitepaper
       items:
         - name: Whitepaper – Übersicht
