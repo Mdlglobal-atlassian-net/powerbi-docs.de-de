@@ -1,20 +1,20 @@
 ---
-title: 'Tutorial: Facebook-Analysen mit Power BI Desktop'
-description: 'Tutorial: Facebook-Analysen mit Power BI Desktop'
+title: 'Tutorial: Analysieren von Facebook-Daten mit Power BI Desktop'
+description: Informationen zum Importieren von Daten aus Facebook und zu deren Verwendung in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/06/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: b19412546ad921979656e8367cbe8b034aafcf67
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 1f5cedba1c32f152cd6e4a9f9f51d0355ac05ce5
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760041"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497300"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Tutorial: Analysieren von Facebook-Daten mit Power BI Desktop
 
@@ -26,35 +26,35 @@ In diesem Tutorial erfahren Sie, wie Sie Daten aus Facebook importieren und in P
 
 ## <a name="connect-to-a-facebook-page"></a>Herstellen der Verbindung mit einer Facebook-Seite
 
-In diesem Tutorial werden Daten von der [Microsoft Power BI-Facebook-Seite](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) verwendet. Um sich mit dieser Seite zu verbinden und Daten zu importieren, benötigen Sie keine besonderen Anmeldeinformationen, sondern lediglich ein persönliches Facebook-Konto.
+In diesem Tutorial werden Daten von der [Facebook-Seite für Microsoft Power BI](https://www.facebook.com/microsoftbi) verwendet. Um sich mit dieser Seite zu verbinden und Daten zu importieren, benötigen Sie keine besonderen Anmeldeinformationen, sondern lediglich ein persönliches Facebook-Konto.
 
-1. Öffnen Sie Power BI Desktop, und wählen Sie im Dialogfeld **Erste Schritte** oder auf der Registerkarte des Menübands **Start** die Option **Daten abrufen**. Wählen Sie dann **Daten abrufen** und anschließend **Mehr...** .
+1. Öffnen Sie Power BI Desktop, und klicken Sie im Dialogfeld **Erste Schritte** oder auf der Registerkarte des Menübands **Home** auf **Daten abrufen**. Klicken Sie anschließend auf **Mehr**.
    
-2. Wählen Sie im Dialogfeld **Daten abrufen** aus der Gruppe **Onlinedienste** die Option **Facebook** aus, und wählen Sie dann **Verbinden**.
+2. Klicken Sie im Dialogfeld **Daten abrufen** in der Gruppe **Onlinedienste** auf die Option **Facebook**, und klicken Sie anschließend auf **Verbinden**.
    
    ![Daten abrufen](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   Ein Dialogfeld wird angezeigt, das Sie vor den Risiken bei Verwendung eines Drittanbieterdiensts warnt.
+   Es wird ein Dialogfeld angezeigt, das Sie vor den Risiken bei der Verwendung eines Drittanbieterdiensts warnt.
    
    ![Warnung vor Drittanbieterdienst](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-3. Wählen Sie **Weiter** aus. Das Dialogfeld **Facebook** wird angezeigt.
+3. Wählen Sie **Weiter** aus. 
    
-4. Geben Sie im Dialogfeld den Seitennamen **microsoftbi** in das Textfeld **Benutzername** ein, oder kopieren Sie diesen hinein, und wählen Sie dann aus der Dropdownliste **Verbindung** die Option **Beiträge** aus. Klicken Sie dann auf **OK**.
+4. Geben Sie im Dialogfeld **Facebook** den Seitennamen **microsoftbi** als **Benutzernamen** ein. Wählen Sie aus dem Dropdownmenü unter **Verbindung** die Option **Beiträge** aus, und klicken Sie anschließend auf **OK**.
    
    ![Verbinden](media/desktop-tutorial-facebook-analytics/2.png)
    
-5. Wenn Sie zur Eingabe von Anmeldeinformationen aufgefordert werden, melden Sie sich mit Ihrem Facebook-Konto an, um Power BI den Zugriff über Ihr Konto zu gewähren.
+5. Wenn Sie zur Eingabe von Anmeldeinformationen aufgefordert werden, melden Sie sich mit Ihrem Facebook-Konto an, um Power BI Zugriff auf Ihr Konto zu gewähren.
    
    ![Anmeldeinformationen](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-   Nach dem Herstellen der Verbindung mit der Power BI-Facebook-Seite sehen Sie eine Vorschau der Daten auf der Seite **Beiträge**. 
+   Nach dem Herstellen der Verbindung mit der Facebook-Seite für Power BI wird Ihnen eine Vorschau der Beitragsdaten auf der Seite angezeigt. 
    
    ![Datenvorschau](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
 ## <a name="shape-and-transform-the-imported-data"></a>Strukturieren und Transformieren der importierten Daten
 
-Sie wollen anzeigen, welche Beiträge im Laufe der Zeit die meisten Kommentare haben. In der Vorschau der **Beiträge** stellen Sie jedoch fest, dass die Daten von **created_time** schwer zu lesen und zu verstehen sind, und es überhaupt keine Kommentare gibt. Sie müssen die Daten zunächst strukturieren und bereinigen, damit Sie diese optimal nutzen können. Mit dem **Power Query-Editor** von Power BI Desktop können Sie die Daten vor oder nach dem Import in Power BI Desktop bearbeiten. 
+Angenommen, Sie möchten sehen, welche Beiträge im Laufe der Zeit die meisten Kommentare aufweisen. In der Vorschau der Beiträge stellen Sie jedoch fest, dass die Daten von **created_time** schwer zu lesen und zu verstehen sind, und es zu wenige Daten zu Kommentaren gibt. Sie müssen die Daten zunächst strukturieren und bereinigen, damit Sie diese optimal nutzen können. Mit dem Power Query-Editor von Power BI Desktop können Sie dafür die Daten vor oder nach dem Import in Power BI Desktop bearbeiten. 
 
 ### <a name="split-the-datetime-column"></a>Unterteilen der Spalte für Datum/Uhrzeit
 
@@ -64,36 +64,36 @@ Unterteilen Sie zunächst die Werte für Datum und Uhrzeit in der Spalte **creat
    
    ![Datenvorschau – Bearbeiten](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   Der **Power Query-Editor** von Power BI Desktop wird in einem neuen Fenster geöffnet und zeigt die Datenvorschau von der Power BI-Facebook-Seite an. 
+   Der Power Query-Editor von Power BI Desktop wird in einem neuen Fenster geöffnet und zeigt die Datenvorschau von der Facebook-Seite für Power BI an. 
    
    ![Power Query-Editor](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
-2. Wählen Sie die Spalte **created_time** aus. Beachten Sie, dass es sich aktuell um einen Textdatentyp handelt, der durch ein **ABC**-Symbol in der Spaltenüberschrift gekennzeichnet ist. Klicken Sie mit der rechten Maustaste auf die Spaltenüberschrift, und wählen Sie in der Dropdownliste **Spalte teilen > Nach Trennzeichen** aus, oder wählen Sie im Menüband auf der Registerkarte „Start“ unter **Transformieren** die Option **Spalte teilen > Nach Trennzeichen** aus.  
+2. Wählen Sie die Spalte **created_time** aus. Es handelt sich um den Datentyp **Text**, der durch ein **ABC**-Symbol in der Spaltenüberschrift gekennzeichnet ist. Klicken Sie erst mit der rechten Maustaste auf die Überschrift und anschließend mit der linken auf **Spalte teilen** > **Nach Trennzeichen**. Alternativ können Sie auf der Registerkarte **Home** des Menübands unter der Gruppe **Transformieren** auf **Spalte teilen** > **Nach Trennzeichen** klicken.  
    
    ![Spalte nach Trennzeichen teilen](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
-3. Wählen Sie im Dialogfeld **Spalte nach Trennzeichen teilen** im der Dropdownliste die Option **Benutzerdefiniert** aus, geben Sie im Eingabefeld das Zeichen **T** ein (welches den Anfang des Uhrzeitteils in den Werten „created_time“ angibt), und wählen Sie dann **OK**. 
+3. Wählen Sie im Dialogfeld **Spalte nach Trennzeichen teilen** in der Dropdownliste die Option **Benutzerdefiniert** aus, geben Sie das Zeichen **T** in das Eingabefeld ein (welches den Anfang des Uhrzeitteils in den **created_time**-Werten angibt). Klicken Sie anschließend auf **OK**. 
    
    ![Dialogfeld „Spalte nach Trennzeichen teilen“](media/desktop-tutorial-facebook-analytics/delimiter2.png)
    
-   Die Spalte wird in zwei Spalten unterteilt, die die Zeichenfolgen vor und nach dem **T**-Trennzeichen enthalten und **created_time.1** bzw. **created_time.2** benannt sind. Beachten Sie, dass Power BI die Datentypen **Datum** für die erste Spalte und **Uhrzeit** für die zweite Spalte automatisch erkannt und geändert hat. Die Datums- und Zeitwerte wurden so formatiert, dass sie besser lesbar sind.
+   Die Spalte wird in zwei Spalten unterteilt, die die Zeichenfolgen vor und nach dem Trennzeichen *T* enthalten. Die neuen Spalten erhalten die Namen **created_time.1** und **created_time.2**. Power BI hat die Datentypen **Datum** für die erste Spalte und **Uhrzeit** für die zweite Spalte automatisch erkannt und geändert. Die Datums- und Zeitwerte wurden so formatiert, dass sie besser lesbar sind.
    
-4. Benennen Sie die Spalten um, indem Sie auf jede Spaltenüberschrift doppelklicken oder jede Spalte markieren und dann im Menüband in der Registerkarte **Transformation** in der Gruppe **Jede Spalte** die Option **Umbenennen** auswählen und die neuen Spaltenüberschriften **created_date** bzw. **created_time** eingeben.
+4. Benennen Sie die beiden Spalten um. Wählen Sie erst die Spalte **created_time.1** aus, und klicken Sie dann in der Gruppe **Beliebige Spalte** auf der Registerkarte **Transformieren** des Menübands auf **Umbenennen**. Alternativ können Sie auch auf die Spaltenüberschrift doppelklicken und den neuen Spaltennamen **created_date** eingeben. Wiederholen Sie diesen Schritt für die Spalte **created_time.2**, und benennen Sie diese in **created_time** um.
    
    ![Neue Datums- und Uhrzeitspalten](media/desktop-tutorial-facebook-analytics/delimiter3.png)
    
 ### <a name="expand-the-nested-column"></a>Erweitern der geschachtelten Spalte
 
-Jetzt, da die Datums- und Zeitdaten so sind, wie Sie sie haben möchten, können Sie die Kommentardaten anzeigen, indem Sie eine geschachtelte Spalte erweitern. 
+Wenn die Datums- und Zeitdaten Ihren Anforderungen entsprechen, können Sie die Kommentardaten abrufen, indem Sie eine geschachtelte Spalte erweitern. 
 
-1. Markieren Sie die Spalte **object_link**, und wählen Sie dann das ![Erweiterungssymbol](media/desktop-tutorial-facebook-analytics/14.png), um das Dialogfeld **Erweitern/Aggregieren** zu öffnen. Wählen Sie **Verbindungen**, und wählen Sie dann **OK**. 
+1. Klicken Sie im oberen Bereich der Spalte **object_link** auf das Symbol ![Erweiterungssymbol](media/desktop-tutorial-facebook-analytics/14.png), um das Dialogfeld **Expand/Aggregate** (Erweitern/Aggregieren) zu öffnen. Wählen Sie **Verbindungen**, und wählen Sie dann **OK**. 
    
    ![Erweitern von „object_link“](media/desktop-tutorial-facebook-analytics/expand1.png)
    
    Die Spaltenüberschriften werden in **object_link.connections** geändert.
-2. Wählen Sie erneut oben in der Spalte **object_link.connections** das ![Erweiterungssymbol](media/desktop-tutorial-facebook-analytics/14.png), wählen Sie **Kommentare**, und wählen Sie dann **OK**. Die Spaltenüberschriften werden in **object_link.connections.comments** geändert.
+2. Klicken Sie im oberen Bereich der Spalte **object_link.connections** auf das Symbol ![Erweiterungssymbol](media/desktop-tutorial-facebook-analytics/14.png), und klicken Sie anschließend auf **Kommentare** und **OK**. Die Spaltenüberschriften werden in **object_link.connections.comments** geändert.
    
-3. Wählen Sie oben in der Spalte **object_link.connections.comments** das ![Erweiterungssymbol](media/desktop-tutorial-facebook-analytics/14.png), und wählen Sie diesmal im Dialogfeld **Aggregieren** anstelle von „Erweitern“. Wählen Sie **# Anzahl von ID**, und wählen Sie dann **OK**. 
+3. Klicken Sie im oberen Bereich der Spalte **object_link.connections.comments** auf das Symbol ![Erweiterungssymbol](media/desktop-tutorial-facebook-analytics/14.png), und klicken Sie diesmal im Dialogfeld auf **Aggregieren** anstatt auf **Erweitern**. Wählen Sie **# Anzahl von ID**, und wählen Sie dann **OK**. 
    
    ![Aggregieren von Kommentaren](media/desktop-tutorial-facebook-analytics/expand2.png)
    
@@ -101,58 +101,60 @@ Jetzt, da die Datums- und Zeitdaten so sind, wie Sie sie haben möchten, können
    
 4. Benennen Sie die Spalte **Anzahl von object_link.connections.comments.id** in **Anzahl von Kommentaren** um.
    
-5. Wählen Sie den Abwärtspfeil neben der Überschrift **Anzahl von Kommentaren**, und wählen Sie **Absteigend sortieren**, um die Beiträge von den meisten bis zu den wenigsten Kommentaren zu sortieren. 
+5. Klicken Sie neben der Spaltenüberschrift **Number of comments** (Anzahl von Kommentaren) auf den Pfeil nach unten und auf **Absteigend sortieren**, um die Beiträge absteigend nach Kommentaren zu sortieren. 
    
    ![Kommentare pro Nachricht](media/desktop-tutorial-facebook-analytics/data-fixed.png)
    
 ### <a name="review-query-steps"></a>Überprüfen der Abfrageschritte
 
-Während Sie Daten im **Power Query-Editor** strukturiert und transformiert haben, wurde jeder Schritt auf der rechten Seite des Power Query-Editor-Fensters im Bereich **Abfrageeinstellungen** im Abschnitt **Angewendete Schritte** aufgezeichnet. Sie können durch die angewandten Schritte zurückgehen, um genau zu sehen, welche Änderungen Sie vorgenommen haben, und sie bei Bedarf bearbeiten, löschen oder neu anordnen (obwohl dies riskant sein kann, da das Ändern vorhergehender Schritte spätere Schritte beeinträchtigen kann). 
+Während Sie Daten im Power Query-Editor strukturieren und transformieren, wird jeder Schritt auf der rechten Seite des **Power Query-Editor**-Fensters im Bereich **Abfrageeinstellungen** im Abschnitt **Angewendete Schritte** aufgezeichnet. Sie können sich dann später die **angewendeten Schritte** noch mal ansehen, um herauszufinden, welche Änderungen Sie vorgenommen haben, und die Schritte bearbeiten, löschen oder bei Bedarf neu anordnen. Gehen Sie vorsichtig vor, wenn Sie diese Schritte ändern, da die Änderung einzelner Schritte Auswirkungen auf nachfolgende Schritte haben kann. 
 
-Nach dem Anwenden der bisherigen Datentransformationen sollte der Abschnitt „Angewendete Schritte“ wie folgt aussehen:
+Wenn Sie die bisher erläuterten Datentransformationen angewendet haben, sollte der Abschnitt **Angewendete Schritte** wie folgt aussehen:
    
    ![Angewendete Schritte](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >Den angewendeten Schritten liegen Formeln zugrunde, die in der **Power Query-Sprache**, auch bekannt als **M**-Sprache, geschrieben sind. Zum Anzeigen und Bearbeiten der Formeln wählen Sie in der Registerkarte „Start“ des Menübands in die Gruppe **Abfrage** die Option **Erweiterter Editor**. 
+   >Den **angewendeten Schritten** liegen Formeln zugrunde, die in der [Power Query-Formelsprache M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) geschrieben sind. Zum Anzeigen und Bearbeiten der Formeln wählen Sie in der Registerkarte **Start** des Menübands in der Gruppe **Abfrage** die Option **Erweiterter Editor** aus. 
 
 ### <a name="import-the-transformed-data"></a>Importieren der transformierten Daten
 
-Wenn Sie mit den Daten zufrieden sind, wählen Sie in der Registerkarte „Start“ des Menübands **Schließen und übernehmen** > **Schließen und übernehmen**, um sie in Power BI Desktop zu importieren. 
+Wenn Sie mit den Daten zufrieden sind, klicken Sie auf der Registerkarte **Home** des Menübands auf **Close & Apply** (Schließen und übernehmen)  > **Close & Apply** (Schließen und übernehmen), um sie in Power BI Desktop zu importieren. 
    
    ![Schließen und übernehmen](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
-   Es wird ein Dialogfeld angezeigt, in dem Sie den Status des Ladevorgangs der Daten in das Datenmodell von Power BI Desktop verfolgen können. 
+   Dann wird ein Dialogfeld angezeigt, in dem Sie den Status des Ladevorgangs der Daten in das Datenmodell von Power BI Desktop verfolgen können. 
    
    ![Die Daten werden geladen.](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
    
-   Sobald die Daten geladen sind, erscheinen sie in der Berichtsansicht in der Liste „Felder“ als neue Abfrage.
+   Sobald die Daten geladen sind, werden sie in der **Berichtsansicht** im Bereich **Felder** als neue Abfrage angezeigt.
    
    ![Neue Abfrage](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>Verwenden der Daten in Berichtvisualisierungen 
 
-Nachdem Sie die Daten von der Facebook-Seite importiert haben, können Sie mithilfe von Visualisierungen schnell und einfach Einblicke in Ihre Daten erhalten. Die Erstellung einer Visualisierung ist denkbar einfach: Wählen Sie ein Feld aus, oder ziehen Sie es aus der Liste **Felder** in den Berichtszeichenbereich.
+Nachdem Sie die Daten von der Facebook-Seite importiert haben, können Sie mithilfe von Visualisierungen schnell und einfach Einblicke in Ihre Daten erhalten. Die Erstellung einer Visualisierung ist denkbar einfach: Wählen Sie ein Feld aus, oder ziehen Sie es aus dem Bereich **Felder** in die Berichtscanvas.
 
 ### <a name="create-a-bar-chart"></a>Erstellen eines Balkendiagramms
 
-1. Wählen Sie in der Power BI Desktop-Berichtsansicht in der Liste „Felder“ die Option **Nachricht**, oder ziehen Sie sie in den Zeichenbereich. Eine Tabelle mit allen Beitragsnachrichten wird im Zeichenbereich angezeigt. 
+1. Klicken Sie in der **Berichtsansicht** von Power BI Desktop im Bereich **Felder** auf die Option **Nachricht**, oder ziehen Sie sie in die Berichtscanvas. Eine Tabelle mit allen Beitragsnachrichten wird im Zeichenbereich angezeigt. 
    
    ![Neue Abfrage](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
-2. Wählen Sie bei ausgewählter Tabelle aus der Liste „Felder“ die Option **Anzahl von Kommentaren**, oder ziehen Sie sie in die Tabelle. 
+2. Wenn Sie diese Tabelle ausgewählt haben, klicken Sie im Bereich **Felder** auf **Number of comments** (Anzahl von Kommentaren), oder ziehen Sie sie in die Tabelle. 
    
-3. Wählen Sie im Bereich „Visualisierungen“ das Symbol **Gestapeltes Balkendiagramm** aus. Die Tabelle wird in ein Balkendiagramm geändert, das die Anzahl von Kommentaren pro Beitrag zeigt. 
+3. Klicken Sie im Bereich **Visualisierungen** auf das Symbol **Gestapeltes Balkendiagramm**. Die Tabelle wird in ein Balkendiagramm geändert, das die Anzahl von Kommentaren pro Beitrag zeigt. 
    
    ![Balkendiagramm](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Wählen Sie die Auslassungspunkte (...) für **Weitere Optionen** in der oberen rechten Ecke der Visualisierung aus, und wählen Sie dann **Nach Anzahl von Kommentaren sortieren**, um die Tabelle nach absteigender Anzahl von Kommentaren zu sortieren. 
+4. Klicken Sie neben der Visualisierung auf die Auslassungspunkte (...), um **Weitere Optionen** abzurufen, und klicken Sie dann auf **Sortieren nach** > **Number of comments** (Anzahl von Kommentaren), um die Tabelle nach absteigender Anzahl von Kommentaren zu sortieren. 
+
+   Beachten Sie, dass die meisten Kommentare mit **(Leeren)** Nachrichten verbunden waren (diese Beiträge können Geschichten, Links, Videos oder andere Inhalte ohne Text gewesen sein). 
    
-   ![Nach Anzahl von Kommentaren sortieren](media/desktop-tutorial-facebook-analytics/barchart2.png)
+5. Sie können leere Zeilen herausfiltern, indem Sie erst im Bereich **Filter** auf **message is (All)** (Nachricht ist (Alle)) und dann auf **Alle auswählen** klicken. Klicken Sie dann auf **(Leer)** , um die Auswahl aufzuheben. 
+
+   Der Eintrag im Bereich **Filter** wird in **message is not (Blank)** (Nachricht ist nicht (Leer)) geändert, und die Zeile **(Leer)** wird nicht mehr in der Diagrammvisualisierung angezeigt.
    
-5. Beachten Sie, dass die meisten Kommentare mit **leeren** Nachrichten verbunden waren (diese Beiträge können Geschichten, Links, Videos oder andere Inhalte ohne Text gewesen sein). Um die Zeile „Leer“ herauszufiltern, wählen Sie am unteren Rand des Bereichs „Visualisierungen“ unter **Filter**die Option **Nachricht (alle)** , wählen Sie **Alle auswählen**, und wählen Sie dann **Leer**, um die Auswahl aufzuheben. Die Filtereinträge zeigen nun **Nachricht ist nicht (Leer)** an, und die Zeile „Leer“ wird im Diagramm nicht mehr angezeigt. 
-   
-   ![Leere herausfiltern](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   ![Zeile „Leere herausfiltern“](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
 ### <a name="format-the-chart"></a>Formatieren der Tabelle
 
@@ -160,10 +162,10 @@ Die Visualisierung wird interessanter, allerdings können Sie nicht viel vom Bei
 
 1. Vergrößern Sie das Diagramm über die Handles der Diagrammvisualisierung soweit wie möglich. 
    
-2. Wählen Sie bei ausgewähltem Diagramm im Bereich „Visualisierung“ das **Formatierungssymbol** (Farbroller).
+2. Wählen Sie das Diagramm aus, und klicken Sie im Bereich **Visualisierung** auf das **Formatierungssymbol** (Farbroller).
    
-3. Wählen Sie den Abwärtspfeil neben **Y-Achse**, und ziehen Sie den Schieberegler ganz nach rechts neben **Maximalgröße** (50 %). 
-4. Verringern Sie zudem die **Textgröße** auf **10**, damit mehr Text hinein passt.
+3. Klicken Sie neben der **Y-Achse** auf den Pfeil nach unten, und ziehen Sie den Schieberegler für die **Maximale Größe** ganz nach rechts (**50 %** ). 
+4. Verringern Sie zudem die **Textgröße** auf **10 Punkt**, damit mehr Text hineinpasst.
    
    ![Formatierungsänderungen](media/desktop-tutorial-facebook-analytics/barchart4.png)
    
@@ -171,44 +173,52 @@ Die Visualisierung wird interessanter, allerdings können Sie nicht viel vom Bei
    
    ![Anzeigen weiterer Beiträge](media/desktop-tutorial-facebook-analytics/barchart5.png)
    
-Die X-Achse (Anzahl von Kommentaren) des Diagramms zeigt keine genauen Werte an und sieht am unteren Ende des Diagramms verloren aus. Verwenden Sie stattdessen Datenbeschriftungen. 
+Auf der X-Achse (number of comments (Anzahl von Kommentaren)) des Diagramms werden keine genauen Werte angezeigt, und sie sieht am unteren Ende des Diagramms ein bisschen verloren aus. Verwenden Sie stattdessen Datenbezeichnungen: 
 
-1. Wählen Sie das Formatierungssymbol, und stellen Sie dann den Schieberegler neben **X-Achse** auf **Aus**. 
+1. Wählen Sie das **Formatsymbol** aus, und legen Sie den Schieberegler für die **X-Achse** auf **Aus** fest. 
    
-2. Stellen Sie den Schieberegler neben **Datenbeschriftungen** auf **Ein**. Jetzt wird im Diagramm die genaue Anzahl von Kommentaren für jeden Beitrag angezeigt.
+2. Legen Sie den Schieberegler für die **Datenbeschriftungen** auf **Ein** fest. 
+
+   Jetzt wird im Diagramm die genaue Anzahl von Kommentaren für jeden Beitrag angezeigt.
    
    ![Anwenden von Datenbeschriftungen](media/desktop-tutorial-facebook-analytics/barchart6.png)
    
 ### <a name="edit-the-data-type"></a>Bearbeiten des Datentyps
 
-Das Diagramm sieht nun schon viel besser aus, die Datenbeschriftungen haben jedoch noch alle eine Nachkommastelle ( **,0**). Dies ist störend und irreführend, da die **Anzahl von Beiträgen** eine ganze Zahl sein muss. Daher müssen Sie den Datentyp für die Spalte **Anzahl von Beiträgen** in „Ganzzahl“ ändern.
+Das Diagramm sollte nun schon viel besser aussehen, die Datenbeschriftungen haben jedoch noch alle eine Nachkommastelle ( **,0**). Dies ist störend und irreführend, da die **Anzahl von Beiträgen** eine ganze Zahl sein muss. Daher müssen Sie den Datentyp für die Spalte **Number of posts** (Anzahl von Beiträgen) in **Ganze Zahl** ändern:
 
-1. Klicken Sie zum Ändern des Datentyps mit der rechten Maustaste in der Liste „Felder“ auf **Abfrage1**, oder zeigen Sie darauf, und wählen Sie die Auslassungszeichen (...) für **Weitere Optionen** und dann **Abfrage bearbeiten** aus. Sie können auch in der Registerkarte „Start“ des Menübands im Bereich **Externe Daten** die Option **Abfragen bearbeiten** wählen und dann in der Dropdownliste erneut **Abfragen bearbeiten** wählen. Der **Power Query-Editor** von Power BI Desktop wird in einem separaten Fenster geöffnet.
+1. Klicken Sie im Bereich **Felder** mit der rechten Maustaste auf **Query1** (Abfrage1), oder zeigen Sie auf den Bereich, und klicken Sie auf die Auslassungszeichen (...), um **Weitere Optionen** anzuzeigen. 
+
+2. Klicken Sie im Kontextmenü auf **Abfrage bearbeiten**. Alternativ können Sie auch auf der Registerkarte **Home** des Menübands für die Gruppe **Externe Daten** auf **Abfragen bearbeiten** > **Abfragen bearbeiten** klicken. 
    
-   ![Bearbeiten einer Abfrage über die Liste „Felder“](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Bearbeiten von Abfragen über das Menüband](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+3. Klicken Sie im Fenster **Power Query-Editor** auf die Spalte **Number of comments** (Anzahl von Kommentaren), und ändern Sie den Datentyp, indem Sie einen der folgenden Schritte ausführen: 
+   - Klicken Sie auf das Symbol **1.2** neben der Spaltenüberschrift **Number of comments** (Anzahl von Kommentaren), und wählen Sie anschließend aus der Dropdownliste die Option **Ganze Zahl** aus.
+   - Klicken Sie hierzu mit der rechten Maustaste auf die Spaltenüberschrift und anschließend mit der linken auf **Typ ändern**  > **Ganze Zahl**.
+   - Klicken Sie auf **Datentyp auswählen > Dezimalzahl** auf der Registerkarte **Home** in der Gruppe **Transformieren** oder auf die Option **Ganze Zahl** auf der Registerkarte **Transformieren** in der Gruppe **Beliebige Spalte**.
    
-2. Wählen Sie im Power Query-Editor die Spalte **Anzahl von Kommentaren**, und ändern Sie den Datentyp in **Ganze Zahl**, indem Sie eine der folgenden Vorgehensweisen wählen: 
-   - Wählen Sie das Symbol **1.2** neben der Spaltenüberschrift **Anzahl von Kommentaren** und anschließend in der Dropdownliste **Ganze Zahl** aus.
-   - Klicken Sie mit der rechten Maustaste auf die Spaltenüberschrift und wählen **Typ ändern > Ganze Zahl** aus.
-   - Wählen Sie die Option **Datentyp: Dezimalzahl** auf der Registerkarte „Start“ in der Gruppe **Transformieren** oder die Option **Ganze Zahl** auf der Registerkarte **Transformieren** in der Gruppe **Beliebige Spalte**.
-   
-   Das Symbol in der Spaltenüberschrift wird in **123** geändert und weist so auf den Datentyp „Ganze Zahl“ hin.
+   Das Symbol in der Spaltenüberschrift wird in **123** geändert und weist so auf den Datentyp **Ganze Zahl** hin.
    
    ![Ändern des Datentyps](media/desktop-tutorial-facebook-analytics/change-datatype.png)
    
-3. Wählen Sie **Schließen und übernehmen** oder nur **Übernehmen**, um die Änderungen zu übernehmen, während das Power Query-Editor-Fenster geöffnet bleibt. Sobald die Änderungen geladen sind, werden die Datenbeschriftungen im Diagramm als ganze Zahlen angezeigt. 
+3. Sie können die Änderungen übernehmen, indem Sie auf **Datei** > **Close & Apply** (Schließen und Anwenden) oder auf **Datei** > **Anwenden** klicken, damit das Fenster **Power Query-Editor** nicht geschlossen wird. 
+
+   Sobald die Änderungen geladen sind, werden die Datenbeschriftungen im Diagramm als ganze Zahlen angezeigt.
    
    ![Diagramm mit ganzen Zahlen](media/desktop-tutorial-facebook-analytics/vis-3.png)
    
 ### <a name="create-a-date-slicer"></a>Erstellen eines Datenschnitts
 
-Sie möchten die Anzahl von Kommentaren zu Beiträgen im Zeitverlauf visualisieren. Sie können eine Datenschnittvisualisierung erstellen, um die Diagrammdaten für verschiedene Zeitabschnitte zu filtern. 
+Angenommen, Sie möchten die Anzahl von Kommentaren zu Beiträgen im Zeitverlauf visualisieren. Sie können eine Datenschnittvisualisierung erstellen, um die Diagrammdaten für verschiedene Zeitabschnitte zu filtern. 
 
-1. Klicken Sie auf eine leere Stelle im Zeichenbereich, und wählen Sie dann im Bereich „Visualisierungen“ das **Datenschnittsymbol**. Es wird eine leere Datenschnittvisualisierung angezeigt. 
+1. Klicken Sie erst auf eine leere Stelle in der Canvas, und dann im Bereich **Visualisierungen** auf das **Datenschnittsymbol**. 
+
+   Es wird eine leere Datenschnittvisualisierung angezeigt.
    
    ![Auswählen des Datenschnittsymbols](media/desktop-tutorial-facebook-analytics/slicer1.png)
    
-2. Wählen Sie aus der Liste „Felder“ das Feld **created_date**, oder ziehen Sie es in den neuen Datenschnitt. Der Datenschnitt wird basierend auf dem Datumsdatentyp des Felds in einen Datumsschieberegler geändert.
+2. Wählen Sie aus dem Bereich **Felder** das Feld **created_date** aus, oder ziehen Sie es in den neuen Datenschnitt. 
+
+   Der Datenschnitt wird basierend auf dem Datentyp **Datum** des Felds in einen Datumsschieberegler geändert.
    
    ![Datenschnitt mit Datumsschieberegler](media/desktop-tutorial-facebook-analytics/slicer2.png)
    
@@ -218,18 +228,19 @@ Sie möchten die Anzahl von Kommentaren zu Beiträgen im Zeitverlauf visualisier
    
 ### <a name="format-the-visualizations"></a>Formatieren der Visualisierungen
 
-Sie entscheiden sich, dem Diagramm einen aussagekräftigeren und attraktiveren Titel zu geben. 
+Geben Sie dem Diagramm einen aussagekräftigeren und attraktiveren Titel: 
 
-1. Wählen Sie bei ausgewähltem Diagramm das Symbol **Format**, und wählen Sie den Dropdownpfeil, um **Titel** zu erweitern.
+1. Wählen Sie das Diagramm aus, und klicken Sie auf das **Formatierungssymbol** im Bereich **Visualisierungen**. Klicken Sie anschließend neben dem **Titel** auf den Pfeil, um das entsprechende Dropdownmenü aufzuklappen.
+
 2. Ändern Sie **Titeltext** in **Kommentare pro Beitrag**. 
-3. Wählen Sie den Dropdownpfeil neben **Schriftfarbe**, und wählen Sie eine grüne Farbe, passend zu den grünen Balken der Visualisierung.
-4. Erhöhen Sie die **Textgröße** auf **10**, und ändern Sie die **Schriftfamilie** in **Segoe (Fett)** .
 
-![Formatieren des Diagrammtitels](media/desktop-tutorial-facebook-analytics/formatting1.png)
+3. Klicken Sie auf den Dropdownpfeil neben der Option **Schriftfarbe**, und wählen Sie eine grüne Farbe aus, passend zu den grünen Balken der Visualisierung.
 
-Experimentieren Sie mit anderen Formatierungsoptionen und Einstellungen, um das Aussehen Ihrer Visualisierungen zu ändern. 
+4. Erhöhen Sie die **Textgröße** auf **10 Punkt**, und ändern Sie die **Schriftfamilie** in **Segoe (Fett)** .
 
-![Visualisierungen](media/desktop-tutorial-facebook-analytics/vis-1.png)
+5. Experimentieren Sie mit anderen Formatierungsoptionen und Einstellungen, um das Aussehen Ihrer Visualisierungen zu ändern. 
+
+   ![Visualisierungen](media/desktop-tutorial-facebook-analytics/vis-1.png)
 
 ## <a name="create-more-visualizations"></a>Erstellen weiterer Visualisierungen
 
@@ -237,7 +248,7 @@ Wie Sie sehen können, ist das Anpassen von Visualisierungen in Berichten wirkli
 
 ![Liniendiagramm](media/desktop-tutorial-facebook-analytics/moreviz.png)
 
-Power BI Desktop bietet ein nahtloses End-to-End-Erlebnis, das vom Abrufen der Daten aus einer Vielzahl von Datenquellen über die Strukturierung der Daten für Analysezwecke bis zur Visualisierung dieser Daten auf umfassende und interaktive Weise reicht. Nachdem Ihr Bericht fertig ist, können Sie ihn [in Power BI-Dienst hochladen](desktop-upload-desktop-files.md) und auf seiner Grundlage Dashboards erstellen, die Sie für andere Power BI-Benutzer freigeben können.
+Power BI Desktop bietet ein nahtloses End-to-End-Erlebnis, das vom Abrufen der Daten aus einer Vielzahl von Datenquellen über die Strukturierung der Daten für Analysezwecke bis zur Visualisierung dieser Daten auf umfassende und interaktive Weise reicht. Sobald Ihr Bericht fertig ist, können Sie ihn [im Power BI-Dienst hochladen](desktop-upload-desktop-files.md) und auf dessen Grundlage Dashboards erstellen, die Sie für andere Power BI-Benutzer freigeben können.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Weitere Tutorials zu Power BI Desktop lesen](https://go.microsoft.com/fwlink/?LinkID=521937)

@@ -1,18 +1,18 @@
 ---
 title: Erstellen eines paginierten Berichts mit einem freigegebenen Power BI-Dataset – Power BI Report Builder
 description: Erstellen Sie einen paginierten Bericht in Power BI Report Builder basierend auf einem freigegebenen Power BI-Dataset.
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691464"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427836"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Erstellen eines paginierten Berichts basierend auf einem freigegebenen Power BI-Dataset
 
@@ -27,6 +27,7 @@ Der Datensatz muss sich nicht in einem Arbeitsbereich in einer Premium-Kapazitä
 Im folgenden finden Sie eine Liste der Elemente, die Sie benötigen oder nicht benötigen, um ein freigegebenes Dataset im Power BI Berichts-Generator zu verwenden.
 
 - Power BI-Berichts-Generator. [Laden Sie den Power BI-Berichts-Generator herunter, und installieren Sie ihn](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Desktop. [Laden Sie Power BI Desktop herunter, und installieren Sie die Anwendung](https://powerbi.microsoft.com/desktop/).
 - Um auf ein Power BI-Dataset zugreifen zu können, benötigen Sie die Erstellungsberechtigung für das Dataset. Erfahren Sie mehr über [Erstellungsberechtigung](service-datasets-build-permissions.md).
 - Sie benötigen keine Power BI Pro-Lizenz, um im Berichts-Generator einen paginierten Bericht zu erstellen. 
 - Sie benötigen eine Power BI Pro-Lizenz, um Ihren paginierten Bericht veröffentlichen zu können. Außerdem benötigen Sie mindestens eine „Mitwirkender“-Rolle für einen Arbeitsbereich in einer Premium-Kapazität. 
@@ -57,12 +58,26 @@ Im folgenden finden Sie eine Liste der Elemente, die Sie benötigen oder nicht b
     Es sei daran erinnert, dass Sie im selben paginierten Bericht Verbindungen mit mehreren Power BI-Datasets und anderen Datenquellen herstellen können.
 
 
-## <a name="get-the-query-for-the-dataset"></a>Abrufen der Abfrage für das Dataset
+## <a name="get-the-dax-query-for-the-dataset"></a>Abrufen der DAX-Abfrage für das Dataset
 
 Sollen die Daten im Power BI-Bericht und in Ihrem Berichts-Generator-Bericht identisch sein, reicht es nicht aus, eine Verbindung mit dem Dataset herzustellen. Sie benötigen auch die Abfrage, die auf diesem Dataset basiert.
 
+### <a name="video-get-the-dax-query"></a>Video: Abrufen der DAX-Abfrage
+
+Im folgenden Video zeigt Chris Finlan, wie Sie den für den paginierten Bericht benötigten DAX erhalten.
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>Schritte zum Abrufen der DAX-Abfrage
+
+Dies sind die erforderlichen Schritte zum Abrufen der Abfrage.
+
 1. Öffnen Sie den Power BI-Bericht (PBIX-Datei) in Power BI Desktop.
-1. Vergewissern Sie sich, dass es in Ihrem Bericht eine Tabelle gibt, die alle Daten enthält, die Sie in Ihrem paginierten-Bericht benötigen.
+1. Vergewissern Sie sich, dass es in Ihrem Bericht eine Tabelle gibt, die alle Daten enthält, die Sie in Ihrem paginierten-Bericht benötigen. Die Tabelle muss diese beiden Anforderungen erfüllen:
+    - Es muss sich um eine flache Tabelle und nicht um eine Matrix oder ein anderes Visual handeln. Konvertieren Sie das Element jetzt in eine Tabelle, wenn es sich nicht um eine Tabelle handelt. Führen Sie dann die folgenden Schritte der Leistungsanalyse aus, und konvertieren Sie sie anschließend wieder ins gewünschte Visual.
+    - Verwenden Sie *vordefinierte Measures* für Ihre numerischen Felder. Neben diesen befindet sich ein Taschenrechnersymbol. Informieren Sie sich über das [Erstellen von Measures](desktop-measures.md). 
+
+        ![Taschenrechnersymbol](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. Wählen Sie auf dem Menüband **Ansicht** die Option **Performance Analyzer** aus.
 
@@ -204,6 +219,7 @@ Angenommen, Ihr Bericht liegt im Format 21 cm x 29,7 cm vor, und Sie haben jeden
 
 - Für Datasets, für die eine Liveverbindung mit Analysis Services verwendet wird, können Sie eine direkte Verbindung herstellen, indem Sie die zugrunde liegende Analysis Services-Verbindung anstelle eines freigegebenen Datasets verwenden.
 - Datasets mit der Empfehlung „Höher gestuft“ oder „Zertifiziert“ werden in der Liste der verfügbaren Datasets angezeigt, sind jedoch nicht als solche gekennzeichnet. 
+- Sie können im „App Owns Data“-Szenario keine paginierten Berichte einbetten, die auf in Power BI freigegebenen Datasets basieren.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
