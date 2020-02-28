@@ -1,26 +1,32 @@
 ---
 title: Die Berechtigung „Erstellen“ für freigegebene Datasets (Vorschau)
-description: Erfahren Sie, wie Sie die Kontrolle über die zum Zugriff auf ihre Daten berechtigten Personen behalten, indem Sie die Berechtigung „Erstellen“ verwenden.
+description: Informieren Sie sich, wie Sie mithilfe der Berechtigung „Erstellen“ den Zugriff auf die Daten steuern können.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872560"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426608"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Die Berechtigung „Erstellen“ für freigegebene Datasets (Vorschau)
 
-Als Ersteller von *Datenmodellen* in Power BI Desktop können Sie sie als *Datasets* im Power BI-Dienst freigeben. Anschließend können Berichtersteller die von Ihnen freigegebenen Datasets auf einfache Weise finden und wiederverwenden. Erfahren Sie, wie Sie mithilfe der Berechtigung „Erstellen“ steuern, wer Zugriff auf die Daten hat.
+Wenn Sie einen Bericht in Power BI Desktop erstellen, werden die Daten in diesem Bericht in einem *Datenmodell* gespeichert. Wenn Sie die Berichte im dem Power BI-Dienst veröffentlichen, werden die Daten auch als *Dataset* veröffentlicht. Sie können anderen die *Berechtigung „Erstellen“* für diesen Bericht erteilen, damit diese das freigegebene Dataset suchen und wieder verwenden können. In diesem Artikel wird erläutert, wie Sie mithilfe der Berechtigung „Erstellen“ den Zugriff auf die Daten steuern können.
 
-Die Berechtigung „Erstellen“ ist nur für Datasets relevant. Wenn Sie Benutzern die Berechtigung „Erstellen“ erteilen, können sie neue Inhalte für ein Dataset erstellen, wie z. B. Berichte, Dashboards, angeheftete Kacheln aus dem Bereich „Fragen und Antworten“ und gewonnene Erkenntnisse. Sie können darüber hinaus außerhalb von Power BI neue Inhalte auf dem Dataset aufbauen, beispielsweise Excel-Datenblätter mithilfe von „In Excel analysieren“, XMLA und durch Exportieren zugrunde liegender Daten.
+Die Berechtigung „Erstellen“ gilt für Datasets. Wenn Sie Benutzern die Berechtigung „Erstellen“ erteilen, können diese neue Inhalte für Ihr Dataset erstellen. Dazu gehören z. B. Berichte, Dashboards, angeheftete Kacheln aus dem Bereich „Fragen und Antworten“ und gewonnene Erkenntnisse. 
+
+Benutzer benötigen die Berechtigung „Erstellen“ auch zum Arbeiten mit den Daten *außerhalb* von Power BI:
+
+- Exportieren der zugrunde liegenden Daten
+- Erstellen neuer Inhalte für das Dataset (z. B. mit [In Excel analysieren](service-analyze-in-excel.md))
+- Zugreifen auf die Daten über den XMLA-Endpunkt
 
 ## <a name="ways-to-give-build-permission"></a>Möglichkeiten zum Erteilen der Berechtigung „Erstellen“
 

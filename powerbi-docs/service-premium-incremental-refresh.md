@@ -1,37 +1,37 @@
 ---
-title: Inkrementelle Aktualisierung in Power BI Premium
-description: Erfahren Sie, wie Sie im Power BI Premium-Dienst sehr große Datasets unterstützen können.
+title: Inkrementelle Aktualisierung in Power BI
+description: Informationen zur Aktivierung von sehr großen Datasets in Power BI
 author: davidiseminger
-ms.reviewer: kayu
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699289"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527620"
 ---
-# <a name="incremental-refresh-in-power-bi-premium"></a>Inkrementelle Aktualisierung in Power BI Premium
+# <a name="incremental-refresh-in-power-bi"></a>Inkrementelle Aktualisierung in Power BI
 
-Die inkrementelle Aktualisierung bietet im Power BI Premium-Dienst für sehr große Datasets die folgenden Vorteile:
+Die inkrementelle Aktualisierung bietet in Power BI für sehr große Datasets die folgenden Vorteile:
 
 > [!div class="checklist"]
 > * **Schnellere Aktualisierungen:** Nur Daten, die geändert wurden, müssen aktualisiert werden. Aktualisieren Sie beispielsweise nur die letzten fünf Tage eines zehn Jahre alten Datasets.
 > * **Zuverlässigere Aktualisierungen:** Es ist nicht mehr notwendig, Verbindungen mit langer Ausführungsdauer mit flüchtigen Quellsystemen herzustellen.
 > * **Reduzierter Ressourcenverbrauch:** Dank weniger zu aktualisierender Daten wird der Gesamtbedarf an Arbeitsspeicher und anderen Ressourcen reduziert.
 
+> [!NOTE]
+> Die inkrementelle Aktualisierung ist jetzt für Power BI Pro, Power BI Premium und gemeinsame Abonnements und Datasets verfügbar. 
+
 ## <a name="configure-incremental-refresh"></a>Konfigurieren inkrementeller Aktualisierungen
 
 Die Richtlinien für die inkrementelle Aktualisierung werden in Power BI Desktop definiert und bei Veröffentlichung auf den Power BI-Dienst angewendet.
 
-Starten Sie mit dem Aktivieren der inkrementellen Aktualisierung in **Vorschaufeatures**.
-
-![Optionen in der Vorschauversion](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Filtern großer Datasets in Power BI Desktop
 
@@ -72,7 +72,7 @@ Der Filter für die Datumsspalte wird verwendet, um die Daten im Power BI-Dienst
 
 Es ist wichtig, dass die Partitionsfilter per Push an das Quellsystem übertragen werden, wenn Abfragen für Aktualisierungsvorgänge übermittelt werden. Dies bedeutet, dass die Datenquelle die Abfragefaltung unterstützen muss. Die meisten Datenquellen, die SQL-Abfragen unterstützen, unterstützen auch die Abfragefaltung. Datenquellen wie Flatfiles, Blobs, Web- oder OData-Feeds unterstützen die Abfragefaltung normalerweise nicht. Wenn der Filter vom Datenquellen-Back-End nicht unterstützt wird, kann er nicht mithilfe von Push übertragen werden. Diese Fälle werden von der Mashup-Engine ausgeglichen, die den Filter lokal anwendet. Es kann sein, dass dafür das komplette Dataset von der Datenquelle abgerufen werden muss. Dadurch kann die inkrementelle Aktualisierung verlangsamt werden, und es kann sein, dass dem Prozess im Power BI-Dienst oder im lokalen Datengateway nicht ausreichend Ressourcen zur Verfügung stehen.
 
-In Anbetracht der unterschiedlichen Unterstützungsebenen der Abfragefaltung für jede Datenquelle sollte eine Überprüfung durchgeführt werden, um sicherzustellen, dass die Filterlogik in die Quellabfragen eingeschlossen wurde. Um dies einfacher zu gestalten, versucht Power BI Desktop, diese Überprüfung für Sie durchzuführen. Falls eine Überprüfung nicht möglich ist, wird eine Warnung im Dialogfeld „Inkrementelle Aktualisierung“ angezeigt, wenn die Richtlinie für die inkrementelle Aktualisierung definiert wird. Für SQL-basierte Datenquellen wie SQL, Oracle und Teradata ist diese Warnung verlässlich. Für die Überprüfung durch andere Datenquellen kann eine Ablaufverfolgung von Abfragen erforderlich sein. Falls eine Bestätigung durch Power BI Desktop nicht möglich ist, wird die folgende Warnung angezeigt:
+In Anbetracht der unterschiedlichen Unterstützungsebenen der Abfragefaltung für jede Datenquelle sollte eine Überprüfung durchgeführt werden, um sicherzustellen, dass die Filterlogik in die Quellabfragen eingeschlossen wurde. Um dies einfacher zu gestalten, versucht Power BI Desktop, diese Überprüfung für Sie durchzuführen. Falls eine Überprüfung nicht möglich ist, wird eine Warnung im Dialogfeld „Inkrementelle Aktualisierung“ angezeigt, wenn die Richtlinie für die inkrementelle Aktualisierung definiert wird. Für SQL-basierte Datenquellen wie SQL, Oracle und Teradata ist diese Warnung verlässlich. Für die Überprüfung durch andere Datenquellen kann eine Ablaufverfolgung von Abfragen erforderlich sein. Falls eine Bestätigung durch Power BI Desktop nicht möglich ist, wird die folgende Warnung angezeigt: Wenn diese Warnung angezeigt wird und Sie überprüfen möchten, ob das notwendige Query Folding durchgeführt wird, können Sie das Abfragediagnosefeature verwenden oder die von der Quelldatenbank empfangenen Abfragen nachverfolgen.
 
  ![Abfragefaltung](media/service-premium-incremental-refresh/query-folding.png)
 
@@ -93,7 +93,7 @@ Das Dialogfeld „Inkrementelle Aktualisierung“ wird angezeigt. Aktivieren Sie
 
 Im Text der Kopfzeile wird Folgendes erläutert:
 
-- Die inkrementelle Aktualisierung wird nur für Arbeitsbereiche mit Premium-Kapazitäten unterstützt. Aktualisierungsrichtlinien werden in Power BI Desktop definiert und über Aktualisierungsvorgänge im Dienst angewendet.
+- Aktualisierungsrichtlinien werden in Power BI Desktop definiert und über Aktualisierungsvorgänge im Dienst angewendet.
 
 - Wenn Sie die PBIX-Datei mit einer enthaltenen inkrementellen Aktualisierungsrichtlinie aus dem Power BI-Dienst herunterladen können, kann sie nicht in Power BI Desktop geöffnet werden. Auch wenn dies in Zukunft möglicherweise unterstützt wird, denken Sie daran, dass diese Datasets so groß werden können, dass sie nicht mehr heruntergeladen und auf einem typischen Desktopcomputer geöffnet werden können.
 
@@ -110,6 +110,13 @@ Im folgenden Beispiel werden Aktualisierungsrichtlinien zum Speichern der Daten 
 Die erste Aktualisierung im Power BI-Dienst kann länger dauern, da fünf gesamte Kalenderjahre importiert werden. Nachfolgende Aktualisierungen werden möglicherweise in einem Bruchteil der Zeit abgeschlossen.
 
 ![Aktualisierungsbereiche](media/service-premium-incremental-refresh/refresh-ranges.png)
+
+
+#### <a name="current-date"></a>Aktuelles Datum
+
+Das *aktuelle Datum* basiert auf dem Systemdatum, an dem die Aktualisierung durchgeführt wurde. Wenn eine geplante Aktualisierung für das Dataset im Power BI-Dienst aktiviert ist, wird die angegebene Zeitzone bei der Bestimmung des aktuellen Datums berücksichtigt. Sowohl bei manuell gestarteten als auch bei geplanten Aktualisierungen wird die Zeitzone berücksichtig, falls diese verfügbar ist. Wenn beispielsweise um 20 Uhr in der Zeitzone Pacific Standard Time (USA und Kanada) eine Aktualisierung durchgeführt wird und die Zeitzone angegeben ist, wird das aktuelle Datum anhand der Zone Pacific Standard Time anstatt der Zone Greenwich Mean Time (in diesem Fall der nächste Tag) ermittelt.
+
+![Zeitzone](media/service-premium-incremental-refresh/time-zone2.png)
 
 > [!NOTE]
 > Die Definition dieser Bereiche reicht ggf. schon aus. In diesem Fall können Sie direkt zum folgenden Veröffentlichungsschritt übergehen. Die zusätzlichen Dropdownlisten sind für erweiterte Funktionen vorgesehen.
@@ -143,10 +150,6 @@ Ein weiteres Beispiel ist das Aktualisieren von Daten in einem Finanzsystem, bei
 > Aktualisierungsvorgänge im Dienst erfolgen gemäß der UTC-Zeit. Dies kann den Stichtag bestimmen und sich auf ganze Zeiträume auswirken. Wir planen, die Möglichkeit hinzuzufügen, den Stichtag für eine Aktualisierung zu überschreiben.
 
 ## <a name="publish-to-the-service"></a>Veröffentlichen im Dienst
-
-Da die inkrementelle Aktualisierung eine ausschließliche Premium-Funktion ist, ermöglicht das Dialogfeld „Veröffentlichen“ nur die Auswahl eines Arbeitsbereichs mit Premium-Kapazität.
-
-![Veröffentlichen im Dienst](media/service-premium-incremental-refresh/publish.png)
 
 Sie können das Modell nun aktualisieren. Die erste Aktualisierung kann aufgrund des Imports der Verlaufsdaten länger dauern. Nachfolgende Aktualisierungen sind wesentlich schneller, da sie inkrementell erfolgen.
 

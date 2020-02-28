@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954072"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427804"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Hinzufügen von Links (URLs) zu einer Tabelle oder Matrix
 In diesem Thema erfahren Sie, wie einer Tabelle Links (URLs) hinzugefügt werden. Sie verwenden Power BI Desktop, um einem Dataset Links (URLs) hinzuzufügen. Sie können diese Links entweder in Power BI Desktop oder im Power BI-Dienst zu Ihren Berichtstabellen und Matrizen hinzufügen. Anschließend können Sie die URL oder ein Linksymbol anzeigen oder eine andere Spalte als Linktext formatieren.
@@ -34,7 +34,7 @@ Sie können ein Feld mit URLs in Power BI Desktop als Links formatieren, nicht j
     > [!NOTE]
     > Im DirectQuery-Modus kann keine Spalte erstellt werden.  Wenn die Daten jedoch bereits URLs enthalten, können Sie diese in Hyperlinks umwandeln.
 
-2. Wählen Sie die Spalte in der Datenansicht aus. 
+2. Wählen Sie die Spalte in der Datenansicht oder der Berichtsansicht aus. 
 
 3. Wählen Sie auf der Registerkarte **Modellierung** **Datenkategorie** > **Web-URL** aus.
    
@@ -79,13 +79,20 @@ Sie können auch ein anderes Feld in einer Tabelle als Link formatieren und kein
 
 1. Wenn nicht bereits ein Feld mit einem Link in Ihrem Dataset vorhanden ist, verwenden Sie Power BI Desktop, um es als [benutzerdefinierte Spalte](desktop-common-query-tasks.md) hinzuzufügen. Wie bereits erwähnt: Im DirectQuery-Modus kann keine Spalte erstellt werden.  Wenn die Daten jedoch bereits URLs enthalten, können Sie diese in Hyperlinks umwandeln.
 
-2. Erstellen Sie in der Berichtsansicht eine Tabelle oder Matrix mit der Spalte, die Sie als Linktext formatieren möchten.
+2. Wählen Sie in der Datenansicht oder der Berichtsansicht die Spalte aus, die die URL enthält. 
+
+3. Wählen Sie auf der Registerkarte **Modellierung** die Option **Datenkategorie** aus. Sorgen Sie dafür, dass die Spalte als **Nicht kategorisiert** formatiert ist.
+
+2. Erstellen Sie in der Berichtsansicht eine Tabelle oder Matrix mit der URL-Spalte und der Spalte, die Sie als Linktext formatieren möchten.
 
 3. Wählen Sie bei ausgewählter Tabelle das Symbol **Format** ![Farbrollensymbol](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) aus, um die Registerkarte für die Formatierung zu öffnen.
 
-4. Erweitern Sie **Bedingte Formatierung**, und stellen Sie sicher, dass der Name im Feld die Spalte ist, die Sie als Linktext verwenden möchten. Suchen Sie das **URL-Symbol**, und aktivieren Sie es mit **Ein**.
+4. Erweitern Sie **Bedingte Formatierung**, und stellen Sie sicher, dass der Name im Feld die Spalte ist, die Sie als Linktext verwenden möchten. Suchen Sie die Option **Web-URL**, und aktivieren Sie sie mit **Ein**.
 
     ![Bedingte Formatierung, Web-URL](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > Wenn die Option **Web-URL** nicht angezeigt wird, stellen Sie sicher, dass die Spalte, die den Link enthält, im Dropdownfeld **Datenkategorie** *nicht* als **Web-URL**formatiert ist.
 
 5. Wählen Sie im Dialogfeld **Web-URL** unter **Basierend auf Feld** das Feld aus, das die URL enthält, und klicken Sie auf **OK**.
 

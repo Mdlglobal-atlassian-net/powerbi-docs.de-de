@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762414"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527700"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Verwenden des Facebook-Connectors für Power BI Desktop
 Der Facebook-Connector in **Power BI Desktop** ist abhängig von der Graph-API von Facebook. Daher können Funktionen und Verfügbarkeit im Laufe der Zeit variieren.
 
 Sie können sich ein [Lernprogramm über den Facebook-Connector für Power BI Desktop](desktop-tutorial-facebook-analytics.md) anschauen.
+
+> [!IMPORTANT]
+> **Hinweis zur Veraltung des Facebook-Datenconnectors:** Das Importieren und Aktualisieren von Daten aus Facebook in Excel funktioniert ab April 2020 nicht mehr ordnungsgemäß. Bis dahin können Sie den Facebook-Connector *Abrufen und Transformieren (Power Query)* verwenden. Nach diesem Datum können Sie keine Verbindung mit Facebook herstellen, und es wird eine Fehlermeldung angezeigt. Sie sollten vorhandene *„Abrufen und Transformieren“-Abfragen (Power Query)* , die den Facebook-Connector verwenden, so schnell wie möglich überarbeiten oder entfernen, um unerwartete Ergebnisse zu vermeiden.
+
 
 Facebook hat Version 1.0 seiner Graph-API am 30. April 2015 eingestellt. Die Graph-API wird von Power BI im Hintergrund für den Facebook-Connector verwendet, damit Sie sich mit Ihren Daten verbinden und diese analysieren können.
 

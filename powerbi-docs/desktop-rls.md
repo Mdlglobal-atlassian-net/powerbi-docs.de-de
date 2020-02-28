@@ -1,5 +1,5 @@
 ---
-title: Grundlegendes zur Sicherheit auf Zeilenebene (Row-Level Security; RLS) mit Power BI Desktop
+title: Einschränken des Datenzugriffs mit Sicherheit auf Zeilenebene (RLS) für Power BI Desktop
 description: Erfahren Sie, wie Sie die Sicherheit auf Zeilenebene für importierte Datasets und DirectQuery in Power BI Desktop konfigurieren.
 author: davidiseminger
 ms.author: davidi
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/05/2019
+ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 7a9aa0ca62ae4f1008d4cf47caa909841f9ec495
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760656"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464391"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Einschränken des Datenzugriffs mit Sicherheit auf Zeilenebene (RLS) für Power BI Desktop
 
@@ -24,9 +24,7 @@ Sie können die RLS zusammen mit Power BI Desktop verwenden, um den Datenzugrif
 Sie können RLS jetzt für Datenmodelle konfigurieren, die mithilfe von Power BI Desktop in Power BI importiert wurden. Außerdem können Sie die RLS für Datasets konfigurieren, die [DirectQuery](desktop-use-directquery.md) verwenden. Dies ist beispielsweise für SQL Server möglich. Bisher konnte die RLS nur in lokalen Analysis Services-Modellen außerhalb von Power BI implementiert werden. Für Liveverbindungen von Analysis Services konfigurieren Sie RLS auf dem lokalen Modell. Die Sicherheitsoption wird nicht für Liveverbindungsdatasets angezeigt.
 
 > [!IMPORTANT]
-> Wenn Sie im Power BI-Dienst Rollen und Regeln definiert haben, müssen Sie diese Rollen in Power BI Desktop neu erstellen und den Bericht im Dienst veröffentlichen.
-
-Erfahren Sie mehr über die Optionen für [RLS innerhalb des Power BI-Diensts](service-admin-rls.md).
+> Wenn Sie im Power BI-Dienst Rollen und Regeln definiert haben, müssen Sie diese Rollen in Power BI Desktop neu erstellen und den Bericht im Dienst veröffentlichen. Informieren Sie sich über die Optionen für [RLS innerhalb des Power BI-Diensts](service-admin-rls.md).
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 

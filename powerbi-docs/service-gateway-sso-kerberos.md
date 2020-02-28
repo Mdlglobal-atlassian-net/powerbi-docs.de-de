@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000110"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558659"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Konfigurieren des Kerberos-basierten einmaligen Anmeldens (Single Sign-On, SSO) im Power BI-Dienst bei lokalen Datenquellen
 
@@ -246,11 +246,17 @@ Für SAP HANA und SAP BW gelten zusätzliche datenquellenspezifische Konfigurati
 
 ## <a name="run-a-power-bi-report"></a>Ausführen eines Power BI-Berichts
 
-Nach Abschluss aller Konfigurationsschritte können Sie in Power BI auf der Seite **Gateway verwalten** die von Ihnen verwendete Datenquelle für SSO konfigurieren. Wenn Sie über mehrere Gateways verfügen, stellen Sie sicher, dass Sie das Gateway auswählen, das Sie für Kerberos SSO konfiguriert haben. Stellen Sie sicher, dass für die Datenquelle unter **Erweiterte Einstellungen** das Kontrollkästchen **SSO über Kerberos für DirectQuery-Abfragen verwenden** aktiviert ist.
+Nach Abschluss aller Konfigurationsschritte können Sie in Power BI auf der Seite **Gateway verwalten** die von Ihnen verwendete Datenquelle für SSO konfigurieren. Wenn Sie über mehrere Gateways verfügen, stellen Sie sicher, dass Sie das Gateway auswählen, das Sie für Kerberos SSO konfiguriert haben. Sorgen Sie dann dafür, dass unter **Erweiterte Einstellungen** für die Datenquelle die Option **SSO über Kerberos für DirectQuery-Abfragen verwenden** oder **SSO über Kerberos für DirectQuery- und Importabfragen verwenden** für auf DirectQuery basierende Berichte und die Option **SSO über Kerberos für DirectQuery- und Importabfragen verwenden** für auf Aktualisierungen basierende Berichte aktiviert ist.
 
-![Erweiterte Einstellungsoptionen](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Erweiterte Einstellungsoptionen](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Veröffentlichen Sie einen DirectQuery-basierten Bericht aus Power BI Desktop. Dieser Bericht muss Daten verwenden, auf die der Benutzer zugreifen kann, der dem (Azure) Active Directory-Benutzer zugeordnet ist, der sich am Power BI-Dienst anmeldet. Aufgrund der Funktionsweise der Aktualisierung müssen Sie DirectQuery anstelle von Import verwenden. Wenn das Gateway importbasierte Berichte aktualisiert, verwendet es die Anmeldeinformationen, die Sie beim Erstellen der Datenquelle in die Felder **Benutzername** und **Kennwort** eingegeben haben. Das bedeutet, dass Kerberos-SSO *nicht* verwendet wird. Wählen Sie beim Veröffentlichen das Gateway aus, das Sie für SSO konfiguriert haben, sofern Sie über mehrere Gateways verfügen. Sie können nun im Power BI-Dienst den Bericht aktualisieren oder einen neuen Bericht auf der Grundlage des veröffentlichten Datasets erstellen.
+Wenn Sie einen auf DirectQuery basierenden Bericht in Power BI Desktop veröffentlichen und ihn einer Datenquelle zuordnen, für die die Option **SSO über Kerberos für DirectQuery-Abfragen verwenden** oder **SSO über Kerberos für DirectQuery- und Importabfragen verwenden** aktiviert ist, würde dieser Bericht Daten verwenden, auf die der Benutzer zugreifen kann, der dem (Azure) Active Directory-Benutzer entspricht, der sich beim Power BI-Dienst anmeldet.
+
+Ähnlich verhält es sich, wenn Sie einen auf Aktualisierungen basierenden Bericht in Power BI Desktop veröffentlichen und ihn einer Datenquelle zuordnen, für die die Option **SSO über Kerberos für DirectQuery- und Importabfragen verwenden** aktiviert ist, und Sie müssen keine Anmeldeinformationen angeben. Die Aktualisierung wird im Kontext des aktiven Verzeichnisses des Besitzers des Datasets ausgeführt.
+
+Wenn Sie den Bericht allerdings einer Datenquelle zuordnen, für die **SSO über Kerberos für DirectQuery- und Importabfragen verwenden** nicht aktiviert ist, verwendet die Aktualisierung die Anmeldeinformationen, die Sie in den Feldern **Benutzername** und **Kennwort** beim Erstellen der Datenquelle eingegeben haben. Das bedeutet, dass Kerberos-SSO *nicht* verwendet wird. 
+
+ Wählen Sie beim Veröffentlichen das Gateway aus, das Sie für SSO konfiguriert haben, sofern Sie über mehrere Gateways verfügen. 
 
 Diese Konfiguration funktioniert in den meisten Fällen. Bei Kerberos können jedoch je nach Umgebung unterschiedliche Konfigurationen vorhanden sein. Sollte der Bericht nicht geladen werden, wenden Sie sich zur weiteren Untersuchung an Ihren Domänenadministrator. Wenn SAP BW Ihre Datenquelle ist, können Sie, je nachdem, welche SNC-Bibliothek Sie ausgewählt haben, die Abschnitte zur Problembehandlung auf den datenquellenspezifischen Konfigurationsseiten für [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) und [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) lesen.
 

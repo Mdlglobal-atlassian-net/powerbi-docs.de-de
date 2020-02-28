@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699197"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527589"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Übersicht: Single Sign-On für Gateways in Power BI
 
-Sie können nahtlose Verbindungen mit einmaligem Anmelden erreichen und für Power BI-Berichte und -Dashboards das Aktualisieren von lokalen Daten in Echtzeit ermöglichen, indem Sie Ihr lokales Datengateway konfigurieren. Sie haben die Option, Ihr Gateway entweder mit eingeschränkter [Kerberos](service-gateway-sso-kerberos.md)-Delegierung oder der Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)) zu konfigurieren. Das lokale Datengateway unterstützt das einmalige Anmelden über [DirectQuery](desktop-directquery-about.md). Damit werden Verbindungen mit lokalen Datenquellen hergestellt.
+Sie können nahtlose Verbindungen mit einmaligem Anmelden erreichen und für Power BI-Berichte und -Dashboards das Aktualisieren von lokalen Daten in Echtzeit ermöglichen, indem Sie Ihr lokales Datengateway konfigurieren. Sie haben die Option, Ihr Gateway entweder mit eingeschränkter [Kerberos](service-gateway-sso-kerberos.md)-Delegierung oder der Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)) zu konfigurieren. Das lokale Datengateway unterstützt Single Sign-On (SSO) über [DirectQuery](desktop-directquery-about.md) oder für Aktualisierungen. Damit werden Verbindungen mit lokalen Datenquellen hergestellt. 
 
 Power BI unterstützt die folgenden Datenquellen:
 
@@ -33,7 +33,9 @@ Power BI unterstützt die folgenden Datenquellen:
 
 Das einmalige Anmelden (SSO) für [M-Erweiterungen](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md) wird derzeit nicht unterstützt.
 
-Wenn ein Benutzer mit einem DirectQuery-Bericht im Power BI-Dienst interagiert, kann jeder Kreuzfilter-, Segmentierungs-, Sortier- und Berichtsbearbeitungsvorgang Abfragen bewirken, die live für die zugrunde liegende Datenquelle ausgeführt werden. Wenn Sie SSO für die Datenquelle konfigurieren, werden Abfragen unter der Identität des Benutzers ausgeführt, der mit Power BI interagiert (d. h. über die Webumgebung oder mobile Power BI-Apps). Daher sieht jeder Benutzer genau die Daten, für die er über Berechtigungen in der zugrunde liegenden Datenquelle verfügt. Wenn Single Sign-On konfiguriert ist, gibt es keine gemeinsame Zwischenspeicherung von Daten für verschiedene Benutzer.
+Wenn ein Benutzer mit einem DirectQuery-Bericht im Power BI-Dienst interagiert, kann jeder Kreuzfilter-, Segmentierungs-, Sortier- und Berichtsbearbeitungsvorgang Abfragen bewirken, die live für die zugrunde liegende Datenquelle ausgeführt werden. Wenn Sie SSO für die Datenquelle konfigurieren, werden Abfragen unter der Identität des Benutzers ausgeführt, der mit Power BI interagiert (d. h. über die Webumgebung oder mobile Power BI-Apps). Daher sieht jeder Benutzer genau die Daten, für die er über Berechtigungen in der zugrunde liegenden Datenquelle verfügt. 
+
+Sie können auch einen Bericht konfigurieren, der im Power BI-Dienst so eingerichtet ist, dass für Aktualisierungen SSO verwendet wird. Wenn Sie für diese Datenquelle SSO konfigurieren, werden Abfragen im Power BI-Dienst unter der Identität des Datasetbesitzers ausgeführt. Eine Aktualisierung erfolgt deshalb basierend auf den Berechtigungen des Datasetbesitzers für die zugrunde liegende Datenquelle. Die Aktualisierung mit SSO ist momentan nur für Datenquellen aktiviert, die die eingeschränkte [Kerberos](service-gateway-sso-kerberos.md)-Delegierung verwenden. 
 
 ## <a name="query-steps-when-running-sso"></a>Abfrageschritte beim Ausführen von SSO
 

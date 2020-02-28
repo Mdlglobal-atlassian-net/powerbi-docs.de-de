@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538726"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427652"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Verwenden von Aggregationen in Power BI Desktop
 
@@ -185,6 +185,10 @@ Die Funktion AVERAGE kann von Aggregationen profitieren. Die folgende Abfrage fi
 In einigen Fällen kann die Funktion DISTINCTCOUNT von Aggregationen profitieren. Die folgenden Abfrage findet die Aggregation, weil es einen GroupBy-Eintrag für **CustomerKey** gibt, wodurch **CustomerKey** in der Aggregationstabelle eindeutig bleibt. Dieses Verfahren kann immer noch dem Leistungsschwellenwert entsprechen, bei dem mehr als zwei bis fünf Millionen eindeutige Werte sich auf die Abfrageleistung auswirken können. Es kann sich jedoch in Szenarios als nützlich erweisen, bei denen Milliarden Zeilen in der Detailtabelle vorhanden sind, aber nur zwei bis fünf Millionen verschiedene Werte in der Spalte enthalten sind. In diesem Fall kann DISTINCTCOUNT schneller sein als das Überprüfen der Tabelle mit Milliarden Zeilen, auch wenn diese im Arbeitsspeicher zwischengespeichert werden würde.
 
 ![DISTINCTCOUNT-Aggregationsabfrage](media/desktop-aggregations/aggregations-code_07.jpg)
+
+Die DAX-Zeitintelligenzfunktionen sind aggregationsfähig. Die folgende Abfrage führt die Aggregation aus, da die DATESYTD-Funktion eine Tabelle mit **CalendarDay**-Werten generiert, und die Aggregationstabelle weist eine Granularität auf, die von den „GroupBy“-Spalten in der **Date**-Tabelle berücksichtigt wird. Hier handelt es sich um ein Beispiel für einen Tabellenwertfilter für die CALCULATE-Funktion, die Aggregationen verarbeiten kann.
+
+![SUMMARIZECOLUMNS-Aggregationsabfrage](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>Aggregationen basierend auf GroupBy-Spalten 
 

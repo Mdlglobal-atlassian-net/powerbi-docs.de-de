@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851456"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496415"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Drillmodus in einem Visual in Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ Datumsangaben sind ein eindeutiger Hierarchietyp.  Berichts-Designer fügen oft 
 Sie sind nicht sicher, welche Power BI-Visuals eine Hierarchie enthalten? Zeigen Sie mit dem Mauszeiger auf ein Visual. Wenn Sie eine Kombination dieser oben stehenden Drillsteuerelemente sehen, hat Ihr Visual eine Hierarchie.
 
 ![Screenshot der Drillsymbole.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Erfahren Sie, wie Sie einen Drilldown und Drillup ausführen
 
@@ -141,7 +144,9 @@ Beachten Sie, dass die Summen für **Stadt**, **Postleitzahl** und **Name** glei
 
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
-Standardmäßig filtern Drillvorgänge keine anderen visuellen Elemente in einem Bericht. Der Berichts-Designer kann dieses Standardverhalten jedoch ändern. Während Sie einen Drillvorgang ausführen, prüfen Sie, ob die anderen Visuals auf der Seite Kreuzfilterungen oder übergreifende Hervorhebungen sind.
+- Standardmäßig filtern Drillvorgänge keine anderen visuellen Elemente in einem Bericht. Der Berichts-Designer kann dieses Standardverhalten jedoch ändern. Während Sie einen Drillvorgang ausführen, prüfen Sie, ob die anderen Visuals auf der Seite Kreuzfilterungen oder übergreifende Hervorhebungen sind.
+
+- Für das Anzeigen eines für Sie freigegebenen Berichts ist eine Power BI Pro- oder Premium-Lizenz erforderlich. [Welche Lizenz habe ich?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Nächste Schritte

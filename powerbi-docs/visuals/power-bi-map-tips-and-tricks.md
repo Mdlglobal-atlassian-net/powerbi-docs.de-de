@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758506"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558595"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
 Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 
@@ -28,17 +28,17 @@ Sie oder der Administrator müssen möglicherweise die Firewall aktualisieren, u
 Befolgen Sie die nachstehenden Tipps, um die Wahrscheinlichkeit einer korrekten Geocodierung zu erhöhen. Orientieren Sie sich an der ersten Gruppe von Tipps, wenn Sie auf das Dataset selbst zugreifen können. Die zweite Gruppe von Tipps betrifft Aktionen, die Sie in Power BI ausführen können, wenn Sie keinen Zugriff auf das Dataset haben. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>An Bing Maps gesendete Informationen
-Der Power BI-Dienst und Power BI Desktop senden die Geodaten an Bing, die Bing zum Erstellen der Kartenvisualisierung benötigt. Dies kann die Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** sowie geografische Felder in jedem der Buckets **Berichtsstufenfilter**, **Filter auf Seitenebene** oder **Filter auf visueller Ebene** umfassen. Welche Daten genau gesendet werden, variiert je nach Kartentyp. Weitere Informationen finden Sie in der [Bing Maps-Datenschutzerklärung](https://go.microsoft.com/fwlink/?LinkID=248686).
+Der Power BI-Dienst und Power BI Desktop senden die Geodaten an Bing, die Bing zum Erstellen der Kartenvisualisierung benötigt. Dabei kann es sich um die Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** des Felds für das Visuals handeln. Welche Daten genau gesendet werden, variiert je nach Kartentyp. Weitere Informationen finden Sie in der [Bing Maps-Datenschutzerklärung](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Für Karten (Blasen-, Streu- und Punktdiagrammkarten) werden keine Daten an Bing gesendet, wenn Breiten- und Längengrad angegeben werden. Andernfalls werden alle Daten im Bucket **Standort** und in den Filterbuckets an Bing gesendet.     
+* Für Karten (Blasen-, Streu- und Punktdiagrammkarten) werden keine Daten an Bing gesendet, wenn Breiten- und Längengrad angegeben werden. Andernfalls werden alle Daten im Bucket **Standort** an Bing gesendet.     
 
 * Flächenkartogramme erfordern ein Feld im Bucket **Standort**, auch wenn Breiten- und Längengrad angegeben werden. Alle Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** werden an Bing gesendet.
   
-    Im folgenden Beispiel wird das Feld **Vendor** für Geocodierung verwendet, somit werden alle Lieferantendaten an Bing gesendet. Daten aus den Bucktes **Größe** und **Farbsättigung** werden nicht an Bing gesendet.
+    Im folgenden Beispiel wird das Feld **Vendor** für Geocodierung verwendet, sodass die Werte in der Spalte „Vendor“ an Bing gesendet werden. Daten aus den Bucktes **Größe** und **Farbsättigung** werden nicht an Bing gesendet.
   
     ![An Bing Maps gesendet](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    Im folgenden zweiten Beispiel wird das Feld **Gebiet** für Geocodierung verwendet, somit werden alle Gebietsdaten an Bing gesendet. Daten aus den Buckets **Legende** und **Farbsättigung** werden nicht an Bing gesendet.
+    In diesem zweiten Beispiel wird das Feld **Gebiet** für Geocodierung verwendet, sodass die Werte in der Spalte „Gebiet“ an Bing gesendet werden. Daten aus den Buckets **Legende** und **Farbsättigung** werden nicht an Bing gesendet.
   
     ![Gefüllte Karten und Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 

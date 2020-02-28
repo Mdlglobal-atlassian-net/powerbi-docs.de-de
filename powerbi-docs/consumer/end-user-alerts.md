@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851279"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496514"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Tutorial: Festlegen von Dashboardwarnungen auf Dashboards des Power BI-Diensts
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Festlegen von Warnungen für Power BI-Dashboards
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,6 +114,7 @@ Es gibt viele Möglichkeiten zum Verwalten von Warnungen: in der Dashboardkachel
 * Warnungen können nur für Messgeräte, KPIs und Karten festgelegt werden.
 * Wenn Sie für ein Messgerät, eine KPI oder eine Karte keine Warnung festlegen können, bitten Sie Ihren Systemadministrator um Hilfe. Manchmal sind Warnungen für Ihr Dashboard oder bestimmte Dashboardkacheln deaktiviert oder nicht verfügbar.
 * Warnungen erfolgen nur für Daten, die aktualisiert werden. Sie können nicht für statische Daten ausgelöst werden. Die meisten der von Microsoft bereitgestellten Beispiele sind statisch. 
+* *Benutzer* erstellen nicht ihre eigenen Dashboards. Dashboards werden von *Designern* erstellt und anschließend mit den Benutzern geteilt. Zum Empfangen und Aufrufen von geteilten Inhalten ist eine Power BI Pro- oder Power BI Premium-Lizenz erforderlich. Weitere Informationen finden Sie unter [So ermitteln Sie Ihren Lizenztyp](end-user-license.md). 
 
 
 ## <a name="clean-up-resources"></a>Bereinigen von Ressourcen

@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889211"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496473"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ Visuals auf einem Dashboard können nicht sortiert werden, aber in einem Power B
 
 ## <a name="get-started"></a>Erste Schritte
 
-Wählen Sie zum Einstieg ein beliebiges Berichtsvisual aus, und klicken Sie auf **Weitere Aktionen** (...).  Es gibt drei Optionen für das Sortieren: **Absteigend sortieren**, **Aufsteigend sortieren** und **Sortieren nach**. 
+Öffnen Sie zunächst einen beliebigen Bericht, der mit Ihnen geteilt wurde. Wählen Sie ein Visual aus, das sortiert werden kann, und klicken Sie auf die Auslassungspunkte (...), um **Weitere Aktionen** anzuzeigen.  Es gibt drei Optionen für das Sortieren: **Absteigend sortieren**, **Aufsteigend sortieren** und **Sortieren nach**. 
     
 
 ![Balkendiagramm mit alphabetischer Sortierung an der X-Achse](media/end-user-change-sort/power-bi-more-actions.png)
@@ -69,9 +67,9 @@ Zuweilen möchten Sie Ihre Visualisierung anhand eines anderen Felds (das nicht 
 
 Nur die Person, die den Bericht entworfen hat, kann diese Änderungen für Sie vornehmen. Kontaktinformationen zum *Designer* des Berichts können Sie erfahren, indem Sie den Namen des Berichts in der Kopfleiste auswählen.
 
-Wenn Sie ein *Designer* sind und über die Berechtigungen verfügen, den Inhalt zu bearbeiten, erfahren Sie im Artikel [Sortieren nach Spalten in Power BI Desktop](../desktop-sort-by-column.md), wie Sie das Dataset aktualisieren und diese Art von Sortierung aktivieren.
-
 ![Dropdownfeld mit Kontaktinformationen](media/end-user-change-sort/power-bi-contact.png)
+
+Wenn Sie ein *Designer* sind und über die Berechtigungen verfügen, den Inhalt zu bearbeiten, erfahren Sie im Artikel [Sortieren nach Spalten in Power BI Desktop](../desktop-sort-by-column.md), wie Sie das Dataset aktualisieren und diese Art von Sortierung aktivieren.
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu [Visualisierungen in Power BI-Berichten](end-user-visualizations.md).

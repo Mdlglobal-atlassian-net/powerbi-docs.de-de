@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 27d6db6cf8ad8ebd7b2c957954ceec34b83681d0
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71409362"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464389"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definieren von Rollen und Regeln in Power BI Desktop
 Sie können Rollen und Regeln in Power BI Desktop definieren. Wenn Sie etwas in Power BI veröffentlichen, werden auch die Rollendefinitionen veröffentlicht.
@@ -17,33 +17,33 @@ Gehen Sie folgendermaßen vor, wenn Sie Sicherheitsrollen definieren möchten.
    > Sie können in Power BI Desktop keine Rollen für Analysis Services-Liveverbindungen definieren. Sie müssen sie im Analysis Services-Modell definieren.
    > 
    > 
-1. Wählen Sie die Registerkarte **Modellierung** aus.
-2. Wählen Sie **Rollen verwalten** aus.
+2. Klicken Sie auf der Registerkarte **Modellierung** auf die Option **Rollen verwalten**.
    
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
-4. Wählen Sie **Erstellen** aus.
+   ![Klicken auf „Rollen verwalten“](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
+3. Klicken Sie im Fenster **Rollen verwalten** auf **Erstellen**.
    
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
-5. Geben Sie einen Namen für die Rolle an. 
-6. Wählen Sie die Tabelle aus, auf die eine DAX-Regel angewendet werden soll.
-7. Geben Sie die DAX-Ausdrücke ein. Dieser Ausdruck muss TRUE oder FALSE zurückgeben. Zum Beispiel: [Entitäts-ID] = "Wert".
-   
+   ![Wählen Sie „Erstellen“ aus.](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
+4. Geben Sie unter **Rollen** der Rolle einen Namen. 
+5. Wählen Sie unter **Tabellen** die Tabelle aus, auf die eine DAX-Regel angewendet werden soll.
+6. Geben Sie im Feld **Tabellenfilter-DAX-Ausdruck** DAX-Ausdrücke ein. Dieser Ausdruck gibt TRUE oder FALSE als Wert zurück. Beispiel: ```[Entity ID] = “Value”```
+      
+   ![Fenster „Rollen verwalten“](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
+
    > [!NOTE]
    > Sie können *username()* innerhalb dieses Ausdrucks verwenden. Beachten Sie, dass *username()* in Power BI Desktop das Format *DOMÄNE\Benutzername* aufweist. Im Power BI-Dienst und im Power BI-Berichtsserver entspricht das Format dem Benutzerprinzipalnamen des Benutzers. Alternativ können Sie *userprincipalname()* verwenden, wodurch der Benutzer immer im Format seines Benutzerprinzipalnamens (*Benutzername\@contoso.com*) zurückgegeben wird.
    > 
    > 
-   
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
-8. Wählen Sie nach der Erstellung des DAX-Ausdrucks das Häkchen über dem Ausdrucksfeld aus, um den Ausdruck zu überprüfen.
+
+7. Klicken Sie nach der Erstellung des DAX-Ausdrucks auf das Häkchen über dem Ausdrucksfeld, um den Ausdruck zu überprüfen.
       
-   ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   ![Ein gültiger DAX-Ausdruck](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
    
    > [!NOTE]
    > In diesem Ausdrucksfeld verwenden Sie Kommas, um Argumente der DAX-Funktion zu trennen, auch wenn Sie ein Gebietsschema verwenden, das normalerweise Semikolontrennzeichen verwendet (z. B. Französisch oder Deutsch). 
    >
    >
    
-9. Wählen Sie **Speichern**.
+8. Wählen Sie **Speichern**.
 
 In Power BI Desktop ist es nicht möglich, Benutzer einer Rolle zuzuweisen. Sie können diese Zuweisung im Power BI-Dienst vornehmen. Sie können die dynamische Sicherheit in Power BI Desktop aktivieren, indem Sie *username()* - oder *userprincipalname()* -DAX-Funktionen verwenden und die richtigen Beziehungen konfigurieren. 
 

@@ -1,68 +1,70 @@
 ---
 title: Sortieren nach Spalten in Power BI Desktop
-description: Sortieren nach Spalten in Power BI Desktop
+description: In Power BI können Sie das Erscheinungsbild eines Visuals ändern, indem Sie es nach verschiedenen Datenfeldern sortieren.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223440"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464679"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Sortieren nach Spalten in Power BI Desktop
-In **Power BI Desktop** und im **Power BI-Dienst** können Sie das Erscheinungsbild eines Visuals ändern, indem Sie es nach verschiedenen Datenfeldern sortieren. Indem Sie die Sortierung eines Visuals ändern, können Sie die Informationen hervorheben, die Sie vermitteln möchten, und sicherstellen, dass das Visual den gewünschten Trend (oder den gewünschten zentralen Aspekt) widerspiegelt.
+In Power BI Desktop und im Power BI-Dienst können Sie das Erscheinungsbild eines Visuals ändern, indem Sie es nach verschiedenen Datenfeldern sortieren. Indem Sie die Sortierung eines Visuals ändern, können Sie die Informationen hervorheben, die Sie vermitteln möchten, und sicherstellen, dass das Visual den gewünschten Trend (oder den gewünschten zentralen Aspekt) widerspiegelt.
 
-Ob Sie numerische Daten (z.B. Umsatzzahlen) oder Text (z.B. Ländernamen) verwenden – die Visualisierungen lassen sich wunschgemäß sortieren und optisch aufbereiten.  **Power BI** bietet große Flexibilität beim Sortieren sowie Schnellmenüs. Wählen Sie in einem Visual das Menü mit den Auslassungszeichen (...) und dann das Feld aus, nach dem sortiert werden soll, wie in der folgenden Abbildung dargestellt.
+Ob Sie numerische Daten (z. B. Umsatzzahlen) oder Text (z. B. Ländernamen) verwenden – die Visualisierungen lassen sich wunschgemäß sortieren und optisch aufbereiten. Power BI bietet große Flexibilität beim Sortieren sowie Schnellmenüs. Klicken Sie auf das Menü **Weitere Optionen** (…), klicken Sie auf **Sortieren nach**, und wählen Sie dann das Feld aus, nach dem Sie sortieren möchten, um ein Visual zu sortieren.
 
 ![Menü „Mehr Optionen“](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-## <a name="more-depth-and-an-example"></a>Ausführliches Beispiel
-Sehen wir uns ein ausführliches Beispiel an und wie es in **Power BI Desktop** funktioniert.
+## <a name="sorting-example"></a>Sortierbeispiel
+Sehen Sie sich im Folgenden ein ausführliches Beispiel an und wie es in Power BI Desktop funktioniert.
 
-In der folgenden Visualisierung sind die Kosten, die Verkaufsmenge sowie der Rabattbetrag für den jeweiligen Herstellernamen aufgeführt. Hier sehen Sie die Visualisierung vor dem weiteren Sortieren.
+In der folgenden Visualisierung sind die Kosten, die Verkaufsmenge sowie der Rabattbetrag für den jeweiligen Herstellernamen aufgeführt. Hier sehen Sie die Visualisierung vor dem weiteren Sortieren:
 
 ![Erste Visualisierung](media/desktop-sort-by-column/sortbycolumn_1.png)
 
-Das visuelle Element ist derzeit nach **SalesQuantity** sortiert – dies wird durch Farbvergleich der absteigenden Balken mit der Legende ersichtlich. Es gibt jedoch eine bessere Möglichkeit zum Festlegen der aktuellen Sortierspalte: das Menü mit den Auslassungszeichen („...“) oben rechts im Visual. Nach Auswahl der Auslassungspunkte wird Folgendes angezeigt:
+Das Visual ist momentan nach der Spalte **SalesQuantity** sortiert. Sie können die Sortierspalte bestimmen, indem Sie die Farbe der aufsteigenden Balken mit der Legende abgleichen. Es gibt aber auch eine einfachere Möglichkeit. Klicken Sie dazu auf das Menü **Weitere Optionen** (…).
 
 ![Menü „Mehr Optionen“](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-* Das aktuelle Sortierfeld ist **SalesQuantity**, was durch den Fettdruck und die gelbe Leiste von **Sort By SalesQuantity** angegeben wird. 
+Die Sortierauswahl lautet folgendermaßen:
 
-* Die derzeitige Sortierrichtung ist von klein nach groß, was von dem kleinen Symbol **A/Z** (A nach Z) und einem Pfeil nach unten angegeben wird.
+* Das aktuelle Sortierfeld ist **SalesQuantity**, was durch den Fettdruck von und die gelbe Leiste vor **SalesQuantity** angegeben wird. 
 
-In den nächsten beiden Abschnitten betrachten wir das Sortierfeld und die -richtung unabhängig voneinander.
+* Die aktuelle Sortierrichtung ist aufsteigend, was durch den Fettdruck von und die gelbe Leiste vor **Aufsteigend sortieren** angegeben wird.
 
-## <a name="selecting-which-column-to-use-for-sorting"></a>Auswählen der Sortierspalte
-Möglicherweise haben Sie schon die gelbe Leiste neben **Sort By SalesQuantity** im Menü **Weitere Optionen** gesehen, die angibt, dass das Visual nach **SalesQuantity** sortiert ist. Das Sortieren nach einer anderen Spalte ist einfach – klicken Sie dazu auf die Auslassungszeichen, um das Menü unter Auslassungspunkten aufzurufen, und wählen Sie dann eine andere Spalte aus.
+In den nächsten beiden Abschnitten betrachten Sie das Sortierfeld und die Sortierrichtung.
 
-In der folgenden Abbildung wurde die Spalte *DiscountAmount* als Sortierspalte ausgewählt. Diese Spalte entspricht einer Linie im visuellen Element und keinem Balken. Nachstehend finden Sie die Darstellung nach Auswahl von **Sortieren nach DiscountAmount**.
+## <a name="select-which-column-to-use-for-sorting"></a>Auswählen der Sortierspalte
+Möglicherweise haben Sie schon die gelbe Leiste neben **SalesQuantity** im Menü **Weitere Optionen** gesehen, die angibt, dass das Visual nach der **SalesQuantity**-Spalte sortiert ist. Wenn Sie nach einer anderen Spalte sortieren möchten, ist dies einfach: Klicken Sie auf die Auslassungspunkte (…), um das Menü **Weitere Optionen** anzuzeigen, klicken Sie auf **Sortieren nach**, und wählen Sie dann eine andere Spalte aus.
+
+In der folgenden Abbildung wurde die Spalte **DiscountAmount** als Sortierspalte ausgewählt. Diese Spalte entspricht einer Linie im Visual und keinem Balken. 
 
 ![Sortieren nach DiscountAmount](media/desktop-sort-by-column/sortbycolumn_3.png)
 
-Beachten Sie, wie sich das visuelle Element geändert hat. Die Werte werden nun vom höchsten DiscountAmount-Wert im Visual „Fabrikam Inc.“ nach unten zum Hersteller „Northwind Traders“ sortiert, der über den niedrigsten Wert verfügt. 
+Beachten Sie, wie sich das visuelle Element geändert hat. Die Werte werden nun vom höchsten **DiscountAmount**-Wert im Visual „Fabrikam Inc.“ nach unten zum Hersteller „Northwind Traders“ sortiert. 
 
 Aber was geschieht, wenn wir statt in absteigender Reihenfolge aufsteigend sortieren möchten? Im nächsten Abschnitt wird gezeigt, wie einfach das ist.
 
-## <a name="selecting-the-sort-order---smallest-to-largest-largest-to-smallest"></a>Auswählen der Sortierreihenfolge – vom kleinsten zum größten und umgekehrt
-Ein genauerer Blick auf das Menü **Optionen** in der vorherigen Abbildung zeigt im Symbol neben **Sortieren nach DiscountAmount** den Schriftzug **Z/A** (Z nach A). Dies hat folgende Bedeutung:
+## <a name="select-the-sort-order"></a>Auswählen der Sortierreihenfolge
+Wenn Sie sich das **Weitere Optionen**-Menü in der vorherigen Abbildung genauer ansehen, sehen Sie, dass **Absteigend sortieren** fettgedruckt ist und eine gelbe Leiste davor angezeigt wird.
 
 ![Nach Größe sortieren (absteigend)](media/desktop-sort-by-column/sortbycolumn_4.png)
 
-Wenn **Z/A** angezeigt wird, zeigt dies eine Sortierreihenfolge im visuellen Element an, bei der zunächst der größte Wert und dann nacheinander die Werte bis hin zum kleinsten Wert berücksichtigt werden. Sie möchten dies ändern? Kein Problem – tippen oder klicken Sie hierzu einfach auf das Symbol **Z/A**. Damit ändern Sie die Sortierreihenfolge in **A/Z**, und im visuellen Element (in Bezug auf die ausgewählte Spalte) werden zunächst der kleinste Wert und dann die Werte bis hin zum größten Wert berücksichtigt.
+Wenn **Absteigend sortieren** ausgewählt wird, wird das Visual nach der ausgewählten Spalte vom größten zum kleinsten Wert sortiert. Sie möchten dies ändern? Das ist problemlos möglich. Wählen Sie einfach **Aufsteigend sortieren** aus, und die Sortierreihenfolge der ausgewählten Spalte ändert sich, sodass vom kleinsten zum größten Wert sortiert wird.
 
-Die Abbildung zeigt wieder dasselbe Visual, dieses Mal jedoch nach Tippen auf das Symbol **Z/A** im Menüelement **Sortieren nach DiscountAmount** zum Ändern der Sortierreihenfolge. Beachten Sie, dass Northwind Traders nun der erste aufgeführte Hersteller ist und Fabrikam Inc. der letzte – also das genaue Gegenteil wie zuvor.
+Unten sehen Sie das gleiche Visual, nachdem die Sortierung von **DiscountAmount** geändert wurde. Beachten Sie, dass Northwind Traders nun der erste aufgeführte Hersteller ist und Fabrikam Inc. der letzte – also das genaue Gegenteil wie zuvor.
 
 ![Nach Größe sortieren (aufsteigend)](media/desktop-sort-by-column/sortbycolumn_5.png)
 
-Die Darstellung lässt sich nach jeder im visuellen Element enthaltenen Spalte sortieren – beispielsweise könnte „SalesQuantity“ als Sortierspalte ausgewählt werden mit **Sortieren nach SalesQuantity**, um die Hersteller mit den meisten Verkäufen anzuzeigen. Die anderen Spalten werden dennoch im Visual berücksichtigt, wie auch immer sie für den betreffenden Hersteller gelten. Hier sehen Sie das visuelle Element mit den genannten Einstellungen.
+Die Darstellung lässt sich nach jeder im Visual enthaltenen Spalte sortieren – beispielsweise könnte **SalesQuantity** als Sortierspalte ausgewählt werden, um die Hersteller mit den meisten Verkäufen an erster Stelle anzuzeigen. Die anderen Spalten werden im Visual weiterhin berücksichtigt, so wie sie für den betreffenden Hersteller gelten. Hier sehen Sie das Visual mit den besprochenen Einstellungen:
 
 ![Sortieren nach SalesQuantity](media/desktop-sort-by-column/sortbycolumn_6.png)
 
@@ -71,40 +73,43 @@ Es gibt eine weitere Möglichkeit zum Sortieren von Daten. Sie können auf die S
 
 ![Sortieren nach Spalte (Schaltfläche)](media/desktop-sort-by-column/sortbycolumn_8.png)
 
-Bei diesem Verfahren zum Sortieren müssen Sie eine Spalte im Bereich **Felder** auswählen und anschließend auf die Schaltfläche **Nach Spalte sortieren** klicken, um auszuwählen, wie (d.h. nach welcher Spalte) die Visualisierung sortiert werden soll. Sie müssen die Spalte (Feld) im Bereich **Felder** auswählen, nach der sortiert werden soll, um die Schaltfläche **Nach Spalte sortieren** zu aktivieren – andernfalls ist die Schaltfläche inaktiv.
+Bei diesem Sortieransatz müssen Sie zuerst die Spalte (Feld) im Bereich **Felder** auswählen, die sortiert werden soll, und dann auf **Modellierung**  >  **Nach Spalte sortieren** klicken, um Ihr Visual zu sortieren. Wenn Sie keine Spalte auswählen, ist die Schaltfläche **Nach Spalte sortieren** inaktiv.
 
-Ein typisches Beispiel: Sie verfügen über Daten für die einzelnen Monate des Jahres, und diese sollen chronologisch sortiert werden. In den folgenden Schritten wird die Vorgehensweise erläutert.
+Im Folgenden wird ein gängiges Beispielszenario beschrieben. Sie verfügen über Daten für die einzelnen Monate des Jahres, und diese sollen chronologisch sortiert werden. In den folgenden Schritten wird die Vorgehensweise erläutert:
 
-1. Zunächst stellen Sie Folgendes fest: Wenn die Visualisierung, jedoch keine Spalte im Bereich **Felder** ausgewählt ist, ist die Schaltfläche **Nach Spalte sortieren** inaktiv (abgeblendet dargestellt).
+1. Zunächst stellen Sie Folgendes fest: Wenn das Visual, jedoch keine Spalte im Bereich **Felder** ausgewählt ist, ist die Schaltfläche **Nach Spalte sortieren** inaktiv (abgeblendet dargestellt).
    
    ![Inaktive „Nach Spalte sortieren“-Schaltfläche](media/desktop-sort-by-column/sortbycolumn_9.png)
 
 2. Wenn Sie im Bereich **Felder** die Spalte auswählen, nach der sortiert werden soll, wird die Schaltfläche **Nach Spalte sortieren** aktiviert.
    
    ![Aktive „Nach Spalte sortieren“-Schaltfläche](media/desktop-sort-by-column/sortbycolumn_10.png)
-3. Nun können Sie bei ausgewähltem Visual die Spalte *MonthOfYear* anstelle der Standardspalte (*MonthName*) auswählen, und das Visual wird in der gewünschten Reihenfolge sortiert: nach dem Monat des Jahres.
+3. Nun können Sie bei ausgewähltem Visual die Spalte **MonthOfYear** anstelle der Standardspalte **MonthName** auswählen, und das Visual wird in der gewünschten Reihenfolge sortiert: nach dem Monat des Jahres.
    
    ![Nach Spalte sortieren (Menü)](media/desktop-sort-by-column/sortbycolumn_11.png)
 
-Und das ist auch schon alles. Denken Sie daran, dass Sie im Bereich **Felder** eine Spalte auswählen müssen, damit die Schaltfläche **Nach Spalte sortieren** aktiviert wird.
 
-## <a name="getting-back-to-default-column-for-sorting"></a>Wiederherstellen der Standardsortierspalte
-Sie können nach einer beliebigen gewünschten Spalte sortieren, aber in bestimmten Situationen soll das visuelle Element anschließend wieder anhand der Standardsortierspalte dargestellt werden. Kein Problem. Öffnen Sie bei einem Visual mit ausgewählter Sortierspalte (die durch einen gelben Balken im Menü mit den Auslassungspunkten gekennzeichnet ist) einfach das Menü **Weitere Optionen**, und wählen Sie die Spalte erneut aus, damit für die Visualisierung wieder die Standardsortierspalte verwendet wird.
+<!---
+This functionality is no longer active. Jan 2020
 
-Hier ist z. B. das vorherige Diagramm:
+## Getting back to default column for sorting
+You can sort by any column you'd like, but there may be times when you want the visual to return to its default sorting column. No problem. For a visual that has a sort column selected, open the **More options** menu and select that column again, and the visualization returns to its default sort column.
 
-![Erste Visualisierung](media/desktop-sort-by-column/sortbycolumn_6.png)
+For example, here's our previous chart:
 
-Wenn im Menü erneut **SalesQuantity** ausgewählt wird, wird für das Visual wieder das Standardverhalten angewendet. Somit erfolgt eine alphabetische Sortierung nach **Manufacturer**, wie in der folgenden Abbildung gezeigt.
+![Initial visualization](media/desktop-sort-by-column/sortbycolumn_6.png)
 
-![Standardsortierspalte](media/desktop-sort-by-column/sortbycolumn_7.png)
+When we go back to the menu and select **SalesQuantity** again, the visual defaults to being ordered alphabetically by **Manufacturer**, as shown in the following image.
 
-Durch die vielen Optionen beim Sortieren der visuellen Elemente wird das Erstellen eines wunschgemäßen Diagramms oder Bilds vereinfacht.
+![Default sort order](media/desktop-sort-by-column/sortbycolumn_7.png)
+
+With so many options for sorting your visuals, creating just the chart or image you want is easy.
+--->
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Folgende Artikel könnten Sie ebenfalls interessieren:
 
 * [Use cross-report drillthrough in Power BI Desktop](desktop-cross-report-drill-through.md) (Verwenden der berichtsübergreifenden Drillthroughfunktion in Power BI Desktop)
-* [Verwenden von Slicern in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
+* [Datenschnitte in Power BI](visuals/power-bi-visualization-slicers.md)
 

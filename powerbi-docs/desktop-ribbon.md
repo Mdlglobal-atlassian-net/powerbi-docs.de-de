@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016133"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527425"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Verwenden der aktualisierten Schleife in Power BI Desktop (Vorschau)
 
@@ -51,7 +51,18 @@ Diese Vorteile können in folgende Kategorien unterteilt werden:
 
 * **Ein Menüband mit einer Zeile, das Platz spart, wenn es reduziert wird:** Ein weiterer Vorteil des aktualisierten Menübands ist, dass es auf nur eine Zeile reduziert werden kann und dann nur die Menübandelemente basierend auf Ihrem Kontext angezeigt werden. 
 
-    ![Verbesserte Designs](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Reduziertes Menüband](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **KeyTips zum Navigieren und Auswählen von Schaltflächen:** Sie können sich die Navigation auf dem Menüband erleichtern, indem Sie **ALT+WINDOWS-TASTE** drücken, um die KeyTips zu aktivieren. Nach der Aktivierung können Sie die angezeigten Tasten auf der Tastatur drücken, um zu navigieren.
+
+    ![KeyTips](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Benutzerdefinierte Formatzeichenfolgen:** Sie können nicht nur im Bereich *Eigenschaften* benutzerdefinierte Formatzeichenfolgen festlegen, sondern auch auf dem Menüband. Wählen Sie das Measure oder die Spalte aus, die Sie anpassen möchten. Dann wird je nach Auswahl eine der beiden folgenden kontextbezogenen Registerkarten angezeigt: **Messtools** oder **Spaltentools**. Im Formatierungsabschnitt der Registerkarte können Sie die benutzerdefinierte Formatzeichenfolge direkt in das Dropdownfeld eingeben.
+
+    ![Benutzerdefinierte Zeichenfolgen](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Barrierefreiheit:** Die Titelleiste, das Menüband und das Dateimenü sind barrierefrei. Drücken Sie STRG+F6, um zum Menübandbereich zu navigieren. Anschließend können Sie mithilfe der **TAB-TASTE** zwischen der oberen und unteren Leiste wechseln und mithilfe der Pfeiltasten zwischen den einzelnen Elementen navigieren.
+
 
 Zusätzlich zu diesen sichtbaren Änderungen können wir mit dem aktualisierten Menüband auch zukünftige Updates an Power BI Desktop und dessen Menüband vornehmen:
 

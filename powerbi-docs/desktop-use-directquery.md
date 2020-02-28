@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889280"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427229"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Verwenden von DirectQuery in Power BI Desktop
 Wenn Sie mit *Power BI Desktop* eine Verbindung mit Ihrer Datenquelle herstellen, können Sie immer eine Kopie der Daten in Power BI Desktop importieren. Für einige Datenquellen steht hierzu eine weitere Möglichkeit zur Verfügung: das Herstellen einer direkten Verbindung mit der Datenquelle mithilfe von DirectQuery.
@@ -44,10 +44,8 @@ Die Verwendung von DirectQuery besitzt folgende Vorteile:
 - Änderungen an den zugrunde liegenden Daten können eine Aktualisierung der Daten erforderlich machen. Für einige Berichte, die stets aktuelle Daten anzeigen müssen, sind eventuell umfangreiche Datenübertragungen erforderlich, sodass das erneute Importieren von Daten nicht durchführbar ist. Im Gegensatz dazu werden in DirectQuery-Berichten immer aktuelle Daten verwendet.
 - Die Einschränkung auf 1 GB für Datasets gilt *nicht* für DirectQuery.
 
-## <a name="limitations-of-directquery"></a>Einschränkungen von DirectQuery
+## <a name="limitations-of-directquery"></a>Einschränkungen für DirectQuery
 Derzeit bestehen bei der Verwendung von DirectQuery folgende Einschränkungen:
-
-- Alle Tabellen müssen aus einer einzelnen Datenbank stammen. Dies gilt nicht für [zusammengesetzte Modelle](desktop-composite-models.md).
 
 - Bei einer zu komplexen Abfrage im **Abfrage-Editor** tritt ein Fehler auf. Löschen Sie zur Behebung des Fehlers entweder den fraglichen Schritt im **Abfrage-Editor**, oder verwenden Sie anstelle von DirectQuery die Option *Import*. Für mehrdimensionale Datenquellen wie SAP Business Warehouse ist kein **Abfrage-Editor** verfügbar.
 
@@ -94,7 +92,7 @@ Wenn die verwendete Datenquelle kein **lokales Datengateway** benötigt (**Azure
 
 4. Fügen Sie die Anmeldeinformationen hinzu. Andernfalls tritt ein Fehler auf, wenn Sie einen veröffentlichten Bericht öffnen oder ein Dataset untersuchen, das mit einer DirectQuery-Verbindung erstellt wurde.
 
-Wenn Sie eine Verbindung mit einer anderen Datenquelle als **Azure SQL-Datenbank**, **Azure SQL Data Warehouse** und **Redshift** herstellen möchten, die DirectQuery verwendet, installieren Sie ein **lokales Datengateway**, und registrieren Sie die Datenquelle. Weitere Informationen finden Sie unter [Was ist ein lokales Datengateway?](service-gateway-onprem.md).
+Wenn Sie eine Verbindung mit einer anderen Datenquelle als **Azure SQL-Datenbank**, **Azure SQL Data Warehouse**, **Redshift** oder **Snowflake Data Warehouse** herstellen möchten, die DirectQuery verwendet, installieren Sie ein **lokales Datengateway**, und registrieren Sie die Datenquelle. Weitere Informationen finden Sie unter [Was ist ein lokales Datengateway?](service-gateway-onprem.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu DirectQuery finden Sie in den folgenden Ressourcen:

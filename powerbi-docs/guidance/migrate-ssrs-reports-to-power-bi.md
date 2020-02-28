@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889234"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527290"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migrieren von SQL Server Reporting Services-Berichten zu Power BI
 
@@ -31,7 +31,7 @@ Die Anleitung ist in vier Phasen unterteilt. Es wird empfohlen, vor der Migratio
 
 Sie können die Migration ohne Ausfallzeiten auf Ihren SSRS-Servern oder ohne Unterbrechungen für Ihre Berichtsbenutzer durchführen. Es ist wichtig zu wissen, dass keine Daten oder Berichte entfernt werden müssen. Es bedeutet also, dass Sie Ihre aktuelle Umgebung beibehalten können, bis Sie bereit sind, die Anwendung außer Kraft zu setzen.
 
-## <a name="before-you-start"></a>Vorbereitung
+## <a name="before-you-start"></a>Bevor Sie beginnen
 
 Bevor Sie mit der Migration beginnen, sollten Sie überprüfen, ob Ihre Umgebung bestimmte Voraussetzungen erfüllt. Wir beschreiben diese Voraussetzungen und stellen Ihnen auch ein hilfreiches Migrationstool vor.
 
@@ -41,16 +41,16 @@ Wenn Sie die Migration Ihrer Berichte für Power BI vorbereiten, vergewissern Si
 
 ### <a name="supported-versions"></a>Unterstützte Versionen
 
-Sie können SSRS-Instanzen migrieren, die lokal oder auf virtuellen Computern ausgeführt werden, die von Cloudanbietern wie Azure gehostet werden. 
+Sie können SSRS-Instanzen migrieren, die lokal oder auf virtuellen Computern ausgeführt werden, die von Cloudanbietern wie Azure gehostet werden.
 
 Die folgende Liste beschreibt die für die Migration zu Power BI unterstützten SQL Server-Versionen:
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 Eine Migration vom Power BI-Berichtsserver ist ebenfalls möglich.
 
@@ -60,11 +60,11 @@ Es wird empfohlen, dass Sie das [RDL-Migrationstool](https://github.com/microsof
 
 Das Tool automatisiert die folgenden Aufgaben:
 
-* Prüfung auf [nicht unterstützte Datenquellen](../paginated-reports-data-sources.md) und [nicht unterstützte Berichtsfeatures](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-* Umwandlung beliebiger _freigegebener_ Ressourcen in _eingebettete_ Ressourcen:
-  * Freigegebene **Datenquellen** werden zu eingebetteten Datenquellen
-  * Freigegebene **Datasets** werden zu eingebetteten Datasets
-* Veröffentlichung von Berichten (die Prüfungen bestehen) als paginierte Berichte in einem bestimmten Power BI-Arbeitsbereich (auf einer Premium-Kapazität)
+- Prüfung auf [nicht unterstützte Datenquellen](../paginated-reports-data-sources.md) und [nicht unterstützte Berichtsfeatures](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+- Umwandlung beliebiger _freigegebener_ Ressourcen in _eingebettete_ Ressourcen:
+  - Freigegebene **Datenquellen** werden zu eingebetteten Datenquellen
+  - Freigegebene **Datasets** werden zu eingebetteten Datasets
+- Veröffentlichung von Berichten (die Prüfungen bestehen) als paginierte Berichte in einem bestimmten Power BI-Arbeitsbereich (auf einer Premium-Kapazität)
 
 Vorhandene Berichte werden nicht geändert oder entfernt. Nach Abschluss gibt das Tool eine Zusammenfassung aller abgeschlossenen Aktionen aus – erfolgreich oder nicht erfolgreich.
 
@@ -74,11 +74,11 @@ Im Laufe der Zeit wird das Tool möglicherweise von Microsoft verbessert. Die Co
 
 Nachdem Sie überprüft haben, dass Ihr Unternehmen die Voraussetzungen erfüllt, können Sie mit der Phase der _Migrationsvorbereitung_ beginnen. Diese Phase besteht aus drei Stufen:
 
-1. Entdecken
+1. Ermitteln
 1. Bewerten
 1. Vorbereiten
 
-### <a name="discover"></a>Entdecken
+### <a name="discover"></a>Ermitteln
 
 Das Ziel der Phase _Ermitteln_ ist es, Ihre vorhandenen SSRS-Instanzen zu identifizieren. Dieser Prozess umfasst die Überprüfung des Netzwerks, um alle SQL Server-Instanzen in Ihrem Unternehmen zu identifizieren.
 
@@ -92,13 +92,13 @@ Nur RDL-Berichte können von Ihren SSRS-Servern zu Power BI migriert werden. Jed
 
 Die folgenden SSRS-Elementtypen können jedoch nicht zu Power BI migriert werden:
 
-* Freigegebene Datenquellen <sup>1</sup>
-* Freigegebene Datasets <sup>1</sup>
-* Ressourcen wie Bilddateien
-* KPIs (SSRS 2016 oder höher – nur Enterprise Edition)
-* Mobile Berichte (SSRS 2016 oder höher – nur Enterprise Edition)
-* Berichtsmodelle (veraltet)
-* Berichtsteile (veraltet)
+- Freigegebene Datenquellen <sup>1</sup>
+- Freigegebene Datasets <sup>1</sup>
+- Ressourcen wie Bilddateien
+- KPIs (SSRS 2016 oder höher – nur Enterprise Edition)
+- Mobile Berichte (SSRS 2016 oder höher – nur Enterprise Edition)
+- Berichtsmodelle (veraltet)
+- Berichtsteile (veraltet)
 
 <sup>1</sup> Das [RDL-Migrationstool](https://github.com/microsoft/RdlMigration) konvertiert automatisch freigegebene Datenquellen und freigegebene Datasets, sofern diese unterstützte Datenquellen verwenden.
 
@@ -120,6 +120,7 @@ Das Ziel der Phase _Vorbereiten_ besteht darin, alles vorzubereiten. Sie umfasst
 1. Verwenden Sie [Power BI Desktop](../desktop-what-is-desktop.md), um für Mobilgeräte optimierte Berichte zu entwickeln, möglicherweise unter Verwendung des [benutzerdefinierten visuellen Power KPI-Elements](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) anstelle Ihrer mobilen SSRS-Berichte und -KPIs.
 1. Bewerten Sie die Verwendung des integrierten Felds **UserID** in Ihren Berichten neu. Wenn Sie Berichtsdaten mit **UserID** sichern, müssen Sie sich bewusst sein, dass bei paginierten Berichten, die im Power BI-Dienst gehostet werden, der Benutzerprinzipalname (User Principal Name, UPN) zurückgegeben wird. So gibt das integrierte Feld z. B. statt des NT-Kontonamens _AW\mblythe_ eine Zeichenfolge ähnlich _m.blythe&commat;adventureworks.com_ zurück. Sie müssen die Datasetdefinitionen und möglicherweise die Quelldaten überarbeiten. Nach der Überarbeitung und Veröffentlichung empfiehlt es sich, Ihre Berichte gründlich zu testen, um sicherzustellen, dass die Datenberechtigungen wie erwartet funktionieren.
 1. Bewerten Sie die Verwendung des integrierten Felds **ExecutionTime** in Ihren Berichten neu. Bei paginierten-Berichten, die im Power BI-Dienst gehostet sind, gibt das integrierte Feld das Datum und die Uhrzeit in der Zeitangabe _koordinierte Weltzeit (Coordinated Universal Time, UCT)_ an. Das kann Auswirkungen auf die Standardwerte für Berichtsparameter und auf die Bezeichnungen haben, die die Zeit der Berichtsausführung angeben. Letztere werden häufig in Fußzeilen von Berichten verwendet.
+1. Vergewissern Sie sich, dass die Berichte keine Kartenvisualisierungen verwenden, wenn Ihre Datenquelle SQL Server (lokal) ist. Die Kartenvisualisierung hängt von räumlichen SQL Server-Datentypen ab, und diese werden vom Gateway nicht unterstützt. Weitere Informationen finden Sie unter [Leitfaden zum Datenabruf bei paginierten Berichten (komplexe SQL Server-Datentypen)](report-paginated-data-retrieval.md#sql-server-complex-data-types).
 1. Stellen Sie sicher, dass Ihre Berichtsautoren [Power BI Report Builder](../report-builder-power-bi.md) installiert haben und dass spätere Versionen problemlos im gesamten Unternehmen verteilt werden können.
 
 ## <a name="migration-stage"></a>Migrationsphase
@@ -146,8 +147,8 @@ Jeder mit der Berechtigung für den Zugriff auf die SSRS-Instanz und den Power B
 
 Es gibt zwei Optionen für eine automatisierte Migration. Verwenden Sie Folgendes:
 
-* RDL-Migrationstool
-* Öffentlich verfügbare APIs für SSRS und Power BI
+- RDL-Migrationstool
+- Öffentlich verfügbare APIs für SSRS und Power BI
 
 Das [RDL-Migrationstool](#migration-tool) wurde bereits in diesem Artikel beschrieben.
 
@@ -155,8 +156,8 @@ Sie können auch die öffentlich verfügbaren SSRS- und Power BI-APIs verwenden,
 
 Weitere Informationen zu den APIs finden Sie unter:
 
-* [Referenz für Power BI-REST-API](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services-REST-APIs](/sql/reporting-services/developer/rest-api)
+- [Referenz für Power BI-REST-API](../developer/rest-api-reference.md)
+- [SQL Server Reporting Services-REST-APIs](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>Phase der Migrationsnachbereitung
 
@@ -182,20 +183,21 @@ Die Phase der Migrationsnachbereitung ist entscheidend für die Abstimmung aller
 
 Weitere Informationen zu diesen Problemen, einschließlich bestimmter Schritte, um sie zu verstehen und zu mildern, finden Sie in den folgenden Artikeln:
 
-* [Optimieren von Premium-Kapazitäten](../service-premium-capacity-optimize.md)
-* [Überwachen von Premium-Kapazitäten über die App](../service-admin-premium-monitor-capacity.md)
+- [Optimieren von Premium-Kapazitäten](../service-premium-capacity-optimize.md)
+- [Überwachen von Premium-Kapazitäten über die App](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-* [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports-report-builder-power-bi.md)
-* Guy in a Cube-Video: [Einführung in paginierte Berichte in Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [Wann sollten paginierte Berichte in Power BI verwendet werden?](report-paginated-or-power-bi.md)
-* [Paginierte Berichte in Power BI: häufig gestellte Fragen](../paginated-reports-faq.md)
-* [Power BI Premium – Häufig gestellte Fragen (FAQ)](../service-premium-faq.md)
-* [RDL-Migrationstool](https://github.com/microsoft/RdlMigration)
-* Fragen? [Fragen Sie die Power BI-Community](https://community.powerbi.com/)
-* Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
+- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports-report-builder-power-bi.md)
+- [Leitfaden zum Datenabruf bei paginierten Berichten](report-paginated-data-retrieval.md)
+- Guy in a Cube-Video: [Einführung in paginierte Berichte in Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
+- [Wann sollten paginierte Berichte in Power BI verwendet werden?](report-paginated-or-power-bi.md)
+- [Paginierte Berichte in Power BI: häufig gestellte Fragen](../paginated-reports-faq.md)
+- [Power BI Premium – Häufig gestellte Fragen (FAQ)](../service-premium-faq.md)
+- [RDL-Migrationstool](https://github.com/microsoft/RdlMigration)
+- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
 
 Power BI-Partner stehen zur Verfügung, um Ihr Unternehmen bei der erfolgreichen Migration zu unterstützen. Wenn Sie einen Power BI-Partner hinzuziehen möchten, besuchen Sie das [Power BI-Partnerportal](https://powerbi.microsoft.com/partners/).

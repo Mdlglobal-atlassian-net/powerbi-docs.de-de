@@ -1,33 +1,33 @@
 ---
 title: 'Tutorial: Verwenden von „In Excel analysieren“'
-description: In diesem Tutorial importieren Sie über die Seite „Power BI-Datasets“ Datasets in Excel.
+description: In diesem Tutorial beginnen Sie in Excel und stellen eine Verbindung zu der Seite „Power BI-Datasets“ her, um Datasets in Excel zu importieren.
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921483"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426539"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>Tutorial: Verwenden von „In Excel analysieren“
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Tutorial: Verwenden von „In Excel analysieren“
 
-Wenn in Ihrer Organisation Power BI für die Freigabe des Datenzugriffs verwendet wird, können Sie mit dem Feature „In Excel analysieren“ PivotTables und PivotCharts erstellen, um Ihre Analysen besser zu kontextualisieren oder relevante Datasets schneller zu finden und zu importieren.
+Wenn in Ihrer Organisation Power BI für die Freigabe des Datenzugriffs verwendet wird, Sie starten die Power BI-Funktion „In Excel analysieren“ aus Excel, um PivotTables und PivotCharts in Excel zu erstellen. Diese können zusätzlichen Kontext in Ihre Analyse einbringen oder den Zeitaufwand reduzieren, relevante Datasets zu finden und zu importieren.
 
-Klicken Sie anfangs für die Auswahl eines Datasets auf „In Excel analysieren“. Sie werden daraufhin durch die Erstellung einer PivotTable geführt, die die Daten verwendet.  
+Klicken Sie zum Einstieg in ein Power BI-Dataset in Excel auf „In Excel analysieren“. Sie werden daraufhin durch die Erstellung einer PivotTable geführt, die die Daten verwendet.  
 
 Wenn Sie zur Seite „Datasets“ zurückkehren, können Sie zusätzliche, von Ihrer Organisation freigegebene Datasets finden.
 
-Klicken Sie im entsprechenden Schritt im Flow darunter auf „Nein“, und senden Sie Feedback über das verlinkte Formular, falls zu irgendeinem Zeitpunkt Probleme auftreten sollten.  
+Klicken Sie im entsprechenden Schritt im Flow darunter auf **Nein**, und senden Sie Feedback über das verlinkte Formular, falls zu irgendeinem Zeitpunkt Probleme auftreten sollten.  
 
-In diesem Tutorial lernen Sie Folgendes:
+In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 
 > [!div class="checklist"]
 > * Herunterladen einer ODC-Datei von der Seite „Power BI-Datasets“

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410843"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527520"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informationen zum Sternschema und der Wichtigkeit für Power BI
 
@@ -71,9 +71,10 @@ Sie sollten wissen, dass Power BI-Modelle eine zweite Methode für die Zusammenf
 
 ![Beispiel in der Feldliste](media/star-schema/field-list-example.png)
 
-Es gibt jedoch zwei überzeugende Gründe für die Erstellung von Measures, auch für einfache Zusammenfassungen auf Spaltenebene:
+Es gibt jedoch drei überzeugende Gründe für die Erstellung von Measures, auch für einfache Zusammenfassungen auf Spaltenebene:
 
 - Wenn Sie wissen, dass Ihre Berichtsautoren das Modell mithilfe von [mehrdimensionalen Ausdrücken (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) abfragen, muss das Modell _explizite Measures_ enthalten. Explizite Measures werden mit DAX definiert. Dieser Entwurfsansatz ist äußerst relevant, wenn ein Power BI-DataSet mithilfe von MDX abgefragt wird, da keine Summen von Spaltenwerten mit MDX möglich sind. Insbesondere wird MDX für [Analysen in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) verwendet (PivotTables geben MDX-Abfragen aus).
+- Wenn Sie wissen, dass Ihre Berichtsautoren paginierte Power BI-Berichte mit dem MDX-Abfrage-Designer erstellen, muss das Modell explizite Measures enthalten. Nur der MDX-Abfrage-Designer unterstützt [Serveraggregate](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Wenn für Berichtsautoren also von Power BI ausgewertete Measures benötigt werden (anstelle der paginierten Berichts-Engine), müssen sie den MDX-Abfrage-Designer verwenden.
 - Wenn Sie sicherstellen müssen, dass Ihre Berichtsautoren Spalten nur auf bestimmte Weisen zusammenfassen können. Beispielsweise kann die Spalte **Unit Price** (Einzelpreis) des Wiederverkäufers (die einen Preis pro Einheit darstellt) zusammengefasst werden, aber nur mithilfe spezifischer Aggregationsfunktionen. Diese Spalte sollte nie zusammengefast werden, jedoch ist es angebracht, sie mithilfe anderer Aggregationsfunktionen zusammenzufassen (min, max, average usw.). In diesem Fall kann der Modellierer die Spalte **Unit Price** (Einzelpreis) ausblenden und Measures für alle entsprechenden Aggregationsfunktionen erstellen.
 
 Hinweis: Dieser Entwurfsansatz eignet sich für Berichte, die im Power BI-Dienst erstellt wurden, und für Q&A. Jedoch können Power BI Desktop-Liveverbindungen Berichtsautoren ermöglichen, ausgeblendete Felder im Bereich **Felder** anzuzeigen, wodurch dieser Entwurfsansatz umgangen werden kann.

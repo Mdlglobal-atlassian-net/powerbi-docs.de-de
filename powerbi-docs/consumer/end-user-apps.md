@@ -3,21 +3,22 @@ title: Was ist eine Power BI-App?
 description: In Power BI lassen sich zusammengehörige Dashboards und Berichte zu Apps zusammenfassen.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851023"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496706"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ Ihre Apps sind in der Inhaltsliste der **Apps** organisiert. Wählen Sie einfach
 ![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> Für die Verwendung der Apps-Funktion ist eine Power BI Pro-Lizenz erforderlich. <!-- add link to how to figure out your license -->
+> Für die Verwendung der Apps-Funktion ist eine Power BI Pro-Lizenz erforderlich. [Ermitteln des Lizenztyps](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***Designer*** und ***Endbenutzer*** von Apps
+## <a name="app-designers-and-app-consumers"></a>*Designer* und *Endbenutzer* von Apps
 Je nach Rolle gibt es *Designer*, die Apps zur eigenen Nutzung oder zur Freigabe für Kollegen erstellen, und *Benutzer*, die von anderen Personen erstellte Apps erhalten und herunterladen. Dieser Artikel richtet sich an *Endbenutzer* von Apps.
 
 ## <a name="advantages-of-apps"></a>Vorteile von Apps

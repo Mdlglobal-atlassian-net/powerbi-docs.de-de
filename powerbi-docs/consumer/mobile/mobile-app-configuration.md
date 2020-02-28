@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538265"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496753"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Remotekonfiguration der Power BI-App mithilfe des Tools für die mobile Geräteverwaltung
 
@@ -51,7 +51,7 @@ Die Power BI-App für Android bietet Administratoren die Möglichkeit, die Inter
 | Schlüssel | Typ | Werte | Beschreibung |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Zeichenfolge |  <nobr>single-tap</nobr> (einfaches Tippen)<br><nobr>double-tap</nobr> (Doppeltippen) | Konfiguriert, ob durch das Tippen auf ein Visual auch ein Datenpunkt ausgewählt wird. |
-| ccom.microsoft.powerbi.mobile.RefreshAction | Zeichenfolge |  <nobr>pull-to-refresh</nobr> (Zum Aktualisieren nach unten ziehen)<br>aus. | Konfiguriert, ob dem Benutzer eine Schaltfläche zum Aktualisieren des Berichts zur Verfügung gestellt wird oder ob er das Feature „Zum Aktualisieren nach unten ziehen“ verwenden soll. |
+| com.microsoft.powerbi.mobile.RefreshAction | Zeichenfolge |  <nobr>pull-to-refresh</nobr> (Zum Aktualisieren nach unten ziehen)<br>aus. | Konfiguriert, ob dem Benutzer eine Schaltfläche zum Aktualisieren des Berichts zur Verfügung gestellt wird oder ob er das Feature „Zum Aktualisieren nach unten ziehen“ verwenden soll. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Zeichenfolge |  docked (gedockt)<br>dynamisch | Konfiguriert, ob die Fußzeile des Berichts am unteren Rand angedockt oder automatisch ausgeblendet wird. |
 
 ## <a name="deploying-app-configuration-settings"></a>Bereitstellen von App-Konfigurationseinstellungen

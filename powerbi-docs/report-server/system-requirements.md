@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540565"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558564"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
 
@@ -23,7 +23,7 @@ In diesem Artikel werden die Mindestanforderungen an die Hardware und Software z
 
 | Komponente | Anforderung |
 | --- | --- |
-| .NET Framework |4.6<br><br>Über [Microsoft .NET Framework 4.6 (Webinstaller) für Windows](https://support.microsoft.com/kb/3045560) können Sie .NET Framework manuell installieren.<br/><br/> Weitere Informationen, Empfehlungen und Anleitungen zu .NET Framework 4.6 finden Sie im [Handbuch für die Bereitstellung von .NET Framework für Entwickler](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 und Windows Server 2012 R2 erfordern die Installation von [KB2919355](https://support.microsoft.com/kb/2919355) vor der Installation von .NET Framework 4.6. |
+| .NET Framework |4,7<br><br>Über [Microsoft .NET Framework 4.7 (Webinstaller) für Windows](https://support.microsoft.com/en-us/kb/3186500) können Sie .NET Framework manuell installieren.<br/><br/> Weitere Informationen, Empfehlungen und Anleitungen zu .NET Framework 4.7 finden Sie im [Handbuch für die Bereitstellung von .NET Framework für Entwickler](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 und Windows Server 2012 R2 erfordern die Installation von [KB2919355](https://support.microsoft.com/kb/2919355) vor der Installation von .NET Framework 4.7. |
 | Festplatte |Power BI-Berichtsserver erfordert mindestens 1 GB verfügbaren Speicherplatz auf der Festplatte.<br><br>Außerdem ist zusätzlicher Speicherplatz auf dem Datenbankserver erforderlich, der die Berichtsserver-Datenbank hostet. |
 | Arbeitsspeicher |**Minimum:** 1 GB<br/><br/> **Empfohlen:** Mindestens 4 GB |
 | Prozessorgeschwindigkeit |**Minimum:** x64-Prozessor: 1,4 GHz<br/><br/> **Empfohlen:** 2,0 GHz oder schneller |
@@ -38,6 +38,7 @@ In diesem Artikel werden die Mindestanforderungen an die Hardware und Software z
 
 Als Host der Berichtsserver-Datenbanken wird SQL Server verwendet. Die Instanz der SQL Server-Datenbank-Engine kann eine lokale oder Remoteinstanz sein. Die folgenden unterstützten Versionen der SQL Server-Datenbank-Engine können als Host der Berichtsserver-Datenbanken verwendet werden:
 
+* Verwaltete Azure SQL-Instanz (Power BI-Berichtsserver-Version und Januar 2020 und höher)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016

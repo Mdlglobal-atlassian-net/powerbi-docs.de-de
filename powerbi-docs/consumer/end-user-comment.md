@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852033"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496493"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Hinzufügen von Kommentaren zu einem Dashboard oder Bericht
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Sie können einem Dashboard oder Bericht einen persönlichen Kommentar hinzufügen oder über ein Dashboard oder einen Bericht eine Unterhaltung mit Ihren Kollegen beginnen. Das Feature **Kommentare** ist nur eine der Möglichkeiten, wie ein *Endbenutzer* mit anderen Personen interagieren kann. 
 
 ![Video zu Kommentaren](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> Für die Zusammenarbeit mit anderen Benutzern, beispielsweise für das Hinzufügen von Kommentaren zu freigegebenen Berichten, ist eine Power BI Pro- oder Power BI Premium-Lizenz erforderlich. [Welchen Lizenztyp habe ich?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>Verwenden des Features „Kommentare“
 Kommentare können einem gesamten Dashboard, einzelnen Visuals auf einem Dashboard, einer Berichtseite, einem paginierten Bericht und einzelnen Visuals auf einer Berichtseite hinzugefügt werden. Sie können einen allgemeinen Kommentar oder einen Kommentar hinzufügen, der sich an bestimmte Kollegen richtet.  
@@ -34,7 +39,7 @@ Wenn Sie einem Bericht einen Kommentar hinzufügen, erfasst Power BI die aktuell
 
 Warum ist dies wichtig? Nehmen wir an, eine Kollegin hat einen Filter angewendet, der einen interessanten Einblick gewährt, den sie mit dem Team teilen möchte. Ohne dass dieser Filter ausgewählt ist, ergibt der Kommentar möglicherweise keinen Sinn.
 
-Wenn Sie einen paginierten Bericht verwenden, können Sie nur einen allgemeinen Kommentar zu Ihrem Bericht hinterlassen.  Das Hinterlassen von Kommentaren in einzelnen Berichtsvisuals wird nicht unterstützt.
+Wenn Sie einen paginierten Bericht verwenden, können Sie nur einen allgemeinen Kommentar zu Ihrem Bericht hinterlassen.  Das Hinterlassen von Kommentaren in einzelnen paginierten Berichtsvisuals wird nicht unterstützt.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Hinzufügen eines allgemeinen Kommentars zu einem Dashboard oder Bericht
 Die Vorgehensweise zum Hinzufügen von Kommentaren zu einem Dashboard oder Bericht ist ähnlich.  In diesem Beispiel wird ein Dashboard verwendet. 

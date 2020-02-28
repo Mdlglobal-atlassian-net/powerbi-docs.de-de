@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852256"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496645"
 ---
 # <a name="what-are-bookmarks"></a>Was sind Lesezeichen?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Lesezeichen erfassen die aktuell konfigurierte Ansicht einer Berichtseite, einschließlich Filtern, Datenschnitten und dem Zustand von Visuals. Beim Klicken auf ein Lesezeichen gelangen Sie in Power BI dann wieder zu dieser Ansicht. Es gibt zwei Arten von Lesezeichen: von Ihnen selbst erstellte und von *Berichts-Designern* erstellte.
+Lesezeichen erfassen die aktuell konfigurierte Ansicht einer Berichtseite, einschließlich Filtern, Datenschnitten und dem Zustand von Visuals. Beim Klicken auf ein Lesezeichen gelangen Sie in Power BI dann wieder zu dieser Ansicht. Es gibt zwei Arten von Lesezeichen: von Ihnen selbst erstellte und von *Berichts-Designern* erstellte. Alle Power BI-Benutzer können persönliche Lesezeichen erstellen. Zum Verwenden von Lesezeichen, die von anderen Benutzern erstellt wurden, ist jedoch eine Power BI Pro- oder Power BI Premium-Lizenz erforderlich. [So ermitteln Sie Ihren Lizenztyp](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Lesezeichen besitzen viele unterschiedliche Verwendungsmöglichkeiten. Angenommen Sie entdecken eine interessante Information und möchten später darauf zurückkommen können – mit einem Lesezeichen ist dies jederzeit möglich. Wenn Sie Ihre Arbeit unterbrechen müssen, den aktuellen Stand aber beibehalten möchten – erstellen Sie ein Lesezeichen. Sie können ein Lesezeichen sogar als Standardansicht des Berichts festlegen, damit bei jedem Öffnen zunächst diese Ansicht der Berichtseite angezeigt wird. 
@@ -33,6 +35,9 @@ Klicken Sie in der Menüleiste auf **Lesezeichen** > **Weitere Lesezeichen anzei
 
 ### <a name="report-bookmarks"></a>Berichtlesezeichen
 Wurden vom *Berichts-Designer* Berichtlesezeichen hinzugefügt, finden Sie diese unter der Überschrift **Berichtlesezeichen**. Diese Berichtseite hat zwei Lesezeichen, B1 und B2. 
+
+> [!NOTE]
+> Sie benötigen Power BI Pro oder Power BI Premium, um geteilte Berichte aufzurufen. 
 
 ![Anzeigen von Berichtlesezeichen](media/end-user-bookmarks/power-bi-report.png)
 

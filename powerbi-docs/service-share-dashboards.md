@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565654"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426677"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Freigeben von Power BI-Dashboards und -Berichten für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Zudem bietet Power BI [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen von Dashboards und Berichten](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -37,7 +37,7 @@ Sehen Sie sich an, wie Amanda ihr Dashboard für Kollegen im eigenen Unternehmen
 
 ## <a name="share-a-dashboard-or-report"></a>Freigeben eines Dashboards oder Berichts
 
-1. Wählen Sie in einer Liste von Dashboards bzw. Berichten oder in einem geöffneten Dashboard oder Bericht **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png).
+1. Klicken Sie in einer Liste von Dashboards oder Berichten oder in einem geöffneten Dashboard oder Bericht auf **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png).
 
 2. Geben Sie im oberen Feld die vollständigen E-Mail-Adressen für Einzelpersonen, Verteilergruppen oder Sicherheitsgruppen ein. Bei dynamischen Verteilerlisten sind Freigaben nicht möglich. 
    
@@ -70,7 +70,7 @@ Sehen Sie sich an, wie Amanda ihr Dashboard für Kollegen im eigenen Unternehmen
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Anzeigen der Benutzer mit Zugriff auf ein Dashboard oder Bericht
 In einigen Fällen müssen Sie sehen können, für welche Personen Sie Inhalte freigegeben haben, und für welche Personen diese die Inhalte freigegeben haben.
 
-1. Wählen Sie in der Liste der Dashboards und Berichte oder im Dashboard bzw. Bericht selbst **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png) aus. 
+1. Klicken Sie in der Liste der Dashboards und Berichte oder im Dashboard oder Bericht selbst auf **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png). 
 2. Wählen Sie im Dialogfeld **Dashboard freigeben** oder **Bericht freigeben** die Option **Zugriff** aus.
    
     ![Dialogfeld „Dashboard freigeben“, Registerkarte „Zugriff“](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -90,6 +90,8 @@ Nur direkten Empfängern wird das freigegebene Dashboard bzw. der freigegebene B
 
 Personen außerhalb Ihrer Organisation können keine Daten anzeigen, wenn für lokale Analysis Services-Tabellenmodelle die Sicherheit auf Rollen- oder Zeilenebene implementiert ist.
 
+Verwenden Sie eine Sicherheitsgruppe, keine Verteilergruppe, um Freigaben für eine Gruppe zu erteilen, in der Personen mit externen E-Mail-Adressen enthalten sind. Personen mit externen E-Mail-Adressen in einer Verteilergruppe können die von Ihnen freigegebenen Inhalte nicht sehen, es sei denn, es handelt sich um Azure AD-B2B-Gastbenutzer. Weitere Informationen erhalten Sie im Artikel [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B](service-admin-azure-ad-b2b.md).
+
 Wenn Sie aus einer mobilen Power BI-App einen Link an Personen außerhalb Ihrer Organisation senden, wird durch Klicken auf den Link das Dashboard in einem Browser und nicht in der mobilen Power BI-App geöffnet.
 
 ### <a name="allow-external-users-to-edit-content"></a>Zulassen von Bearbeitungen der Inhalte durch externe Benutzer
@@ -103,7 +105,7 @@ Nur der Dashboard- bzw. Berichtbesitzer kann die erneute Freigabe aktivieren
 * Deaktivieren Sie unten in der Einladung das Kontrollkästchen **Empfängern das Freigeben Ihres Dashboards (oder Berichts) erlauben**, bevor Sie sie senden.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Wenn Sie das Dashboard bzw. den Bericht bereits freigegeben haben
-1. Wählen Sie in der Liste der Dashboards und Berichte oder im Dashboard bzw. Bericht selbst **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png) aus. 
+1. Klicken Sie in der Liste der Dashboards und Berichte oder im Dashboard oder Bericht selbst auf **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png). 
 2. Wählen Sie im Dialogfeld **Dashboard freigeben** oder **Bericht freigeben** die Option **Zugriff** aus.
    
     ![Dialogfeld „Dashboard freigeben“, Registerkarte „Zugriff“](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -163,7 +165,7 @@ In diesem Fall müssen Sie ihnen eine Berechtigung für das zugrunde liegende Da
     ![E-Mail-Adressen hinzufügen](media/service-share-dashboards/power-bi-add-user-dataset.png)
 
 
-1. Wählen Sie **Hinzufügen**.
+1. Klicken Sie auf **Hinzufügen**.
 
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Ein Dashboard oder Bericht kann nicht freigegeben werden
 

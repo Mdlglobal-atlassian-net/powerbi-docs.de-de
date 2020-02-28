@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925670"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426562"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organisieren der Arbeit in den neuen Power BI-Arbeitsbereichen
 
@@ -68,15 +68,16 @@ Folgende Rollen sind verfügbar: Administrator, Mitglied, Mitwirkender und Betra
 | Personen hinzufügen/entfernen (einschließlich anderer Administratoren).  | X  |   |   |   |
 | Mitglieder oder andere Benutzer mit niedrigeren Berechtigungen hinzufügen.  |  X | X  |   |   |
 | Apps veröffentlichen und aktualisieren. |  X | X  |   |   |
-| Elemente und Apps freigeben. |  X | X  |   |   |
-| Anderen erlauben, Elemente erneut freizugeben. |  X | X  |   |   |
+| Elemente und Apps freigeben<sup>1</sup> |  X | X  |   |   |
+| Anderen erlauben, Elemente erneut freizugeben<sup>1</sup> |  X | X  |   |   |
 | Inhalte im Arbeitsbereich erstellen, bearbeiten und löschen.  |  X | X  | X  |   |
 | Berichte im Arbeitsbereich veröffentlichen und Inhalt löschen.  |  X | X  | X  |   |
 | Erstellen Sie einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich.<sup>1</sup> |  X | X  | X  |   |
-| Kopieren Sie einen Bericht.<sup>1</sup> | X | X | X |  |
-| Anzeigen eines Elements und Interagieren mit einem Element.<sup>2</sup> |  X | X  | X  | X  |
+| Einen Bericht kopieren<sup>2</sup> | X | X | X |  |
+| Ein Element anzeigen und mit ihm interagieren<sup>3</sup> |  X | X  | X  | X  |
 
-1. Sie müssen zusätzliche Kriterien erfüllen, um einen Bericht zu kopieren und einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich zu erstellen:
+1. Mitwirkende und Zuschauer können Elemente in einem Arbeitsbereich freigeben, wenn sie über die entsprechenden Berechtigungen verfügen.
+2. Sie müssen zusätzliche Kriterien erfüllen, um einen Bericht zu kopieren und einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich zu erstellen:
     - Sie benötigen eine Power BI Pro-Lizenz. Weitere Informationen finden Sie im nächsten Abschnitt zur [Lizenzierung](#licensing).
     - Sie benötigen die Erstellungsberechtigung für das Dataset. Für Datasets in diesem Arbeitsbereich haben die Personen mit den Rollen „Administrator“, „Mitglied“ und „Mitwirkender“ über ihre Arbeitsbereichsrolle die Erstellungsberechtigung.
 2. Auch wenn Sie nicht über eine Power BI Pro-Lizenz verfügen, können Sie Elemente im Power BI-Dienst anzeigen und mit ihnen interagieren, wenn sich die Elemente in einem Arbeitsbereich in einer Premium-Kapazität befinden.

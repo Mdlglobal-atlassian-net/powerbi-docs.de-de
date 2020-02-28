@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871385"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497203"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Aktualisieren, Löschen und Extrahieren einer Vorlagen-App
 
@@ -36,15 +36,21 @@ Wenn Sie die Änderungen in Power BI Desktop vorgenommen haben, beginnen Sie mit
 
    Wie Sie sehen, haben Sie nun zwei Versionen: Die Version in der Produktionsphase und zusätzlich eine neue Version in der Testphase.
 
-    ![Zwei Versionen einer Vorlagen-App](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![Zwei Versionen einer Vorlagen-App](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. Wenn Sie bereit sind, Ihre App in die Präproduktionsphase höherzustufen, um Tests außerhalb Ihres Mandanten durchzuführen, wechseln Sie zurück in den Release Management-Bereich, und wählen Sie **App höher stufen** neben **Tests** aus.
-6. Ihr Link ist nun live geschaltet. Senden Sie ihn noch mal an das Cloud-Partnerportal (CPP), indem Sie die Schritte unter [Aktualisieren eines Power BI-App-Angebots](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) befolgen.
-7. Im Cloud-Partnerportal müssen Sie Ihr Angebot erneut **veröffentlichen** sowie erneut validieren lassen.
+1. Wenn Sie bereit sind, Ihre App in die Präproduktionsphase höherzustufen, um Tests außerhalb Ihres Mandanten durchzuführen, wechseln Sie zurück in den Release Management-Bereich, und wählen Sie **App höher stufen** neben **Tests** aus.
 
-   >[!NOTE]
-   >Stufen Sie Ihre App nur höher in die Produktionsphase, nachdem sie vom Cloud-Partnerportal genehmigt wurde und Sie sie veröffentlichen.
+   Sie verfügen jetzt über eine Version in der Produktion und eine Version in der Präproduktionsumgebung.
 
+   ![Zwei Versionen einer ausgeblendeten Vorlagen-App-Stufe](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   Ihr Link ist nun live geschaltet. **Beachten Sie, dass die Schaltfläche „Promote app“ (App höher stufen) in der Präproduktionsphase ausgeblendet ist.** Dadurch wird verhindert, dass der Liveproduktionslink zur aktuellen App-Version versehentlich überschrieben wird, bevor das Cloud-Partnerportal die neue App-Version überprüft und genehmigt hat.
+
+1. Senden Sie den Link noch mal an das Cloud-Partnerportal (CPP), indem Sie die Schritte unter [Aktualisieren eines Power BI-App-Angebots](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) befolgen. Im Cloud-Partnerportal müssen Sie Ihr Angebot nochmals **veröffentlichen**, überprüfen und genehmigen.
+
+   Wenn Sie Ihr Angebot genehmigen, wird die Schaltfläche „Promote app“ (App höher stufen) noch mal aktiviert. 
+1. Stufen Sie Ihre App in die Produktionsphase hoch.
+   
 ### <a name="update-behavior"></a>Tabellenverhalten
 
 1. Durch das Aktualisieren der App kann das Installationsprogramm der Vorlagen-App [eine Vorlagen-App](service-template-apps-install-distribute.md#update-a-template-app) im bereits installierten Arbeitsbereich aktualisieren, ohne die Verbindungskonfiguration zu verwerfen.
@@ -69,7 +75,7 @@ Das Löschen einer App-Version löscht auch die App-URL, die nicht mehr funktion
 
 1. Wählen Sie im Bereich „Releaseverwaltung“ die Auslassungspunkte **(...)** und dann **Löschen** aus.
  ![Löschen der Vorlagen-App-Version](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
-  ![Löschen der Vorlagen-App-Version](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![Löschen der Vorlagen-App-Version](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >Achten Sie darauf, dass Sie keine App-Versionen löschen, die von Kunden oder **AppSource** verwendet werden, da sie sonst nicht mehr funktionieren.

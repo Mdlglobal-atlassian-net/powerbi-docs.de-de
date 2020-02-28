@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889372"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427712"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Konfigurieren von Workloads in einer Premium-Kapazität
 
@@ -28,18 +28,18 @@ Abfrageworkloads sind für Ressourcen optimiert und durch Ressourcen beschränkt
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| KI | – | – | 20 % Standard; mindestens 20 % | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % |
-| Dataflows | – |20% Standard; mindestens 12%  | 20 % Standard, mindestens 5 %  | 20% Standard; mindestens 3% | 20 % Standard, mindestens 2 %  |
-| Paginierte Berichte | – |– | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
+| KI | N/V | N/V | 20 % Standard; mindestens 20 % | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % |
+| Dataflows | N/V |20% Standard; mindestens 12%  | 20 % Standard, mindestens 5 %  | 20% Standard; mindestens 3% | 20 % Standard, mindestens 2 %  |
+| Paginierte Berichte | N/V |N/V | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
 | | | | | | |
 
 ### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Microsoft Azure-SKUs für Plattform-as-a-Service-Szenarios (PaaS)
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| KI | –                      | 20 % Standard; mindestens 100 %                     | 20 % Standard; mindestens 50 %                     | 20 % Standard; mindestens 20 % | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % |
+| KI | N/V                      | 20 % Standard; mindestens 100 %                     | 20 % Standard; mindestens 50 %                     | 20 % Standard; mindestens 20 % | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % |
 | Dataflows         | 40% Standard; mindestens 40% | 24% Standard; mindestens 24% | 20% Standard; mindestens 12% | 20 % Standard, mindestens 5 %  | 20% Standard; mindestens 3% | 20 % Standard, mindestens 2 %   |
-| Paginierte Berichte | –                      | –                      | –                     | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
+| Paginierte Berichte | N/V                      | N/V                      | N/V                     | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
 | | | | | | |
 
 ## <a name="workload-settings"></a>Workloadeinstellungen
@@ -170,7 +170,7 @@ Die Workload für paginierte Berichte ermöglicht Ihnen die Ausführung paginier
 | **Max. Arbeitsspeicher (%)** | Der Prozentsatz des maximal verfügbaren Arbeitsspeichers, der von paginierten Berichten in einer Kapazität verwendet werden kann. |
 |  |  |
 
-Mit paginierten Berichten kann benutzerdefinierter Code beim Rendern eines Berichts ausgeführt werden. Das ist beispielsweise sinnvoll, wenn sich die Textfarbe auf Grundlage der Inhalte dynamisch ändert, wodurch zusätzlicher Arbeitsspeicher belegt werden kann. Power BI Premium führt paginierte Berichte in einem Bereich innerhalb der Kapazität aus. 
+Paginierte Berichte bieten die gleichen Funktionen wie SSRS-Berichte (SQL Server Reporting Services) einschließlich der Möglichkeit für Berichtsautoren, benutzerdefinierten Code hinzuzufügen.  Dies ermöglicht es Autoren, Berichte dynamisch zu ändern und beispielsweise die Textfarben basierend auf Codeausdrücken zu ändern.  Paginierte Berichte werden innerhalb eines geschützten Sandkastens pro Kapazität ausgeführt, um eine ordnungsgemäße Isolation sicherzustellen. Berichte, die mit derselben Kapazität ausgeführt werden, können Nebenwirkungen verursachen. Ebenso wie Sie die Autoren einschränken, die Inhalte in einer Instanz von SSRS veröffentlichen zu können, empfiehlt es sich, eine ähnliche Vorgehensweise bei paginierten Berichten zu befolgen. Stellen Sie sicher, dass Autoren, die Inhalte in einer Kapazität veröffentlichen, von der Organisation als vertrauenswürdig eingestuft wurden. Sie können Ihre Umgebung weiter schützen, indem Sie mehrere Kapazitäten bereitstellen und jeweils verschiedene Autoren zuweisen. 
 
 Teilweise kann es vorkommen, dass die Workload für paginierte Berichte nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts beim Rendern von Berichten angezeigt. Deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut, um dieses Problem zu beheben.
 
@@ -186,7 +186,7 @@ Maximieren Sie die Kapazität der verfügbaren Ressourcen, indem Sie Workloads n
 
 1. Aktivieren Sie mindestens eine Workload, und legen Sie einen Wert für **Max. Arbeitsspeicher** und die anderen Einstellungen fest.
 
-1. Wählen Sie **Übernehmen**.
+1. Klicken Sie auf **Übernehmen**.
 
 ### <a name="rest-api"></a>REST-API
 
@@ -203,4 +203,4 @@ Die [Power BI Premium-Kapazitätsmetriken-App](service-admin-premium-monitor-c
 [Was sind paginierte Berichte in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
 [Automatische Seitenaktualisierung in Power BI Desktop (Vorschau)](desktop-automatic-page-refresh.md)
 
-Haben Sie dazu Fragen? [Fragen an die Power BI-Community](https://community.powerbi.com/)
+Weitere Fragen? [Fragen an die Power BI-Community](https://community.powerbi.com/)

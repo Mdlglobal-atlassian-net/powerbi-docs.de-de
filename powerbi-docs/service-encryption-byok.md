@@ -1,5 +1,5 @@
 ---
-title: Bring Your Own Key für Verschlüsselungsschlüssel in Power BI (Vorschauversion)
+title: Verwenden eigener Verschlüsselungsschlüssel für Power BI
 description: Erfahren Sie, wie Sie Ihre eigenen Verschlüsselungsschlüssel in Power BI Premium verwenden können.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762115"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527769"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Bring Your Own Key für Verschlüsselungsschlüssel in Power BI (Vorschauversion)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Verwenden eigener Verschlüsselungsschlüssel für Power BI
 
 Power BI verschlüsselt sowohl _ruhende Daten_ als auch _Daten während der Übertragung_. Standardmäßig verwendet Power BI von Microsoft verwaltete Schlüssel zur Verschlüsselung Ihrer Daten. Sie können in Power BI Premium auch Ihre eigenen Schlüssel für ruhende Daten verwenden, die in ein Dataset importiert werden. Weitere Informationen finden Sie weiter unten unter [Was bei Datenquellen und Speicher zu beachten ist](#data-source-and-storage-considerations). Dieser Ansatz wird als _Bring Your Own Key_ (BYOK) bezeichnet.
 
 ## <a name="why-use-byok"></a>Was sind die Vorteile von BYOK?
 
-Durch BYOK können Complianceanforderungen leichter erfüllt werden, in denen Schlüsselvereinbarungen mit dem Cloud-Dienstanbieter (in diesem Fall Microsoft) getroffen werden. Mit BYOK stellen Sie die Verschlüsselungsschlüssel für Ihre ruhenden Power BI-Daten auf Anwendungsebene selbst bereit und können diese verwalten. Deshalb haben Sie die volle Kontrolle und können die Schlüssel Ihrer Organisation widerrufen, wenn Sie sich dazu entscheiden, den Dienst zu verlassen. Durch den Widerruf der Schlüssel kann der Dienst die Daten nicht mehr lesen.
+Durch BYOK können Complianceanforderungen leichter erfüllt werden, in denen Schlüsselvereinbarungen mit dem Cloud-Dienstanbieter (in diesem Fall Microsoft) getroffen werden. Mit BYOK stellen Sie die Verschlüsselungsschlüssel für Ihre ruhenden Power BI-Daten auf Anwendungsebene selbst bereit und können diese verwalten. Deshalb haben Sie die volle Kontrolle und können die Schlüssel Ihrer Organisation widerrufen, wenn Sie sich dazu entscheiden, den Dienst zu verlassen. Durch den Widerruf der Schlüssel kann der Dienst die Daten für 30 Minuten nicht lesen.
 
 ## <a name="data-source-and-storage-considerations"></a>Was bei Datenquellen und Speicher zu beachten ist
 
@@ -34,7 +34,12 @@ Wenn Sie BYOK verwenden möchten, müssen Sie Daten aus einer PBIX-Datei (Power 
 - [Streamingdatasets](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Große Modelle](service-premium-large-models.md)
 
-BYOK gilt nur für das der PBIX-Datei zugeordnete Dataset und nicht für die Abfrageergebniscaches für Kacheln und Visuals.
+BYOK gilt nur für Datasets. Pushdatasets, Excel-Dateien und CSV-Dateien, die Benutzer in den Dienst hochladen können, werden nicht mithilfe Ihres eigenen Schlüssels verschlüsselt. Verwenden Sie den folgenden PowerShell-Befehl, um zu ermitteln, welche Artefakte in Ihren Arbeitsbereichen gespeichert werden:
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> Dieses Cmdlet erfordert das Power BI-Verwaltungsmodul v1.0.840. Sie erfahren, welche Version Sie haben, indem Sie „Get-InstalledModule -Name MicrosoftPowerBIMgmt“ ausführen. Installieren Sie die neueste Version, indem Sie „Install-Module -Name MicrosoftPowerBIMgmt“ ausführen. Weitere Informationen zum Power BI-Cmdlet und den zugehörigen Parametern finden Sie im [Power BI-Modul für PowerShell-Cmdlets](https://docs.microsoft.com/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Konfigurieren des Azure Key Vault
 
@@ -55,7 +60,7 @@ Die Anweisungen in diesem Abschnitt setzen grundlegende Kenntnisse des Azure Key
 
 1. Klicken Sie im Azure-Portal in Ihrem Schlüsseltresor unter **Access policies** (Zugriffsrichtlinien) auf **Add New** (Neue hinzufügen).
 
-1. Suchen Sie unter **Select principal** (Prinzipal auswählen) nach Microsoft.Azure.AnalysisServices, und wählen Sie dieses aus.
+1. Suchen Sie unter **Select principal** (Prinzipal auswählen) nach „Microsoft.Azure.AnalysisServices“, und wählen Sie diese Option aus.
 
     > [!NOTE]
     > Wenn Sie „Microsoft. Azure.AnalysisServices“ nicht finden können, ist wahrscheinlich dem Azure-Abonnement, das Ihrem Azure Key Vault zugeordnet ist, nie eine Power BI-Ressource zugeordnet worden. Suchen Sie stattdessen nach der folgenden Zeichenfolge: 00000009-0000-0000-c000-000000000000.
@@ -64,14 +69,14 @@ Die Anweisungen in diesem Abschnitt setzen grundlegende Kenntnisse des Azure Key
 
     ![PBIX-Dateikomponenten](media/service-encryption-byok/service-principal.png)
 
-1. Klicken Sie auf **OK** und anschließend auf **Speichern**.
+1. Wählen Sie **OK** und anschließend **Speichern** aus.
 
 > [!NOTE]
 > Entfernen Sie die Zugriffsrechte für diesen Dienstprinzipal aus Ihrem Azure Key Vault, um den Zugriff von Power BI auf Ihre Daten zukünftig aufzuheben.
 
 ### <a name="create-an-rsa-key"></a>Erstellen eines RSA-Schlüssels
 
-1. Wählen Sie in Ihrem Schlüsseltresor unter **Schlüssel** **Generate/Import** (Generieren/Importieren) aus.
+1. Klicken Sie in Ihrem Schlüsseltresor unter **Schlüssel** auf **Generate/Import** (Generieren/Importieren).
 
 1. Wählen Sie RSA als **Schlüsseltyp** aus, und geben Sie 4096 als **Größe des RSA-Schlüssels** an.
 
@@ -183,3 +188,17 @@ Power BI stellt zusätzliche Cmdlets zum Verwalten von BYOK in Ihrem Mandanten z
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>Nächste Schritte
+
+* [Power BI-Modul für PowerShell-Cmdlets](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Freigeben Ihrer Arbeit in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL](service-url-filters.md)
+
+* [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md)
+
+* [Veröffentlichen im Web aus Power BI](service-publish-to-web.md)

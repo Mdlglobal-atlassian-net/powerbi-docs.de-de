@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865821"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427252"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -36,7 +36,7 @@ Wenn Sie im Navigator des Abfrage-Editors in Power BI Desktop mit der rechten Ma
 
 * Wenn Sie Dateien als Datenquelle für eine Abfrage verwenden, wird der absolute Pfad zur Datei in der Abfrage gespeichert. Wenn Sie eine Power BI Desktop-Datei oder eine Excel-Arbeitsmappe freigeben oder verschieben, sparen Sie Zeit, wenn Sie die Pfade aktualisieren, indem Sie diese nur einmal statt jeweils einzeln aktualisieren.
 
-Standardmäßig werden alle Abfragen entweder auf ein Excel-Arbeitsblatt oder in das Datenmodell (oder beides) geladen. Einige Abfragen sind zwischengeschaltete Schritte und nicht für Endbenutzer vorgesehen. Dies ist häufig der Fall, wenn so, wie oben angegeben, auf Abfragen verwiesen wird. Sie können das Ladeverhalten einer Abfrage steuern, indem Sie im Navigator mit der rechten Maustaste auf die Abfrage klicken und dann die Option „Laden aktivieren“ umschalten. Wenn kein Häkchen neben *Laden aktivieren* angezeigt wird, ist die Abfrage weiterhin auf der Abfrageregisterkarte verfügbar, und Sie können sie mit anderen Abfragen verwenden. Dies ist insbesondere in Verbindung mit Zusammenführungs-, Anfügungs- und Verweistransformationen nützlich. Weil die Ergebnisse der Abfrage aber nicht in das Datenmodell geladen werden, führt die Abfrage nicht dazu, dass die Feldliste Ihres jeweiligen Berichts oder Ihr Datenmodell überladen wird. 
+Standardmäßig werden alle Abfragen in das Datenmodell geladen. Einige Abfragen sind zwischengeschaltete Schritte und nicht für Endbenutzer vorgesehen. Dies ist häufig der Fall, wenn so, wie oben angegeben, auf Abfragen verwiesen wird. Sie können das Ladeverhalten einer Abfrage steuern, indem Sie im Navigator mit der rechten Maustaste auf die Abfrage klicken und dann die Option „Laden aktivieren“ umschalten. Wenn kein Häkchen neben *Laden aktivieren* angezeigt wird, ist die Abfrage weiterhin auf der Abfrageregisterkarte verfügbar, und Sie können sie mit anderen Abfragen verwenden. Dies ist insbesondere in Verbindung mit Zusammenführungs-, Anfügungs- und Verweistransformationen nützlich. Weil die Ergebnisse der Abfrage aber nicht in das Datenmodell geladen werden, führt die Abfrage nicht dazu, dass die Feldliste Ihres jeweiligen Berichts oder Ihr Datenmodell überladen wird. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Punktdiagramme erfordern einen Punktbezeichner
 Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in einem Punktdiagramm darstellen, aggregiert Power BI alle Werte zu einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen. Eine einfache Möglichkeit hierfür in Power BI Desktop ist, auf der Abfrageregisterkarte die Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ zu verwenden. 

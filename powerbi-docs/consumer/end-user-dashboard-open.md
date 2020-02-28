@@ -1,22 +1,24 @@
 ---
 title: Anzeigen eines Power BI-Dashboards
-description: Dashboards sind ein wichtiges Feature des Power BI-Diensts, erfahren Sie, wie Sie sie öffnen und ein Dashboard anzuzeigen.
+description: Dashboards sind ein wichtiges Feature des Power BI-Diensts. In diesem Artikel erfahren Sie, wie Sie sie öffnen und aufrufen.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852601"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496286"
 ---
 # <a name="view-a-dashboard"></a>Anzeigen eines Dashboards
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ ms.locfileid: "73852601"
 ![Dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-Power BI Pro ist sowohl für Freigeben eines Dashboards als auch Anzeigen eines freigegebenen Dashboards erforderlich.
+Sowohl für das Teilen von Dashboards als auch für das Aufrufen von geteilten Dashboards ist eine Power BI Pro- oder eine Power BI Premium-Lizenz erforderlich. [So ermitteln Sie Ihren Lizenztyp](end-user-license.md) 
 
 ## <a name="open-a-dashboard"></a>Öffnen eines Dashboards
 
@@ -33,7 +35,7 @@ Power BI Pro ist sowohl für Freigeben eines Dashboards als auch Anzeigen eines 
 
 |              |         |
 |------------|--------------------------------|
-|![Dashboard-Symbol](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Dashboards lassen sich von zahlreichen Orten im Power BI-Dienst öffnen. <br> Suchen Sie nach diesem Dashboardsymbol. Sobald Sie ein Dashboard <br>gefunden haben, ist das Öffnen einfach. Klicken Sie darauf, und das Dashboard <br>füllt Ihren Power BI-Zeichenbereich. |
+|![Dashboard-Symbol](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Dashboards lassen sich von zahlreichen Orten im Power BI-Dienst öffnen. <br> Suchen Sie nach diesem Dashboardsymbol. Sobald Sie ein Dashboard <br>gefunden haben, ist das Öffnen einfach. Klicken Sie darauf, und das Dashboard wird in Ihrer Power BI-Canvas angezeigt. |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ Sie können Dashboards in allen im Navigationsbereich angezeigten Containern fin
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-* Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](../sample-tutorial-connect-to-the-samples.md) ansehen.
+* Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](../sample-tutorial-connect-to-the-samples.md) ansehen.    
 * Informieren Sie sich über [Dashboardkacheln](end-user-tiles.md), und erfahren Sie, wie Sie damit interagieren.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259742"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426631"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Erste Schritte mit der mobilen Power BI-App auf iOS-Geräten
 Die iOS-App für Microsoft Power BI auf dem iPhone und iPad bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. Bleiben Sie auf dem neuesten Stand mit den aktuellsten Daten auf Ihrer [Apple Watch](mobile-apple-watch.md).  
@@ -32,7 +32,7 @@ Machen Sie sich [mit den Neuerungen bei mobilen Power BI-Apps](mobile-whats-new
 ## <a name="download-the-app"></a>Herunterladen der App
 [Laden Sie die iOS-App](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS-App herunterladen") aus dem Apple App Store auf Ihr iPhone oder Ihr iPad herunter.
 
-Sie können die Power BI für iOS-App für iOS auf jedem iOS 11-Gerät oder höher ausführen. 
+Sie können die mobile Power BI-App für iOS auf jedem iOS 11-Gerät oder höher ausführen. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Registrieren beim Power BI-Dienst
 Wenn Sie sich noch nicht registriert haben, wechseln Sie zu [powerbi.com](https://powerbi.microsoft.com/get-started/), und klicken Sie unter **Power BI - Cloud collaboration and sharing** (Power BI – Zusammenarbeit und Freigabe in der Cloud) auf **Kostenlos testen**.

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819581"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427873"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -233,14 +233,14 @@ Den Benutzer werden basierend auf der Einstellung **Im Web veröffentlichen** un
 
 ### <a name="export-data"></a>Daten exportieren
 
-Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung exportieren. [Weitere Informationen](visuals/power-bi-visualization-export-data.md)
+Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung exportieren. Informieren Sie sich über das [Exportieren der Daten, die zum Erstellen einer Visualisierung verwendet wurden](visuals/power-bi-visualization-export-data.md).
 
 Die folgende Abbildung zeigt die Option zum Exportieren von Daten aus einer Kachel.
 
 ![Exportieren von Daten aus einer Kachel](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** sowie die Liveverbindung des Power BI-Diensts verwenden können.
+> Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature [In Excel analysieren](service-analyze-in-excel.md) sowie die Liveverbindung des Power BI-Diensts verwenden können.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportieren von Berichten als PowerPoint-Präsentationen oder PDF-Dokumente
 

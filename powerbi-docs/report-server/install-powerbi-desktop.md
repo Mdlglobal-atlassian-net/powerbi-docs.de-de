@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874116"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426654"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 
@@ -87,17 +87,21 @@ Power BI-Berichtsserver-Berichte unterstützen alle Grundfunktionen in den [mobi
 
 Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den mobilen Power BI-Apps nicht unterstützt:
 
-* Visuelle R-Elemente
+* R-Visuals
 * ArcGIS-Karten
-* Benutzerdefinierte Visualisierungen
+* Benutzerdefinierte visuelle Elemente
 * Brotkrümel
 * Geofilter oder Strichcodes
+
+### <a name="custom-security"></a>Benutzerdefinierte Sicherheit
+
+Die für den Power BI-Berichtsserver optimierte Version von Power BI Desktop unterstützt die benutzerdefinierte Sicherheit nicht. Wenn Ihre Instanz des Power BI-Berichtsservers mit einer benutzerdefinierten Sicherheitserweiterung konfiguriert ist, können Sie keine Power BI-Berichte über Power BI Desktop (für den Power BI-Berichtsserver optimiert) in dieser Instanz speichern. Sie müssen die PBIX-Berichtsdatei aus Power BI Desktop speichern und anschließend auf der Website des Power BI-Berichtsserver-Portals hochladen.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop für frühere Versionen von Power BI-Berichtsserver
 
 Wenn Sie eine frühere Version des Berichtsservers verwenden, benötigen Sie die entsprechende Version von Power BI Desktop. Hier ist der Link zum Herunterladen einer vorhergehenden Version.
 
-- Microsoft Power BI Desktop ([optimiert für Power BI-Berichtsserver, Januar 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([für den Power BI-Berichtsserver optimiert, September 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>Nächste Schritte
 

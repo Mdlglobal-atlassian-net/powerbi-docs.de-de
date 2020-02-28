@@ -3,20 +3,21 @@ title: Was ist ein Power BI-„Kunde“?
 description: Übersicht über Power BI für Benutzer (auch als Endbenutzer oder Geschäftskunden bezeichnet).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863803"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496202"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Der Power BI-Dienst für Verbraucher
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Sie leben in einer Datenkultur, in der Geschäftsentscheidungen auf Fakten und nicht auf Meinungen basieren. Sie benötigen Daten, um diese Entscheidungen treffen zu können, und Ihre Kollegen enttäuschen Sie nicht.     
  
@@ -43,6 +44,8 @@ Die Art und Weise, wie Sie mit Power BI interagieren, hängt von Ihrer Position 
 Wenn Sie ein Benutzer sind, haben Sie nicht auf alle Funktionen von Power BI Zugriff. Dies stellt allerdings kein Problem dar, da Sie in Ihrer Position schließlich weder Dashboards noch Berichte erstellen müssen. Sie müssen den Power BI-Dienst nur zu Analyse- und Überwachungszwecken nutzen, verschiedene Optionen testen und Entscheidungen treffen. 
 
 Bestimmt haben Sie schon von „Power BI Desktop“ oder einfach nur „Desktop“ gehört. Dies ist ein eigenständiges Tool, das die *Designer* verwenden, die Dashboards und Berichte erstellen und für Sie freigeben.  Es ist wichtig zu wissen, dass es auch andere Power BI-Tools gibt. Als Benutzer arbeiten Sie aber nur mit dem Power BI-Dienst. 
+
+Und da Sie mit *freigegebenen* Inhalten arbeiten, benötigen Sie eine Power BI Pro- oder Power BI Premium-Lizenz. [Welche Lizenz habe ich?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Sicheres Interagieren mit Inhalten 

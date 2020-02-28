@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 9998604bf3f0211490dee87596e2a0692072807c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259672"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427275"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Einbetten von Power BI-Inhalten in Ihre Anwendung für nationale Clouds
 
@@ -54,7 +54,7 @@ Diesem Artikel liegt der im [Beispiel zu Daten im App-Besitz](https://github.com
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Das Einbetten von Power BI-Inhalt aus einer Government Community Cloud (GCC) kann nur über eine Office 356-SKU durchgeführt werden. Andere Kunden der nationalen Cloud können [Office 356- oder Azure-SKUs](embedded-capacity.md) verwenden.
+    > Das Einbetten von Power BI-Inhalt aus einer Government Community Cloud-Instanz (GCC) kann nur über eine Office 365-SKU durchgeführt werden. Andere Kunden der nationalen Cloud können [Office 365- oder Azure-SKUs](embedded-faq.md) verwenden.
 
 1. Überschreiben Sie die Cloud.config-Datei mit dem GCCCloud.config-Inhalt.
 
