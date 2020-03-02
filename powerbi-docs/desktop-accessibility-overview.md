@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538610"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609848"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Übersicht über die Barrierefreiheit in Power BI
 
@@ -30,7 +30,7 @@ Universeller Entwurf betrifft die Gestaltung von Produkten, die von möglichst v
 
 ## <a name="accessibility-standards"></a>Barrierefreiheitsstandards
 
-Power BI ist den folgenden Standards für Barrierefreiheit verpflichtet. Dies hilft, sicherzustellen, dass möglichst viele Personen auf Ihre Inhalte in Power BI zugreifen können. Power BI Mobile-Apps sind für die Barrierefreiheitsstufe C zertifiziert. Wenn Sie barrierefreie Berichte oder Dashboards erstellen, sind diese für jeden zugänglich, der sie sich mit Power BI Mobile anzeigen lässt.
+Power BI ist den folgenden Standards für Barrierefreiheit verpflichtet. Dies hilft, sicherzustellen, dass möglichst viele Personen auf Ihre Inhalte in Power BI zugreifen können. Wenn Sie barrierefreie Berichte oder Dashboards erstellen, sind diese für jeden zugänglich, der sie sich mit Power BI Mobile anzeigen lässt.
 
 ### <a name="wcag-21"></a>WCAG 2.1
 
