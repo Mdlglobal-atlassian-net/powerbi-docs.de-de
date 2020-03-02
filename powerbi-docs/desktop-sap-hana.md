@@ -35,7 +35,7 @@ Diese Version enthält viele Funktionen für SAP HANA. Diese sind in der folgend
 
 * Der Power BI-Connector für SAP HANA verwendet für eine benutzerfreundliche Anwendung den SAP-ODBC-Treiber.
 
-* SAP HANA unterstützt sowohl DirectQuery als auch Importoptionen
+* SAP HANA unterstützt sowohl DirectQuery als auch Importoptionen.
 
 * Power BI unterstützt HANA-Informationsmodelle (z. B. Analyse- und Berechnungsansichten) und bietet optimierte Navigation.
 

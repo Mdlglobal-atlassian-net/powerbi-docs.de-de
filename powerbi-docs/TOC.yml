@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: Anwenden von Vertraulichkeitsbezeichnung
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: Datenherkunft
-          href: service-data-lineage.md
+        - name: Anzeigen der Datenherkunft
+          href: designer/service-data-lineage.md
         - name: Vorlagen-Apps
           items:
             - name: Übersicht über Vorlagen-Apps

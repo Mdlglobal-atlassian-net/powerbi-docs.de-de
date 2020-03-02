@@ -17,20 +17,20 @@ ms.locfileid: "75886134"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Wann sollten paginierte Berichte in Power BI verwendet werden?
 
-Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Berichte für Power BI entwerfen. Er enthält Vorschläge, die Ihnen bei der Wahl des Zeitpunkts für die Entwicklung von [paginierten Berichten in Power BI Reports](../paginated-reports-report-builder-power-bi.md) helfen.
+Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Berichte für Power BI entwerfen. Er enthält Vorschläge, die Ihnen bei der Wahl des Zeitpunkts für die Entwicklung von [paginierten Berichten in Power BI-Berichten](../paginated-reports-report-builder-power-bi.md) helfen.
 
 > [!NOTE]
 > Für die Veröffentlichung von paginierten Berichten in Power BI ist ein Power BI Premium-Abonnement erforderlich. Berichte werden nur dann gerendert, wenn sie sich in einem Arbeitsbereich mit einer dedizierten Kapazität befinden, in dem die [Workload für paginierte Berichte aktiviert ist](../service-admin-premium-workloads.md#paginated-reports).
 
 Paginierte Berichte in Power BI sind für den **Druckvorgang** oder die **PDF-Erstellung** optimiert. Sie bieten Ihnen auch die Möglichkeit, stark formatierte, pixelgenaue Layouts zu erstellen. Daher sind paginierte Berichte ideal für betriebliche Berichte wie Verkaufsrechnungen.
 
-Im Gegensatz dazu sind die Power BI-Berichte für **Recherche und Interaktivität optimiert**. Außerdem können sie Ihre Daten mit einem umfangreichen Angebot an hochmodernen visuellen Elementen präsentieren. Power BI-Berichte sind daher ideal für analytische Berichte, die es Ihren Berichtsanwendern ermöglichen, Daten zu untersuchen und Beziehungen und Muster zu entdecken.
+Im Gegensatz dazu sind die Power BI-Berichte für **Recherche und Interaktivität optimiert**. Außerdem können sie Ihre Daten mit einem umfangreichen Angebot an hochmodernen Visuals präsentieren. Power BI-Berichte sind daher ideal für analytische Berichte, die es Ihren Berichtsanwendern ermöglichen, Daten zu untersuchen und Beziehungen und Muster zu entdecken.
 
-Wir empfehlen Ihnen in folgenden Situationen die Verwendung eines paginierten Berichts in Power BI in Betracht zu ziehen:
+Wir empfehlen Ihnen, in folgenden Situationen die Verwendung eines paginierten Berichts in Power BI in Betracht zu ziehen:
 
 * Sie wissen, dass der Bericht gedruckt oder als PDF-Dokument ausgegeben werden muss.
-* Datenrasterlayouts könnten sich erweitern und überlaufen. Bedenken Sie, dass eine Tabelle oder Matrix in einem Power BI-Bericht nicht dynamisch in der Größe verändert werden kann, um alle Daten anzuzeigen – stattdessen stellt sie Scrollleisten zur Verfügung. Aber beim Drucken ist ein Scrollen nicht möglich, um Daten anzuzeigen, die außerhalb des Sichtbereichs liegen.
-* Features und Funktionen für die Paginierung in Power BI arbeiten zu Ihren Gunsten. Viele solcher Berichtsszenarien werden später in diesem Artikel beschrieben.
+* Die Layouts von Datenrastern könnten vergrößert und an den Seitenrändern abgeschnitten werden. Bedenken Sie, dass eine Tabelle oder Matrix in einem Power BI-Bericht nicht dynamisch in der Größe verändert werden kann, um alle Daten anzuzeigen – stattdessen stellt sie Scrollleisten zur Verfügung. Aber beim Drucken ist ein Scrollen nicht möglich, um Daten anzuzeigen, die außerhalb des Sichtbereichs liegen.
+* In solchen Situationen kommen Ihnen die Paginierungsfeatures und -funktionen in Power BI zugute. Viele solcher Berichtsszenarien werden später in diesem Artikel beschrieben.
 
 ## <a name="legacy-reports"></a>Ältere Berichte
 
@@ -38,7 +38,7 @@ Wenn Sie bereits über [RDL](/sql/reporting-services/reports/report-definition-l
 
 Nach der Veröffentlichung in einem Power BI-Arbeitsbereich stehen die paginierten Berichte neben den Power BI-Berichten zur Verfügung. Sie können dann einfach über [Power BI-Apps](../service-create-distribute-apps.md) verteilt werden.
 
-Sie könnten erwägen, SSRS-Berichte neu zu entwickeln, anstatt sie zu migrieren. Dies gilt insbesondere für die Berichte, die analytische Erfahrungen liefern sollen. In diesen Fällen werden die Power BI-Berichte wahrscheinlich bessere Benutzererfahrungen hinsichtlich der Berichte liefern.
+Sie könnten erwägen, SSRS-Berichte neu zu entwickeln, anstatt sie zu migrieren. Dies gilt insbesondere für die Berichte, die Analyseergebnisse vermitteln sollen. In solchen Fällen sind Power BI-Berichte im Hinblick auf eine höhere Benutzerfreundlichkeit wahrscheinlich die geeignetere Wahl.
 
 ## <a name="paginated-report-scenarios"></a>Szenarien für paginierte Berichte
 
@@ -47,13 +47,13 @@ Es gibt viele überzeugende Szenarien, in denen Sie die Entwicklung eines pagini
 * **Druckreif**: Paginierte Berichte sind für den Druckvorgang oder die PDF-Erstellung optimiert. Bei Bedarf können Datenbereiche auf kontrollierte Weise auf mehrere Seiten erweitert werden und überlaufen. Ihre Berichtslayouts können Ränder sowie Kopf- und Fußzeilen definieren.
 * **Renderformate**: Power BI kann paginierte Berichte in verschiedenen Formaten rendern. Zu den Formaten zählen Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML und MHTML. (Das MHTML-Format wird vom Power BI-Dienst zum Rendern von Berichten verwendet.) Ihre Berichtsbenutzer können sich für den Export in dem für sie geeigneten Format entscheiden.
 * **Präzisionslayout**: Sie können stark formatierte, pixelgenaue Layouts entwerfen – in exakter Größe und an genau der Stelle, die auf einen Bruchteil eines Zolls oder Zentimeters konfiguriert werden kann.
-* **Dynamisches Layout**: Sie können sehr reaktionsfähige Layouts erstellen, indem Sie viele Berichtseigenschaften auf die Verwendung von VB.NET-Ausdrücken festlegen. Ausdrücke haben Zugriff auf viele zentrale .NET Framework-Bibliotheken.
+* **Dynamisches Layout**: Sie können für viele Berichtseigenschaften die Verwendung von VB.NET-Ausdrücken festlegen und so hochgradig dynamische Layouts erstellen. Ausdrücke haben Zugriff auf viele zentrale .NET Framework-Bibliotheken.
 * **Renderspezifisches Layout**: Mithilfe von Ausdrücken können Sie das Berichtslayout auf der Grundlage des verwendeten Renderingformats ändern. Sie können den Bericht z. B. so gestalten, dass das Umschalten der Sichtbarkeit deaktiviert wird (um einen Drilldown und Drillup zu erreichen), wenn er in einem nicht interaktiven Format wie PDF gerendert wird.
 * **Native Abfragen**: Sie müssen nicht zuerst ein Power BI-Dataset entwickeln. Sie können für jede [unterstützte Datenquelle](../paginated-reports-data-sources.md) native Abfragen erstellen (oder gespeicherte Prozeduren verwenden). Die Abfragen können eine Parametrierung einbeziehen.
 * **Grafische Abfrage-Designer**: Power BI Report Builder enthält grafische Abfrage-Designer, die Sie beim Schreiben und Testen Ihrer Datasetabfragen unterstützen.
 * **Statische Datasets**: Sie können ein Dataset definieren und Daten direkt in Ihre Berichtsdefinition eingeben. Diese Fähigkeit ist besonders nützlich, um eine Demo zu unterstützen oder einen Proof of Concept (POC) bereitzustellen.
 * **Datenintegration**: Sie können Daten aus verschiedenen Datenquellen oder mit statischen Datasets kombinieren. Dies erfolgt durch die Erstellung benutzerdefinierter Felder mithilfe von VB.NET-Ausdrücken.
-* **Parametrisierung**: Sie können hochgradig angepasste Parametrierungserfahrungen entwerfen, einschließlich datengesteuerter und kaskadierender Parameter. Es ist auch möglich, Standardwerte für Parameter zu definieren. Diese Erfahrungen können so gestaltet werden, dass Ihre Berichtsbenutzer schnell geeignete Filter festlegen können. Außerdem müssen die Parameter nicht die Berichtsdaten filtern; sie können zur Unterstützung von „Was-wäre-wenn“-Szenarien oder zur dynamischen Filterung oder Formatierung verwendet werden.
+* **Parametrisierung**: Sie können hochgradig angepasste Parametrisierungserfahrungen entwerfen, einschließlich datengesteuerter und kaskadierender Parameter. Es ist auch möglich, Standardwerte für Parameter zu definieren. Diese Erfahrungen können so gestaltet werden, dass Ihre Berichtsbenutzer schnell geeignete Filter festlegen können. Außerdem müssen die Parameter nicht die Berichtsdaten filtern; sie können zur Unterstützung von „Was-wäre-wenn“-Szenarien oder zur dynamischen Filterung oder Formatierung verwendet werden.
 * **Bilddaten**: In Ihrem Bericht können Bilder gerendert werden, wenn sie im Binärformat in einer Datenquelle gespeichert sind.
 * **Benutzerdefinierter Code**: Sie können Codeblöcke von VB.NET-Funktionen in Ihrem Bericht entwickeln und diese in beliebigen Berichtsausdrücken verwenden.
 * **Unterberichte**: Sie können andere paginierte Power BI-Berichte (aus demselben Arbeitsbereich) in Ihren Bericht einbetten.
