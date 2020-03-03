@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875057"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609946"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best Practices zum Optimieren von Q&A in Power BI
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Noch besser ist es, wenn Ihre Daten Ihnen Antworten liefern – und genau das ist mit Q&A in Power BI möglich.
@@ -197,4 +197,4 @@ Dieser Schritt kann von Bedeutung sein. Selbst bei unkomplizierten Tabellen- und
 
 ![Q&A-Eigenschaftenfenster für Synonyme](media/qna-modelling-pane-synonyms.png)
 
- Seien Sie beim Hinzufügen von Synonymen vorsichtig. Das Hinzufügen desselben Synonyms zu mehr als einer Spalte oder Tabelle führt zu Mehrdeutigkeit. Q&A nutzt nach Möglichkeit den Kontext, um bei mehrdeutigen Synonymen zu entscheiden, allerdings ist nicht bei allen Fragen ausreichend Kontext vorhanden. Wenn der Benutzer z. B. „Kunden zählen“ eingibt und im Modell an drei Stellen das Synonym „Kunden“ vorkommt, wird vermutlich nicht die gesuchte Antwort zurückgegeben. Stellen Sie in diesen Fällen sicher, dass das primäre Synonym eindeutig ist, da dies in der Anpassung verwendet wird. So kann der Benutzer auf die Mehrdeutigkeit hingewiesen werden (z.B. bei der Anpassung „show the number of archived customer records“), sodass er die Frage noch einmal anders formulieren kann.
+ Seien Sie beim Hinzufügen von Synonymen vorsichtig. Das Hinzufügen desselben Synonyms zu mehr als einer Spalte oder Tabelle führt zu Mehrdeutigkeit. Q&A nutzt nach Möglichkeit den Kontext, um bei mehrdeutigen Synonymen zu entscheiden, allerdings ist nicht bei allen Fragen ausreichend Kontext vorhanden. Wenn der Benutzer z.B. „Kunden zählen“ eingibt und im Modell an drei Stellen das Synonym „Kunden“ vorkommt, wird vermutlich nicht die gesuchte Antwort zurückgegeben. Stellen Sie in diesen Fällen sicher, dass das primäre Synonym eindeutig ist, da dies in der Anpassung verwendet wird. So kann der Benutzer auf die Mehrdeutigkeit hingewiesen werden (z.B. bei der Anpassung „show the number of archived customer records“), sodass er die Frage noch einmal anders formulieren kann.

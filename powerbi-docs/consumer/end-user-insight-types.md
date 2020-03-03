@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537905"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576762"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Von Power BI unterstützte Einblicke
 
@@ -55,7 +55,7 @@ Dieser erkennt Fälle, in denen mehrere Measures ein ähnliches Muster oder eine
 ![Beispiel für Korrelation](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Geringe Abweichung
-Erkennt Fälle, in denen Datenpunkte nicht stark vom Mittelwert abweichen.
+Erkennt Fälle, bei denen die Datenpunkte für eine Dimension nicht weit vom Mittelwert liegen, sodass die Abweichung gering ist. Angenommen, Sie verfügen über die Kennzahl „Umsatz“ und eine Dimension „Region“. Bei Betrachtung der Region sehen Sie, dass die Differenz zwischen den Datenpunkten und dem Mittelwert (der Datenpunkte) äußerst gering ist. Der Trigger wird ausgelöst, wenn die Abweichung bei den Umsatzzahlen in allen Regionen unter einem bestimmten Schwellenwert liegt. Mit anderen Worten, wenn in allen Regionen ähnliche Umsatzzahlen erfasst werden.
 
 ![Beispiel für geringe Abweichung](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Sucht periodische Muster in Zeitreihendaten, z. B. wöchentliche, monatliche od
 ![Beispiel für Saisonabhängigkeit](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Stetiger Anteil
-Hebt Fälle hervor, in denen eine Beziehung von übergeordneten und untergeordneten Elementen zwischen dem Anteil eines untergeordneten Werts in Bezug auf den Gesamtwert des übergeordneten Elements für eine kontinuierliche Variable vorhanden ist.
+Hebt Fälle hervor, in denen eine Beziehung von übergeordneten und untergeordneten Elementen zwischen dem Anteil eines untergeordneten Werts in Bezug auf den Gesamtwert des übergeordneten Elements für eine kontinuierliche Variable vorhanden ist. Die Erkenntnis „Marktanteil“ wird im Kontext einer Kennzahl, einer Dimension oder einer anderen Datum/Uhrzeit-Dimension verwendet. Der Trigger wird ausgelöst, wenn ein bestimmter Dimensionswert (z.B. die Region „Nordosten“) einen konstanten prozentualen Anteil des Gesamtumsatzes für die jeweilige Datum/Uhrzeit-Dimension aufweist.
+
+Diese Erkenntnis ist mit der Erkenntnis „Geringe Abweichung“ vergleichbar, da sich beide Erkenntnisse auf eine nicht vorhandene Änderung eines Werts im Lauf der Zeit beziehen. Mit der Erkenntnis „Marktanteil“ wird jedoch eine nicht vorhandene Änderung des **prozentualen Anteils am Gesamtwert** im Lauf der Zeit gemessen, mit der Erkenntnis „Geringe Abweichung“ hingegen eine nicht vorhandene Änderung bei den absoluten Messwerten einer Dimension.
 
 ![Beispiel für stetigen Anteil](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

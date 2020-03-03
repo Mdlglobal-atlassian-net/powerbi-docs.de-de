@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864060"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199002"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Bewährte Methoden für die Leistung von Power BI Embedded
 
 Dieser Artikel enthält Empfehlungen zum schnelleren Rendern von Berichten, Dashboards und Kacheln in Ihrer Anwendung.
 
 > [!Note]
-> Beachten Sie, dass die Ladezeit in der Hauptsache von Elementen abhängt, die für den eigentlichen Bericht und die Daten relevant sind, einschließlich visueller Elemente, der Größe der Daten und der Komplexität der Abfragen und berechneten Measures. Weitere Informationen finden Sie unter [Bewährte Methoden für die Power BI-Leistung](../power-bi-reports-performance.md).
+> Beachten Sie, dass die Ladezeit in der Hauptsache von Elementen abhängt, die für den eigentlichen Bericht und die Daten relevant sind, einschließlich visueller Elemente, der Größe der Daten und der Komplexität der Abfragen und berechneten Measures. Weitere Informationen finden Sie im [Leitfaden für die Optimierung von Power BI](../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Aktualisieren von Tools und SDK-Paketen
 
@@ -106,6 +106,6 @@ Mit der Leistungsanalyse können Sie Protokolle aufzeichnen und anzeigen, die di
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* [Bewährte Methoden für die Power BI-Leistung](../power-bi-reports-performance.md)
+* [Leitfaden für die Optimierung von Power BI](../guidance/power-bi-optimization.md)
 * [Behandeln von Problemen mit Power BI Embedded](embedded-troubleshoot.md)
 * [Power BI Embedded – FAQ](embedded-faq.md)

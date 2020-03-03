@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9b21b733dd673c1b672a4590032808a174ecda1f
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161591"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609830"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Erstellen von Power BI-Visualisierungen mithilfe von Python
 
@@ -88,7 +88,7 @@ Im Artikel [Ausführen von Python-Skripts in Power BI Desktop](desktop-python-s
 
    Power BI Desktop zeichnet das Visual neu, wenn eines der folgenden Ereignisse eintritt:
 
-   - Wenn Sie auf der Titelleiste des **Python-Skript-Editors** **Ausführen** auswählen.
+   - Wenn Sie auf der Titelleiste des **Python-Skript-Editors****Ausführen** auswählen.
    - Bei jedem Ändern der Daten durch Aktualisieren, Filtern oder Hervorheben von Daten.
 
    Wenn Sie ein Python-Skript ausführen, das einen Fehler auslöst, wird das Python-Visual nicht gezeichnet, und es wird eine Fehlermeldung in der Canvas angezeigt. Sie können Fehlerdetails abrufen, indem Sie in der Meldung auf **Details anzeigen** klicken.
@@ -170,7 +170,7 @@ Dieses Tutorial soll Ihnen den Einstieg in die Erstellung von Visuals mit Python
 
 Bei Python-Visuals in Power BI Desktop gelten einige Einschränkungen:
 
-- Einschränkungen bei der Datengröße. Die vom Python-Visual zum Zeichnen verwendeten Daten sind auf 150.000 Zeilen beschränkt. Bei Auswahl von mehr als 150.000 Zeilen werden nur die oberen 150.000 Zeilen verwendet, und im Bild wird eine Meldung angezeigt.
+- Einschränkungen bei der Datengröße. Die vom Python-Visual zum Zeichnen verwendeten Daten sind auf 150.000 Zeilen beschränkt. Bei Auswahl von mehr als 150.000 Zeilen werden nur die oberen 150.000 Zeilen verwendet, und im Bild wird eine Meldung angezeigt. Darüber hinaus gilt für die Eingabedaten eine Maximalgröße von 250 MB. 
 - Auflösung. Alle Python-Visuals werden mit 72 dpi angezeigt.
 - Einschränkung bei der Berechnungszeit. Wenn die Berechnung eines Python-Visuals länger als fünf Minuten dauert, wird die Ausführung aufgrund der Zeitüberschreitung abgebrochen, was zu einem Fehler führt.
 - Beziehungen. Wie bei anderen Power BI Desktop-Visuals tritt ein Fehler auf, wenn Datenfelder aus unterschiedlichen Tabellen ausgewählt werden, zwischen denen keine Beziehung definiert ist.

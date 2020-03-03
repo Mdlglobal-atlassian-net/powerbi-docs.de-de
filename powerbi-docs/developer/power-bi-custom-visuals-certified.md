@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026667"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782414"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>So lassen Sie sich ein Power BI-Visual zertifizieren
 
@@ -43,11 +43,13 @@ Stellen Sie beim Einreichen des Power BI-Visuals sicher, dass das kompilierte Pa
 
 Sie müssen Ihren Code zwar nicht öffentlich auf GitHub freigeben, aber das Coderepository muss dem Power BI-Team zur Überprüfung zur Verfügung stehen. Die beste Möglichkeit hierfür besteht darin, den Quellcode (JavaScript oder TypeScript) auf GitHub bereitzustellen.
 
-Das Repository darf nur Code für ein einziges Power BI-Visual enthalten. Es darf weder Code für mehrere Power BI-Visuals noch Code enthalten, der in keinem Zusammenhang mit dem Visual steht.
-
-Das Repository muss eine Verzweigung namens **certification** („Zertifizierung“, Kleinschreibung erforderlich) enthalten. Der Quellcode in diesem Branch muss mit dem eingereichten Paket übereinstimmen. Dieser Code kann erst während des nächsten Einreichungsprozesses aktualisiert werden, wenn Sie das Power BI-Visual erneut einreichen.
+Das Repository muss Folgendes enthalten:
+* Code für eine einzelne Power BI-Visualisierung. Es darf weder Code für mehrere Power BI-Visuals noch Code enthalten, der in keinem Zusammenhang mit dem Visual steht.
+* Einen Branch namens **certification** („Zertifizierung“, Kleinschreibung erforderlich). Der Quellcode in diesem Branch muss mit dem eingereichten Paket übereinstimmen. Dieser Code kann erst während des nächsten Einreichungsprozesses aktualisiert werden, wenn Sie das Power BI-Visual erneut einreichen.
 
 Wenn Ihr Power BI-Visual private npm-Pakete oder git-Untermodule verwendet, müssen Sie Zugriff auf die zusätzlichen Repositorys bereitstellen, die diesen Code enthalten.
+
+Der Aufbau eines visuellen Power BI-Repositorys ist im GitHub-Repository im [Beispielbalkendiagramm für Power BI-Visualisierungen](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi) gezeigt.
 
 ### <a name="file-requirements"></a>Anforderungen in Bezug auf Dateien
 
@@ -113,6 +115,18 @@ So fordern Sie eine Power BI-Zertifizierung an:
 
 >[!NOTE]
 > Wenn Sie sich gerade mitten im Übermittlungsprozess für ein Power BI-Visual befinden und das [Verkäuferdashboard](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (das alte Verwaltungstool) verwenden müssen, lesen Sie die Anweisungen für den [Übermittlungsprozess für die Zertifizierung auf dem Verkäuferdashboard](seller-dashboard.md#seller-dashboard-certification-submission-process).
+
+### <a name="private-repository-submission-process"></a>Einreichungsprozess bei privaten Repositorys
+
+Befolgen Sie die Anweisungen in diesem Abschnitt, wenn Sie ein privates Repository wie GitHub verwenden, um Ihre Power BI-Visualisierung zur Zertifizierung einzureichen.
+1. Erstellen Sie ein neues Konto für das Überprüfungsteam.
+2. Konfigurieren Sie für Ihr Konto die [zweistufige Authentifizierung](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
+3. [Generieren Sie einen neuen Satz an Wiederherstellungscodes](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Geben Sie folgende Informationen an, wenn Sie Ihre Power BI-Visualisierung einreichen:
+    * Einen Link zum Repository
+    * Anmeldeinformationen (einschließlich Kennwort)
+    * Wiederherstellungscodes
+    * Leseberechtigungen für unser Konto ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>Zertifizierte Power BI-Visuals
 

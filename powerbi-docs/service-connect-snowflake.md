@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429347"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576875"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Herstellen einer Verbindung mit Snowflake im Power BI-Dienst
 
@@ -49,7 +49,7 @@ Aufgrund der Funktionsweise von Power BI funktioniert SSO nur, wenn keine Datenq
 
 * Wenn Sie nur eine Snowflake-Quelle in Ihrem Datenmodell verwenden, können Sie SSO verwenden, wenn Sie das lokale Datengateway nicht verwenden möchten.
 * Wenn Sie eine Snowflake-Quelle zusammen mit einer anderen Quelle verwenden, können Sie SSO verwenden, wenn keine der Quellen das lokale Datengateway verwenden.
-* Wenn Sie eine Snowflake-Quelle über das lokale Datengateway verwenden, können Sie zwar AAD-Anmeldeinformationen aber nicht SSO verwenden. Dies kann relevant sein, wenn Sie versuchen, von einer einzelnen IP-Adresse aus auf ein virtuelles Netzwerk zuzugreifen, auf dem das Gateway installiert ist, und nicht vom gesamten Power BI-IP-Adressbereich.
+* Wenn Sie eine Snowflake-Quelle über das lokale Datengateway verwenden, werden AAD-Anmeldeinformationen aktuell nicht unterstützt. Dies kann relevant sein, wenn Sie versuchen, von einer einzelnen IP-Adresse aus auf ein virtuelles Netzwerk zuzugreifen, auf dem das Gateway installiert ist, und nicht vom gesamten Power BI-IP-Adressbereich.
 * Wenn Sie neben einer anderen Quelle, die ein Gateway erfordert, eine Snowflake-Quelle verwenden, müssen Sie auch Snowflake über das lokale Datengateway verwenden und können SSO nicht nutzen.
 
 Weitere Informationen zur Verwendung des lokalen Datengateways finden Sie im Artikel [Was ist ein lokales Daten Gateway?](https://docs.microsoft.com/power-bi/service-gateway-onprem).

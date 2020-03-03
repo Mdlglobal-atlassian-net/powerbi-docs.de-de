@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154265"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576813"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-Berichten und -Dashboards
 
@@ -55,7 +55,7 @@ Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Ein
 Sie erstellen die am Anfang des Artikels abgebildete Tabelle, um Umsatzwerte nach Artikelkategorien anzuzeigen.
 
 
-1. Wählen Sie im Bereich **Felder** **Element** > **Kategorie** aus.
+1. Wählen Sie im Bereich **Felder****Element** > **Kategorie** aus.
 
     Power BI erstellt automatisch eine Tabelle, in der alle Kategorien aufgelistet werden.
 
@@ -175,7 +175,10 @@ Gelegentlich wird in Power BI eine Spaltenüberschrift in einem Bericht oder in 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 
-Wenn Sie die Spaltenformatierung anwenden, können Sie nur eine Ausrichtungsoption pro Spalte auswählen: **Auto**, **Links**, **Zentriert**, **Rechts**. Normalerweise enthält eine Spalte den gesamten Text oder alle Zahlen und keine Mischung daraus. In Fällen, in denen eine Spalte jeweils Zahlen und Text enthält, wird durch die Auswahl von **Auto** der Text links ausgerichtet, und die Zahlen werden rechts ausgerichtet. Dieses Verhalten unterstützt Sprachen, bei denen von links nach rechts gelesen wird.
+* Wenn Sie die Spaltenformatierung anwenden, können Sie nur eine Ausrichtungsoption pro Spalte auswählen: **Auto**, **Links**, **Zentriert**, **Rechts**. Normalerweise enthält eine Spalte den gesamten Text oder alle Zahlen und keine Mischung daraus. In Fällen, in denen eine Spalte jeweils Zahlen und Text enthält, wird durch die Auswahl von **Auto** der Text links ausgerichtet, und die Zahlen werden rechts ausgerichtet. Dieses Verhalten unterstützt Sprachen, bei denen von links nach rechts gelesen wird.
+
+* Wenn die Textdaten in den Zellen oder Headern Ihrer Tabelle Neue-Zeile-Zeichen enthalten, werden diese Zeichen ignoriert, es sei denn, Sie aktivieren die Option „Zeilenumbruch“ in der Formatierungsbereichskarte des Elements. 
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 

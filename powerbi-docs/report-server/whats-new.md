@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026713"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782450"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 
@@ -166,6 +166,10 @@ Diese legen Headerwerte für alle URLs fest, die mit dem angegebenen RegEx-Muste
 
 Der Power BI-Berichtsserver unterstützt jetzt Transparent Data Encryption für die Katalogdatenbank für den Power BI-Berichtsserver in den Editionen „Enterprise“ und „Standard“.
 
+#### <a name="power-bi-visuals-api"></a>Power BI-Visualisierungs-API
+
+In diesem Release ist die API-Version 2.6 enthalten.
+
 #### <a name="microsoft-report-builder-update"></a>Update für den Berichts-Generator von Microsoft
 
 Die kürzlich veröffentlichte Version des Berichts-Generators ist vollständig kompatibel mit den Reporting Services-Versionen von 2016, 2017 und 2019. Außerdem ist sie mit allen veröffentlichten und unterstützten Versionen des Power BI-Berichtsservers kompatibel.
@@ -303,13 +307,13 @@ Administratoren können **RestrictedResourceMimeTypeForUpload** verwenden, um ei
 
 Folgende Features werden nun in Power BI-Berichten unterstützt:
 
-[**Sicherheit auf Zeilenebene:** ](row-level-security-report-server.md) Wenn Sie die Sicherheit auf Zeilenebene (Row Level Security, RLS) auf dem Power BI-Berichtsserver einrichten, können Sie den Datenzugriff für bestimmte Benutzer einschränken. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren.
+[**Sicherheit auf Zeilenebene:**](row-level-security-report-server.md) Wenn Sie die Sicherheit auf Zeilenebene (Row Level Security, RLS) auf dem Power BI-Berichtsserver einrichten, können Sie den Datenzugriff für bestimmte Benutzer einschränken. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren.
 
-[**Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Es ist nun möglich, einzelne Zeilenüberschriften in Visuals zu erweitern oder zu reduzieren. Dieses Feature wurde sehr häufig gefordert.
+[**Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix:**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Es ist nun möglich, einzelne Zeilenüberschriften in Visuals zu erweitern oder zu reduzieren. Dieses Feature wurde sehr häufig gefordert.
 
-[**Kopieren und Einfügen zwischen PBIX-Dateien:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Sie können Visuals zwischen PBIX-Dateien kopieren, indem Sie entweder das Kontextmenü des Visuals oder die Standardtastenkombination STRG+C verwenden. Fügen Sie die Datei anschließend mit STRG+V in einen anderen Bericht ein.
+[**Kopieren und Einfügen zwischen PBIX-Dateien:**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Sie können Visuals zwischen PBIX-Dateien kopieren, indem Sie entweder das Kontextmenü des Visuals oder die Standardtastenkombination STRG+C verwenden. Fügen Sie die Datei anschließend mit STRG+V in einen anderen Bericht ein.
 
-[**Intelligente Hinweise zur Ausrichtung:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Wenn Sie Objekte auf Ihrer Berichtsseite verschieben, werden Ihnen intelligente Hinweise zur Ausrichtung angezeigt (ähnlich wie in PowerPoint), damit Sie Ihre Seite optimaler gestalten können. Die intelligenten Hinweise werden immer angezeigt, wenn Sie ein Objekt auf der Seite ziehen oder dessen Größe ändern. Wenn Sie ein Objekt in die Nähe eines anderen verschieben, wird es an der Position des anderen Objekts ausgerichtet.
+[**Intelligente Hinweise zur Ausrichtung:**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Wenn Sie Objekte auf Ihrer Berichtsseite verschieben, werden Ihnen intelligente Hinweise zur Ausrichtung angezeigt (ähnlich wie in PowerPoint), damit Sie Ihre Seite optimaler gestalten können. Die intelligenten Hinweise werden immer angezeigt, wenn Sie ein Objekt auf der Seite ziehen oder dessen Größe ändern. Wenn Sie ein Objekt in die Nähe eines anderen verschieben, wird es an der Position des anderen Objekts ausgerichtet.
 
 **Features für die Barrierefreiheit:** Es gibt viele Features für die Barrierefreiheit, z. B. [die Unterstützung für die Barrierefreiheit des Bereichs zum Auflisten von Feldern](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Der Bereich zum Auflisten von Feldern ist vollständig barrierefrei. Sie können in diesem Bereich navigieren, indem Sie nur die Tastatur und die Sprachausgabe verwenden. Über das Kontextmenü können Sie Felder zu Ihrer Berichtsseite hinzufügen.
 
@@ -323,7 +327,7 @@ Administratoren können die folgenden Eigenschaften in den erweiterten SSMS-Eige
 
 **AllowedResourceExtensionsForUpload:** Sie können die Erweiterungen der Ressourcen einschränken, die auf den Berichtsserver hochgeladen werden können. Die Erweiterungen für integrierte Dateitypen wie &ast;.rdl und &ast;.pbix müssen nicht aufgeführt werden. Standardmäßig sind die Erweiterungen &ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt und &ast;.pptx” enthalten. 
 
-**SupportedHyperlinkSchemes:** Legt eine durch Trennzeichen getrennte Liste der URI-Schemas fest, die in Hyperlinkaktionen definiert werden dürfen, die gerendert werden können. Alternativ wird „&ast;“ festgelegt, um alle Hyperlinkschemas zuzulassen. Mit der Einstellung „http,https“ sind beispielsweise Links zu „https://www. contoso.com“ zulässig, aber Hyperlinks zu „mailto:bill@contoso.com“ oder „javascript:window.open(‘ www.contoso.com’, ‘_blank’)“ werden entfernt. Der Standardwert lautet „&ast;“.
+**SupportedHyperlinkSchemes:** Legt eine durch Trennzeichen getrennte Liste der URI-Schemas fest, die in Hyperlinkaktionen definiert werden dürfen, die gerendert werden können. Alternativ wird „&ast;“ festgelegt, um alle Hyperlinkschemas zuzulassen. Mit der Einstellung „http,https“ sind beispielsweise Links zu „https://www. contoso.com“ zulässig, aber Hyperlinks zu „mailto:bill@contoso.com“ oder „javascript:window.open(‘www.contoso.com’, ‘_blank’)“ werden entfernt. Der Standardwert lautet „&ast;“.
 
 ## <a name="august-2018"></a>August 2018
 
@@ -446,34 +450,34 @@ Das für Power BI-Berichtsserver optimierte Release von Power BI Desktop im Mär
 
 Diese neuen Features stechen besonders aus der langen Liste heraus.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Regelbasierte bedingte Formatierung für Tabellen und Matrizen](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[Regelbasierte bedingte Formatierung für Tabellen und Matrizen](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 Erstellen von Filtern, die unter bestimmten Bedingungen und abhängig von der spezifischen Geschäftslogik in Ihrer Tabelle oder Matrix die Farbe des Hintergrunds oder der Schriftfarbe einer Spalte verändern.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Ein- und Ausblenden von Seiten](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[Ein- und Ausblenden von Seiten](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 Sie wollen Lesern den Zugriff auf Ihren Bericht gewähren, obwohl einige Seiten noch nicht fertig bearbeitet sind? Jetzt können Sie diese Seiten ausblenden, bis sie fertig bearbeitet sind. Oder Sie können Seiten ausblenden, die über die normale Navigationsleiste gesucht werden. Leser können diese Seiten mithilfe von Lesezeichen oder Drillthrough abrufen.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Hinzufügen von Lesezeichen](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Hinzufügen von Lesezeichen](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 Erstellen Sie Lesezeichen, um mit den Daten in Ihrem Bericht eine Geschichte zu erzählen.
 
 - [Kreuzhervorhebung für Lesezeichen](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): Lesezeichen enthalten den Status der Kreuzhervorhebung einer Berichtsseite zum Zeitpunkt des Erstellens des Lesezeichens und zeigen diese an.
 - [Mehr Flexibilität bei Lesezeichen](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): Lesezeichen reflektieren die von Ihnen im Bericht festgelegten Eigenschaften und haben nur Auswirkungen auf die von Ihnen gewählten Visuals.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Mehrfachauswahl von Datenpunkten aus mehreren Diagrammen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[Mehrfachauswahl von Datenpunkten aus mehreren Diagrammen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 Wählen Sie mehrere Datenpunkte aus mehreren Diagrammen aus, und wenden Sie den Kreuzfilter auf die ganze Seite an.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Synchronisieren von Slicern auf mehreren Seiten Ihres Berichts](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[Synchronisieren von Slicern auf mehreren Seiten Ihres Berichts](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 Ein Slicer kann für eine, zwei oder mehrere Seiten in einem Bericht angewendet werden.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Quickmeasures](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[Quickmeasures](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 Erstellen Sie neue Measures, die auf bereits vorhandenen Measures und numerischen Spalten in einer Tabelle basieren.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Drilldownfilter für andere Visuals](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[Drilldownfilter für andere Visuals](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 Wenn Sie in einer bestimmten Kategorie eines Visuals einen Drilldown ausführen, können Sie alle Visuals auf der Seite nach derselben Kategorie filtern.
 

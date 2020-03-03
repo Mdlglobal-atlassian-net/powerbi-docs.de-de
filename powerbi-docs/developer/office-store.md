@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999896"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576803"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Veröffentlichen von Power BI-Visuals in Partner Center
 
@@ -39,7 +39,7 @@ Wenn Sie dazu bereit sind, Ihr Power BI-Visual zu übermitteln, überprüfen Si
 | Screenshots |Ja |Stellen Sie mindestens einen Screenshot bereit. Dabei kann es sich um eine PNG-, JPG-, JPEG- oder GIF-Datei handeln. Die Abmessungen müssen exakt 1366 px (Breite) mal 768 px (Höhe) betragen. Die Datei darf nicht größer als 1024 KB sein.<br>Um den Nutzen der Screenshots zu erhöhen, fügen Sie Textblasen hinzu, mit denen Sie den Wertbeitrag wichtiger Features erläutern, die in den einzelnen Screenshots gezeigt werden. |
 | Support-Downloadlink |Ja |Stellen Sie eine Support-URL für Ihre Kunden bereit. Dieser Link ist Bestandteil Ihres Listings auf dem Verkäuferdashboard und wird Benutzern angezeigt, wenn sie auf das Listing Ihres Visuals in AppSource zugreifen. Das Format der URL muss „https://“ oder „http://“ enthalten. |
 | Link zum Datenschutzdokument |Ja |Stellen Sie einen Link zur gültigen Datenschutzrichtlinie für das Visual bereit. Dieser Link ist Bestandteil Ihres Listings auf dem Verkäuferdashboard und wird Benutzern angezeigt, wenn sie auf das Listing Ihres Visuals in AppSource zugreifen. Das Format des Links muss „https://“ oder „http://“ enthalten. |
-| Lizenzbedingungen |Ja |Sie müssen eine Datei mit Lizenzbedingungen hochladen. Dabei kann es sich um Ihre eigenen Lizenzbedingungen oder die Standardlizenzbedingungen im Office Store für Power BI-Visuals handeln. Um die Standardlizenzbedingungen zu verwenden, fügen Sie die folgende URL in das Dialogfeld zum Hochladen der Datei mit Lizenzbedingungen im Verkäuferdashboard ein. [https://visuals.azureedge.net/app-store/Power BI – Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Lizenzbedingungen |Ja |Sie müssen eine EULA-Datei für Ihre Power BI-Visualisierung angeben. |
 | Videolink |Nein |Um das Interesse der Benutzer an Ihrem benutzerdefinierten Visual zu steigern, stellen Sie einen Link zu einem Video über Ihr Visual bereit. Das Format der URL muss „https://“ oder „http://“ enthalten. |
 | GitHub-Repository |Nein |Geben Sie einen öffentlichen Link zu einem [GitHub](https://www.github.com)-Repository mit den Quellen Ihres Power BI-Visuals sowie Beispieldaten an. So können andere Entwickler Ihnen Feedback geben und Verbesserungen für Ihren Code vorschlagen. |
 

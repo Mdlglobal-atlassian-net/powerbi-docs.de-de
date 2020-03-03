@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223708"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609906"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Große Modelle in Power BI Premium (Vorschauversion)
 
-Power BI-Datasets können Daten für eine optimierte Abfrageleistung in einem stark komprimierten, In-Memory-Cache speichern. Dies ermöglicht eine schnelle Benutzerinteraktivität über große Datasets hinweg. Mit dem Feature für große Modelle können Datasets in Power BI Premium mehr als 10 GB groß werden. Die Größe des Datasets wird stattdessen durch die Power BI Premium-Kapazitätsgröße beschränkt. Dies ähnelt in Bezug auf die Größenbeschränkungen von Modellen der Funktionsweise von Azure Analysis Services. Weitere Informationen zu Kapazitätsgrößen in Power BI Premium finden Sie unter „Kapazitätsknoten“. Sie können große Modelle für alle Premium P- und eingebettete A-SKUs einrichten. Sie funktionieren jedoch nur mit den [neuen Arbeitsbereichen](service-create-the-new-workspaces.md).
+Power BI-Datasets können Daten für eine optimierte Abfrageleistung in einem stark komprimierten In-Memory-Cache speichern. Dadurch wird bei großen Datasets eine schnellere Benutzerinteraktion ermöglicht. Mit dem Feature für große Modelle können Datasets in Power BI Premium mehr als 10 GB groß werden. Die Größe des Datasets ist durch die Power BI Premium-Kapazität beschränkt. Dies ist mit der Funktionsweise von Modellgrößenbeschränkungen in Azure Analysis Services vergleichbar. Weitere Informationen zu Kapazitätsgrößen in Power BI Premium finden Sie unter „Kapazitätsknoten“. Sie können große Modelle für alle Premium P- und eingebettete A-SKUs einrichten. Sie funktionieren jedoch nur mit den [neuen Arbeitsbereichen](service-create-the-new-workspaces.md).
 
 Große Modelle haben keinen Einfluss auf die PBIX-Uploadgröße. Diese ist weiterhin auf 10 GB beschränkt. Stattdessen werden Datasets bei der Aktualisierung im Dienst über 10 GB hinaus vergrößert. Mit der inkrementellen Aktualisierung können Sie ein Dataset so konfigurieren, dass es größer als 10 GB wird.
 
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um ein Dataset zu erstellen, das größe
 
 1. Veröffentlichen Sie das Dataset im Power BI Premium-Dienst.
 
-1. Aktivieren Sie das Dataset für große Modelle, indem Sie die unten aufgeführten PowerShell-Cmdlets ausführen. Durch diese Cmdlets speichert Power BI das Dataset in Azure Files Premium und erzwingt nicht die 10 GB-Grenze.
+1. Aktivieren Sie das Dataset für große Modelle, indem Sie die unten aufgeführten PowerShell-Cmdlets ausführen. Durch diese Cmdlets speichert Power BI das Dataset in Azure Files Premium, sodass die maximale Größe von 10 GB nicht erzwungen wird.
 
 1. Starten Sie eine Aktualisierung, um historische Daten basierend auf der Richtlinie für die inkrementelle Aktualisierung zu laden. Bei der ersten Aktualisierung kann das Laden der historischen Daten einige Zeit in Anspruch nehmen. Nachfolgende Aktualisierungen sollten dann schneller gehen, da Sie inkrementell ausgeführt werden.
 
@@ -110,12 +110,54 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>Aktuelle Featureinschränkungen
+## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
 Berücksichtigen Sie bei der Verwendung großer Modelle die folgenden Einschränkungen:
 
-- **Verwenden der eigenen Verschlüsselungsschlüssel – BYOK-Verschlüsselung**: Für Files Premium aktivierte Datasets werden nicht durch [BYOK](service-encryption-byok.md) verschlüsselt.
+- **Verwenden eigener Verschlüsselungsschlüssel – BYOK-Verschlüsselung**: Für Files Premium aktivierte Datasets werden nicht durch [BYOK](service-encryption-byok.md) verschlüsselt.
 - **Multi-Geo-Unterstützung**: Für Files Premium aktivierte Datasets schlagen bei Kapazitäten fehl, bei denen [Multi-Geo](service-admin-premium-multi-geo.md) ebenfalls aktiviert ist.
 
-- **Herunterladen zu Power BI Desktop**: Wenn ein Dataset in Files Premium gespeichert wird, tritt beim Herunterladen als [PBIX](service-export-to-pbix.md)-Datei ein Fehler auf.
-- **Unterstützte Regionen**: Große Modelle werden in allen Azure-Regionen unterstützt, die Storage Premium-Dateien unterstützen. Weitere Informationen finden Sie unter [Verfügbare Produkte nach Region](https://azure.microsoft.com/global-infrastructure/services/?products=storage).
+- **Herunterladen von Dateien in Power BI Desktop**: Wenn ein Dataset in Files Premium gespeichert wird, tritt beim Herunterladen als [PBIX](service-export-to-pbix.md)-Datei ein Fehler auf.
+- **Unterstützte Regionen**: Große Modelle werden in allen Azure-Regionen unterstützt, die Storage Premium-Dateien unterstützen. Weitere Informationen finden Sie unter [Verfügbare Produkte nach Region](https://azure.microsoft.com/global-infrastructure/services/?products=storage) und in der Tabelle im nachfolgenden Abschnitt.
+
+
+## <a name="availability-in-regions"></a>Verfügbarkeit nach Region
+
+Große Modelle sind nicht in allen Regionen verfügbar, in denen Power BI angeboten wird. Sie sind nur in Azure-Regionen verfügbar, die [Azure Files Storage Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers) unterstützen.
+
+In der folgenden Liste sind Regionen aufgeführt, in denen große Modelle in Power BI verfügbar sind. In Regionen, die nicht in der folgenden Liste enthalten sind, werden große Modelle nicht unterstützt:
+
+
+|Azure-Region  |Abkürzung der Azure-Region  |
+|---------|---------|
+|Australien, Osten     | australiaeast        |
+|Australien, Südosten     | australiasoutheast        |
+|USA, Mitte     | centralus        |
+|Asien, Osten     | eastasia        |
+|USA, Osten     | eastus        |
+|USA, Osten 2     | eastus2        |
+|Japan, Osten     | japaneast        |
+|Japan, Westen     | japanwest        |
+|Südkorea, Mitte     | koreacentral        |
+|Südkorea, Süden     | koreasouth        |
+|USA, Norden-Mitte     | northcentralus        |
+|Europa, Norden     | northeurope        |
+|USA, Süden-Mitte     | southcentralus        |
+|Asien, Südosten     | southeastasia        |
+|Vereinigtes Königreich, Süden     | uksouth        |
+|Vereinigtes Königreich, Westen     | ukwest        |
+|Europa, Westen     | westeurope        |
+|USA, Westen     | westus        |
+|USA, Westen 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>Nächste Schritte
+
+Über die folgenden Links können Sie auf nützliche Informationen für die Arbeit mit großen Modellen zugreifen:
+
+* [Azure Files Storage Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Konfigurieren von Multi-Geo-Unterstützung für Power BI Premium](service-admin-premium-multi-geo.md)
+* [Verwenden eigener Verschlüsselungsschlüssel für Power BI](service-encryption-byok.md)
+* [Funktionsweise von Kapazitäten](service-premium-what-is.md#how-capacities-function)
+* [Inkrementelle Aktualisierung](service-premium-incremental-refresh.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154389"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576842"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Erstellen von Matrixvisualisierungen in Power BI
 
@@ -218,6 +218,10 @@ Um bedingte Formatierung anzuwenden, wählen Sie das Matrixvisual aus und öffne
 Wählen Sie *Erweiterte Steuerelemente* aus, um ein Dialogfeld anzuzeigen, in dem Sie Anpassungen vornehmen können. Dieses Beispiel zeigt das Dialogfeld für **Datenbalken**.
 
 ![Bereich „Datenbalken“](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+
+* Wenn die Textdaten in den Zellen oder Headern Ihrer Matrix Neue-Zeile-Zeichen enthalten, werden diese Zeichen ignoriert, es sei denn, Sie aktivieren die Option „Zeilenumbruch“ in der Formatierungsbereichskarte des Elements. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2020
+ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076697"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609923"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -118,7 +118,7 @@ Nachdem Sie einen **Im Web veröffentlichen**-Einbindungscode erstellt haben, k�
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Updates an Berichten und Datenaktualisierung
 
-Nachdem Sie einen **Im Web veröffentlichen**-Einbindungscode erstellt und geteilt haben, werden alle Änderungen, die Sie vornehmen, im Bericht aktualisiert, und der Einbindungscodelink ist sofort aktiv. Jeder, der den Link öffnet, kann den Bericht sehen. Nach dieser anfänglichen Aktion kann es jedoch ungefähr eine Stunde dauern, bis Änderungen an Berichten oder Visuals für Ihre Benutzer sichtbar werden. Weitere Informationen finden Sie im Abschnitt [**Funktionsweise**](#howitworks) weiter unten in diesem Artikel. 
+Nachdem Sie einen **Im Web veröffentlichen**-Einbindungscode erstellt und geteilt haben, werden alle Änderungen, die Sie vornehmen, im Bericht aktualisiert, und der Einbindungscodelink ist sofort aktiv. Jeder, der den Link öffnet, kann den Bericht sehen. Nach dieser anfänglichen Aktion kann es jedoch zwei bis drei Stunden dauern, bis Änderungen an Berichten oder visuellen Elementen für Ihre Benutzer sichtbar werden. Weitere Informationen finden Sie im Abschnitt [**Funktionsweise**](#howitworks) weiter unten in diesem Artikel. 
 
 ## <a name="data-refresh"></a>Datenaktualisierung
 

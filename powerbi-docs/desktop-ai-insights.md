@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ecb377ccabf3b94f37c3fcc69b24c4437c42281b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221273"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609815"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Verwenden von KI Insights in Power BI Desktop (Vorschau)
 
@@ -153,7 +153,7 @@ Viele Organisationen verwenden **Machine Learning**-Modelle, um bessere Erkenntn
 
 Zur Verwendung dieser Funktion kann ein Data Scientist dem BI-Analysten einfach über das Azure-Portal Zugriff auf das Azure ML-Modell erteilen. Dann ermittelt Power Query am Anfang jeder Sitzung alle Azure ML-Modelle, auf die der Benutzer Zugriff hat, und macht sie als dynamische Power Query-Funktionen verfügbar. Der Benutzer kann dann über das Menüband im Power Query-Editor auf diese Funktionen zugreifen oder die M-Funktion direkt aufrufen. Power BI erstellt auch beim Aufrufen des Azure ML-Modells für eine Gruppe von Zeilen automatisch Batches der Zugriffsanforderungen, um eine bessere Leistung zu erzielen.
 
-Diese Funktionalität wird derzeit nur für Power BI-Dataflows und im Power BI-Dienst für Power Query Online unterstützt.
+Diese Funktionalität wird in Power BI Desktop, Power BI-Dataflows und im Power BI-Dienst für Power Query Online unterstützt.
 
 Weitere Informationen zu Dataflows finden Sie unter [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md).
 
@@ -220,7 +220,7 @@ Die folgenden Aspekte und Einschränkungen gelten für Azure Machine Learning in
 
 In diesem Artikel haben Sie sich einen Überblick über die Integration von Machine Learning in Power BI Desktop verschafft. Die folgenden Artikel könnten für Sie ebenfalls interessant und nützlich sein.
 
-- [Tutorial: Aufrufen eines Machine Learning Studio-Modells (klassisch) in Power BI](service-tutorial-invoke-machine-learning-model.md)
+- [Tutorial: Aufrufen eines klassischen Machine Learning Studio-Modells in Power BI](service-tutorial-invoke-machine-learning-model.md)
 - [Tutorial: Verwenden von Cognitive Services in Power BI](service-tutorial-use-cognitive-services.md)
 - [Cognitive Services in Power BI](service-cognitive-services.md)
 - [Azure Machine Learning integration in Power BI (Azure Machine Learning-Integration in Power BI)](service-machine-learning-integration.md)

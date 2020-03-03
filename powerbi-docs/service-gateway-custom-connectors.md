@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 78ac4f3280125fb522661a63f679981b3cda34e3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699458"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609890"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Verwenden von benutzerdefinierten Datenconnectors mit dem lokalen Datengateway
 
@@ -46,6 +46,7 @@ Wenn diese Option aktiviert ist, werden Ihre benutzerdefinierten Connectors als 
 
 * Stellen Sie sicher, dass der erstellte Ordner für den Gatewaydienst im Hintergrund zugänglich ist. In der Regel ist der Zugriff auf Ordner unter Windows-Ordnern oder Systemordnern Ihres Benutzers nicht möglich. Die App für das lokale Datengateway zeigt eine Nachricht an, wenn nicht auf den Ordner zugegriffen werden kann. Diese Anweisung gilt nicht für lokale Datengateways (persönlicher Modus).
 * Damit benutzerdefinierte Connectors mit dem lokalen Datengateway verwendet werden können, muss in deren Code ein „TestConnection“-Abschnitt implementiert werden. Dieser Abschnitt ist nicht erforderlich, wenn Sie benutzerdefinierte Connectors mit Power BI Desktop verwenden. Daher können Sie einen benutzerdefinierten Connector nutzen, der zwar mit Power BI Desktop, aber nicht mit dem Gateway verwendet werden kann. Weitere Informationen zur Implementierung eines TestConnection-Abschnitts finden Sie in [dieser Dokumentation](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
+* OAuth für benutzerdefinierte Connectors über Gateways wird derzeit nur für Gatewayadministratoren unterstützt, für andere Datenquellenbenutzer jedoch nicht.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: f5bf1b55c2e092dc755da9f391c83ce3c42661b2
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709889"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652517"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Verwalten des Datenspeichers in Power BI-Arbeitsbereichen
 
@@ -28,8 +28,8 @@ Speicherbegrenzungen im Arbeitsbereich hängen sowohl für „Mein Arbeitsbereic
 ### <a name="shared-capacity-limits"></a>Beschränkungen bei gemeinsam genutzter Kapazität
 Für Arbeitsbereiche mit gemeinsam genutzter Kapazität gilt Folgendes: 
 
-- Es gilt eine Speicherbeschränkung von 10 GB pro Arbeitsbereich.
-- Der Gesamtverbrauch für App-Arbeitsbereiche darf 10 GB mal die Anzahl der Pro-Lizenzen in einem Mandanten nicht überschreiten.
+- Es gilt eine Speicherbeschränkung von 100 GB pro Arbeitsbereich.
+- Der Gesamtverbrauch für App-Arbeitsbereiche darf das Speicherlimit des Mandanten (10 GB multipliziert mit der die Anzahl von Pro-Lizenzen im Mandanten) nicht überschreiten.
 
 ### <a name="premium-capacity-limits"></a>Beschränkungen bei Premium-Kapazität
 Für Arbeitsbereiche mit Premium-Kapazität gilt Folgendes:
