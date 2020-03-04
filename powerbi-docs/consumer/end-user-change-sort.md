@@ -22,7 +22,7 @@ ms.locfileid: "77496473"
 
 
 > [!IMPORTANT]
-> **Dieser Artikel richtet sich an Power BI-Benutzer, die nicht berechtigt sind, den Bericht oder das Dataset zu bearbeiten, und die nur die Onlineversion von Power BI (Power BI-Dienst) verwenden. Wenn Sie ein Berichts- *Designer*, *administrator* oder -*besitzer* sind, finden Sie in diesem Artikel möglicherweise nicht alle Informationen, die Sie benötigen. Stattdessen sollten Sie den Artikel [Sortieren nach Spalten in Power BI Desktop](../desktop-sort-by-column.md)** lesen.
+> **Dieser Artikel richtet sich an Power BI-Benutzer, die nicht berechtigt sind, den Bericht oder das Dataset zu bearbeiten, und die nur die Onlineversion von Power BI (Power BI-Dienst) verwenden. Wenn Sie ein Berichts- *Designer*, *administrator* oder *besitzer* sind, finden Sie in diesem Artikel möglicherweise nicht alle Informationen, die Sie benötigen. Stattdessen sollten Sie den Artikel [Sortieren nach Spalten in Power BI Desktop](../desktop-sort-by-column.md)** lesen.
 
 Im Power BI-Dienst können Sie das Erscheinungsbild eines Visuals ändern, indem Sie es nach verschiedenen Datenfeldern sortieren. Indem Sie die Sortierung eines Visuals ändern, können Sie die Informationen hervorheben, die Sie vermitteln möchten. Ob Sie numerische Daten (z.B. Umsatzzahlen) oder Text (z.B. Ländernamen) verwenden – die Visualisierungen lassen sich wunschgemäß sortieren. Power BI bietet große Flexibilität beim Sortieren sowie Schnellmenüs. 
 
