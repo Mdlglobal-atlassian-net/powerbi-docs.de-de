@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Verwenden des Drillthrough für Berichtsseiten
               href: report-drillthrough.md
+            - name: Tipps zum Verwalten von Achsen
+              href: report-design-tips-axes.md
+            - name: Tipps zum Steuern von Diagrammgitternetzlinien
+              href: report-tips-chart-gridlines.md
+            - name: Tipps zum Optimieren der Verwendung von Beschriftungen
+              href: report-tips-labels.md
+            - name: Tipps zum Formatieren und Implementieren von Legenden
+              href: report-tips-legends.md
+            - name: Tipps zum Optimieren von Visualfarben
+              href: report-tips-visual-colors.md
         - name: "Paginierte Power\_BI-Berichte"
           items:
             - name: Einsatzbereiche für paginierte Berichte
