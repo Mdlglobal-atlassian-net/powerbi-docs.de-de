@@ -26,7 +26,7 @@ ms.locfileid: "76889098"
 Wenn Sie beginnen, mit dem Power BI-Dienst zu arbeiten, verfügen Sie nur über wenige Inhalte (Dashboards, Berichte und Apps). Wenn aber Ihre Kollegen Inhalte mit Ihnen teilen, und Sie Apps herunterladen, wird die Liste Ihrer Inhalte schnell immer länger. In diesem Fall sind Funktionen zum Suchen und Sortieren sehr nützlich.
 
 ## <a name="searching-for-content"></a>Suchen nach Inhalt
- Sie können die Suchfunktion in fast jedem Bereich des Power BI-Diensts nutzen. Suchen Sie einfach nach dem Suchfeld oder dem Suchsymbol. ![Lupensymbol](./media/end-user-search-sort/power-bi-search-icon.png)erforderlich.
+ Sie können die Suchfunktion in fast jedem Bereich des Power BI-Diensts nutzen. Suchen Sie einfach nach dem Suchfeld oder dem Suchsymbol. ![Lupensymbol](./media/end-user-search-sort/power-bi-search-icon.png).
 
  Geben Sie in das Suchfeld ganz oder teilweise den Namen eines Dashboards, Berichts, einer Arbeitsmappe, einer App oder eines Besitzers ein. Power BI durchsucht dann den gesamten Inhalt. 
 
@@ -60,4 +60,4 @@ Nicht alle Spalten können sortiert werden. Zeigen Sie auf die Spaltenüberschri
 ## <a name="next-steps"></a>Nächste Schritte
 [Sortieren von Visuals in Berichten](end-user-change-sort.md)
 
-Haben Sie dazu Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

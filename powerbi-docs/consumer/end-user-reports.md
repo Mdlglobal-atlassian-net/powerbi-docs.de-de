@@ -55,9 +55,9 @@ Das bedeutet nicht, dass Sie Ihre Änderungen nicht speichern können. Das könn
 
 | **Eigenschaften** | **Dashboards** | **Berichte** |
 | --- | --- | --- |
-| Pages |Eine Seite |Eine oder mehrere Seiten |
+| Seiten |Eine Seite |Eine oder mehrere Seiten |
 | Datenquellen |Ein oder mehrere Berichte und ein oder mehrere Datasets pro Dashboard |Ein Dataset pro Bericht |
-| Filter |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
+| Filterung |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
 | Benachrichtigungen festlegen |Kann Ihnen Benachrichtigungen per E-Mail senden, wenn das Dashboard bestimmte Bedingungen erfüllt |Nein |
 | Feature |Kann ein Dashboard als Favorit festlegen |Ein ausgewählter Bericht kann nicht erstellt werden. |
 | Zugrunde liegende Dataset-Tabellen und Felder sichtbar |Nein. Kann Daten exportieren, aber keine Dataset-Tabellen und Felder im Dashboard selbst einsehen |Ja. Kann Dataset-Tabellen, Felder und Werte einsehen, für die Sie über die Berechtigungen verfügen |
