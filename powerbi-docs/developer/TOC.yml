@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: Synchronisierung von Slicern
               href: visuals/enable-sync-slicers.md
+            - name: Debuggen von Visuals
+              href: visuals/visuals-how-to-debug.md
             - name: Problembehandlung bei Power BI-Visuals
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Referenz
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: TypeUtils
                   href: visuals/utils-type.md
+                - name: QuickInfo-Hilfsprogramme
+                  href: visuals/utils-tooltip.md
                 - name: DataViewUtils
                   href: visuals/utils-dataview.md
         - name: Ressourcen
@@ -156,6 +160,8 @@
           items:
             - name: Einbetten aus einer App
               href: embed-from-apps.md
+            - name: Exportieren eines Berichts in eine Datei
+              href: export-to.md
             - name: Automatisches Installieren von Apps
               href: embed-auto-install-app.md
             - name: Erstellen eines Azure Active Directory-Mandanten
@@ -257,8 +263,6 @@
           items:
             - name: Konfigurieren von Anmeldeinformationen
               href: configure-credentials.md
-            - name: Verschlüsseln von Anmeldeinformationen
-              href: encrypt-credentials.md
         - name: Referenz
           items:
             - name: REST-APIs

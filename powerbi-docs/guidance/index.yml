@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
-  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
+  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 03/03/2020
-  ms.locfileid: "78237774"
+  ms.lasthandoff: 03/04/2020
+  ms.locfileid: "78260690"
 landingContent:
 - title: Power BI-Leitfaden
   linkLists:
@@ -51,12 +51,20 @@ landingContent:
       url: import-modeling-data-reduction.md
     - text: Leitfaden zu Datum/Uhrzeit automatisch
       url: auto-date-time.md
+    - text: 1:1-Beziehungen
+      url: relationships-one-to-one.md
+    - text: M:n-Beziehungen
+      url: relationships-many-to-many.md
+    - text: Aktive und inaktive Beziehungen im Vergleich
+      url: relationships-active-inactive.md
+    - text: Bidirektionale Beziehungen
+      url: relationships-bidirectional-filtering.md
+    - text: Problembehandlung bei Beziehungen
+      url: relationships-troubleshoot.md
     - text: Leitfaden zum DirectQuery-Modell
       url: directquery-model-guidance.md
     - text: Leitfaden zu zusammengesetzten Modellen
       url: composite-model-guidance.md
-    - text: Leitfaden zu m:n-Beziehungen
-      url: relationships-many-to-many.md
 - title: DAX
   linkLists:
   - linkListType: concept

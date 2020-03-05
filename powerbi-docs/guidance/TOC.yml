@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: Leitfaden zu Datum/Uhrzeit automatisch
               href: auto-date-time.md
-            - name: 'Leitfaden zu m:n-Beziehungen'
+            - name: '1:1-Beziehungen'
+              href: relationships-one-to-one.md
+            - name: 'M:n-Beziehungen'
               href: relationships-many-to-many.md
+            - name: Aktive und inaktive Beziehungen im Vergleich
+              href: relationships-active-inactive.md
+            - name: Bidirektionale Beziehungen
+              href: relationships-bidirectional-filtering.md
+            - name: Problembehandlung bei Beziehungen
+              href: relationships-troubleshoot.md
             - name: Leitfaden zum DirectQuery-Modell
               href: directquery-model-guidance.md
             - name: Leitfaden zu zusammengesetzten Modellen
