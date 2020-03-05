@@ -136,7 +136,7 @@ Im folgenden Code wird ein Beispiel dafür veranschaulicht:
 }
 ```
 
-Achten Sie auf die Eigenschaften *fill* und *fillRule*. Die erste Eigenschaft ist die Farbauswahl und die zweite ist die Ersetzungsregel für den Farbverlauf, der die *fill-Eigenschaft* `visually` ersetzt, wenn die Bedingungen der Regel erfüllt werden.
+Achten Sie auf die Eigenschaften *fill* und *fillRule*. Die erste Eigenschaft ist die Farbauswahl und die zweite ist die Ersetzungsregel für den Farbverlauf, der die *fill-Eigenschaft*`visually` ersetzt, wenn die Bedingungen der Regel erfüllt werden.
 
 Die Verknüpfung zwischen der *fill*-Eigenschaft und der Ersetzungsregel wird im Abschnitt `"rule"`>`"output"` der *fillRule*-Eigenschaft festgelegt.
 

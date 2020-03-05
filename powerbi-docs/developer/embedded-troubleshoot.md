@@ -21,9 +21,9 @@ In diesem Artikel werden einige häufige Probleme erläutert, die beim Einbetten
 
 ## <a name="tools-to-troubleshoot"></a>Tools zur Problembehandlung
 
-### <a name="fiddler-trace"></a>Ablaufverfolgung mit Fiddler
+### <a name="fiddler-trace"></a>Fiddler-Ablaufverfolgung
 
-[Fiddler](https://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann.  Sie können den Datenverkehr zwischen den Power BI-APIs und dem Clientcomputer verfolgen. So können Sie Fehler und ähnliche Informationen anzeigen.
+[Fiddler](https://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Datenverkehr überwacht wird.  Sie können den Datenverkehr zwischen den Power BI-APIs und dem Clientcomputer verfolgen. So können Sie Fehler und ähnliche Informationen anzeigen.
 
 ![Ablaufverfolgung mit Fiddler](media/embedded-troubleshoot/fiddler.png)
 

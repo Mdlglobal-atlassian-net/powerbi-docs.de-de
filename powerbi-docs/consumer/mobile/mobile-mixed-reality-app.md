@@ -43,11 +43,11 @@ Weitere Informationen finden Sie unter [Microsoft hand gestures in mixed reality
 
 **Ein Element anheften** 
 
-Tippen Sie auf das **Stecknadelsymbol** ![Stecknadelsymbol](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png), um ein Dashboard oder einen Bericht aus der klassischen Windows-Ansicht an die holografische Ansicht anzuheften. Sie können mehrere Element an die holografische Ansicht anheften. 
+Tippen Sie auf das **Stecknadelsymbol**![Stecknadelsymbol](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png), um ein Dashboard oder einen Bericht aus der klassischen Windows-Ansicht an die holografische Ansicht anzuheften. Sie können mehrere Element an die holografische Ansicht anheften. 
 
 **In die holografische Ansicht wechseln**
 
-Nachdem Sie Elemente an die klassische Windows-Ansicht geheftet haben, können Sie mit der Tippbewegung auf das **Vollbildsymbol** ![Vollbildsymbol](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) tippen, um in die holografische Ansicht zu wechseln. 
+Nachdem Sie Elemente an die klassische Windows-Ansicht geheftet haben, können Sie mit der Tippbewegung auf das **Vollbildsymbol**![Vollbildsymbol](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png) tippen, um in die holografische Ansicht zu wechseln. 
 
 
 ## <a name="holographic-view-basics"></a>Grundlagen für die holografische Ansicht

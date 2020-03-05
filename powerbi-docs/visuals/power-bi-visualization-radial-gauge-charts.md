@@ -29,7 +29,7 @@ In diesem Beispiel sind Sie ein Autohändler, der die durchschnittlichen Verkäu
 
 Schauen Sie Will beim Erstellen von Einzelmetrikvisualisierungen wie Messgeräten, Karten und KPIs zu.
    > [!NOTE]
-   > Dieses Video verwendet eine ältere Version von Power BI Desktop.
+   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
    > 
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>

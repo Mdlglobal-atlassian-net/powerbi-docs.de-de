@@ -42,7 +42,7 @@ Sie könnten die Anzahl der in anderen Kleidungskategorien verkauften Artikeln d
 Sie möchten sich zunächst einmal ansehen, wie ein Treemap-Diagramm erstellt wird? Ab Position 2:10 erläutert Amanda in diesem Video das Erstellen eines Treemap-Diagramms.
 
    > [!NOTE]
-   > Dieses Video verwendet eine ältere Version von Power BI Desktop.
+   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
    > 
    > 
 
