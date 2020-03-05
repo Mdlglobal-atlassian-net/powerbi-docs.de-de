@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040357"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290611"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Erweitern von Visuals mit QuickInfos für Berichtsseiten
 
@@ -88,5 +88,5 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 - [Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop](../desktop-tooltips.md)
 - [Anpassen von QuickInfos in Power BI Desktop](../desktop-custom-tooltips.md)
 - [Use visual elements to enhance Power BI reports (Erweitern von Power BI-Berichten durch Visualelemente)](../desktop-visual-elements-for-reports.md)
-- Guy in a Cube-Video: [Power BI report page tooltip – How to create one in Power BI Desktop (Erstellen von QuickInfos für Power BI-Berichtsseiten in Power BI Desktop)](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002395"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290566"
 ---
 # <a name="referencing-power-query-queries"></a>Verweis auf Power Query-Abfragen
 
@@ -54,5 +54,5 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Self-Service-Datenaufbereitung in Power BI](../service-dataflows-overview.md)
 - [Erstellen und Verwenden von Dataflows in Power BI](../service-dataflows-create-use.md)
-- Guy in a Cube-Video: [Inside Power Query reference queries for Power BI and Excel](https://www.youtube.com/watch?v=3uKNNZqBIkg)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
