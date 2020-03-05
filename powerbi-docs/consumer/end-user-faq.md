@@ -43,7 +43,7 @@ Power BI Desktop ist eine kostenlose Anwendung, die Sie direkt auf Ihrem Compute
 
 Lediglich einen Webbrowser und eine beruflich genutzte E-Mail-Adresse. Sie können sich auch mit einer E-Mail-Adresse anmelden, die auf *.gov* oder *.mil* endet. Weitere Informationen finden Sie im Artikel [Registrieren einer US-Behörde für den Power BI-Dienst](../service-govus-signup.md).
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Warum muss ich mich mit meiner beruflich genutzten E-Mail-Adresse anmelden?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Weshalb muss ich mich mit meiner Geschäfts-E-Mail-Adresse anmelden?
 
 Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Hier finden Sie weitere Informationen zum [Power BI-Self-Service-Registrierungsprozess](../service-self-service-signup-for-power-bi.md).
 

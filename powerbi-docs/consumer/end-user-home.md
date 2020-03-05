@@ -96,12 +96,12 @@ Im Navigationsbereich werden Inhalte so klassifiziert, dass Sie das Gesuchte sch
 ![Screenshot des Navigationsbereichs im Power BI-Dienst](media/end-user-home/power-bi-nav.png)
 
 
-Über den Navigationsbereich können Sie Dashboards, Berichte und Apps suchen und zwischen ihnen wechseln. In einigen Fällen stellt der Navigationsbereich die schnellste Möglichkeit dar, auf einen Inhalt zuzugreifen. Der Navigationsbereich wird beim Öffnen der Seite „Home“ angezeigt und bleibt auch nach dem Öffnen von anderen Bereichen des Power BI-Diensts erhalten. Sie können ihn zuklappen, indem Sie auf das Symbol „Ausblenden“ klicken ![Symbol für das Ausblenden des Navigationsbereichs](media/end-user-home/power-bi-hide.png) erforderlich.
+Über den Navigationsbereich können Sie Dashboards, Berichte und Apps suchen und zwischen ihnen wechseln. In einigen Fällen stellt der Navigationsbereich die schnellste Möglichkeit dar, auf einen Inhalt zuzugreifen. Der Navigationsbereich wird beim Öffnen der Seite „Home“ angezeigt und bleibt auch nach dem Öffnen von anderen Bereichen des Power BI-Diensts erhalten. Sie können ihn zuklappen, indem Sie auf das Symbol „Ausblenden“ klicken ![Symbol für das Ausblenden des Navigationsbereichs](media/end-user-home/power-bi-hide.png) .
   
 Im Navigationsbereich werden Ihre Inhalte in Containern organisiert, die den Bereichen auf der Seite „Home“ ähnlich sind: „Favoriten“, „Zuletzt verwendet“, „Apps“, „Für mich freigegeben“ und „Arbeitsbereiche“. Mithilfe der Flyouts können Sie für jeden Container nur die neuesten Inhalte anzeigen oder zu Inhaltslisten mit allen Inhalten der jeweiligen Containerkategorie wechseln.
  
 - Wenn Sie einen der Inhaltsabschnitte öffnen möchten, um eine Liste mit allen Elementen anzuzeigen, klicken Sie auf die Überschrift.
-- Wenn Sie das neueste Element in den einzelnen Containern anzeigen möchten, klicken Sie auf das Flyout (**>**).
+- Wenn Sie das neueste Element in den einzelnen Containern anzeigen möchten, klicken Sie auf das Flyout ( **>** ).
 
     ![Video zur Verwendung von „Zuletzt verwendet“ im Navigationsbereich](media/end-user-home/power-bi-nav-bar.gif)
 

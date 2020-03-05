@@ -51,9 +51,9 @@ Power BI-Slicer unterstützen Folgendes nicht:
    
 1. Wechseln Sie zur **PBIX-Datei mit dem Analysebeispiel für den Einzelhandel**, und wählen Sie dann **Öffnen** aus.
 
-1. Wählen Sie im linken Bereich das Symbol **Bericht** ![Berichtssymbol](media/power-bi-visualization-kpi/power-bi-report-view.png) aus, um die Datei in der Berichtsansicht zu öffnen.
+1. Wählen Sie im linken Bereich das Symbol **Bericht**![Berichtssymbol](media/power-bi-visualization-kpi/power-bi-report-view.png) aus, um die Datei in der Berichtsansicht zu öffnen.
 
-1. Wählen Sie auf der Seite **Übersicht**, auf der im Berichtszeichenbereich keine Auswahl getroffen wurde, im Bereich **Visualisierungen** das Symbol **Slicer** ![Slicersymbol](media/power-bi-visualization-slicers/slicer-icon.png) aus, um einen neuen Slicer zu erstellen. 
+1. Wählen Sie auf der Seite **Übersicht**, auf der im Berichtszeichenbereich keine Auswahl getroffen wurde, im Bereich **Visualisierungen** das Symbol **Slicer**![Slicersymbol](media/power-bi-visualization-slicers/slicer-icon.png) aus, um einen neuen Slicer zu erstellen. 
 
 1. Wählen Sie nach Auswahl des neuen Slicers im Bereich **Felder** den Eintrag **District (Bezirk)**  > **DM (Bezirksleiter)** aus, um den Slicer aufzufüllen. 
 
@@ -163,7 +163,7 @@ Im aktuellen Bericht enthält die Seite **District Monthly Sales** (Monatsumsät
 ## <a name="format-slicers"></a>Formatieren von Slicern
 Abhängig vom Slicertyp sind verschiedene Formatierungsoptionen verfügbar. Wenn Sie die Ausrichtung **Horizontal**, das Layout **Dynamisch** und die Farbgebung für **Elemente** auswählen, können Sie anstelle von Standardlistenelementen Schaltflächen oder Kacheln erstellen und die Größe von Slicerelementen an verschiedene Bildschirmgrößen und Layouts anpassen.  
 
-1. Klicken Sie bei ausgewähltem Slicer für **District Manager** (Bezirksleiter) auf einer Seite im Bereich **Visualisierungen** auf das Symbol **Format** ![Formatsymbol](media/power-bi-visualization-slicers/power-bi-paintroller.png), um die Formatierungssteuerelemente anzuzeigen. 
+1. Klicken Sie bei ausgewähltem Slicer für **District Manager** (Bezirksleiter) auf einer Seite im Bereich **Visualisierungen** auf das Symbol **Format**![Formatsymbol](media/power-bi-visualization-slicers/power-bi-paintroller.png), um die Formatierungssteuerelemente anzuzeigen. 
     
     ![Auswahl formatieren](media/power-bi-visualization-slicers/3-format.png)
     

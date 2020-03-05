@@ -55,7 +55,7 @@ Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Ein
 Sie erstellen die am Anfang des Artikels abgebildete Tabelle, um Umsatzwerte nach Artikelkategorien anzuzeigen.
 
 
-1. Wählen Sie im Bereich **Felder****Element** > **Kategorie** aus.
+1. Wählen Sie im Bereich **Felder** **Element** > **Kategorie** aus.
 
     Power BI erstellt automatisch eine Tabelle, in der alle Kategorien aufgelistet werden.
 

@@ -30,13 +30,13 @@ Für E-Mails und Momentaufnahmen wird die Sprache verwendet, die in den Power BI
 Die E-Mail, die Sie erhalten, enthält einen Link, mit dem Sie zum Bericht/Dashboard wechseln können. Wenn Sie diesen Link auf mobilen Geräten auswählen, auf denen Power BI-Apps installiert sind, wird die App gestartet (statt die Standardaktion auszuführen, d.h. den Bericht oder das Dashboard auf der Power BI-Website zu öffnen).
 
 
-## <a name="requirements"></a>Requirements (Anforderungen)
+## <a name="requirements"></a>Anforderungen
 Zum **Erstellen** eines Abonnements für Sie selbst ist eine bestimmte Lizenz erforderlich. Sollten Sie kein Abonnement erstellen können, wenden Sie sich an Ihren Power BI-Administrator. **Abonnieren für andere** ist nur für den Besitzer des Dashboards oder Berichts verfügbar. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonnieren eines Berichts oder Dashboards
 Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
  
-![Das Symbol „Abonnieren“ auswählen](./media/end-user-subscribe/power-bi-subscribe.png)erforderlich.
+![Das Symbol „Abonnieren“ auswählen](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. Öffnen Sie das Dashboard oder den Bericht.
 2. Klicken Sie in der oberen Menüleiste auf **Abonnieren**, oder klicken Sie auf das Briefumschlagsymbol ![Symbol „Abonnieren“](./media/end-user-subscribe/power-bi-icon-envelope.png).
@@ -59,7 +59,7 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist äh
 
     f. Legen Sie das Start- und Enddatum fest, indem Sie die Datumsangaben in die Datumsfelder eingeben. Der Startzeitpunkt Ihres Abonnements ist standardmäßig das Datum, an dem Sie es erstellt haben, und das Enddatum ist standardmäßig ein Jahr später. Wenn ein Abonnement ein Enddatum erreicht, wird es deaktiviert, bis Sie es erneut aktivieren.  Vor dem geplanten Enddatum werden Sie per Benachrichtigung(en) gefragt, ob Sie das Abonnement verlängern möchten.     
 
-    g. Klicken Sie auf **Jetzt ausführen**, um Ihr Abonnement zu überprüfen und auszuprobieren.  Dadurch wird Ihnen die E-Mail sofort gesendet. 
+    B. Klicken Sie auf **Jetzt ausführen**, um Ihr Abonnement zu überprüfen und auszuprobieren.  Dadurch wird Ihnen die E-Mail sofort gesendet. 
 
 3. Wenn alles in Ordnung ist, klicken Sie auf **Speichern und schließen**, um das Abonnement zu speichern. Sie erhalten eine E-Mail und eine Momentaufnahme des Dashboards oder Berichts gemäß des festgelegten Zeitplans. Für alle Abonnements, für die die Häufigkeit **Nach Datenaktualisierung** festgelegt ist, werden E-Mails erst nach der ersten geplanten Aktualisierung des Tages versendet.
    

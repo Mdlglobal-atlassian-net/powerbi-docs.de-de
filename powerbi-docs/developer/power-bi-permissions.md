@@ -49,8 +49,8 @@ Sie können die API aufrufen, um sich mit einem Benutzernamen und einem Kennwort
 
 * **Anmeldebenutzeroberfläche**: Über diese Benutzeroberfläche kann der Entwickler Berechtigungen anfordern. Der Benutzer muss sich hierfür anmelden, sofern er dies nicht bereits getan hat. Zudem muss der Benutzer die von der Anwendung angeforderten Berechtigungen genehmigen. Das Anmeldefenster sendet einen Zugriffscode oder eine Fehlermeldung an eine festgelegte Umleitungs-URL zurück.
   * In Power BI sollte für native Anwendungen eine Standard-Umleitungs-URL angegeben werden.
-* **Autorisierungscode** : Autorisierungscodes werden nach der Anmeldung über URL-Parameter in der Umleitungs-URL für Webanwendungen zurückgegeben. Da sie in Parametern enthalten sind, besteht ein gewisses Sicherheitsrisiko. Webanwendungen müssen den Autorisierungscode gegen ein Autorisierungstoken austauschen.
-* **Autorisierungstoken** : Werden verwendet, um API-Aufrufe im Namen eines anderen Benutzers zu authentifizieren. Sie sind auf eine bestimmte Anwendung begrenzt. Token haben eine feste Lebensdauer und müssen nach Ablauf aktualisiert werden.
+* **Autorisierungscode**: Autorisierungscodes werden nach der Anmeldung über URL-Parameter in der Umleitungs-URL für Webanwendungen zurückgegeben. Da sie in Parametern enthalten sind, besteht ein gewisses Sicherheitsrisiko. Webanwendungen müssen den Autorisierungscode gegen ein Autorisierungstoken austauschen.
+* **Autorisierungstoken**: Werden verwendet, um API-Aufrufe im Namen eines anderen Benutzers zu authentifizieren. Sie sind auf eine bestimmte Anwendung begrenzt. Token haben eine feste Lebensdauer und müssen nach Ablauf aktualisiert werden.
 * **Aktualisierungstoken** : Token werden nach ihrem Ablauf aktualisiert.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

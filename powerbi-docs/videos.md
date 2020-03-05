@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871174"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260851"
 ---
 # <a name="power-bi-videos"></a>Power BI-Videos
 Wir betreiben einen YouTube-Kanal für Power BI! Sie können [unseren Kanal](https://www.youtube.com/user/mspowerbi/videos) besuchen. Wenn Sie noch keine Kenntnisse zu Power BI haben, empfiehlt sich für den Einstieg die [Wiedergabeliste zum Thema Analysieren und Visualisieren von Daten mit Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -43,7 +43,6 @@ Hier sind einige Videos aus dieser Wiedergabeliste, die Ihnen den Einstieg erlei
 Sehen Sie sich die folgende Sammlung von Quellen und Inhalten für weitere Videos an.
 
 * [Geführtes Lernen zu Power BI](https://powerbi.microsoft.com/guided-learning/) – eine sequenzielle Schulung in Power BI in kleinen Schritten
-* [Kanal „Guy in a Cube“](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) – neue Videos zu Features und Funktionen von Power BI
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](fundamentals/power-bi-overview.md)

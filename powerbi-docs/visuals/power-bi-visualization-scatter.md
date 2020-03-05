@@ -25,7 +25,7 @@ Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerisch
 
 In diesem Video sehen Sie, wie Will ein Punktdiagramm erstellt. Mit den unten beschriebenen Schritten können Sie dann selbst ein solches Diagramm erstellen.
    > [!NOTE]
-   > Dieses Video verwendet eine ältere Version von Power BI Desktop.
+   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
    > 
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -100,7 +100,7 @@ In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einze
 
     ![Screenshot des gruppierten Säulendiagramms, des Bereichs „Visualisierungen“ und des Bereichs „Felder“, wobei die von Ihnen ausgewählten Felder hervorgehoben sind.](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
-1. Wählen Sie im Bereich **Visualisierungen** ![Symbol für das Punktdiagramm.](media/power-bi-visualization-scatter/power-bi-scatter-chart-icon.png) aus, um das gruppierte Säulendiagramm in ein Punktdiagramm zu konvertieren.
+1. Wählen Sie im Bereich **Visualisierungen**![Symbol für das Punktdiagramm.](media/power-bi-visualization-scatter/power-bi-scatter-chart-icon.png) aus, um das gruppierte Säulendiagramm in ein Punktdiagramm zu konvertieren.
 
    ![Screenshot des gruppierten Säulendiagramms, das zu einem Punktdiagramm wird.](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
 
@@ -138,7 +138,7 @@ Nun fügen wir eine dritte Dimension hinzu.
     Ändern Sie die Markierungsform in Raute, Dreieck oder Quadrat. Die Verwendung einer anderen Markierungsform für jede Linie erleichtert den Benutzern des Berichts, die Linien (oder Flächen) voneinander zu unterscheiden.
 
 1. Öffnen Sie den Bereich „Analyse“ ![Screenshot des Symbols für den Bereich „Analyse“.](media/power-bi-visualization-scatter/power-bi-analytics.png) zum Hinzufügen zusätzlicher Informationen zur Visualisierung.  
-    - Fügen Sie eine Linie für den Medianwert hinzu. Wählen Sie **Median** > **Hinzufügen** aus. Standardmäßig wird von Power BI eine Medianlinie für *Umsatz pro Quadratfuß* hinzugefügt. Dies ist nicht besonders nützlich, da offensichtlich 10 Datenpunkte vorhanden sind und der Median mit fünf Datenpunkten auf jeder Seite erstellt wird. Wechseln Sie stattdessen zum **Measure** *Gesamtumsatzabweichung in Prozent*.  
+    - Fügen Sie eine Linie für den Medianwert hinzu. Wählen Sie **Median** > **Hinzufügen** aus. Standardmäßig wird von Power BI eine Medianlinie für *Umsatz pro Quadratfuß* hinzugefügt. Dies ist nicht besonders nützlich, da offensichtlich 10 Datenpunkte vorhanden sind und der Median mit fünf Datenpunkten auf jeder Seite erstellt wird. Wechseln Sie stattdessen zum **Measure***Gesamtumsatzabweichung in Prozent*.  
 
         ![Screenshot des Blasendiagramms mit Medianlinie.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
 
