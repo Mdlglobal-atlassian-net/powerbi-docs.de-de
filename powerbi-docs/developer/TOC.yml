@@ -140,6 +140,8 @@
           items:
             - name: Kapazität und SKUs in eingebetteten Power BI-Analysen
               href: embedded-capacity.md
+            - name: Kapazitätsplanung
+              href: embedded-capacity-planning.md
             - name: Bewährte Methoden für Leistung
               href: embedded-performance-best-practices.md
             - name: Dienstprinzipal
