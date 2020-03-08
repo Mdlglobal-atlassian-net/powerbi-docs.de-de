@@ -1,0 +1,112 @@
+- name: Mobile Power BI-Apps
+  href: index.yml
+  expanded: true
+  items:
+    - name: Übersicht
+      expanded: true
+      items:
+        - name: Welches sind die mobilen Apps?
+          href: mobile-apps-for-mobile-devices.md
+        - name: Vorstellung der Homepage
+          href: mobile-apps-home-page.md
+    - name: Schnellstartanleitungen
+      expanded: true
+      items:
+        - name: Erkunden von Dashboards und Berichten
+          href: mobile-apps-quickstart-view-dashboard-report.md
+    - name: Lernprogramme
+      expanded: true
+      items:
+        - name: Stellen von Fragen in mobilen iOS-Apps
+          href: tutorial-mobile-apps-ios-qna.md
+    - name: Konzepte
+      expanded: true
+      items:
+        - name: Neuigkeiten bei mobilen Apps
+          href: mobile-whats-new-in-the-mobile-apps.md
+        - name: Erfassen von Daten aus der realen Welt mit den mobilen Apps
+          href: mobile-apps-data-in-real-world-context.md
+        - name: Offlinemodus zum Anzeigen von Daten in mobilen Apps
+          href: mobile-apps-offline-data.md
+        - name: Power BI for Mixed Reality-App (Vorschauversion)
+          href: mobile-mixed-reality-app.md
+    - name: Vorgehensweise
+      items:
+        - name: Alle mobilen Apps
+          items:
+            - name: "Dashboards für Power\_BI auf mobilen Geräten"
+              href: mobile-apps-view-dashboard.md
+            - name: Berichte in mobilen Apps
+              href: mobile-reports-in-the-mobile-apps.md
+            - name: Interagieren mit Kacheln in den mobilen Apps
+              href: mobile-tiles-in-the-mobile-apps.md
+            - name: Freigeben eines Dashboards in den mobilen Power BI-Apps
+              href: mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Favoriten in mobilen Apps
+              href: mobile-apps-favorites.md
+            - name: Konfigurieren von interaktiven Einstellungen (nur Telefon)
+              href: mobile-app-interaction-settings.md
+            - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
+              href: mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
+              href: mobile-apps-notification-center.md
+            - name: Erstellen eines Deep-Links zu einer bestimmten Stelle
+              href: mobile-apps-deep-link-specific-location.md
+            - name: Filtern eines Berichts nach Standort in den mobilen Power BI-Apps
+              href: mobile-apps-geographic-filtering.md
+            - name: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
+              href: mobile-oauth-ssrs.md
+        - name: iOS und Android
+          items:
+            - name: 'Anzeigen von Berichten, die für das Smartphone optimiert sind'
+              href: mobile-apps-view-phone-report.md
+            - name: Anzeigen lokaler Berichte in mobilen Apps
+              href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Zugreifen auf Inhalte über eine externe Organisation (B2B)
+              href: mobile-apps-b2b.md
+            - name: Scannen eines Power BI-QR-Codes mit dem Smartphone
+              href: mobile-apps-qr-code.md
+            - name: Kommentieren und Freigeben in den mobilen Apps
+              href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: Scannen eines Barcodes aus der mobilen Power BI-App
+              href: mobile-apps-scan-barcode-iphone.md
+            - name: Konfigurieren mithilfe der Verwaltung mobiler Geräte
+              href: mobile-app-configuration.md
+        - name: iOS
+          items:
+            - name: Erste Schritte mit der iOS-App
+              href: mobile-iphone-app-get-started.md
+            - name: 'Schützen mit Face ID, Touch ID oder einem Passcode'
+              href: mobile-ios-native-secure-access.md
+            - name: Virtueller Q&A-Analyst in mobilen iOS-Apps
+              href: mobile-apps-ios-qna.md
+            - name: Integration der mobilen Power BI-App mit Siri-Kurzbefehlen
+              href: mobile-apps-iOS-siri-Shortcuts.md
+            - name: Integration der iOS-Gerätesuche
+              href: mobile-apps-iOS-search-integration.md
+            - name: Power BI Apple Watch-App
+              href: mobile-apple-watch.md
+        - name: Android-Geräte
+          items:
+            - name: Erste Schritte mit der Android-App
+              href: mobile-android-app-get-started.md
+            - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
+              href: mobile-android-error-update-android-system-webview.md
+        - name: "Power\_BI-App für Windows 10-Geräte"
+          items:
+            - name: Erste Schritte mit der Windows 10-App
+              href: mobile-windows-10-phone-app-get-started.md
+            - name: Anheften eines Dashboards an den Startbildschirm
+              href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Anzeigen von mobilen Reporting Services-Berichten und -KPIs
+              href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Anzeigen von Power BI in Surface Hub
+              href: mobile-windows-10-app-presentation-mode.md
+            - name: Einmaliges Anmelden in der Windows-App
+              href: mobile-windows-10-app-single-sign-on-sso.md
+    - name: Ressourcen
+      items:
+        - name: Unterstützte Sprachen der mobilen Apps
+          href: mobile-apps-supported-languages.md
