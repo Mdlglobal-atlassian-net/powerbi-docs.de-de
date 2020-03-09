@@ -19,7 +19,7 @@ ms.locfileid: "77427068"
 
 Der einfachste Weg, ein neues Power BI-Visual zu erstellen, ist die Verwendung des Tools [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) für Power BI-Visuals.
 
-Um ein neues Power BI-Visual zu erstellen, navigieren Sie zu dem Verzeichnis, in dem Sie das Visual speichern möchten, und führen Sie den folgenden Befehl aus:
+Um ein neues Power BI-Visual zu erstellen, navigieren Sie zu dem Verzeichnis, in dem Sie das Visual speichern möchten, und führen den folgenden Befehl aus:
 
 `pbiviz new <visual project name>`
 
