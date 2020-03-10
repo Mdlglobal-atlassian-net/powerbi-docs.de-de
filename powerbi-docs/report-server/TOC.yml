@@ -1,0 +1,124 @@
+- name: Power BI-Berichtsserver
+  expanded: true
+  items:
+    - name: Übersicht
+      expanded: true
+      items:
+        - name: Was ist der Power BI-Berichtsserver?
+          href: get-started.md
+        - name: Vergleichen von Power BI-Berichtsserver mit dem Dienst
+          href: compare-report-server-service.md
+    - name: Lernprogramme
+      expanded: true
+      items:
+        - name: Erkunden von Power BI-Berichtsserver auf einem virtuellen Computer
+          href: tutorial-explore-report-server-web-portal.md
+    - name: Konzepte
+      expanded: true
+      items:
+        - name: Neuigkeiten
+          href: whats-new.md
+        - name: Administratorübersicht
+          href: admin-handbook-overview.md
+        - name: Änderungsprotokoll
+          href: changelog.md
+        - name: Support-Ablauffristen
+          href: support-timeline.md
+        - name: Always Encrypted-Unterstützung
+          href: always-encrypted-support.md
+        - name: Hardware- und Softwareanforderungen
+          href: system-requirements.md
+        - name: Browserunterstützung
+          href: browser-support.md
+        - name: Berichtsserver – Grundlagen
+          items:
+            - name: Geplante Aktualisierung für Power BI-Berichte
+              href: scheduled-refresh.md
+            - name: Power BI-Berichtsdatenquellen
+              href: data-sources.md
+            - name: Datenquellen für paginierte Berichte
+              href: connect-data-sources.md
+            - name: Abonnements
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: Verwenden der mobilen App
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Problembehandlung für geplante Aktualisierungen
+              href: scheduled-refresh-troubleshoot.md
+        - name: Berichtsserver für Entwickler
+          items:
+            - name: Berichtsserver für Entwickler
+              href: developer-handbook-overview.md
+            - name: Berichts-Viewer-Steuerelement
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Entwickeln von Erweiterungen
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Einbetten von Berichten
+              href: quickstart-embed.md
+    - name: Vorgehensweise
+      items:
+        - name: Installieren von Power BI Desktop
+          href: install-powerbi-desktop.md
+        - name: Installieren des Berichts-Generators
+          href: install-report-builder.md
+        - name: Berichtsserver – Grundlagen
+          items:
+            - name: Erstellen eines Power BI-Berichts für einen Berichtsserver
+              href: quickstart-create-powerbi-report.md
+            - name: Verwalten von Inhalten im Berichtsserver
+              href: getting-around.md
+            - name: Sicherheit auf Zeilenebene im Berichtsserver
+              href: row-level-security-report-server.md
+            - name: Erstellen eines paginierten Berichts für einen Berichtsserver
+              href: quickstart-create-paginated-report.md
+            - name: Eingeben von Daten direkt in einem paginierten Bericht
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: Arbeiten mit KPIs
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Zugreifen auf freigegebene Datasets als OData-Feeds
+              href: access-dataset-odata.md
+            - name: Ändern der Datenquellen-Verbindungszeichenfolgen mit PowerShell
+              href: connect-data-source-apis.md
+            - name: Konfigurieren von geplanten Aktualisierungen
+              href: configure-scheduled-refresh.md
+            - name: Hinzufügen von Kommentaren zu einem Bericht
+              href: add-comments.md
+        - name: Berichtsserver für Administratoren
+          items:
+            - name: Installieren eines Berichtsservers
+              href: install-report-server.md
+            - name: Ermitteln des Product Key
+              href: find-product-key.md
+            - name: Aktualisieren eines Berichtsservers
+              href: upgrade.md
+            - name: Migrieren eines Berichtsservers
+              href: migrate-report-server.md
+            - name: Konfigurieren der Kerberos-Authentifizierung zur Verwendung von Power BI-Berichten
+              href: configure-kerberos-powerbi-reports.md
+            - name: Konfigurieren des remoten Zugriffs auf mobile Apps
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: "Konfigurieren von WAP und AD\_FS"
+              href: connect-adfs-wap-report-server.md
+            - name: Konfigurieren eines Berichtsservers mit einem Azure-Anwendungsproxy
+              href: azure-application-proxy.md
+            - name: Remoter Zugriff auf mobile Apps mit Azure AD
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: Hosten von Excel-Arbeitsmappen
+              href: excel-oos.md
+    - name: Referenz
+      items:
+        - name: REST-API
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP-APIs
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: URL-Zugriff
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Erweiterungen
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Ressourcen
+      items:
+        - name: Whitepaper zur Kapazitätsplanung
+          href: capacity-planning.md
+        - name: Übereinstimmung mit PDF-Renderingerweiterungen
+          href: rendering-extension-support.md

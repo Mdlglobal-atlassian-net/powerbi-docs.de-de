@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: "Hilfsprogramme für Power\_BI-Visuals"
               items:
+                - name: Hinzufügen von externen Bibliotheken
+                  href: visuals/adding-external-libraries.md
                 - name: Interaktivitätshilfsprogramme
                   href: visuals/utils-interactivity-selections.md
                 - name: Formatierungshilfsprogramme
                   href: visuals/utils-formatting.md
+                - name: DataViewUtils
+                  href: visuals/utils-dataview.md
                 - name: ChartUtils
                   href: visuals/utils-chart.md
+                - name: Farbhilfsprogramme
+                  href: visuals/utils-color.md
                 - name: SVGUtils
                   href: visuals/utils-svg.md
                 - name: TypeUtils

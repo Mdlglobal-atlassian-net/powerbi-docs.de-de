@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Verbinden mit Daten in Power BI – Dokumentation
+summary: Die Power BI-Dokumentation bietet Ihnen Fachinformationen und Antworten, die Ihre Fragen klären – unabhängig davon, wie Sie Power BI verwenden.
+metadata:
+  title: Verbinden mit Daten in Power BI – Dokumentation
+  description: Die Power BI-Dokumentation bietet Ihnen Fachinformationen und Antworten, die Ihre Fragen klären – unabhängig davon, wie Sie Power BI verwenden.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924136"
+landingContent:
+- title: Mit Daten in Power BI verbinden
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Datenquellen
+      url: ../desktop-data-sources.md
+    - text: Datensicht in Power BI Desktop
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: Importieren von Daten aus einer Webseite
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: Gateways
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Lokale Datengateways
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: Herstellen einer Verbindung mit der lokalen SQL Server-Datenbank
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: Verwenden persönlicher Gateways
+      url: ../service-gateway-personal-mode.md
+- title: Vorlagen-Apps
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Was sind Vorlagen-Apps?
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: Erstellen von Vorlagen-Apps
+      url: ../service-template-apps-create.md
+    - text: Verteilen von Vorlagen-Apps in Ihrer Organisation
+      url: ../service-template-apps-install-distribute.md
+- title: Daten aktualisieren
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Datenaktualisierung
+      url: ../refresh-data.md
+    - text: Inkrementelle Aktualisierung in Power BI Premium
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: Konfigurieren von geplanten Aktualisierungen
+      url: ../refresh-scheduled-refresh.md

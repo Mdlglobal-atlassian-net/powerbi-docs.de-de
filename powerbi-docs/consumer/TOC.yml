@@ -1,8 +1,9 @@
-- name: Power BI für Verbraucher
-  href: power-bi-consumer-landing.md
 - name: Der Power BI-Dienst für Verbraucher
+  href: index.yml
+  expanded: true
   items:
     - name: Übersicht
+      expanded: true
       items:
         - name: Was ist ein Power BI-Kunde?
           href: end-user-consumer.md
@@ -11,6 +12,7 @@
         - name: Überblick über den Power BI-Dienst
           href: end-user-reading-view.md
     - name: Erste Schritte
+      expanded: true
       items:
         - name: Erkunden von Power BI
           href: end-user-experience.md
@@ -20,7 +22,7 @@
           href: end-user-q-and-a.md
         - name: Erstmaliges Anmelden
           href: end-user-sign-in.md
-        - name: Suchen des Lizenztyps
+        - name: Welche Power BI-Lizenz benötige ich?
           href: end-user-license.md
         - name: Navigieren durch das neue Design
           href: ../service-new-look.md
@@ -138,109 +140,3 @@
           href: end-user-browsers.md
         - name: Typen von Quick Insights
           href: end-user-insight-types.md
-- name: Mobile Power BI-Apps
-  items:
-    - name: Übersicht
-      items:
-        - name: Welches sind die mobilen Apps?
-          href: mobile/mobile-apps-for-mobile-devices.md
-        - name: Vorstellung der Homepage
-          href: mobile/mobile-apps-home-page.md
-    - name: Schnellstartanleitungen
-      items:
-        - name: Erkunden von Dashboards und Berichten
-          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-    - name: Lernprogramme
-      items:
-        - name: Stellen von Fragen in mobilen iOS-Apps
-          href: mobile/tutorial-mobile-apps-ios-qna.md
-    - name: Konzepte
-      items:
-        - name: Neuigkeiten bei mobilen Apps
-          href: mobile/mobile-whats-new-in-the-mobile-apps.md
-        - name: Erfassen von Daten aus der realen Welt mit den mobilen Apps
-          href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: Offlinemodus zum Anzeigen von Daten in mobilen Apps
-          href: mobile/mobile-apps-offline-data.md
-        - name: Power BI for Mixed Reality-App (Vorschauversion)
-          href: mobile/mobile-mixed-reality-app.md
-    - name: Vorgehensweise
-      items:
-        - name: Alle mobilen Apps
-          items:
-            - name: "Dashboards für Power\_BI auf mobilen Geräten"
-              href: mobile/mobile-apps-view-dashboard.md
-            - name: Berichte in mobilen Apps
-              href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: Interagieren mit Kacheln in den mobilen Apps
-              href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: Freigeben eines Dashboards in den mobilen Power BI-Apps
-              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: Favoriten in mobilen Apps
-              href: mobile/mobile-apps-favorites.md
-            - name: Konfigurieren von interaktiven Einstellungen (nur Telefon)
-              href: mobile/mobile-app-interaction-settings.md
-            - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
-              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
-              href: mobile/mobile-apps-notification-center.md
-            - name: Erstellen eines Deep-Links zu einer bestimmten Stelle
-              href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: Filtern eines Berichts nach Standort in den mobilen Power BI-Apps
-              href: mobile/mobile-apps-geographic-filtering.md
-            - name: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
-              href: mobile/mobile-oauth-ssrs.md
-        - name: iOS und Android
-          items:
-            - name: 'Anzeigen von Berichten, die für das Smartphone optimiert sind'
-              href: mobile/mobile-apps-view-phone-report.md
-            - name: Anzeigen lokaler Berichte in mobilen Apps
-              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Zugreifen auf Inhalte über eine externe Organisation (B2B)
-              href: mobile/mobile-apps-b2b.md
-            - name: Scannen eines Power BI-QR-Codes mit dem Smartphone
-              href: mobile/mobile-apps-qr-code.md
-            - name: Kommentieren und Freigeben in den mobilen Apps
-              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Scannen eines Barcodes aus der mobilen Power BI-App
-              href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: Konfigurieren mithilfe der Verwaltung mobiler Geräte
-              href: mobile/mobile-app-configuration.md
-        - name: iOS
-          items:
-            - name: Erste Schritte mit der iOS-App
-              href: mobile/mobile-iphone-app-get-started.md
-            - name: 'Schützen mit Face ID, Touch ID oder einem Passcode'
-              href: mobile/mobile-ios-native-secure-access.md
-            - name: Virtueller Q&A-Analyst in mobilen iOS-Apps
-              href: mobile/mobile-apps-ios-qna.md
-            - name: Integration der mobilen Power BI-App mit Siri-Kurzbefehlen
-              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: Integration der iOS-Gerätesuche
-              href: mobile/mobile-apps-iOS-search-integration.md
-            - name: Power BI Apple Watch-App
-              href: mobile/mobile-apple-watch.md
-        - name: Android-Geräte
-          items:
-            - name: Erste Schritte mit der Android-App
-              href: mobile/mobile-android-app-get-started.md
-            - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
-              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
-              href: mobile/mobile-android-error-update-android-system-webview.md
-        - name: "Power\_BI-App für Windows 10-Geräte"
-          items:
-            - name: Erste Schritte mit der Windows 10-App
-              href: mobile/mobile-windows-10-phone-app-get-started.md
-            - name: Anheften eines Dashboards an den Startbildschirm
-              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Anzeigen von mobilen Reporting Services-Berichten und -KPIs
-              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Anzeigen von Power BI in Surface Hub
-              href: mobile/mobile-windows-10-app-presentation-mode.md
-            - name: Einmaliges Anmelden in der Windows-App
-              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-    - name: Ressourcen
-      items:
-        - name: Unterstützte Sprachen der mobilen Apps
-          href: mobile/mobile-apps-supported-languages.md

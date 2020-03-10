@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power BI-Administratordokumentation
-summary: Die Power BI-Administratordokumentation bietet Ihnen spezifische Informationen und Antworten entsprechend Ihren Anforderungen, unabhängig davon, wie Sie Power BI verwenden.
+title: Power BI-Dokumentation für Administratoren und Unternehmen
+summary: Die Power BI-Dokumentation für Administratoren und Unternehmen bietet Ihnen Fachinformationen und Antworten, die Ihre Fragen klären – unabhängig davon, wie Sie Power BI verwenden.
 metadata:
-  title: Power BI-Administratordokumentation
-  description: Die Power BI-Administratordokumentation bietet Ihnen spezifische Informationen und Antworten entsprechend Ihren Anforderungen, unabhängig davon, wie Sie Power BI verwenden.
+  title: Power BI-Dokumentation für Administratoren und Unternehmen
+  description: Die Power BI-Dokumentation für Administratoren und Unternehmen bietet Ihnen Fachinformationen und Antworten, die Ihre Fragen klären – unabhängig davon, wie Sie Power BI verwenden.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959498"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919449"
 landingContent:
-- title: Informationen zu Power BI für Administratoren
+- title: Power BI für Administratoren und Unternehmen
   linkLists:
   - linkListType: overview
     links:
@@ -46,6 +46,20 @@ landingContent:
     - text: Hinzufügen von Power BI bei einem Office 365-Partner
       url: ../service-admin-syndication-partner.md
 - title: Mandanten
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Wo befindet sich mein Mandant?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Suchen nach angemeldeten Benutzern
+      url: ../service-admin-access-usage.md
+    - text: Power BI-Überwachung
+      url: ../service-admin-auditing.md
+    - text: Nachverfolgen der Dienstintegrität
+      url: ../service-admin-health.md
+    - text: Schließen des Power BI-Kontos
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
   linkLists:
   - linkListType: how-to-guide
     links:

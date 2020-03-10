@@ -1,0 +1,115 @@
+- name: 'Transformieren, Formen und Modellieren von Daten in Power BI'
+  href: index.yml
+  expanded: true
+  items:
+    - name: Übersicht
+      expanded: true
+      items:
+        - name: Übersicht zum Power Query-Editor
+          href: ../desktop-query-overview.md
+        - name: Self-Service-Datenvorbereitung mit Dataflows
+          href: ../service-dataflows-overview.md
+    - name: Lernprogramme
+      expanded: true
+      items:
+        - name: Erstellen eigener Measures
+          href: ../desktop-tutorial-create-measures.md
+        - name: Erstellen von berechneten Spalten
+          href: ../desktop-tutorial-create-calculated-columns.md
+    - name: Konzepte
+      expanded: true
+      items:
+        - name: Erstellen von Modellbeziehungen
+          href: ../desktop-relationships-understand.md
+        - name: Arbeiten mit der Modellierungsansicht
+          href: ../desktop-modeling-view.md
+        - name: Aggregationen verwalten
+          href: ../desktop-aggregations.md
+        - name: Verwenden von zusammengesetzten Modelle
+          href: ../desktop-composite-models.md
+        - name: 'Anwenden von m:n-Beziehungen'
+          href: ../desktop-many-to-many-relationships.md
+        - name: Verwalten des Speichermodus
+          href: ../desktop-storage-mode.md
+        - name: Aktivieren der bidirektionalen Kreuzfilterung
+          href: ../desktop-bidirectional-filtering.md
+        - name: Verwenden von mehrdimensionalen Modellen in Power BI
+          href: ../desktop-default-member-multidimensional-models.md
+    - name: Exemplarische Vorgehensweisen
+      items:
+        - name: Durchführen allgemeiner Abfrageaufgaben
+          href: ../desktop-common-query-tasks.md
+        - name: Erstellen und Verwalten von Beziehungen
+          href: ../desktop-create-and-manage-relationships.md
+        - name: Verwenden des Bereichs „Analyse“
+          href: ../desktop-analytics-pane.md
+        - name: Arbeiten mit der Datenansicht
+          href: ../desktop-data-view.md
+        - name: Anwenden von DAX-Grundlagen
+          href: ../desktop-quickstart-learn-dax-basics.md
+        - name: Arbeiten mit der Beziehungsansicht
+          href: ../desktop-relationship-view.md
+        - name: Transformieren und Strukturieren von Daten
+          items:
+            - name: Kombinieren von Dateien (Binärdateien)
+              href: ../desktop-combine-binaries.md
+            - name: Verwenden von KI Insights (Vorschau)
+              href: ../desktop-ai-insights.md
+        - name: Modellieren Ihrer Daten
+          items:
+            - name: Erstellen von Quickmeasures für gängige Berechnungsfunktionen
+              href: ../desktop-quick-measures.md
+            - name: Erstellen und Verwenden von Was-wäre-wenn-Parametern zum Visualisieren von Variablen
+              href: ../desktop-what-if.md
+            - name: Festlegen von Datenkategorien in Power BI Desktop
+              href: ../desktop-data-categorization.md
+            - name: Markieren von Barcodefeldern in Power BI für mobile Apps
+              href: ../desktop-mobile-barcodes.md
+            - name: Festlegen von geografischen Filtern in Power BI für mobile Apps
+              href: ../desktop-mobile-geofiltering.md
+            - name: Erstellen von berechneten Spalten
+              href: ../desktop-calculated-columns.md
+            - name: Erstellen von berechneten Tabellen
+              href: ../desktop-calculated-tables.md
+            - name: Erstellen von Measures für die Datenanalyse
+              href: ../desktop-measures.md
+            - name: Importieren und Anzeigen von KPIs
+              href: ../desktop-import-and-display-kpis.md
+        - name: Self-Service-Datenvorbereitung
+          items:
+            - name: Erstellen und Verwenden von Dataflows
+              href: ../service-dataflows-create-use.md
+            - name: Verwenden der erweiterten Compute-Engine mit Datenflüssen
+              href: ../service-dataflows-enhanced-compute-engine.md
+            - name: Berechnete Entitäten mit Power BI Premium
+              href: ../service-dataflows-computed-entities-premium.md
+            - name: Verbinden von Datenquellen und Dataflows
+              href: ../service-dataflows-data-sources.md
+            - name: Verwenden von Dataflows mit lokalen Datenquellen
+              href: ../service-dataflows-on-premises-gateways.md
+            - name: Verknüpfen von Entitäten zwischen Dataflows
+              href: ../service-dataflows-linked-entities.md
+            - name: Verwenden der inkrementellen Aktualisierung mit Dataflows
+              href: ../service-dataflows-incremental-refresh.md
+            - name: Entwicklerressourcen für Dataflows
+              href: ../service-dataflows-developer-resources.md
+            - name: Herstellen einer Verbindung mit Dataflows in Power BI Desktop
+              href: ../desktop-connect-dataflows.md
+            - name: Dataflows und Azure Data Lake-Integration (Vorschauversion)
+              href: ../service-dataflows-azure-data-lake-integration.md
+            - name: Herstellen einer Verbindung mit Azure Data Lake Storage Gen2 für die Dataflowspeicherung
+              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion)
+              href: ../service-dataflows-configure-workspace-storage-settings.md
+            - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)
+              href: ../service-dataflows-add-cdm-folder.md
+            - name: Integrieren von Machine Learning in Power BI
+              href: ../service-machine-learning-integration.md
+            - name: Verwenden von Cognitive Services in Power BI
+              href: ../service-cognitive-services.md
+            - name: Automatisiertes Machine Learning in Power BI
+              href: ../service-machine-learning-automated.md
+    - name: Referenz
+      items:
+        - name: Tastenkombinationen des Formel-Editors
+          href: ../desktop-formula-editor.md

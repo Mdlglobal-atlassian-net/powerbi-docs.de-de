@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Produktübergreifendes Zusammenarbeiten, Freigeben und Integrieren mit Power BI – Dokumentation
+summary: Die Power BI-Dokumentation bietet Ihnen Fachinformationen und Antworten, die Ihre Fragen klären – unabhängig davon, wie Sie Power BI verwenden.
+metadata:
+  title: Produktübergreifendes Zusammenarbeiten, Freigeben und Integrieren mit Power BI – Dokumentation
+  description: Die Power BI-Dokumentation bietet Ihnen Fachinformationen und Antworten, die Ihre Fragen klären – unabhängig davon, wie Sie Power BI verwenden.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 4eda6f30d043ac4b1001d6f37ab0dcf6d6ec33b0
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923998"
+landingContent:
+- title: Erste Schritte bei der Zusammenarbeit und der Freigabe
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Freigeben Ihrer Arbeit
+      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+  - linkListType: concept
+    links:
+    - text: Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
+      url: ../service-service-vs-desktop.md
+- title: Zusammenarbeit mit Kollegen
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Einführung in arbeitsbereichsübergreifende Datasets
+      url: ../service-datasets-across-workspaces.md
+    - text: Erstellungsberechtigungen für freigegebene Datasets
+      url: ../service-datasets-build-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: Organisieren der Arbeit in neuen Arbeitsbereichen
+      url: ../service-new-workspaces.md
+- title: Freigeben Ihrer Arbeit
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Veröffentlichen einer App
+      url: ../service-create-distribute-apps.md
+    - text: Überwachen von Nutzungsmetriken
+      url: ../service-modern-usage-metrics.md
+  - linkListType: how-to-guide
+    links:
+    - text: Freigeben von Berichten und Dashboards
+      url: ../service-share-dashboards.md
+    - text: Filtern und Freigeben eines Berichts
+      url: ../service-share-reports.md
+    - text: Freigeben eines Datasets
+      url: ../service-datasets-share.md
+- title: Integration in andere Dienste
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Azure und Power BI
+      url: ../service-azure-and-power-bi.md
+    - text: In Excel analysieren
+      url: ../service-analyze-in-excel.md
+  - linkListType: how-to-guide
+    links:
+    - text: In SharePoint Online einbetten
+      url: ../service-embed-report-spo.md
