@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782414"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260759"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>So lassen Sie sich ein Power BI-Visual zertifizieren
 
@@ -56,10 +56,14 @@ Der Aufbau eines visuellen Power BI-Repositorys ist im GitHub-Repository im [Bei
 Verwenden Sie die neueste Version der API, um Ihr Power BI-Visual zu schreiben.
 
 Das Repository muss die folgenden Dateien enthalten:
-* **.gitignore**: Fügen Sie `node_modules` zu dieser Datei hinzu. Der Code darf den Ordner *node_modules* nicht enthalten.
+* **.gitignore**: Fügen Sie `node_modules`,`.tmp` und `dist` zu dieser Datei hinzu. Der Code darf die Ordner *node_modules*, *.tmp* oder *dist* nicht enthalten.
 * **capabilities.json**: Wenn Sie eine neuere Version Ihres Power BI-Visuals mit Änderungen an den Eigenschaften in dieser Datei einreichen, stellen Sie sicher, dass diese nicht zu Fehlern bei Berichten für vorhandene Benutzer führen.
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**: Für das Visual müssen die folgenden Pakete installiert sein:
+   * [tslint](https://www.npmjs.com/package/tslint): 5.18.0 oder höher
+   * [typescript](https://www.npmjs.com/package/typescript): 3.0.0 oder höher
+   * [tslint-microsoftcontrib](https://www.npmjs.com/package/tslint-microsoft-contrib): 6.2.0 oder höher
+   * Die Datei muss einen Befehl zur Ausführung von linter enthalten: "lint": "tslint -c tslint.json -p tsconfig.json"
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Stellen Sie sicher, dass die folgenden Befehle keine Fehler zurückgeben.
 * `npm install`
 * `pbiviz package`
 * `npm audit` darf keine Warnungen mit hohem oder mittlerem Schweregrad zurückgeben.
-* [TSLint von Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) darf keine überschriebene Konfigurationen enthalten. Dieser Befehl darf keine lint-Fehler zurückgeben.
+* [TSLint von Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) mit der [erforderlichen Konfiguration](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json). Dieser Befehl darf keine lint-Fehler zurückgeben.
 
 ### <a name="compiling-requirements"></a>Anforderungen in Bezug auf die Kompilierung
 

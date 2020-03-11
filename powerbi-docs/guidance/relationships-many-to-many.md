@@ -6,23 +6,20 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161292"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260446"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Leitfaden zu m:n-Beziehungen
 
 Dieser Artikel ist an Modellierer von Daten gerichtet, die mit Power BI Desktop arbeiten. In ihm werden drei verschiedene m:n-Modellierungsszenarios beschrieben. Außerdem erhalten Sie eine Anleitung, wie Sie Ihre Modelle entsprechend entwerfen können.
 
-> [!NOTE]
-> Dieser Artikel enthält jedoch keine Einführung zu Modellbeziehungen. Wenn Sie sich bisher noch wenig mit Beziehungen, ihren Eigenschaften und ihrer Konfiguration beschäftigt haben, sollten Sie sich zuerst den Artikel [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md) durchlesen.
->
-> Außerdem sollten Sie mit dem Sternschemadesign gut vertraut sein. Weitere Informationen finden Sie im Artikel [Informationen zum Sternschema und der Wichtigkeit für Power BI](star-schema.md).
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
 Genau genommen gibt es drei Arten von m:n-Beziehungen. Sie können in folgenden Szenarios auftreten:
 
@@ -164,7 +161,7 @@ Das Visual stellt ein korrektes Ergebnis dar. Der Nutzen des Modells ist allerdi
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Anleitung, um Fakten in m:n-Beziehung zu bringen
 
-Prinzipiell wird davon abgeraten, zwei Faktentabellen mithilfe einer m:n-Kardinalität direkt aufeinander zu beziehen. Der Hauptgrund dafür ist, dass Ihre Berichtsvisuals nicht flexibel gefiltert oder angeordnet werden können. Im Beispiel können Visuals nur nach der Spalte **OrderID** der Tabelle **Order** gefiltert oder angeordnet werden. Außerdem kann die Qualität Ihrer Daten beeinträchtigt werden. Wenn es bei Ihren Daten Integritätsprobleme gibt, werden bei der Abfrage manchmal einige Reihen ausgelassen. Das liegt daran, dass es sich um eine _schwache Beziehung_ handelt. Weitere Informationen finden Sie im Abschnitt [Bewertung von Beziehungen](../desktop-relationships-understand.md#relationship-evaluation).
+Prinzipiell wird davon abgeraten, zwei Faktentabellen mithilfe einer m:n-Kardinalität direkt aufeinander zu beziehen. Der Hauptgrund dafür ist, dass Ihre Berichtsvisuals nicht flexibel gefiltert oder angeordnet werden können. Im Beispiel können Visuals nur nach der Spalte **OrderID** der Tabelle **Order** gefiltert oder angeordnet werden. Außerdem kann die Qualität Ihrer Daten beeinträchtigt werden. Wenn es bei Ihren Daten Integritätsprobleme gibt, werden bei der Abfrage manchmal einige Reihen ausgelassen. Das liegt daran, dass es sich um eine _schwache Beziehung_ handelt. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../desktop-relationships-understand.md#relationship-evaluation).
 
 Anstatt Faktentabellen direkt aufeinander zu beziehen, sollten Sie lieber das [Sternschema](star-schema.md) als Designansatz verwenden. Dazu fügen Sie Dimensionstabellen hinzu. Die Dimensionstabellen werden dann mithilfe von 1:n-Beziehungen mit den Faktentabellen verbunden. Dieser Designansatz ist stabil, da er flexible Berichterstellungsoptionen bietet. Sie können nach einer beliebigen Spalte der Dimensionstabellen filtern oder anordnen und Zusammenfassungen aller verbunden Faktentabellen erstellen.
 
@@ -187,7 +184,7 @@ Wenn Sie sich die Zeit nehmen, die Designprinzipien des Sternschemas anzuwenden,
 - Ihre Berichtsvisuals können nach jeder eingeblendeten Spalte der Dimensionstabellen _gefiltert oder angeordnet werden_.
 - Ihre Berichtsvisuals können _Zusammenfassungen_ jeder eingeblendeten Spalte der Faktentabellen erstellen.
 - Filter, die auf die Tabellen **OrderLine**, **OrderDate** oder **Product** angewendet sind, werden für beide Faktentabellen übernommen.
-- Alle Beziehungen sind 1:n-Beziehungen und damit _starke Beziehungen_. Probleme mit der Datenintegrität können nicht mehr unentdeckt bleiben. Weitere Informationen finden Sie im Abschnitt [Bewertung von Beziehungen](../desktop-relationships-understand.md#relationship-evaluation).
+- Alle Beziehungen sind 1:n-Beziehungen und damit _starke Beziehungen_. Probleme mit der Datenintegrität können nicht mehr unentdeckt bleiben. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Herstellen von Beziehungen zwischen Fakten mit höherer Granularität
 
@@ -300,4 +297,6 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md)
 - [Informationen zum Sternschema und dessen Wichtigkeit für Power BI](star-schema.md)
+- [Leitfaden zur Problembehandlung bei Beziehungen](relationships-troubleshoot.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

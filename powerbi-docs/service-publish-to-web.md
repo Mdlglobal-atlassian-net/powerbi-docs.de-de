@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609923"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237981"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -134,6 +134,7 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 
 - Berichte, die die Sicherheit auf Zeilenebene verwenden
 - Berichte, die eine Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst und Azure Analysis Services.
+- Berichte, die ein [freigegebenes Dataset](service-datasets-across-workspaces.md) verwenden, das in einem anderen Arbeitsbereich gespeichert ist als der Bericht.
 - Berichte, die für Sie direkt oder über ein Organisationsinhaltspaket freigegeben werden
 - Berichte in einer Gruppe, in der Sie kein Bearbeitungsmitglied sind
 - „R“-Visualisierungen werden in **Im Web veröffentlichen**-Berichten derzeit nicht unterstützt.

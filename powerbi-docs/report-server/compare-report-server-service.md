@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427758"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290657"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
@@ -24,11 +24,11 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 
 | Features | Power BI-Berichtsserver | Power BI-Dienst | Hinweise |
 |---------|---------|---------|---------|
-| Bereitstellung | Lokal oder in einer gehosteten Cloud | Cloud | Der Power BI-Berichtsserver kann auf Azure-VMs (gehostete Cloud) bereitgestellt werden, wenn die Lizenzierung über Power BI Premium erfolgt. |
+| Bereitstellung | Lokal oder in einer gehosteten Cloud | Cloud | Der Power BI-Berichtsserver kann auf Azure-VMs (gehostete Cloud) bereitgestellt werden, wenn die Lizenzierung über Power BI Premium oder SQL Server Enterprise mit Software Assurance erfolgt.|
 | Quelldaten | Cloud und/oder lokal | Cloud und/oder lokal |  |
 | Lizenz | Power BI Premium oder SQL Server EE mit Software Assurance (SA) | Power BI Pro und/oder Power BI Premium | |  
 | Lebenszyklus | Moderne Lebenszyklusrichtlinie | Vollständig verwalteter Dienst |  |
-| Releasezyklus | Dreimal pro Jahr (Januar, Mai, September) | Einmal pro Monat | Die neuesten Features und Fixes werden zuerst im Power BI-Dienst bereitgestellt. Die meisten wichtigen Funktionen werden in den nachfolgenden Releases auch im Power BI-Berichtsserver bereitgestellt. Einige Features bleiben dem Power BI-Dienst vorbehalten. |
+| Releasezyklus | Dreimal pro Jahr (Januar, Mai, September) | Einmal pro Monat | Die neuesten Features und Fixes werden zuerst im Power BI-Dienst bereitgestellt. Jedes Release des Power BI-Berichtsservers enthält ein Rollup der Features aus den Power BI Desktop-Releases für den Dienst. Die meisten anderen Features sind nur für den Power BI-Dienst gedacht. |
 | Erstellen von Power BI-Berichten in Power BI Desktop | Ja | Ja |  |
 | Erstellen von Power BI-Berichten im Browser | Nein | Ja |  |
 | Hosten und Herstellen einer Verbindung mit freigegebenen Power BI-Datasets | Nein | Ja | [Einführung in arbeitsbereichsübergreifende Datasets](../service-datasets-across-workspaces.md) |

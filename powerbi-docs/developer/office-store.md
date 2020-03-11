@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576803"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237866"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Veröffentlichen von Power BI-Visuals in Partner Center
 
@@ -37,8 +37,8 @@ Wenn Sie dazu bereit sind, Ihr Power BI-Visual zu übermitteln, überprüfen Si
 | PBIX-Beispielberichtsdatei |Ja |Bei der Präsentation Ihres Visuals geht es darum, dass die Benutzer Ihr Visual kennenlernen. Heben Sie den Nutzen des Visuals für die Benutzer hervor, und bieten Sie Beispiele für Verwendung und Formatierungsoptionen. Sie können auch am Ende eine Seite mit *Hinweisen* hinzufügen, die Tipps und Tricks enthält und Fehler auflistet, die Benutzer vermeiden sollten.<br>Die PBIX-Beispielberichtsdatei muss offline ohne externe Verbindung funktionieren. |
 | Symbol |Ja |Sie sollten das Logo der benutzerdefinierten Visualisierung einschließen, das in der digitalen Ladenzeile angezeigt wird. Dabei kann es sich um eine PNG-, JPG-, JPEG- oder GIF-Datei handeln. Die Abmessung muss genau 300 px (Breite) × 300 px (Höhe) betragen.<BR>**Wichtig:** Lesen Sie den [Leitfaden zu Bildern im AppSource-Store](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) sorgfältig durch, bevor Sie das Symbol übermitteln. |
 | Screenshots |Ja |Stellen Sie mindestens einen Screenshot bereit. Dabei kann es sich um eine PNG-, JPG-, JPEG- oder GIF-Datei handeln. Die Abmessungen müssen exakt 1366 px (Breite) mal 768 px (Höhe) betragen. Die Datei darf nicht größer als 1024 KB sein.<br>Um den Nutzen der Screenshots zu erhöhen, fügen Sie Textblasen hinzu, mit denen Sie den Wertbeitrag wichtiger Features erläutern, die in den einzelnen Screenshots gezeigt werden. |
-| Support-Downloadlink |Ja |Stellen Sie eine Support-URL für Ihre Kunden bereit. Dieser Link ist Bestandteil Ihres Listings auf dem Verkäuferdashboard und wird Benutzern angezeigt, wenn sie auf das Listing Ihres Visuals in AppSource zugreifen. Das Format der URL muss „https://“ oder „http://“ enthalten. |
-| Link zum Datenschutzdokument |Ja |Stellen Sie einen Link zur gültigen Datenschutzrichtlinie für das Visual bereit. Dieser Link ist Bestandteil Ihres Listings auf dem Verkäuferdashboard und wird Benutzern angezeigt, wenn sie auf das Listing Ihres Visuals in AppSource zugreifen. Das Format des Links muss „https://“ oder „http://“ enthalten. |
+| Support-Downloadlink |Ja |Stellen Sie eine Support-URL für Ihre Kunden bereit. Dieser Link ist Bestandteil Ihres Partner Center-Listings und wird Benutzern angezeigt, wenn sie in AppSource auf das Listing Ihres Visuals zugreifen. Das Format der URL muss „https://“ oder „http://“ enthalten. |
+| Link zum Datenschutzdokument |Ja |Stellen Sie einen Link zur gültigen Datenschutzrichtlinie für das Visual bereit. Dieser Link ist Bestandteil Ihres Partner Center-Listings und wird Benutzern angezeigt, wenn sie in AppSource auf das Listing Ihres Visuals zugreifen. Das Format des Links muss „https://“ oder „http://“ enthalten. |
 | Lizenzbedingungen |Ja |Sie müssen eine EULA-Datei für Ihre Power BI-Visualisierung angeben. |
 | Videolink |Nein |Um das Interesse der Benutzer an Ihrem benutzerdefinierten Visual zu steigern, stellen Sie einen Link zu einem Video über Ihr Visual bereit. Das Format der URL muss „https://“ oder „http://“ enthalten. |
 | GitHub-Repository |Nein |Geben Sie einen öffentlichen Link zu einem [GitHub](https://www.github.com)-Repository mit den Quellen Ihres Power BI-Visuals sowie Beispieldaten an. So können andere Entwickler Ihnen Feedback geben und Verbesserungen für Ihren Code vorschlagen. |
@@ -74,9 +74,6 @@ Das Power BI-Team muss die Dateien bei Übermittlungen neuer Power BI-Visuals,
 Um Ihr Power BI-Visual an Partner Center übermitteln zu können, müssen Sie bei Partner Center registriert sein. Wenn Sie noch nicht registriert sind, [erstellen Sie ein Entwicklerkonto in Partner Center](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
 Führen Sie die unten genannten Schritte aus, um Ihr Power BI-Visual an Partner Center zu übermitteln. Weitere Informationen zum Übermittlungsprozess finden Sie unter [Übermitteln Ihrer Office-Lösung an AppSource über Partner Center](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
-
->[!NOTE]
-> Wenn Sie sich gerade mitten im Übermittlungsprozess für ein Power BI-Visual befinden und das [Verkäuferdashboard](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (das alte Verwaltungstool) verwenden müssen, lesen Sie die Anweisungen für den [Übermitteln eines Power BI-Visuals an AppSource über das Verkäuferdashboard](seller-dashboard.md).
 
 1. Melden Sie sich bei **Partner Center** an.
 

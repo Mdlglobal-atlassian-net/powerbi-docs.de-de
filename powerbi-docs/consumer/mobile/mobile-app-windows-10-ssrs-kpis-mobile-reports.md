@@ -35,7 +35,7 @@ Auch wenn Sie keinen Zugriff auf ein Reporting Services-Webportal haben, können
 
 1. Öffnen Sie auf Ihrem Windows 10-Gerät die Power BI-App.
 2. Tippen Sie auf die globale Navigationsschaltfläche ![Globale Navigationsschaltfläche](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) in der linken oberen Ecke.
-3. Tippen Sie auf das Symbol **Einstellungen** ![Symbol „Einstellungen“](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), klicken Sie mit der rechten Maustaste auf **Mit Server verbinden** (oder halten Sie diese Option gedrückt), und tippen Sie dann auf **Beispiele anzeigen**.
+3. Tippen Sie auf das Symbol **Einstellungen**![Symbol „Einstellungen“](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), klicken Sie mit der rechten Maustaste auf **Mit Server verbinden** (oder halten Sie diese Option gedrückt), und tippen Sie dann auf **Beispiele anzeigen**.
    
    ![SSRS-Beispiele anzeigen](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Öffnen Sie dann den Ordner „Retail Reports“ oder „Sales Reports“, um die zugehörigen KPIs und mobilen Berichte auszuwählen.

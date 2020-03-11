@@ -27,7 +27,7 @@ Im Power BI-Bereich „Visualisierungen“ stehen viele verschiedene Visualtypen
 
 ![Bereich mit Symbolen für jeden Visualisierungstyp](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Wenn Sie eine noch größere Auswahl wünschen, besuchen Sie die [Website der Microsoft AppSource-Community](https://appsource.microsoft.com), um [benutzerdefinierte Visuals](../developer/visuals/custom-visual-develop-tutorial.md) zu suchen und [herunterzuladen](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die von Microsoft und der Community bereitgestellt werden.
+Eine noch größere Auswahl finden Sie auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com). Dort können Sie [benutzerdefinierte Visuals](../developer/visuals/custom-visual-develop-tutorial.md) suchen und [herunterladen](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die von Microsoft und der Community bereitgestellt werden.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

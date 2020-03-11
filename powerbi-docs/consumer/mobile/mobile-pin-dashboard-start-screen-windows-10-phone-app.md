@@ -22,7 +22,7 @@ Sie können Power BI-Dashboards aus der mobilen Power BI-App für Windows 10 an 
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Heften Sie ein Dashboard als Live-Kachel an Ihren Startbildschirm an
 1. Öffnen Sie ein Dashboard.
-2. Tippen Sie auf **An „Start“ anheften** ![An „Start“ anheften (Symbol)](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
+2. Tippen Sie auf **An „Start“ anheften** ![Symbol: An „Start“ anheften](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
    
    ![Obere Leiste für mobile Windows 10-App](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

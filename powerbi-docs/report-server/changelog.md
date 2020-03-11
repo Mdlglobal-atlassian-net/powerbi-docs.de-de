@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819535"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237958"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -24,6 +24,14 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
 ## <a name="january-2020"></a>Januar 2020
 - **Power BI-Berichtsserver**
+    - *Version: 1.6.7364.4075 (Build 15.0.1102.777), Veröffentlichung: 2. März 2020*
+         - Fehlerkorrekturen
+           -  Fehlerbehebung für Power BI-Berichte, die für bestimmte Datenquellen nicht hochgeladen werden können
+           -  Fehlerbehebung für den Downloadlink für Power BI-Berichtsserver, Desktopversion, im Portal
+           -  Fehlerbehebung für DynamicImageDPI für das Excel-Rendering
+           -  Fehlerbehebung für Oracle-Verbindungen, die in bestimmten Szenarien mit mehreren Benutzern eine falsche Threadkultur verwenden
+           -  Fehlerbehebung für den CustomHeaders-Standardwert, der Fehler beim Einbetten von Berichten verursacht
+           -  Fehlerbehebung für SQL-Parameternamen, die in bestimmten Fällen falsch generiert werden
     - *Version: 1.6.7327.3007 (Build 15.0.1102.759), Veröffentlichung: 23. Januar 2020*
          - Features
             -  Exportieren nach Excel aus Power BI-Berichten
@@ -33,7 +41,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
            -  Unterstützung verwalteter Azure SQL-Datenbank-Instanzen als Katalog
            -  Transparente Datenbankverschlüsselung für den Katalog
         - Sicherheitsupdates
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Behebung von Fehlern bei der Barrierefreiheit für die Sprachausgabe, beim Rendern von Berichten sowie bei der Tastaturnavigation
             - Behebung von Fehlern beim Speichern von Multibyte-Berichtstiteln
             - Fehlerbehebung für die Beeinträchtigung der Zuverlässigkeit des Berichtsservers aufgrund von ausführlicher Protokollierung
@@ -46,18 +54,18 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (Januar 2020) erforderlich sind        
 
 
-## <a name="september-2019"></a>September 2019
+## <a name="september-2019"></a>September 2019
 - **Power BI-Berichtsserver**
     - *Version: 1.6.7236.4246 (Build 15.0.1102.646), Veröffentlichung: 25. Oktober 2019*
         - Sicherheitsupdates
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur für .NET Framework 4.7 nicht installiert
             - Korrektur für paginierte Berichte für Teradata mit mehrwertigen Parametern mit Fehler 110083
             - Korrektur für URLRoot-Wert, der nicht funktioniert, wenn mehrere Webdienst-URL-Bindungen vorhanden sind und eine davon https://+80/reportserver ist
           - Korrektur für mehrwertige Parameterwerte in paginierten Berichten, die außerhalb der Berichtsdaten angezeigt werden
           
     - *Version: 1.6.7221.30698 (Build 15.0.1102.620), Veröffentlichung: 9. Oktober 2019*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Behoben: Benutzerdefiniertes Visual „Textfilter“.
             - Behoben: Leistung von Dropdownslicern.
             - Behoben: „Strip PII“ aus Telemetrie.
@@ -65,7 +73,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
           
     - *Version 1.6.7206.38019 (Build 15.0.1102.597), Veröffentlichung: 26. September 2019*
         - Sicherheitsupdates
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
            - Paginierte Berichte
              - Behoben: Probleme mit der Barrierefreiheit bei der Verwendung von Internet Explorer und Microsoft Edge.
              - Behoben: Probleme mit SAP HANA beim Testen der Verbindung
@@ -82,11 +90,11 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
          
 - **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
     - *Version: 2.73.5586.1501 (September 2019), Veröffentlichung: 25. Oktober 2019*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur für die Telemetrie
             
     - *Version: 2.73.5586.1241 (September 2019), Veröffentlichung: 9. Oktober 2019*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Behoben: Benutzerdefiniertes Visual „Textfilter“.
             - Behoben: Leistung von Dropdownslicern.
             - Behoben: „Strip PII“ aus Telemetrie.
@@ -95,12 +103,12 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (September 2019) erforderlich sind
 
     
-## <a name="may-2019"></a>Mai 2019
+## <a name="may-2019"></a>Mai 2019
 
 - **Power BI-Berichtsserver**          
     - *Version 1.5.7074.36177 (Build 15.0.1102.371), Veröffentlichung: 21. Mai 2019*
-        - Fehlerbehebungen
-            - Paginierte Berichte
+        - Fehlerkorrekturen
+            - Paginated Reports
                 - Korrigiert: Dauerhaftes Aktivieren der Schriftarteinbettung in PDFs
                 - Korrigiert: Festlegen von über https gesendeten Cookies als „Sicher“
                 - Korrigiert: Probleme mit Popups aufgrund von Skriptfehlern
@@ -112,7 +120,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
 - **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
     - *Version: 2.69.5467.1801 (Mai 2019), Veröffentlichung: 21. Mai 2019*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur, dass Anmeldeinformationen während des Uploads von PBIX zu PBIRS nicht noch mal eingegeben werden müssen.
             - Korrigiert: Öffnen von Dokumenten mit „#“ im Dateinamen
             - Hinzufügen eines einfachen Links für die Rückwärtsnavigation im PBIRS-Auswahlfenster
@@ -120,28 +128,28 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
             - Korrigiert: Benutzeroberfläche des Auswahlbereichs (Canvasskalierung)
 
     - *Version: 2.69.5467.5201 (Mai 2019), Veröffentlichung: 30. Juli 2019*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur für falsche Telemetrieprotokollierung
 
 ## <a name="january-2019"></a>Januar 2019
 
 - **Power BI-Berichtsserver**          
     - *Version 1.4.7024.16477 (Build 15.0.1102.299), Veröffentlichung: 28. März 2019*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Power BI-Berichte
                 - Korrigiert: Ein Problem mit Standardanmeldeinformationen bei direkter Abfrage für SAP HANA und SAP BW
                 - Korrigiert: Datenaktualisierung für OData-Feed schlägt fehl. Fehler: „Datei oder Assembly 'Microsoft.OData.Core.NetFX35.V7' konnte nicht geladen werden.“
 
 - **Power BI-Berichtsserver**            
     - *Version 1.4.6969.7395 (Build 15.0.1102.235), Veröffentlichung: 30. Januar 2019*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Power BI-Berichte
                 - Korrigiert: Ein Problem mit Standardanmeldeinformationen bei direkter Abfrage
                 - Korrigiert: Bidirektionale Beziehungen mit angewendeten Sicherheitsfiltern auf Zeilenebene
                 - Korrigiert: Veraltete Daten nach Aktualisierung eines Modells in einer horizontal skalierten Umgebung
                 - Korrigiert: Doppelte Bildlaufleiste für Tabelle/Matrix in Firefox Version 63 und höher
                 - Korrigiert: Größe der Symbole +/- in Internet Explorer
-            - Paginierte Berichte
+            - Paginated Reports
                 - Korrigiert: Ein Problem bei der Aktualisierung der Verwendung einer freigegebenen Datenquelle für einen Bericht
 
     - *Version 1.4.6960.38798 (Build 15.0.1102.222), Veröffentlichung: 22. Januar 2019*
@@ -152,35 +160,35 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
                 - Kopieren und Einfügen zwischen PBIX-Dateien
                 - Intelligente Hinweise zur Ausrichtung
                 - Unterstützung für den SAP BW 2.0-Connector
-            - Administratoren
+            - Administrators
                 - Können nun die Erweiterungen der Ressourcen einschränken, die auf den Berichtsserver hochgeladen werden können
                 - Können nun die unterstützten Hyperlinkschemas einschränken
             - Programmierbarkeit
                 - Neue Web-API: /PowerBIReports({Id})/DataModelRoles (GET)
                 - Neue Web-API: /PowerBIReports({Id})/DataModelRoleAssignments (GET und PUT)
                 - Weitere Informationen finden Sie im Artikel [Power BI Report Server REST API (REST-API für Power BI-Berichtsserver)](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0).
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Sicherheitsrisiko durch Einschleusung von HTML-Befehlen
             - Nach dem Exportieren ins PDF-Format wird kein Euro-Symbol angezeigt.
             - Durch das Speichern eines Kennworts mit mehreren Datenquellen in Power BI-Berichten wurden nicht geänderte Kennwörter ungültig
             - Visuals zeigen nach einem Leerlauf Fehler in der Power BI Mobile-App an.
 
 - **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
-    - *Version: 2.65.5313.1562 (Januar 2019), Veröffentlichung: 30. Januar 2019*
+    - *Version: 2.65.5313.1562 (Januar 2019), Veröffentlichung: 30. Januar 2019*
         - Verknüpfungen und angeheftete Symbole bleiben auch nach der Deinstallation des Power BI-Berichtsservers erhalten
         - Korrigiert: Anheften des Power BI-Berichtsservers an das Startmenü führte zu einem schwarzen Symbol mit schwarzer Schrift
 
     - *Version: 2.65.5313.1421 (Januar 2019), Veröffentlichung: 22. Januar 2019* (neuer Build und neue Version)
         - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (Januar 2019) erforderlich sind 
     - *Version: 2.65.5313.5141 (Januar 2019), Veröffentlichung: 31. Juli 2019* (neuer Build und neue Version)
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur für falsche Telemetrieprotokollierung
 
 ## <a name="august-2018"></a>August 2018
 
 - **Power BI-Berichtsserver**
     - *Version 1.3.6816.37243 (Build 15.0.2.557), Veröffentlichung: 30. August 2018*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur eines Fehlers, durch den der Server beim Upgrade von einer früheren Version des PBI-Berichtsservers eine Bindungsumleitung nicht aktualisiert und den Kunden Folgendes angezeigt wurde:      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
@@ -198,14 +206,14 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
     - *Version: 2.61.5192.641 (August 2018), Veröffentlichung: 15. August 2018*
         - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (August 2018) erforderlich sind         
     - *Version: 2.61.5192.7701 (August 2018), Veröffentlichung: 8. August 2019* (neuer Build und neue Version)
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Korrektur für falsche Telemetrieprotokollierung
             
 ## <a name="march-2018"></a>März 2018
 
 - **Power BI-Berichtsserver**
     - *Version 1.2.6690.34729 (Build 15.0.2.402), Veröffentlichung: 27. April 2018*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Aktivieren der Migration von SQL Server Reporting Services 2017-Katalogen
             - Für Power BI-Berichte (PBIX)
                 - Berichte können aktualisiert werden, wenn ein Server für die Verwendung der benutzerdefinierten Authentifizierung konfiguriert ist.
@@ -223,7 +231,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
             - Allgemeine Verbesserungen der Stabilität
 
     - *Version 1.2.6660.39920 (Build 15.0.2.389), Veröffentlichung: 28. März 2018*
-        - Behebung von Programmfehlern
+        - Fehlerkorrekturen
             - Bei Power BI-Berichten (PBIX) funktioniert die Korrektur für den Datenexport für Power BI-Visuals nicht.
             - Bei Power BI-Berichten (PBIX) funktioniert die Korrektur für URL-Filter nicht.
             - Bei paginierten Berichten (RDL) funktioniert die Korrektur für die ordnungsgemäße Anzeige von Bildern in IE11 nicht, nachdem ein Upgrade auf die Power BI-Berichtsserverversion von März ausgeführt wurde.
@@ -249,24 +257,24 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 - **Power BI-Berichtsserver**
     - *Version 1.1.6582.41691 (Build 14.0.600.442), Veröffentlichung: 10. Januar 2018*
         - Sicherheitsupdates
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Es wurde ein Fehler behoben, bei dem „Model.GetParameters “ den Wert 400 zurückgegeben hat.
             - Es wurde ein Fehler beim Festlegen von freigegebenen Datasets für vorhandene paginierte Berichte (RDL) behoben.
             - Der Fehler „ExecutionNotFoundException“ beim Exportieren eines Berichts mit verschiedenen Parametern in das PDF-Format wurde behoben.
 
     - *Version 1.1.6551.5155 (Build 14.0.600.438), Veröffentlichung: 11. Dezember 2017*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Fehler beim Speichern von Daten nach der Aktualisierung bei bestimmten Power BI Desktop-Berichten.
 
     - *Version 1.1.6530.30789 (Build 14.0.600.437), Veröffentlichung: 17. November 2017*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Korrektur für Standardauthentifizierungsszenarien 
             - Korrektur des Problems, dass im Portal auf der Zeitplanseite für Abonnements, Cacheaktualisierungspläne und Verlaufsmomentaufnahmen keine Wochentage ausgewählt werden konnten
             - Korrektur des Problems bei paginierten Berichten (RDL), dass Werte ohne Farben und Schriftarten nicht ordnungsgemäß ausgegeben werden, wenn in Ausdrücken die CanGrow-Eigenschaft für Textfelder auf „false“ festgelegt ist
             - Korrektur des Problems bei Power BI-Berichten (PBIX), dass durch das Hinzufügen von Legenden zu einem Liniendiagramm ein leeres Visual gerendert wird
 
     - *Version 1.1.6514.9163 (Build 14.0.600.434), Veröffentlichung: 1. November 2017*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Korrektur von Problemen bei der Zuverlässigkeit des Uploads von PBIX-Berichten mit mehr als 500 MB
             - Korrektur des Problems beim Laden von Daten für PBIX-Berichte mit mehr als 1 GB
 
@@ -290,7 +298,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Sicherheitsupdates
 
     - *Version: 2.51.4885.1423 (Oktober 2017), Veröffentlichung: 17. November 2017*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Korrektur des Problems, dass die 32-Bit-Version von Power BI Desktop unter x86- Betriebssystemen nicht ausgeführt wird
             - Korrektur für Power BI-Berichte (PBIX), damit die Gitternetzlinien der X-Achse angezeigt werden
             - Weitere Korrekturen geringfügiger Fehler
@@ -306,11 +314,11 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Sicherheitsupdates
 
     - *Build 14.0.600.305, Veröffentlichung: 19. September 2017*  
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Aktualisierung auf das neueste [Websteuerelement für Bing Karten](https://msdn.microsoft.com/library/mt712542.aspx)
 
     - *Build 14.0.600.301, Veröffentlichung: 11. Juli 2017*
-        - Fehlerbehebungen
+        - Fehlerkorrekturen
             - Das `{{UserId}}`-Tag wird in die gespeicherten Anmeldeinformationen aufgelöst und nicht in den Benutzer, der den Bericht in Power BI-Berichte ausführt.
             - Einige Bilder werden in Berichten in Power BI-Berichtsserver nicht dargestellt.
             - Der Name eines Power BI-Berichts kann im Power BI-Berichtsserver nicht geändert werden.
@@ -328,7 +336,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 [Was ist der Microsoft Power BI-Berichtsserver?](get-started.md)
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
-[Laden Sie den Berichts-Generator](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download der neuesten SQL Server-Datatools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
+[Herunterladen der SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-Haben Sie dazu Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

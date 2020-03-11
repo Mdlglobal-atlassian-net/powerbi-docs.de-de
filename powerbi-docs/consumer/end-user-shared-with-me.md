@@ -45,7 +45,7 @@ Die Aktionen, die Ihnen zur Verfügung stehen, hängen von den Einstellungen ab,
 * Wählen Sie das Sternsymbol aus, um [ein Dashboard oder einen Bericht als Favoriten hinzuzufügen](end-user-favorite.md) ![Sternsymbol](./media/end-user-shared-with-me/power-bi-star-icon.png).
 * Entfernen eines Dashboards oder Berichts  ![Papierkorbsymbol](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * Manche Dashboards und Berichte können erneut geteilt werden  ![Symbol „Freigeben“](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Öffnen Sie den Bericht in Excel](end-user-export.md) ![Symbol „Nach Excel exportieren“](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [Öffnen Sie den Bericht in Excel](end-user-export.md) ![Symbol „Nach Excel exportieren“](./media/end-user-shared-with-me/power-bi-excel.png). 
 * [Zeigen Sie Erkenntnis an](end-user-insights.md), die Power BI in den Daten findet ![Symbol „Erkenntnisse“](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]

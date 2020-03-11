@@ -8,22 +8,22 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309111"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290680"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Erstellen von Modellbeziehungen in Power BI Desktop
 
-Dieser Artikel ist an Modellierer von Import-Daten gerichtet, die mit Power BI Desktop arbeiten. Es ist ein wichtiges, für die Bereitstellung intuitiver, präziser und optimaler Modelle wesentliches Modellentwurfsthema.
+Dieser Artikel ist an Modellierer von Import-Daten gerichtet, die mit Power BI Desktop arbeiten. Es geht um ein wichtiges Thema beim Entwurf von Modellen, das von essenzieller Bedeutung für die Bereitstellung intuitiver, präziser und optimaler Modelle ist.
 
 Eine ausführlichere Erläuterung zum optimalen Modellentwurf, einschließlich Tabellenrollen und Beziehungen, finden Sie im Artikel [Informationen zum Sternschema und der Wichtigkeit für Power BI](guidance/star-schema.md).
 
 ## <a name="relationship-purpose"></a>Zweck von Beziehungen
 
-Einfach ausgedrückt, werden in Power BI-Beziehungen auf die Spalten von Modelltabellen angewendete Filter an andere Modelltabellen weitergegeben. Filter werden so lange weitergegeben, wie ein Beziehungspfad verfolgt werden kann, woraus die Weitergabe an mehrere Tabellen resultieren kann.
+Einfach gesagt: Power BI-Beziehungen geben Filter, die auf die Spalten von Modelltabellen angewendet wurden, an andere Modelltabellen weiter. Filter werden so lange weitergegeben, wie ein Beziehungspfad verfolgt werden kann, woraus die Weitergabe an mehrere Tabellen resultieren kann.
 
 Beziehungspfade sind deterministisch, d. h., Filter werden immer auf die gleiche Weise und ohne zufällige Variation weitergegeben. Beziehungen können jedoch deaktiviert werden, oder ihr Filterkontext wird durch Modellberechnungen geändert, die bestimmte DAX-Funktionen verwenden. Weitere Informationen finden Sie weiter unten in diesem Artikel im Thema [Relevante DAX-Funktionen](#relevant-dax-functions).
 
@@ -36,17 +36,17 @@ Betrachten wir anhand eines animierten Beispiels, wie Beziehungen Filter weiterg
 
 In diesem Beispiel besteht das Modell aus vier Tabellen: **Category**, **Product**, **Year** und **Sales**. Die Tabelle **Category** bezieht sich auf die Tabelle **Product** und die Tabelle **Product** auf die **Tabelle** Sales. Die Tabelle **Year** bezieht sich auch auf die Tabelle **Sales**. Alle Beziehungen sind 1:n-Beziehungen (Näheres hierzu erfahren Sie später in diesem Artikel).
 
-Eine – möglicherweise von einem Power BI-Kartenvisual generierte – Abfrage ruft die Gesamtverkaufsmenge für Verkaufsaufträge ab, die für die einzelne Kategorie **Cat-A** und für das einzelne Jahr **2018** eingegangen sind. Aus diesem Grund sehen Sie, dass Filter auf die Tabellen **Category** und **Year** angewendet werden. Der Filter für die Tabelle **Category** wird an die Tabelle **Product** weitergegeben, um zwei Produkte der Kategorie **Cat-A** zu isolieren. Anschließend werden die Filter der Tabelle **Product** an die Tabelle **Sales** weitergegeben, um zwei Verkaufszeilen für diese Produkte zu isolieren. Diese zwei Verkaufszeilen stellen die Verkäufe von Produkten der Kategorie **Cat-A** dar. Die kombinierte Menge beträgt 14 Einheiten. Gleichzeitig wird der Filter der Tabelle **Year** weitergegeben, um die Tabelle **Sales** weiter zu filtern. Daraus resultiert nur eine Verkaufszeile für Produkte, die der Kategorie **Cat-A** zugewiesen sind und im Jahr **CY2018** bestellt wurden. Der von der Abfrage zurückgegebene Mengenwert beträgt 11 Einheiten. Beachten Sie Folgendes: Wenn mehrere Filter auf eine Tabelle angewendet werden (wie z. B. auf die Tabelle **Sales** in diesem Beispiel), ist es immer eine AND-Operation, die erfordert, dass alle Bedingungen erfüllt sind.
+Eine – möglicherweise von einem Power BI-Kartenvisual generierte – Abfrage ruft die Gesamtverkaufsmenge für Verkaufsaufträge ab, die für die einzelne Kategorie **Cat-A** und für das einzelne Jahr **CY2018** eingegangen sind. Aus diesem Grund sehen Sie, dass Filter auf die Tabellen **Category** und **Year** angewendet werden. Der Filter für die Tabelle **Category** wird an die Tabelle **Product** weitergegeben, um zwei Produkte der Kategorie **Cat-A** zu isolieren. Anschließend werden die Filter der Tabelle **Product** an die Tabelle **Sales** weitergegeben, um zwei Verkaufszeilen für diese Produkte zu isolieren. Diese zwei Verkaufszeilen stellen die Verkäufe von Produkten der Kategorie **Cat-A** dar. Die kombinierte Menge beträgt 14 Einheiten. Gleichzeitig wird der Filter der Tabelle **Year** weitergegeben, um die Tabelle **Sales** weiter zu filtern. Daraus resultiert nur eine Verkaufszeile für Produkte, die der Kategorie **Cat-A** zugewiesen sind und im Jahr **CY2018** bestellt wurden. Der von der Abfrage zurückgegebene Mengenwert beträgt 11 Einheiten. Beachten Sie Folgendes: Wenn mehrere Filter auf eine Tabelle angewendet werden (wie z. B. auf die Tabelle **Sales** in diesem Beispiel), ist es immer eine AND-Operation, die erfordert, dass alle Bedingungen erfüllt sind.
 
 ### <a name="disconnected-tables"></a>Getrennte Tabellen
 
-Es ist ungewöhnlich, dass eine Modelltabelle nicht mit einer anderen Modelltabelle verknüpft ist. Eine solche Tabelle in einem gültigen Modellentwurf kann als _getrennte Tabelle_ bezeichnet werden. Eine getrennte Tabelle ist nicht für die Weitergabe von Filtern an andere Modelltabellen vorgesehen. Stattdessen wird sie verwendet, um „Benutzereingaben“ (möglicherweise mit einem Slicervisual) zu akzeptieren, sodass der Eingabewert auf sinnvolle Weise für Modellberechnungen verwendet werden kann. Stellen Sie sich beispielsweise eine getrennte Tabelle vor, in die ein Bereich von Währungskurswerten geladen wird. Wenn ein Filter angewendet wird, um nach einem einzelnen Kurswert zu filtern, kann der Wert von einem Measureausdruck verwendet werden, um Verkaufswerte zu konvertieren.
+Es ist ungewöhnlich, dass eine Modelltabelle nicht mit einer anderen Modelltabelle verknüpft ist. Eine solche Tabelle in einem gültigen Modellentwurf kann als _getrennte Tabelle_ bezeichnet werden. Eine getrennte Tabelle ist nicht für die Weitergabe von Filtern an andere Modelltabellen vorgesehen. Stattdessen wird sie verwendet, um „Benutzereingaben“ (möglicherweise mit einem Slicervisual) zu akzeptieren, sodass der Eingabewert auf sinnvolle Weise für Modellberechnungen verwendet werden kann. Stellen Sie sich beispielsweise eine getrennte Tabelle vor, in die ein Bereich von Währungskurswerten geladen wird. Solange ein Filter angewendet wird, um nach einem einzelnen Kurswert zu filtern, kann der Wert von einem Measureausdruck verwendet werden, um Verkaufswerte zu konvertieren.
 
 Der What-if-Parameter von Power BI Desktop ist ein Feature, das eine getrennte Tabelle erstellt. Weitere Informationen finden Sie im Artikel [Erstellen und Verwenden eines Was-wäre-wenn-Parameters zum Visualisieren von Variablen in Power BI Desktop](desktop-what-if.md).
 
 ## <a name="relationship-properties"></a>Beziehungseigenschaften
 
-In einer Modellbeziehung ist eine Spalte in einer Tabelle mit einer Spalte in einer anderen Tabelle verknüpft. (Auf einen speziellen Fall trifft diese Anforderung nicht zu, und zwar nur auf mehrspaltige Beziehungen in DirectQuery-Modellen. Weitere Informationen finden Sie im Artikel [COMBINEVALUES](/dax/combinevalues-function-dax) zur DAX-Funktion.
+In einer Modellbeziehung ist eine Spalte in einer Tabelle mit einer Spalte in einer anderen Tabelle verknüpft. (Auf einen speziellen Fall trifft diese Anforderung nicht zu, und zwar nur auf mehrspaltige Beziehungen in DirectQuery-Modellen. Weitere Informationen finden Sie im Artikel zur DAX-Funktion [COMBINEVALUES](/dax/combinevalues-function-dax).)
 
 > [!NOTE]
 > Es ist nicht möglich, eine Spalte mit einer anderen Spalte _in derselben Tabelle_ zu verknüpfen. Dies wird manchmal mit der Möglichkeit verwechselt, eine Fremdschlüsseleinschränkung für relationale Datenbanken zu definieren, bei der die Tabelle auf sich selbst verweist. Mit diesem Konzept der relationalen Datenbank können Beziehungen zwischen übergeordneten und untergeordneten Elementen gespeichert werden (Beispiel: Jeder Mitarbeiterdatensatz ist mit einem „berichtet an mich“-Mitarbeiter verknüpft). Das auf diesem Beziehungstyp basierende Generieren einer Modellhierarchie kann nicht durch Erstellen von Modellbeziehungen gelöst werden. Informationen hierzu finden Sie im Artikel [Über- und untergeordnete Funktionen](/dax/parent-and-child-functions-dax).
@@ -65,13 +65,13 @@ Die vier Optionen – und ihre Kurzschreibweisen – werden in der folgenden Auf
 - Eins-zu-eins (1:1)
 - Viele-zu-viele (\*:\*)
 
-Wenn Sie in Power BI Desktop eine Beziehung erstellen, erkennt der Designer automatisch den Kardinalitätstyp und legt ihn fest. Dies kann der Designer, da er das Modell abfragt, um zu ermitteln, welche Spalten eindeutige Werte enthalten. Für Import-Modelle verwendet er interne Speicherstatistiken; für DirectQuery-Modelle sendet er Profilierungsabfragen an die Datenquelle. Manchmal kann er jedoch daneben liegen. Dies liegt daran, dass Tabellen noch mit Daten geladen werden müssen, oder dass Spalten, von denen Sie erwarten, dass sie doppelte Werte enthalten, derzeit eindeutige Werte enthalten. In beiden Fällen können Sie den Kardinalitätstyp aktualisieren, indem Sie alle „Eins“-Seiten-Spalten bereitstellen, die eindeutige Werte enthalten (oder die Tabelle muss noch mit Datenzeilen geladen werden).
+Wenn Sie in Power BI Desktop eine Beziehung erstellen, erkennt der Designer den Kardinalitätstyp automatisch und legt ihn fest. Der Designer fragt das Modell ab, um zu ermitteln, welche Spalten eindeutige Werte enthalten. Bei Importmodelle verwendet der Designer interne Speicherstatistiken; bei DirectQuery-Modellen sendet er Abfragen zur Profilerstellung an die Datenquelle. Manchmal kann er jedoch daneben liegen. Das kann passieren, wenn Tabellen noch mit Daten geladen werden müssen oder wenn Spalten, von denen Sie erwarten, dass sie doppelte Werte enthalten, derzeit eindeutige Werte enthalten. In beiden Fällen können Sie den Kardinalitätstyp aktualisieren, sofern alle Spalten der 1-Seite eindeutige Werte enthalten (oder noch Datenzeilen in die Tabelle geladen werden müssen).
 
 Die **1:n**- und **n:1**-Kardinalitätsoptionen sind im Wesentlichen identisch und auch die gängigsten Kardinalitätstypen.
 
 Beim Konfigurieren einer 1:n- oder n:1-Beziehung wählen Sie den Wert aus, der der Reihenfolge entspricht, in der Sie die Spalten verknüpft haben. Überlegen Sie, wie Sie die Beziehung zwischen der Tabelle **Product** und der Tabelle **Sales** mithilfe der in beiden Tabellen vorhandenen Spalte **ProductID** konfigurieren würden. Der Kardinalitätstyp wäre _1:n_, da die Spalte **ProductID** in der Tabelle **Product** eindeutige Werte enthält. Wenn Sie die Tabellen in umgekehrter Richtung verknüpfen würden – **Sales** zu **Product** – wäre die Kardinalität _n:1_.
 
-Eine **1:1**-Beziehung bedeutet, dass beide Spalten eindeutige Werte enthalten. Dieser Kardinalitätstyp ist nicht gängig und weist aufgrund der Speicherung redundanter Daten eher auf einen suboptimalen Modellentwurf hin.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+Eine **1:1**-Beziehung bedeutet, dass beide Spalten eindeutige Werte enthalten. Dieser Kardinalitätstyp ist nicht gängig und weist aufgrund der Speicherung redundanter Daten eher auf einen suboptimalen Modellentwurf hin. Weitere Informationen zur Verwendung dieses Kardinalitätstyps finden Sie im [Leitfaden zu 1:1-Beziehungen](guidance/relationships-one-to-one.md).
 
 Eine **m:n**-Beziehung bedeutet, dass beide Spalten doppelte Werte enthalten können. Dieser Kardinalitätstyp wird selten verwendet. Er ist in der Regel nützlich, wenn komplexe Modellanforderungen entworfen werden. Hinweise zur Verwendung dieses Kardinalitätstyps finden Sie unter [Leitfaden zu m:n-Beziehungen](guidance/relationships-many-to-many.md).
 
@@ -95,13 +95,13 @@ _Einzelne_ Kreuzfilterrichtung bedeutet „einzelne Richtung“ und _Beide_ bede
 
 Bei 1:n-Beziehungen verläuft die Kreuzfilterrichtung immer von der „Eins“-Seite und optional von der „Viele“-Seite (bidirektional). Bei 1:1-Beziehungen verläuft die Kreuzfilterrichtung immer von beiden Tabellen. Schließlich kann bei m:n-Beziehungen die Kreuzfilterrichtung von einer der Tabellen oder von beiden verlaufen. Beachten Sie: Wenn der Kardinalitätstyp eine „Eins“-Seite enthält, werden Filter immer von dieser Seite weitergegeben.
 
-Wenn die Kreuzfilterrichtung auf **Beide** festgelegt ist, ist eine zusätzliche Eigenschaft verfügbar, um bidirektionale Filterung anzuwenden, wenn RLS-Regeln (Row-Level Security, Sicherheit auf Zeilenebene) erzwungen werden. Weitere Informationen zu RLS finden Sie im Artikel [Sicherheit auf Zeilenebene (Row-Level Security; RLS) mit Power BI Desktop](desktop-rls.md).
+Wenn die Kreuzfilterrichtung auf **Beide** festgelegt ist, steht eine weitere Eigenschaft zur Verfügung. Diese kann eine bidirektionale Filterung anwenden, wenn Sicherheitsregeln auf Zeilenebene erzwungen werden. Weitere Informationen zur Sicherheit auf Zeilenebene finden Sie im Artikel [Einschränken des Datenzugriffs mit Sicherheit auf Zeilenebene (RLS) für Power BI Desktop](desktop-rls.md).
 
 Die Kreuzfilterrichtung der Beziehung – einschließlich Deaktivierung der Filterweitergabe – kann auch durch eine Modellberechnung geändert werden. Hierzu wird die DAX-Funktion [CROSSFILTER](/dax/crossfilter-function) verwendet.
 
 Bidirektionale Beziehungen können sich negativ auf die Leistung auswirken. Außerdem kann der Versuch, eine bidirektionale Beziehung zu konfigurieren, zu mehrdeutigen Filterweitergabe-Pfaden führen. In diesem Fall kann Power BI Desktop die Beziehungsänderung möglicherweise nicht committen, sodass Sie eine Fehlermeldung erhalten. Manchmal kann Power BI Desktop Ihnen jedoch ermöglichen, mehrdeutige Beziehungspfade zwischen Tabellen zu definieren. Rangfolgeregeln, die sich auf die Erkennung von Mehrdeutigkeiten und Pfadauflösung auswirken, werden weiter unten in diesem Artikel im Thema [Rangfolgeregeln](#precedence-rules) beschrieben.
 
-Sie sollten die bidirektionale Filterung nur bei Bedarf verwenden.<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+Sie sollten die bidirektionale Filterung nur bei Bedarf verwenden. Weitere Informationen finden Sie im [Leitfaden zu bidirektionalen Beziehungen](guidance/relationships-bidirectional-filtering.md).
 
 > [!TIP]
 > In der Power BI Desktop-Modellansicht können Sie die Kreuzfilterrichtung einer Beziehung anhand der entlang der Beziehungslinie verlaufenden Pfeilspitze(n) interpretieren. Eine einzelne Pfeilspitze stellt einen in Richtung der Pfeilspitze verlaufenden Einzelrichtungsfilter dar; eine doppelte Pfeilspitze stellt eine bidirektionale Beziehung dar.
@@ -110,7 +110,7 @@ Sie sollten die bidirektionale Filterung nur bei Bedarf verwenden.<!-- For guida
 
 Zwischen zwei Modelltabellen kann nur ein einziger aktiver Filterweitergabe-Pfad vorhanden sein. Es ist jedoch möglich, zusätzliche Beziehungspfade einzuführen, obwohl alle diese Beziehungen als _inaktiv_ konfiguriert werden müssen. Inaktive Beziehungen können nur während der Auswertung einer Modellberechnung aktiviert werden. Hierzu wird die DAX-Funktion [USERELATIONSHIP](/dax/userelationship-function-dax) verwendet.
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+Weitere Informationen finden Sie unter [Aktive und inaktive Beziehungen im Vergleich – Leitfaden](guidance/relationships-active-inactive.md).
 
 > [!TIP]
 > In der Power BI Desktop-Modellansicht können Sie den aktiven oder inaktiven Status einer Beziehung interpretieren. Eine aktive Beziehung wird als durchgezogene Linie dargestellt, eine inaktive Beziehung als gestrichelte Linie.
@@ -119,12 +119,12 @@ Zwischen zwei Modelltabellen kann nur ein einziger aktiver Filterweitergabe-Pfad
 
 Die Eigenschaft _Referenzielle Integrität voraussetzen_ ist nur für 1:n- und 1:1-Beziehungen zwischen zwei DirectQuery-Speichermodustabellen verfügbar, die auf derselben Datenquelle basieren. Wenn sie aktiviert ist, werden die beiden Tabellen von nativen Abfragen, die an die Datenquelle gesendet werden, mit einem INNER JOIN statt eines OUTER JOIN verknüpft. Die Abfrageleistung wird mit Aktivierung dieser Eigenschaft somit generell verbessert, obwohl dies von den Besonderheiten der Datenquelle abhängt.
 
-Diese Eigenschaft sollte immer aktiviert werden, wenn zwischen den beiden Tabellen eine Datenbankfremdschlüssel-Einschränkung vorhanden ist. Wenn keine Fremdschlüsseleinschränkung vorhanden ist, können Sie die Eigenschaft dennoch aktivieren, sofern Sie sicher sind, dass die Datenintegrität gegeben ist.
+Aktivieren Sie diese Eigenschaft immer, wenn zwischen den beiden Tabellen eine Fremdschlüsseleinschränkung für Datenbanken vorhanden ist. Wenn keine Fremdschlüsseleinschränkung vorhanden ist, können Sie die Eigenschaft dennoch aktivieren, sofern Sie sicher sind, dass die Datenintegrität gegeben ist.
 
 > [!IMPORTANT]
 > Sollte die Datenintegrität kompromittiert werden, eliminiert der INNER JOIN nicht übereinstimmende Zeilen zwischen den Tabellen. Stellen Sie sich beispielsweise eine Modell-**Sales**-Tabelle mit einem **ProductID**-Spaltenwert vor, der in der verknüpften **Product**-Tabelle nicht vorhanden ist. Die Filterweitergabe von der **Product**-Tabelle zur **Sales**-Tabelle eliminiert die Verkaufszeilen für unbekannte Produkte. Dies würde dazu führen, dass die Verkaufsergebnisse zu niedrig angegeben werden.
 >
-> Weitere Informationen finden Sie im Artikel [Einstellungen für „Referenzielle Integrität voraussetzen“ in Power BI Desktop](desktop-assume-referential-integrity.md).
+> Weitere Informationen finden Sie im Artikel [Anwenden der Einstellung „Referenzielle Integrität voraussetzen“ in Power BI Desktop](desktop-assume-referential-integrity.md).
 
 ## <a name="relevant-dax-functions"></a>Relevante DAX-Funktionen
 
@@ -146,7 +146,7 @@ Zuerst ist eine Modellierungstheorie erforderlich, um Beziehungsauswertungen vol
 
 Ein Import- oder DirectQuery-Modell bezieht sämtliche Daten entweder aus dem Vertipaq-Cache oder der Quelldatenbank. In beiden Fällen kann Power BI bestimmen, ob die „Eins“-Seite einer Beziehung vorhanden ist.
 
-Ein zusammengesetztes Modell kann jedoch aus Tabellen bestehen, die unterschiedliche Speichermodi (Import, DirectQuery oder Dual) bzw. mehrere DirectQuery-Quellen verwenden. Jede Quelle, einschließlich des Vertipaq-Caches der Import-Daten, wird als _Dateninsel_ betrachtet. Modellbeziehungen können dann als _inselintern_ oder _inselübergreifend_ klassifiziert werden. Eine inselinterne Beziehung ist eine Beziehung zwischen zwei Tabellen innerhalb einer Dateninsel, während in einer inselübergreifenden Beziehung Tabellen aus verschiedenen Dateninseln miteinander verknüpft sind. Beachten Sie, dass Beziehungen in Import- oder DirectQuery-Modell immer inselintern sind.
+Ein zusammengesetztes Modell kann jedoch Tabellen enthalten, die unterschiedliche Speichermodi (Import, DirectQuery oder Dual) bzw. mehrere DirectQuery-Quellen verwenden. Jede Quelle, einschließlich des Vertipaq-Caches der Import-Daten, wird als _Dateninsel_ betrachtet. Modellbeziehungen können dann als _inselintern_ oder _inselübergreifend_ klassifiziert werden. Eine inselinterne Beziehung ist eine Beziehung zwischen zwei Tabellen innerhalb einer Dateninsel, während in einer inselübergreifenden Beziehung Tabellen aus verschiedenen Dateninseln miteinander verknüpft sind. Beachten Sie, dass Beziehungen in Import- oder DirectQuery-Modell immer inselintern sind.
 
 Wir betrachten nun ein Beispiel für ein zusammengesetztes Modell.
 
@@ -164,7 +164,7 @@ Im folgenden Beispiel gibt es zwei starke Beziehungen, die beide mit **S** geken
 
 Für Import-Modelle, bei denen alle Daten im Vertipaq-Cache gespeichert werden, wird für jede starke Beziehung zum Zeitpunkt der Datenaktualisierung eine Datenstruktur erstellt. Die Datenstrukturen bestehen aus indizierten Zuordnungen aller „Spalte-zu-Spalte“-Werte, und sie sollen das Verknüpfen von Tabellen zur Abfragezeit beschleunigen.
 
-Zur Abfragezeit ermöglichen starke Beziehungen eine _Tabellenerweiterung_. Die Tabellenerweiterung führt zum Erstellen einer virtuellen Tabelle, indem die nativen Spalten der Basistabelle einbezogen und dann in verknüpfte Tabellen erweitert werden. Für Import-Tabellen erfolgt dies in der Abfrage-Engine und für DirectQuery-Tabellen in der nativen Abfrage, die an die Quelldatenbank gesendet wird (sofern die Eigenschaft „Referenzielle Integrität voraussetzen“ nicht aktiviert ist). Die Abfrage-Engine bearbeitet dann die erweiterte Tabelle, wendet Filter an und führt eine Gruppierung nach den Werten in den Spalten der erweiterten Tabelle durch.
+Zur Abfragezeit ermöglichen starke Beziehungen eine _Tabellenerweiterung_. Die Tabellenerweiterung führt zum Erstellen einer virtuellen Tabelle, indem die nativen Spalten der Basistabelle einbezogen und dann in verknüpfte Tabellen erweitert werden. Für Import-Tabellen erfolgt dies in der Abfrage-Engine, für DirectQuery-Tabellen in der nativen Abfrage, die an die Quelldatenbank gesendet wird (sofern die Eigenschaft **Referenzielle Integrität voraussetzen** nicht aktiviert ist). Die Abfrage-Engine bearbeitet dann die erweiterte Tabelle, wendet Filter an und führt eine Gruppierung nach den Werten in den Spalten der erweiterten Tabelle durch.
 
 > [!NOTE]
 > Inaktive Beziehungen werden ebenfalls erweitert, auch wenn die Beziehung nicht von einer Berechnung verwendet wird. Bidirektionale Beziehungen haben keine Auswirkung auf die Tabellenerweiterung.
@@ -194,7 +194,7 @@ Im folgenden Beispiel gibt es zwei schwache Beziehungen, die beide mit **W** gek
 
 Bei Import-Modellen werden nie Datenstrukturen für schwache Beziehungen erstellt. Dies bedeutet, dass Tabellenverknüpfungen zur Abfragezeit aufgelöst werden müssen.
 
-Tabellenerweiterungen werden nie für schwache Beziehungen durchgeführt. Tabellenverknüpfungen werden mithilfe der INNER JOIN-Semantik erzielt, und aus diesem Grund werden keine leeren virtuellen Zeilen hinzugefügt, um Verstöße gegen die referenzielle Integrität zu kompensieren.
+Tabellenerweiterungen werden nie für schwache Beziehungen durchgeführt. Tabellenverknüpfungen werden mithilfe der INNER JOIN-Semantik erzielt. Aus diesem Grund werden keine leeren virtuellen Zeilen hinzugefügt, um Verletzungen der referenziellen Integrität zu kompensieren.
 
 Es gibt zusätzliche Einschränkungen in Bezug auf schwache Beziehungen:
 
@@ -221,12 +221,16 @@ In der folgenden Liste sind die Beziehungen nach ihrer Filterweitergabe-Leistung
 3. M:n-Modellbeziehungen, die mit einer Zwischentabelle erzielt werden und mindestens eine bidirektionale Beziehung beinhalten
 4. Inselübergreifende Beziehungen
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>Nächste Schritte
 
+Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
+
 - [Informationen zum Sternschema und dessen Wichtigkeit für Power BI](guidance/star-schema.md)
+- [Leitfaden zu 1:1-Beziehungen](guidance/relationships-one-to-one.md)
 - [Leitfaden zu m:n-Beziehungen](guidance/relationships-many-to-many.md)
-- Video: [Worauf Sie bei Power BI-Beziehungen achten sollten](https://youtu.be/78d6mwR8GtA)
+- [Aktive und inaktive Beziehungen im Vergleich – Leitfaden](guidance/relationships-active-inactive.md)
+- [Leitfaden zu bidirektionalen Beziehungen](guidance/relationships-bidirectional-filtering.md)
+- [Leitfaden zur Problembehandlung bei Beziehungen](guidance/relationships-troubleshoot.md)
+- Video: [Worauf Sie bei Power BI-Beziehungen achten sollten](https://www.youtube.com/watch?v=78d6mwR8GtA)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

@@ -26,7 +26,7 @@ Mit dieser Anleitung erstellen Sie anhand der Beispiel-App für Vertrieb und Mar
 
 1. Beginnen Sie auf einer leeren Berichtsseite. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) zu öffnen.
 
-2. Wählen Sie im Bereich „Felder“ **SalesFact** \> **Gesamtanzahl der Einheiten** aus, und wählen Sie dann **Datum** > **Monat** aus.  Power BI erstellt ein Säulendiagramm im Zeichenbereich des Berichts.
+2. Wählen Sie im Bereich „Felder“ **SalesFact** \> **Gesamtanzahl der Einheiten** und dann **Datum** > **Monat** aus.  Power BI erstellt ein Säulendiagramm im Zeichenbereich des Berichts.
 
     ![Auswählen im Bereich „Felder“](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -35,7 +35,7 @@ Mit dieser Anleitung erstellen Sie anhand der Beispiel-App für Vertrieb und Mar
     ![Konvertieren in ein Liniendiagramm](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Filtern Sie Ihr Liniendiagramm zur Anzeige der Daten aus den Jahren 2012-2014. Wenn der Bereich „Filter“ reduziert ist, erweitern Sie ihn jetzt. Wählen Sie im Bereich „Felder“ **Datum** \> **Jahr** aus, und ziehen Sie es in den Bereich „Filter“. Legen Sie es unter der Überschrift **Filter für dieses Visual**  ab. 
+4. Filtern Sie Ihr Liniendiagramm zur Anzeige der Daten aus den Jahren 2012-2014. Wenn der Bereich „Filter“ reduziert ist, erweitern Sie ihn jetzt. Wählen Sie im Bereich „Felder“ **Datum** \> **Jahr** aus, und ziehen Sie das Feld in den Bereich „Filter“. Legen Sie es unter der Überschrift **Filter für dieses Visual**  ab. 
      
     ![Linie neben dem Bereich „Felder“](media/power-bi-line-charts/power-bi-year-filter.png)
 

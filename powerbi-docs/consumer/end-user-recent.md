@@ -42,7 +42,7 @@ Wenn mehr als fünf zuletzt besuchte Elemente vorhanden sind, wählen Sie **Alle
 Die Aktionen, die Ihnen zur Verfügung stehen, hängen von den Einstellungen ab, die vom *Designer* der Inhalte festgelegt wurden. Sie haben unter anderem folgende Optionen:
 * Wählen Sie das Sternsymbol aus, um [ein Dashboard, einen Bericht oder eine App als Favoriten hinzuzufügen](end-user-favorite.md) ![Sternsymbol](./media/end-user-shared-with-me/power-bi-star-icon.png).
 * Manche Dashboards und Berichte können erneut geteilt werden  ![Symbol „Freigeben“](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Öffnen Sie den Bericht in Excel](end-user-export.md) ![Symbol „Nach Excel exportieren“](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [Öffnen Sie den Bericht in Excel](end-user-export.md) ![Symbol „Nach Excel exportieren“](./media/end-user-shared-with-me/power-bi-excel.png). 
 * [Zeigen Sie Erkenntnis an](end-user-insights.md), die Power BI in den Daten findet ![Symbol „Erkenntnisse“](./media/end-user-shared-with-me/power-bi-insights.png).
 * Wenn Ihre Listen sehr umfangreich werden, können Sie zudem [das Suchfeld und die Sortierfunktion verwenden, um das Gewünschte zu suchen](end-user-search-sort.md). Um herauszufinden, ob eine Spalte sortiert werden kann, zeigen Sie mit dem Cursor darauf, um zu sehen, ob ein Pfeil erscheint. In diesem Beispiel wird auf **Letzter Zugriff** gezeigt, und ein Pfeil wird angezeigt, was bedeutet, dass die neuesten Inhalte nach Zugriffsdatum sortiert werden können. 
 

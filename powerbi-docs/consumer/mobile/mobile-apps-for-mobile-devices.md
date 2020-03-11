@@ -25,7 +25,7 @@ In Power BI Desktop erstellen Sie Berichte. Im Power BI-Berichtsdienst ([https:/
 
 ### <a name="get-the-app-from-the-application-store"></a>Rufen Sie die App aus dem Store für Anwendungen 
 
-[![Gehe zu Power BI im App Store](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409)[![Gehe zu Power BI in Google Play](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409)[![Gehe zu Power BI im Windows Store](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
+[![Zu Power BI im App Store wechseln](./media/mobile-apps-for-mobile-devices/mobile-apps-app-store.png)](https://go.microsoft.com/fwlink/?LinkId=526218&clcid=0x409) [![Zu Power BI in Google Play wechseln](./media/mobile-apps-for-mobile-devices/mobile-apps-google-play.png)](https://go.microsoft.com/fwlink/?LinkId=544867&clcid=0x409) [![Zu Power BI im Microsoft Store wechseln](./media/mobile-apps-for-mobile-devices/mobile-apps-windows-store.png)](https://go.microsoft.com/fwlink/?LinkId=526478&clcid=0x409)
 
 ## <a name="mobile-apps-for-different-devices"></a>Mobile Apps für verschiedene Geräte
 

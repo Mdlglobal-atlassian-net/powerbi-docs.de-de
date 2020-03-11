@@ -44,7 +44,7 @@ Die von Siri unterstützte Gerätesuche enthält auch Vorschläge, die auf Ihren
 
 >[!NOTE]
 >
->Navigieren Sie zu **Geräteeinstellungen** > **Power BI-Einstellungen** > **Siri & Suchen**, und deaktivieren Sie die Einstellung **Siri & Vorschläge**, um die Gerätesuche und Siri-Vorschläge zu deaktivieren.
+>Um die Gerätesuche und Siri-Vorschläge zu deaktivieren, navigieren Sie zu **Geräteeinstellungen** > **Power BI-Einstellungen** > **Siri und Suchen**, und deaktivieren Sie die Einstellung **Siri und Vorschläge**.
 >
 
 ## <a name="next-steps"></a>Nächste Schritte
