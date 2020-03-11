@@ -1,4 +1,5 @@
-- name: Power BI-Berichtsserver
+- name: Dokumentation zu Power BI-Berichtsservern
+  href: index.yml
   expanded: true
   items:
     - name: Übersicht
