@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: 54416b314b03a5889c58004918513fecd7ff5ccd
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 33c4f7b208916c2d920591acfc444f52c7655e47
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954246"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919545"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Erstellen eines paginierten Berichts für Power BI-Berichtsserver
 In diesem Artikel erstellen Sie in wenigen einfachen Schritten einen paginierten Bericht für den Power BI-Berichtsserver.
 
-Benötigen Sie Hilfe beim Erstellen paginierter Berichte im Report Builder für den Power BI-Dienst? Lesen Sie stattdessen den Artikel [Power BI Report Builder](../report-builder-power-bi.md).
+Benötigen Sie Hilfe beim Erstellen paginierter Berichte im Report Builder für den Power BI-Dienst? Lesen Sie stattdessen den Artikel [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
 Wie der Name bereits vermuten lässt, können paginierte Berichte viele Seiten aufweisen. Sie verfügen über ein Layout in einem festen Format und ermöglichen eine präzise Anpassung. Bei paginierten Berichten handelt es sich um RDL-Dateien.
 

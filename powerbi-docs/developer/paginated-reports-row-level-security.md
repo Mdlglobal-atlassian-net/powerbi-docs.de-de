@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953764"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920928"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementieren der Sicherheit auf Zeilenebene in eingebetteten paginierten Berichten (Vorschau)
 
@@ -26,13 +26,13 @@ Diese Funktion ermöglicht das sichere Anzeigen einer Teilmenge von Daten, ohne 
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Konfigurieren eines Parameters zum Filtern des Datasets
 
-Beim Anwenden der Sicherheit auf Zeilenebene auf einen paginierten Power BI-Bericht müssen Sie dem **UserID**-Attribut einen [Parameter](../report-builder-parameters.md) zuweisen. Dieser Parameter schränkt die Daten ein, die aus dem Dataset abgerufen werden, bevor der Bericht eingebettet wird.
+Beim Anwenden der Sicherheit auf Zeilenebene auf einen paginierten Power BI-Bericht müssen Sie dem **UserID**-Attribut einen [Parameter](../paginated-reports/report-builder-parameters.md) zuweisen. Dieser Parameter schränkt die Daten ein, die aus dem Dataset abgerufen werden, bevor der Bericht eingebettet wird.
 
 Verwenden Sie nach dem Zuweisen des Parameter zum **UserID**-Attribut die API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup), um das Token für die Einbettung zu erhalten.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Verwenden von UserID als Filter auf Berichts- oder Abfrageebene
 
-Sie können **UserID** als *Filter* oder in einer *Abfrage* für die Datenquelle im [Power BI Report Builder](../report-builder-power-bi.md) verwenden.
+Sie können **UserID** als *Filter* oder in einer *Abfrage* für die Datenquelle im [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) verwenden.
 
 ### <a name="using-the-filter"></a>Verwenden des Filters
 

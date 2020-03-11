@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539755"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946854"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportieren der Daten, die zum Erstellen einer Visualisierung verwendet wurden
 
@@ -166,7 +166,7 @@ Power BI-Administratoren und -designer haben verschiedene Möglichkeiten, propri
 
 - Besitzer von Datasets können Sicherheit auf Zeilenebene (Row Level Security, RLS) festlegen. Die RLS schränkt den Zugriff für Benutzer mit Leseberechtigung ein. Wenn Sie jedoch einen App-Arbeitsbereich konfiguriert und den Mitgliedern die Berechtigung zum Bearbeiten erteilt haben, werden keine RLS-Rollen auf diese angewendet. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene](../service-admin-rls.md).
 
-- Berichts-Designer können Spalten ausblenden, sodass sie nicht in der Liste **Felder** angezeigt werden. Weitere Informationen finden Sie unter [Dataseteigenschaften](../developer/api-dataset-properties.md).
+- Berichts-Designer können Spalten ausblenden, sodass sie nicht in der Liste **Felder** angezeigt werden. Weitere Informationen finden Sie unter [Dataseteigenschaften](../developer/automation/api-dataset-properties.md).
 
 - Power BI Administratoren können Dashboards, Berichten, Datasets und Datenflows [Vertraulichkeitsbezeichnungen](../admin/service-security-data-protection-overview.md) hinzufügen. Sie können dann Schutzeinstellungen wie die Verschlüsselung oder Wasserzeichen beim Exportieren von Daten erzwingen. 
 

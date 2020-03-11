@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290496"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920732"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Wann sollten paginierte Berichte in Power BI verwendet werden?
 
-Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Berichte für Power BI entwerfen. Er enthält Vorschläge, die Ihnen bei der Wahl des Zeitpunkts für die Entwicklung von [paginierten Berichten in Power BI Reports](../paginated-reports-report-builder-power-bi.md) helfen.
+Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Berichte für Power BI entwerfen. Er enthält Vorschläge, die Ihnen bei der Wahl des Zeitpunkts für die Entwicklung von [paginierten Berichten in Power BI Reports](../paginated-reports/paginated-reports-report-builder-power-bi.md) helfen.
 
 > [!NOTE]
 > Für die Veröffentlichung von paginierten Berichten in Power BI ist ein Power BI Premium-Abonnement erforderlich. Berichte werden nur dann gerendert, wenn sie sich in einem Arbeitsbereich mit einer dedizierten Kapazität befinden, in dem die [Workload für paginierte Berichte aktiviert ist](../service-admin-premium-workloads.md#paginated-reports).
@@ -49,7 +49,7 @@ Es gibt viele überzeugende Szenarien, in denen Sie die Entwicklung eines pagini
 - **Präzisionslayout**: Sie können stark formatierte, pixelgenaue Layouts entwerfen – in exakter Größe und an genau der Stelle, die auf einen Bruchteil eines Zolls oder Zentimeters konfiguriert werden kann.
 - **Dynamisches Layout**: Sie können sehr reaktionsfähige Layouts erstellen, indem Sie viele Berichtseigenschaften auf die Verwendung von VB.NET-Ausdrücken festlegen. Ausdrücke haben Zugriff auf viele zentrale .NET Framework-Bibliotheken.
 - **Renderspezifisches Layout**: Mithilfe von Ausdrücken können Sie das Berichtslayout auf der Grundlage des verwendeten Renderingformats ändern. Sie können den Bericht z. B. so gestalten, dass das Umschalten der Sichtbarkeit deaktiviert wird (um einen Drilldown und Drillup zu erreichen), wenn er in einem nicht interaktiven Format wie PDF gerendert wird.
-- **Native Abfragen**: Sie müssen nicht zuerst ein Power BI-Dataset entwickeln. Sie können für jede [unterstützte Datenquelle](../paginated-reports-data-sources.md) native Abfragen erstellen (oder gespeicherte Prozeduren verwenden). Die Abfragen können eine Parametrierung einbeziehen.
+- **Native Abfragen**: Sie müssen nicht zuerst ein Power BI-Dataset entwickeln. Sie können für jede [unterstützte Datenquelle](../paginated-reports/paginated-reports-data-sources.md) native Abfragen erstellen (oder gespeicherte Prozeduren verwenden). Die Abfragen können eine Parametrierung einbeziehen.
 - **Grafische Abfrage-Designer**: Power BI Report Builder enthält grafische Abfrage-Designer, die Sie beim Schreiben und Testen Ihrer Datasetabfragen unterstützen.
 - **Statische Datasets**: Sie können ein Dataset definieren und Daten direkt in Ihre Berichtsdefinition eingeben. Diese Fähigkeit ist besonders nützlich, um eine Demo zu unterstützen oder einen Proof of Concept (POC) bereitzustellen.
 - **Datenintegration**: Sie können Daten aus verschiedenen Datenquellen oder mit statischen Datasets kombinieren. Dies erfolgt durch die Erstellung benutzerdefinierter Felder mithilfe von VB.NET-Ausdrücken.
@@ -70,7 +70,7 @@ Es gibt viele überzeugende Szenarien, in denen Sie die Entwicklung eines pagini
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports-report-builder-power-bi.md)
+- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [Migrieren von SQL Server Reporting Services-Berichten zu Power BI](migrate-ssrs-reports-to-power-bi.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

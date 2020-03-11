@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041863"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920825"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Vermeiden von leeren Seiten beim Drucken paginierter Berichte
 
-Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Power BI-Berichte](../paginated-reports-report-builder-power-bi.md) entwerfen. Er enthält Empfehlungen, wie Sie leere Seiten vermeiden, wenn Ihr Bericht in ein Format mit Seitenzahlangabe – wie PDF oder Microsoft Word – exportiert oder ausgedruckt wird.
+Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Power BI-Berichte](../paginated-reports/paginated-reports-report-builder-power-bi.md) entwerfen. Er enthält Empfehlungen, wie Sie leere Seiten vermeiden, wenn Ihr Bericht in ein Format mit Seitenzahlangabe – wie PDF oder Microsoft Word – exportiert oder ausgedruckt wird.
 
 ## <a name="page-setup"></a>Seiteneinrichtung
 
 Die Formateigenschaften für Berichtsseiten legen die Ausrichtung, die Abmessungen und die Ränder von Seiten fest. Sie können folgendermaßen auf diese Berichtseigenschaften zugreifen:
 
 - Über die **Eigenschaftenseite** eines Berichts: Klicken Sie mit der rechten Maustaste auf den dunkelgrauen Bereich außerhalb der Berichtscanvas, und wählen Sie _Berichtseigenschaften_ aus.
-- Über den [Bereich **Eigenschaften**](../paginated-reports-report-design-view.md#4-properties-pane): Klicken Sie auf den dunkelgrauen Bereich außerhalb der Berichtscanvas, um das Berichtsobjekt auszuwählen. Stellen Sie sicher, dass der Bereich **Eigenschaften** geöffnet ist.
+- Über den [Bereich **Eigenschaften**](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane): Klicken Sie auf den dunkelgrauen Bereich außerhalb der Berichtscanvas, um das Berichtsobjekt auszuwählen. Stellen Sie sicher, dass der Bereich **Eigenschaften** geöffnet ist.
 
 Die Seite **Seiteneinrichtung** der **Eigenschaftenseite** des Berichts bietet eine benutzerfreundliche Benutzeroberfläche, in der Sie die Eigenschaften zur Seiteneinrichtung anzeigen und aktualisieren können.
 
@@ -91,7 +91,7 @@ Wenn Sie den Bericht auf Papier ausdrucken, stellen Sie sicher, dass das richtig
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports-report-builder-power-bi.md)
-- [Paginierung in paginierten Power BI-Berichten](../paginated-reports-pagination.md)
+- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Paginierung in paginierten Power BI-Berichten](../paginated-reports/paginated-reports-pagination.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)

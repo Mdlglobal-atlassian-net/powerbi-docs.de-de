@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913609"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919795"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website
 
@@ -119,7 +119,7 @@ Sie können beliebig viele Schaltflächen hinzufügen, um mit geringem Programmi
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
-* Paginierte Berichte werden mit sicheren Einbettungsszenarios unterstützt, und paginierte Berichte mit URL-Parametern werden ebenfalls unterstützt. Weitere Informationen finden Sie unter [Übergeben eines Berichtsparameters in einer URL für einen paginierten Bericht in Power BI](report-builder-url-pass-parameters.md).
+* Paginierte Berichte werden mit sicheren Einbettungsszenarios unterstützt, und paginierte Berichte mit URL-Parametern werden ebenfalls unterstützt. Weitere Informationen finden Sie unter [Übergeben eines Berichtsparameters in einer URL für einen paginierten Bericht in Power BI](paginated-reports/report-builder-url-pass-parameters.md).
 
 * Externe Gastbenutzer mit Azure B2B (Business-to-Business) werden nicht unterstützt.
 

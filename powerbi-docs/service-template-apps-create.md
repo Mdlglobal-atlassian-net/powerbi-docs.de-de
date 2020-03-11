@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871494"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041721"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Erstellen einer Vorlagen-App in Power BI
 
@@ -40,7 +40,7 @@ Um eine Vorlagen-App zu erstellen, die Sie an andere Power BI-Mandanten verteile
 
     ![Erstellen des Arbeitsbereichs](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Wählen Sie unter **Arbeitsbereich erstellen** die Option **Upgrade auf neue Version durchführen** aus.
+2. Wählen Sie unter **Arbeitsbereich erstellen** die Option **Upgrade auf neue Version durchführen**aus.
 
     ![Ausprobieren neuer Arbeitsbereiche](media/service-template-apps-create/power-bi-upgrade-new.png)
 
@@ -58,7 +58,7 @@ Um eine Vorlagen-App zu erstellen, die Sie an andere Power BI-Mandanten verteile
 
 Wie in einem regulären Power BI-Arbeitsbereich müssen Sie im nächsten Schritt die Inhalte im Arbeitsbereich erstellen.  
 
-- [Erstellen Sie Ihren Power BI-Inhalt](power-bi-creator-landing.md) in Ihrem Arbeitsbereich.
+- [Erstellen Sie Ihren Power BI-Inhalt](index.yml) in Ihrem Arbeitsbereich.
 
 Wenn Sie Parameter in Power Query verwenden, stellen Sie sicher, dass diese einen klar definierten Typ aufweisen (z.B. Text). Die Typen „Any“ und „Binary“ werden nicht unterstützt.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290634"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041316"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migrieren von SQL Server Reporting Services-Berichten zu Power BI
 
@@ -60,11 +60,11 @@ Es wird empfohlen, dass Sie das [RDL-Migrationstool](https://github.com/microsof
 
 Das Tool automatisiert die folgenden Aufgaben:
 
-- Prüfung auf [nicht unterstützte Datenquellen](../paginated-reports-data-sources.md) und [nicht unterstützte Berichtsfeatures](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-- Umwandlung beliebiger _freigegebener_ Ressourcen in _eingebettete_ Ressourcen:
-  - Freigegebene **Datenquellen** werden zu eingebetteten Datenquellen
-  - Freigegebene **Datasets** werden zu eingebetteten Datasets
-- Veröffentlichung von Berichten (die Prüfungen bestehen) als paginierte Berichte in einem bestimmten Power BI-Arbeitsbereich (auf einer Premium-Kapazität)
+* Prüfung auf [nicht unterstützte Datenquellen](../paginated-reports/paginated-reports-data-sources.md) und [nicht unterstützte Berichtsfeatures](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+* Umwandlung beliebiger _freigegebener_ Ressourcen in _eingebettete_ Ressourcen:
+  * Freigegebene **Datenquellen** werden zu eingebetteten Datenquellen
+  * Freigegebene **Datasets** werden zu eingebetteten Datasets
+* Veröffentlichung von Berichten (die Prüfungen bestehen) als paginierte Berichte in einem bestimmten Power BI-Arbeitsbereich (auf einer Premium-Kapazität)
 
 Vorhandene Berichte werden nicht geändert oder entfernt. Nach Abschluss gibt das Tool eine Zusammenfassung aller abgeschlossenen Aktionen aus – erfolgreich oder nicht erfolgreich.
 
@@ -102,7 +102,7 @@ Die folgenden SSRS-Elementtypen können jedoch nicht zu Power BI migriert werden
 
 <sup>1</sup> Das [RDL-Migrationstool](https://github.com/microsoft/RdlMigration) konvertiert automatisch freigegebene Datenquellen und freigegebene Datasets, sofern diese unterstützte Datenquellen verwenden.
 
-Wenn Ihre RDL-Berichte auf Features angewiesen sind, die von [paginierten Power BI-Berichten noch nicht unterstützt werden](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), können Sie planen, sie als [Power BI-Berichte](../consumer/end-user-reports.md) neu zu entwickeln. Auch wenn Ihre RDL-Berichte migriert werden können, empfehlen wir Ihnen, die Aktualisierung als Power BI-Berichte in Betracht zu ziehen, wenn dies sinnvoll ist.
+Wenn Ihre RDL-Berichte auf Features angewiesen sind, die von [paginierten Power BI-Berichten noch nicht unterstützt werden](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), können Sie planen, sie als [Power BI-Berichte](../consumer/end-user-reports.md) neu zu entwickeln. Auch wenn Ihre RDL-Berichte migriert werden können, empfehlen wir Ihnen, die Aktualisierung als Power BI-Berichte in Betracht zu ziehen, wenn dies sinnvoll ist.
 
 Wenn Ihre RDL-Berichte Daten aus _lokalen Datenquellen_ abrufen müssen, können sie nicht die Funktion „Einmaliges Anmelden“ (Single Sign-On, SSO) verwenden. Zurzeit wird beim Datenabruf aus diesen Quellen immer der Sicherheitskontext des _Benutzerkontos der Gatewaydatenquelle_ verwendet. SQL Server Analysis Services (SSAS) kann die Sicherheit auf Zeilenebene (row-level security, RLS) nicht pro Benutzer erzwingen.
 
@@ -113,7 +113,7 @@ Paginierte Berichte in Power BI sind im Allgemeinen für den **Druckvorgang** od
 Das Ziel der Phase _Vorbereiten_ besteht darin, alles vorzubereiten. Sie umfasst die Einrichtung der Power BI-Umgebung, die Planung der Sicherung und Veröffentlichung Ihrer Berichte sowie Ideen für die Neuentwicklung von SSRS-Elementen, die nicht migriert werden können.
 
 1. Stellen Sie sicher, dass die [Workload der paginierten Berichte](../service-admin-premium-workloads.md#paginated-reports) für Ihre Power BI Premium-Kapazität aktiviert ist und dass sie über ausreichend Arbeitsspeicher verfügt.
-1. Überprüfen Sie die Unterstützung für Ihre [Berichtsdatenquellen](../paginated-reports-data-sources.md), und richten Sie ein [Power BI Gateway](../service-gateway-onprem.md) ein, um die Verbindungen mit beliebigen lokalen Datenquellen zu ermöglichen.
+1. Überprüfen Sie die Unterstützung für Ihre [Berichtsdatenquellen](../paginated-reports/paginated-reports-data-sources.md), und richten Sie ein [Power BI Gateway](../service-gateway-onprem.md) ein, um die Verbindungen mit beliebigen lokalen Datenquellen zu ermöglichen.
 1. Machen Sie sich mit der Power BI-Sicherheit vertraut, und planen Sie, [wie Sie Ihre SSRS-Ordner und Berechtigungen](/sql/reporting-services/security/secure-folders) mit [Power BI-Arbeitsbereichen und Arbeitsbereichsrollen](../service-new-workspaces.md) reproduzieren.
 1. Machen Sie sich mit der Power BI-Freigabe vertraut und planen Sie, wie Sie Inhalte durch die Veröffentlichung von [Power BI-Apps](../service-create-distribute-apps.md) verteilen werden.
 1. Erwägen Sie die Verwendung von [freigegebenen Power BI-Datasets](../service-datasets-build-permissions.md) anstelle Ihrer freigegebenen SSRS-Datenquellen.
@@ -121,7 +121,7 @@ Das Ziel der Phase _Vorbereiten_ besteht darin, alles vorzubereiten. Sie umfasst
 1. Bewerten Sie die Verwendung des integrierten Felds **UserID** in Ihren Berichten neu. Wenn Sie Berichtsdaten mit **UserID** sichern, müssen Sie sich bewusst sein, dass bei paginierten Berichten, die im Power BI-Dienst gehostet werden, der Benutzerprinzipalname (User Principal Name, UPN) zurückgegeben wird. So gibt das integrierte Feld z. B. statt des NT-Kontonamens _AW\mblythe_ eine Zeichenfolge ähnlich _m.blythe&commat;adventureworks.com_ zurück. Sie müssen die Datasetdefinitionen und möglicherweise die Quelldaten überarbeiten. Nach der Überarbeitung und Veröffentlichung empfiehlt es sich, Ihre Berichte gründlich zu testen, um sicherzustellen, dass die Datenberechtigungen wie erwartet funktionieren.
 1. Bewerten Sie die Verwendung des integrierten Felds **ExecutionTime** in Ihren Berichten neu. Bei paginierten-Berichten, die im Power BI-Dienst gehostet sind, gibt das integrierte Feld das Datum und die Uhrzeit in der Zeitangabe _koordinierte Weltzeit (Coordinated Universal Time, UCT)_ an. Das kann Auswirkungen auf die Standardwerte für Berichtsparameter und auf die Bezeichnungen haben, die die Zeit der Berichtsausführung angeben. Letztere werden häufig in Fußzeilen von Berichten verwendet.
 1. Vergewissern Sie sich, dass die Berichte keine Kartenvisualisierungen verwenden, wenn Ihre Datenquelle SQL Server (lokal) ist. Die Kartenvisualisierung hängt von räumlichen SQL Server-Datentypen ab, und diese werden vom Gateway nicht unterstützt. Weitere Informationen finden Sie unter [Leitfaden zum Datenabruf bei paginierten Berichten (komplexe SQL Server-Datentypen)](report-paginated-data-retrieval.md#sql-server-complex-data-types).
-1. Stellen Sie sicher, dass Ihre Berichtsautoren [Power BI Report Builder](../report-builder-power-bi.md) installiert haben und dass spätere Versionen problemlos im gesamten Unternehmen verteilt werden können.
+1. Stellen Sie sicher, dass Ihre Berichtsautoren [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) installiert haben und dass spätere Versionen problemlos im gesamten Unternehmen verteilt werden können.
 
 ## <a name="migration-stage"></a>Migrationsphase
 
@@ -137,7 +137,7 @@ Jeder mit der Berechtigung für den Zugriff auf die SSRS-Instanz und den Power B
 1. Laden Sie jede Berichtsdefinition herunter, und speichern Sie die RDL-Dateien lokal.
 1. Öffnen Sie _die neueste Version_ von Power BI Report Builder, und stellen Sie mit Ihren Azure AD-Anmeldeinformationen eine Verbindung mit dem Power BI-Dienst her.
 1. Öffnen Sie die einzelnen Berichte in Power BI Report Builder, und gehen Sie dann folgendermaßen vor:
-   1. Überprüfen Sie, ob alle Datenquellen und Datasets in die Berichtsdefinition eingebettet sind und ob sie [unterstützte Datenquellen](../paginated-reports-data-sources.md) sind.
+   1. Überprüfen Sie, ob alle Datenquellen und Datasets in die Berichtsdefinition eingebettet sind und ob sie [unterstützte Datenquellen](../paginated-reports/paginated-reports-data-sources.md) sind.
    1. Zeigen Sie eine Vorschau des Berichts an, um sicherzustellen, dass er ordnungsgemäß gerendert wird.
    1. Wählen Sie die Option _Speichern unter_ und dann die Option _Power BI-Dienst_ aus.
    1. Wählen Sie den Arbeitsbereich aus, der den Bericht enthalten soll.
@@ -156,7 +156,7 @@ Sie können auch die öffentlich verfügbaren SSRS- und Power BI-APIs verwenden,
 
 Weitere Informationen zu den APIs finden Sie unter:
 
-- [Referenz für Power BI-REST-API](../developer/rest-api-reference.md)
+- [Referenz für Power BI-REST-API](../developer/automation/rest-api-reference.md)
 - [SQL Server Reporting Services-REST-APIs](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>Phase der Migrationsnachbereitung
@@ -165,7 +165,7 @@ Nachdem Sie die Migration erfolgreich abgeschlossen haben, sind Sie bereit für 
 
 ### <a name="configure-data-sources"></a>Konfigurieren von Datenquellen
 
-Nachdem Berichte zu Power BI migriert wurden, müssen Sie sicherstellen, dass ihre Datenquellen ordnungsgemäß eingerichtet sind. Dies kann die Zuweisung von Datenquellen an das Gateway und die [sichere Speicherung von Anmeldeinformationen für die Datenquellen](../paginated-reports-data-sources.md#azure-sql-database-authentication) umfassen. Diese Aktionen werden vom RDL-Migrationstool nicht durchgeführt.
+Nachdem Berichte zu Power BI migriert wurden, müssen Sie sicherstellen, dass ihre Datenquellen ordnungsgemäß eingerichtet sind. Dies kann die Zuweisung von Datenquellen an das Gateway und die [sichere Speicherung von Anmeldeinformationen für die Datenquellen](../paginated-reports/paginated-reports-data-sources.md#azure-sql-database-authentication) umfassen. Diese Aktionen werden vom RDL-Migrationstool nicht durchgeführt.
 
 ### <a name="review-report-performance"></a>Überprüfen der Berichtsleistung
 
@@ -190,13 +190,13 @@ Weitere Informationen zu diesen Problemen, einschließlich bestimmter Schritte, 
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports-report-builder-power-bi.md)
+- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [Leitfaden zum Datenabruf bei paginierten Berichten](report-paginated-data-retrieval.md)
 - [Wann sollten paginierte Berichte in Power BI verwendet werden?](report-paginated-or-power-bi.md)
-- [Paginierte Berichte in Power BI: häufig gestellte Fragen](../paginated-reports-faq.md)
+- [Paginierte Berichte in Power BI: häufig gestellte Fragen](../paginated-reports/paginated-reports-faq.md)
 - [Power BI Premium – Häufig gestellte Fragen (FAQ)](../service-premium-faq.md)
 - [RDL-Migrationstool](https://github.com/microsoft/RdlMigration)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
+- Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
 
 Power BI-Partner stehen zur Verfügung, um Ihr Unternehmen bei der erfolgreichen Migration zu unterstützen. Wenn Sie einen Power BI-Partner hinzuziehen möchten, besuchen Sie das [Power BI-Partnerportal](https://powerbi.microsoft.com/partners/).

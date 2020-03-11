@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 991f8b47337ba563ecfd223d69d687269a44ed78
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290680"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041606"
 ---
-# <a name="create-model-relationships-in-power-bi-desktop"></a>Erstellen von Modellbeziehungen in Power BI Desktop
+# <a name="model-relationships-in-power-bi-desktop"></a>Modellieren von Beziehungen in Power BI Desktop
 
 Dieser Artikel ist an Modellierer von Import-Daten gerichtet, die mit Power BI Desktop arbeiten. Es geht um ein wichtiges Thema beim Entwurf von Modellen, das von essenzieller Bedeutung für die Bereitstellung intuitiver, präziser und optimaler Modelle ist.
 

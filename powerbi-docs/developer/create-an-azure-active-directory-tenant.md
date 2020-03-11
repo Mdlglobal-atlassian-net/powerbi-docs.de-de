@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265131"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041445"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Erstellen eines Azure Active Directory-Mandanten für Power BI
 
-Erfahren Sie, wie Sie einen neuen Azure Active Directory-Mandanten (Azure AD) für eine benutzerdefinierte Anwendung erstellen können, die [Power BI-REST-APIs](rest-api-reference.md) aufruft.
+Erfahren Sie, wie Sie einen neuen Azure Active Directory-Mandanten (Azure AD) für eine benutzerdefinierte Anwendung erstellen können, die [Power BI-REST-APIs](automation/rest-api-reference.md) aufruft.
 
 Ein Mandant steht für eine Organisation in Azure Active Directory. Er stellt eine dedizierte Azure AD-Instanz dar. Eine Organisation erhält und besitzt ihn, wenn sie sich für einen Microsoft-Clouddienst wie Azure, Microsoft Intune oder Office 365 registriert. Jeder Azure AD-Mandant ist eigenständig und von anderen Azure AD-Mandanten getrennt.
 
-Wenn Sie sich im Besitz eines Azure AD-Mandanten befinden, können Sie eine Anwendung definieren und ihr Berechtigungen zuweisen, mit denen sie die [Power BI-REST-APIs](rest-api-reference.md) aufrufen kann.
+Wenn Sie sich im Besitz eines Azure AD-Mandanten befinden, können Sie eine Anwendung definieren und ihr Berechtigungen zuweisen, mit denen sie die [Power BI-REST-APIs](automation/rest-api-reference.md) aufrufen kann.
 
 Möglicherweise verfügt Ihre Organisation bereits über einen Azure AD-Mandanten, den Sie für Ihre Anwendung nutzen können. Sie können auch einen neuen Mandanten speziell für Ihre Anwendung erstellen. Dieser Artikel befasst sich mit dem Erstellen eines neuen Mandanten.
 

@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162409"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920786"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Verwenden von kaskadierenden URL-Parametern in paginierten Berichten
 
-Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Berichte](../paginated-reports-report-builder-power-bi.md) in Power BI entwerfen. Der Artikel enthält einige Szenarien für den Entwurf von kaskadierenden Parametern. Bei kaskadierenden Parametern handelt es sich um Berichtsparameter mit Abhängigkeiten. Wenn ein Berichtsbenutzer einen Parameterwert auswählt, wird dieser Wert verwendet, um verfügbare Werte für einen anderen Parameter festzulegen.
+Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Berichte](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI entwerfen. Der Artikel enthält einige Szenarien für den Entwurf von kaskadierenden Parametern. Bei kaskadierenden Parametern handelt es sich um Berichtsparameter mit Abhängigkeiten. Wenn ein Berichtsbenutzer einen Parameterwert auswählt, wird dieser Wert verwendet, um verfügbare Werte für einen anderen Parameter festzulegen.
 
 > [!NOTE]
 > Dieser Artikel bietet keine Einführung zu kaskadierenden Parametern und deren Konfiguration. Wenn Sie mit dem Konzept der kaskadierenden Parameter nicht vertraut sind, empfiehlt es sich, zuerst den Artikel [Hinzufügen von kaskadierenden Parametern zu einem Bericht (Report Builder und SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs) zu lesen.
@@ -281,7 +281,7 @@ Optimieren Sie Ihre Datenquellen mit folgenden Maßnahmen:
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Berichtsparameter im Power BI Report Builder](../report-builder-parameters.md)
+- [Berichtsparameter im Power BI Report Builder](../paginated-reports/report-builder-parameters.md)
 - [Hinzufügen von kaskadierenden Parametern zu einem Bericht (Report Builder und SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)

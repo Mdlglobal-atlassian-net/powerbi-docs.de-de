@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953933"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919842"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Installieren des Berichts-Generators (Power BI-Berichtsserver)
 
 Der Berichts-Generator ist eine eigenständige App, die von Ihnen oder einem Administrator auf dem Computer installiert wird. Sie können diese über das Microsoft Download Center oder über den Power BI-Berichtsserver installieren.  
 
-Benötigen Sie Hilfe bei der Installation des Berichts-Generators für den Power BI-Dienst? Dann lesen Sie den Artikel [Power BI Report Builder](../report-builder-power-bi.md).
+Benötigen Sie Hilfe bei der Installation des Berichts-Generators für den Power BI-Dienst? Dann lesen Sie den Artikel [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
   
 In der Regel installiert und konfiguriert ein Administrator den Power BI-Berichtsserver, gewährt die Berechtigung zum Herunterladen des Berichts-Generators vom Webportal und verwaltet Ordner und Berechtigungen für auf dem Berichtsserver gespeicherte Berichte und freigegebene Datasets. Weitere Informationen zur Verwaltung des Power BI-Berichtsservers finden Sie im Artikel zur [Administratorübersicht des Power BI-Berichtsservers](admin-handbook-overview.md).  
   

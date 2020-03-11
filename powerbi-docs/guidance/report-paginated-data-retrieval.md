@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530439"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920754"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Leitfaden zum Datenabruf von paginierten Berichten
 
-Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Berichte](../paginated-reports-report-builder-power-bi.md) in Power BI entwerfen. Er enthält Empfehlungen für das Entwerfen eines effektiven und effektiven Datenabrufs.
+Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Berichte](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI entwerfen. Er enthält Empfehlungen für das Entwerfen eines effektiven und effektiven Datenabrufs.
 
 ## <a name="data-source-types"></a>Datenquellentypen
 
@@ -101,13 +101,13 @@ Die _Datasetparametrisierung_ wird empfohlen, wenn Sie davon ausgehen, dass es u
 
 ## <a name="non-native-data-sources"></a>Nicht native Datenquellen
 
-Wenn Sie paginierte Berichte auf der Grundlage von Datenquellen entwickeln müssen, die [nicht nativ von paginierten Berichten](../paginated-reports-data-sources.md) unterstützt werden, können Sie zuerst ein Power BI Desktop-Datenmodell entwickeln. Auf diese Weise können Sie eine Verbindung mit [über 100 Power BI-Datenquellen](../power-bi-data-sources.md) herstellen. Nach der Veröffentlichung im Power BI-Dienst können Sie dann einen paginierten Bericht entwickeln, der eine Verbindung mit dem Power BI-Dataset herstellt.
+Wenn Sie paginierte Berichte auf der Grundlage von Datenquellen entwickeln müssen, die [nicht nativ von paginierten Berichten](../paginated-reports/paginated-reports-data-sources.md) unterstützt werden, können Sie zuerst ein Power BI Desktop-Datenmodell entwickeln. Auf diese Weise können Sie eine Verbindung mit [über 100 Power BI-Datenquellen](../power-bi-data-sources.md) herstellen. Nach der Veröffentlichung im Power BI-Dienst können Sie dann einen paginierten Bericht entwickeln, der eine Verbindung mit dem Power BI-Dataset herstellt.
 
 ## <a name="data-integration"></a>Datenintegration
 
 Wenn Sie Daten aus mehreren Datenquellen kombinieren müssen, haben Sie zwei Möglichkeiten:
 
-- **Kombinieren von Berichtsdatasets:** Wenn die Datenquellen [nativ von paginierten Berichten](../paginated-reports-data-sources.md) unterstützt werden, können Sie berechnete Felder erstellen, die die Report Builder-Funktionen [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) oder [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) verwenden.
+- **Kombinieren von Berichtsdatasets:** Wenn die Datenquellen [nativ von paginierten Berichten](../paginated-reports/paginated-reports-data-sources.md) unterstützt werden, können Sie berechnete Felder erstellen, die die Report Builder-Funktionen [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) oder [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) verwenden.
 - **Entwickeln eines Power BI Desktop-Modells:** Wahrscheinlich ist es jedoch effizienter, ein Datenmodell in Power BI Desktop zu entwickeln. Sie können Power Query verwenden, um Abfragen basierend auf [unterstützten Datenquellen](../power-bi-data-sources.md) zu kombinieren. Nach der Veröffentlichung im Power BI-Dienst können Sie dann einen paginierten Bericht entwickeln, der eine Verbindung mit dem Power BI-Dataset herstellt.
 
 ## <a name="sql-server-complex-data-types"></a>Komplexe SQL Server-Datentypen
@@ -143,6 +143,6 @@ Wenn ein Bericht ausgeführt wird, werden alle Datasets auch dann ausgewertet, w
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Unterstützte Datenquellen für paginierte Power BI-Berichte](../paginated-reports-data-sources.md)
+- [Unterstützte Datenquellen für paginierte Power BI-Berichte](../paginated-reports/paginated-reports-data-sources.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

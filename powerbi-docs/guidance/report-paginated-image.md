@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530370"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920703"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Leitfaden zur Verwendung von Bildern für paginierte Berichte
 
-Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Berichte](../paginated-reports-report-builder-power-bi.md) in Power BI entwerfen. Er enthält Vorschläge für die Arbeit mit Bildern. Generell können in Berichtslayouts Grafiken wie Firmenlogos oder Fotos eingesetzt werden.
+Dieser Artikel richtet sich an Berichtsautoren, die [paginierte Berichte](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI entwerfen. Er enthält Vorschläge für die Arbeit mit Bildern. Generell können in Berichtslayouts Grafiken wie Firmenlogos oder Fotos eingesetzt werden.
 
 Bilder können an drei verschiedenen Speicherorten gespeichert werden:
 
@@ -53,6 +53,6 @@ Wenn Sie die folgenden Vorschläge beherzigen, können Sie professionelle Berich
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports-report-builder-power-bi.md)
+- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
