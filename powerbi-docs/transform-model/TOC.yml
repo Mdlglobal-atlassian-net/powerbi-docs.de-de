@@ -19,7 +19,7 @@
     - name: Konzepte
       expanded: true
       items:
-        - name: Erstellen von Modellbeziehungen
+        - name: Verstehen von Modellbeziehungen
           href: ../desktop-relationships-understand.md
         - name: Arbeiten mit der Modellierungsansicht
           href: ../desktop-modeling-view.md

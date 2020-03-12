@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: Hinzufügen eines Lesezeichens zu einem Bericht
               href: end-user-bookmarks.md
+            - name: Hinzufügen eines Spotlights zu einem Bericht
+              href: end-user-spotlight.md
             - name: Paginierte Berichte in Power BI
               items:
                 - name: Paginierte Berichte
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: Daten abrufen
           items:
+            - name: Arbeitsbereiche in Power BI
+              href: end-user-workspaces.md
             - name: Apps in Power BI
               href: end-user-apps.md
             - name: Installieren und Verwenden von Apps

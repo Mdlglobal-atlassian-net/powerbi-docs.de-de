@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Tastenkombinationen in Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: Datenherkunft
-          href: ../service-data-lineage.md
         - name: Paginierte Berichte
           items:
             - name: Eingeben von Daten direkt in einem paginierten Bericht

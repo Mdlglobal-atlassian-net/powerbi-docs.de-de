@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: Verbraucher
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: Entwickler
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Verwenden von R-gestützten Power BI-Visuals in Power BI
+            - name: Verbraucher
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: Entwickler
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: Geführte Tutorials
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: Berichtsserver
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: Leitfaden
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: Geführte Tutorials
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: Berichtsserver
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: Leitfaden
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 'Zusammenarbeit, Freigabe, Integration'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: Erstellen von Berichten und Dashboards
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: Verbinden mit Daten
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: Erste Schritte
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: 'Transformieren, Strukturieren und Modellieren von Daten'
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index

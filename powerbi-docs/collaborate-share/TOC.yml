@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: Verwalten von Datenspeicher in Arbeitsbereichen
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Datenherkunft
+              href: service-data-lineage.md
             - name: Herstellen einer Verbindung mit Dateien im Gruppenbereich auf OneDrive
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Zusammenarbeiten in einem klassischen Arbeitsbereich
