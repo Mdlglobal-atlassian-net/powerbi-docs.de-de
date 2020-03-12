@@ -7,17 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f48ae801944e3f27045a038c13d394c21225468
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77153980"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114105"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Anmelden beim Power BI-Dienst
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 ## <a name="power-bi-accounts"></a>Power BI-Konten
 Bevor Sie sich bei Power BI anmelden können, benötigen Sie ein Konto. Es gibt zwei Möglichkeiten, ein Power BI-Konto zu erhalten. Die Erste besteht darin, dass Ihr Unternehmen Power BI-Lizenzen für die Mitarbeiter erwirbt. Die Zweite besteht darin, dass Sie sich für eine kostenlose Testversion oder persönliche Lizenz registrieren. In diesem Artikel wird das erste Szenario behandelt.

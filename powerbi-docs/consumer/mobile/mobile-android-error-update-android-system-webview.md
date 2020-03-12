@@ -1,19 +1,19 @@
 ---
 title: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden) – Power BI'
 description: Wenn Sie sich bei der mobilen Android-App anmelden, erhalten Sie möglicherweise die Meldung, dass Sie Android System WebView aktualisieren müssen.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: d156d438086cbfe4a471c20f38dfb17424554406
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 82005eb448164b863811ab78a8f76ed954da60a2
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879528"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114544"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)
 Wenn Sie sich bei der mobilen Android-App für Microsoft Power BI anmelden, erhalten Sie möglicherweise die Meldung, dass Sie Android System WebView aktualisieren müssen. 

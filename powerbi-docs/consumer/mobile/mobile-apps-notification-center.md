@@ -1,19 +1,19 @@
 ---
 title: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
 description: Die Mitteilungszentrale schickt Ihnen Informationen zu Ihrer Power BI-Erfahrung direkt auf Ihr mobiles Gerät.
-author: KesemSharabi
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
-ms.author: mshenhav
-ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219374"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114823"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
 Gilt für:
