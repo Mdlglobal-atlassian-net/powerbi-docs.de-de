@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870898"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213601"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Verteilen von Power BI Inhalt an externe Gastbenutzer mit Azure Active Directory B2B
 
@@ -38,7 +38,7 @@ Dieses Whitepaper behandelt alle Details, die Sie benötigen, um die Integration
 > [!NOTE]
 > In diesem Whitepaper bezeichnen wir Azure Active Directory als Azure AD und Azure Active Directory Business to Business as Azure AD B2B.
 
-## <a name="scenarios"></a>SS
+## <a name="scenarios"></a>Szenarien
 
 "Configuration Manager" ist ein Automobilhersteller, der mit vielen unterschiedlichen Lieferanten zusammenarbeitet, die ihm alle Komponenten, Materialien und Dienste zur Verfügung stellen, die für die Ausführung der Fertigungs Vorgänge erforderlich sind. Die Lieferkette der Lieferkette muss von "fitoso" optimiert werden, und es ist geplant, Power BI zur Überwachung wichtiger Leistungsmetriken der Lieferkette zu verwenden. Mit der Analyse der externen Lieferkettenpartner möchte man eine sichere und verwaltbare Methode nutzen.
 
@@ -218,7 +218,7 @@ Die Integration von Power BI in Azure AD B2B sorgt für eine nahtlose und unkomp
 
 - Das BI-Team von Configuration Manager erstellt einen Arbeitsbereich in Power BI
 
-    ![Arbeitsbereich](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![workspace](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Weitere Autoren werden dem Arbeitsbereich hinzugefügt.
@@ -264,79 +264,79 @@ Die Integration von Power BI in Azure AD B2B sorgt für eine nahtlose und unkomp
     ![Einladungs Verknüpfung](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_17.png)
 
 
-    Once the guest users click the link, they can access content in the Contoso Azure AD tenant.
+    Nachdem die Gastbenutzer auf den Link klicken, können Sie auf den Inhalt im Azure AD Mandanten von "" zugreifen.
 
     > [!NOTE]
-    > It is possible to change the layout of the invitation email using the Azure AD branding feature as described [here](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email).
+    > Es ist möglich, das Layout der Einladungs-e-Mail mithilfe des Azure AD brandingfeatures zu ändern, wie [hier](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)beschrieben.
 
 
-    **Ad hoc Invites**
+    **Ad-hoc-Einladungen**
 
-    What if Contoso does not know all the guest users it wants to invite ahead of time? Or, what if the analyst in Contoso who created the BI portal wants to distribute content to guest users herself? We also support this scenario in Power BI with ad-hoc invites.
+    Was geschieht, wenn "Configuration Manager" nicht alle Gastbenutzer kennt, die Sie im Voraus einladen möchten? Oder was ist, wenn der Analyst in der Rolle von "Configuration Manager", der das BI-Portal erstellt hat, Inhalte an Gastbenutzer selbst verteilen möchte? Wir unterstützen dieses Szenario auch in Power BI mit Ad-hoc-Einladungen.
 
-    The analyst can just add the external users to the access list of the app when they are publishing it. The guest users gets an invite and once they accept it, they are automatically redirected to the Power BI content.
+    Der Analyst kann die externen Benutzer einfach der Zugriffsliste der APP hinzufügen, wenn Sie Sie veröffentlichen. Die Gastbenutzer erhalten eine Einladung, und sobald Sie Sie akzeptieren, werden Sie automatisch an den Power BI Inhalt umgeleitet.
 
-    ![Add external user](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_18.png)
+    ![Externen Benutzer hinzufügen](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_18.png)
 
 
     > [!NOTE]
-    > Invites are needed only the first time an external user is invited to your organization.
+    > Einladungen werden nur benötigt, wenn ein externer Benutzer zum ersten Mal in Ihre Organisation eingeladen wird.
 
 
-3. Verteilen von Inhalten
+3. Inhalt verteilen
 
-    Now that Contoso's BI team has created the BI portal and invited guest users, they can distribute their portal to their end users by giving guest users access to the app and publishing it. Power BI auto-completes names of guest users who have been previously added to the Contoso tenant. Adhoc invitations to other guest users can also be added at this point.
+    Nachdem das BI-Team von Configuration Manager das BI-Portal erstellt und Gastbenutzer eingeladen hat, kann es das Portal an seine Endbenutzer verteilen, indem er Gastbenutzern den Zugriff auf die APP gewährt und diese veröffentlicht. Power BI Namen der Gastbenutzer, die zuvor dem Mandanten von "Configuration Manager" hinzugefügt wurden, automatisch vervollständigen. An dieser Stelle können auch Ad-hoc-Einladungen zu anderen Gastbenutzern hinzugefügt werden.
 
     > [!NOTE]
-    > If using Security groups to manage access to the app for external users, use the Planned Invites approach and share the app link directly with each external user who must access it. Otherwise, the external user may not be able to install or view content from within the app._
+    > Wenn Sie Sicherheitsgruppen verwenden, um den Zugriff auf die APP für externe Benutzer zu verwalten, verwenden Sie den Ansatz für geplante Einladungen, und geben Sie den App-Link direkt für jeden externen Benutzer frei, der darauf zugreifen muss. Andernfalls ist der externe Benutzer möglicherweise nicht in der Lage, Inhalte innerhalb der APP zu installieren oder anzuzeigen.
 
-    Guest users get an email with a link to the app.
+    Gastbenutzer erhalten eine e-Mail mit einem Link zur APP.
 
-    ![Email invitation link](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_19.png)
-
-
-    On clicking this link, guest users are asked to authenticate with their own organization's identity.
-
-    ![Sign in page](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_20.png)
+    ![Link für e-Mail-Einladung](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_19.png)
 
 
-    Once they are successfully authenticated, they are redirected to Contoso's BI app.
+    Wenn Sie auf diesen Link klicken, werden Gastbenutzer aufgefordert, sich mit der Identität ihrer eigenen Organisation zu authentifizieren.
 
-    ![See shared content](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_21.png)
+    ![Anmeldeseite](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_20.png)
 
-    Guest users can subsequently get to Contoso's app by clicking the link in the email or bookmarking the link. Contoso can also make it easier for guest users by adding this link to any existing extranet portal that the guest users already use.
+
+    Sobald Sie erfolgreich authentifiziert wurden, werden Sie an die BI-APP von "apptoso" umgeleitet.
+
+    ![Anzeigen von freigegebenen Inhalten](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_21.png)
+
+    Gastbenutzer können dann die APP von "" von "" von "" von "" von "" der App "" von "" auf den Link klicken. Dies kann auch für Gastbenutzer durch das Hinzufügen dieses Links zu einem vorhandenen Extranetportal, das die Gastbenutzer bereits verwenden, vereinfacht werden.
 
 4. Nächste Schritte
 
-    Using a Power BI app and Azure AD B2B, Contoso was able to quickly create a BI Portal for its suppliers in a no-code way. This greatly simplified distributing standardized analytics to all the suppliers who needed it.
+    Mit einer Power BI-APP und Azure AD B2B konnte von "Configuration Manager" schnell ein BI-Portal für seine Lieferanten ohne Code erstellt werden. Dadurch wurde die Verteilung standardisierter Analysen an alle Lieferanten, die Sie benötigten, erheblich vereinfacht.
 
-    While the example showed how a single common report could be distributed among suppliers, Power BI can go much further. To ensure each partner sees only data relevant to themselves, Row Level Security can be added easily to the report and data model. The Data security for external partners section later in this document describes this process in details.
+    Obwohl das Beispiel gezeigt hat, wie ein einzelner allgemeiner Bericht auf die Lieferanten verteilt werden kann, können Power BI viel weiter gehen. Um sicherzustellen, dass jedem Partner nur relevante Daten angezeigt werden, können Sicherheit auf Zeilenebene problemlos dem Bericht und dem Datenmodell hinzugefügt werden. Im Abschnitt Datensicherheit für externe Partner in diesem Dokument wird dieser Prozess ausführlich beschrieben.
 
-    Often individual reports and dashboards need to be embedded into an existing portal. This can also be accomplished reusing many of the techniques shown in the example. However, in those situations it may be easier to embed reports or dashboards directly from a workspace. The process for inviting and assigning security permission to the require users remain the same.
+    Häufig müssen einzelne Berichte und Dashboards in ein vorhandenes Portal eingebettet werden. Dies kann auch durch die Wiederverwendung zahlreicher der im Beispiel gezeigten Techniken erreicht werden. In diesen Situationen kann es jedoch einfacher sein, Berichte oder Dashboards direkt aus einem Arbeitsbereich einzubetten. Der Prozess zum einladen und Zuweisen der Sicherheits Berechtigung für die erfordern, dass Benutzer unverändert bleiben.
 
-## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Under the hood: How is Lucy from Supplier1 able to access Power BI content from Contoso's tenant?
+## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Im Hintergrund: Wie kann Lucy von der Supplier1 auf Power BI Inhalt aus dem Mandanten von "Configuration Manager" zugreifen?
 
-Now that we have seen how Contoso is able to seamlessly distribute Power BI content to guest users in partner organizations, let's look at how this works under the hood.
+Nachdem wir nun erfahren haben, wie wir Power BI Inhalte nahtlos an Gastbenutzer in Partnerorganisationen verteilen können, sehen wir uns an, wie dies im Hintergrund funktioniert.
 
-When Contoso invited [lucy@supplier1.com](mailto:lucy@supplier1.com) to its directory, Azure AD creates a link between [Lucy@supplier1.com](mailto:Lucy@supplier1.com) and the Contoso Azure AD tenant. This link lets Azure AD know that Lucy@supplier1.com can access content in the Contoso tenant.
+Wenn die [lucy@supplier1.com](mailto:lucy@supplier1.com) von "Azure AD" in das zugehörige Verzeichnis geladen wurde, erstellt eine Verknüpfung zwischen [Lucy@supplier1.com](mailto:Lucy@supplier1.com) und dem Azure AD Mandanten "". Über diesen Link können Sie Azure AD wissen, dass Lucy@supplier1.com auf Inhalte im Mandanten von "Configuration Manager" zugreifen kann.
 
-When Lucy tries to access Contoso's Power BI app, Azure AD verifies that Lucy can access the Contoso tenant and then provides Power BI a token that indicates that Lucy is authenticated to access content in the Contoso tenant. Power BI uses this token to authorize and ensure that Lucy has access to Contoso's Power BI app.
+Wenn Lucy versucht, auf die Power BI-APP von Azure AD von Configuration Manager zuzugreifen, überprüft, ob Lucy auf den Mandanten von "Configuration Manager" zugreifen kann, und stellt Power BI ein Token bereit, das angibt, dass Lucy für den Zugriff auf Inhalte im Mandanten von "Configuration Manager" authentifiziert ist. Power BI verwendet dieses Token, um zu autorisieren und sicherzustellen, dass Lucy Zugriff auf die Power BI-APP von.
 
-![Verification and authorization](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_22.png)
+![Überprüfung und Autorisierung](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_22.png)
 
-Power BI's integration with Azure AD B2B works with all business email addresses. If the user does not have an Azure AD identity, they may be prompted to create one. The following image shows the detailed flow:
+Die Integration von Power BI in Azure AD B2B funktioniert mit allen geschäftlichen e-Mail-Adressen. Wenn der Benutzer nicht über eine Azure AD Identität verfügt, wird er möglicherweise aufgefordert, eine zu erstellen. Die folgende Abbildung zeigt den detaillierten Ablauf:
 
-![Integration flow chart](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_23.png)
+![Integrations Flussdiagramm](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_23.png)
 
 
-It is important to recognize that the Azure AD account will be used or created in the external party's Azure AD, this will make it possible for Lucy to use their own username and password and their credentials will automatically stop working in other tenants whenever Lucy leaves the company when their organization also uses Azure AD.
+Es ist wichtig zu erkennen, dass das Azure AD Konto im Azure Ad der externen Partei verwendet oder erstellt wird. Dadurch kann Lucy seinen eigenen Benutzernamen und Ihr Kennwort verwenden, und ihre Anmelde Informationen werden automatisch in anderen Mandanten verwendet, wenn Lucy verlässt das Unternehmen, wenn seine Organisation auch Azure AD verwendet.
 
 ## <a name="licensing"></a>Lizenzierung
 
-Contoso can choose one of three approaches to license guest users from its suppliers and partner organizations to have access to Power BI content.
+Mit einem von drei Ansätzen können Gastbenutzer von seinen Lieferanten und Partnerorganisationen auf Power BI Inhalte zugreifen.
 
 > [!NOTE]
-> _Der Free-Tarif Azure AD B2B's reicht für die Verwendung von Power BI mit Azure AD B2B aus. Für einige erweiterte Azure AD B2B-Features wie dynamische Gruppen ist eine zusätzliche Lizenzierung erforderlich. Weitere Informationen finden Sie in der Azure AD B2B-Dokumentation:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Der Free-Tarif Azure AD B2B's reicht für die Verwendung von Power BI mit Azure AD B2B aus. Für einige erweiterte Azure AD B2B-Features wie dynamische Gruppen ist eine zusätzliche Lizenzierung erforderlich. Weitere Informationen finden Sie in der Azure AD B2B-Dokumentation:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Ansatz 1: von "Configuration Manager" verwendet Power BI Premium
 
@@ -387,83 +387,83 @@ Wie bereits erwähnt, gibt es von "Configuration Manager" weltweit Lieferanten a
 
 ![Gemeinsam genutzter Inhalt](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_27.png)
 
-To make sure Contoso can filter data based on who is connecting, two roles are created in Power BI desktop. One to filter all the data from the SalesTerritory "Europe" and another for "North America".
+Um sicherzustellen, dass von Configuration Manager Daten basierend auf der Verbindung gefiltert werden können, werden in Power BI Desktop zwei Rollen erstellt. Eine zum Filtern aller Daten aus der SalesTerritory "Europa" und eine andere für "Nordamerika".
 
-![Managing roles](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
+![Verwalten von Rollen](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
 
-Whenever roles are defined in the report, a user must be assigned to a specific role for them to get access to any data. The assignment of roles happens inside the Power BI service ( **Datasets > Security** )
+Wenn Rollen im Bericht definiert sind, muss ein Benutzer einer bestimmten Rolle zugewiesen werden, um Zugriff auf alle Daten zu erhalten. Die Zuweisung von Rollen erfolgt innerhalb des Power BI-Dienst ( **DataSets > Sicherheit** ).
 
-![Setting security](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_29.png)
+![Festlegen der Sicherheit](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_29.png)
 
-This opens a page where Contoso's BI team can see the two roles they created.  Now Contoso's BI team can assign users to the roles.
+Dadurch wird eine Seite geöffnet, auf der das BI-Team von Team die beiden erstellten Rollen anzeigen kann.  Jetzt kann das BI-Team von Team der Rollen Benutzer zuweisen.
 
 ![Sicherheit auf Zeilenebene](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
-In the example Contoso is adding a user in a partner organization with email address "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" to the Europe role:
+In dem Beispiel fügt "Configuration Manager" einen Benutzer in einer Partnerorganisation mit der e-Mail-Adresse "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" zur Europäischen Rolle hinzu:
 
-![Row-level security settings](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
+![Sicherheitseinstellungen auf Zeilenebene](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
-When this gets resolved by Azure AD, Contoso can see the name show up in the window ready to be added:
+Wenn dies durch Azure AD gelöst wird, kann von "Configuration Manager" angezeigt werden, dass der Name im Fenster angezeigt wird, das hinzugefügt werden kann:
 
-![Show roles](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_32.png)
+![Rollen anzeigen](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_32.png)
 
-Now when this user opens the app that was shared with them, they only see a report with data from Europe:
+Wenn dieser Benutzer nun die APP öffnet, die für ihn freigegeben wurde, wird nur ein Bericht mit Daten aus Europa angezeigt:
 
 ![Anzeigen von Inhalten](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
 
-### <a name="dynamic-row-level-security"></a>Dynamic row level security
+### <a name="dynamic-row-level-security"></a>Dynamische Sicherheit auf Zeilenebene
 
-Another interesting topic is to see how dynamic row level security (RLS) work with Azure AD B2B.
+Ein weiteres interessantes Thema besteht darin, zu erfahren, wie die dynamische Sicherheit auf Zeilenebene (RLS) mit Azure AD B2B funktioniert.
 
-In short, Dynamic row level security works by filtering data in the model based on the username of the person connecting to Power BI. Instead of adding multiple roles for groups of users, you define the users in the model. We won't describe the pattern in detail here. Kasper de Jong offers a detailed write up on all the flavors of row level security in [Power BI Desktop Dynamic security cheat sheet](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/), and in [this whitepaper](https://msdn.microsoft.com/library/jj127437.aspx) .
+Kurz gesagt funktioniert die dynamische Sicherheit auf Zeilenebene, indem Daten im Modell basierend auf dem Benutzernamen der Person gefiltert werden, die eine Verbindung mit Power BI herstellt. Anstatt mehrere Rollen für Gruppen von Benutzern hinzuzufügen, definieren Sie die Benutzer im Modell. Das Muster wird hier nicht ausführlich beschrieben. Kasper de Jong bietet einen detaillierten Schreibvorgang für alle Varianten der Sicherheit auf Zeilenebene in [Power BI Desktop Dynamic Security Cheat Sheet](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)und in [diesem Whitepaper](https://msdn.microsoft.com/library/jj127437.aspx) .
 
-Let's look at a small example - Contoso has a simple report on sales by groups:
+Sehen wir uns ein kleines Beispiel an: "". "" ist ein einfacher Bericht zu "Sales by Groups":
 
-![Sample content](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_34.png)
+![Beispiel Inhalt](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_34.png)
 
-Now this report needs to be shared with two guest users and an internal user - the internal user can see everything, but the guest users can only see the groups they have access to. This means we must filter the data only for the guest users. To filter the data appropriately, Contoso uses the Dynamic RLS pattern as described in the whitepaper and blog post. This means, Contoso adds the usernames to the data itself:
+Nun muss dieser Bericht für zwei Gastbenutzer und einen internen Benutzer freigegeben werden. der interne Benutzer kann alles sehen, aber die Gastbenutzer können nur die Gruppen sehen, auf die Sie Zugriff haben. Dies bedeutet, dass die Daten nur für die Gastbenutzer gefiltert werden müssen. Um die Daten entsprechend zu filtern, verwendet "Configuration Manager" das dynamische RLS-Muster, wie im Whitepaper und im Blogbeitrag beschrieben. Dies bedeutet, dass die Benutzernamen von "Configuration Manager" den Daten selbst hinzugefügt werden:
 
-![View RLS users to the data itself](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_35.png)
+![Anzeigen von RLS-Benutzern für die Daten selbst](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_35.png)
 
-Then, Contoso creates the right data model that filters the data appropriately with the right relationships:
+Dann erstellt "Configuration Manager" das richtige Datenmodell, das die Daten entsprechend den richtigen Beziehungen filtert:
 
-![Appropriate data is shown](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_36.png)
+![Es werden entsprechende Daten angezeigt.](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_36.png)
 
-To filter the data automatically based on who is logged in, Contoso needs to create a role that passes in the user who is connecting. In this case, Contoso creates two roles – the first is the "securityrole" that filters the Users table with the current username of the user logged in to Power BI (this works even for Azure AD B2B guest users).
+Zum automatischen Filtern der Daten basierend auf der Anmeldung muss von "Configuration Manager" eine Rolle erstellt werden, die den Benutzer übergibt, der eine Verbindung herstellt. In diesem Fall werden von "Configuration Manager" zwei Rollen erstellt – bei der ersten handelt es sich um die "SecurityRole", die die Tabelle "Users" mit dem aktuellen Benutzernamen des Power BI angemeldeten Benutzers filtert (dies funktioniert auch für Azure AD B2B-Gastbenutzer).
 
 ![Rollen verwalten](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_37.png)
 
-Contoso also creates another "AllRole" for its internal users who can see everything – this role does not have any security predicate.
+Außerdem erstellt der Dienst "allrole" für die internen Benutzer, die alles sehen können – diese Rolle verfügt nicht über ein Sicherheits Prädikat.
 
-After uploading the Power BI desktop file to the service, Contoso can assign guest users to the  "SecurityRole" and internal users to the "AllRole"
+Nachdem die Power BI Desktop-Datei in den Dienst hochgeladen wurde, kann der Benutzer "SecurityRole" und den internen Benutzern von "allrole" Gastbenutzer zuweisen.
 
-Now, when the guest users open the report, they only see sales from group A:
+Wenn nun der Gastbenutzer den Bericht öffnet, sehen Sie nur Umsätze aus Gruppe A:
 
-![Only from group A](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_38.png)
+![Nur aus Gruppe A](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_38.png)
 
-In the matrix to the right you can see the result of the USERNAME() and USERPRINCIPALNAME() function both return the guest users email address.
+In der Matrix auf der rechten Seite sehen Sie das Ergebnis der username ()-und der userPrincipalName ()-Funktion, die beide die e-Mail-Adresse des Gast Benutzers zurückgeben.
 
-Now the internal user gets to see all the data:
+Nun erhält der interne Benutzer alle Daten:
 
-![All data shown](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_39.png)
+![Alle angezeigten Daten](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_39.png)
 
-As you can see, Dynamic RLS works with both internal or guest users.
-
-> [!NOTE]
-> This scenario also works when using a model in Azure Analysis Services. Usually your Azure Analysis Service is connected to the same Azure AD as your Power BI - in that case, Azure Analysis Services also knows the guest users invited through Azure AD B2B.
-
-## <a name="connecting-to-on-premises-data-sources"></a>Connecting to on premises data sources
-
-Power BI offers the capability for Contoso to leverage on premises data sources like [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) or [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) directly thanks to the [On-Premises data gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/). It is even possible to sign on to those data sources with the same credentials as used with Power BI.
+Wie Sie sehen, können dynamische RLS sowohl mit internen als auch mit Gastbenutzern verwendet werden.
 
 > [!NOTE]
-> When installing a gateway to connect to your Power BI tenant, you must use a user created within your tenant. External users cannot install a gateway and connect it to your tenant._
+> Dieses Szenario funktioniert auch, wenn Sie ein Modell in Azure Analysis Services verwenden. In der Regel ist Ihr Azure Analysis Service mit dem gleichen Azure AD verbunden wie Ihre Power BI. in diesem Fall kennt Azure Analysis Services auch die durch Azure AD B2B geladenen Gastbenutzer.
 
-For external users, this might be more complicated as the external users are usually not known to the on-premises AD. Power BI offers a workaround for this by allowing Contoso administrators to map the external usernames to internal usernames as described in [Manage your data source - Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). For example, [lucy@supplier1.com](mailto:lucy@supplier1.com) can be mapped to [lucy\_supplier1\_com#EXT@contoso.com](mailto:lucy_supplier1_com).
+## <a name="connecting-to-on-premises-data-sources"></a>Herstellen einer Verbindung mit lokalen Datenquellen
+
+Power BI bietet die Möglichkeit, dass mit dem lokalen [Daten Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)lokale Datenquellen wie [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) oder [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) direkt genutzt werden können. Es ist sogar möglich, sich bei diesen Datenquellen mit denselben Anmelde Informationen anzumelden, die mit Power BI verwendet werden.
+
+> [!NOTE]
+> Wenn Sie ein Gateway installieren, um eine Verbindung mit Ihrem Power BI-Mandanten herzustellen, müssen Sie einen Benutzer verwenden, der in Ihrem Mandanten erstellt wurde. Externe Benutzer können kein Gateway installieren und eine Verbindung mit Ihrem Mandanten herstellen.
+
+Für externe Benutzer ist dies möglicherweise komplizierter, da die externen Benutzer in der Regel nicht dem lokalen AD bekannt sind. Power BI bietet hierfür eine Problem Umgehung, indem es den Administratoren von Configuration Manager gestattet wird, die externen Benutzernamen den internen Benutzernamen zuzuordnen, wie unter [Verwalten Ihrer Datenquelle-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)beschrieben. Beispielsweise können [lucy@supplier1.com](mailto:lucy@supplier1.com) [Lucy\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com)zugeordnet werden.
 
 ![Zuordnen von Benutzernamen](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-This method is fine if Contoso only has a handful of users or if Contoso can map all the external users to a single internal account. Für komplexere Szenarios, in denen jeder Benutzer seine eigenen Anmelde Informationen benötigt, gibt es einen erweiterten Ansatz, bei dem Benutzer [definierte AD-Attribute](https://technet.microsoft.com/library/cc961737.aspx) verwendet werden, um die Zuordnung durchzuführen, wie unter [Verwalten der Datenquelle Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)beschrieben. Dadurch kann der Administrator von "Configuration Manager" eine Zuordnung für jeden Benutzer in ihrer Azure AD definieren (auch externe B2B-Benutzer).  Diese Attribute können über das AD-Objektmodell mithilfe von Skripts oder Code festgelegt werden, damit die Zuordnung bei Einladungen oder bei einem geplanten Rhythmus vollständig automatisiert werden kann.
+Diese Methode ist in Ordnung, wenn "Configuration Manager" nur eine Handvoll Benutzer hat oder wenn "Configuration Manager" alle externen Benutzer einem einzigen internen Konto zuordnen kann. Für komplexere Szenarios, in denen jeder Benutzer seine eigenen Anmelde Informationen benötigt, gibt es einen erweiterten Ansatz, bei dem Benutzer [definierte AD-Attribute](https://technet.microsoft.com/library/cc961737.aspx) verwendet werden, um die Zuordnung durchzuführen, wie unter [Verwalten der Datenquelle Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)beschrieben. Dadurch kann der Administrator von "Configuration Manager" eine Zuordnung für jeden Benutzer in ihrer Azure AD definieren (auch externe B2B-Benutzer).  Diese Attribute können über das AD-Objektmodell mithilfe von Skripts oder Code festgelegt werden, damit die Zuordnung bei Einladungen oder bei einem geplanten Rhythmus vollständig automatisiert werden kann.
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>Aktivieren externer Benutzer zum Bearbeiten und Verwalten von Inhalten in Power BI
 
@@ -586,7 +586,7 @@ Im obigen Beispiel melden sich Benutzer von jedem Lieferanten beim Partner Porta
 
 In der Web-App werden Power BI Berichte aus einer Power BI Embedded Bereitstellung eingebettet. Die Web-App vereinfacht den Zugriff auf die Berichte und alle zugehörigen Dienste in einer zusammenhängenden Darstellung, die es den Lieferanten erleichtern soll, mit der Verwendung von "Configuration Manager" zu interagieren. Diese Portal Umgebung wird von der internen Azure AD-und der internen Power BI Umgebung von Azure Active Directory isoliert, um sicherzustellen, dass die Lieferanten nicht auf diese Ressourcen zugreifen können. Normalerweise werden Daten in einem separaten Partner Data Warehouse gespeichert, um auch die Isolation von Daten sicherzustellen. Diese Isolation hat Vorteile, da Sie die Anzahl externer Benutzer mit direktem Zugriff auf die Daten Ihrer Organisation beschränkt, die Daten einschränkt, die dem externen Benutzer möglicherweise zur Verfügung stehen, und die versehentliche Freigabe für externe Benutzer beschränken.
 
-Mithilfe von Power BI Embedded kann das Portal eine vorteilhafte Lizenzierung nutzen, indem das App-Token oder der Master Benutzer zuzüglich der im Azure-Modell erworbenen Premium-Kapazität verwendet wird. Dies vereinfacht die Zuweisung von Lizenzen zu Endbenutzern und kann basierend auf dem erwarteten Wert zentral hoch-oder Herunterskalieren. ungs. Das Portal kann eine qualitativ hochwertige und konsistente Gesamtleistung bieten, da Partner auf ein einziges Portal zugreifen, das mit allen Anforderungen eines Partners entworfen wurde. Da Power BI Embedded basierte Lösungen in der Regel als mehrinstanzfähige Lösungen entworfen werden, ist es einfacher, die Isolation zwischen Partnerorganisationen sicherzustellen.
+Mithilfe von Power BI Embedded kann das Portal eine vorteilhafte Lizenzierung nutzen, indem Sie das App-Token oder den Master Benutzer zuzüglich der im Azure-Modell erworbenen Premium-Kapazität verwendet. Dies vereinfacht die Zuweisung von Lizenzen zu Endbenutzern und kann basierend auf der erwarteten Nutzung zentral hoch-oder herunterskaliert werden. Das Portal kann eine qualitativ hochwertige und konsistente Gesamtleistung bieten, da Partner auf ein einziges Portal zugreifen, das mit allen Anforderungen eines Partners entworfen wurde. Da Power BI Embedded basierte Lösungen in der Regel als mehrinstanzfähige Lösungen entworfen werden, ist es einfacher, die Isolation zwischen Partnerorganisationen sicherzustellen.
 
 Gründe für die Auswahl dieser Alternative:
 
@@ -606,7 +606,7 @@ Gründe für die Auswahl dieser Alternativen:
 
 
 
-## <a name="faq"></a>HÄUFIG GESTELLTE FRAGEN
+## <a name="faq"></a>Häufig gestellte Fragen
 
 **Kann von "Configuration Manager" eine Einladung gesendet werden, die automatisch eingelöst wird, sodass der Benutzer nur "bereit für den Start" ist? Oder muss der Benutzer immer zur einlösungs-URL durch Klicken?**
 
