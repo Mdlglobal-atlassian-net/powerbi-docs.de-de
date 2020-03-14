@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304358"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381397"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper zur Sicherheit in Power BI
 
@@ -45,7 +45,7 @@ Jede Power BI-Bereitstellung umfasst zwei Cluster – ein Web-Front-End (**WFE**
 
 ![Das Web-Front-End und das -Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI verwendet Azure Active Directory (**AAD**) zur Kontoauthentifizierung und -verwaltung. Für den Authentifizierungsvorgang und zum Herunterladen von statischen Inhalten und Dateien verwendet Power BI außerdem den **Azure Traffic Manager (ATM)**, um den Benutzerverkehr an das nächstgelegene Rechenzentrum weiterzuleiten, das durch den DNS-Eintrag des Clients bestimmt wird, der eine Verbindung herstellen möchte. Power BI verwendet das geografisch nächstgelegene WFE, um die erforderlichen statischen Inhalte und Dateien effizient an Benutzer zu verteilen, mit Ausnahme von benutzerdefinierten Visualisierungen, die über das **Azure-Content Delivery Network (CDN)** geliefert werden.
+Power BI verwendet Azure Active Directory (**AAD**) zur Kontoauthentifizierung und -verwaltung. Für den Authentifizierungsvorgang und zum Herunterladen von statischen Inhalten und Dateien verwendet Power BI außerdem den **Azure Traffic Manager (ATM)** , um den Benutzerverkehr an das nächstgelegene Rechenzentrum weiterzuleiten, das durch den DNS-Eintrag des Clients bestimmt wird, der eine Verbindung herstellen möchte. Power BI verwendet das geografisch nächstgelegene WFE, um die erforderlichen statischen Inhalte und Dateien effizient an Benutzer zu verteilen, mit Ausnahme von Power BI Visuals, die mithilfe des **Azure-Content Delivery Network (CDN)** übermittelt werden.
 
 ### <a name="the-wfe-cluster"></a>Der WFE-Cluster
 
@@ -67,7 +67,7 @@ Die **Gateway-Rolle** fungiert als Gateway zwischen Benutzeranforderungen und de
 
 **Wichtig:** Es ist zwingend zu beachten, dass _nur_ die Rollen Azure API Management (**APIM**) und Gateway (**GW**) über das öffentliche Internet zugänglich sind. Sie bieten Authentifizierung, Autorisierung, DDoS-Schutz, Einschränkung, Lastenausgleich, Routing und andere Funktionen.
 
-Die gepunktete Linie auf dem Bild des **Back-End**-Clusters oben verdeutlicht die Grenze zwischen den beiden einzigen Rollen, die für Benutzer (links neben der gepunkteten Linie) zugänglich sind, und Rollen, die nur für das System zugänglich sind. Wenn ein authentifizierter Benutzer eine Verbindung mit dem Power BI-Dienst herstellt, werden die Verbindung und jede Anforderung vom Client von der **Gatewayrolle** und vom **Azure API Management** akzeptiert und verwaltet, die dann im Namen des Benutzers mit dem restlichen Power BI-Dienst interagieren. Wenn beispielsweise ein Client versucht, ein Dashboard anzuzeigen, akzeptiert die **Gateway-Rolle** die Anforderung und sendet dann separat eine Anforderung an die **Präsentationsrolle** , um die vom Browser benötigten Daten zum Rendern des Dashboards abzurufen.
+Die gepunktete Linie auf dem Bild des **Back-End**-Clusters oben verdeutlicht die Grenze zwischen den beiden einzigen Rollen, die für Benutzer (links neben der gepunkteten Linie) zugänglich sind, und Rollen, die nur für das System zugänglich sind. Wenn ein authentifizierter Benutzer eine Verbindung mit dem Power BI-Dienst herstellt, werden die Verbindung und jede Anforderung vom Client von der **Gatewayrolle** und vom **Azure API Management** akzeptiert und verwaltet, die dann im Namen des Benutzers mit dem restlichen Power BI-Dienst interagieren. Wenn beispielsweise ein Client versucht, ein Dashboard anzuzeigen, akzeptiert die **Gateway-Rolle** die Anforderung und sendet dann separat eine Anforderung an die **Präsentationsrolle**, um die vom Browser benötigten Daten zum Rendern des Dashboards abzurufen.
 
 ![Die Gatewayrolle](media/whitepaper-powerbi-security/powerbi-security-whitepaper_04.png)
 
@@ -223,7 +223,7 @@ Bei cloudbasierten Datenquellen verschlüsselt die Datenverschiebungsrolle die V
         - Wenn das Dataset für die Aktualisierung festgelegt ist, werden die Anmeldeinformationen verschlüsselt in der Azure SQL-Datenbank-Instanz der Datenverschiebung gespeichert. Der Verschlüsselungsschlüssel wird auf dem Computer gespeichert, der das Gateway für die Infrastruktur des Kunden ausführt.
         - Wenn das Dataset nicht für die Aktualisierung festgelegt ist, werden keine Anmeldeinformationen für die Datenquellen gespeichert.
 
-1. abrufen
+1. Daten
 
     a. Analysis Services (lokal) und DirectQuery: Im Power BI-Dienst werden keine Datasets gespeichert.
 
@@ -253,7 +253,7 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 
 2. Statische Daten
 
-   Statische Daten umfassen Artefakte wie Hintergrundbilder und benutzerdefinierte Visuals.
+   Statische Daten umfassen Artefakte wie Hintergrundbilder und Power BI visuellen Elementen.
 
     &ensp; &ensp;. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten gespeichert.
 
@@ -274,7 +274,7 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 
 1. Caches: Die erforderlichen Daten für die Visuals im Dashboard werden in der Regel in einer Azure SQL-Datenbank-Instanz verschlüsselt zwischengespeichert. Andere Kacheln, z.B. angeheftete Visuals aus Excel oder SSRS (SQL Server Reporting Services), werden im Azure-Blobspeicher als Bilder gespeichert, die ebenfalls verschlüsselt sind.
 
-2. Statische Daten: umfassen Artefakte wie Hintergrundbilder und benutzerdefinierte Visuals, die im Azure-Blobspeicher verschlüsselt gespeichert werden.
+2. Statische Daten –, die Artefakte enthalten, wie z. b. Hintergrundbilder und Power BI Visuals, die in Azure BLOB Storage gespeichert werden.
 
 Microsoft verwaltet die Verschlüsselung der Schlüssel für Kunden unabhängig von der verwendeten Verschlüsselungsmethode in einem Geheimnisspeicher oder im Azure Key Vault.
 
@@ -300,7 +300,7 @@ Nicht flüchtige Geräte sind Geräte, die über Arbeitsspeicher verfügen, der 
     c. Push-Daten: keine (nicht zulässig)
 
     d. ETL: keine (wie im Abschnitt **Ruhende Daten** oben beschrieben werden weder Anmeldeinformationen noch anderes im Computeknoten gespeichert)
-4. abrufen
+4. Daten
 
     Einige Datenartefakte können für einen begrenzten Zeitraum auf dem Datenträger der Computeknoten gespeichert werden.
 
@@ -372,11 +372,11 @@ Im Folgenden finden Sie häufige Sicherheitsfragen und dazugehörige Antworten f
 
 **Wie verbinden sich Benutzer während der Verwendung von Power BI mit Datenquellen und erhalten Zugriff auf diese?**
 
-* **Power BI Anmelde Informationen und Anmelde** Informationen für die Domäne: Benutzer melden sich mit einer e-Mail-Adresse bei Power BI an. Wenn ein Benutzer versucht, eine Verbindung mit einer Daten Ressource herzustellen, übergibt Power BI die Power BI Anmelde-e-Mail-Adresse als Anmelde Informationen. Für mit Domänen verbundene Ressourcen (entweder lokal oder cloudbasiert) wird die Anmelde-E-Mail-Adresse vom Verzeichnisdienst mit einem _Benutzerprinzipalname _ ([User Principal Name, UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) abgeglichen, um zu bestimmen, ob ausreichende Anmeldeinformationen vorliegen, um den Zugriff zu ermöglichen. Für Organisationen, die zur Anmeldung in Power BI geschäftliche E-Mail-Adressen verwenden (dieselbe E-Mail-Adresse wird verwendet, um sich bei Arbeitsressourcen anzumelden, z. B. _david@contoso.com_), erfolgt die Zuordnung in der Regel ohne weitere Schritte. Für Organisationen, die keine geschäftlichen E-Mail-Adressen verwendet haben (z. B. _david@contoso.onmicrosoft.com_), muss die Verzeichniszuordnung zuerst erstellt werden, um den Zugriff auf lokale Ressourcen über Anmeldeinformationen der Power BI-Anmeldung zu ermöglichen.
+* **Power BI Anmelde Informationen und Anmelde** Informationen für die Domäne: Benutzer melden sich mit einer e-Mail-Adresse bei Power BI an. Wenn ein Benutzer versucht, eine Verbindung mit einer Daten Ressource herzustellen, übergibt Power BI die Power BI Anmelde-e-Mail-Adresse als Anmelde Informationen. Für mit Domänen verbundene Ressourcen (entweder lokal oder cloudbasiert) wird die Anmelde-E-Mail-Adresse vom Verzeichnisdienst mit einem _Benutzerprinzipalname_  ([User Principal Name, UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) abgeglichen, um zu bestimmen, ob ausreichende Anmeldeinformationen vorliegen, um den Zugriff zu ermöglichen. Für Organisationen, die zur Anmeldung in Power BI geschäftliche E-Mail-Adressen verwenden (dieselbe E-Mail-Adresse wird verwendet, um sich bei Arbeitsressourcen anzumelden, z. B. _david@contoso.com_ ), erfolgt die Zuordnung in der Regel ohne weitere Schritte. Für Organisationen, die keine geschäftlichen E-Mail-Adressen verwendet haben (z. B. _david@contoso.onmicrosoft.com_ ), muss die Verzeichniszuordnung zuerst erstellt werden, um den Zugriff auf lokale Ressourcen über Anmeldeinformationen der Power BI-Anmeldung zu ermöglichen.
 
 * **SQL Server Analysis Services und Power BI:** Für Organisationen, die lokale SQL Server Analysis Services verwenden, bietet Power BI das lokale Daten Gateway (ein **Gateway**, das in Power BI den vorherigen Abschnitten erwähnt wurde).  Das lokale Power BI-Datengateway kann Sicherheit auf Rollenebene (role-level security, RLS) in Datenquellen erzwingen. Weitere Informationen zu RLS finden Sie weiter oben in diesem Artikel im Abschnitt **Benutzerauthentifizierung in Datenquellen**. Weitere Informationen zu Gateways finden Sie unter lokales [Daten Gateway](service-gateway-onprem.md).
 
-  Zusätzlich können Organisationen Kerberos für **einmaliges Anmelden** (single sign-on, SSO) verwenden und sich nahtlos von Power BI aus mit lokalen Datenquellen, z.B. SQL Server, SAP HANA und Teradata, verbinden. Weitere Informationen und die genauen Konfigurationsanforderungen finden Sie unter [**Use Kerberos for SSO from Power BI to on-premises data sources (Verwenden von Kerberos für einmaliges Anmelden bei lokalen Daten über Power BI)**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
+  Zusätzlich können Organisationen Kerberos für **einmaliges Anmelden** (single sign-on, SSO) verwenden und sich nahtlos von Power BI aus mit lokalen Datenquellen, z.B. SQL Server, SAP HANA und Teradata, verbinden. Weitere Informationen und die genauen Konfigurationsanforderungen finden Sie unter [**Use Kerberos for SSO from Power BI to on-premises data sources (Verwenden von Kerberos für einmaliges Anmelden bei lokalen Daten über Power BI)** ](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
 * **Nicht-Domänen Verbindungen**: bei Datenverbindungen, die nicht in die Domäne eingebundenen und nicht in der Lage sind, RLS (Role Level Security) auszuführen, muss der Benutzer während der Verbindungs Sequenz Anmelde Informationen bereitstellen, die Power BI dann an die Datenquelle weitergeleitet, um die Verbindung herzustellen. Wenn die Berechtigungen ausreichend sind, werden Daten aus der Datenquelle in den Power BI-Dienst geladen.
 
@@ -438,7 +438,7 @@ Im Folgenden finden Sie häufige Sicherheitsfragen und dazugehörige Antworten f
 
   Auf Grundlage der Informationen, die während der ersten Verbindung mit dem Power BI-Dienst bereitgestellt werden, kontaktiert der Browser eines Benutzers das angegebene Azure **CDN** bzw. für einige der Dateien den **WFE-Cluster**, um die Sammlung der angegebenen gemeinsamen Dateien herunterzuladen, die benötigt werden, um die Interaktion des Browsers mit dem Power BI-Dienst zu aktivieren. Die Browserseite enthält dann für die Dauer der Browsersitzung beim Power BI-Dienst das AAD-Token, Sitzungsinformationen, den Speicherort des zugehörigen **Back-End**-Clusters sowie die Sammlung der Dateien, die vom Azure **CDN** und vom **WFE**-Cluster heruntergeladen wurden.
 
-**Beurteilt Microsoft bei benutzerdefinierten Visuals deren Code hinsichtlich Sicherheit und Datenschutz, bevor Elemente im Katalog veröffentlicht werden?**
+**Führt Microsoft bei Power BI visuellen Elementen eine Sicherheits-oder Datenschutz Bewertung des benutzerdefinierten visuellen Codes vor dem Veröffentlichen von Elementen im Katalog durch?**
 
 * Nein. Der Kunde ist dafür verantwortlich, zu prüfen und zu bestimmen, ob man sich auf den Code benutzerdefinierter Visuals verlassen kann. Der Code aller benutzerdefinierten Visuals wird in einer Sandboxumgebung ausgeführt, sodass sich fehlerhafter Code in einem benutzerdefinierten Visual nicht nachteilig auf den restlichen Power BI-Dienst auswirkt.
 
@@ -462,7 +462,7 @@ Im Folgenden finden Sie häufige Sicherheitsfragen und dazugehörige Antworten f
 
 * Die Verbindungen, die für Kunden mit Power BI Premium-Abonnements eingerichtet werden, implementieren einen [Azure Business-to-Business (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)-Autorisierungsprozess, bei dem Azure Active Directory (AD) für die Zugriffssteuerung und Autorisierung verwendet wird. Power BI behandelt Verbindungen von Power BI Premium-Abonnenten mit Power BI Premium-Ressourcen wie bei jedem anderen Azure AD-Benutzer.
 
-## <a name="conclusion"></a>Fazit
+## <a name="conclusion"></a>Schlussfolgerung
 
 Die Power BI-Dienstarchitektur basiert auf zwei Clustern – dem Web-Front-End-Cluster (WFE) und dem Back-End-Cluster. Das WFE-Cluster ist zuständig für die Erstverbindung und Authentifizierung beim Power BI-Dienst. Nach erfolgter Authentifizierung steuert dann das Back-End-Cluster alle weiteren Benutzerinteraktionen. Power BI verwendet Azure Active Directory (AAD) zum Speichern und Verwalten von Benutzeridentitäten. Zum Speichern von Daten und Metadaten wird Azure Blob bzw. die Azure SQL-Datenbank verwendet.
 
@@ -476,11 +476,11 @@ Wir wissen Ihr Feedback zu schätzen. Es interessiert uns, welche Vorschläge Si
 
 Weitere Informationen zu Power BI finden Sie in den folgenden Ressourcen:
 
-- [Groups in Power BI (Gruppen in Power BI)](https://support.powerbi.com/knowledgebase/articles/654247)
+- [Gruppen in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Erste Schritte mit Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST APIs – Overview (Power BI-REST-APIs – Übersicht)](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI REST APIs (Power BI-REST-APIs)](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)
+- [Lokales Datengateway](service-gateway-onprem.md)
 - [Nationale Power BI-Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Use Kerberos for SSO from Power BI to on-premises data sources (Verwenden von Kerberos für einmaliges Anmelden bei lokalen Daten über Power BI)](service-gateway-sso-overview.md)
