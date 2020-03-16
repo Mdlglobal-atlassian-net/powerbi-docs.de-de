@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Erstellen von Schaltflächen
               href: ../desktop-buttons.md
+            - name: Erstellen von Drillthrough-Schaltflächen
+              href: ../desktop-drill-through-buttons.md
             - name: Erstellen von Lesezeichen zum Speichern und Freigeben von Erkenntnissen
               href: ../desktop-bookmarks.md
             - name: Verwenden von Berichtsdesigns
