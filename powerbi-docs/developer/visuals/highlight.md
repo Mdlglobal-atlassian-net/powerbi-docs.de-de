@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819167"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380026"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Hervorheben von Datenpunkten in Power BI-Visuals
 
 Wenn ein Element ausgewählt ist, wird das `values`-Array im `dataView`-Objekt standardmäßig nach den ausgewählten Werten gefiltert. Dadurch werden für alle anderen Visuals auf der Seite nur die ausgewählten Daten angezeigt.
 
-![Standardverhalten beim Hervorheben von 'DataView'](./media/highlight-dataview.png)
+![Standardverhalten beim Hervorheben von 'DataView'](media/highlight/highlight-dataview.png)
 
 Wenn Sie die `supportsHighlight`-Eigenschaft in `capabilities.json` auf `true` festlegen, erhalten Sie ein gänzlich ungefiltertes `values`-Array zusammen mit einem `highlights`-Array. Das `highlights`-Array hat die gleiche Länge wie das Wertarray, und alle nicht ausgewählten Werte werden auf `null` festgelegt. Wenn diese Eigenschaft aktiviert ist, ist das Visual dafür zuständig, die entsprechenden Daten hervorzuheben. Dazu wird das `values`-Array mit dem `highlights`-Array verglichen.
 
-![„dataview“ unterstützt Hervorhebungen](./media/highlight-dataview-supports.png)
+![„dataview“ unterstützt Hervorhebungen](media/highlight/highlight-dataview-supports.png)
 
 In diesem Beispiel sehen Sie, dass ein Balken ausgewählt ist. Dies ist auch der einzige Wert im highlights-Array. Beachten Sie außerdem, dass es Mehrfachauswahl sowie teilweise Hervorhebungen geben kann. Die hervorgehobenen Werte werden in der Datenansicht angezeigt.
 
-> [!Note]
+> [!NOTE]
 > Die Zuordnung von Tabellendaten in der Ansicht unterstützt das Feature „Highlights“ nicht.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Hervorheben von Datenpunkten mit Kategoriezuordnung in der Datenansicht
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Hierbei sind `categoryValues` ein Array von Kategoriewerten, `measureValues` ein Array von Measures und `measureHighlights` die hervorgehobenen Teile von Werten.
 
-> [!Note]
+> [!NOTE]
 > Die Werte der Eigenschaft `measureHighlights` können kleiner als die Werte der Eigenschaft `categoryValues` sein.
 > Dies bedeutet, dass ein Wert teilweise hervorgehoben wurde.
 
@@ -271,7 +271,7 @@ div.value {
 
 Als Ergebnis sollten Sie zur folgenden Darstellung des Visuals gelangen.
 
-![Die Visuals mit Kategoriezuordnung in der Datenansicht und Hervorherbung](./media/dev-categorical-visual-highlight-demo.gif)
+![Die Visuals mit Kategoriezuordnung in der Datenansicht und Hervorherbung](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Hervorheben von Datenpunkten mit Zuordnung der Matrixdaten in der Ansicht
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Dabei stellt die Eigenschaft `value` den Wert des Knotens dar, ohne eine Auswahl von einem anderen Visual anzuwenden, und die highlight-Eigenschaft gibt an, welcher Teil der Daten hervorgehoben wurde.
 
-> [!Note]
+> [!NOTE]
 > Der Wert der Eigenschaft `highlight` kann kleiner als der Wert der Eigenschaft `value` sein.
 > Dies bedeutet, dass ein Wert teilweise hervorgehoben wurde.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 Als Ergebnis erhalten Sie das Visual mit Schaltflächen und den Werten `highlighted value/default value`
 
-![Das Visual mit Zuordnung der Matrixdaten in der Ansicht und Hervorhebung](./media/dev-matrix-visual-highlight-demo.gif)
+![Das Visual mit Zuordnung der Matrixdaten in der Ansicht und Hervorhebung](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Nächste Schritte
 

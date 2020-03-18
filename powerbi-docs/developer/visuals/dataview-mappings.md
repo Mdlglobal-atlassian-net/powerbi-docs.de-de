@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696630"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380824"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Grundlegendes zur Zuordnung von Datenansichten in Power BI-Visuals
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 Als Ergebnis zeigt das Visual einen einzelnen Wert aus Power BI an:
 
-![Beispiel für ein Visual mit Zuordnung einer einzelnen Datenansicht](./media/visual-simple-dataview-mapping.png)
+![Beispiel für ein Visual mit Zuordnung einer einzelnen Datenansicht](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Kategorische Datenzuordnung
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 Das Ergebnis des Visuals:
 
-![Das Visual mit kategorischer Datenansichtszuordnung](./media/categorical-data-view-mapping-visual.png)
+![Das Visual mit kategorischer Datenansichtszuordnung](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Tabellendatenzuordnung
 
@@ -508,7 +508,7 @@ Mit den angegebenen Funktionen
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ Beispiel für Daten:
 
 Datenbindung:
 
-![Tabellendatenansichtszuordnung von Datenbindungen](./media/table-dataview-mapping-data.png)
+![Tabellendatenansichtszuordnung von Datenbindungen](media/dataview-mappings/table-dataview-mapping-data.png)
 
 In Power BI werden die Daten als Tabellendatenansicht angezeigt. Sie sollten nicht davon ausgehen, dass die Daten sortiert wurden.
 
@@ -603,7 +603,7 @@ In Power BI werden die Daten als Tabellendatenansicht angezeigt. Sie sollten nic
 
 Sie können die Daten aggregieren, indem Sie das gewünschte Feld auswählen und dann „Summe“ auswählen.  
 
-![Datenaggregation](./media/data-aggregation.png)
+![Datenaggregation](media/dataview-mappings/data-aggregation.png)
 
 Codebeispiel für die Verarbeitung der Tabellendatenansichtszuordnung
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![Das Visual mit Tabellendatenansichtszuordnung](./media/table-dataview-mapping-visual.png)
+![Das Visual mit Tabellendatenansichtszuordnung](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Matrixdatenzuordnung
 
@@ -767,7 +767,7 @@ Dataset:
 
 Das Hauptmatrixvisual von Power BI rendert die Daten als Tabelle.
 
-![Matrixvisual](./media/matrix-visual-smaple.png)
+![Matrixvisual](media/dataview-mappings/matrix-visual-smaple.png)
 
 Die Datenstruktur für das Visual wird wie im folgenden Code definiert. Nur die ersten beiden Tabellenzeilen werden hier aufgeführt:
 

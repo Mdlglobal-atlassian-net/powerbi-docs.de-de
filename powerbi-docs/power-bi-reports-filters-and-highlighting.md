@@ -10,11 +10,11 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877614"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207066"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filter und Hervorhebungen in Power BI-Berichten
  Dieser Artikel informiert Sie über das Filtern und Hervorheben im Power BI-Dienst. Die Benutzeroberfläche ist nahezu identisch mit der von Power BI Desktop. *Filter* entfernen alles bis auf die Daten, auf die Sie sich konzentrieren möchten. *Hervorheben* ist nicht dasselbe wie Filtern. Dieser Vorgang entfernt keine Daten, sondern hebt eine Teilmenge der sichtbaren Daten hervor. Die nicht hervorgehobenen Daten bleiben sichtbar, sind jedoch abgeblendet.

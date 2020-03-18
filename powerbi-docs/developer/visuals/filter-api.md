@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 097dea720db6314bdb1fc9f51259196e4db44032
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880077"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380210"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Die API für visuelle Filter für Power BI-Visuals
 
@@ -281,7 +281,7 @@ Wenn Sie zwischen Lesezeichen wechseln, ruft Power BI die `update`-Methode des V
 
 In der folgenden Abbildung wird ein Beispiel für JSON-Filtercode veranschaulicht:
 
-![JSON-Filtercode](./media/json-filter.png)
+![JSON-Filtercode](media/filter-api/json-filter.png)
 
 ### <a name="clear-the-json-filter"></a>Bereinigen des JSON-Filters
 

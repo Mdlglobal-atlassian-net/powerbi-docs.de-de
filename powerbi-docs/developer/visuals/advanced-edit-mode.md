@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880326"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380554"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Erweiterter Bearbeitungsmodus in Power BI-Visuals
 
@@ -39,7 +39,7 @@ In den folgenden Fällen wird die Schaltfläche **Bearbeiten** angezeigt:
 
 Wenn die Eigenschaft `advancedEditModeSupport` in der *capabilities.json*-Datei fehlt oder auf `NotSupported` festgelegt ist, wird die Schaltfläche **Bearbeiten** nicht angezeigt.
 
-![Aktivieren des Bearbeitungsmodus](./media/edit-mode.png)
+![Aktivieren des Bearbeitungsmodus](media/advanced-edit-mode/edit-mode.png)
 
 Wenn Sie auf **Bearbeiten** klicken, empfängt das Visual einen update()-Aufruf, bei dem EditMode auf `Advanced` festgelegt ist. Abhängig von dem Wert, der in der *capabilities.json*-Datei festgelegt wird, treten die folgenden Aktionen auf:
 
