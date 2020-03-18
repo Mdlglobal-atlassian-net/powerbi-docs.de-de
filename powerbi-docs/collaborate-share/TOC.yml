@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: Abonnieren (selbst oder stellvertretend)
               href: ../service-report-subscribe.md
+            - name: Bewerben von Inhalten auf der Startseite
+              href: service-featured-content.md
             - name: Einbetten von Berichten in Microsoft Teams
               href: ../service-embed-report-microsoft-teams.md
             - name: Einbetten eines Berichts in SharePoint Online
