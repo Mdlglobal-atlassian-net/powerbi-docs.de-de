@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378246"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487761"
 landingContent:
 - title: Informationen zu Power BI für Entwickler
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: Welche Möglichkeiten haben Entwickler?
       url: what-can-you-do.md
     - text: Visuals in Power BI
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: Was ist Einbettung?
-      url: embedding.md
+      url: embedded/embedding.md
     - text: Was ist die Power BI-API?
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: Häufig gestellte Fragen zu Visuals
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: Richtlinien für Visuals
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: Erweiterter Bearbeitungsmodus in Visuals
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: Zertifizierung von Visuals
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: Veröffentlichen von Power BI-Visuals in AppSource
-      url: office-store.md
+      url: visuals/office-store.md
 - title: Eingebettete Analysen
   linkLists:
   - linkListType: tutorial
     links:
     - text: Einbetten von Inhalten für Kunden
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: Einbetten von Inhalt für Ihre Organisation
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: Sicherheit auf Zeilenebene
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: Verwalten der Mehrinstanzenfähigkeit
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: Häufig gestellte Fragen zu Embedded
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: Berechtigungen
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Einbetten aus Apps
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: Erstellen eines Azure Active Directory-Mandanten
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: Abrufen eines Azure AD-Zugriffstokens
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Q&A zur Funktionalität in Power BI Embedded
-      url: qanda.md
+      url: embedded/qanda.md
