@@ -8,15 +8,15 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875657"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114969"
 ---
 # <a name="what-is-power-bi"></a>Was ist Power BI?
-**Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Ihre Daten können als Excel-Kalkulationstabelle oder als eine hybride Sammlung von cloudbasierten und lokalen Data Warehouse-Instanzen vorliegen. Mit Power BI können Sie komfortabel Verbindungen zwischen Ihren Datenquellen herstellen, die wichtigen Punkte entdecken und visualisieren und die Ergebnisse mit den gewünschten Personen teilen.
+**Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Ihre Daten können als Excel-Kalkulationstabelle oder als eine hybride Sammlung von cloudbasierten und lokalen Data Warehouse-Instanzen vorliegen. Mit Power BI können Sie komfortabel Verbindungen zwischen Ihren Datenquellen herstellen, wichtige Punkte entdecken und visualisieren sowie die Ergebnisse mit den gewünschten Personen teilen.
 
 ## <a name="the-parts-of-power-bi"></a>Komponenten von Power BI
 Power BI besteht aus Folgendem: 
@@ -51,7 +51,7 @@ Untersuchen Sie Dokumente, die sich auf ihre Rolle beziehen:
 Ein häufiger Workflow in Power BI beginnt mit dem Herstellen einer Verbindung mit Datenquellen und dem Erstellen eines Berichts in Power BI Desktop. Anschließend veröffentlichen Sie diesen Bericht aus Power BI Desktop im Power BI-Dienst und teilen ihn, damit Endbenutzer im Power BI-Dienst und auf den mobilen Geräten den Bericht anzeigen und mit ihm interagieren können.
 Dieser Workflow ist üblich und zeigt, wie sich die drei Hauptelemente von Power BI gegenseitig ergänzen.
 
-Hier finden Sie einen detaillierten [Vergleich von Power BI Desktop und Power BI-Dienst](../designer/service-service-vs-desktop.md).
+Hier finden Sie einen detaillierten [Vergleich von Power BI Desktop und Power BI-Dienst](../fundamentals/service-service-vs-desktop.md).
 
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>Lokale Berichterstellung mit Power BI-Berichtsserver
 

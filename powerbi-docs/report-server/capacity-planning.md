@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565731"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78402004"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Berichterstellung, die Kunden lokal hinter der Firewall bereitstellen können. Sie kombiniert die interaktiven Berichte von Power BI Desktop mit der lokalen Serverplattform von SQL Server Reporting Services. Aufgrund der starken und zunehmenden Verwendung von Analysen und Berichten in Unternehmen kann die Budgetplanung für die Hardwareinfrastruktur und die erforderlichen Softwarelizenzen für die Skalierung auf eine hohe Benutzeranzahl eine Herausforderung sein. Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. Die Berichte, Abfragen und Verwendungsmuster in einem Unternehmen weisen große Unterschiede auf. Jedoch lassen sich die in diesem Dokument vorgestellten Ergebnisse zusammen mit den tatsächlich verwendeten Tests und einer ausführlichen Beschreibung ihrer Ausführung immer als Orientierungshilfe bei der anfänglichen Planung der Bereitstellung von Power BI-Berichtsserver nutzen.
@@ -21,8 +21,8 @@ Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Ber
 ## <a name="executive-summary"></a>Kurzfassung
 Wir haben zwei unterschiedliche Typen von Arbeitsauslastungen von Power BI-Berichtsserver ausgeführt. Jede Arbeitsauslastung bestand aus dem Rendern unterschiedlicher Typen von Berichten sowie dem Ausführen verschiedener Webportalvorgänge. 
 
-* Bei der Arbeitsauslastung „Power BI-Bericht – stark“ war der am häufigsten ausgeführte Vorgang (d. h. der Vorgang, der in 60 % der Zeit ausgeführt wurde) das Rendern von Power BI-Berichten.
-* Bei der Arbeitsauslastung „Paginierter Bericht – stark“ war der am häufigsten ausgeführte Vorgang das Rendern paginierter Berichte.
+* Bei der Workload „Power BI-Bericht – stark“ war der am häufigsten (60 % der Zeit ausgeführte) ausgeführte Vorgang das Rendern von Power BI-Berichten.
+* Bei der Workload „Paginierter Bericht – stark“ war der am häufigsten ausgeführte Vorgang das Rendern paginierter Berichte.
 
 In der folgenden Tabelle wird die maximale Anzahl von Benutzern angegeben, die Power BI-Berichtsserver mit einer Zuverlässigkeit von mindestens 99 % bewältigen kann, wenn die Topologie von Power BI-Berichtsserver vier Server umfasst und davon ausgegangen wird, dass zu keinem Zeitpunkt mehr als 5 % der Benutzer gleichzeitig auf einen Berichtsserver zugreifen. 
 
@@ -116,7 +116,7 @@ Die in diesem Dokument beschriebenen Ergebnisse wurden aus dem Ausführen eines 
 ### <a name="1-topology"></a>1 Topologie
 **1.1 Topologie von Power BI-Berichtsserver**
 
-Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie auf der Seite https://azure.microsoft.com/pricing/details/virtual-machines/windows/ im Abschnitt „Universell“.
 
 | Typ des virtuellen Computers | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unters
 
 **1.2 Konfiguration des virtuellen Power BI-Berichtsserver-Computers** 
 
-Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu dieser VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie auf der Seite https://azure.microsoft.com/pricing/details/virtual-machines/windows/ im Abschnitt „Universell“.
 
 | Virtueller Computer | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |
@@ -143,4 +143,3 @@ Wenn Sie das Tool LoadTest von Reporting Services für Ihre Power BI-Berichtsser
 5. Sobald Sie mit der Bereitstellung der Umgebung fertig sind, befolgen Sie die Anweisungen unter https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution, um die Tests auszuführen.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

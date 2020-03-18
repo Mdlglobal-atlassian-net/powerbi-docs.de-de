@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975146"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040144"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
@@ -72,7 +72,7 @@ Zunächst werden Sie sich ansehen, wie die grundlegenden Inhalte (Dashboards, Be
 
 ![Meine Arbeitsbereiche ](./media/end-user-experience/power-bi-workspaces.png)
 
-Unter **Mein Arbeitsbereich** werden alle Inhalte gespeichert, deren Besitzer Sie sind und die Sie erstellt haben. Betrachten Sie ihn als persönlichen Sandkasten oder Arbeitsbereich für eigene Inhalte. Bei vielen Power BI-*Anwendern* bleibt der Bereich **Mein Arbeitsbereich** immer leer, da das Erstellen neuer Inhalte nicht zu ihren Aufgaben gehört.  *Anwender* nutzen die Daten, die von anderen erstellt wurden, um Geschäftsentscheidungen zu treffen. Falls Sie Inhalte erstellen, sollten Sie stattdessen die Artikel unter [Power BI für Berichts-*Designer*](../power-bi-creator-landing.md) lesen.
+Unter **Mein Arbeitsbereich** werden alle Inhalte gespeichert, deren Besitzer Sie sind und die Sie erstellt haben. Betrachten Sie ihn als persönlichen Sandkasten oder Arbeitsbereich für eigene Inhalte. Bei vielen Power BI-*Anwendern* bleibt der Bereich **Mein Arbeitsbereich** immer leer, da das Erstellen neuer Inhalte nicht zu ihren Aufgaben gehört.  *Anwender* nutzen die Daten, die von anderen erstellt wurden, um Geschäftsentscheidungen zu treffen. Falls Sie Inhalte erstellen, sollten Sie stattdessen die [Power BI-Artikel für *Berichtsersteller*](../index.yml) lesen.
 
 **App-Arbeitsbereiche** enthalten den gesamten Inhalt der jeweiligen App.  Wenn *Designer* eine App erstellen, bündeln sie alle Inhalte, die für die Nutzung der App erforderlich sind.  Wählen Sie den Arbeitsbereich „Sales and Marketing“ (Vertrieb und Marketing) aus, um zu sehen, welche Inhalte der *Designer* in der App gebündelt hat. 
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265028"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041353"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Welche Möglichkeiten bietet Power BI Entwicklern?
 
@@ -37,7 +37,7 @@ Weitere Informationen zum Einbetten mit Power BI finden Sie unter [Einbetten mit
 
 ## <a name="developing-custom-visuals"></a>Entwickeln von benutzerdefinierten Visuals
 
-Sie können benutzerdefinierte Visuals in Power BI verwenden, um einen einzigartigen Typ von Visual zu erstellen, der auf Sie oder Ihr Unternehmen zugeschnitten ist. Diese benutzerdefinierten Visuals werden häufig von Entwicklern erstellt. Sie werden erstellt, wenn die zahlreichen Visuals, die im Lieferumfang von Power BI enthalten sind, nicht ganz Ihren Anforderungen entsprechen.
+Sie können benutzerdefinierte Visuals in Power BI verwenden, um einen eindeutigen Typ von Visual zu erstellen, der auf Sie oder Ihr Unternehmen zugeschnitten ist. Diese benutzerdefinierten Visuals werden häufig von Entwicklern erstellt. Sie werden erstellt, wenn die zahlreichen in Power BI inbegriffenen Visuals nicht ganz Ihren Anforderungen entsprechen.
 
 Mit benutzerdefinierten Visuals können Sie Ihre eigenen Visuals für die Verwendung in Power BI-Berichten erstellen. Benutzerdefinierte Visuals werden in TypeScript geschrieben, einer Sprache, die auf JavaScript aufsetzt. TypeScript unterstützt einige erweiterte Features und frühzeitigen Zugriff auf ES6/ES7-Funktionen. Stile für Visuals werden mit Cascading Stylesheets (CSS) angewendet. Zur Vereinfachung wird der Less-Vorcompiler verwendet, der einige erweiterte Features unterstützt, darunter Schachtelung, Variablen, Bedingungen und Schleifen. Wenn Sie diese Features nicht verwenden möchten, können Sie einfachen CSS-Code in der Less-Datei schreiben.
 
@@ -53,7 +53,7 @@ Entwickler können auch eigene Datenvisualisierungen erstellen, die in interakti
 
 ![Beispiel für das Übertragen von Daten per Push](media/what-can-you-do/powerbi-push-data.png)
 
-Einige Aktionen, die Sie mit Power BI-APIs durchführen können, finden Sie unter [Welche Möglichkeiten bietet die Power BI-API für Entwickler?](overview-of-power-bi-rest-api.md)?
+Einige Aktionen, die Sie mit Power BI-APIs durchführen können, finden Sie unter [Welche Möglichkeiten bietet die Power BI-API für Entwickler?](automation/overview-of-power-bi-rest-api.md)?
 
 ## <a name="next-steps"></a>Nächste Schritte
 
@@ -61,6 +61,6 @@ Einige Aktionen, die Sie mit Power BI-APIs durchführen können, finden Sie unte
 
 [Entwickeln eines benutzerdefinierten Visuals für Power BI](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[Welche Möglichkeiten bietet die Power BI-API für Entwickler?](overview-of-power-bi-rest-api.md)
+[Welche Möglichkeiten bietet die Power BI-API für Entwickler?](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI Developer Center](https://powerbi.microsoft.com/developers/)

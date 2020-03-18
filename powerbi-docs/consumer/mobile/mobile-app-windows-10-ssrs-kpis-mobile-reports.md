@@ -1,29 +1,28 @@
 ---
-title: Anzeigen von mobilen SSRS-Berichten und -KPIs in der mobilen Windows 10-App – Power BI
+title: Anzeigen lokaler Berichte und KPIs in der Power BI-Windows-App
 description: Die mobile Power BI-App für Windows 10 bietet touchfähigen, mobilen Livezugriff auf Ihre wichtigen lokalen Geschäftsdaten.
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879351"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040889"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Anzeigen von mobilen SSRS (Reporting Services)-Berichten und -KPIs in der mobilen Power BI-App für Windows 10
-Die mobile Power BI-App für Windows 10 bietet touchfähigen, mobilen Livezugriff auf Ihre wichtigen lokalen Geschäftsdaten in SQL Server 2016 Reporting Services. 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Anzeigen lokaler Berichte und KPIs in der Power BI-Windows-App
+Die Power BI-App für Windows 10 bietet touchfähigen, mobilen Livezugriff auf Ihre wichtigen lokalen Geschäftsdaten in SQL Server 2016 Reporting Services. 
 
 ![Mobile Reporting Services-Berichte](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>Das Wichtigste zuerst
 [Erstellen Sie mobile Reporting Services-Berichte](https://msdn.microsoft.com/library/mt652547.aspx) mit dem SQL Server 2016 Enterprise Edition Mobile Report Publisher, und veröffentlichen Sie sie im [Reporting Services-Webportal](https://msdn.microsoft.com/library/mt637133.aspx). Erstellen Sie KPIs direkt im Webportal. Organisieren Sie sie in Ordnern, und markieren Sie Ihre Favoriten, damit Sie sie leicht finden können. 
 
-Zeigen Sie dann in der mobilen Power BI-App für Windows 10 die mobilen Berichte und KPIs in Ordnern organisiert oder als Favoriten zusammengestellt an. 
+Zeigen Sie dann in der Power BI-App für Windows 10 die KPIs, mobilen und Power BI-Berichte in Ordnern organisiert oder als Favoriten zusammengestellt an. 
 
 > [!NOTE]
 > Auf Ihrem Gerät muss Windows 10 ausgeführt werden. Die App funktioniert am besten auf Geräten mit mindestens 1 GB RAM und 8 GB internem Speicher.
@@ -68,7 +67,7 @@ Durchsuchen Sie die Beispiele, um mit KPIs und mobilen Berichten zu interagieren
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Anzeigen von Reporting Services-KPIs und mobilen Berichten in der Power BI-App
-Die KPIs und mobilen Berichte von Reporting Services werden in den gleichen Ordnern wie im Reporting Services-Webportal angezeigt.
+Reporting Services-KPIs sowie mobile und Power BI-Berichte (Vorschau) werden in denselben Ordnern angezeigt, in denen sie sich im Reporting Services-Webportal befinden.
 
 ![Berichtsordner](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
@@ -80,7 +79,7 @@ Die KPIs und mobilen Berichte von Reporting Services werden in den gleichen Ordn
     ![Reporting Services-Mobilgerätebericht](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>Anzeigen Ihrer bevorzugten KPIs und Berichte
-Sie können KPIs und mobile Berichte als Favoriten auf Ihrem Reporting Services-Webportal markieren und dann bequem neben den als Favoriten gespeicherten Dashboards und Berichten in einem Ordner auf Ihrem Windows 10-Gerät anzeigen.
+Sie können KPIs sowie mobile und Power BI-Berichte in Ihrem Reporting Services-Webportal als Favoriten markieren und dann bequem neben den als Favoriten gespeicherten Dashboards und Berichten in einem Ordner auf Ihrem Windows 10-Gerät anzeigen.
 
 * Tippen Sie auf **Favoriten**.
   
@@ -88,8 +87,6 @@ Sie können KPIs und mobile Berichte als Favoriten auf Ihrem Reporting Services-
   
    Ihre Favoriten vom Webportal werden alle auf dieser Seite angezeigt.
   
-   ![Seite „Favoriten“](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 Weitere Informationen zu [Favoriten in den mobilen Power BI-Apps](mobile-apps-favorites.md).
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Entfernen einer Verbindung mit einem Berichtsserver

@@ -1,19 +1,19 @@
 ---
 title: Einmaliges Anmelden in der mobilen Power BI-Windows-App
 description: Informieren Sie sich über das einmalige Anmelden (Single Sign-On (SSO)) in der mobilen Power BI-Windows-App. SSO bedeutet, dass Sie auf alle Anwendungen und Ressourcen zugreifen, die Sie für Ihre geschäftlichen Aktivitäten benötigen, indem Sie sich nur einmal mit einem einzelnen Benutzerkonto anmelden.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876679"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114720"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Einmaliges Anmelden in der mobilen Power BI-Windows-App
 
@@ -29,7 +29,7 @@ Wenn Sie die App zum ersten Mal installieren, versucht die App zur Vereinfachung
 
 Falls Sie die mobile Power BI-App für Windows bereits einsetzen, können Sie SSO auch verwenden, wenn Sie einen Upgrade auf die neue Version durchführen. Melden Sie sich bei der App ab, schließen Sie sie, und öffnen Sie sie erneut. Wenn die App erneut geöffnet wird, versucht sie automatisch, sich mithilfe Ihrer aktuellen Windows-Anmeldeinformationen beim Power BI-Dienst zu authentifizieren. 
 
-Wenn Sie nicht Ihre aktuellen Windows-Anmeldeinformationen für aktive Sitzungen für die Anmeldung bei Power BI verwenden möchten, wechseln Sie einfach zu **Einstellungen**, melden Sie sich ab, und melden Sie sich mit anderen Anmeldeinformationen wieder an. 
+Wenn Sie nicht Ihre aktuellen Windows-Anmeldeinformationen für aktive Sitzungen für die Anmeldung bei Power BI verwenden möchten, wechseln Sie einfach zu **Einstellungen**. Melden Sie sich ab, und melden Sie sich mit anderen Anmeldeinformationen wieder an. 
  
 ## <a name="next-steps"></a>Nächste Schritte
 

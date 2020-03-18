@@ -1,5 +1,5 @@
 ---
-title: Erwerben von Power BI Desktop
+title: Power BI Desktop erwerben
 description: Herunterladen und Installieren von Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888360"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401205"
 ---
-# <a name="get-power-bi-desktop"></a>Erwerben von Power BI Desktop
+# <a name="get-power-bi-desktop"></a>Power BI Desktop erwerben
 In Power BI Desktop können Sie erweiterte Abfragen, Modelle und Berichte erstellen, die Daten visualisieren. Mit Power BI Desktop können Sie Datenmodelle entwerfen, Berichte erstellen und Ihre Arbeit durch die Veröffentlichung im Power BI-Dienst freigeben. Power BI Desktop steht als kostenloser Download zur Verfügung.
 
 Sie können Power BI Desktop auf zwei Arten erhalten, die jeweils in den folgenden Abschnitten beschrieben werden:
@@ -97,7 +97,7 @@ Die folgende Liste zeigt die Mindestanforderungen zur Ausführung von Power BI D
 * .NET 4.5
 * Internet Explorer 10 oder höher
 * Arbeitsspeicher (RAM): Mindestens 1 GB freier Arbeitsspeicher, 1,5 GB oder mehr empfohlen.
-* Hervorheben: Mindestens 1440 × 900 oder 1600 × 900 (16:9) empfohlen. Geringere Auflösungen, z. B. 1024 × 768 oder 1280 × 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z. B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
+* Bildschirm: Mindestens 1440 × 900 oder 1600 × 900 (16:9) empfohlen. Geringere Auflösungen, z. B. 1024 × 768 oder 1280 × 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z. B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
 * Windows-Anzeigeeinstellungen: Wenn Sie Ihre Anzeigeeinstellungen so konfigurieren, dass die Größe von Text, Apps und anderen Elementen auf mehr als 100 % geändert wird, sind einige Dialogfelder, mit denen Sie interagieren müssen, um weiterhin Power BI Desktop zu verwenden, möglicherweise nicht sichtbar. Wenn dieses Problem auftritt, überprüfen Sie die Anzeigeeinstellungen in Windows, indem Sie zu **Einstellungen** > **System** > **Anzeige** navigieren, und setzen Sie die Anzeigeeinstellungen mithilfe des Schiebereglers auf 100 % zurück.
 * CPU: 32-Bit- oder 64-Bit-x86-Prozessor mit 1 Gigahertz (GHz) oder schneller empfohlen
 
@@ -158,6 +158,7 @@ Wenn Sie Power BI Desktop für Ihre Benutzer mit einem Tool bereitstellen, das e
 
     Der Ausgabeordner enthält einen Ordner mit dem Namen *AttachedContainer*, der die MSI-Dateien enthält.
 
+Das Upgrade einer Installation von einer EXE- zu einer MSI-Datei, die Sie aus einer EXE-Datei extrahiert haben, wird nicht unterstützt.   Um dieses Upgrade vorzunehmen, müssen Sie zunächst Ihre vorhandene ältere Version von Power BI Desktop deinstallieren.
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Probleme bei der Verwendung von früheren Versionen von Power BI Desktop
 

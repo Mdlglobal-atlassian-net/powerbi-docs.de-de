@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830509"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113753"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportieren von Berichten aus Power BI nach PowerPoint
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -75,8 +77,9 @@ Wie Sie mit dem PowerPoint-Stapel und den hochauflösenden Bildern weiter verfah
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Bei der Arbeit mit der Funktion **Nach PowerPoint exportieren** sind einige Aspekte und Einschränkungen zu beachten.
 
-* R-Visuals werden derzeit nicht unterstützt. Diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
+* Visuelle R- und Python-Elemente werden aktuell nicht unterstützt. Diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
 * Benutzerdefinierte Visuals, die zertifiziert wurden, werden unterstützt. Weitere Informationen zu zertifizierten benutzerdefinierten Visuals sowie zum Zertifizieren von benutzerdefinierten Visuals finden Sie unter [Wie wird ein benutzerdefiniertes Visual zertifiziert?](../developer/power-bi-custom-visuals-certified.md). Benutzerdefinierte Visuals, die nicht zertifiziert wurden, werden nicht unterstützt. Sie werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
+* Dieses visuelle ESRI-Element wird nicht unterstützt.
 * Berichte mit mehr als 30 Berichtsseiten können derzeit nicht exportiert werden.
 * Visuals mit Scrollleiste werden im Standardzustand exportiert. Das Visual zeigt in PowerPoint nur den oberen Teil der Daten an. Das Scrollen ist in PowerPoint nicht verfügbar, da jede Folie ein Bild ist. 
 * Der Exportvorgang des Berichts nach PowerPoint kann einige Minuten dauern. Zu den Faktoren, die die benötigte Zeit beeinflussen, zählen die Struktur des Berichts sowie die jeweils aktuelle Auslastung des Power BI-Diensts.
@@ -89,6 +92,7 @@ Bei der Arbeit mit der Funktion **Nach PowerPoint exportieren** sind einige Aspe
 * Wie bereits erwähnt, wird jede Berichtsseite als ein einzelnes Bild in der PowerPoint-Datei exportiert.
 * Der Power BI-Dienst verwendet Ihre Power BI-Spracheinstellung, um die Sprache für den PowerPoint-Export festzulegen. Sie können die Spracheinstellung anzeigen oder festlegen, indem Sie das Zahnradsymbol ![Zahnradsymbol](media/end-user-powerpoint/power-bi-settings-icon.png) > **Einstellungen** > **Allgemein** > **Sprache** auswählen.
 * Das Datum und die Uhrzeit unter **Heruntergeladen am** auf der Deckfolie für die exportierte PowerPoint-Datei ist auf den Zeitpunkt des Exports entsprechend der Zeitzone des Computers festgelegt.
+* Beim Exportieren in PPTX wird bei Berichten, die Designs mit benutzerdefinierten Schriftarten verwenden, die benutzerdefinierte Schriftart durch eine Standardschriftart ersetzt.
 * URL-Filter werden zurzeit nicht beachtet, wenn Sie **Aktuelle Werte** für Ihren Export auswählen.
 
 ## <a name="next-steps"></a>Nächste Schritte

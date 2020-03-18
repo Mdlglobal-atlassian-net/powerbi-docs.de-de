@@ -1,0 +1,70 @@
+---
+title: Hinzufügen externer Bibliotheken zu Power BI-Visuals
+description: In diesem Artikel wird beschrieben, wie Sie in Power BI-Visuals externe Bibliotheken verwenden.
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: sranins
+ms.service: powerbi
+ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
+ms.date: 02/24/2020
+ms.openlocfilehash: 13d5f2ed62ddefb8ac99fe2c91c72fc599a15936
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78922503"
+---
+# <a name="adding-external-libraries"></a>Hinzufügen von externen Bibliotheken
+
+In diesem Artikel wird beschrieben, wie Sie in Power BI-Visuals externe Bibliotheken verwenden. Sie erfahren, wie Sie mithilfe des Codes des Power BI-Visuals externe Bibliotheken installieren, importieren und aufrufen können.
+
+## <a name="javascript-libraries"></a>JavaScript-Bibliotheken
+
+1. Installieren Sie mithilfe eines beliebigen Paket-Managers wie *npm* oder *yarn* eine externe JavaScript-Bibliothek.
+2. Importieren Sie die erforderlichen Module mithilfe der externen Bibliothek in die Quelldateien.
+
+>[!NOTE]
+>Wenn Sie Ihrer JavaScript-Bibliothek Typisierungen hinzufügen möchten und Intellisense und Sicherheit zur Kompilierzeit wünschen, stellen Sie sicher, dass Sie das passende Paket installieren.
+
+### <a name="installing-the-d3-library"></a>Installieren der d3-Bibliothek
+
+Dies ist ein Beispiel der Installation der [d3-Bibliothek](https://www.npmjs.com/package/d3) und des Pakets [@types/d3](https://www.npmjs.com/package/@types/d3), für die [npm](https://www.npmjs.com/) verwendet wird.
+
+Ein vollständiges Beispiel finden Sie im Code [Power BI-Visualisierungen](https://github.com/microsoft/powerbi-visuals-gantt/blob/master/src/gantt.ts#L29).
+
+1. Installieren Sie die Pakete *d3* und *d3 types*.
+
+    ```powershell
+    npm install d3@5 --save
+    npm install @types/d3@5 --save
+    ```
+
+2. Importieren Sie die *d3-* Bibliothek in die Dateien, von denen Sie verwendet wird, z. B. `visual.ts`.
+
+    ```typescript
+    import * as d3 from "d3";
+    ```
+
+## <a name="css-framework"></a>CSS-Framework
+
+1. Installieren Sie mithilfe eines beliebigen Paket-Managers wie *npm* oder *yarn* ein externes CSS-Framework.
+2. Fügen Sie in die Datei `.less` des Visuals die Anweisung `import` ein.
+
+### <a name="installing-bootstrap"></a>Installieren von bootstrap
+
+Dies ist ein Beispiel für die Installation von [bootstrap](https://www.npmjs.com/package/bootstrap) mithilfe von [npm](https://www.npmjs.com/).
+
+Ein vollständiges Beispiel finden Sie im Code [Power BI-Visualisierungen](https://github.com/Microsoft/powerbi-visuals-sankey/blob/c8200da56913cd8b253be949a35fad0f4472b6de/style/visual.less#L32).
+
+1. Installieren Sie das Paket *bootstrap*.
+
+    ```powershell
+    npm install bootstrap --save
+    ```
+
+2. Fügen Sie in `visual.less` die Anweisung `import` hinzu.
+
+    ```less
+    @import (less) "node_modules/bootstrap/dist/css/bootstrap.css";
+    ```

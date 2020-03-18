@@ -1,19 +1,19 @@
 ---
 title: Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 description: Erfahren Sie, wie Sie mit Berichtsseiten interagieren, die für die Anzeige in Power BI-Smartphone-Apps optimiert sind.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: mshenhav
-ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870534"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114884"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 
@@ -27,7 +27,7 @@ Beim Anzeigen eines Power BI-Berichts auf einem Smartphone überprüft Power BI,
 
 ![Bericht im Hochformat](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
-Wenn kein für das Smartphone optimierter Bericht vorhanden ist, wird der Bericht zwar geöffnet, jedoch in der nicht optimierten Querformatansicht. Auch wenn Sie bei einem für das Smartphone optimierten Bericht das Smartphone auf die Seite drehen, wird der Bericht in der nicht optimierten Ansicht mit dem ursprünglichen Berichtslayout geöffnet. Wenn nur einige Seiten optimiert sind, wird in der Hochformatansicht eine Meldung angezeigt, die Ihnen mitteilt, dass der Bericht im Querformat verfügbar ist.
+Wenn kein für Smartphones optimierter Bericht vorhanden ist, wird der Bericht zwar geöffnet, jedoch in der nicht optimierten Querformatansicht. Auch wenn Sie bei einem für das Smartphone optimierten Bericht das Smartphone auf die Seite drehen, wird der Bericht in der nicht optimierten Ansicht mit dem ursprünglichen Berichtslayout geöffnet. Wenn nur einige Seiten optimiert sind, wird in der Hochformatansicht eine Meldung angezeigt, die Ihnen mitteilt, dass der Bericht im Querformat verfügbar ist.
 
 ![Nicht optimierte Berichtsseite](./media/mobile-apps-view-phone-report/06-power-bi-phone-report-page-not-optimized.png)
 

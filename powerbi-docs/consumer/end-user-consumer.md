@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496202"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039927"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Der Power BI-Dienst für Verbraucher
 
@@ -45,7 +45,7 @@ Wenn Sie ein Benutzer sind, haben Sie nicht auf alle Funktionen von Power BI Zug
 
 Bestimmt haben Sie schon von „Power BI Desktop“ oder einfach nur „Desktop“ gehört. Dies ist ein eigenständiges Tool, das die *Designer* verwenden, die Dashboards und Berichte erstellen und für Sie freigeben.  Es ist wichtig zu wissen, dass es auch andere Power BI-Tools gibt. Als Benutzer arbeiten Sie aber nur mit dem Power BI-Dienst. 
 
-Und da Sie mit *freigegebenen* Inhalten arbeiten, benötigen Sie eine Power BI Pro- oder Power BI Premium-Lizenz. [Welche Lizenz habe ich?](end-user-license.md)
+Da Sie mit *freigegebenen* Inhalten arbeiten, benötigen Sie eine Standardlizenz des Typs **Free**, wenn Sie in einer Organisation arbeiten, die **Premium**-Kapazität verwendet. [So ermitteln Sie Ihren Lizenztyp](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Sicheres Interagieren mit Inhalten 

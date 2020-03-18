@@ -1,19 +1,19 @@
 ---
 title: Erstellen eines Links zu einer bestimmten Stelle in den mobilen Power BI-Apps
 description: Erfahren Sie, wie Sie mit einem URI (Uniform Resource Identifier) einen Deep-Link zu einem bestimmten Dashboard, einer bestimmten Kachel oder einem bestimmten Bericht in der mobilen Power BI-App erstellen.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879290"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114492"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Erstellen eines Links zu einer bestimmten Stelle in den mobilen Power BI-Apps
 Mithilfe von Links können Sie direkt auf bestimmte Elemente in Power BI zugreifen. Dabei kann es sich um Berichte, Dashboards oder Kacheln handeln.
@@ -112,7 +112,7 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 Weitere Informationen zum Erstellen von Abfrageparametern zum Filtern von Berichten finden Sie unter [Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Nächste Schritte
-Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig realisieren. Geben Sie deshalb Ihr Votum ab, welche Features Sie sich in den mobilen Power BI-Apps wünschen. 
+Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig implementieren. Geben Sie deshalb Ihr Votum ab, welche Features Sie sich in den Power BI Mobile-Apps wünschen. 
 
 * [Power BI-Apps für mobile Geräte](mobile-apps-for-mobile-devices.md)
 * Folgen Sie @MSPowerBI auf Twitter

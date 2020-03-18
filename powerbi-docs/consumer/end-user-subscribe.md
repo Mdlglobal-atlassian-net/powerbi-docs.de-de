@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888593"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114040"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -34,7 +36,7 @@ Die E-Mail, die Sie erhalten, enthält einen Link, mit dem Sie zum Bericht/Dashb
 Zum **Erstellen** eines Abonnements für Sie selbst ist eine bestimmte Lizenz erforderlich. Sollten Sie kein Abonnement erstellen können, wenden Sie sich an Ihren Power BI-Administrator. **Abonnieren für andere** ist nur für den Besitzer des Dashboards oder Berichts verfügbar. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonnieren eines Berichts oder Dashboards
-Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
+Unabhängig davon, ob Sie ein Dashboard oder einen Bericht abonnieren, ist der Vorgang ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
  
 ![Das Symbol „Abonnieren“ auswählen](./media/end-user-subscribe/power-bi-subscribe.png).
 
@@ -63,7 +65,7 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist äh
 
 3. Wenn alles in Ordnung ist, klicken Sie auf **Speichern und schließen**, um das Abonnement zu speichern. Sie erhalten eine E-Mail und eine Momentaufnahme des Dashboards oder Berichts gemäß des festgelegten Zeitplans. Für alle Abonnements, für die die Häufigkeit **Nach Datenaktualisierung** festgelegt ist, werden E-Mails erst nach der ersten geplanten Aktualisierung des Tages versendet.
    
-   ![E-Mail mit einer Momentaufnahme des Dashboards](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![E-Mail mit einer Momentaufnahme des Dashboards](media/end-user-subscribe/power-bi-email.png)
    
     Durch das Aktualisieren der Berichtsseite wird nicht das Dataset aktualisiert. Nur der Besitzer des Datasets kann ein Dataset manuell aktualisieren. Klicken Sie auf das Dropdownmenü in der oberen Menüleiste, oder suchen Sie nach der ursprünglichen Abonnement-E-Mail, um den Besitzernamen des zugrunde liegenden Datasets herauszufinden.
    
@@ -73,11 +75,12 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist äh
 ## <a name="manage-your-subscriptions"></a>Verwalten Ihrer Abonnements
 Sie können nur Abonnements verwalten, die Sie erstellen. Klicken Sie erneut auf **Abonnieren**, und klicken Sie dann in der unteren linken Ecke auf **Alle Abonnements verwalten** (siehe Screenshots oben). 
 
-![Alle Abonnements unter „My Workspace“ (Mein Arbeitsbereich) anzeigen](./media/end-user-subscribe/power-bi-manage.png)
+![Alle Abonnements unter „My Workspace“ (Mein Arbeitsbereich) anzeigen](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder der Bericht vom Besitzer gelöscht wird oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+* Um zu verhindern, dass Abonnement-E-Mails in Ihren Spamordner gelangen, fügen Sie Ihren Kontakten den Power Platform-E-Mail-Alias (PowerPlat-noreply@microsoft.com) hinzu. Wenn Sie Microsoft Outlook verwenden, klicken Sie mit der rechten Maustaste auf den Alias, und wählen Sie **Zu Outlook-Kontakten hinzufügen** aus. 
 * Dashboards mit mehr als 25 angehefteten Kacheln oder vier angehefteten Berichtsseiten werden in an Benutzer gesendeten Abonnement-E-Mails möglicherweise nicht vollständig dargestellt. Es wird empfohlen, dass Sie sich an den Dashboard-Designer wenden und ihn bitten, die Anzahl der angehefteten Kacheln auf unter 25 und der angehefteten Liveberichte auf unter vier reduzieren, um sicherzustellen, dass die E-Mails ordnungsgemäß dargestellt werden.  
 * Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.  Wenn das Dataset RLS verwendet, können Sie kein neues Abonnement für Berichts-E-Mail-Abonnements erstellen.
 * Wenn die Links (zum Inhalt) in Ihrer E-Mail nicht mehr funktionieren, ist es möglich, dass der Inhalt gelöscht wurde. In der E-Mail können Sie unterhalb des Screenshots sehen, ob Sie selbst ein Abonnement für sich erstellt haben oder ob es von einem anderen Benutzer für Sie erstellt wurde. Falls es jemand anderes war, bitten Sie den Kollegen, entweder die E-Mails abzubestellen oder erneut ein Abonnement für Sie zu erstellen.

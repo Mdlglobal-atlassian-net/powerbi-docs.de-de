@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427091"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041675"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-Datenquellen
 
@@ -43,7 +43,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Azure HDInsight (HDFS) | Ja | Ja | Nein | Nein | Nein |
 | Azure HDInsight Spark | Ja | Ja | Ja | Nein | Nein |
 | Azure SQL-Datenbank | Ja | Ja | Ja | Ja <sup>2</sup> | Nein |
-| Azure SQL Data Warehouse | Ja | Ja | Ja | Nein | Nein |
+| Azure SQL Data Warehouse | Ja | Ja | Ja | Ja <sup>2</sup> | Nein |
 | Azure-Tabellenspeicher | Ja | Ja | Nein | Ja | Nein |
 | BI-Connector | Ja | Ja | Ja | Ja | Ja |
 | BI360 – Budgeting & Financial Reporting | Ja | Ja | Nein | Nein | Nein |
@@ -134,7 +134,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Twilio | Ja | Ja | Nein | Nein | Nein |
 | tyGraph | Ja | Ja | Nein | Nein | Nein |
 | Vertica | Ja | Ja | Ja | Ja | Ja |
-| Web | Ja | Ja | Nein | Ja | Ja |
+| Web | Ja | Ja | Nein | Ja | Ja <sup>6</sup> |
 | Webtrends | Ja | Ja | Nein | Nein | Nein |
 | Workforce Dimensions | Ja | Ja | Nein | Ja | Nein |
 | XML | Ja | Ja | Nein | Ja | Nein <sup>4</sup> |
@@ -143,13 +143,15 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 
 <sup>1</sup> Mit dem [ACE-OLEDB-Anbieter](https://www.microsoft.com/download/details.aspx?id=54920) unterstützt, der auf demselben Computer wie das Gateway installiert ist.
 
-<sup>2</sup> Mit derselben M-Funktion wie die lokale Version unterstützt.
+<sup>2</sup> Mit derselben M-Funktion wie die lokale Version unterstützt, was zu eingeschränkten Authentifizierungsoptionen führt (das Gateway unterstützt OAuth nicht).
 
 <sup>3</sup> Für Dateien im Format Excel 1997–2003 (.xls) wird der [ACE OLEDB-Anbieter](https://www.microsoft.com/download/details.aspx?id=54920) benötigt.
 
 <sup>4</sup> Für die lokale Version der Technologie erforderlich.
 
 <sup>5</sup> Nur mit dem [persönlichen Gateway](service-gateway-personal-mode.md) unterstützt.
+
+<sup>6</sup> Für HTML-, XLS- und Access-Datenbanken erforderlich
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Einmaliges Anmelden (SSO) für DirectQuery-Quellen
 

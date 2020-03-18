@@ -6,30 +6,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: fee89c65328b70e1f312b39fbad75d7148bd92f2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542287"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041255"
 ---
 # <a name="configure-report-interaction-settings"></a>Konfigurieren der Interaktionseinstellungen für Berichte
 
 ## <a name="overview"></a>Übersicht
 
-Die mobile Power BI-App verfügt über mehrere konfigurierbare Interaktionseinstellungen, mit denen Sie steuern können, wie Sie mit Ihren Daten interagieren, und mit denen Sie das Verhalten einiger Elemente der mobilen Power BI-App definieren können. Zurzeit gibt es Einstellungen für:
-* [Interaktionen durch einfaches Tippen oder Doppeltippen in Berichtsvisuals](#single-tap)
-* [Berichtsfußzeilen, die entweder angedockt oder dynamisch sind](#docked-report-footer-android-phones) (Android)
-* [Aktualisierung der Berichte entweder per Klick auf die Schaltfläche oder durch Ziehen nach unten](#report-refresh-android-phones) (Android)
+Die mobile Power BI-App verfügt über mehrere konfigurierbare Interaktionseinstellungen, mit denen Sie steuern können, wie Sie mit Ihren Daten interagieren, und mit denen Sie das Verhalten einiger Elemente der mobilen Power BI-App definieren können. Die folgende Tabelle zeigt die derzeit verfügbaren Interaktionseinstellungen und die Geräte mit diesen Einstellungen.
+
+|| Android-Smartphone | iPhone | Android-Tablet  | iPad |
+|-|:-:|:-:|:-:|:-:|
+| [Interaktionen durch einfaches Tippen oder Doppeltippen in Berichtsvisuals](#single-tap) |✔|✔|||
+| [Mehrfachauswahl im Vergleich zur Einzelauswahl von Datenpunkten in Berichtsvisuals](#multi-select) |✔|✔|✔|✔|
+| [Angedockte im Vergleich zu dynamischen Berichtsfußzeilen](#docked-report-footer) |✔|✔|||
+| [Aktualisierung von Berichten entweder per Klick auf die Schaltfläche oder durch Ziehen nach unten](#report-refresh) |✔||||
+|
 
 Damit Sie zu den Interaktionseinstellungen gelangen, tippen Sie auf Ihr Profilbild, um die [Seitenleiste](./mobile-apps-home-page.md#header) zu öffnen, wählen Sie dann **Einstellungen** aus, und suchen Sie den Abschnitt **Interaktion**.
 
 ![Interaktionseinstellungen](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
->[!NOTE]
->Die Interaktionseinstellungen für die Schaltfläche „Aktualisieren“ und für das Andocken der Berichtsfußzeile haben derzeit keinen Einfluss auf die Berichtsserverberichte. Dies ändert sich mit dem Berichtsserverrelease im Januar 2020.
+Die Interaktionseinstellungen werden in den folgenden Abschnitten beschrieben.
 
 ## <a name="interaction-settings"></a>Interaktionseinstellungen
 
@@ -38,13 +42,24 @@ Wenn Sie die mobile Power BI-App herunterladen, ist hierfür die Interaktion dur
 
 Wenn Sie möchten, können Sie die Interaktion durch einfaches Tippen deaktivieren. Sie müssen dann mit der Interaktion durch Doppeltippen arbeiten. Bei der Interaktion durch Doppeltippen tippen Sie zuerst auf das Visual, das Sie auswählen möchten, und dann in das Visual, um Ihre gewünschte Aktion auszuführen.
 
-### <a name="docked-report-footer-android-phones"></a>Angedockte Berichtsfußzeilen (Android-Smartphones)
+### <a name="multi-select"></a>Mehrfachauswahl
+
+Die Mehrfachauswahloption ermöglicht die Auswahl mehrerer Datenpunkte auf einer Berichtsseite. Wenn die Mehrfachauswahl aktiviert ist, wird jeder Datenpunkt, auf den Sie tippen, den anderen ausgewählten Datenpunkten hinzugefügt. Die kombinierten Ergebnisse werden anschließend automatisch in allen Visuals auf der Seite hervorgehoben. Wenn Sie bei deaktivierter Mehrfachauswahl tippen, um einen Datenpunkt auszuwählen, ersetzt die neue Auswahl die derzeitige.
+
+Um die Auswahl eines Datenpunkts aufzuheben, tippen Sie erneut auf ihn.
+
+>[!NOTE]
+>In benutzerdefinierten Visuals wird die Mehrfachauswahl nicht unterstützt.
+>
+>In der nächste Version von Power BI-Berichtsserver wird der Mehrfachauswahlmodus unterstützt.
+
+### <a name="docked-report-footer"></a>Angedockte Berichtsfußzeile
 
 Die Einstellung zur angedockten Berichtsfußzeile bestimmt, ob die Berichtsfußzeile unten im Bericht angedockt bleibt (z. B. verankert und immer sichtbar), oder ob diese basierend auf Ihren Aktionen (z. B. Scrollen) im Bericht ausgeblendet wird oder nochmals eingeblendet wird.
 
 Auf Android-Smartphones ist die Einstellung für die angedockte Berichtsfußzeile standardmäßig **on** (eingeschaltet), was bedeutet, dass die Berichtsfußzeile angedockt ist und unten im Bericht immer sichtbar ist. Legen Sie die Einstellung auf **off** (ausgeschaltet) fest, falls Sie eine dynamische Berichtsfußzeile haben möchten, die je nach Ihren Aktionen im Bericht ein- und ausgeblendet wird.
 
-### <a name="report-refresh-android-phones"></a>Aktualisierung des Berichts (Android-Smartphones)
+### <a name="report-refresh"></a>Berichtsaktualisierung
 
 Die Einstellung zur Aktualisierung des Berichts definiert, wie Sie Ihre Aktualisierungen der Berichte initiieren. Sie können entweder eine Schaltfläche zum Aktualisieren in allen Berichtskopfzeilen wählen, oder Sie können die Aktion „Zum Aktualisieren nach unten ziehen“ (einfaches Ziehen von oben nach unten) auf der Berichtsseite verwenden, um den Bericht zu aktualisieren. Die untere Abbildung zeigt die beiden Alternativen. 
 

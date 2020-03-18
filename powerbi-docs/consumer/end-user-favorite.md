@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852657"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040502"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Bevorzugte Dashboards, Berichte und Apps im Power BI-Dienst
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Wenn Sie Inhalte als *Favoriten* festlegen, können Sie schnell über die Inhaltsliste **Favoriten** oder über **Power BI Home** > **Favoriten und häufig aufgerufene Elemente** darauf zugreifen. Als Favoriten werden in der Regel Elemente festgelegt, die Sie häufig aufrufen. Diese werden mit einem gelben Stern markiert.
 
    ![Symbol „Favoriten“](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Symbol „Favoriten und häufig aufgerufene Elemente“](./media/end-user-favorite/power-bi-home.png)
-
-Sie können im Power BI-Dienst auch ein einzelnes Dashboard als [ausgewähltes Dashboard](end-user-featured.md) auswählen.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Hinzufügen eines Dashboards oder Berichts als Favorit
 
@@ -67,7 +68,7 @@ Wenn Sie einen Bericht nicht mehr so oft wie früher verwenden, können Sie ihn 
 2. Klicken Sie auf den gelben Stern neben dem Inhalt, den Sie als Favoriten löschen möchten.
 
 > [!NOTE]
-> Sie können ebenfalls ein Dashboard, einen Bericht oder eine App als Favorit löschen. Öffnen Sie einfach den jeweiligen Inhalt, und klicken Sie auf das gelbe Symbol. 
+> Sie können ebenfalls ein Dashboard, einen Bericht oder eine App als Favorit löschen. Öffnen Sie es, und wählen Sie den gelben Stern aus, um ihn wieder auf einen weißen Stern zurückzusetzen. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen

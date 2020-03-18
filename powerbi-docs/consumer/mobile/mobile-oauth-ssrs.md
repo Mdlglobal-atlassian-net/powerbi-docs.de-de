@@ -1,19 +1,19 @@
 ---
 title: Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
 description: In diesem Artikel erfahren Sie, wie Sie Ihre Umgebung für die Unterstützung der OAuth-Authentifizierung mit der mobilen Power BI-App konfigurieren, um eine Verbindung mit Reporting Services 2016 oder höher herzustellen.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220606"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114959"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
 
@@ -148,7 +148,7 @@ Aktivieren Sie die Windows-Rolle „Webanwendungsproxy“ auf einem Server in Ih
 
 Um von der OAuth-Authentifizierung zur Windows-Authentifizierung zu wechseln, muss die eingeschränkte Delegierung mit Protokollübergang verwendet werden. Dies ist Teil der Kerberos-Konfiguration. Der Reporting Services-SPN wurde bereits bei der Reporting Services-Konfiguration definiert.
 
-Nun muss die eingeschränkte Delegierung im Computerkonto des WAP-Servers in Active Directory konfiguriert werden. Möglicherweise müssen Sie einen Domänenadministrator hinzuziehen, wenn Sie nicht über Berechtigungen für Active Directory verfügen.
+Nun muss die eingeschränkte Delegierung im Computerkonto des WAP-Servers in Active Directory konfiguriert werden. Möglicherweise müssen Sie einen Domänenadministrator hinzuziehen, wenn Sie keine Berechtigungen für Active Directory besitzen.
 
 Führen Sie zum Konfigurieren der eingeschränkten Delegierung die folgenden Schritte aus.
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Nachdem Sie die WAP-Anwendung hinzugefügt haben, müssen Sie „BackendServerAuthenticationMode“ auf die Verwendung von „IntegratedWindowsAuthentication“ festlegen. Sie benötigen die ID aus der WAP-Anwendung, um dies festzulegen.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Hinzufügen von Anwendungsgruppen](media/mobile-oauth-ssrs/wap-application-id.png)

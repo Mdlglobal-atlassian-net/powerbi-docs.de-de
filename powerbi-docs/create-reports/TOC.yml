@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: Erstellen von Power BI-Visuals mit R
               href: ../desktop-r-visuals.md
-            - name: Herunterladen und Verwenden R-gestützter benutzerdefinierter Visuals
+            - name: Herunterladen und Verwenden von R-gestützten Power BI-Visuals
               href: ../desktop-r-powered-custom-visuals.md
             - name: Anwenden von Gitternetzlinien und der Ausrichtung am Raster
               href: ../desktop-gridlines-snap-to-grid.md

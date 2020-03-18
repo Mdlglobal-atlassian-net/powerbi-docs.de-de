@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/24/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576762"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113151"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Von Power BI unterstützte Einblicke
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 Mit Power BI können Sie Ihre Daten durchsehen und interessante Trends und Muster finden. Diese Trends und Muster werden in Form von Visuals angezeigt, die *Erkenntnisse* genannt werden. 
 
@@ -75,7 +77,7 @@ Sucht periodische Muster in Zeitreihendaten, z. B. wöchentliche, monatliche od
 ![Beispiel für Saisonabhängigkeit](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Stetiger Anteil
-Hebt Fälle hervor, in denen eine Beziehung von übergeordneten und untergeordneten Elementen zwischen dem Anteil eines untergeordneten Werts in Bezug auf den Gesamtwert des übergeordneten Elements für eine kontinuierliche Variable vorhanden ist. Die Erkenntnis „Marktanteil“ wird im Kontext einer Kennzahl, einer Dimension oder einer anderen Datum/Uhrzeit-Dimension verwendet. Der Trigger wird ausgelöst, wenn ein bestimmter Dimensionswert (z.B. die Region „Nordosten“) einen konstanten prozentualen Anteil des Gesamtumsatzes für die jeweilige Datum/Uhrzeit-Dimension aufweist.
+Hebt Fälle hervor, in denen eine Beziehung von übergeordneten und untergeordneten Elementen zwischen dem Anteil eines untergeordneten Werts in Bezug auf den Gesamtwert des übergeordneten Elements für eine kontinuierliche Variable vorhanden ist. Die Erkenntnis „Marktanteil“ wird im Kontext einer Kennzahl, einer Dimension oder einer anderen Datum/Uhrzeit-Dimension verwendet. Dieser Trigger wird ausgelöst, wenn ein bestimmter Dimensionswert (z. B. die Region „Nordosten“) einen konstanten prozentualen Anteil des Gesamtumsatzes für die jeweilige Datum/Uhrzeit-Dimension aufweist.
 
 Diese Erkenntnis ist mit der Erkenntnis „Geringe Abweichung“ vergleichbar, da sich beide Erkenntnisse auf eine nicht vorhandene Änderung eines Werts im Lauf der Zeit beziehen. Mit der Erkenntnis „Marktanteil“ wird jedoch eine nicht vorhandene Änderung des **prozentualen Anteils am Gesamtwert** im Lauf der Zeit gemessen, mit der Erkenntnis „Geringe Abweichung“ hingegen eine nicht vorhandene Änderung bei den absoluten Messwerten einer Dimension.
 

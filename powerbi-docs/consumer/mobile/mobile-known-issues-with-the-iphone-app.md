@@ -1,19 +1,19 @@
 ---
 title: 'Fehlerbehebung: „Kommunikationsfehler“ in mobilen iOS-Apps – Power BI'
 description: Dieser Artikel ist möglicherweise hilfreich, wenn die Meldung „Kommunikationsfehler ist aufgetreten. Der Fehler hängt möglicherweise mit den Proxyeinstellungen für die Wi-Fi-Verbindung zusammen.“ angezeigt wird.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
-ms.author: mshenhav
-ms.openlocfilehash: 14745d1f2b62845ca0eac549b100bf3e06f8f814
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 0162d78fd4358f415ac52ea70bd3460d3c28b722
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879112"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114900"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>Fehlerbehebung: „Kommunikationsfehler“ in mobilen iOS-Apps – Power BI
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74310889"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401245"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Verwenden der Drillthroughfunktion in Power BI Desktop
 Mit einem *Drillthrough* können Sie in Power BI Desktop in Ihrem Bericht eine Seite erstellen, die sich auf eine bestimmte Entität konzentriert, z. B. auf einen Lieferanten, einen Kunden oder einen Hersteller. Um einen Drillthrough zu verwenden, klicken Sie mit der rechten Maustaste auf einen Datenpunkt in anderen Berichtsseiten und führen einen Drillthrough zu der fokussierten Seite aus, um Details abzurufen, die entsprechend diesem Kontext gefiltert sind.
@@ -33,6 +33,11 @@ Mit einem *Drillthrough* können Sie in Power BI Desktop in Ihrem Bericht eine S
     Wenn Sie dem Bereich **Drillthroughfilter** ein Feld hinzufügen, wird in Power BI Desktop automatisch ein *Zurück*-Schaltflächenvisual erstellt. Das Visual wird zur Schaltfläche in veröffentlichten Berichten. Benutzer, die Ihren Bericht im Power BI-Dienst nutzen, kehren mithilfe dieser Schaltfläche zu der Ausgangsberichtsseite zurück.
 
     ![Bild „Drillthrough“](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> Sie können einen Drillthrough zu einer Seite im selben Bericht konfigurieren und ausführen. Sie können jedoch keinen Drillthrough zu einer Seite in einem anderen Bericht ausführen.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Verwenden eines eigenen Bildes für die Schaltfläche „Zurück“    
  Da die Schaltfläche „Zurück“ ein Bild ist, können Sie das Bild dieses Visuals durch ein beliebiges Bild ersetzen. Das Visual wird weiterhin als Schaltfläche „Zurück“ fungieren, sodass die Berichtsleser zur vorherigen Seite zurückkehren können. 
@@ -54,13 +59,12 @@ Führen Sie die folgenden Schritte aus, um ein eigenes Bild für die Schaltfläc
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Übergeben aller Filter an Drillthrough
 
-Ab der Version vom Mai 2018 von Power BI Desktop können Sie alle angewendeten Filter an das Drillthroughfenster übergeben. Angenommen, Sie können nur eine bestimmte Produktkategorie und die dafür gefilterten Visuals auswählen und führen dann einen Drillthrough aus. Es interessiert Sie vielleicht, wie dieser Drillthrough mit all diesen angewendeten Filtern aussieht.
+Sie können alle angewendeten Filter an das Drillthroughfenster übergeben. Angenommen, Sie können nur eine bestimmte Produktkategorie und die dafür gefilterten Visuals auswählen und führen dann einen Drillthrough aus. Es interessiert Sie vielleicht, wie dieser Drillthrough mit all diesen angewendeten Filtern aussieht.
 
 Um alle angewendeten Filter beizubehalten, legen Sie im Bereich **Visualisierungen** im Abschnitt **Drillthrough** die Option **Alle Filter beibehalten** auf **Ein** fest. 
 
 ![Alle Filter beibehalten](media/desktop-drillthrough/drillthrough_06.png)
 
-In Power BI Desktop-Versionen, die vor Mai 2018 veröffentlicht wurden, entspricht das Verhalten dem Festlegen dieses Umschalters auf **Aus**.
 
 Beim anschließenden Drillthrough für ein Visual können Sie sehen, welche Filter angewendet wurden, weil auf das Quellvisual temporäre Filter angewendet wurden. Im Abschnitt **Drillthrough** des Bereichs **Visualisierung** werden diese vorübergehenden Filter kursiv dargestellt. 
 

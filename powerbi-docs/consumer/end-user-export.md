@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537499"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040139"
 ---
 # <a name="export-data-from-a-visual"></a>Exportieren von Daten aus einer Visualisierung
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Wenn Sie die Daten anzeigen möchten, auf deren Grundlage ein Visual erstellt wurde, können Sie die [Daten in Power BI anzeigen](end-user-show-data.md) oder in Excel exportieren. Die Option zum Exportieren der Daten erfordert einen bestimmten Typ oder eine bestimmte Lizenz und Bearbeitungsberechtigungen für den Inhalt. Wenn Sie nicht exportieren können, wenden Sie sich an den Power BI-Administrator. 
+Wenn Sie die Daten anzeigen möchten, auf deren Grundlage ein Visual erstellt wurde, können Sie die [Daten in Power BI anzeigen](end-user-show-data.md) oder in Excel exportieren. Die Option zum Exportieren der Daten erfordert einen bestimmten Typ oder eine bestimmte Lizenz und Bearbeitungsberechtigungen für den Inhalt. Wenn Sie nicht exportieren können, wenden Sie sich an den Power BI-Administrator. Zum Exportieren von Daten ist eine Power BI Pro-Lizenz erforderlich, entweder eine Pro-Benutzerlizenz oder eine Pro-Benutzerlizenz innerhalb einer Organisation mit Lizenz für Premium-Kapazität. In der Regel wird dieser Lizenztyp von *Berichtsdesignern* und nicht von *Consumern* verwendet. Weitere Informationen finden Sie unter [Welche Lizenz habe ich?](end-user-license.md).
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Aus einem Visual in einem Power BI-Dashboard
 
