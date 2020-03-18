@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875087"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488865"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Verwenden von Power BI Q&A zur Untersuchung Ihrer Daten und Erstellung von Visuals
 
 Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Mit dem Q&A-Feature in Power BI können Sie Ihre Daten in Ihren eigenen Worten untersuchen.  Der erste Teil dieses Artikels zeigt, wie Sie Q&A in Dashboards im Power BI-Dienst einsetzen. Der zweite Teil zeigt, was Sie mit Q&A bei der Erstellung von Berichten entweder im Power BI-Dienst oder in Power BI Desktop machen können. Weitere Informationen finden Sie im Artikel [Q&A für Power BI-Nutzer](consumer/end-user-q-and-a.md). 
 
-[Q&A in den Power BI Mobile-Apps](consumer/mobile/mobile-apps-ios-qna.md) sowie [Q&A mit Power BI Embedded](developer/qanda.md) werden in eigenen Artikeln behandelt. 
+[Q&A in den Power BI Mobile-Apps](consumer/mobile/mobile-apps-ios-qna.md) sowie [Q&A mit Power BI Embedded](developer/embedded/qanda.md) werden in eigenen Artikeln behandelt. 
 
 Q&A ist interaktiv und sogar unterhaltsam. Häufig führt eine Frage zur nächsten, weil die Visualisierungen interessante Aspekte für eine Weiterverfolgung aufwerfen. Sehen Sie sich an, wie Amanda mithilfe von Q&A Visualisierungen erstellt, diese Visuals erläutert und sie an Dashboards anheftet.
 

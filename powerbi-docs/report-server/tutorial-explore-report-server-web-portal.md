@@ -9,11 +9,11 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73859250"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207020"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Erkunden des Power BI-Berichtsserver-Webportals auf einem virtuellen Computer
 In diesem Tutorial erstellen Sie einen virtuellen Azure-Computer mit bereits installiertem Power BI-Berichtsserver, sodass Sie das Anzeigen, Bearbeiten und Verwalten von Power BI-Beispielberichten und paginierten Berichten sowie KPIs üben können.
@@ -190,7 +190,7 @@ Im Webportal können Sie paginierte Berichte anzeigen und verwalten sowie den Be
 
 1. Klicken Sie im Webportal unter **Paginierte Berichte** auf **Weitere Optionen** (...) neben **Sales Order** > **Verwalten**.
 
-1. Wählen Sie **Parameter** aus, ändern Sie den Standardwert für **SalesOrderNumber** zu **SO50689**, und klicken Sie auf **Anwenden**.
+1. Wählen Sie **Parameter** aus, ändern Sie den Standardwert für **SalesOrderNumber** zu **SO50689**, und klicken Sie auf  > **Anwenden**.
 
    ![Festlegen von Berichtsparametern](media/tutorial-explore-report-server-web-portal/power-bi-report-server-set-parameters.png)
 

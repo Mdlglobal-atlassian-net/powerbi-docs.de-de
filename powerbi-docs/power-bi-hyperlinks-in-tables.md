@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427804"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381259"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Hinzufügen von Links (URLs) zu einer Tabelle oder Matrix
 In diesem Thema erfahren Sie, wie einer Tabelle Links (URLs) hinzugefügt werden. Sie verwenden Power BI Desktop, um einem Dataset Links (URLs) hinzuzufügen. Sie können diese Links entweder in Power BI Desktop oder im Power BI-Dienst zu Ihren Berichtstabellen und Matrizen hinzufügen. Anschließend können Sie die URL oder ein Linksymbol anzeigen oder eine andere Spalte als Linktext formatieren.

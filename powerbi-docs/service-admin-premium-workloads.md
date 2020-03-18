@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427712"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207963"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Konfigurieren von Workloads in einer Premium-Kapazität
 
-In diesem Artikel erfahren Sie, wie Sie Workloads für Power BI Premium-Kapazitäten aktivieren und konfigurieren. Kapazitäten unterstützen standardmäßig nur die Workload für die Ausführung von Power BI-Abfragen. Sie können auch zusätzliche Workloads für **[KI (Cognitive Services)](service-cognitive-services.md)** , **[Dataflows](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** und **[Paginierte Berichte](paginated-reports-save-to-power-bi-service.md)** aktivieren und konfigurieren.
+In diesem Artikel erfahren Sie, wie Sie Workloads für Power BI Premium-Kapazitäten aktivieren und konfigurieren. Kapazitäten unterstützen standardmäßig nur die Workload für die Ausführung von Power BI-Abfragen. Sie können auch zusätzliche Workloads für **[KI (Cognitive Services)](service-cognitive-services.md)** , **[Dataflows](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** und **[Paginierte Berichte](paginated-reports/paginated-reports-save-to-power-bi-service.md)** aktivieren und konfigurieren.
 
 ## <a name="default-memory-settings"></a>Standardeinstellungen für den Arbeitsspeicher
 
@@ -67,7 +67,7 @@ Die Datasetworkload ist standardmäßig aktiviert und kann nicht deaktiviert wer
 | **Max Intermediate Row Set Count** (Maximale Anzahl von Zwischenrowsets) | Die maximale Anzahl von Zwischenzeilen, die von DirectQuery zurückgegeben werden. Der Standardwert ist 1.000.000, und der zulässige Bereich liegt zwischen 100.000 und 2.147.483.647. |
 | **Maximale Größe für Offlinedataset (GB)** | Die maximale Größe des Offlinedatasets im Arbeitsspeicher. Dies ist die komprimierte Größe auf dem Datenträger. Der Standardwert wird durch die SKU festgelegt, und der zulässige Bereich liegt zwischen 0,1 und 10 GB. |
 | **Max Result Row Set Count** (Maximale Anzahl von Ergebnisrowsets) | Die maximale Anzahl von Zeilen, die in einer DAX-Abfrage zurückgegeben werden. Der Standardwert ist -1 (keine Grenze), und der zulässige Bereich liegt zwischen 100000 und 2147483647. |
-| **Query Memory Limit (%)** (Arbeitsspeicherlimit für Abfragen (%)) | Der Prozentsatz des maximal verfügbaren Arbeitsspeichers in der Workload, der zum Ausführen einer MDX- oder DAX-Abfrage verwendet werden kann. |
+| **Query Memory Limit (%)** (Arbeitsspeicherlimit für Abfragen (%)) | Der Prozentsatz des maximal verfügbaren Arbeitsspeichers in der Workload, der zum Ausführen einer MDX- oder DAX-Abfrage verwendet werden kann. Der Standardwert ist 0 (null), was dazu führt, dass die SKU-spezifische automatische Abfragespeichergrenze angewendet wird. |
 | **Query Timeout (seconds)** (Abfragetimeout (Sekunden)) | Die maximale Zeitspanne bis zum Timeout einer Abfrage. Der Standardwert lautet 3.600 Sekunden (1 Stunde). Bei einem Wert von 0 (null) tritt kein Timeout für Abfragen auf. |
 | **Automatische Seitenaktualisierung (Vorschau)** | Ein-/Ausschalten, um für Premium-Arbeitsbereiche automatische Seitenaktualisierung zu ermöglichen. |
 | **Mindestintervall für Aktualisierung** | Wenn die automatische Seitenaktualisierung aktiviert ist, das minimal zulässige Intervall für die Seitenaktualisierung. Der Standardwert beträgt fünf Minuten, und der zulässige Mindestwert ist eine Sekunde. |
@@ -102,6 +102,14 @@ Verwenden Sie diese Einstellung, um die Auswirkungen ressourcenintensiver oder s
 Diese Einstellung gilt für alle DAX- und MDX-Abfragen, die durch Power BI-Berichte, „In Excel analysieren“-Berichte und andere Tools, zu denen über den XMLA-Endpunkt eine Verbindung hergestellt werden kann, ausgeführt werden.
 
 Beachten Sie, dass bei Datenaktualisierungsvorgängen beim Aktualisieren der Dashboardkacheln und visuellen Caches nach Aktualisierung der Daten im Dataset möglicherweise ebenfalls DAX-Abfragen ausführt werden. Aufgrund dieser Einstellung kommt es bei solchen Abfragen möglicherweise zu Fehlern, was dazu führen kann, dass der Datenaktualisierungsvorgang als fehlerhaft angezeigt wird, obwohl die Daten im Dataset erfolgreich aktualisiert wurden.
+
+Die Standardeinstellung ist 0 (null), was dazu führt, dass die folgende SKU-spezifische automatische Abfragespeichergrenze angewendet wird.
+
+|                              | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| Automatische Arbeitsspeichergrenze für Abfragen | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>Abfragetimeout
 
@@ -200,7 +208,7 @@ Die [Power BI Premium-Kapazitätsmetriken-App](service-admin-premium-monitor-c
 
 [Optimieren von Power BI Premium-Kapazitäten](service-premium-capacity-optimize.md)     
 [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)   
-[Was sind paginierte Berichte in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Was sind paginierte Berichte in Power BI Premium?](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Automatische Seitenaktualisierung in Power BI Desktop (Vorschau)](desktop-automatic-page-refresh.md)
 
 Weitere Fragen? [Fragen an die Power BI-Community](https://community.powerbi.com/)

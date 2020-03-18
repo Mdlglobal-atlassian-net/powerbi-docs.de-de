@@ -1,19 +1,19 @@
 ---
 title: Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 description: Erstellen Sie Dashboards und Berichte im Power BI-Dienst, oder stellen eine Verbindung mit diesen her. Zeigen Sie sie anschließend in den mobilen Power BI-Apps an.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218346"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205525"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 Gilt für:

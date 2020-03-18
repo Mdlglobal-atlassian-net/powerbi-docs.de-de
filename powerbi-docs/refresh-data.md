@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039029"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488796"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aktualisieren von Daten in Power BI
 
@@ -76,7 +76,7 @@ Da Power BI die Daten nicht importiert, müssen Sie keine Datenaktualisierung du
 Pushdatasets enthalten keine formale Definition einer Datenquelle, sodass Sie keine Datenaktualisierung in Power BI durchführen müssen. Sie aktualisieren sie, indem Sie Ihre Daten über einen externen Dienst oder Prozess wie z.B. Azure Stream Analytics in das Dataset pushen. Dies ist eine gängige Methode für Analysen in Echtzeit mit Power BI. Power BI führt weiterhin Cacheaktualisierungen für alle Kacheln durch, die auf einem Pushdataset verwendet werden. Eine ausführliche exemplarische Vorgehensweise finden Sie unter [Tutorial: Stream Analytics und Power BI: Ein Dashboard zur Echtzeitanalyse von Streamingdaten](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> Für den Pushmodus gelten mehrere Einschränkungen, wie in [Einschränkungen für Power BI-REST-API](developer/api-rest-api-limitations.md) dokumentiert.
+> Für den Pushmodus gelten mehrere Einschränkungen, wie in [Einschränkungen für Power BI-REST-API](developer/automation/api-rest-api-limitations.md) dokumentiert.
 
 ### <a name="power-bi-refresh-types"></a>Power BI-Aktualisierungstypen
 
@@ -317,7 +317,7 @@ Das Warnungssymbol dient dazu, aktuelle Probleme mit dem Dataset anzuzeigen, abe
 
 ## <a name="automatic-page-refresh"></a>Automatische Seitenaktualisierung
 
-Die automatische Seitenaktualisierung funktioniert auf Berichtsseitenebene und ermöglicht Berichtsautoren, ein Aktualisierungsintervall für Visuals auf einer Seite festzulegen, das nur aktiv ist, wenn die Seite genutzt wird. Die automatische Seitenaktualisierung ist nur für DirectQuery-Datenquellen verfügbar. Das mindestens erforderliche Aktualisierungsintervall hängt davon ab, in welchem Typ von Arbeitsbereich der Bericht veröffentlicht wird und welche Administratoreinstellungen für Premium-Arbeitsbereiche und [eingebettete Arbeitsbereiche](developer/embedding.md) gelten.
+Die automatische Seitenaktualisierung funktioniert auf Berichtsseitenebene und ermöglicht Berichtsautoren, ein Aktualisierungsintervall für Visuals auf einer Seite festzulegen, das nur aktiv ist, wenn die Seite genutzt wird. Die automatische Seitenaktualisierung ist nur für DirectQuery-Datenquellen verfügbar. Das mindestens erforderliche Aktualisierungsintervall hängt davon ab, in welchem Typ von Arbeitsbereich der Bericht veröffentlicht wird und welche Administratoreinstellungen für Premium-Arbeitsbereiche und [eingebettete Arbeitsbereiche](developer/embedded/embedding.md) gelten.
 
 Weitere Informationen zur automatischen Seitenaktualisierung finden Sie im Artikel [Automatische Seitenaktualisierung](desktop-automatic-page-refresh.md).
 

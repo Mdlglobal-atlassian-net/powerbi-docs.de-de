@@ -10,11 +10,11 @@ ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876893"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207733"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Unterstützte Sprachen und Länder/Regionen für Power BI
 
@@ -82,7 +82,7 @@ Einige Features sind derzeit nur auf Englisch verfügbar:
 Wir arbeiten derzeit daran, zusätzliche Features für andere Sprachen verfügbar zu machen. 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Auswählen Ihrer Sprache im Power BI-Dienst
-1. Wählen Sie im Power BI-Dienst das Symbol **Einstellungen** ![Symbol „Einstellungen“](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Einstellungen** aus.
+1. Wählen Sie im Power BI-Dienst das Symbol **Einstellungen**![Symbol „Einstellungen“](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Einstellungen** aus.
 2. Wählen Sie auf der Registerkarte **Allgemein** die Option **Sprache** aus.
 3. Wählen Sie Ihre Sprache und dann **Anwenden** aus.
 
@@ -151,7 +151,7 @@ Egal, ob Sie Power BI Desktop herunterladen oder aus dem Windows Store installie
 3. Wählen Sie im Feld **Gebietsschema für Import** ein anderes Gebietsschema aus. 
    
    ![Dialogfeld „Optionen“ in Power BI Desktop](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
-4. Wählen Sie **OK**aus.
+4. Wählen Sie **OK** aus.
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Auswählen der Sprache für das Modell in Power BI Desktop
 

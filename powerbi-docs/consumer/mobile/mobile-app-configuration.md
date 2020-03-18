@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496753"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205548"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Remotekonfiguration der Power BI-App mithilfe des Tools für die mobile Geräteverwaltung
 
@@ -22,8 +22,8 @@ Die Power BI Mobile-App für iOS und Android unterstützt App-Einstellungen, mit
 Die Power BI Mobile-App unterstützt die folgenden Konfigurationsszenarios:
 
 * Berichtsserverkonfiguration (iOS und Android)
-* Datenschutzeinstellungen (iOS und Android)
-* Interaktionseinstellungen (Android)
+* Datenschutzeinstellungen (iOS)
+* Interaktionseinstellungen (iOS und Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Berichtsserverkonfiguration (iOS und Android)
 
@@ -38,19 +38,23 @@ Die Power BI-App für iOS und Android ermöglicht Administratoren, die Berichtss
 
 ## <a name="data-protection-settings-ios"></a>Datenschutzeinstellungen (iOS)
 
-Die Power BI-App für iOS und Android bietet Administratoren die Möglichkeit, die Standardkonfiguration der Sicherheits- und Datenschutzeinstellungen anzupassen. Sie können erzwingen, dass Benutzer Face ID, Touch ID oder ihren Passcode bereitstellen müssen, wenn sie auf die Power BI-App zugreifen.
+Die Power BI-App für iOS bietet Administratoren die Möglichkeit, die Standardkonfiguration für Sicherheits- und Datenschutzeinstellungen anzupassen. Sie können erzwingen, dass Benutzer Face ID, Touch ID oder ihren Passcode bereitstellen müssen, wenn sie auf die Power BI-App zugreifen.
 
 | Schlüssel | Typ | Beschreibung |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolescher Wert | Der Standardwert ist FALSE. <br><br>Biometrische Methoden wie TouchID oder FaceID können für den Zugriff von Benutzern auf die App auf ihrem Gerät erforderlich sein. Wenn dies der Fall ist, werden biometrische Methoden zusätzlich zur Authentifizierung verwendet.<br><br>Microsoft empfiehlt bei Verwendung von App-Schutzrichtlinien das Deaktivieren dieser Einstellung, um zwei Aufforderungen hinsichtlich des Zugriffs zu verhindern. |
 
-## <a name="interaction-settings-android"></a>Interaktionseinstellungen (Android)
+## <a name="interaction-settings-ios-and-android"></a>Interaktionseinstellungen (iOS und Android)
 
-Die Power BI-App für Android bietet Administratoren die Möglichkeit, die Interaktionseinstellungen zu konfigurieren, wenn die Standardeinstellungen für Interaktionen für mehrere Benutzergruppen in einer Organisation geändert werden müssen. 
+Die Power BI-App für iOS und Android bietet Administratoren die Möglichkeit, die Interaktionseinstellungen zu konfigurieren, wenn die Standardeinstellungen für Interaktionen für mehrere Benutzergruppen in einer Organisation geändert werden müssen.
+
+>[!NOTE]
+>Nicht alle Interaktionen werden zurzeit auf allen Geräten unterstützt. Ein Diagramm, das die aktuelle Verfügbarkeit für Geräte darstellt, finden Sie unter [Konfigurieren der Interaktionseinstellungen für Berichte](mobile-app-interaction-settings.md).
 
 | Schlüssel | Typ | Werte | Beschreibung |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | Zeichenfolge |  <nobr>single-tap</nobr> (einfaches Tippen)<br><nobr>double-tap</nobr> (Doppeltippen) | Konfiguriert, ob durch das Tippen auf ein Visual auch ein Datenpunkt ausgewählt wird. |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Zeichenfolge |  <nobr>single-tap</nobr> (einfaches Tippen)<br><nobr>double-tap</nobr> (Doppeltippen) | Konfiguriert, ob durch Tippen auf ein Visual auch ein Datenpunkt ausgewählt wird. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Boolescher Wert |  <nobr>Wahr</nobr><br><nobr>False</nobr> | Konfiguriert, ob durch das Tippen auf einen Datenpunkt die aktuelle Auswahl ersetzt oder der Tipp zur aktuellen Auswahl hinzugefügt wird. |
 | com.microsoft.powerbi.mobile.RefreshAction | Zeichenfolge |  <nobr>pull-to-refresh</nobr> (Zum Aktualisieren nach unten ziehen)<br>aus. | Konfiguriert, ob dem Benutzer eine Schaltfläche zum Aktualisieren des Berichts zur Verfügung gestellt wird oder ob er das Feature „Zum Aktualisieren nach unten ziehen“ verwenden soll. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Zeichenfolge |  docked (gedockt)<br>dynamisch | Konfiguriert, ob die Fußzeile des Berichts am unteren Rand angedockt oder automatisch ausgeblendet wird. |
 

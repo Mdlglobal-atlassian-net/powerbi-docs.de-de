@@ -1,19 +1,19 @@
 ---
 title: Power BI for Mixed Reality-App (Vorschauversion)
 description: Zeigen Sie Ihre Dashboards und Berichte in der Power BI for Mixed Reality-App (Vorschauversion) an, egal ob in der virtuellen Welt oder in Ihrer physischen Umgebung.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879126"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205916"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
 Zeigen Sie Ihre Dashboards und Berichte in der Power BI for Mixed Reality-App (Vorschauversion) an, während Sie sich in der virtuellen Welt befinden, oder platzieren Sie diese in Ihrer Umgebung an bestimmten Orten. 

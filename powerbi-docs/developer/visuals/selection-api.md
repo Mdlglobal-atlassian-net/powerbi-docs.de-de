@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818891"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379689"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Hinzufügen von Interaktivität zu Visuals mithilfe von Auswahlmöglichkeiten für Power BI-Visuals
 
@@ -179,11 +179,11 @@ Wenn der Benutzer `Import Car` nach `Type` (wählt Daten nach Reihe aus) auswäh
 | Nissan | **Import-Kfz** | 5485 |
 | Toyota | **Import-Kfz** | 20799 |
 
-![Das Visual mit den Auswahlen für Kategorien und Datenreihen](media/visual-selections-sample.png)
+![Das Visual mit den Auswahlen für Kategorien und Datenreihen](media/selection-api/visual-selections-sample.png)
 
 Die Data Baskets des Visuals müssen gefüllt werden.
 
-![Daten Baskets des VIsuals mit getroffener Auswahl](media/visual-selections-databuckets.png)
+![Daten Baskets des VIsuals mit getroffener Auswahl](media/selection-api/visual-selections-databuckets.png)
 
 Es gibt `Manufacturer` als Kategorie (Spalten), `Type` als Datenreihe (Zeilen) und `Value` als `Values` für Datenreihen.
 

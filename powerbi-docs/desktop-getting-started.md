@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222453"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133314"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Leitfaden „Erste Schritte mit Power BI Desktop“. Im Folgenden wird veranschaulicht, wie Power BI Desktop funktioniert, wofür dieser Dienst verwendet werden kann und wie Sie stabile Datenmodelle und aussagekräftige Berichte erstellen, um Ihre Business Intelligence auszubauen.
 
 Wenn Sie sich nur einen groben Überblick für die Funktions- und Verwendungsweise von Power BI Desktop machen möchten, reicht es, wenn Sie sich die einzelnen Abbildungen in diesem Artikel ansehen. Dafür benötigen Sie nur wenige Minuten. Ein tiefgreifendes Verständnis gewinnen Sie, wenn Sie jeden Abschnitt sorgfältig lesen, die einzelnen Schritte durchführen und Ihre eigene Power BI Desktop-Datei erstellen, die Sie anschließend im [Power BI-Dienst](https://app.powerbi.com/) veröffentlichen und für andere freigeben können.
 
-![Power BI Desktop-Bericht](media/desktop-getting-started/hero.png)
+![Power BI Desktop-Bericht](media/desktop-getting-started/hero-02.png)
 
 Sie können sich auch das Video [Erste Schritte mit Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) ansehen und die Excel-Arbeitsmappe mit [Finanzbeispielen](https://go.microsoft.com/fwlink/?LinkID=521962) herunterladen, um dem Video besser folgen zu können.
 
