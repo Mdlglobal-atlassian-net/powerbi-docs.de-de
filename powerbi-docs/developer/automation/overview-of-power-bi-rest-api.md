@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079414"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488430"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Welche Möglichkeiten bietet die Power BI-API für Entwickler?
 
@@ -25,10 +25,10 @@ Einige der Möglichkeiten, die die Power BI-APIs bieten:
 
 | **Weitere Informationen** | **Referenz zu diesen Informationen** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Einbetten von Dashboards, Berichten und Kacheln für Benutzer, die Power BI verwenden und nicht verwenden | [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](../embed-sample-for-customers.md) |
+| Einbetten von Dashboards, Berichten und Kacheln für Benutzer, die Power BI verwenden und nicht verwenden | [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](../embedded/embed-sample-for-customers.md) |
 | Ausführen von Verwaltungsaufgaben für Power BI-Objekte | [Referenz zur Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) |
 | Erweitern eines vorhandenen Geschäftsworkflows, um wichtige Daten per Push in ein Power BI-Dashboard zu übertragen. | [Übertragen von Daten in ein Dashboard per Push](walkthrough-push-data.md) |
-| Authentifizieren bei Power BI. | [Authentifizieren bei Power BI](../get-azuread-access-token.md) |
+| Authentifizieren bei Power BI. | [Authentifizieren bei Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > In Power BI-APIs werden Arbeitsbereiche weiterhin als Gruppen bezeichnet. Alle Verweise auf Gruppen bedeuten, dass Sie mit Arbeitsbereichen arbeiten.

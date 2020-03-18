@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879959"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379541"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Hinzufügen von Komponententests zu Power BI-Visualprojekten
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` führt den Testfall im Chrome-Browser aus.
 
-![In Chrome geöffnetes Karma-JavaScript](./media/karmajs-chrome.png)
+![In Chrome geöffnetes Karma-JavaScript](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Sie müssen Google Chrome lokal installieren.
@@ -453,7 +453,7 @@ Die `SampleBarChartDataBuilder`-Klasse erbt von `TestDataViewBuilder` und implem
 
 Wenn Sie Daten in Datenfeldbuckets eingeben, generiert Power BI ein `dataview`-Kategorieobjekt, das auf den Daten basiert.
 
-![Datenfeldbuckets](./media/fields-buckets.png)
+![Datenfeldbuckets](media/unit-tests-introduction/fields-buckets.png)
 
 In Komponententests stehen keine Power BI-Kernfunktionen zur Verfügung, mit denen sich die Daten kopieren lassen. Sie müssen die statischen Daten jedoch dem `dataview`-Kategorieobjekt zuordnen. Dabei unterstützt Sie die `TestDataViewBuilder`-Klasse.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 Das Visual wird im Chrome-Browser geöffnet und wie folgt dargestellt:
 
-![Komponententest wird in Chrome gestartet.](./media/karmajs-chrome-ut-runned.png)
+![Komponententest wird in Chrome gestartet.](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 Aus der Zusammenfassung geht hervor, dass sich die Code Coverage erhöht hat. Weitere Informationen zur aktuellen Code Coverage finden Sie in der Datei `coverage\index.html`.
 
-![Code Coverage-Index des Komponententests](./media/code-coverage-index.png)
+![Code Coverage-Index des Komponententests](media/unit-tests-introduction/code-coverage-index.png)
 
 Sie können sich auch die Code Coverage für den Ordner `src` ansehen:
 
-![Code Coverage für Ordner „src“](./media/code-coverage-src-folder.png)
+![Code Coverage für Ordner „src“](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 Sie können sich für jede Datei den Quellcode anzeigen lassen. Die `Coverage`-Hilfsprogramme heben Zeilen rot hervor, wenn bestimmter Code während der Komponententests nicht ausgeführt wird.
 
-![Code Coverage der Datei „visual.ts“](./media/code-coverage-visual-src.png)
+![Code Coverage der Datei „visual.ts“](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > Die Code Coverage sagt nichts darüber aus, ob ein Großteil der Visualfunktionen getestet wurde. Ein einfacher Komponententest führt zu einer Code Coverage von über 96 % in `src\visual.ts`.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Sobald Ihr Visual bereit ist, können Sie es zur Veröffentlichung übermitteln. Weitere Informationen finden Sie unter [Veröffentlichen von Power BI-Visuals in AppSource](../office-store.md).
+Sobald Ihr Visual bereit ist, können Sie es zur Veröffentlichung übermitteln. Weitere Informationen finden Sie unter [Veröffentlichen von Power BI-Visuals in AppSource](office-store.md).

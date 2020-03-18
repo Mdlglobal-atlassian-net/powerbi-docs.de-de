@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757851"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436063"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Erstellen und Verwenden von Flächenkartogrammen (Choroplethenkarten) in Power BI
 
@@ -63,7 +63,7 @@ In diesem Video wird eine einfache Karte erstellt und in ein Flächenkartogramm 
    > 
    > 
 
-[VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+> [VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Erstellen eines Flächenkartogramms
 1. Wählen Sie im Bereich „Felder“ das Feld **Geo** \> **State** (Bundesstaat) aus.    
@@ -130,7 +130,7 @@ Kartendaten sind unter Umständen nicht eindeutig.  Neben Paris in Frankreich gi
 
 Wenn Sie zum Bearbeiten des Datasets in Power BI Desktop berechtigt sind, erfahren Sie in diesem Video, wie Sie Mehrdeutigkeiten in Karten beheben.
 
-[VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 [Führen Sie zum Aktualisieren des Datasets diese Anweisungen aus](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7), wenn Sie zwar über Bearbeitungszugriff für das Dataset, aber nicht über Zugriff auf die Breiten- und Längengraddaten verfügen.
 

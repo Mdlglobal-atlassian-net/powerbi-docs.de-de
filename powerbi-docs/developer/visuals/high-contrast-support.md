@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880049"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380133"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Unterstützung des Modus für hohen Kontrast in Power BI-Visuals
 
@@ -82,9 +82,9 @@ Native Power BI-Visuals folgen diesen Richtlinien:
 
 Im folgenden Balkendiagrammbeispiel werden beispielsweise alle Balken mit einer Vordergrundkonturlinie von zwei Pixeln und Hintergrundfüllung gezeichnet. Vergleichen Sie, wie sich die Darstellungsweise ändert, wenn Sie Standardfarben bzw. verschiedene kontrastreiche Designs verwenden:
 
-![Balkendiagramm-Beispiel mit Standardfarben](./media/hc-samplebarchart-standard.png)
-![Balkendiagramm-Beispiel mit dem Farbdesign *Dark #2*](./media/hc-samplebarchart-dark2.png)
-![Balkendiagramm-Beispiel mit dem Farbdesign *White*](./media/hc-samplebarchart-white.png)
+![Balkendiagramm-Beispiel mit Standardfarben](media/high-contrast-support/hc-samplebarchart-standard.png)
+![Balkendiagramm-Beispiel mit dem Farbdesign *Dark #2*](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![Balkendiagramm-Beispiel mit dem Farbdesign *White*](media/high-contrast-support/hc-samplebarchart-white.png)
 
 Der nächste Abschnitt zeigt eine Stelle in der `visualTransform`-Funktion an, die geändert wurde, um einen hohen Kontrast zu unterstützen. Sie wird während des Updates als Teil des Renderings aufgerufen.
 

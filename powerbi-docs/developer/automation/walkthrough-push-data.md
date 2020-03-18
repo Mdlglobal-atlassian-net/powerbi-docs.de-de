@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079276"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488198"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Übertragen von Daten in ein Power BI-Dataset per Push
 
 Mit der Power BI-API können Sie Daten per Push in ein Power BI-Dataset übertragen. In diesem Artikel erfahren Sie, wie Sie ein Sales Marketing-Dataset, das eine Tabelle „Product“ enthält, per Push in ein vorhandenes Dataset übermitteln.
 
-Damit Sie beginnen können, benötigen Sie ein Azure Active Directory- (Azure AD) und ein [Power BI-Konto](../create-an-azure-active-directory-tenant.md).
+Damit Sie beginnen können, benötigen Sie ein Azure Active Directory- (Azure AD) und ein [Power BI-Konto](../embedded/create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Schritte zum Übertragen von Daten per Push in ein Dataset
 
-* Schritt 1: [Registrieren einer App in Azure AD](../register-app.md)
+* Schritt 1: [Registrieren einer App in Azure AD](../embedded/register-app.md)
 * Schritt 2: [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md)
 * Schritt 3: [Erstellen eines Datasets in Power BI](walkthrough-push-data-create-dataset.md)
 * Schritt 4: [Abrufen eines Datasets, um einer Power BI-Tabelle Zeilen hinzuzufügen](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Für ein Power BI-Tabellenschema können Sie die folgenden Datentypen verwenden.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Weitere Informationen zum Übertragen von Daten per Push in Power BI
 
-Informationen zum Einstieg in das Übertragen von Daten per Push in ein Dataset finden Sie links im Navigationsbereich unter [Schritt 1: Registrieren einer App in Azure AD](../register-app.md) im Navigationsbereich.
+Informationen zum Einstieg in das Übertragen von Daten per Push in ein Dataset finden Sie links im Navigationsbereich unter [Schritt 1: Registrieren einer App in Azure AD](../embedded/register-app.md) im Navigationsbereich.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* [Registrieren bei Power BI](../create-an-azure-active-directory-tenant.md)  
+* [Registrieren bei Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Einführung in JSON](https://json.org/)  
 * [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
 

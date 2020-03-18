@@ -12,11 +12,11 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128365"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207917"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Grundlegende Konzepte für Designer im Power BI-Dienst
 

@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079115"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488267"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Schritt 2: Abrufen eines Authentifizierungszugriffstokens
 
 Dieser Artikel ist der zweite Schritt in der Reihe [Push data into a Power BI dataset (Übertragen von Daten in ein Power BI-Dataset mithilfe von Push)](walkthrough-push-data.md).
 
-In Schritt 1 haben Sie [eine Client-App in Azure AD registriert](../register-app.md). In diesem Schritt rufen Sie ein Authentifizierungszugriffstoken ab. Power BI-Apps sind in Azure Active Directory integriert, um eine sichere Anmeldung und Autorisierung bei Ihrer App zu ermöglichen. Ihre App verwendet ein Token für die Authentifizierung bei Azure AD und den Zugriff auf Power BI-Ressourcen.
+In Schritt 1 haben Sie [eine Client-App in Azure AD registriert](../embedded/register-app.md). In diesem Schritt rufen Sie ein Authentifizierungszugriffstoken ab. Power BI-Apps sind in Azure Active Directory integriert, um eine sichere Anmeldung und Autorisierung bei Ihrer App zu ermöglichen. Ihre App verwendet ein Token für die Authentifizierung bei Azure AD und den Zugriff auf Power BI-Ressourcen.
 
 ## <a name="get-an-authentication-access-token"></a>Abrufen eines Authentifizierungszugriffstokens
 
-Bevor Sie beginnen, sollten Sie sicherstellen, dass Sie den [vorherigen Schritt](../register-app.md) der Reihe [Push data into a Power BI dataset (Übertragen von Daten in ein Power BI-Dataset mithilfe von Push)](walkthrough-push-data.md) abgeschlossen haben. 
+Bevor Sie beginnen, sollten Sie sicherstellen, dass Sie den [vorherigen Schritt](../embedded/register-app.md) der Reihe [Push data into a Power BI dataset (Übertragen von Daten in ein Power BI-Dataset mithilfe von Push)](walkthrough-push-data.md) abgeschlossen haben. 
 
 Für dieses Verfahren ist Visual Studio 2015 oder eine höhere Version erforderlich.
 
@@ -39,7 +39,7 @@ Für dieses Verfahren ist Visual Studio 2015 oder eine höhere Version erforderl
 
 3. Fügen Sie der „Program.cs“-Datei den im Folgenden aufgeführten Beispielcode hinzu.
 
-4. Ersetzen Sie „{ClientID}“ durch die **Client-ID**, die Sie in den [vorherigen Schritten](../register-app.md) beim Registrieren der App erhalten haben.
+4. Ersetzen Sie „{ClientID}“ durch die **Client-ID**, die Sie in den [vorherigen Schritten](../embedded/register-app.md) beim Registrieren der App erhalten haben.
 
 5. Führen Sie die Konsolen-App aus, und melden Sie sich bei Ihrem Power BI-Konto an. 
 

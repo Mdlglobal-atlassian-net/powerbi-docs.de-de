@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155017"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487807"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Administratorleitfaden zu Mandanteneinstellungen
 
@@ -128,7 +128,7 @@ Wenn Sie externe Benutzer dazu autorisieren müssen, Inhalte zu bearbeiten und z
 
 ### <a name="developer-settings"></a>Entwicklereinstellungen
 
-Es gibt zwei Mandanteneinstellungen für das [Einbetten von Power BI-Inhalten](../developer/embedding.md). Sie lauten wie folgt:
+Es gibt zwei Mandanteneinstellungen für das [Einbetten von Power BI-Inhalten](../developer/embedded/embedding.md). Sie lauten wie folgt:
 
 - Einbetten von Inhalten in Apps (standardmäßig aktiviert)
 - Gestatten, dass Dienstprinzipale Power BI-APIs verwenden (standardmäßig deaktiviert)
