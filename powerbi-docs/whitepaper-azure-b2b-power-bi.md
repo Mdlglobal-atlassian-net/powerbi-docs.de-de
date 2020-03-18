@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213601"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488589"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Verteilen von Power BI Inhalt an externe Gastbenutzer mit Azure Active Directory B2B
 
@@ -336,7 +336,7 @@ Es ist wichtig zu erkennen, dass das Azure AD Konto im Azure Ad der externen Par
 Mit einem von drei Ansätzen können Gastbenutzer von seinen Lieferanten und Partnerorganisationen auf Power BI Inhalte zugreifen.
 
 > [!NOTE]
-> _Der Free-Tarif Azure AD B2B's reicht für die Verwendung von Power BI mit Azure AD B2B aus. Für einige erweiterte Azure AD B2B-Features wie dynamische Gruppen ist eine zusätzliche Lizenzierung erforderlich. Weitere Informationen finden Sie in der Azure AD B2B-Dokumentation:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Der Free-Tarif Azure AD B2B's reicht für die Verwendung von Power BI mit Azure AD B2B aus. Für einige erweiterte Azure AD B2B-Features wie dynamische Gruppen ist eine zusätzliche Lizenzierung erforderlich. Weitere Informationen finden Sie in der Azure AD B2B-Dokumentation:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Ansatz 1: von "Configuration Manager" verwendet Power BI Premium
 
@@ -576,7 +576,7 @@ Gründe für die Auswahl dieser Alternativen:
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Alternative Option 2: Erstellen einer benutzerdefinierten Power BI Embedded Anwendung mithilfe der benutzerdefinierten Authentifizierung
 
-Eine weitere Option für "Configuration Manager" besteht darin, eine eigene benutzerdefinierte eingebettete Power BI Anwendung mit benutzerdefinierter Authentifizierung (["App besitzt Daten"](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)) zu erstellen. Obwohl viele Organisationen nicht über die Zeit oder Ressourcen zum Erstellen einer benutzerdefinierten Anwendung verfügen, um Power BI Inhalte an externe Partner zu verteilen, ist dies für einige Organisationen der beste Ansatz und verdient ernsthafte Überlegungen.
+Eine weitere Option für "Configuration Manager" besteht darin, eine eigene benutzerdefinierte eingebettete Power BI Anwendung mit benutzerdefinierter Authentifizierung (["App besitzt Daten"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)) zu erstellen. Obwohl viele Organisationen nicht über die Zeit oder Ressourcen zum Erstellen einer benutzerdefinierten Anwendung verfügen, um Power BI Inhalte an externe Partner zu verteilen, ist dies für einige Organisationen der beste Ansatz und verdient ernsthafte Überlegungen.
 
 Häufig verfügen Organisationen über vorhandene Partnerportale, die den Zugriff auf alle Organisations Ressourcen für Partner zentralisieren, die Isolation interner Organisations Ressourcen bereitstellen und für Partner optimierte Möglichkeiten zur Unterstützung vieler Partner bereitstellen. die einzelnen Benutzer.
 
