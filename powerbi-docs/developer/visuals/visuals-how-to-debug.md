@@ -73,7 +73,7 @@ public update(options: VisualUpdateOptions) {
 
 Sie können den Browser auch so einrichten, dass bei abgefangenen Ausnahmen die Ausführung unterbrochen wird. Damit wird die Codeausführung angehalten, sobald ein Fehler auftritt, und Sie können das Debuggen ab diesem Punkt fortsetzen.
 
-### <a name="edge"></a>Microsot Edge
+### <a name="edge"></a>Microsoft Edge
 
 1. Öffnen Sie die Entwicklertools (F12).
 2. Wechseln Sie zur Registerkarte **Debugger**.
