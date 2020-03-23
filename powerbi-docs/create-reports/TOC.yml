@@ -11,8 +11,8 @@
     - name: Lernprogramme
       expanded: true
       items:
-        - name: 'Praxislab: Erstellen eines paginierten Berichts'
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'Onlinekurs: Paginierte Berichte'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: Erstellen und Hochladen eines paginierten Berichts
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Beispiele
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: Exemplarische Vorgehensweisen
       items:
-        - name: Veröffentlichen von Datasets und Berichten
-          href: ../desktop-upload-desktop-files.md
-        - name: "Hinzufügen von Visuals zu einem Power BI-Bericht (Teil\_1)"
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: "Hinzufügen von Visuals zu einem Power BI-Bericht (Teil\_2)"
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Anpassen der Titel, Hintergründe und Legenden von Visuals'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Elemente ohne Daten in Power BI anzeigen
-          href: ../desktop-show-items-no-data.md
-        - name: Anwenden von autom. Datum/Uhrzeit
-          href: ../desktop-auto-date-time.md
         - name: Power BI-Berichte
           items:
             - name: Aktivieren der automatischen Seitenaktualisierung (Vorschau)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: Exportieren eines Power BI-Berichts nach Power BI Desktop (Vorschauversion)
               href: ../service-export-to-pbix.md
+            - name: Veröffentlichen von Datasets und Berichten
+              href: ../desktop-upload-desktop-files.md
         - name: Visualisierungen
           items:
+            - name: "Hinzufügen von Visuals zu einem Power BI-Bericht (Teil\_1)"
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: "Hinzufügen von Visuals zu einem Power BI-Bericht (Teil\_2)"
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: Hinzufügen von Visuals zu Power BI-Berichten
               href: ../visuals/power-bi-report-visualizations.md
             - name: Ändern von Visuals in Power BI-Berichten
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 'Anpassen der Titel, Hintergründe und Legenden von Visuals'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: Elemente ohne Daten in Power BI anzeigen
+              href: ../desktop-show-items-no-data.md
             - name: Anwenden von Datenpunktgrenzwerten und Strategien nach Visualtyp
               href: ../visuals/power-bi-data-points.md
             - name: Anzeigen der zugrunde liegenden Daten eines Visuals
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Paginierte Berichte
           items:
+            - name: 'Praxislab: Erstellen eines paginierten Berichts'
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Eingeben von Daten direkt in einem paginierten Bericht
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Erstellen einer eingebetteten Datenquelle
