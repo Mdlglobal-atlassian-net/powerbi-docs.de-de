@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753189"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525635"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Erwerben und Zuweisen von Power BI Pro-Benutzerlizenzen
 
@@ -28,7 +28,7 @@ Power BI Pro wird als Einzelbenutzerlizenz bereitgestellt, die Benutzern das Les
 In diesem Artikel wird erläutert, wie Sie Power BI Pro-Benutzerlizenzen im Microsoft 365 Admin Center erwerben. Nach dem Erwerb von Lizenzen können Sie diese Benutzern entweder im Microsoft 365 Admin Center oder im Azure-Portal zuweisen.
 
 > [!NOTE]
-> Ab dem 14. Januar 2020 stehen für kommerzielle Cloudkunden in den USA Self-Service-Einkäufe, Abonnement- und Lizenzverwaltungsfunktionen für Power Platform-Produkte (Power BI, Power Apps und Power Automate) zur Verfügung. Weitere Informationen – einschließlich der Schritte zum Aktivieren oder Deaktivieren des Self-Service-Erwerbs in Ihrer Organisation – finden Sie unter [FAQ zum Self-Service-Kauf](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
+> Ab dem 14. Januar 2020 stehen für kommerzielle Cloudkunden Self-Service-Einkaufs-, Abonnement- und Lizenzverwaltungsfunktionen für Power Platform-Produkte (Power BI, Power Apps und Power Automate) zur Verfügung. Weitere Informationen – einschließlich der Schritte zum Aktivieren oder Deaktivieren des Self-Service-Erwerbs in Ihrer Organisation – finden Sie unter [FAQ zum Self-Service-Kauf](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
 
 ### <a name="prerequisites"></a>Voraussetzungen
 

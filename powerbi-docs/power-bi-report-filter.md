@@ -1,20 +1,20 @@
 ---
 title: Neue Filteroberfläche in Power BI-Berichten
-description: Filter in Power BI erhalten eine neue Funktionalität und ein neues Design.
+description: Filter in Power BI haben eine neue Funktionalität und ein neues Design.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762529"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201846"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Verwenden von Filtern in Power BI-Berichten
 
@@ -44,7 +44,7 @@ Die neue Filteroberfläche ist für neue Berichte standardmäßig aktiviert. Sie
 
 1. Wählen Sie in Power BI Desktop in einem vorhandenen Bericht **Datei** > **Optionen und Einstellungen** > **Optionen** aus.
 2. Wählen Sie im Navigationsbereich unter **Aktuelle Datei** den Eintrag **Berichtseinstellungen** aus.
-3. Wählen Sie unter **Benutzeroberfläche zur Filterung** die Option **Aktualisierten Filterbereich aktivieren und Filter im Visualheader für diesen Bericht anzeigen** aus.
+3. Klicken Sie unter **Benutzeroberfläche zur Filterung** auf **Aktualisierten Filterbereich aktivieren und Filter im Visualheader für diesen Bericht anzeigen**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Aktivieren von neuen Filtern für einen vorhandenen Bericht im Power BI-Dienst
 
@@ -52,9 +52,12 @@ Wenn Sie das **neue Design** im Power BI-Dienst aktiviert haben ![Neues Design e
 
 Wenn Sie das neue Design nicht aktiviert haben, können Sie die neue Filteroberfläche mithilfe der folgenden Schritte dennoch anzeigen:
 
-1. Klicken Sie in der Inhaltsliste für einen Arbeitsbereich im Power BI-Dienst auf die Registerkarte **Berichte**.
-2. Suchen Sie den zu aktivierenden Bericht, und klicken Sie für diesen Bericht auf das **Einstellungssymbol**![Berichteinstellungssymbol](media/power-bi-report-filter/power-bi-settings-icon.png).
-3. Wählen Sie unter **Benutzeroberfläche zur Filterung** die Option **Aktualisierten Filterbereich aktivieren und Filter im Visualheader für diesen Bericht anzeigen** aus.
+1. Öffnen Sie die Inhaltsliste für einen Arbeitsbereich im Power BI-Dienst.
+2. Suchen Sie nach dem Bericht, für den Sie die neue Filteroberfläche aktivieren wollen, und klicken Sie auf **Weitere Optionen (...)** und dann auf die **Einstellungen** für diesen Bericht.
+
+    ![Berichtseinstellungen](media/power-bi-report-filter/power-bi-filter-options.png)
+
+3. Klicken Sie unter **Benutzeroberfläche zur Filterung** auf **Aktualisierten Filterbereich aktivieren und Filter im Visualheader für diesen Bericht anzeigen**.
 
     ![Aktivieren des Bereichs für aktualisierte Filter](media/power-bi-report-filter/power-bi-service-filter-enable.png)
 
@@ -82,11 +85,21 @@ Nachdem Sie den neuen Filterbereich aktiviert haben, wird dieser rechts neben de
 
 1. Standardmäßig können Ihre Berichtnutzer den Filterbereich sehen. Wenn der Filterbereich nicht sichtbar sein soll, klicken Sie auf das Augensymbol neben **Filter**.
 
-    ![Filteraugensymbol in Power BI](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Filteraugensymbol in Power BI](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. Um mit der Erstellung Ihres neuen Filterbereichs zu beginnen, ziehen Sie für Sie relevante Felder als Filter auf Visual-, Seiten- oder Berichtsebene in den neuen Bereich „Filter“.
 
 Wenn Sie dem Zeichenbereich für einen Bericht ein Visual hinzufügen, fügt Power BI automatisch für jedes Feld im Visual dem Bereich „Filter“ einen Filter hinzu. 
+
+## <a name="hide-the-filters-pane-while-editing"></a>Ausblenden des Bereichs „Filter“ beim Bearbeiten
+
+Power BI Desktop verfügt über ein neues Menüband in der Vorschauversion. Mit der Umschaltfläche **Filter** auf der Registerkarte **Ansicht** können Sie den Bereich „Filter“ ein- oder ausblenden. Dieses Feature ist nützlich, wenn Sie den Bereich „Filter“ nicht verwenden und mehr Platz auf dem Bildschirm benötigen. Durch diese Ergänzung wird der Bereich „Filter“ an die anderen Bereiche angeglichen, die Sie öffnen und schließen können, z. B. die Bereiche „Lesezeichen“ und „Auswahl“. 
+
+![Ein- oder Ausblenden des Bereichs „Filter“ beim Bearbeiten](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+Durch diese Einstellung wird der Bereich „Filter“ nur in Power BI Desktop ausgeblendet. Wenn Sie den Bereich „Filter“ für Ihre Endbenutzer ausblenden wollen, müssen Sie stattdessen auf das **Augensymbol** neben **Filter** klicken.
+
+![Augensymbol](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>Sperren oder Ausblenden von Filtern
 
@@ -124,16 +137,16 @@ Für Filterkarten können Sie außerdem diese Elemente formatieren – je nachde
 1. Klicken Sie im Bericht auf den Bericht selbst oder den Hintergrund (*Hintergrundbild*), und wählen Sie dann im Bereich **Visualisierungen** die Einstellung **Format** aus. 
     Es werden Optionen zum Formatieren der Berichtseite, des Hintergrundbilds sowie Filterbereichs und der Filterkarten angezeigt.
 
-1. Erweitern Sie den **Filterbereich**, um die Farbe für den Hintergrund, das Symbol und den linken Rahmen festzulegen und die Berichtseite zu vervollständigen.
+1. Erweitern Sie den **Bereich „Filter“** , um die Farbe für den Hintergrund, das Symbol und den linken Rahmen festzulegen, um diese an die Berichtseite anzupassen.
 
-    ![Filterbereich erweitern](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![Erweitern des Bereichs „Filter“](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Erweitern Sie **Filterkarten**, um Farbe und Rahmen für **Verfügbar** und **Angewendet** festzulegen. Wenn Sie unterschiedliche Farben für verfügbare und angewendete Karten festlegen, ist offensichtlich, welche Filter angewendet wurden. 
   
     ![Filterkarte erweitern](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>Design für den Bereich „Filter“
-Sie können jetzt die Standardeinstellungen für den Filterbereich mit der Designdatei ändern. Hier ist ein Codeausschnitt eines Beispieldesigns für Ihre ersten Schritte:
+## <a name="theming-for-filters-pane"></a>Design für den Bereich „Filter“
+Sie können jetzt mit der Designdatei die Standardeinstellungen des Bereichs „Filter“ ändern. Hier ist ein Codeausschnitt eines Beispieldesigns für Ihre ersten Schritte:
 
  
 ```
@@ -204,9 +217,9 @@ Sie können jetzt die Standardeinstellungen für den Filterbereich mit der Desig
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>Sortieren des Filterbereichs
+## <a name="sort-the-filters-pane"></a>Sortieren des Bereichs „Filter“
 
-Benutzerdefinierte Sortierfunktionalität ist Teil der neuen Benutzeroberfläche zur Filterung. Berichtersteller können Filter mit Drag & Drop in beliebiger Reihenfolge neu anordnen.
+Die benutzerdefinierte Sortierfunktion ist Teil der neuen Benutzeroberfläche des Bereichs „Filter“. Berichtersteller können Filter mit Drag & Drop in beliebiger Reihenfolge neu anordnen.
 
 ![Neuanordnen der Sortierreihenfolge für Filter](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
@@ -223,11 +236,25 @@ Wenn Sie den Bereich „Filter“ bearbeiten, können Sie auf den Titel doppelkl
 
 ![Umbenennen eines Filters](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>Suche im Bereich „Filter“
+
+Mit dem Suchfeature im Bereich „Filter“ können Sie die Titel Ihrer Filterkarten durchsuchen. Dieses Feature ist nützlich, wenn Sie in Ihrem Bereich „Filter“ über verschiedene Filterkarten verfügen und Hilfe dabei benötigen, die relevanten zu finden.
+
+![Suche nach einem Filter](media/power-bi-report-filter/power-bi-filter-search.png)
+
+Genau wie die anderen Elemente des Bereichs „Filter“, können Sie auch das Suchfeld formatieren.
+
+![Formatieren des Suchfelds](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+Das Suchfeature des Bereichs „Filter“ ist zwar standardmäßig aktiviert, allerdings können Sie es ein- oder ausschalten, indem Sie in den Berichtseinstellungen im Dialogfenster „Optionen“ auf **Enable search for Filters pane** (Suche für Bereich „Filter“ aktivieren) klicken.
+
+![Suche ein- oder ausschalten](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>Einschränken von Änderungen des Filtertyps
 
 Im Abschnitt „Benutzeroberfläche zur Filterung“ der Berichtseinstellungen finden Sie eine Option, mit der Sie steuern können, ob Benutzer den Filtertyp ändern können.
 
-![Einschränken von Änderungen des Filtertyps](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![Einschränken von Änderungen des Filtertyps](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 

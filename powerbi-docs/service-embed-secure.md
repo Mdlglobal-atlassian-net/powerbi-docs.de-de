@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919795"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488819"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ Sie können beliebig viele Schaltflächen hinzufügen, um mit geringem Programmi
 
 * Der klassische SharePoint-Server wird nicht unterstützt, da dieser eine niedrigere Version als Internet Explorer 11 oder das Aktivieren des Kompatibilitätsansichtsmodus erfordert.
 
-* Einmaliges Anmelden wird unterstützt, wenn Sie die [Option In SharePoint Online einbetten](service-embed-report-spo.md) verwenden oder über die Einbettungsmethode [Benutzer ist Besitzer der Daten](developer/embed-sample-for-your-organization.md) eine benutzerdefinierte Integration erstellen. 
+* Einmaliges Anmelden wird unterstützt, wenn Sie die [Option In SharePoint Online einbetten](service-embed-report-spo.md) verwenden oder über die Einbettungsmethode [Benutzer ist Besitzer der Daten](developer/embedded/embed-sample-for-your-organization.md) eine benutzerdefinierte Integration erstellen. 
 
-* Die Funktion zur automatischen Authentifizierung, die von der Option **Einbetten** unterstützt wird, kann nicht mit der Power BI-JavaScript-API verwendet werden. Verwenden Sie zum Einbetten mit der Power BI-JavaScript-API die Einbettungsmethode [Benutzer ist Besitzer der Daten](developer/embed-sample-for-your-organization.md). 
+* Die Funktion zur automatischen Authentifizierung, die von der Option **Einbetten** unterstützt wird, kann nicht mit der Power BI-JavaScript-API verwendet werden. Verwenden Sie zum Einbetten mit der Power BI-JavaScript-API die Einbettungsmethode [Benutzer ist Besitzer der Daten](developer/embedded/embed-sample-for-your-organization.md). 
 
 * Die Lebensdauer des Authentifizierungstokens wird basierend auf Ihren AAD-Einstellungen gesteuert. Wenn das Authentifizierungstoken abläuft, muss der Benutzer seinen Browser aktualisieren, um ein aktualisiertes Authentifizierungstoken zu erhalten. Die Standardlebensdauer beträgt eine Stunde. Sie kann in Ihrer Organisation aber auch kürzer oder länger sein.
 

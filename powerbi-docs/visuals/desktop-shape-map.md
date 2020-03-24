@@ -2,19 +2,19 @@
 title: Verwenden von Flächenkartogrammen in Power BI Desktop (Vorschauversion)
 description: Erstellen von relativen Vergleichen von Regionen mithilfe von Flächenkartogrammen in Power BI Desktop
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762322"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525658"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Erstellen von Visualisierungen für Flächenkartogramme in Power BI Desktop (Vorschau)
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762322"
 
 Erstellen Sie ein Visual für die **Formenzuordnung**, um Regionen auf einer Karte voneinander abzutrennen. Im Gegensatz zum Visual **Karte** kann das Visual **Formenzuordnung** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen soll es vor allem Regionen auf einer Karte in Beziehung zueinander setzen, indem diese unterschiedliche Farben erhalten.
 
-Visuals für die **Formenzuordnung** basieren auf ESRI/TopoJSON-Karten. Diese Karten können von Ihnen erstellte benutzerdefinierte Karten verwenden. Benutzerdefinierte Karten sind beispielswiese die Folgenden: geografische Pläne, Sitz- oder Raumpläne. In diesem Vorschaurelease von **Flächenkartogramm** ist es nicht möglich, benutzerdefinierte Karten zu verwenden.
+Visuals für die **Formenzuordnung** basieren auf TopoJSON-Karten. Diese Karten können von Ihnen erstellte benutzerdefinierte Karten verwenden. Benutzerdefinierte Karten sind beispielswiese die Folgenden: geografische Pläne, Sitz- oder Raumpläne. In diesem Vorschaurelease von **Flächenkartogramm** ist es nicht möglich, benutzerdefinierte Karten zu verwenden.
 
 ## <a name="creating-shape-maps"></a>Erstellen von Flächenkartogrammen
 Sie können das Steuerelement **Flächenkartogramm** mit den Karten testen, die mit dieser Vorschauversion geliefert werden. Alternativ können Sie eine eigene benutzerdefinierte Karte verwenden, sofern sie die im folgenden Abschnitt **Verwenden benutzerdefinierter Karten** genannten Anforderungen erfüllt.
@@ -79,7 +79,7 @@ Sie können mit den einzelnen Karten der US-Staaten auch interessante Vorgänge 
 
 ![Flächenkartogramm von Texas](media/desktop-shape-map/shape-map-7b.png)
 
-Wenn Sie gerne mit diesem Dataset und der Visualisierung experimentieren möchten, können Sie die PBIX-Originaldatei herunterladen, die zur Generierung dieses Berichts verwendet wurde. Sie finden sie unter folgendem Link:
+Wenn Sie gerne mit diesem Dataset und der Visualisierung experimentieren möchten, können Sie die ursprüngliche PBIX-Datei herunterladen, die zum Generieren dieses Berichts verwendet wurde. Sie finden sie unter folgendem Link:
 
 * [PBIX-Demodatei des benutzerdefinierten Flächenkartogramms](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
@@ -400,7 +400,7 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |ODER |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264241"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377894"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Debuggen von Power BI-Visuals
 
 Diese Seite bietet einige Tipps für das Debuggen beim Erstellen von Visuals. Sie enthält grundlegende Schritte und zeigt die Unterschiede zwischen dem Debuggen von standardmäßigen Front-End-Anwendungen und Power BI-Visuals auf.
-Wenn Sie diesen Artikel gelesen haben, können Sie benutzerdefinierte Visuals mithilfe von Breakpoints debuggen, Ausnahmen protokollieren und Ausnahmen in Chrome und Edge abfangen.
+Wenn Sie diesen Artikel gelesen haben, können Sie Power BI-Visuals mithilfe von Breakpoints debuggen, Ausnahmen protokollieren und Ausnahmen in Chrome und Edge abfangen.
 
 ## <a name="using-breakpoints"></a>Verwenden von Breakpoints
 
@@ -73,14 +73,14 @@ public update(options: VisualUpdateOptions) {
 
 Sie können den Browser auch so einrichten, dass bei abgefangenen Ausnahmen die Ausführung unterbrochen wird. Damit wird die Codeausführung angehalten, sobald ein Fehler auftritt, und Sie können das Debuggen ab diesem Punkt fortsetzen.
 
-### <a name="edge"></a>Microsoft Edge
+### <a name="edge"></a>Microsot Edge
 
 1. Öffnen Sie die Entwicklertools (F12).
 2. Wechseln Sie zur Registerkarte **Debugger**.
 3. Klicken Sie auf das Symbol zum **Unterbrechen bei Ausnahmen** (Sechseck mit Pausesymbol).
 4. Wählen Sie **Bei allen Ausnahmen unterbrechen** aus.
 
-![Datenrollenfelder](./media/how-to-debug-edge.png)
+![Datenrollenfelder](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ Sie können den Browser auch so einrichten, dass bei abgefangenen Ausnahmen die 
 3. Klicken Sie auf das Symbol **Pause on exceptions** (Anhalten bei Ausnahmen, Stoppschild mit Pausesymbol).
 4. Aktivieren Sie das Kontrollkästchen **Pause on caught exceptions** (Bei abgefangenen Ausnahmen anhalten).
 
-![Datenrollenfelder](./media/how-to-debug-chrome.png)
+![Datenrollenfelder](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Problembehandlung bei Power BI-Visuals](../power-bi-custom-visuals-troubleshoot.md)
-* Weitere Informationen und Antworten auf Fragen finden Sie in den [häufig gestellten Fragen zu Power BI-Visuals](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
+* [Problembehandlung bei Power BI-Visuals](power-bi-custom-visuals-troubleshoot.md)
+* Weitere Informationen und Antworten auf Fragen finden Sie in den [häufig gestellten Fragen zu Power BI-Visuals](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

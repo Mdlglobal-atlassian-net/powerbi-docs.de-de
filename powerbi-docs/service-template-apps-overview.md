@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427582"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376682"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Was sind Power BI-Vorlagen-Apps?
 
@@ -96,13 +96,13 @@ Weitere Vorschläge finden Sie unter [Tips for authoring template apps in Power 
 | Feature | Bekannte Einschränkung |
 |---------|---------|
 |Inhalt:  Datasets   | Genau ein Dataset sollte vorhanden sein. Nur Datasets, die in Power BI Desktop erstellt wurden (.pbix-Dateien), sind zulässig. <br>Nicht unterstützt: Datasets aus anderen Vorlagen-Apps, arbeitsbereichübergreifende Datasets, paginierte Berichte (.rdl-Dateien), Excel-Arbeitsmappen |
-|Inhalt: Dashboards | Echtzeitkacheln sind nicht zulässig (d.h. Push- oder Streamingdatasets werden nicht unterstützt). |
+|Inhalt: Dashboards | Echtzeitkacheln sind nicht zulässig (d. h. Push- oder Streamingdatasets werden nicht unterstützt). |
 |Inhalt: Dataflows | Nicht unterstützt: Dataflows |
 |Inhalte aus Dateien | Nur PBIX-Dateien sind zulässig. <br>Nicht unterstützt: .rdl-Dateien (paginierte Berichte), Excel-Arbeitsmappen   |
 | Datenquellen | Datenquellen, die für geplante Datenaktualisierungen in der Cloud unterstützt werden, sind zulässig. <br>Nicht unterstützt: <li> DirectQuery</li><li>Liveverbindungen (ausgenommen Azure Analysis Services)</li> <li>Lokale Datenquellen (persönliche Gateways und Enterprise-Gateways werden nicht unterstützt)</li> <li>Echtzeit (Pushdataset wird nicht unterstützt)</li> <li>Zusammengesetzte Modelle</li></ul> |
 | Dataset: arbeitsbereichübergreifend | Arbeitsbereichübergreifende Datasets sind nicht zulässig.  |
 | Abfrageparameter | Nicht unterstützt: Parameter vom Typ „Any“ oder „Binary“ blockieren den Aktualisierungsvorgang für Datasets. |
-| Benutzerdefinierte visuelle Elemente | Es werden nur öffentlich verfügbare benutzerdefinierte Visuals unterstützt. [Benutzerdefinierte Visuals für Organisationen](developer/power-bi-custom-visuals-organization.md) werden nicht unterstützt. |
+| Power BI-Visuals | Es werden nur öffentlich verfügbare Power BI-Visuals unterstützt. [Power BI-Organisationsvisuals](developer/visuals/power-bi-custom-visuals-organization.md) werden nicht unterstützt. |
 
 ## <a name="support"></a>Support
 Unterstützung während der Entwicklung finden Sie unter [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Diese Website wird aktiv überwacht und verwaltet. Kundenanfragen werden schnell an das entsprechende Team weitergeleitet.

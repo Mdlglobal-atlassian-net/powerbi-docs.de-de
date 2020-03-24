@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114645"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435810"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Festlegen von Datenwarnungen in den mobilen Power BI-Apps
 Gilt für:
@@ -103,6 +103,10 @@ Sie können einzelne Warnungen in der mobilen Power BI-App verwalten oder [alle 
 5. Um die Warnung ganz zu entfernen, tippen Sie auf das Papierkorbsymbol ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>Datenwarnungen auf einem Windows-Gerät
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>Festlegen von Datenwarnungen auf einem Windows-Gerät
 1. Tippen Sie in einem Dashboard auf eine Zahlen- oder Maßstabkachel, um sie zu öffnen.  
 2. Tippen Sie auf das Glockensymbol ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png), um eine Warnung hinzuzufügen.  

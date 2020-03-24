@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154210"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201537"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Anwenden der automatischen Angabe von Datum/Uhrzeit in Power BI Desktop
 
@@ -33,7 +33,7 @@ Wenn die Option aktiviert ist, erstellt Power BI Desktop für jede Datumsspalte 
 Jede automatische Datums-/Uhrzeittabelle ist tatsächlich eine [berechnete Tabelle](desktop-calculated-tables.md), die unter Verwendung der DAX-Funktion [CALENDAR](/dax/calendar-function-dax) Datenzeilen generiert. Jede Tabelle umfasst außerdem sechs berechnete Spalten: **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** und **Year**.
 
 > [!NOTE]
-> Power BI übersetzt und formatiert die Spaltennamen und werte entsprechend der [Modellsprache](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
+> Power BI übersetzt und formatiert die Spaltennamen und -werte entsprechend der [Modellsprache](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop). Wenn das Modell beispielsweise auf Englisch erstellt wurde, werden die Namen der Monate etc. weiterhin auf Englisch angezeigt, auch wenn diese mit einem koreanischen Client angezeigt werden.
 
 Power BI Desktop erstellt außerdem eine Beziehung zwischen der Spalte **Date** der Tabelle mit automatischen Datums-/Zeitangaben und der Datumsspalte im Modell.
 

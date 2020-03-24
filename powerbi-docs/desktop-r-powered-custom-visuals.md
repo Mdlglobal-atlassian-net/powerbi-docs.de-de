@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128231"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378683"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Verwenden von R-gestützten Power BI-Visuals in Power BI
 
@@ -129,7 +129,7 @@ Das Power BI-Team arbeitet daran, diese Probleme zu beheben, bevor sie bei Ihnen
 
    b.  Führen Sie in der R-Konsole den folgenden Befehl aus:
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    Typische Standardinstallationspfade lauten wie folgt:
 

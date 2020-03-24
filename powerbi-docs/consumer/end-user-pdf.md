@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3e23f56da424ae18565b6cbec591c9d855f23139
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113142"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377211"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportieren von Power BI-Berichten als PDF-Dateien
 
@@ -53,7 +53,7 @@ Das war schon alles. Sie können die Datei herunterladen und mit einem beliebige
 Einige Aspekte und Einschränkungen sind bei der Arbeit mit dem Feature **In PDF exportieren** zu beachten.
 
 * Visuelle R- und Python-Elemente werden aktuell nicht unterstützt. Diese Visuals werden in der PDF-Datei leer sein und eine Fehlermeldung anzeigen. 
-* Benutzerdefinierte Visuals, die zertifiziert wurden, werden unterstützt. Weitere Informationen zu zertifizierten benutzerdefinierten Visuals sowie zum Zertifizieren von benutzerdefinierten Visuals finden Sie unter [Wie wird ein benutzerdefiniertes Visual zertifiziert?](../developer/power-bi-custom-visuals-certified.md). Benutzerdefinierte Visuals, die nicht zertifiziert wurden, werden nicht unterstützt. In der PDF-Datei werden sie mit einer Fehlermeldung angezeigt.
+* Zertifizierte Power BI-Visuals werden unterstützt. Weitere Informationen zu zertifizierten Power BI-Visuals sowie deren Zertifizierung finden Sie unter [Zertifizieren eines Power BI-Visuals](../developer/visuals/power-bi-custom-visuals-certified.md). Nicht zertifizierte Power BI-Visuals werden nicht unterstützt. In der PDF-Datei werden sie mit einer Fehlermeldung angezeigt.
 * Dieses visuelle ESRI-Element wird nicht unterstützt.
 * Berichte mit mehr als 30 Berichtsseiten können derzeit nicht exportiert werden.
 * Der Exportvorgang des Berichts als PDF-Datei kann einige Minuten dauern. Zu den Faktoren, die die benötigte Zeit beeinflussen, zählen die Struktur des Berichts sowie die jeweils aktuelle Auslastung des Power BI-Diensts.

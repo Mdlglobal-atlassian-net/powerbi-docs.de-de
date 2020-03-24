@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114295"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376820"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tipps zum Stellen von Fragen mit Power BI Q&A
 
@@ -67,7 +67,7 @@ In der nachstehenden Liste wird Präsens verwendet, jedoch werden in den meisten
 |  |  |
 |**Top N**     |     (Reihenfolge, Rangfolge): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Visualisierungstypen**     |  alle nativen Power BI-Visualisierungstypen.  Wenn die Option im Bereich „Visualisierungen“ vorhanden ist, können Sie sie in Ihre Frage einschließen.  Die Ausnahme dieser Regel stellen hierbei [benutzerdefinierte Visualisierungen](../developer/power-bi-custom-visuals.md) dar, die Sie manuell dem Bereich „Visualisierungen“ hinzugefügt haben.  |
+|**Visualisierungstypen**     |  alle nativen Power BI-Visualisierungstypen.  Wenn die Option im Bereich „Visualisierungen“ vorhanden ist, können Sie sie in Ihre Frage einschließen.  Die Ausnahme dieser Regel stellen hierbei [Power BI-Visuals](../developer/visuals/power-bi-custom-visuals.md) dar, die Sie manuell dem Bereich „Visualisierungen“ hinzugefügt haben.  |
 |  |  Beispiel: show districts by month and sales total as bar chart               |
 |        |         |
 |**W-Fragewörter (Beziehung, qualifiziert)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

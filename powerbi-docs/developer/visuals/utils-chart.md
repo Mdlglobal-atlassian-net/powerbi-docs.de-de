@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: e87235232860897765ef95bf0ec865410adf8fd1
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819489"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379388"
 ---
 # <a name="chart-utils"></a>ChartUtils
 
@@ -681,7 +681,7 @@ let formattedValue = formatter.format(value);
 
 ## <a name="legend-service"></a>Legend-Dienst
 
-Der `Legend`-Dienst bietet Hilfsprogrammschnittstellen zur Erstellung und Verwaltung von Power BI-Legenden für benutzerdefinierte Visuals.
+Der `Legend`-Dienst bietet Hilfsprogrammschnittstellen zur Erstellung und Verwaltung von Power BI-Legenden für Power BI-Visuals.
 
 Das Modul stellt die folgenden Funktionen und Schnittstellen zur Verfügung:
 

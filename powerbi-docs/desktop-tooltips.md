@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879634"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378706"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop
 Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die beim Zeigen mit der Maus auf Visuals angezeigt werden. Die QuickInfos basieren auf Berichtsseiten, die Sie in **Power BI Desktop** erstellen können. Da Sie die Berichtsseite für eine QuickInfo selbst erstellen, können benutzerdefinierte QuickInfos Visuals, Bilder und jede andere Auflistung von Elementen enthalten, die Sie auf der Berichtsseite erstellen. 
@@ -112,7 +112,7 @@ Bei einer Kreuzhervorhebung für ein Visual in einem Bericht zeigen QuickInfos f
 Folgende Einschränkungen und Überlegungen sollten Sie bei **QuickInfos** berücksichtigen:
 
 * Ab der Version von **Power BI Desktop** vom Dezember 2018 unterstützen Schaltflächenvisuals auch QuickInfos.
-* QuickInfos für Berichte werden nicht für benutzerdefinierte Visuals unterstützt. 
+* QuickInfos für Berichte werden nicht für Power BI-Visuals unterstützt. 
 * Cluster werden derzeit nicht als Felder unterstützt, die in QuickInfos für Berichte angezeigt werden können. 
 * Bei der Auswahl eines Felds zur Anzeige in einer QuickInfo für Berichte und beim Vergleich von Feld und Kategorie gilt, dass Visuals, die dieses Feld enthalten, die angegebene QuickInfo nur anzeigen, wenn die Zusammenfassung mit dem ausgewählten Feld übereinstimmt. 
 

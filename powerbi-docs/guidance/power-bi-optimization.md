@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609993"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378867"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Leitfaden für die Optimierung von Power BI
 
@@ -69,7 +69,7 @@ Das oben genannte Prinzip gilt genauso für die Anzahl von visuellen Elementen, 
 
 #### <a name="evaluate-custom-visual-performance"></a>Auswerten der Leistung von benutzerdefinierten visuellen Elementen
 
-Achten Sie darauf, jedes benutzerdefinierte Visual zu analysieren, um eine hohe Leistung sicherzustellen. Schlecht optimierte benutzerdefinierte Visual können sich negativ auf die Leistung des gesamten Berichts auswirken.
+Achten Sie darauf, jedes benutzerdefinierte Visual zu analysieren, um eine hohe Leistung sicherzustellen. Schlecht optimierte Power BI-Visuals können sich negativ auf die Leistung des gesamten Berichts auswirken.
 
 ### <a name="power-bi-paginated-reports"></a>Paginierte Power BI-Berichte
 

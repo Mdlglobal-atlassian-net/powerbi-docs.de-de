@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040094"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377234"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst
 Der Power BI-Dienst führt möglicherweise Terminologie ein, die nicht vertraut oder zunächst verwirrend ist. Das Glossar ist der ideale Ort, um Begriffe nachzuschlagen – vielleicht sollten Sie ein Lesezeichen setzen? Eine weitere hervorragende Ressource, mehr über die Bausteine zu erfahren, aus denen sich der Power BI-Dienst zusammensetzt, sind die [Grundkonzepte](end-user-basic-concepts.md). Grundkonzepte bietet einen allgemeinen Überblick über die Power BI-*Bestandteile* und die Art ihrer Verbindung.
@@ -188,7 +188,7 @@ Erste Nennung: Navigationsbereich. In späteren Nennungen oder bei Platzmangel: 
 
 ## <a name="n"></a>N
 
-**native (Nativ)** Im Lieferumfang des Produkts enthalten. Beispielsweise enthält Power BI einen Satz von *native (nativen)* Visualisierungstypen. Sie können aber auch andere Typen importieren, z.B. benutzerdefinierte visuelle Elemente.
+**native (Nativ)** Im Lieferumfang des Produkts enthalten. Beispielsweise enthält Power BI einen Satz von *native (nativen)* Visualisierungstypen. Sie können aber auch andere Typen importieren, z. B. Power BI-Visuals.
 
 **Navigationsbereich** Die Steuerelemente am linken Rand des Power BI-Diensts.
 

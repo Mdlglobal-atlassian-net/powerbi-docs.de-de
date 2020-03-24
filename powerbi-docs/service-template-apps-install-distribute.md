@@ -1,134 +1,130 @@
 ---
-title: 'Verteilen von Vorlagen-Apps in Ihrer Organisation: Power BI'
+title: 'Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation: Power BI'
 description: Erfahren Sie mehr über das Installieren, Anpassen und Verteilen von Vorlagen-Apps in Ihrer Organisation mit Power BI.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 09/14/2019
-ms.author: tebercov
-ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.topic: how-to
+ms.date: 03/15/2020
+ms.author: painbar
+ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73871423"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436109"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation: Power BI
+# <a name="install-and-distribute-template-apps-in-your-organization"></a>Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation
 
-Sind Sie Power BI-Analyst? Wenn dies der Fall ist, erfahren Sie in diesem Artikel, wie Sie *Vorlagen-Apps* installieren, um eine Verbindung mit den von Ihnen im Geschäftsalltag verwendeten Diensten wie Salesforce, Microsoft Dynamics und Google Analytics herzustellen. Sie können das Dashboard und Berichte gemäß den Anforderungen Ihrer Organisation ändern und als *App* an Ihre Kollegen verteilen. 
+Sind Sie Power BI-Analyst? Wenn dies der Fall ist, erfahren Sie in diesem Artikel, wie Sie [Vorlagen-Apps](service-template-apps-overview.md) installieren, um eine Verbindung mit den von Ihnen im Geschäftsalltag verwendeten Diensten wie Salesforce, Microsoft Dynamics und Google Analytics herzustellen. Anschließend können Sie die vorab erstellten Dashboards und Berichte der Vorlagen-App so ändern, dass diese den Anforderungen Ihrer Organisation entsprechen, und sie dann als [Apps](consumer/end-user-apps.md) an Ihre Kollegen verteilen. 
 
 ![Installierte Power BI-Apps](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Wenn Sie daran interessiert sind, Ihre eigenen Vorlagen-Apps zu erstellen und zu verteilen, finden Sie Informationen dazu unter [Create a template app in Power BI (Erstellen einer Vorlagen-App in Power BI)](service-template-apps-create.md). Power BI-Partner können Power BI-Apps ohne oder mit nur wenig Code erstellen, und diese dann für Power BI-Kunden bereitstellen. 
+Wenn Sie daran interessiert sind, Ihre eigenen Vorlagen-Apps zu erstellen und außerhalb Ihrer Organisation zu verteilen, finden Sie Informationen dazu unter [Erstellen einer Vorlagen-App in Power BI](service-template-apps-create.md). Power BI-Partner können ohne oder mit nur wenig Code Power BI-Apps erstellen und diese dann für Power BI-Kunden bereitstellen. 
 
 ## <a name="prerequisites"></a>Voraussetzungen  
 
-Dies sind die Anforderungen zum Installieren, Anpassen und Verteilen einer Vorlagen-App: 
+Sie benötigen Folgendes zum Installieren, Anpassen und Verteilen einer Vorlagen-App: 
 
-- Eine [Power BI Pro-Lizenz](service-self-service-signup-for-power-bi.md)
-- Vertrautheit mit den [grundlegenden Konzepten von Power BI](service-basic-concepts.md)
-- Ein gültiger Installationslink vom Hersteller der Vorlagen-App oder von AppSource. 
-- Berechtigungen zum Installieren von Vorlagen-Apps 
+* Eine [Power BI Pro-Lizenz](service-self-service-signup-for-power-bi.md)
+* Berechtigungen zum Installieren von Vorlagen-Apps in Ihrem Mandanten
+* Einen gültigen Link zur Installation der App, den Sie entweder über AppSource oder den Ersteller der App erhalten
+* Vertrautheit mit den [grundlegenden Konzepten von Power BI](service-basic-concepts.md)
 
 ## <a name="install-a-template-app"></a>Installieren einer Vorlagen-App
-
-Entweder Sie erhalten einen Link zu einer Vorlagen-App oder Sie suchen in AppSource nach einer Vorlagen-App, die Sie interessiert. In beiden Fällen können Sie sie nach der Installation anpassen und in Ihrer Organisation verteilen.
-
-### <a name="search-appsource-from-a-browser"></a>Durchsuchen von AppSource im Browser
-
-Klicken Sie im Browser auf den folgenden Link, um AppSource mit einem Filter für Power BI-Apps zu öffnen:
-
-- https://appsource.microsoft.com/marketplace/apps?product=power-bi
-
-### <a name="search-appsource-from-the-power-bi-service"></a>Durchsuchen von AppSource über den Power BI-Dienst
 
 1. Klicken Sie im Navigationsbereich des Power BI-Diensts auf **Apps** > **Apps abrufen**.
 
     ![Apps abrufen](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-2. Klicken Sie in AppSource auf **Apps**.
+1. Klicken Sie im angezeigten AppSource-Fenster auf **Apps**. Suchen Sie nach der gewünschten App, und klicken Sie dann auf **Jetzt herunterladen**.
 
     ![In AppSource suchen](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-3. Suchen Sie nach einer App, und klicken Sie dann auf **Jetzt holen**.
+1. Klicken Sie im angezeigten Dialogfeld auf **Installieren**.
 
-4. Klicken Sie im Dialogfeld auf **Installieren**.
+    ![Installieren der App](media/service-template-apps-install-distribute/power-install-dialog.png)
+    
+    Die App wird mit einem zugeordneten Arbeitsbereich installiert. **Wenn Sie die App anpassen möchten, wird dies in diesem zugeordneten Arbeitsbereich gemacht**.
 
-    ![App installieren](media/service-template-apps-install-distribute/power-install-dialog.png): Wenn Sie über eine Power BI Pro-Lizenz verfügen, wird die App mit dem zugehörigen Arbeitsbereich installiert. Sie können die App im zugehörigen Arbeitsbereich anpassen.
+    > [!NOTE]
+    > Wenn Sie einen Link für die Installation einer App verwenden, die nicht in AppSource aufgeführt ist, müssen Sie in einem daraufhin angezeigten Dialogfeld Ihre Auswahl bestätigen.
+    >
+    >Sie müssen die relevanten Berechtigungen von Ihrem Administrator anfordern, um eine Vorlagen-App installieren zu können, die nicht in AppSource aufgeführt ist. Weitere Informationen finden Sie im Power BI-Verwaltungsportal unter [Einstellungen für Vorlagen-Apps](service-admin-portal.md#template-apps-settings).
 
-    Nach der Installation wird eine Benachrichtigung angezeigt, die angibt, dass Ihre App bereit ist.
-4. Klicken Sie auf **Zu App wechseln**.
-5. Wählen Sie unter **Erste Schritte mit Ihrer neuen App** eine der drei Optionen aus:
+    Wenn die Installation erfolgreich abgeschlossen wurde, werden Sie in einer Benachrichtigung darüber informiert, dass Ihre neue App verwendet werden kann.
 
-    ![Erste Schritte mit Ihrer neuen App](media/service-template-apps-create/power-bi-template-app-get-started.png)
+    ![Zu App wechseln](media/service-template-apps-install-distribute/power-bi-go-to-app.png)
 
-    - **App erkunden:** Grundlegendes Beispiel für das Durchsuchen von Daten. Beginnen Sie hiermit, um sich mit der App vertraut zu machen. 
-    - **Daten verbinden:** Hiermit können Sie die Datenquelle für die Beispieldaten in Ihre eigene Datenquelle ändern. Sie können die Datasetparameter und die Anmeldeinformationen für die Datenquelle neu definieren. Weitere Informationen finden Sie im Abschnitt [Known limitations (Bekannte Einschränkungen)](service-template-apps-tips.md#known-limitations) im Artikel mit Tipps zu Vorlagen-Apps. 
-    - **Zu Arbeitsbereich wechseln** (die umfangreichste Option): Sie können beliebige Änderungen vornehmen, die vom App-Ersteller erlaubt werden.
+## <a name="connect-to-data"></a>Verbinden mit Daten
 
-    Alternativ können Sie dieses Dialogfeld überspringen und direkt über **Arbeitsbereiche** im Navigationsbereich auf den zugehörigen Arbeitsbereich zugreifen.
-    >[!NOTE]
-    >Durch das Installieren einer Vorlagen-App wurden eine *Organisations-App* sowie ein *Arbeitsbereich* installiert. Hier finden Sie weitere Informationen zum [Verteilen von Apps in Power BI](service-create-distribute-apps.md).
- 
-6. Bevor Sie die App für Ihre Kollegen freigeben, sollten Sie sie mit Ihren eigenen Daten verbinden. Möglicherweise sollten Sie den Bericht oder das Dashboard für Ihre Organisation anpassen. Zu diesem Zeitpunkt können Sie außerdem andere Berichte oder Dashboards hinzufügen.
+1. Klicken Sie auf **Go to app** (Zu App wechseln). Das Fenster **Erste Schritte mit Ihrer neuen App** wird angezeigt.
 
-   Wenn Sie einen Installationslink für eine App auswählen, die nicht in AppSource aufgeführt ist, müssen Sie in einem daraufhin angezeigten Dialogfeld Ihre Auswahl bestätigen.
+   ![Erste Schritte mit Ihrer neuen App](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
-   ![Installieren der App](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+1. Klicken Sie auf **Verbinden**.
+    
+    Dadurch wird ein Dialogfeld oder eine Reihe von Dialogfeldern geöffnet, in denen Sie die Datenquelle der Beispieldaten in Ihre eigene Datenquelle ändern können. Dies bedeutet im Allgemeinen, dass Sie Datasetparameter und Datenquellenanmeldeinformationen neu definieren. Weitere Informationen finden Sie unter [Bekannte Einschränkungen](service-template-apps-tips.md#known-limitations).
+    
+    Im folgenden Beispiel umfasst das Herstellen einer Verbindung mit Daten zwei Dialogfelder.
 
-   >[!NOTE]
-   >Damit Sie Vorlagen-Apps installieren können, die nicht in AppSource aufgeführt sind, müssen Sie diese mithilfe Ihrer Administratorberechtigungen anfordern. Details finden Sie unter Power BI-[Verwaltungsportal > Vorlagen-App-Einstellungen](service-admin-portal.md#template-apps-settings).
+   ![Dialogfelder für das Verbinden mit Daten](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-## <a name="customize-and-publish-the-app"></a>Anpassen und Veröffentlichen der App
+    Nachdem Sie die Dialogfelder für die Verbindung ausgefüllt haben, wird der Verbindungsprozess gestartet. Ein Banner informiert Sie darüber, dass Sie Beispieldaten anzeigen.
 
-Nachdem Sie die App für Ihre Organisation aktualisiert haben, können Sie sie veröffentlichen. Die Schritte gleichen dem Veröffentlichen jeder anderen App.
+    ![Anzeigen von Beispieldaten](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-1. Wenn Sie die Anpassung abgeschlossen haben, klicken Sie in oberen rechten Ecke der Arbeitsbereichslistenansicht auf **App aktualisieren**.  
+    Warten Sie, bis die Verbindung und Aktualisierung der Daten abgeschlossen ist. Wenn Sie wissen möchten, wann dieser Vorgang abgeschlossen ist, können Sie sich die Statusanzeige der Datasetzeile (neues Design) oder der Registerkarte (altes Design) ansehen.
 
-    ![App-Installation starten](media/service-template-apps-install-distribute/power-bi-start-install-app.png)
+   Aktualisieren Sie den Browser, wenn die Verbindungs- und Datenaktualisierung abgeschlossen ist. Das Banner informiert Sie nun darüber, dass Sie die App aktualisieren müssen, um alle an der App vorgenommenen Änderungen zu übernehmen und diese freizugeben.
 
-2. Unter **Details** können Sie die Beschreibung und Hintergrundfarbe anpassen.
+    ![Anpassen und Freigeben der App](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
 
-   ![App-Beschreibung und Farbe festlegen](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
+## <a name="customize-and-share-the-app"></a>Anpassen und Freigeben der App
 
-3. Unter **Navigation** können Sie den neuen Navigations-Generator für Ihre App verwenden oder entweder das Dashboard oder den Bericht für die Landing Page auswählen. Weitere Informationen finden Sie unter [Entwerfen der Navigation für Ihre App](service-create-distribute-apps.md#design-the-navigation-experience).
+Nachdem Sie den Browser nach der Verbindungs- und Datenaktualisierung aktualisiert haben, wird jetzt der Arbeitsbereich angezeigt, der der App zugeordnet ist. An diesem Punkt können Sie dort alle Artefakte wie in jedem anderen Arbeitsbereich bearbeiten. Beachten Sie jedoch, dass alle von Ihnen vorgenommenen Änderungen überschrieben werden, wenn Sie die App auf eine neuen Version aktualisieren, es sei denn, Sie speichern die Elemente, die Sie mit unterschiedlichen Namen geändert haben. [Hier finden Sie Details zum Überschreiben.](#overwrite-behavior)
 
-   ![Landing Page der App festlegen](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+Weitere Informationen zum Bearbeiten von Artefakten im Arbeitsbereich finden Sie unter den folgenden Links:
+* [Einführung in den Berichts-Editor in Power BI](service-the-report-editor-take-a-tour.md)
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 
-4. Unter **Zugriff** können Sie ausgewählten Benutzern oder Ihrer gesamten Organisation Zugriff erteilen.  
-
-   ![App-Zugriff festlegen](media/service-template-apps-install-distribute/power-bi-install-access.png)
-
-5. Klicken Sie auf **App aktualisieren**. 
-
-6. Nachdem die App erfolgreich veröffentlicht wurde, können Sie den Link kopieren und den Personen mitteilen, denen Sie den Zugriff erteilt haben. Wenn Sie die App für sie freigegeben haben, wird sie ihnen auf der Registerkarte **Meine Organisation** in AppSource angezeigt.
+Wenn Sie alle gewünschten Änderungen an den Artefakten im Arbeitsbereich vorgenommen haben, können Sie die App veröffentlichen und freigeben. Weitere Informationen hierzu finden Sie unter [Veröffentlichen der App](service-create-distribute-apps.md#publish-your-app).
 
 ## <a name="update-a-template-app"></a>Erstellen einer Vorlagen-App
 
-Ersteller von Vorlagen-App können neue Versionen ihrer Vorlagen-Apps über AppSource oder einen direkten Link freigeben. In diesem Fall können sie die Vorlagen-App aktualisieren, wenn sie die App mit der gleichen oder einer neueren Version neu installieren.
+Von Zeit zu Zeit veröffentlichen Ersteller von Vorlagen-Apps neue, verbesserte Versionen ihrer Vorlagen-Apps entweder über AppSource, direkte Links oder beides.
 
-  >[!NOTE]
-  >Durch die Installation einer neuen Version werden alle Änderungen überschrieben, die Sie an Berichten und Dashboards vorgenommen haben. Wenn Sie die aktualisierten Berichte und Dashboards beibehalten möchten, können Sie sie vor der Installation mit einem anderen Namen oder Speicherort speichern.
+Wenn Sie die App ursprünglich von AppSource heruntergeladen haben und eine neue Version der Vorlagen-App verfügbar ist, wird im Power BI-Dienst ein Updatebanner angezeigt, das Sie darüber informiert, dass eine neue Version der App verfügbar ist.
 
-- **Vorhandene Version überschreiben:** Überschreibt den vorhandenen Arbeitsbereich mit der aktualisierten Version der Vorlagen-App.
+  ![Benachrichtigung für Update einer Vorlagen-App](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
 
-   ![Aktualisieren einer Vorlagen-App](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+>[!NOTE]
+>Wenn Sie die App ursprünglich über einen direkten Link anstelle von AppSource erhalten haben, können Sie lediglich den Ersteller der Vorlagen-App kontaktieren, um herauszufinden, wann eine neue Version verfügbar ist.
 
-- **In einem neuen Arbeitsbereich installieren:** Installiert eine neue Version des Arbeitsbereichs und der App, die Sie neu konfigurieren müssen.
+  Klicken Sie zum Installieren des Updates entweder im Benachrichtigungsbanner auf **Get it** (Herunterladen), oder suchen Sie die App noch mal in AppSource, und klicken Sie dann auf **Jetzt herunterladen**. Wenn Sie vom Ersteller der Vorlagen-App einen direkten Link für das Update erhalten haben, klicken Sie einfach auf den Link.
+  
+  Sie werden gefragt, ob Sie die aktuelle Version überschreiben oder die neue Version in einem neuen Arbeitsbereich installieren möchten. Standardmäßig ist „Überschreiben“ ausgewählt.
+
+  ![Aktualisieren einer Vorlagen-App](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Vorhandene Version überschreiben:** Überschreibt den vorhandenen Arbeitsbereich mit der aktualisierten Version der Vorlagen-App. [Hier finden Sie Details zum Überschreiben.](#overwrite-behavior)
+
+- **In einem neuen Arbeitsbereich installieren:** Hiermit wird eine neue Version des Arbeitsbereichs und der App installiert, die Sie neu konfigurieren müssen (d. h. Daten verbinden sowie Navigation und Berechtigungen definieren).
 
 ### <a name="overwrite-behavior"></a>Überschreibverhalten
 
-* Durch das Überschreiben werden die Berichte, Dashboards und das Dataset im *Arbeitsbereich* und nicht in der App aktualisiert. Durch das Überschreiben ändert sich nichts an der Navigation, dem Setup und der Berechtigung der App.
-* Nachdem Sie den Arbeitsbereich aktualisiert haben, müssen Sie *die App aktualisieren*, um die Änderungen aus dem Arbeitsbereich auf die Organisations-App anzuwenden.
-* Beim Überschreiben werden konfigurierte Parameter und die Authentifizierung beibehalten. Nach dem Update wird eine automatische Aktualisierung des Datasets gestartet. In diesem Zeitraum werden in der Organisations-App sowie in den Berichten und Dashboards die *Beispieldaten* angezeigt.
+* Durch das Überschreiben werden die Berichte, Dashboards und das Dataset im Arbeitsbereich und nicht in der App aktualisiert. Durch das Überschreiben ändert sich nichts an der Navigation, dem Setup und den Berechtigungen der App.
+* Nachdem Sie den Arbeitsbereich aktualisiert haben, müssen Sie **die App aktualisieren, um die Änderungen des Arbeitsbereichs auf die App anzuwenden**.
+* Beim Überschreiben werden konfigurierte Parameter und die Authentifizierung beibehalten. Nach dem Update wird eine automatische Aktualisierung des Datasets gestartet. **Während dieser Aktualisierung stellen die App, Berichte und Dashboards Beispieldaten dar.**
+
   ![Beispieldaten](media/service-template-apps-install-distribute/power-bi-sample-data.png)
-* Beim Überschreiben werden immer Beispieldaten angezeigt, bis die Aktualisierung abgeschlossen ist. Wenn der Autor der Vorlagen-App Änderungen am Dataset oder den Parametern vorgenommen hat, sehen Benutzer des Arbeitsbereichs und der App weiterhin die *Beispieldaten*.
-* Beim Überschreiben werden niemals *neue* Berichte oder Dashboards, die Sie dem Arbeitsbereich hinzugefügt haben, gelöscht. Die ursprünglichen Berichte und Dashboards werden mit Änderungen des ursprünglichen Autors überschrieben.
+
+* Beim Überschreiben werden immer Beispieldaten angezeigt, bis die Aktualisierung abgeschlossen ist. Wenn der Autor der Vorlagen-App Änderungen am Dataset oder den Parametern vorgenommen hat, sehen Benutzer des Arbeitsbereichs und der App erst dann die neuen Daten, wenn die Aktualisierung abgeschlossen wurde. Stattdessen werden während dieses Zeitraums weiterhin die Beispieldaten angezeigt.
+* Beim Überschreiben werden niemals neue Berichte oder Dashboards gelöscht, die Sie dem Arbeitsbereich hinzugefügt haben. Die ursprünglichen Berichte und Dashboards werden nur mit Änderungen des ursprünglichen Autors überschrieben.
 
 >[!IMPORTANT]
->Denken Sie daran, nach dem Überschreiben [die App zu aktualisieren](#customize-and-publish-the-app), um Änderungen auf die Berichte und Dashboards der Benutzer Ihrer Organisations-App anzuwenden.
+>Denken Sie daran, nach dem Überschreiben [die App zu aktualisieren](#customize-and-share-the-app), um Änderungen auf die Berichte und Dashboards der Benutzer Ihrer Organisations-App anzuwenden.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

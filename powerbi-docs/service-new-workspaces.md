@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426562"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488727"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organisieren der Arbeit in den neuen Power BI-Arbeitsbereichen
 
@@ -54,7 +54,7 @@ Neue, aktualisierte Arbeitsbereiche und klassische Arbeitsbereiche existieren pa
 
 ## <a name="roles-in-the-new-workspaces"></a>Rollen in den neuen Arbeitsbereichen
 
-Um Zugriff auf einen neuen Arbeitsbereich zu gewähren, fügen Sie Benutzergruppen oder Einzelpersonen einer der Arbeitsbereichsrollen hinzu: anzeigende Benutzer, Mitglieder, Mitwirkende oder Administratoren. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person in mehreren Benutzergruppen Mitglied ist, erhält sie die höchsten zugewiesenen Berechtigungen.
+Wenn Sie Zugriff auf einen neuen Arbeitsbereich gewähren möchten, fügen Sie Benutzergruppen oder Einzelpersonen einer der folgenden Arbeitsbereichsrollen hinzu: Administratoren, Mitglieder, Mitwirkende oder anzeigende Benutzer. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person in mehreren Benutzergruppen Mitglied ist, erhält sie die höchsten zugewiesenen Berechtigungen.
 
 Mit Rollen können Sie verwalten, wer welche Aktionen in einem Arbeitsbereich durchführen kann. So können Teams zusammenarbeiten. Mithilfe der neuen Arbeitsbereiche können Sie Einzelpersonen und Benutzergruppen Rollen zuweisen: Sicherheitsgruppen, Office 365-Gruppen und Verteilerlisten. 
 
@@ -70,11 +70,14 @@ Folgende Rollen sind verfügbar: Administrator, Mitglied, Mitwirkender und Betra
 | Apps veröffentlichen und aktualisieren. |  X | X  |   |   |
 | Elemente und Apps freigeben<sup>1</sup> |  X | X  |   |   |
 | Anderen erlauben, Elemente erneut freizugeben<sup>1</sup> |  X | X  |   |   |
+| Apps auf der Startseite von Kollegen unter „Empfohlen“ anzeigen lassen |  X | X  |   |   |
+| Dashboards und Berichte auf der Startseite von Kollegen unter „Empfohlen“ anzeigen lassen |  X | X  | X |   |
 | Inhalte im Arbeitsbereich erstellen, bearbeiten und löschen.  |  X | X  | X  |   |
 | Berichte im Arbeitsbereich veröffentlichen und Inhalt löschen.  |  X | X  | X  |   |
 | Erstellen Sie einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich.<sup>1</sup> |  X | X  | X  |   |
 | Einen Bericht kopieren<sup>2</sup> | X | X | X |  |
 | Ein Element anzeigen und mit ihm interagieren<sup>3</sup> |  X | X  | X  | X  |
+| Lesen von in Arbeitsbereichs-Datenflüssen gespeicherten Daten | X | X | X | X |
 
 1. Mitwirkende und Zuschauer können Elemente in einem Arbeitsbereich freigeben, wenn sie über die entsprechenden Berechtigungen verfügen.
 2. Sie müssen zusätzliche Kriterien erfüllen, um einen Bericht zu kopieren und einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich zu erstellen:
@@ -99,7 +102,7 @@ Mit den neuen Arbeitsbereichen wurden einige Features neu gestaltet. Im Folgende
 * Durch das Erstellen dieser Arbeitsbereiche werden, anders als bei klassischen Arbeitsbereichen, keine Office 365-Gruppen erstellt. Sie können jedoch jetzt eine Office 365-Gruppe verwenden, um Benutzern Zugriff auf Ihren Arbeitsbereich zu gewähren, indem Sie ihm eine Rolle zuweisen. 
 * In den klassischen Arbeitsbereichen können Sie den Listen der Mitglieder und Administratoren nur Einzelpersonen hinzufügen. In den neuen Arbeitsbereichen können Sie zu diesen Listen mehrere AD-Sicherheitsgruppen, Verteilerlisten oder Office 365-Gruppen hinzufügen, um die Benutzerverwaltung zu vereinfachen. 
 - Sie können ein organisationsbezogenes Inhaltspaket über einen klassischen Arbeitsbereich erstellen. Über den neuen Arbeitsbereich können Sie diese nicht erstellen.
-- Sie können ein organisationsbezogenes Inhaltspaket über einen klassischen Arbeitsbereich nutzen. Über den neuen Arbeitsbereich können Sie dieses nicht nutzen.
+- Sie können ein organisationsbezogenes Inhaltspaket über einen klassischen Arbeitsbereich nutzen. Über die neuen Arbeitsbereiche können Sie dieses nicht nutzen.
 
 ## <a name="workspace-contact-list"></a>Arbeitsbereichs-Kontaktliste
 Mit dem neuen Feature **Kontaktliste** können Sie festlegen, welche Benutzer Benachrichtigungen über Probleme im Arbeitsbereich erhalten. Standardmäßig wird jeder Benutzer oder jede Gruppe benachrichtigt, der/die als Arbeitsbereichsadministrator angegeben ist, aber Sie können die Liste anpassen. Benutzer oder Gruppen, die in der Kontaktliste aufgeführt sind, werden in der Benutzeroberfläche (UI) angezeigt, um Benutzern Hilfe zum Arbeitsbereich bieten zu können. 

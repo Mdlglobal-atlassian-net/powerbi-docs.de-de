@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115283"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381075"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Echtzeitstreaming in Power BI
 Mit dem Power BI-Echtzeitstreaming können Sie in Echtzeit Daten streamen und Dashboards aktualisieren. Alle visuellen Elemente und Dashboards, die in Power BI erstellt werden können, können so erstellt werden, dass Echtzeitdaten und visuelle Echtzeitelemente angezeigt und aktualisiert werden. Die Geräte und Quellen von Streamingdaten können Factorysensoren, soziale Medien, Servicenutzungsmetriken sowie alle Elemente sein, über die zeitkritische Daten erfasst oder übertragen werden können.
@@ -33,7 +33,7 @@ Es gibt drei Typen von Echtzeitdatasets, die für die Anzeige in Echtzeitdashboa
 Informieren Sie sich zunächst über die Unterschiede zwischen diesen Datasets (dieser Abschnitt). Anschließend wird erläutert, wie Daten per Push in jedes dieser Datasets übertragen werden.
 
 ### <a name="push-dataset"></a>Pushdataset
-Bei einem **Pushdataset** werden Daten per Push in den Power BI-Dienst übertragen. Beim Erstellen des Datasets erstellt der Power BI-Dienst automatisch eine neue Datenbank im Dienst, in dem die Daten gespeichert werden. Da eine zugrundeliegende Datenbank vorhanden ist, in der weiterhin eingehende Daten gespeichert werden, können anhand der Daten Berichte erstellt werden. Diese Berichte und die zugehörigen visuellen Elemente gleichen beliebigen anderen visuellen Berichtselementen. Das heißt, Sie können sämtliche Power BI-Berichterstellungsfunktionen nutzen, um visuelle Elemente zu erstellen. Hierzu zählen u.a. benutzerdefinierte visuelle Elemente, Datenwarnungen und angeheftete Dashboardkacheln.
+Bei einem **Pushdataset** werden Daten per Push in den Power BI-Dienst übertragen. Beim Erstellen des Datasets erstellt der Power BI-Dienst automatisch eine neue Datenbank im Dienst, in dem die Daten gespeichert werden. Da eine zugrundeliegende Datenbank vorhanden ist, in der weiterhin eingehende Daten gespeichert werden, können anhand der Daten Berichte erstellt werden. Diese Berichte und die zugehörigen Visuals gleichen beliebigen anderen Berichtsvisuals. Das heißt, Sie können sämtliche Power BI-Berichterstellungsfeatures nutzen, um Visuals zu erstellen. Hierzu zählen u. a. Power BI-Visuals, Datenwarnungen und angeheftete Dashboardkacheln.
 
 Sobald ein Bericht mit dem Pushdataset erstellt wurde, können seine Visuals an ein Dashboard angeheftet werden. In diesem Dashboard werden visuelle Elemente bei Aktualisierungen der Daten in Echtzeit aktualisiert. Innerhalb des Diensts löst das Dashboard bei jedem Empfang neuer Daten eine Aktualisierung der Kachel aus.
 
@@ -45,7 +45,7 @@ Bei angehefteten Kacheln aus einem Pushdataset sind zwei Aspekte zu beachten:
 ### <a name="streaming-dataset"></a>Streamingdataset
 Bei einem **Streamingdataset** werden Daten ebenfalls per Push in den Power BI-Dienst übertragen. Es gibt jedoch einen wichtigen Unterschied: Power BI speichert die Daten nur in einem temporären Cache, der schnell abläuft. Mithilfe des temporären Caches werden lediglich visuelle Elemente mit einem eher flüchtigen Verlauf angezeigt, z.B. ein Liniendiagramm, mit dem ein Zeitfenster von einer Stunde dargestellt wird.
 
-Für ein **Streamingdataset** ist *keine* zugrundeliegende Datenbank vorhanden. Daher können Sie anhand der aus dem Stream eingehenden Daten *keine* Berichtsvisuals erstellen. Somit können Sie nicht die Berichtsfunktionen wie Filtern, benutzerdefinierte visuelle Elemente usw. nutzen.
+Für ein **Streamingdataset** ist *keine* zugrundeliegende Datenbank vorhanden. Daher können Sie anhand der aus dem Stream eingehenden Daten *keine* Berichtsvisuals erstellen. Somit können Sie nicht die Berichtsfunktionen wie Filtern oder Power BI-Visuals nutzen.
 
 Die einzige Möglichkeit zum Visualisieren eines Streamingdatasets besteht darin, eine Kachel hinzuzufügen und das Streamingdataset als Datenquelle für **benutzerdefinierte Streamingdaten** zu verwenden. Die auf einem **Streamingdataset** basierenden benutzerdefinierten Streamingkacheln werden für die schnelle Anzeige von Echtzeitdaten optimiert. Die Wartezeit zwischen der Übertragung der Daten per Push in den Power BI-Dienst und der Aktualisierung des visuellen Elements ist äußerst kurz, da die Daten nicht in eine Datenbank eingegeben bzw. aus einer Datenbank ausgelesen werden müssen.
 
@@ -54,7 +54,7 @@ In der Praxis empfehlen sich Streamingdatasets und die zugehörigen visuellen St
 ### <a name="pubnub-streaming-dataset"></a>PubNub-Streamingdataset
 Bei einem **PubNub**-Streamingdataset verwendet der Power BI-Webclient das PubNub-SDK, um einen vorhandenen PubNub-Datenstrom zu lesen, wobei vom Power BI-Dienst keine Daten gespeichert werden.
 
-Wie beim **Streamingdataset** gibt es auch beim **PubNub-Streamingdataset** keine zugrundeliegende Datenbank in Power BI. Daher können Sie keine Berichtsvisuals anhand der eingehenden Daten erstellen, und auch die Vorteile der Berichtsfunktionen wie Filtern, benutzerdefinierte Visuals usw. können nicht genutzt werden. Somit kann das **PubNub-Streamingdataset** nur visualisiert werden, indem dem Dashboard eine Kachel hinzugefügt und ein PubNub-Datenstrom als Quelle konfiguriert wird.
+Wie beim **Streamingdataset** gibt es auch beim **PubNub-Streamingdataset** keine zugrunde liegende Datenbank in Power BI. Daher können Sie keine Berichtsvisuals anhand der eingehenden Daten erstellen, und auch die Vorteile der Berichtsfunktionen wie Filtern oder Power BI-Visuals können nicht genutzt werden. Somit kann das **PubNub-Streamingdataset** nur visualisiert werden, indem dem Dashboard eine Kachel hinzugefügt und ein PubNub-Datenstrom als Quelle konfiguriert wird.
 
 Auf einem **PubNub-Streamingdataset** basierende Kacheln werden für die schnelle Anzeige von Echtzeitdaten optimiert. Da Power BI mit dem PubNub-Datenstrom direkt verbunden ist, gibt es eine äußerst geringe Latenz bei der Übertragung der Daten per Push in den Power BI-Dienst und der Aktualisierung der Visualisierung.
 
@@ -64,9 +64,7 @@ In der folgenden Tabelle (oder Matrix) werden die drei Typen von Datasets für d
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> In [diesem Artikel](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) finden Sie Informationen zu den **Push**-Beschränkungen hinsichtlich der übertragenen Datenmenge.
-> 
-> 
+> In [diesem Artikel](developer/automation/api-rest-api-limitations.md) finden Sie Informationen zu den **Push**-Beschränkungen hinsichtlich der übertragenen Datenmenge.
 
 ## <a name="pushing-data-to-datasets"></a>Übertragen von Daten in Datasets per Push
 Im vorhergehenden Abschnitt wurden die drei Grundtypen von Echtzeitdatasets beschrieben, die für das Echtzeitstreaming verwendet werden können. Zudem wurde auf die Unterschiede zwischen den Typen eingegangen. In diesem Abschnitt wird beschrieben, wie Datasets erstellt und Daten per Push in diese Datasets übertragen werden.
@@ -110,7 +108,7 @@ Wenn **Verlaufsdatenanalyse** deaktiviert ist (dies ist die Standardeinstellung)
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Übertragen von Daten per Push mithilfe von Azure Stream Analytics
 Sie können Power BI als Ausgabe in **Azure Stream Analytics** (ASA) hinzufügen und diese Datenströme anschließend im Power BI-Dienst in Echtzeit visualisieren. In diesem Abschnitt werden technische Aspekte des Ablaufs dieses Prozesses erläutert.
 
-Azure Stream Analytics erstellt mithilfe der Power BI-REST-APIs seinen Ausgabedatenstrom in Power BI, wobei *defaultMode* auf *pushStreaming* festgelegt ist (Informationen zu *defaultMode* finden Sie in vorherigen Abschnitten dieses Artikels). Das Ergebnis ist ein Dataset, mit dem die Vorteile von **Push-** und **Streamingdatasets** genutzt werden können. Beim Erstellen des Datasets legt Azure Stream Analytics zudem das Flag **retentionPolicy* auf *basicFIFO* fest. Bei dieser Einstellung werden in der Datenbank, die das zugehörige Pushdataset unterstützt, 200.000 Zeilen gespeichert. Wird dieser Grenzwert erreicht, werden Zeilen gemäß dem FIFO-Prinzip (First-In First-Out) gelöscht.
+Azure Stream Analytics erstellt mithilfe der Power BI-REST-APIs seinen Ausgabedatenstrom in Power BI, wobei *defaultMode* auf *pushStreaming* festgelegt ist (Informationen zu *defaultMode* finden Sie in vorherigen Abschnitten dieses Artikels). Das Ergebnis ist ein Dataset, mit dem die Vorteile von **Push-** und **Streamingdatasets** genutzt werden können. Beim Erstellen des Datasets legt Azure Stream Analytics zudem das Flag **retentionPolicy** auf *basicFIFO* fest. Bei dieser Einstellung werden in der Datenbank, die das zugehörige Pushdataset unterstützt, 200.000 Zeilen gespeichert. Wird dieser Grenzwert erreicht, werden Zeilen gemäß dem FIFO-Prinzip (First-In First-Out) gelöscht.
 
 > [!CAUTION]
 > Wenn Ihre Azure Stream Analytics-Abfrage eine sehr schnelle Ausgabe in Power BI (z.B. ein- oder zweimal pro Sekunde) zum Ergebnis hat, fasst Azure Stream Analytics diese Ausgaben per Stapelverarbeitung in einer einzigen Anforderung zusammen. Dadurch kann die Größe der Anforderung den Grenzwert für Streamingkacheln überschreiten. In diesem Fall können Streamingkacheln (wie in früheren Abschnitten bereits erwähnt) nicht gerendert werden. In derartigen Fällen empfiehlt es sich, die Rate der Datenausgabe in Power BI zu verlangsamen. Legen Sie anstelle eines sekündlichen Maximalwerts einen Maximalwert von mehr als 10 Sekunden fest.

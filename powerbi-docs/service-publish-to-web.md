@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237981"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488773"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -112,7 +112,7 @@ Nachdem Sie einen **Im Web veröffentlichen**-Einbindungscode erstellt haben, k�
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. Wenn Sie **Löschen** auswählen, werden Sie um eine Bestätigung gebeten.
+4. Wenn Sie auf **Löschen** klicken, werden Sie um eine Bestätigung gebeten.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
@@ -124,9 +124,9 @@ Nachdem Sie einen **Im Web veröffentlichen**-Einbindungscode erstellt und getei
 
 Datenaktualisierungen werden in Ihrem eingebetteten Bericht oder in Ihrer Virtualisierung automatisch wiedergegeben. Es kann ungefähr eine Stunde dauern, bis aktualisierte Daten über Einbindungscodes widergespiegelt werden. Um die automatische Aktualisierung zu deaktivieren, wählen Sie im Zeitplan für das vom Bericht verwendete Dataset **nicht aktualisieren** aus.  
 
-## <a name="custom-visuals"></a>Benutzerdefinierte visuelle Elemente
+## <a name="power-bi-visuals"></a>Power BI-Visuals
 
-Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unterstützt. Wenn Sie **Im Web veröffentlichen** verwenden, brauchen Benutzer, mit denen Sie Ihr veröffentlichtes Visual teilen, benutzerdefinierte Visuals nicht zu aktivieren, um den Bericht anzuzeigen.
+Power BI-Visuals werden von **Im Web veröffentlichen** unterstützt. Wenn Sie **Im Web veröffentlichen** verwenden, brauchen Benutzer, mit denen Sie Ihr veröffentlichtes Visual teilen, Power BI-Visuals nicht zu aktivieren, um den Bericht anzuzeigen.
 
 ## <a name="limitations"></a>Einschränkungen
 
@@ -144,7 +144,7 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 - SSO-Datenabfragemodelle
 - Geschützte vertrauliche oder proprietäre Informationen
 - [Freigegebene und zertifizierte Datasets](service-datasets-share.md).
-- Die Funktion zur automatischen Authentifizierung, die von der Option **Einbetten** unterstützt wird, kann nicht mit der Power BI-JavaScript-API verwendet werden. Verwenden Sie zum Einbetten mit der Power BI-JavaScript-API die Methode [Benutzer ist Besitzer der Daten](developer/embed-sample-for-your-organization.md).
+- Die Funktion zur automatischen Authentifizierung, die von der Option **Einbetten** unterstützt wird, kann nicht mit der Power BI-JavaScript-API verwendet werden. Verwenden Sie zum Einbetten mit der Power BI-JavaScript-API die Methode [Benutzer ist Besitzer der Daten](developer/embedded/embed-sample-for-your-organization.md).
 
 ## <a name="tenant-setting"></a>Mandanteneinstellung
 

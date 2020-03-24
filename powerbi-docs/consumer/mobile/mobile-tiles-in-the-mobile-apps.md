@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114681"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435902"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -85,6 +85,10 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
 4. Tippen Sie links oben auf den Pfeil, um die Kachel zu schließen und zum Dashboard zurückzukehren.
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Kacheln in der mobilen Windows 10-App
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. Öffnen Sie ein [Dashboard in der mobilen Power BI-App](mobile-apps-view-dashboard.md) für Windows 10.
 2. Tippen Sie auf der Kachel auf die vertikale Ellipse. Hier können Sie Folgendes tun: 
    

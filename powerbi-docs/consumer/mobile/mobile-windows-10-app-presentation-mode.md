@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/08/2020
 ms.author: painbar
-ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259900"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435994"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Anzeigen von Berichten und Dashboards im Präsentationsmodus auf dem Surface Hub und Windows 10-Geräten
 Sie können den Präsentationsmodus zum Anzeigen von Berichten und Dashboards auf Windows 10-Geräten und dem Surface Hub im Vollbildmodus verwenden. 
@@ -28,8 +28,9 @@ Sie können auch [Dashboards und Berichte über den Power BI-Dienst im Vollbildm
 
 > [!NOTE]
 > Der Präsentationsmodus unterscheidet sich vom [Fokusmodus für Kacheln](mobile-tiles-in-the-mobile-apps.md).
-> 
-> 
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="use-presentation-mode"></a>Verwenden des Präsentationsmodus
 Tippen Sie in der mobilen Power BI-App auf das Symbol **Vollbild**, um in den Vollbildmodus zu wechseln.

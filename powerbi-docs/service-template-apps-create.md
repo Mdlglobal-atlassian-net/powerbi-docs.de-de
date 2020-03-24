@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041721"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436017"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Erstellen einer Vorlagen-App in Power BI
 
@@ -30,7 +30,7 @@ Zum Erstellen einer Vorlagen-App ist Folgendes erforderlich:
 - [Power BI Pro-Lizenz](service-self-service-signup-for-power-bi.md)
 - [Installation von Power BI Desktop](desktop-get-the-desktop.md) (optional)
 - Vertrautheit mit den [grundlegenden Konzepten von Power BI](service-basic-concepts.md)
-- Berechtigungen, um eine Vorlagen-App öffentlich freizugeben. Details finden Sie unter Power BI-[Verwaltungsportal > Vorlagen-App-Einstellungen](service-admin-portal.md#template-apps-settings).
+- Berechtigungen zum Freigeben einer Vorlagen-App für die Öffentlichkeit (weitere Informationen finden Sie im [Power BI-Verwaltungsportal in den Einstellungen für Vorlagen-Apps](service-admin-portal.md#template-apps-settings))
 
 ## <a name="create-the-template-workspace"></a>Erstellen des Arbeitsbereichs für eine Vorlage
 
@@ -87,7 +87,7 @@ Nun, da sich Inhalt in Ihrem Arbeitsbereich befindet, können Sie diesen in eine
 
     Aktivieren Sie den **Neuen Navigations-Generator**, in dem Sie den Navigationsbereich definieren können (Weitere Informationen finden Sie in diesem Artikel unter [Entwerfen der Navigation](service-create-distribute-apps.md#design-the-navigation-experience)).
 
-   ![Landing Page der App festlegen](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![Landing Page der App festlegen](media/service-template-apps-create/power-bi-install-app-content.png)
     
     **Landing Page der App:** Wenn Sie sich entscheiden, den Navigations-Generator zu deaktivieren, haben Sie die Möglichkeit, die Landing Page der App auszuwählen. Definieren Sie einen Bericht oder ein Dashboard als Landing Page Ihrer App. Verwenden Sie eine Landing Page, die einen guten Eindruck vermittelt.
 
@@ -109,7 +109,7 @@ Nun, da sich Inhalt in Ihrem Arbeitsbereich befindet, können Sie diesen in eine
     - **Erforderlich:** Verwenden Sie diesen Parameter, damit das Installationsprogramm einen benutzerspezifischen Parameter eingibt.
     - **Sperre:** Das Sperren verhindert, dass das Installationsprogramm einen Parameter aktualisiert.
 
-    **Zugriff:** Entscheiden Sie in der Testphase, wer in Ihrer Organisation Ihre App installieren und testen kann. Keine Sorge, Sie können diese Einstellungen jederzeit ändern. Durch die Festlegung wird der Zugriff auf die verteilte Vorlagen-App nicht beeinflusst.
+    **Zugriff:** Entscheiden Sie in der Testphase, wer in Ihrer Organisation Ihre App installieren und testen kann. Sie können jedoch jederzeit zu dieser Einstellung zurückkehren und später ändern. Die Einstellung hat keine Auswirkungen auf den Zugriff auf die verteilte Vorlagen-App.
 
 2. Klicken Sie auf **Create app** (App erstellen).
 

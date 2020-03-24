@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753695"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378959"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Verwenden von Berichtdesigns in Power BI Desktop
 
@@ -185,7 +185,7 @@ So zeigen Sie die in einem Berichtdesign verfügbaren Farben an
 
 Nachdem Sie in unserem Beispiel die Vielzahl der grünen und braunen Farben aus dem Berichtsdesign „St. Patrick's Day“ angewendet haben, sehen Sie sich die Designfarben an. Also alles im grünen Bereich. Das liegt daran, dass diese Farben Teil des Berichtsdesigns sind, das Sie importiert und angewendet haben.
 
-Die Farben in der Farbpalette sind relativ zum aktuellen Design. Angenommen, Sie wählen für einen Datenpunkt die dritte Farbe der obersten Zeile aus. Wenn Sie später zu einem anderen Design wechseln, wird die Farbe dieses Datenpunkts automatisch in die dritte Farbe der obersten Zeile des neuen Designs aktualisiert, wie dies auch beim Ändern von Designs in Microsoft Office der Fall ist.
+Die Farben in der Farbpalette sind relativ zum aktuellen Design. Angenommen, Sie wählen für einen Datenpunkt die dritte Farbe der obersten Zeile aus. Wenn Sie später zu einem anderen Design wechseln, wird die Farbe dieses Datenpunkts automatisch in die dritte Farbe der obersten Zeile des neuen Designs geändert, wie dies auch beim Ändern von Designs in Microsoft Office der Fall ist.
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situationen, in denen Berichtdesignfarben in Berichten nicht dargestellt werden
 
@@ -195,7 +195,7 @@ Oder angenommen, Sie möchten die Farbe eines Datenpunkts manuell mithilfe des A
 
 ![Auf Standardwert zurücksetzen](media/desktop-report-themes/report-themes_9.png)
 
-Auf viele benutzerdefinierte Visuals lassen sich keine Berichtsdesigns anwenden.
+Viele Power BI-Visuals lassen sich nicht auf Berichtsdesigns anwenden.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>Benutzerdefinierte Berichtdesigndateien zur sofortigen Verwendung
 
@@ -265,7 +265,7 @@ Auf der grundlegendsten Ebene benötigt die JSON-Designdatei nur eine Zeile: **n
 }
 ```
 
-Alles andere als **name** ist optional. Dies bedeutet, dass Sie die Freiheit haben, nur die Eigenschaften hinzuzufügen, die Sie speziell für die Designdatei formatieren möchten, und für den Rest weiterhin die Standardwerte von Power BI verwenden können.
+Alles andere als **name** ist optional. Dies bedeutet, dass Sie die Möglichkeit haben, nur die Eigenschaften in der Designdatei hinzuzufügen, die Sie explizit formatieren möchten, und für den Rest weiterhin die Standardwerte von Power BI zu verwenden.
 
 ### <a name="setting-theme-colors"></a>Festlegen von Designfarben
 
@@ -312,13 +312,13 @@ Die folgende Tabelle enthält die sechs Farbklassen, die Sie formatieren können
 |---------|---------|
 | **firstLevelElements** <br> **foreground** (veraltet) | Hintergrundfarbe für Beschriftungen (außerhalb von Datenpunkten) <br> Trendlinienfarbe <br>  Textfeld-Standardfarbe <br> Schriftfarbe für Tabellen- und Matrixwerte und Summen Datenbalken-Achsenfarbe <br> Kartendatenbeschriftungen <br> Farbe für Messgerätlegendenwert <br> KPI-Zielfarbe <br>  KPI-Textfarbe <br> Slicerelementfarbe (im Fokusmodus)  <br> Schriftfarbe für Slicerdropdownelement <br> Schriftfarbe für numerische Slicereingabe <br> Schriftfarbe für Slicerkopfzeile <br> Punktdiagramm-Verhältnislinienfarbe <br> Farbe für Liniendiagramm-Vorhersagelinie <br> Kartenführungslinien-Farbe <br> Farbe für Filterbereich und Kartentext|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (veraltet) | „helle“ [sekundäre Textklassen](#setting-formatted-text-defaults) <br> Beschriftungsfarben  <br> Farbe für Legendenbeschriftungen <br> Farbe für Achsenbeschriftungen <br> Schriftfarbe für Tabellen- und Matrixkopfzeile <br> Farbe für Messgerätziel und Zielführungslinie <br>  KPI-Trendachsenfarbe <br> Farbe für Slicerschieberegler <br> Schriftfarbe für Slicerelement <br> Farbe für Slicerkontur <br> Farbe beim Zeigen auf Liniendiagramm <br> Titelfarbe für mehrzeilige Karte <br> Strichfarbe für Menübanddiagramm <br> Rahmenfarbe für Formenzuordnung <br> Schriftfarbe für Schaltflächentext <br> Linienfarbe für Schaltflächensymbol <br> Schaltflächen-Konturfarbe |
-| **thirdLevelElements** <br >**backgroundLight** (veraltet) | Achsengitternetzlinien-Farbe <br> Tabellen- und Matrixrasterfarbe <br> Hintergrundfarbe für Slicerkopfzeile (im Fokusmodus)  <br> Konturfarbe für mehrzeilige Karte  <br> Formfüllfarbe <br> Hintergrundfarbe für Messgerätbogen <br> Hintergrundfarbe für angewendete Filterkarte <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary** (veraltet) | abgeblendete Legendenfarbe <br> Farbe für Kartenkategoriebeschriftung <br> Farbe für Kategoriebeschriftungen für mehrzeilige Karte <br> Balkenfarbe für mehrzeilige Karte <br> Strichfarbe für Trichterdiagramm-Konvertierungsrate
+| **thirdLevelElements** <br >**backgroundLight** (veraltet) | Achsengitternetzlinien-Farbe <br> Tabellen- und Matrixrasterfarbe <br> Hintergrundfarbe für Slicerkopfzeile (im Fokusmodus)  <br> Konturfarbe für mehrzeilige Karte  <br> Formfüllfarbe <br> Hintergrundfarbe für Messgerätbogen <br> Hintergrundfarbe für angewendete Filterkarte <br> Wenn background = FFFFFF: <br> Deaktivierte Füllfarbe für Schaltflächen <br> Deaktivierte Konturfarbe für Schaltflächen <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (veraltet) | abgeblendete Legendenfarbe <br> Farbe für Kartenkategoriebeschriftung <br> Farbe für Kategoriebeschriftungen für mehrzeilige Karte <br> Balkenfarbe für mehrzeilige Karte <br> Strichfarbe für Trichterdiagramm-Konvertierungsrate <br> Deaktivierte Schriftfarbe für Schaltflächentext <br> Deaktivierte Linienfarbe für Schaltflächensymbol <br> |
 | **background** | Hintergrundfarbe für Beschriftungen (innerhalb von Datenpunkten) <br> Hintergrundfarbe für Slicerdropdownelemente  <br> Ringdiagramm-Strichfarbe <br> Treemapstrichfarbe <br> Hintergrundfarbe des Kombinationsdiagramms <br> Füllfarbe für Schaltflächen <br> Farbe für Filterbereich und Hintergrund verfügbarer Filterkarten |
-| **secondaryBackground** <br> **backgroundNeutral** (veraltet) | Tabellen- und Matrixraster-Konturenfarbe <br> Standardfarbe für Formenzuordnung <br> Menübanddiagramm-Füllfarbe (wenn Option „Serienfarbe abgleichen“ deaktiviert ist) |
+| **secondaryBackground** <br> **backgroundNeutral** (veraltet) | Tabellen- und Matrixraster-Konturenfarbe <br> Standardfarbe für Formenzuordnung <br> Menübanddiagramm-Füllfarbe (wenn Option „Serienfarbe abgleichen“ deaktiviert ist) <br> Wenn background != FFFFFF: <br> Deaktivierte Füllfarbe für Schaltflächen <br> Deaktivierte Konturfarbe für Schaltflächen <br> |
 | **tableAccent** | Überschreibt die Tabellen- und Matrixraster-Konturfarbe, wenn vorhanden |
 
-Hier ist ein Beispieldesign, das die Farbklassen festlegt:
+Im folgenden Beispieldesign werden die Farbklassen festlegt:
 
 ```json
 {
@@ -344,7 +344,7 @@ Es gibt 12 Textklassen, aber Sie müssen nur vier Klassen festlegen, die als *p
 
 Andere Textklassen, die als *sekundäre Klassen* gelten, erben ihre Eigenschaften automatisch von ihren entsprechenden primären Klassen bzw. die Eigenschaften werden davon abgeleitet. Häufig wählt eine sekundäre Klasse eine hellere Textfarbe oder eine prozentuell größere oder kleinere Schriftgröße als die primäre Klasse.
 
-Nehmen wir die Klasse **label** als Beispiel. Die Standardformatierung für die **label**-Klasse ist Segoe UI, 252423 (eine dunkelgraue Farbe) und 12 Punkte. Diese Klasse wird verwendet, um die Werte in der Tabelle und Matrix zu formatieren. Meist haben die Summen in einer Tabelle oder Matrix eine ähnliche Formatierung, sind aber mit der Klasse **bold label** fett formatiert, damit sie auffallen. Sie müssen diese Klasse jedoch nicht in der JSON-Designdatei angeben, denn Power BI tut dies automatisch. Wenn Sie sich später entscheiden, Beschriftungen mit einer 14-Punkt-Schriftart in Ihrem Design festzulegen, müssen Sie nicht auch die Klasse **bold label** aktualisieren, da sie die Textformatierung von der Klasse **label** erbt.
+Nehmen wir die Klasse **label** als Beispiel. Die Standardformatierung für die **label**-Klasse ist Segoe UI, 252423 (eine dunkelgraue Farbe) und 12 Punkte. Diese Klasse wird verwendet, um die Werte in der Tabelle und Matrix zu formatieren. Meist haben die Summen in einer Tabelle oder Matrix eine ähnliche Formatierung, sind aber mit der Klasse **bold label** fett formatiert, damit sie auffallen. Sie müssen diese Klasse jedoch nicht in der JSON-Designdatei angeben, denn Power BI tut dies automatisch. Wenn Sie sich später entscheiden, Beschriftungen mit einer 14-Punkt-Schriftart in Ihrem Design festzulegen, müssen Sie die Klasse **bold label** nicht mehr aktualisieren, da sie die Textformatierung von der Klasse **label** erbt.
 
 Die folgende Tabelle enthält die folgenden Informationen:
 
@@ -419,7 +419,7 @@ Um eine JSON-Datei in einem erweiterten Format zu erstellen, die eine detaillier
     }
 ```
 
-Verwenden Sie für die Abschnitte **visualName** und **cardName** einen spezifischen Visual- und Kartennamen. Derzeit ist **styleName** immer ein Sternchen (*), aber in einem künftigen Release können Sie unterschiedliche Formatvorlagen für Ihre Visuals erstellen und Ihnen Namen geben (ähnlich wie beim Tabellen- und Matrixformatvorlagen-Feature). **propertyName** ist der Name der Formatierungsoption und **propertyValue** deren Wert.
+Verwenden Sie für die Abschnitte **visualName** und **cardName** einen spezifischen Visual- und Kartennamen. Derzeit ist **styleName** immer ein Sternchen (*), aber in einem künftigen Release können Sie unterschiedliche Formatvorlagen für Ihre Visuals erstellen und Ihnen Namen geben (ähnlich wie bei den Features Tabellenstil und Matrixformat). **propertyName** ist der Name der Formatierungsoption und **propertyValue** deren Wert.
 
 Verwenden Sie für **visualName** und **cardName** ein Sternchen in Anführungszeichen, wenn Sie möchten, dass diese Einstellung für alle Visuals oder Karten gilt, die eine Eigenschaft haben. Wenn Sie ein Sternchen sowohl für den Visual- als auch für den Kartennamen verwenden, wenden Sie eine Einstellung global in Ihrem Bericht an, z. B. einen Schriftgrad oder eine bestimmte Schriftfamilie für alle Texte aller Visuals.
 

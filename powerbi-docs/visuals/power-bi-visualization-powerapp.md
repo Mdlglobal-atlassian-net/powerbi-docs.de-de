@@ -3,19 +3,19 @@ title: Einbetten einer neuen Power App in einen Power BI-Bericht
 description: Einbetten einer App mit derselben Datenquelle, die wie andere Berichtselemente gefiltert werden kann
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036674"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525934"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Einbetten eines Power Apps-Visuals in einen Power BI-Bericht
 
@@ -106,4 +106,5 @@ Wenn Sie das Analysebeispiel für Opportunity nicht mehr verwenden möchten, kö
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Q&A-Visual](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[Tutorial: Power Apps-Visual für Power BI](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697035"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488658"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium – Häufig gestellte Fragen
 
@@ -88,6 +88,6 @@ Weitere Informationen finden Sie unter [Erste Schritte mit Power BI-Berichtsserv
 [Whitepaper zu Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Whitepaper zur Planung einer Unternehmensbereitstellung von Power BI](https://aka.ms/pbienterprisedeploy)
 [Aktivierung der erweiterten Pro-Textversion](service-extended-pro-trial.md)
-[Häufig gestellte Fragen zu Power BI Premium](developer/embedded-faq.md)
+[Häufig gestellte Fragen zu Power BI Premium](developer/embedded/embedded-faq.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

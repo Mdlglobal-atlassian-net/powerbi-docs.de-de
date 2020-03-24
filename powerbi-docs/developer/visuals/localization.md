@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819121"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379855"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Hinzufügen des Gebietsschemas in Power BI für benutzerdefinierte Visuals
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Hinzufügen des Gebietsschemas in Power BI für benutzerdefinierte Power BI-Visuals
 
 Mit Visuals lässt sich das Power BI-Gebietsschema abrufen, um den Inhalt in der relevanten Sprache zu lokalisieren.
 
@@ -24,12 +24,12 @@ Weitere Informationen zu [Unterstützte Sprachen und Länder/Regionen für Power
 
 Ein Beispiel ist das Abrufen des Gebietsschemas im Visual mit dem Beispielbalkendiagramm.
 
-![Lokalisierung im Visual des Beispielbalkendiagramms](media/locale-in-samplebarchart.png)
+![Lokalisierung im Visual des Beispielbalkendiagramms](media/localization/locale-in-samplebarchart.png)
 
 Jedes dieser Balkendiagramme wurde unter einem anderen Gebietsschema (Englisch, Baskisch und Hindi) erstellt, wie in der QuickInfo angezeigt wird.
 
 > [!NOTE]
-> Der Lokalisierungs-Manager im Code des Visuals wird von API 1.10.0 und höher unterstützt.
+> Der Lokalisierungs-Manager im Code des Visuals wird von der API 1.10.0 und höher unterstützt.
 
 ## <a name="get-the-locale"></a>Abrufen des Gebietsschemas
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (traditionelles Chinesisch)
 > [!NOTE]
 > In Power BI Desktop enthält die Gebietsschemaeigenschaft die Sprache der installierten Power BI Desktop-Instanz.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>Lokalisierung des Eigenschaftenbereichs für benutzerdefinierte Visuals
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Lokalisierung des Eigenschaftenbereichs für Power BI-Visuals
 
 Felder im Eigenschaftenbereich können lokalisiert werden, um eine stärker integrierte und kohärente Darstellung bereitzustellen. Dadurch verhält sich Ihr benutzerdefiniertes Visual wie jedes andere visuelle Power BI-Element.
 
 Ein nicht lokalisiertes benutzerdefiniertes Visual, das mit dem Befehl `pbiviz new` erstellt wurde, zeigt beispielsweise die folgenden Felder im Eigenschaftenbereich an:
 
-![Lokalisierung im Eigenschaftenbereich](media/property-pane.png)
+![Lokalisierung im Eigenschaftenbereich](media/localization/property-pane.png)
 
 Sowohl die „Category Data“ (Kategoriedaten) als auch die „Measure Data“ (Messdaten) werden in der Datei „capabilities.json“ als `displayName` definiert.
 
@@ -132,7 +132,7 @@ Fügen Sie dann ein Verzeichnis namens „stringResources“ hinzu. Das Verzeich
 
 Im Beispiel soll Arabisch und Hebräisch unterstützt werden. Sie müssen zwei JSON-Dateien auf folgende Weise hinzufügen:
 
-![Lokalisierungszeichenfolgen im Ordner für Zeichenfolgenressourcen](media/stringresources-files.png)
+![Lokalisierungszeichenfolgen im Ordner für Zeichenfolgenressourcen](media/localization/stringresources-files.png)
 
 Jede JSON-Datei definiert ein einzelnes Gebietsschema (diese Datei muss eines der Gebietsschemas aus der obigen Liste sein) mit den Zeichenfolgenwerten für die gewünschten Anzeigenamensschlüssel. In diesem Beispiel sieht die Ressourcendatei für die hebräische Zeichenfolge wie folgt aus:
 
@@ -161,13 +161,13 @@ Laden Sie für die Verwendung auf dem Desktop die lokalisierte Version von Power
 
 Wenn Sie den Webclient (Browser) im Dienst verwenden, ändern Sie die Sprache in den Einstellungen:
 
-![Lokalisierung im Webdienst](media/webservice-settings.png)
+![Lokalisierung im Webdienst](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>Ressourcendatei
 
-Fügen Sie eine Datei „resources. resjson“ zu einem Ordner mit dem Namen des Gebietsschemas hinzu, das Sie im Ordner „stringResources“ verwenden möchten. Dies ist in diesem Beispiel „en-US“ und „ru-ru“.
+Fügen Sie eine Datei „resources.resjson“ zu einem Ordner mit dem Namen des Gebietsschemas hinzu, das Sie im Ordner „stringResources“ verwenden möchten. Dies ist in diesem Beispiel „en-US“ und „ru-ru“.
 
-![Die neue RESJSON-Datei](media/new-resjson.png)
+![Die neue RESJSON-Datei](media/localization/new-resjson.png)
 
 Fügen Sie anschließend alle zu verwendenden Lokalisierungszeichenfolgen in die Datei „resources.resjson“ ein, die Sie im vorherigen Schritt hinzugefügt haben.
 
@@ -195,7 +195,7 @@ Dieses Beispiel zeigt die en-US-Version der Datei „resources.resjson“:
 }
 ```
 
-Neue localizationManager-Instanz. Erstellen Sie wie folgt eine Instanz von localizationManager im Code Ihres Visuals:
+Neue localizationManager-Instanz Erstellen Sie wie folgt eine Instanz von localizationManager im Code Ihres Visuals:
 
 ```typescript
 private localizationManager: ILocalizationManager;

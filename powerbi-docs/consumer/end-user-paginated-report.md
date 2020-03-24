@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c4c21dc0f02e547cd7319d789a3eb66cce1f4b88
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113118"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377349"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Paginierte Berichte im Power BI-Dienst
 
@@ -36,7 +36,7 @@ Dieser einfache paginierte Bericht generiert den Gewinn nach Jahr, nachdem Sie d
 
 ![Einfacher Parameterbericht](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-Im Vergleich zu paginierten Berichten sind Power BI-Berichte viel interaktiver. Power BI-Berichte ermöglichen die Ad-hoc-Berichterstellung und unterstützen viele weitere Arten von Visuals einschließlich benutzerdefinierter Visuals.
+Im Vergleich zu paginierten Berichten sind Power BI-Berichte viel interaktiver. Power BI-Berichte ermöglichen die Ad-hoc-Berichterstellung und unterstützen viele weitere Arten von Visuals einschließlich Power BI-Visuals.
 
 ## <a name="identify-a-paginated-report"></a>Identifizieren eines paginierten Berichts
 

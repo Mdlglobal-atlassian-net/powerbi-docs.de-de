@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260414"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133248"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informationen zum Sternschema und der Wichtigkeit für Power BI
 
 Dieser Artikel befasst sich mit Power BI Desktop-Datenmodellierern. In diesem Artikel wird der Sternschemaentwurf und dessen Relevanz für die Entwicklung von Power BI-Datenmodellen beschrieben, die für Leistung und Benutzerfreundlichkeit optimiert sind.
 
-Dieser Artikel soll keine vollständige Erörterung des Sternschemaentwurfs bieten. Weitere Informationen finden Sie in veröffentlichten Inhalten, z. B. im Buch **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (2. Auflage, 2002) (Das Data Warehouse-Toolkit: Der ausführliche Leitfaden zur dimensionalen Modellierung) von Ralph Kimball.
+Dieser Artikel soll keine vollständige Erörterung des Sternschemaentwurfs bieten. Weitere Informationen finden Sie in veröffentlichten Inhalten, z. B. im Buch **The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling** (3. Auflage, 2013) (Das Data Warehouse-Toolkit: Der endgültige Leitfaden zur dimensionalen Modellierung) von Ralph Kimball.
 
 ## <a name="star-schema-overview"></a>Übersicht über das Sternschema
 

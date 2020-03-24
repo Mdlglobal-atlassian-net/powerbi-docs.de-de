@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 03/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114040"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525704"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst 
 
@@ -65,7 +65,7 @@ Unabhängig davon, ob Sie ein Dashboard oder einen Bericht abonnieren, ist der V
 
 3. Wenn alles in Ordnung ist, klicken Sie auf **Speichern und schließen**, um das Abonnement zu speichern. Sie erhalten eine E-Mail und eine Momentaufnahme des Dashboards oder Berichts gemäß des festgelegten Zeitplans. Für alle Abonnements, für die die Häufigkeit **Nach Datenaktualisierung** festgelegt ist, werden E-Mails erst nach der ersten geplanten Aktualisierung des Tages versendet.
    
-   ![E-Mail mit einer Momentaufnahme des Dashboards](media/end-user-subscribe/power-bi-email.png)
+   ![E-Mail mit einer Momentaufnahme des Dashboards](media/end-user-subscribe/power-bi-email-old.png)
    
     Durch das Aktualisieren der Berichtsseite wird nicht das Dataset aktualisiert. Nur der Besitzer des Datasets kann ein Dataset manuell aktualisieren. Klicken Sie auf das Dropdownmenü in der oberen Menüleiste, oder suchen Sie nach der ursprünglichen Abonnement-E-Mail, um den Besitzernamen des zugrunde liegenden Datasets herauszufinden.
    
@@ -80,14 +80,14 @@ Sie können nur Abonnements verwalten, die Sie erstellen. Klicken Sie erneut auf
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder der Bericht vom Besitzer gelöscht wird oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-* Um zu verhindern, dass Abonnement-E-Mails in Ihren Spamordner gelangen, fügen Sie Ihren Kontakten den Power Platform-E-Mail-Alias (PowerPlat-noreply@microsoft.com) hinzu. Wenn Sie Microsoft Outlook verwenden, klicken Sie mit der rechten Maustaste auf den Alias, und wählen Sie **Zu Outlook-Kontakten hinzufügen** aus. 
+* Fügen Sie den Power BI-E-Mail-Alias (no-reply-powerbi@microsoft.com) zu Ihren Kontakten hinzu, um zu verhindern, dass Abonnement-E-Mails in Ihren Spamordner gelangen. Wenn Sie Microsoft Outlook verwenden, klicken Sie mit der rechten Maustaste auf den Alias, und wählen Sie **Zu Outlook-Kontakten hinzufügen** aus. 
 * Dashboards mit mehr als 25 angehefteten Kacheln oder vier angehefteten Berichtsseiten werden in an Benutzer gesendeten Abonnement-E-Mails möglicherweise nicht vollständig dargestellt. Es wird empfohlen, dass Sie sich an den Dashboard-Designer wenden und ihn bitten, die Anzahl der angehefteten Kacheln auf unter 25 und der angehefteten Liveberichte auf unter vier reduzieren, um sicherzustellen, dass die E-Mails ordnungsgemäß dargestellt werden.  
 * Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.  Wenn das Dataset RLS verwendet, können Sie kein neues Abonnement für Berichts-E-Mail-Abonnements erstellen.
 * Wenn die Links (zum Inhalt) in Ihrer E-Mail nicht mehr funktionieren, ist es möglich, dass der Inhalt gelöscht wurde. In der E-Mail können Sie unterhalb des Screenshots sehen, ob Sie selbst ein Abonnement für sich erstellt haben oder ob es von einem anderen Benutzer für Sie erstellt wurde. Falls es jemand anderes war, bitten Sie den Kollegen, entweder die E-Mails abzubestellen oder erneut ein Abonnement für Sie zu erstellen.
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtsseite abonnieren und diese umbenannt wird, müssen Sie Ihr Abonnement erneut erstellen.
 * Wenn Sie das Abonnementfeature nicht verwenden können, wenden Sie sich an Ihren Systemadministrator. Ihre Organisation hat dieses Feature möglicherweise deaktiviert.  
-* E-Mail-Abonnements bieten keine Unterstützung für die meisten [benutzerdefinierten Visuals](../developer/power-bi-custom-visuals.md).  Die Ausnahme sind benutzerdefinierte Visuals, die [zertifiziert](../developer/power-bi-custom-visuals-certified.md) wurden.  
-* E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte benutzerdefinierte Visuals.  
+* E-Mail-Abonnements bieten keine Unterstützung für die meisten [Power BI-Visuals](../developer/visuals/power-bi-custom-visuals.md).  Die einzige Ausnahme sind Power BI-Visuals, die [zertifiziert](../developer/visuals/power-bi-custom-visuals-certified.md) wurden.  
+* E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte Power BI-Visuals.  
 * Insbesondere für Abonnements von Dashboards werden bestimmte Typen von Kacheln noch nicht unterstützt.  Dazu zählen Streamingkacheln, Videokacheln und benutzerdefinierte Kacheln mit Webinhalten.     
 * Aufgrund der Beschränkungen für die E-Mail-Größe können Dashboards oder Berichte mit extrem großen Bildern möglicherweise nicht abonniert werden.    
 * Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind und seit mehr als zwei Monaten nicht besucht wurden, wird von Power BI automatisch ausgesetzt.  Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard oder der Bericht längere Zeit nicht besucht wurde.

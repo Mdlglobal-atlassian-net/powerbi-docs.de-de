@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920754"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377648"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Leitfaden zum Datenabruf von paginierten Berichten
 
@@ -26,7 +26,7 @@ Paginierte Berichte verfügen über native Unterstützung für relationale und a
 Wenn Sie den Datenquellentyp auswählen können (bei einem neuen Projekt eventuell möglich), wird empfohlen, cloudbasierte Datenquellen zu verwenden. Bei paginierten Berichten kann insbesondere dann eine Verbindung mit geringerer Netzwerklatenz hergestellt werden, wenn sich die Datenquellen in derselben Region wie Ihr Power BI-Mandant befinden. Außerdem ist es möglich, mithilfe des einmaligen Anmeldens (Single Sign-on, SSO) eine Verbindung zu diesen Quellen herzustellen. Dies bedeutet, dass die Identität des Berichtsbenutzers an die Datenquelle weitergeleitet werden kann, sodass benutzerspezifische Berechtigungen auf Zeilenebene erzwungen werden können. Derzeit wird das einmalige Anmelden für lokale Datenquellen nicht unterstützt (d. h. SQL Server Analysis Services kann keine spezifischen Berechtigungen auf Zeilenebene erzwingen).
 
 > [!NOTE]
-> Obwohl es derzeit nicht möglich ist, mithilfe von SSO eine Verbindung mit lokalen Datenbanken herzustellen, können Sie weiterhin Berechtigungen auf Zeilenebene erzwingen. Dies erfolgt durch Übergeben des integrierten **UserID**-Felds an einen Datasetabfrageparameter. Die Datenquelle muss Benutzerprinzipalnamenwerte so speichern, dass Abfrageergebnisse ordnungsgemäß gefiltert werden können.
+> Obwohl es derzeit nicht möglich ist, mithilfe von SSO eine Verbindung mit lokalen Datenbanken herzustellen, können Sie weiterhin Berechtigungen auf Zeilenebene erzwingen. Dies erfolgt durch das Übergeben des integrierten **UserID**-Felds an einen Datasetabfrageparameter. Die Datenquelle muss Benutzerprinzipalnamenwerte so speichern, dass Abfrageergebnisse ordnungsgemäß gefiltert werden können.
 >
 > Beachten Sie beispielsweise, dass jeder Vertriebsmitarbeiter als Zeile in der Tabelle für **Vertriebsmitarbeiter** gespeichert wird.  Die Tabelle enthält Spalten für Benutzerprinzipalnamen und die Vertriebsbereich von Vertriebsmitarbeitern. Zur Abfragezeit wird die Tabelle nach dem Benutzerprinzipalnamen des Berichtsbenutzers gefiltert und ist auch mit Umsatzdaten verknüpft, die einen inneren Join verwenden. Auf diese Weise kann bei der Abfrage effektiv nach Umsatzdatenzeilen zu den Vertriebsbereichen des Berichtsbenutzers gefiltert werden.
 

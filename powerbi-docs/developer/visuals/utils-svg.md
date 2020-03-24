@@ -1,24 +1,24 @@
 ---
 title: Einführung in die Verwendung der SVGUtils-Klasse in Power BI-Visuals
-description: In diesem Artikel wird beschrieben, wie Sie die SVGUtils-Klasse verwenden, um SVG-Manipulationen für benutzerdefinierte Power BI-Visuals zu vereinfachen.
+description: In diesem Artikel wird beschrieben, wie Sie die SVGUtils-Klasse verwenden, um SVG-Manipulationen für Power BI-Visuals zu vereinfachen.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819305"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377970"
 ---
 # <a name="svg-utils"></a>SVGUtils
 
-SVGUtils besteht aus mehreren Funktionen und Klassen, um SVG-Manipulationen in benutzerdefinierten Power BI-Visuals zu vereinfachen.
+SVGUtils besteht aus mehreren Funktionen und Klassen, um SVG-Manipulationen für Power BI-Visuals zu vereinfachen.
 
 ## <a name="installation"></a>Installation
 

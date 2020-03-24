@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782450"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381305"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 
@@ -307,17 +307,17 @@ Administratoren können **RestrictedResourceMimeTypeForUpload** verwenden, um ei
 
 Folgende Features werden nun in Power BI-Berichten unterstützt:
 
-[**Sicherheit auf Zeilenebene:**](row-level-security-report-server.md) Wenn Sie die Sicherheit auf Zeilenebene (Row Level Security, RLS) auf dem Power BI-Berichtsserver einrichten, können Sie den Datenzugriff für bestimmte Benutzer einschränken. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren.
+[**Sicherheit auf Zeilenebene:** ](row-level-security-report-server.md) Wenn Sie die Sicherheit auf Zeilenebene (Row Level Security, RLS) auf dem Power BI-Berichtsserver einrichten, können Sie den Datenzugriff für bestimmte Benutzer einschränken. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren.
 
-[**Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix:**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Es ist nun möglich, einzelne Zeilenüberschriften in Visuals zu erweitern oder zu reduzieren. Dieses Feature wurde sehr häufig gefordert.
+[**Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Es ist nun möglich, einzelne Zeilenüberschriften in Visuals zu erweitern oder zu reduzieren. Dieses Feature wurde sehr häufig gefordert.
 
-[**Kopieren und Einfügen zwischen PBIX-Dateien:**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Sie können Visuals zwischen PBIX-Dateien kopieren, indem Sie entweder das Kontextmenü des Visuals oder die Standardtastenkombination STRG+C verwenden. Fügen Sie die Datei anschließend mit STRG+V in einen anderen Bericht ein.
+[**Kopieren und Einfügen zwischen PBIX-Dateien:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Sie können Visuals zwischen PBIX-Dateien kopieren, indem Sie entweder das Kontextmenü des Visuals oder die Standardtastenkombination STRG+C verwenden. Fügen Sie die Datei anschließend mit STRG+V in einen anderen Bericht ein.
 
-[**Intelligente Hinweise zur Ausrichtung:**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Wenn Sie Objekte auf Ihrer Berichtsseite verschieben, werden Ihnen intelligente Hinweise zur Ausrichtung angezeigt (ähnlich wie in PowerPoint), damit Sie Ihre Seite optimaler gestalten können. Die intelligenten Hinweise werden immer angezeigt, wenn Sie ein Objekt auf der Seite ziehen oder dessen Größe ändern. Wenn Sie ein Objekt in die Nähe eines anderen verschieben, wird es an der Position des anderen Objekts ausgerichtet.
+[**Intelligente Hinweise zur Ausrichtung:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Wenn Sie Objekte auf Ihrer Berichtsseite verschieben, werden Ihnen intelligente Hinweise zur Ausrichtung angezeigt (ähnlich wie in PowerPoint), damit Sie Ihre Seite optimaler gestalten können. Die intelligenten Hinweise werden immer angezeigt, wenn Sie ein Objekt auf der Seite ziehen oder dessen Größe ändern. Wenn Sie ein Objekt in die Nähe eines anderen verschieben, wird es an der Position des anderen Objekts ausgerichtet.
 
 **Features für die Barrierefreiheit:** Es gibt viele Features für die Barrierefreiheit, z. B. [die Unterstützung für die Barrierefreiheit des Bereichs zum Auflisten von Feldern](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Der Bereich zum Auflisten von Feldern ist vollständig barrierefrei. Sie können in diesem Bereich navigieren, indem Sie nur die Tastatur und die Sprachausgabe verwenden. Über das Kontextmenü können Sie Felder zu Ihrer Berichtsseite hinzufügen.
 
-#### <a name="custom-visuals"></a>Benutzerdefinierte Visuals
+#### <a name="power-bi-visuals"></a>Power BI-Visuals
 
 - In diesem Release ist API-Version 2.3 enthalten.
 
@@ -327,7 +327,7 @@ Administratoren können die folgenden Eigenschaften in den erweiterten SSMS-Eige
 
 **AllowedResourceExtensionsForUpload:** Sie können die Erweiterungen der Ressourcen einschränken, die auf den Berichtsserver hochgeladen werden können. Die Erweiterungen für integrierte Dateitypen wie &ast;.rdl und &ast;.pbix müssen nicht aufgeführt werden. Standardmäßig sind die Erweiterungen &ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt und &ast;.pptx” enthalten. 
 
-**SupportedHyperlinkSchemes:** Legt eine durch Trennzeichen getrennte Liste der URI-Schemas fest, die in Hyperlinkaktionen definiert werden dürfen, die gerendert werden können. Alternativ wird „&ast;“ festgelegt, um alle Hyperlinkschemas zuzulassen. Mit der Einstellung „http,https“ sind beispielsweise Links zu „https://www. contoso.com“ zulässig, aber Hyperlinks zu „mailto:bill@contoso.com“ oder „javascript:window.open(‘www.contoso.com’, ‘_blank’)“ werden entfernt. Der Standardwert lautet „&ast;“.
+**SupportedHyperlinkSchemes:** Legt eine durch Trennzeichen getrennte Liste der URI-Schemas fest, die in Hyperlinkaktionen definiert werden dürfen, die gerendert werden können. Alternativ wird „&ast;“ festgelegt, um alle Hyperlinkschemas zuzulassen. Mit der Einstellung „http,https“ sind beispielsweise Links zu „https://www. contoso.com“ zulässig, aber Hyperlinks zu „mailto:bill@contoso.com“ oder „javascript:window.open(‘ www.contoso.com’, ‘_blank’)“ werden entfernt. Der Standardwert lautet „&ast;“.
 
 ## <a name="august-2018"></a>August 2018
 
@@ -381,11 +381,11 @@ Die Unterstützung von direkten SAP HANA SSO-Abfragen mit Kerberos ist nun für 
 >[!Note]
 >Dieses Szenario wird nur unterstützt, wenn SAP HANA als relationale Datenquelle mit Berichten, die Sie in Power BI Desktop erstellt haben, behandelt wird.  Um dies in Power BI Desktop zu aktivieren, überprüfen Sie unter „Optionen“ im DirectQuery-Menü „SAP HANA als relationale Quelle behandeln“, und klicken Sie auf OK.
 
-#### <a name="custom-visuals"></a>Benutzerdefinierte Visuals
+#### <a name="power-bi-visuals"></a>Power BI-Visuals
 
 - In diesem Release ist API-Version 1.13.0 enthalten.
 
-- Für benutzerdefinierte Visuals kann jetzt ein Fallback auf eine vorherige Version ausgeführt werden, die mit der aktuellen Version der Server-API (falls verfügbar) kompatibel ist.
+- Für Power BI-Visuals kann jetzt ein Fallback auf eine vorherige Version ausgeführt werden, die mit der aktuellen Version der Server-API (falls verfügbar) kompatibel ist.
 
 ### <a name="reporting"></a>Berichterstellung 
 
@@ -613,7 +613,7 @@ Power BI-Berichtsserver unterstützt nun die neuen Power BI-Tabellen- und Matrix
 
 * Vorschauversion von Power BI-Berichtsserver jetzt verfügbar
 * Möglichkeit zum lokalen Veröffentlichen von Power BI-Berichten
-  * Unterstützung für benutzerdefinierte Visuals
+  * Unterstützung für Power BI-Visuals
   * Ausschließliche Unterstützung für **Liveverbindungen von Analysis Services** (weitere Datenquellen folgen)
   * Mobile Power BI-App so aktualisiert, dass in Power BI-Berichtsserver gehostete Power BI-Berichte angezeigt werden
 * Bessere Zusammenarbeit in Berichten mit Kommentaren

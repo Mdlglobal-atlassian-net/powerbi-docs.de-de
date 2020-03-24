@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867694"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378729"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportieren von Berichten aus Power BI Desktop in das PDF-Format
 In **Power BI Desktop** oder im Power BI-Dienst können Sie Berichte in eine PDF-Datei exportieren und diese problemlos freigeben oder drucken.
@@ -34,7 +34,7 @@ Wenn der Export abgeschlossen ist, wird die PDF-Datei im standardmäßig eingest
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Bei Verwendung des Features **In PDF exportieren** sind einige Punkte zu beachten:
 
-* Während benutzerdefinierte Visuals exportiert werden, werden im Bericht angewendete Hintergründe *nicht* exportiert.
+* Während Power BI-Visuals exportiert werden, werden im Bericht angewendete Hintergründe *nicht* exportiert.
 
 Da der Hintergrund nicht in die PDF-Datei exportiert wird, sollten Sie besonders bei Berichten mit dunklen Hintergründen darauf achten. Wenn der Text in Ihrem Bericht hell oder weiß ist, um ihn vom dunklen Hintergrund hervorzuheben, wird er schwer zu lesen oder beim Exportvorgang in das PDF-Format nicht lesbar sein, da der Hintergrund nicht mit den anderen Berichtskomponenten exportiert wird. 
 

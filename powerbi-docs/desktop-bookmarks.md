@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761885"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378982"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Erstellen von Lesezeichen zum Teilen von Erkenntnissen und Erstellen von Präsentationen in Power BI Desktop
 Mithilfe von *Lesezeichen* können Sie in Power BI Desktop die aktuell konfigurierte Ansicht einer Berichtsseite, einschließlich Filterung und Zustands der Visuals, erfassen. Sie können später zu diesem Zustand zurückkehren, indem Sie das gespeicherte Lesezeichen auswählen. 
@@ -198,7 +198,7 @@ So aktivieren Sie das Vorschaufeature „Lesezeichen“
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Für dieses Release des Features „Lesezeichen“ gelten einige Einschränkungen und Überlegungen.
 
-* Die meisten benutzerdefinierten Visualisierungen sollten mit Lesezeichen gut funktionieren. Wenn jedoch bei einem Lesezeichen Probleme in Zusammenhang mit einem benutzerdefinierten Visual auftreten sollten, bitten Sie den Ersteller des benutzerdefinierten Visuals, dafür zu sorgen, dass sein Visual Lesezeichen unterstützt. 
+* Die meisten Power BI-Visuals sollten mit Lesezeichen gut funktionieren. Wenn jedoch bei einem Lesezeichen Probleme in Zusammenhang mit einem benutzerdefinierten Visual auftreten sollten, bitten Sie den Ersteller des benutzerdefinierten Visuals, dafür zu sorgen, dass sein Visual Lesezeichen unterstützt. 
 * Wenn Sie einer Berichtsseite nach dem Erstellen eines Lesezeichens ein Visual hinzufügen, wird das Visual in seinem Standardstatus angezeigt. Dies bedeutet auch, dass beim Anwenden eines Datenschnitts auf einer Seite, auf der Sie zuvor Lesezeichen erstellt haben, das Verhalten des Datenschnitts seinem Standardstatus entspricht.
 * Das Verschieben eines Visuals nach dem Erstellen des Lesezeichens wird automatisch im Lesezeichen wiedergegeben. 
 

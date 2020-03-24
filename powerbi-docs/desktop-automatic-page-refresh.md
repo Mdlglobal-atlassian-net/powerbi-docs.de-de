@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548564"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488520"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatische Seitenaktualisierung in Power BI Desktop (Vorschau)
 
@@ -35,9 +35,9 @@ In der folgenden Abbildung wird die Registerkarte **Seitenaktualisierung** darge
 
 ![Karte „Seitenaktualisierung“](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  Schieberegler für die automatische Seitenaktualisierung: Aktiviert oder Deaktiviert die Seitenaktualisierung
-2.  Intervallwert für die Seitenaktualisierung: Numerischer Wert für das Aktualisierungsintervall
-3.  Intervalleinheit für die Seitenaktualisierung: Intervalleinheit für die Seitenaktualisierung
+1.    Schieberegler für die automatische Seitenaktualisierung: Aktiviert oder Deaktiviert die Seitenaktualisierung
+2.    Intervallwert für die Seitenaktualisierung: Numerischer Wert für das Aktualisierungsintervall
+3.    Intervalleinheit für die Seitenaktualisierung: Intervalleinheit für die Seitenaktualisierung
 
 Hier können Sie die Seitenaktualisierung aktivieren und die Aktualisierungsdauer auswählen. Der Standardwert sind 30 Minuten, das minimale Aktualisierungsintervall beträgt eine Sekunde. Der Bericht wird in dem von Ihnen festgelegten Intervall aktualisiert. 
 
@@ -52,7 +52,7 @@ Als bewährte Methode sollte das Aktualisierungsintervall mindestens der erwarte
 * Wenn jede Sekunde neue Daten eintreffen, sollte das Intervall auf eine Sekunde festgelegt werden. 
 
 
-Für niedrige Aktualisierungsintervalle wie eine Sekunde sollten Sie auch den Typ der direkten Abfragedatenquelle, die Last, die Ihre Abfragen dafür erzeugen, die Entfernung Ihrer Berichtsanzeigen vom Rechenzentrum der Kapazität usw. berücksichtigen. 
+Für niedrige Aktualisierungsintervalle wie eine Sekunde sollten Sie auch den Typ der direkten Abfragedatenquelle, die Last, die Ihre Abfragen dafür erzeugen, die Entfernung Ihrer Berichtsaufrufer vom Rechenzentrum der Kapazität usw. berücksichtigen. 
 
 Sie können dies mit der Leistungsanalyse in Power BI Desktop abschätzen, mit der Sie überprüfen können, ob jede Visual-Abfrage genügend Zeit hat, um mit dem Ergebnis aus der Quelle zurückzukehren, und wo diese Zeit anfällt. Basierend auf den Ergebnissen der Leistungsanalyse können Sie die Datenquelle anpassen und Änderungen vornehmen, oder Sie können mit anderen Visuals und Measures in Ihrem Bericht experimentieren.
 
@@ -62,10 +62,10 @@ In der folgenden Abbildung werden die Ergebnisse einer DirectQuery in der Leistu
 
 Betrachten wir einige andere Merkmale dieser Datenquelle. 
 
-1.  Die Daten werden mit einer Rate von zwei Sekunden empfangen. 
-2.  Die Leistungsanalyse zeigt die maximale Abfrage- und Anzeigezeit von ungefähr 4,9 Sekunden (4.688 Millisekunden) an. 
-3.  Die Datenquelle ist so konfiguriert, dass ungefähr 1.000 gleichzeitige Abfragen pro Sekunde verarbeitet werden. 
-4.  Sie erwarten, dass ungefähr 10 Benutzer den Bericht gleichzeitig anzeigen.
+1.    Die Daten werden mit einer Rate von zwei Sekunden empfangen. 
+2.    Die Leistungsanalyse zeigt die maximale Abfrage- und Anzeigezeit von ungefähr 4,9 Sekunden (4.688 Millisekunden) an. 
+3.    Die Datenquelle ist so konfiguriert, dass ungefähr 1.000 gleichzeitige Abfragen pro Sekunde verarbeitet werden. 
+4.    Sie erwarten, dass ungefähr 10 Benutzer den Bericht gleichzeitig anzeigen.
 
 Dadurch ergibt sich Folgendes:
 
@@ -83,13 +83,13 @@ Als nächstes schauen wir uns an, wie Sie als Kapazitätsadministrator Leistungs
 
 Sie können auch automatische Seitenaktualisierungsintervalle für Berichte festlegen, die in Power BI Desktop erstellt und für den Power BI-Dienst veröffentlicht wurden. 
 
-Die automatische Seitenaktualisierung für Berichte im Power BI-Dienst wird mit Schritten konfiguriert, die der Konfiguration in Power BI Desktop ähneln. Wenn die automatische Seitenaktualisierung im Power BI-Dienst konfiguriert wird, unterstützt sie auch [eingebetteten Power BI-Inhalt](developer/embedding.md). Die folgende Abbildung zeigt die Konfiguration der **Seitenaktualisierung** für den Power BI-Dienst:
+Die automatische Seitenaktualisierung für Berichte im Power BI-Dienst wird mit Schritten konfiguriert, die der Konfiguration in Power BI Desktop ähneln. Wenn die automatische Seitenaktualisierung im Power BI-Dienst konfiguriert wird, unterstützt sie auch [eingebetteten Power BI-Inhalt](developer/embedded/embedding.md). Die folgende Abbildung zeigt die Konfiguration der **Seitenaktualisierung** für den Power BI-Dienst:
 
 ![Automatische Seitenaktualisierung im Power BI-Dienst](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  Schieberegler für die automatische Seitenaktualisierung: Aktiviert oder Deaktiviert die Seitenaktualisierung
-2.  Intervallwert für die Seitenaktualisierung: Numerischer Wert für das Aktualisierungsintervall (muss eine ganze Zahl sein)
-3.  Intervalleinheit für die Seitenaktualisierung: Intervalleinheit für die Seitenaktualisierung
+1.    Schieberegler für die automatische Seitenaktualisierung: Aktiviert oder Deaktiviert die Seitenaktualisierung
+2.    Intervallwert für die Seitenaktualisierung: Numerischer Wert für das Aktualisierungsintervall (muss eine ganze Zahl sein)
+3.    Intervalleinheit für die Seitenaktualisierung: Intervalleinheit für die Seitenaktualisierung
 
 ### <a name="page-refresh-intervals"></a>Seitenaktualisierungsintervalle
 

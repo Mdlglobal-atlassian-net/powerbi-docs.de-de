@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710130"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376590"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tipps für die Erstellung von Vorlagen-Apps in Power BI
 
@@ -151,13 +151,13 @@ Sehen Sie sich das folgende Codebeispiel an, um einen Benutzer über den Link zu
 | Feature | Bekannte Einschränkung |
 |---------|---------|
 |Inhalt:  Datasets   | Genau ein Dataset sollte vorhanden sein. Nur Datasets, die in Power BI Desktop erstellt wurden (.pbix-Dateien), sind zulässig. <br>Nicht unterstützt: Datasets aus anderen Vorlagen-Apps, arbeitsbereichübergreifende Datasets, paginierte Berichte (.rdl-Dateien), Excel-Arbeitsmappen |
-|Inhalt: Dashboards | Echtzeitkacheln sind nicht zulässig (d.h. Push- oder Streamingdatasets werden nicht unterstützt). |
+|Inhalt: Dashboards | Echtzeitkacheln sind nicht zulässig (d. h. Push- oder Streamingdatasets werden nicht unterstützt). |
 |Inhalt: Dataflows | Nicht unterstützt: Dataflows |
 |Inhalte aus Dateien | Nur PBIX-Dateien sind zulässig. <br>Nicht unterstützt: .rdl-Dateien (paginierte Berichte), Excel-Arbeitsmappen   |
 | Datenquellen | Datenquellen, die für geplante Datenaktualisierungen in der Cloud unterstützt werden, sind zulässig. <br>Nicht unterstützt: <li> DirectQuery</li><li>Liveverbindungen (ausgenommen Azure Analysis Services)</li> <li>Lokale Datenquellen (persönliche Gateways und Enterprise-Gateways werden nicht unterstützt)</li> <li>Echtzeit (Pushdataset wird nicht unterstützt)</li> <li>Zusammengesetzte Modelle</li></ul> |
 | Dataset: arbeitsbereichübergreifend | Arbeitsbereichübergreifende Datasets sind nicht zulässig.  |
 | Abfrageparameter | Nicht unterstützt: Parameter vom Typ „Any“ oder „Binary“ blockieren den Aktualisierungsvorgang für Datasets. |
-| Benutzerdefinierte visuelle Elemente | Es werden nur öffentlich verfügbare benutzerdefinierte Visuals unterstützt. [Benutzerdefinierte Visuals für Organisationen](developer/power-bi-custom-visuals-organization.md) werden nicht unterstützt. |
+| Power BI-Visuals | Es werden nur öffentlich verfügbare Power BI-Visuals unterstützt. [Power BI-Organisationsvisuals](developer/visuals/power-bi-custom-visuals-organization.md) werden nicht unterstützt. |
 
 ## <a name="next-steps"></a>Nächste Schritte
 
