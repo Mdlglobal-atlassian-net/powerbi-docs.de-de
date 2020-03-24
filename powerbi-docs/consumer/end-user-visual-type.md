@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114184"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377188"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Sie finden Visuals in Berichten, Dashboards und Q&A. Einige der Visualtypen sind in Power BI enthalten, und einige andere sind *benutzerdefinierte Visuals*. Benutzerdefinierte Visuals werden außerhalb von Power BI erstellt, damit *Berichts-Designer* sie zu Power BI-Berichten und -Dashboards hinzufügen können. 
+Sie finden Visuals in Berichten, Dashboards und Q&A. Einige dieser Visualtypen sind in Power BI enthalten, und einige andere sind *Power BI-Visuals*. Benutzerdefinierte Visuals werden außerhalb von Power BI erstellt, damit *Berichts-Designer* sie zu Power BI-Berichten und -Dashboards hinzufügen können. 
 
 Dieser Artikel bietet eine Übersicht über die im Power BI-Dienst enthaltenen Visuals.  Dies sind die Visuals, denen Sie am häufigsten begegnen werden. Ausführliche Informationen zu diesen Visuals finden Sie in der Dokumentation des [Power BI-Berichts-*Designers* zu Visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 > [!NOTE]
-> Erkunden Sie den Abschnitt **Power BI-Visuals** von [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), um mehr über benutzerdefinierte Visuals zu erfahren. Zu jedem Visual finden Sie eine Beschreibung, Informationen zum Ersteller und Screenshots oder ein Video. 
+> Erkunden Sie den Abschnitt **Power BI-Visuals** von [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), um mehr über Power BI-Visuals zu erfahren. Zu jedem Visual finden Sie eine Beschreibung, Informationen zum Ersteller und Screenshots oder ein Video. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Liste der in Power BI verfügbaren Visuals
 Alle hier genannten Visuals finden Sie in Power BI-Dashboards und -Berichten sowie [Q&A](end-user-q-and-a.md). Informationen zum Interagieren mit Visuals finden Sie unter [Interagieren mit Visuals in Berichten, Dashboards und Apps](end-user-visualizations.md)
@@ -237,7 +237,7 @@ Wasserfalldiagramme sind gut für folgende Zwecke geeignet:
 - Zum Illustrieren der Mitarbeiterzahl Ihres Unternehmens zu Jahresbeginn und -ende
 - Zum Visualisieren Ihrer Einnahmen und Ausgaben pro Monat und des laufenden Kontostands für Ihr Konto
 
-## <a name="qna"></a>Angeben der verwendeten Visuals für Q&A
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Angeben der verwendeten Visuals für Q&A
 Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Fragen und Antworten in Power BI können Sie den Visualtyp in der Abfrage angeben.  Beispiel:
 
 

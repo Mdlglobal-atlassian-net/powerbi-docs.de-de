@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881338"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376751"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Freigeben Ihrer Arbeit in Power BI
 
@@ -23,10 +23,12 @@ Sie haben Dashboards und Berichte erstellt. Zusätzlich kann es der Fall sein, d
 * Zusammenarbeit mit Kollegen, um aussagekräftige Berichte und Dashboards in *Arbeitsbereichen* zu erstellen
 * Bündeln dieser Dashboards und Berichte in *Apps* und Verteilen der Apps an eine größere Gruppe oder die gesamte Organisation
 * Erstellen *freigegebener Datasets*, die Ihre Kollegen als Grundlage für eigene Berichte in eigenen Arbeitsbereichen verwenden können
-* Erstellen einer *Vorlagen-App*, die Sie externen Power BI-Benutzern über Microsoft AppSource zur Verfügung stellen können
 * Freigeben von Dashboards oder Berichten für andere Personen über den Dienst oder mobile Power BI-Apps
+* Kommentieren und Freigeben in den mobilen Power BI-Apps
+* Einbetten von Berichten in Microsoft Teams
 * Drucken von Berichten
 * *Einbetten* von Berichten in sichere Portale oder öffentliche Websites
+* Erstellen einer *Vorlagen-App*, die Sie externen Power BI-Benutzern über Microsoft AppSource zur Verfügung stellen können
 
 Unabhängig von der ausgewählten Option benötigen Sie zum Freigeben von Inhalten eine [Power BI Pro-Lizenz](service-features-license-type.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium-what-is.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Inhalte anzeigen, sind von der ausgewählten Option abhängig. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
 
@@ -97,6 +99,10 @@ Sie geben eine Momentaufnahme der Kacheln, Berichte oder visuellen Elemente frei
 Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kacheln, Berichten und visuellen Elementen](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) in den mobilen iOS- und Android-Apps.
 
 Sie können auch eine [Momentaufnahme einer Kachel](consumer/mobile/mobile-windows-10-phone-app-get-started.md) aus der Power BI-App für Windows 10-Geräte freigeben.
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Einbetten von Berichten in Microsoft Teams
+
+Erhöhen Sie die datengesteuerte Zusammenarbeit in Ihrer Organisation, indem Sie Ihre Power BI-Berichte und paginierten Power BI-Berichte in Microsoft Teams einbetten. Sie können für jeden einzelnen Bericht separate Power BI-Registerkarten hinzufügen und jeder Registerkarte den Namen des Berichts oder einen beliebigen anderen Namen geben. Ihre Kollegen können Ihre Berichte auf den Power BI-Registerkarten in Teams anzeigen. Außerdem können sie das Unterhaltungsfenster öffnen und den Bericht direkt in Teams kommentieren. Weitere Informationen finden Sie unter [Einbetten von Berichten in Microsoft Teams](service-embed-report-microsoft-teams.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Ausdrucken oder als PDF (oder andere statische Datei) speichern
 

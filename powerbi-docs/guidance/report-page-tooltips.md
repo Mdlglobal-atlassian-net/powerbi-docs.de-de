@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290611"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377740"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Erweitern von Visuals mit QuickInfos für Berichtsseiten
 
@@ -31,7 +31,7 @@ QuickInfos für Berichtsseiten können die Möglichkeiten für die Benutzer von 
 >
 > QuickInfos für eine Seite unterstützen keine Interaktivität. Wenn Sie möchten, dass die Benutzer des Berichts interagieren, erstellen Sie stattdessen eine [Drillthroughseite](../desktop-drillthrough.md).
 >
-> Benutzerdefinierte Visuals unterstützen keine QuickInfos für Seiten.
+> Power BI-Visuals unterstützen keine QuickInfos für Seiten.
 
 Im Folgenden finden Sie einige empfohlene Entwurfsszenarios:
 

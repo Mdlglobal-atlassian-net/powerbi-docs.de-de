@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115260"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381282"
 ---
 # <a name="what-is-power-bi-administration"></a>Was ist die Power BI-Verwaltung?
 
@@ -59,7 +59,7 @@ Administratoren können verschiedene Aufgaben ausführen, um den Power BI-Mandan
 | Verwalten der Premium-Kapazität |<ul><li>Erwerben von und Arbeiten mit der Premium-Kapazität<br><li>Sicherstellen der Dienstqualität|
 | Verwalten der Embedded-Kapazität |<ul><li>Erwerben von Embedded-Kapazität, um unabhängigen Dienstanbietern und Entwicklern die Verwendung von Power BI-Funktionen zu vereinfachen</ul>|
 | Sicherstellen der Einhaltung von internen Richtlinien sowie Gesetzen und Bestimmungen | <ul><li>Verwalten der Klassifizierung von Geschäftsdaten<br><li>Durchsetzen von Richtlinien zur Veröffentlichung und Freigabe von Inhalten</ul>|
-| Verwalten von Power BI-Ressourcen |<ul><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von benutzerdefinierten Visuals<br><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen|
+| Verwalten von Power BI-Ressourcen |<ul><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von Power BI-Visuals<br><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen|
 | Bereitstellen von Hilfe und Support für Mandantenbenutzer |<ul><li>Beheben von Datenzugriffs- und anderen Problemen</ul>|
 | Weitere Aufgaben |<ul><li>Bereitstellen von Power BI Desktop z. B. mit System Center Configuration Manager<br><li>Verwalten der Bereitstellung von mobilen Power BI-Apps mit Intune<br><li>Verwalten von Datenschutz und -sicherheit, z.B. der Quelldatensicherheit</ul>|
 
@@ -69,7 +69,7 @@ In der Power BI-Verwaltung gibt es verschiedene Tools, die in der folgenden Tabe
 
 | **Tool** | **Typische Aufgaben** |
 | --- | --- |
-| Power BI-Verwaltungsportal |<ul><li>Erwerben von und Arbeiten mit der Premium-Kapazität</li><li>Sicherstellen der Dienstqualität</li><li>Verwalten der Klassifizierung von Geschäftsdaten</li><li>Durchsetzen von Richtlinien zur Veröffentlichung und Freigabe von Inhalten</li><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von benutzerdefinierten Visuals</li><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen</li><li>Beheben von Datenzugriffs- und anderen Problemen</li></ul>|
+| Power BI-Verwaltungsportal |<ul><li>Erwerben von und Arbeiten mit der Premium-Kapazität</li><li>Sicherstellen der Dienstqualität</li><li>Verwalten der Klassifizierung von Geschäftsdaten</li><li>Durchsetzen von Richtlinien zur Veröffentlichung und Freigabe von Inhalten</li><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von Power BI-Visuals</li><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen</li><li>Beheben von Datenzugriffs- und anderen Problemen</li></ul>|
 | Microsoft 365 Admin Center |<ul><li>Verwalten der Benutzerregistrierung</li><li>Erwerben und Zuweisen von Pro-Lizenzen</li><li>Sperren des Zugriffs auf Power BI für Benutzer</li></ul>|
 | Office 365 Security & Compliance Center |<ul><li>Überprüfen und Verwalten der Ereignisüberwachung</li></ul>|
 | Azure Active Directory (AAD) im Azure-Portal |<ul><li>Konfigurieren des bedingten Zugriffs auf Power BI-Ressourcen über AAD</li><li>Bereitstellen von Power BI Embedded-Kapazität</li></ul>|

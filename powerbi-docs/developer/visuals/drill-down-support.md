@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819236"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380401"
 ---
 # <a name="add-drill-down-support"></a>Hinzufügen von Unterstützung für Drilldowns
 
-In benutzerdefinierten Visuals können Power BI-Drilldowns verwendet werden.
+In Power BI-Visuals können Power BI-Drilldowns verwendet werden.
 
 Weitere Informationen zu Power BI-Drilldowns finden Sie [hier](./../../consumer/end-user-drill.md).
 
@@ -207,36 +207,36 @@ Bereiten Sie Beispieldaten vor, um das Visual zu testen:
 
 |   H1  |   H2    | H3  |   WERTE  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Und erstellen Sie eine Hierarchie in Power BI Desktop:
 
-![Erstellen einer neuen Hierarchie](./media/create-new-hierarchy.png)
+![Erstellen einer neuen Hierarchie](media/drill-down-support/create-new-hierarchy.png)
 
 Schließen Sie alle Kategoriespalten (H1, H2, H3) in die neue Hierarchie ein:
 
-![Erstellen einer neuen Hierarchie](./media/new-hierarchy.png)
+![Erstellen einer neuen Hierarchie](media/drill-down-support/new-hierarchy.png)
 
 Nachdem Sie diese Schritte ausgeführt haben, sollten Sie Folgendes Visual erhalten:
 
-![Dev-Visual mit Schaltflächen](./media/dev-visual-drilldown1.png)
+![Dev-Visual mit Schaltflächen](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Hinzufügen eines Kontextmenüs zu visuellen Elementen
 
 In diesem Schritt fügen Sie das Kontextmenü der Schaltfläche im Visual hinzu:
 
-![Kontextmenü im Visual](./media/dev-visual-drilldown-context-menu.png)
+![Kontextmenü im Visual](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Um das Kontextmenü zu erstellen, speichern Sie das `host`-Objekt in den Eigenschaften des Visuals. Rufen Sie dann die `createSelectionManager`-Methode zum Erstellen des Auswahl-Managers auf, um ein Kontextmenü mit der Power BI-Visuals-API anzuzeigen.
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 Wenden Sie Daten auf das Visual an:
 
-![Das Visual mit Daten](./media/dev-visual-drilldown-data.png)
+![Das Visual mit Daten](media/drill-down-support/dev-visual-drilldown-data.png)
 
 Im letzten Schritt sollte das Visual mit Auswahlmöglichkeiten und einem Kontextmenü angezeigt werden:
 
-![Das Visual mit Drilldownunterstützung](./media/dev-visual-drilldown-demo.gif)
+![Das Visual mit Drilldownunterstützung](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Hinzufügen von Drilldownunterstützung für die Zuordnung der Matrixdatenansicht
 
@@ -389,7 +389,7 @@ Wenden Sie folgende Datenansichtszuordnung für das Visual an:
 
 Wenden Sie Daten auf das Visual an:
 
-![Das Visual mit Daten](./media/dev-matrix-visual-drilldown-data.png)
+![Das Visual mit Daten](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Importieren Sie die erforderlichen Schnittstellen, um Zuordnungen der Matrixdatenansicht zu verarbeiten:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 Im letzten Schritt sollte das Visual mit einem Kontextmenü angezeigt werden:
 
-![Das Visual mit Drilldownunterstützung](./media/dev-matrix-visual-drilldown-demo.gif)
+![Das Visual mit Drilldownunterstützung](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Nächste Schritte
 

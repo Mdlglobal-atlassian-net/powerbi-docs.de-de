@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927112"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488681"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium-Metrik-App
 
@@ -48,7 +48,7 @@ Die Metrik **Aktiver Arbeitsspeicher** gehört zur Kategorie *Kapazitätsplanung
 
 Im **aktiven Arbeitsspeicher** werden Datasets verarbeitet, die derzeit verwendet und daher nicht entfernt werden, wenn weiterer Arbeitsspeicher benötigt wird. Die Metrik für aktiven Arbeitsspeicher gibt an, ob Ihre Kapazität zusätzliche Lasten verarbeiten kann oder ob die aktuelle Last Ihre Kapazität bereits ausschöpft oder sogar überschreitet. Derzeit genutzter Arbeitsspeicher steht nicht zur Unterstützung weiterer Aktualisierungsvorgänge und Abfragen zur Verfügung. 
 
-Die KPI **Aktiver Arbeitsspeicher** misst, wie häufig der aktive Arbeitsspeicher der Kapazität den Schwellenwert von 70 % 50-mal überschritten hat (der Marker ist auf 30 % in den letzten sieben Tagen festgelegt). Dies deutet darauf hin, dass die Kapazität sich einem Punkt nähert, an dem Benutzer möglicherweise Leistungsprobleme bei Abfragen bemerken.
+Die KPI **Aktiver Arbeitsspeicher** misst, wie häufig der aktive Arbeitsspeicher der Kapazität den Schwellenwert von 70 % um den Faktor 50 überschritten hat (der Marker ist auf 30 % in den letzten sieben Tagen festgelegt). Dies deutet darauf hin, dass die Kapazität sich einem Punkt nähert, an dem Benutzer möglicherweise Leistungsprobleme bei Abfragen bemerken.
 
 Das in diesem Abschnitt gezeigte Visual (in Form eines Messgeräts) zeigt, dass in den sieben Tagen seit der letzten Aktualisierung des Berichts die Kapazität den Schwellenwert von 70 % viermal überschritten hat, aufgeteilt in Zeitspannen von je einer Stunde. Der Maximalwert des Visuals – 168 – repräsentiert die letzten sieben Tage in Stunden.
 
@@ -78,7 +78,7 @@ In solchen Fällen sollten Sie die anderen Diagramme auf der Seite sorgfältig u
 
 Das zweite Visual auf der Seite, **B: Stündlich geladene aktive Datasets**, zeigt in Zeitspannen von je einer Stunde an, wie häufig die maximale Anzahl von Datasets in den Arbeitsspeicher geladen wurde. 
 
-Das dritte Visual, **C: Warum befinden sich Datasets im Arbeitsspeicher**, ist eine Tabelle, in der die Datasets nach Arbeitsbereichsname, Datasetname und unkomprimierter Größe der Datasets im Arbeitsspeicher aufgelistet werden. Hier wird der Grund erläutert, aus dem die einzelnen Datasets in den Arbeitsspeicher geladen wurden (z. B. aufgrund einer Aktualisierung oder einer Abfrage oder beides).
+Das dritte Visual, **C: Warum befinden sich Datasets im Arbeitsspeicher**, ist eine Tabelle, in der die Datasets nach Arbeitsbereichsname, Datasetname und unkomprimierter Größe der Datasets im Arbeitsspeicher aufgelistet werden. Hier wird der Grund erläutert, aus dem die einzelnen Datasets in den Arbeitsspeicher geladen wurden (z. B. aufgrund einer Aktualisierung oder einer Abfrage oder beidem).
 
 #### <a name="diagnosing-scenario-one"></a>Diagnose für Szenario 1
 
@@ -262,7 +262,7 @@ Wenn nicht genügend Arbeitsspeicher zum Laden eines Datasets für eine interakt
 
 Um Szenario 1 zu diagnostizieren, ermitteln Sie zunächst, ob die Drosselung aufgrund des unzureichenden Arbeitsspeichers stattfindet. Führen Sie dazu die folgenden Schritte aus.
 
-1.  Wählen Sie in **Tabelle A** das Dataset aus, an dem Sie interessiert sind, indem Sie darauf klicken: 
+1.    Wählen Sie in **Tabelle A** das Dataset aus, an dem Sie interessiert sind, indem Sie darauf klicken: 
 
     ![Tabelle A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ Bei dedizierten Kapazitäten begrenzt Power BI die Anzahl von Aktualisierungen, 
 
 Zum Diagnostizieren von Szenario 2 ermitteln Sie zunächst, ob die Drosselung erfolgt, weil der Maximalwert für gleichzeitige Aktualisierungen erreicht wurde. Führen Sie dazu die folgenden Schritte aus.
 
-1.  Wählen Sie in **Tabelle A** das Dataset aus, an dem Sie interessiert sind, indem Sie darauf klicken: 
+1.    Wählen Sie in **Tabelle A** das Dataset aus, an dem Sie interessiert sind, indem Sie darauf klicken: 
 
     ![Tabelle A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Zum Diagnostizieren von Szenario 2 ermitteln Sie zunächst, ob die Drosselung e
 * [Microsoft Power BI Premium-Whitepaper](https://aka.ms/pbipremiumwhitepaper)
 * [Planning a Power BI Enterprise Deployment whitepaper (Whitepaper zum Planen der Unternehmensbereitstellung von Power BI)](https://aka.ms/pbienterprisedeploy)
 * [Aktivierung der erweiterten Pro-Testversion](service-extended-pro-trial.md)
-* [Power BI Embedded – FAQ](developer/embedded-faq.md)
+* [Power BI Embedded – FAQ](developer/embedded/embedded-faq.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

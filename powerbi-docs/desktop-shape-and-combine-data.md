@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877823"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206767"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Strukturieren und Kombinieren von Daten in Power BI Desktop
 
@@ -107,7 +107,7 @@ Bevor wir mit dieser Abfrage arbeiten können, müssen wir einige Änderungen vo
 1. Klicken Sie mit der rechten Maustaste auf einen Schritt. Der Abfrage-Editor stellt ein Kontextmenü mit folgenden Optionen bereit: 
    - **Umbenennen**: Benennen Sie den Schritt um.
    - **Löschen**: Löschen Sie den Schritt.
-   - **Bis** **zum Ende löschen**: Entfernen Sie den aktuellen Schritt und alle nachfolgenden Schritte.
+   - **Bis zum Ende** **löschen**: Entfernen Sie den aktuellen Schritt und alle nachfolgenden Schritte.
    - **Nach oben**: Verschieben Sie den Schritt in der Liste nach oben.
    - **Nach unten**: Verschieben Sie den Schritt in der Liste nach unten.
 
@@ -269,7 +269,7 @@ Im vorliegenden Fall sollen die Abfragen zusammengeführt werden. Führen Sie hi
 
    ![Fenster „Zusammenführen“](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-1. Wählen Sie **OK**aus.
+1. Wählen Sie **OK** aus.
 
    Der Abfrage-Editor erstellt am Ende der Abfrage eine neue Spalte namens **NewColumn**, die den Inhalt der Tabelle (Abfrage) umfasst, die mit der vorhandenen Abfrage zusammengeführt wurde. Alle Spalten der zusammengeführten Abfrage werden auf die neue Spalte **NewColumn** reduziert. Sie können die Tabelle jedoch **erweitern** und die gewünschten Spalten einbeziehen.
 

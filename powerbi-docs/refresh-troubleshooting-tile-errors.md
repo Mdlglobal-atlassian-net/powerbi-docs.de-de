@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699542"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381144"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problembehandlung für Kachelfehler
 Im Folgenden sind häufige Fehler, die Ihnen möglicherweise in Verbindung mit Kacheln begegnen, gemeinsam mit den entsprechenden Erklärungen aufgeführt.
@@ -35,9 +35,10 @@ Es konnte nicht auf Ihre Daten zugegriffen werden, da die Datenquelle nicht erre
 
 Wenden Sie sich an den Besitzer des Dashboards, um sicherzustellen, dass die Datenquellen und das Modell vorhanden sind und Sie über Ihr Konto darauf zugreifen können.
 
-**Benutzerdefinierte Visuals wurden durch Ihren Administrator deaktiviert.**
+**Power BI-Visuals wurden durch Ihren Administrator deaktiviert.**
 
-Ihr Power BI-Administrator hat die Nutzung benutzerdefinierter Visuals für Ihre Organisation oder Ihre Sicherheitsgruppe deaktiviert. Sie können keine benutzerdefinierten Visuals von [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) verwenden und keine privaten Visuals aus einer Datei importieren. Sie können nur die vorgegebenen Visuals verwenden.
+Ihr Power BI-Administrator hat die Nutzung von Power BI-Visuals für Ihre Organisation oder Ihre Sicherheitsgruppe deaktiviert.
+Sie können keine Power BI-Visuals von [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) verwenden und keine privaten Visuals aus einer Datei importieren. Sie können nur die vorgegebenen Visuals verwenden.
 
 
 **Die Daten-Shapes müssen mindestens eine Gruppe oder Berechnung enthalten, die Daten ausgibt. Wenden Sie sich an den Besitzer des Dashboards.**

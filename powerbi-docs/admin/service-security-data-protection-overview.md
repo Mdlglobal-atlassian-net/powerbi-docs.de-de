@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537207"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205272"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Datenschutz in Power BI (Vorschauversion)
 
@@ -23,7 +23,7 @@ Moderne Unternehmen unterliegen strengen Anforderungen und rechtlichen Vorgaben 
 
 Mit dem Datenschutz in Power BI ist Folgendes möglich:
 
-* Sie können die Microsoft-Vertraulichkeitsbezeichnungen verwenden, um Inhalte im Power BI-Dienst (Dashboards, Berichte, Datasets und Dataflows) mit der gleichen Taxonomie wie bei Office 365-Dateien zu klassifizieren und zu kennzeichnen. 
+* Sie können die Microsoft-Vertraulichkeitsbezeichnungen verwenden, um Inhalte im Power BI-Dienst (Dashboards, Berichte, Datasets und Dataflows) mit der gleichen Taxonomie wie bei Office 365-Dateien zu klassifizieren und zu kennzeichnen. 
 
 * Sie können Schutzmaßnahmen wie Verschlüsselung oder Wasserzeichen beim Exportieren von Daten aus dem Power BI-Dienst für Dateien erzwingen, indem Sie die Vertraulichkeitsbezeichnung und den Schutz des Inhalts (Excel, PowerPoint und PDF) anwenden. 
 
@@ -44,7 +44,7 @@ Sie können dort auf die Vertraulichkeitsbezeichnungen zugreifen, indem Sie zu *
 
 ## <a name="how-sensitivity-labels-work"></a>Funktionsweise von Vertraulichkeitsbezeichnungen
 
-Wenn Sie eine Vertraulichkeitsbezeichnung auf ein Dashboard, einen Bericht, ein Dataset oder einen Dataflow in Power BI anwenden, ähnelt dieser Vorgang dem Anwenden eines *Tags* mit folgenden Vorteilen zu diesen Ressourcen:
+Wenn Sie eine Vertraulichkeitsbezeichnung auf ein Dashboard, einen Bericht, ein Dataset oder einen Dataflow in Power BI anwenden, ähnelt dieser Vorgang dem Anwenden eines *Tags* auf die Ressource mit folgenden Vorteilen:
 * **Anpassbar**: Sie können Kategorien für unterschiedliche Grade vertraulicher Inhalte in Ihrer Organisation anwenden, z. B. „Persönlich“, „Öffentlich“, „Allgemein“, „Vertraulich“ oder „Streng vertraulich“.
 * **Clear text** (Klartext): Da die Bezeichnung in Klartext verfasst ist, können Benutzer einfach nachvollziehen, wie der Inhalt anhand der Richtlinien für Vertraulichkeitsbezeichnungen behandelt werden muss.
 * **Persistent** (Permanent): Nachdem eine Vertraulichkeitsbezeichnung auf den Inhalt angewendet wurde, wird sie beim Exportieren des Inhalts in folgende Dateitypen beibehalten: Excel, PowerPoint und PDF. 
@@ -105,9 +105,6 @@ In der folgenden Liste finden Sie einige Einschränkungen für Vertraulichkeitsb
 * [HYOK-Schutz](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) (Hold Your Own Key) wird für in Power BI angewendete Bezeichnungen nicht unterstützt.
 * Für das Anzeigen und Anwenden von Bezeichnungen in Office-Apps gelten [Lizenzanforderungen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Vertraulichkeitsbezeichnungen werden nur für Mandanten in der globalen (öffentlichen) Cloud unterstützt. Für Mandanten in anderen Clouds werden keine Vertraulichkeitsbezeichnungen unterstützt.
-* Vertraulichkeitsbezeichnungen werden für [externe Benutzer (Azure Active Directory B2B-Gastbenutzer)](../service-admin-azure-ad-b2b.md)nicht unterstützt. Das bedeutet, dass externe Benutzer sich keine Bezeichnungen ansehen und keine Daten als Excel-, PDF- oder PPTX-Datei exportieren können. [Entfernen Sie die Bezeichnung](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels), um externen Benutzern den Export in diese Dateitypen zu ermöglichen.
-
-
 
 ## <a name="next-steps"></a>Nächste Schritte
 

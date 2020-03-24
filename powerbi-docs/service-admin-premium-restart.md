@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698461"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202020"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Neustarten einer Power BI Premium-Kapazität
 
@@ -30,7 +30,9 @@ Power BI verbessert kontinuierlich den Schutz von Benutzern der Premium-Kapazit
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Ist der Neustartprozess sicher? Gehen meine Daten verloren?
 
-Alle gespeicherten Daten, Definitionen, Berichte und Dashboards in Ihrer Kapazität bleiben nach dem Neustart vollständig intakt. Wenn Sie eine Kapazität neu starten, werden alle laufenden geplanten Aktualisierungen und Ad-hoc-Aktualisierungen angehalten. Der Dienst versucht, die Aktualisierung erneut durchzuführen, wenn die Kapazität verfügbar ist. Benutzern, die mit der Kapazität interagieren, geht nicht gespeicherte Arbeit verloren. Sie sollten nach Abschluss des Neustarts ihren Browser aktualisieren.
+Alle gespeicherten Daten, Definitionen, Berichte und Dashboards in Ihrer Kapazität bleiben nach dem Neustart vollständig intakt. Wenn Sie eine Kapazität neu starten, werden aktuell ausgeführte geplante und Ad-hoc-Aktualisierungen in den meisten Fällen vorübergehend vom Aktualisierungsmodul angehalten. Dann werden sie neu gestartet, basierend auf der in Power BI integrierten Logik für Aktualisierungs- bzw. RETRY-Vorgänge. Der Dienst versucht, alle betroffenen Aktualisierungen neu auszuführen, sobald die Kapazität wieder verfügbar ist. Während dem Neustartprozess ändert sich der Aktualisierungstatus auf der Benutzeroberfläche möglicherweise nicht. 
+
+Nicht gespeicherte von Benutzern vorgenommene Änderungen werden bei einem Neustartprozess nicht gespeichert. Benutzer sollten nach Abschluss des Neustarts ihren Browser aktualisieren.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Wie starte ich eine Kapazität neu?
 

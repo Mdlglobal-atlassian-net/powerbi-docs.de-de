@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74831101"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381029"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere
 
@@ -95,10 +95,10 @@ Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, der Besitzer das Dash
 * Wenn das Dataset RLS verwendet, können Sie ein Berichts-E-Mail-Abonnement für sich erstellen. Sie können aber Berichte mit RLS nur für andere Benutzer abonnieren, wenn Sie einen paginierten Bericht verwenden, der es Ihnen ermöglicht, das Abonnement unter Beachtung Ihres Sicherheitskontexts für andere abzuschließen. 
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtseite abonnieren und dann umbenennen, müssen Sie das Abonnement erneut erstellen.
 * Ihre Organisation kann möglicherweise bestimmte Einstellungen in Azure Active Directory konfigurieren, wodurch die Möglichkeit zur Verwendung von E-Mail-Abonnements in Power BI eingeschränkt werden kann.  Dies umfasst unter anderem das Vorhandensein von Einschränkungen durch mehrstufige Authentifizierung oder IP-Adressbereiche beim Zugriff auf Ressourcen.
-* Derzeit können Sie E-Mails zu Berichten bzw. Dashboards mit über eine Liveverbindung verwendeten Datasets nur für andere Benutzer als sich selbst abonnieren, wenn Sie einen paginierten Bericht verwenden, mit dem Sie das Abonnement unter Beachtung Ihres Sicherheitskontexts für andere abschließen können. 
-* E-Mail-Abonnements bieten keine Unterstützung für die meisten [benutzerdefinierten Visuals](developer/power-bi-custom-visuals.md).  Die einzige Ausnahme sind benutzerdefinierte Visuals, die [zertifiziert](developer/power-bi-custom-visuals-certified.md) wurden.  
-* E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte benutzerdefinierte Visuals.  
-* E-Mail-Abonnements werden mit Standardzuständen für Filter und Slicer des Berichts gesendet. Alle Änderungen der Standardwerte, die Sie nach dem Abonnieren vornehmen, werden nicht in der E-Mail angezeigt.  Paginierte Berichte unterstützen diese Funktion und ermöglichen es Ihnen, die spezifischen Parameterwerte für jedes Abonnement festzulegen.   
+* Derzeit können Sie E-Mails zu Berichten bzw. Dashboards mit über eine Liveverbindung verwendeten Datasets nur für andere Benutzer als sich selbst abonnieren, wenn Sie einen paginierten Bericht verwenden, mit dem Sie das Abonnement unter Beachtung Ihres Sicherheitskontexts für andere abschließen können.
+* E-Mail-Abonnements bieten keine Unterstützung für die meisten [Power BI-Visuals](developer/visuals/power-bi-custom-visuals.md).  Die einzige Ausnahme sind Power BI-Visuals, die [zertifiziert](developer/visuals/power-bi-custom-visuals-certified.md) wurden.  
+* E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte Power BI-Visuals.  
+* E-Mail-Abonnements werden mit Standardzuständen für Filter und Slicer des Berichts gesendet. Alle Änderungen der Standardwerte, die Sie nach dem Abonnieren vornehmen, werden nicht in der E-Mail angezeigt.  Paginierte Berichte unterstützen diese Funktion und ermöglichen es Ihnen, die spezifischen Parameterwerte für jedes Abonnement festzulegen.
 * Für Abonnements von Dashboards werden bestimmte Typen von Kacheln noch nicht unterstützt.  Dazu zählen Streamingkacheln, Videokacheln und benutzerdefinierte Kacheln mit Webinhalten.     
 * Wenn Sie ein Dashboard für einen Kollegen außerhalb Ihres Mandanten freigeben, können Sie zusätzlich kein Abonnement für diesen Kollegen erstellen. Wenn Sie aaron@xyz.com sind, können Sie es für anyone@ABC.com freigeben, aber es kann dafür derzeit kein Abonnement für anyone@ABC.com abgeschlossen werden.      
 * Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind und seit mehr als zwei Monaten nicht besucht wurden, wird von Power BI automatisch ausgesetzt.  Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard oder der Bericht längere Zeit nicht besucht wurde.    

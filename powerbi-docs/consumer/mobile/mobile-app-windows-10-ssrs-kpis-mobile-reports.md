@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040889"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435373"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Anzeigen lokaler Berichte und KPIs in der Power BI-Windows-App
 Die Power BI-App für Windows 10 bietet touchfähigen, mobilen Livezugriff auf Ihre wichtigen lokalen Geschäftsdaten in SQL Server 2016 Reporting Services. 
@@ -26,8 +26,9 @@ Zeigen Sie dann in der Power BI-App für Windows 10 die KPIs, mobilen und Power 
 
 > [!NOTE]
 > Auf Ihrem Gerät muss Windows 10 ausgeführt werden. Die App funktioniert am besten auf Geräten mit mindestens 1 GB RAM und 8 GB internem Speicher.
-> 
-> 
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>Erkunden von Beispielen ohne einen SQL Server 2016 Reporting Services-Server
 Auch wenn Sie keinen Zugriff auf ein Reporting Services-Webportal haben, können Sie trotzdem die Funktionen von mobilen Reporting Services-Berichten untersuchen.

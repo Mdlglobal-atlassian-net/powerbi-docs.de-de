@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530485"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381206"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Einbetten von Berichten mit der Registerkarte „Power BI“ für Microsoft Teams
 
@@ -69,10 +69,22 @@ Wenn Sie einen Bericht in Microsoft Teams einbetten, erhalten die Benutzer nicht
 
 Eine Möglichkeit, um sicherzustellen, dass jeder in Ihrem Team Zugriff auf die von Ihnen einbetteten Berichte hat, besteht darin, sie in einem einzelnen Arbeitsbereich in Power BI zu platzieren und der Office 365-Gruppe Ihres Teams Zugriff auf den Arbeitsbereich zu gewähren.
 
+## <a name="start-a-conversation"></a>Unterhaltung starten
+
+Wenn Sie Teams die Power BI-Registerkarte „Bericht“ hinzufügen, erstellt Teams automatisch eine Registerkartenkonversation, um den Bericht zu begleiten. 
+
+- Klicken Sie in der oberen rechten Ecke auf **Registerkartenunterhaltung anzeigen**.
+
+    ![Symbol „Registerkartenunterhaltung anzeigen“](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    Der erste Kommentar ist ein Link zum Bericht. Jeder in diesem Teams-Channel kann den Bericht in der Konversation sehen und kommentieren.
+
+    ![Registerkartenunterhaltung](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
+
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
 
 - Power BI unterstützt nicht die gleichen lokalisierten Sprachen wie Microsoft Teams. Daher wird im eingebetteten Bericht möglicherweise nicht die ordnungsgemäße Lokalisierung angezeigt.
-- Power BI Dashboards können nicht in die Registerkarte „Power BI“ für Microsoft Teams eingebettet werden.
+- Power BI-Dashboards können nicht in die Registerkarte „Power BI“ für Microsoft Teams eingebettet werden.
 - Benutzern ohne Power BI-Lizenz oder ohne Zugriffsberechtigung für den Bericht wird die Meldung „Inhalt ist nicht verfügbar“ angezeigt.
 - Bei Verwendung von Internet Explorer 10 können Probleme auftreten. <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [URL-Filter](service-url-filters.md) werden auf der Registerkarte „Power BI“ für Microsoft Teams nicht unterstützt.

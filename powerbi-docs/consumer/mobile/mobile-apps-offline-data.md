@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219073"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435442"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Offlinemodus zum Anzeigen von Daten in mobilen Power BI-Apps
 Gilt für:
@@ -21,6 +21,9 @@ Gilt für:
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android-Smartphone](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android-Tablet](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI in einer mobilen App hat gegenüber der Verwendung in einem mobilen Browser einen entscheidenden Vorteil: Sie können Ihre Daten auch dann anzeigen, wenn keine Netzverbindung besteht. Dies wird als Offlinemodus bezeichnet. 
 
@@ -34,7 +37,7 @@ Während Sie offline sind, können Sie auf die Dashboards, auf die Sie vorher ü
 Zusätzlich haben Sie schreibgeschützten Zugriff auf alle Power BI-Berichte, auf die Sie zuvor über die mobile App zugegriffen haben. Sie können die vollständigen Berichte anzeigen, aber Sie können keine Filter, Kreuzfilter oder Slicer verwenden.
 
 ## <a name="background-data-refresh"></a>Datenaktualisierung im Hintergrund
-Durch die Aktualisierung im Hintergrund werden Ihre Dashboardfavoriten sowie die Dashboards und Berichte, die Sie in den letzten zwei Wochen angezeigt haben, mit den Daten im Power BI-Dienst (nicht der Datenquelle) aktualisiert. Wenn eine WLAN-Verbindung besteht, wird die Aktualisierung im Hintergrund alle 2 Stunden ausgeführt. Wenn die Verbindung hingegen über ein 3G-Netz erfolgt, werden die Inhalte in Power BI alle 24 Stunden aktualisiert.
+Durch die Aktualisierung im Hintergrund werden Ihre Dashboardfavoriten sowie die Dashboards und Berichte, die Sie in den letzten zwei Wochen angezeigt haben, mit den Daten im Power BI-Dienst (nicht der Datenquelle) aktualisiert. Wenn eine WLAN-Verbindung besteht, wird die Aktualisierung im Hintergrund alle 2 Stunden ausgeführt. Wenn die Verbindung hingegen über ein 3G-Netz erfolgt, werden die Inhalte in Power BI alle 24 Stunden aktualisiert.
 
 Sie können beispielsweise die Datenaktualisierung im Hintergrund deaktivieren, um eine hohe Netzwerkauslastung zu vermeiden. Überprüfen Sie hierzu die Einstellungen auf Ihrem Gerät.
 
@@ -59,7 +62,7 @@ Wenn Sie Power BI auf Ihrem Mobilgerät im Offlinemodus nutzen, gelten diese Ein
 * Paginierte Berichte (RDL) sind nicht verfügbar, wenn das Netzwerk offline ist.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig realisieren. Geben Sie deshalb Ihr Votum ab, welche Features Sie sich in den mobilen Power BI-Apps wünschen. 
+Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig implementieren. Geben Sie deshalb Ihr Votum ab, welche Features Sie sich in den Power BI Mobile-Apps wünschen. 
 
 * [Power BI-Apps für mobile Geräte](mobile-apps-for-mobile-devices.md)
 * Folgen Sie @MSPowerBI auf Twitter

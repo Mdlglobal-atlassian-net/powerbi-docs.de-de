@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925689"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379097"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Entwerfen von Power BI-Berichten für die Barrierefreiheit
 Sie können überzeugende Berichte entwerfen und erstellen und gleichzeitig Barrierefreiheit gewährleisten. Immer wenn Sie einen Bericht für eine beliebige Zielgruppe erstellen, sollten Sie den Bericht so erstellen, dass er von so vielen Personen wie möglich genutzt werden kann, ohne dass er für ein besonderes Design angepasst werden muss.
@@ -41,7 +41,7 @@ Diese Kategorien werden in den folgenden Abschnitten erläutert.
 
 ## <a name="built-in-accessibility-features"></a>Integrierte Barrierefreiheitsfunktionen
 
-Power BI bietet in das Produkt integrierte Barrierefreiheitsfunktionen, die vom Berichtsautor nicht konfiguriert werden müssen. Dabei handelt es sich um die Folgenden:
+Power BI bietet in das Produkt integrierte Barrierefreiheitsfeatures, die vom Berichtsautor nicht konfiguriert werden müssen. Dabei handelt es sich um die Folgenden:
 
 * Tastaturnavigation
 * Kompatibilität mit Sprachausgaben
@@ -197,7 +197,7 @@ Die Schaffung von Barrierefreiheit sollte Teil dieses Prozesses sein. Sie werden
 
 ### <a name="keep-your-report-simple-and-consistent"></a>Bericht einfach und konsistent halten
 
-Halten Sie Ihren Bericht so einfach wie möglich. Häufig wird versucht, zu viel in ein einziges Visual zu packen. Oftmals ist der Inhalt nach Aufteilung auf mehrere Visuals übersichtlicher und verständlicher. Erwägen Sie daher den Einsatz mehrerer Visuals, wenn sie verschiedene Facetten der Daten zeigen. Verwenden Sie Filter oder visuelle Interaktionen, um ein reichhaltiges Erlebnis zu schaffen. Beschränken Sie gleichzeitig die Anzahl der Visuals auf einer Seite auf ein Minimum. Versuchen Sie, unnötige Redundanzen und Unübersichtlichkeit auf Seiten zu vermeiden. Sie benötigen nicht zwei Visuals, die das Gleiche zeigen. Berichtsempfänger können sich von all den Informationen in zu vielen Visuals überfordert fühlen oder durch eine begrenzte Aufmerksamkeitsspanne abgelenkt werden. Dies erleichtert nicht nur die Nutzung Ihres Berichts. Zu viele Visuals auf einer Seite können auch die Leistung Ihres Berichts beeinträchtigen.
+Halten Sie Ihren Bericht so einfach wie möglich. Häufig wird versucht, zu viel in ein einziges Visual zu packen. Oftmals ist der Inhalt nach Aufteilung auf mehrere Visuals übersichtlicher und verständlicher. Erwägen Sie daher den Einsatz mehrerer Visuals, wenn sie verschiedene Facetten der Daten zeigen. Verwenden Sie Filter oder visuelle Interaktionen, um ein reichhaltiges Erlebnis zu schaffen. Beschränken Sie gleichzeitig die Anzahl der Visuals auf einer Seite auf ein Minimum. Versuchen Sie, unnötige Redundanzen und Unübersichtlichkeit auf Seiten zu vermeiden. Sie benötigen keine zwei Visuals, die das Gleiche zeigen. Berichtsempfänger können sich von all den Informationen in zu vielen Visuals überfordert fühlen oder durch eine begrenzte Aufmerksamkeitsspanne abgelenkt werden. Dies erleichtert nicht nur die Nutzung Ihres Berichts. Zu viele Visuals auf einer Seite können auch die Leistung Ihres Berichts beeinträchtigen.
 
 Halten Sie Ihren Bericht konsistent, indem Sie für die Visuals im gesamten Bericht die gleiche Schriftfarbe und den gleichen Schriftschnitt wählen. Wählen Sie für alle Titel von Visuals sowie für Datenbeschriftungen und Achsentitel die gleiche Schriftgröße. Wenn Sie auf mehreren Berichtsseiten Datenschnitte verwenden, halten Sie diese auf jeder Seite des Berichts an derselben Position.
 
@@ -244,17 +244,17 @@ Zusätzlich zu Tools und Funktionen für Barrierefreiheit bietet Power BI die fo
 * Stellen Sie für Audioinformationen ein Transkript bereit.
 
 ### <a name="shapes"></a>Formen
-* Stellen Sie sicher, dass alle dekorativen Formen in der Aktivierreihenfolge als ausgeblendet markiert sind, damit sie nicht von einer Sprachausgabe gemeldet werden.
+* Stellen Sie sicher, dass alle dekorativen Formen in der Registerkartenreihenfolge als ausgeblendet markiert sind, damit sie nicht von einer Sprachausgabe vorgelesen werden.
 * Achten Sie darauf, dekorative Formen so zu verwenden, dass Sie nicht störend wirken.
 * Wenn Sie Formen zum Hervorheben von Datenpunkten verwenden, geben Sie **alternativen Text** ein, um zu erklären, was hervorgehoben wird.
 
 ### <a name="images"></a>Bilder
 * Wenn Sie Bilder zum Hervorheben von Datenpunkten verwenden, geben Sie **alternativen Text** ein, um zu erklären, was hervorgehoben wird.
-* Stellen Sie sicher, dass alle dekorativen Bilder in der Aktivierreihenfolge als ausgeblendet markiert sind, damit sie nicht von einer Sprachausgabe gemeldet werden.
+* Stellen Sie sicher, dass alle dekorativen Bilder in der Registerkartenreihenfolge als ausgeblendet markiert sind, damit sie nicht von einer Sprachausgabe vorgelesen werden.
 * Achten Sie darauf, dekorative Bilder so zu verwenden, dass Sie nicht störend wirken.
 
-### <a name="custom-visuals"></a>Benutzerdefinierte visuelle Elemente
-* Prüfen Sie die barrierefreie Tabelle **Daten anzeigen** auf benutzerdefinierte Visuals. Wenn die gezeigten Informationen nicht ausreichen, suchen Sie nach einem anderen Visual.
+### <a name="power-bi-visuals"></a>Power BI-Visuals
+* Prüfen Sie, ob in der barrierefreien Tabelle **Daten anzeigen** Power BI-Visuals enthalten sind. Wenn die gezeigten Informationen nicht ausreichen, suchen Sie nach einem anderen Visual.
 * Wenn Sie das benutzerdefinierte Visual *Wiedergabeachse* verwenden, stellen Sie sicher, dass es nicht automatisch wiedergegeben wird. Machen Sie deutlich, dass der Benutzer die Wiedergabe-/Pause-Taste drücken muss, um die sich ändernden Werte zu starten/stoppen.
 
 ### <a name="across-visuals-on-the-page"></a>In allen Visuals auf der Seite

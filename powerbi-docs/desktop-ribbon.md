@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527425"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133222"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Verwenden der aktualisierten Schleife in Power BI Desktop (Vorschau)
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Verwenden des aktualisierten Menübands in Power BI Desktop
 
-Ab dem Update vom November 2019 wird in Power BI Desktop das Menüband überarbeitet, um dessen Darstellung und Benutzererfahrung besser an andere Microsoft-Produkte wie z. B. Microsoft Office anzupassen.
+Ab dem Update von März 2020 wird in Power BI Desktop das Menüband überarbeitet, um dessen Darstellung und Funktionen besser an andere Microsoft-Produkte wie z. B. Microsoft Office anzupassen. Das aktualisierte Menüband wird ab November 2019 in Form von monatlichen Updates als Vorschaufeature veröffentlicht. Ab dem Update im März 2020 wird das neue Menüband standardmäßig angezeigt.
 
 ![Neues Menüband in Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
-Das aktualisiert Menüband befindet sich in der Vorschau, wir können also Feedback von Benutzern und Kunden sammeln und so sicherstellen, dass die Benutzererfahrung besonders gut ist. Bevor das aktualisierte Power BI Desktop-Menüband für die allgemeine Verfügbarkeit veröffentlicht wird, sind noch einige Monate für die Vorschau, das Feedback und Verbesserungen geplant. 
-
 ## <a name="how-to-enable-the-updated-ribbon"></a>Aktivieren des aktualisierten Menübands
 
-Das aktualisierte Menüband ist eine Previewfunktion in Power BI und muss aktiviert werden. Klicken Sie auf **Datei > Optionen und Einstellungen > Optionen**, und klicken Sie dann in der linken Spalte auf **Previewfunktionen**, um sie zu aktivieren. Im rechten Bereich befindet sich die Auswahloption **Aktualisiertes Menüband**. Aktivieren Sie das Kontrollkästchen neben **Aktualisiertes Menüband**, um die Previewfunktion zu aktivieren. Sie müssen Power BI Desktop neu starten, damit die Änderung für die Previewfunktion wirksam wird.
+Ab dem Update im März 2020 wird das aktualisierte Menüband standardmäßig angezeigt. In älteren Power BI Desktop-Versionen (ab dem Update im November 2019) war das aktualisierte Menüband in Power BI ein Vorschaufeature, und es muss aktiviert werden. Klicken Sie dazu in einer älteren Version auf **Datei > Optionen und Einstellungen > Optionen**, und klicken Sie dann in der linken Spalte auf **Vorschaufeatures**, um sie zu aktivieren. Im rechten Bereich befindet sich die Auswahloption **Aktualisiertes Menüband**. Aktivieren Sie das Kontrollkästchen neben **Aktualisiertes Menüband**, um die Previewfunktion zu aktivieren. Sie müssen Power BI Desktop neu starten, damit die Änderung für die Previewfunktion wirksam wird.
 
 ![Die aktualisierte Menübandoption in Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> In Power BI Desktop-Versionen ab März 2020 muss das aktualisierte Menüband nicht aktiviert werden, da es ab März 2020 standardmäßig angezeigt wird.
 
 ## <a name="features-of-the-new-ribbon"></a>Features des neuen Menübands
 

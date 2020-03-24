@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041555"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435971"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
 
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
-* [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+* [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>Februar 2020
 
@@ -396,7 +399,7 @@ Wenn jemand einen Bericht für Sie freigibt, wird dieser nun mit den Dashboards 
 
 #### <a name="improved-hyperlink-support"></a>Verbesserte Unterstützung für Hyperlinks
 
-Sie können nun in benutzerdefinierten Visuals auf Links tippen, um diese in Ihrem mobilen Browser zu öffnen.
+Sie können nun in Power BI-Visuals auf Links tippen, um diese in Ihrem mobilen Browser zu öffnen.
 
 #### <a name="intune-integration-android"></a>Intune-Integration (Android)
 
@@ -470,7 +473,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom April 2017](https://p
 #### <a name="all-devices"></a>Alle Geräte
 **Hintergrundfarbe für Smartphoneberichte** Wenn Sie eine Hintergrundfarbe für einen Bericht in Power BI Desktop definieren, hat der Smartphonebericht die gleiche Hintergrundfarbe. Weitere Informationen finden Sie unter [Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind](../../desktop-create-phone-report.md).
 
-**Entwickeln von benutzerdefinierten Visuals für Mobilgeräte** In diesem [Entwicklerhandbuch](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) finden Sie Tipps zum Erstellen von benutzerdefinierten Visualisierungen, deren Darstellung und Funktion auf mobile Geräte abgestimmt sind.
+**Entwickeln von Power BI-Visuals für Mobilgeräte** In diesem [Entwicklerhandbuch](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) finden Sie Tipps zum Erstellen von Power BI-Visuals, deren Darstellung und Funktion auf mobile Geräte abgestimmt sind.
 
 #### <a name="ios-devices"></a>iOS-Geräte
 **Sprechen Sie mit Ihren Daten: Stellen Sie ihnen Fragen** Sie können jetzt [mit Q&A Fragen an Ihre Daten stellen](mobile-apps-ios-qna.md), anstatt etwas eingeben zu müssen. 

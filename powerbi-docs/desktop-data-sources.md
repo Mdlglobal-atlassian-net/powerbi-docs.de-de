@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427551"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207250"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 
@@ -90,7 +90,8 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * Snowflake
 * Essbase
 * AtScale-Cubes
-* BI-Connector der Logical Data Warehouse-Lösung von Data Virtuality (Beta)
+* BI-Connector 
+* Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -127,6 +128,7 @@ Die Kategorie **Azure** bietet die folgenden Datenverbindungen:
 * Azure SQL-Datenbank
 * Azure SQL Data Warehouse
 * Azure Analysis Services-Datenbank
+* Azure Database for PostgreSQL
 * Azure Blob Storage
 * Azure-Tabellenspeicher
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (lokal)
 * Microsoft Azure Consumption Insights (Beta)
-* Azure DevOps (Beta)
-* Azure DevOps Server (Beta)
+* Azure DevOps (nur für Boards)
+* Azure DevOps Server (nur für Boards)
 * Salesforce-Objekte
 * Salesforce-Berichte
 * Google Analytics
@@ -164,7 +166,6 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * Data.World – Dataset abrufen (Beta)
 * GitHub (Beta)
 * LinkedIn Sales Navigator (Beta)
-* MailChimp (Beta)
 * Merketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One – PRM (Beta)
@@ -178,6 +179,7 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* Asana (Beta)
 * Dynamics 365 Customer Insights (Beta)
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
@@ -205,6 +207,7 @@ Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 * Microsoft Exchange
 * Hadoop-Datei (HDFS)
 * Spark
+* Hive LLAP (Beta)
 * R-Skript
 * Python-Skript
 * ODBC
@@ -220,6 +223,7 @@ Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 * Siteimprove (Beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* TIBCO(R) Data Virtualization (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)

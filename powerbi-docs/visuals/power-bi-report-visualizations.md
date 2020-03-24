@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099098"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381466"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
 
@@ -27,7 +27,7 @@ Im Power BI-Bereich „Visualisierungen“ stehen viele verschiedene Visualtypen
 
 ![Bereich mit Symbolen für jeden Visualisierungstyp](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Eine noch größere Auswahl finden Sie auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com). Dort können Sie [benutzerdefinierte Visuals](../developer/visuals/custom-visual-develop-tutorial.md) suchen und [herunterladen](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die von Microsoft und der Community bereitgestellt werden.
+Eine noch größere Auswahl finden Sie auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com). Dort können Sie [Power BI-Visuals](../developer/visuals/custom-visual-develop-tutorial.md) suchen und [herunterladen](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die von Microsoft und der Community bereitgestellt werden.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ Wenn Sie noch nicht mit Power BI gearbeitet haben oder Ihre Kenntnisse auffrisch
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Hochladen einer benutzerdefinierten Visualisierung und deren Verwendung in Power BI
 
-Fügen Sie eine benutzerdefinierte Visualisierung hinzu, die Sie selbst erstellt oder auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) gefunden haben. Sind Sie kreativ? Nutzen Sie Ihren Quellcode komplett, und erstellen Sie mit unseren [Entwicklertools](../developer/visuals/custom-visual-develop-tutorial.md) neue Typen von Visualisierungen, die Sie dann [für die Community freigeben](../developer/office-store.md) können. Informationen zur Entwicklung von benutzerdefinierten Visuals finden Sie unter [Entwickeln eines benutzerdefinierten Visuals für Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
+Fügen Sie eine benutzerdefinierte Visualisierung hinzu, die Sie selbst erstellt oder auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) gefunden haben. Sind Sie kreativ? Nutzen Sie Ihren Quellcode komplett, und erstellen Sie mit unseren [Entwicklertools](../developer/visuals/custom-visual-develop-tutorial.md) neue Typen von Visualisierungen, die Sie dann [für die Community freigeben](../developer/visuals/office-store.md) können. Informationen zur Entwicklung von benutzerdefinierten Visuals finden Sie unter [Entwickeln eines benutzerdefinierten Visuals für Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="personalize-your-visualization-pane-preview"></a>Personalisieren des Bereichs „Visualisierungen“ (Vorschauversion)
 
@@ -70,4 +70,4 @@ Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie im Power BI-
 ## <a name="next-steps"></a>Nächste Schritte
 
 * [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Benutzerdefinierte Visuals](../developer/power-bi-custom-visuals.md)
+* [Power BI-Visuals](../developer/visuals/power-bi-custom-visuals.md)

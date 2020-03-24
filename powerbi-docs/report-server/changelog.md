@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237958"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381098"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -200,7 +200,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Features
             - Die Unterstützung von direkten SAP HANA SSO-Abfragen mit Kerberos ist nun für Power BI-Berichte verfügbar.
             - Im Release enthaltene benutzerdefinierte Visual-API: Version 1.13.0
-            - Für benutzerdefinierte Visuals wird ein Fallback auf eine vorherige Version ausgeführt, die mit der aktuellen Version der Server-API (falls verfügbar) kompatibel ist.
+            - Für Power BI-Visuals wird jetzt ein Fallback auf eine vorherige Version ausgeführt, die mit der aktuellen Version der Server-API (falls verfügbar) kompatibel ist.
 
 - **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
     - *Version: 2.61.5192.641 (August 2018), Veröffentlichung: 15. August 2018*
@@ -322,7 +322,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
             - Das `{{UserId}}`-Tag wird in die gespeicherten Anmeldeinformationen aufgelöst und nicht in den Benutzer, der den Bericht in Power BI-Berichte ausführt.
             - Einige Bilder werden in Berichten in Power BI-Berichtsserver nicht dargestellt.
             - Der Name eines Power BI-Berichts kann im Power BI-Berichtsserver nicht geändert werden.
-            - Benutzerdefinierte Visuals können in der mobilen Power BI-App nicht geladen werden (Neuinstallation der mobilen App erforderlich, um den lokalen Cache zu löschen)
+            - Power BI-Visuals können in der mobilen Power BI-Anwendung nicht geladen werden (Neuinstallation der mobilen App erforderlich, um den lokalen Cache zu löschen)
 
     - *Build 14.0.600.271, Veröffentlichung: 12. Juni 2017*
         - Erste Veröffentlichung von Power BI-Berichtsserver

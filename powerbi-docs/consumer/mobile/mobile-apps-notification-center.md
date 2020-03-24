@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114823"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435580"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
 Gilt für:
@@ -21,6 +21,9 @@ Gilt für:
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android-Smartphone](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android-Tablet](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Sie erhalten Benachrichtigungen bezüglich Ihrer Power BI-Erfahrung direkt im Power BI-Dienst oder auf Ihrem mobilen Gerät. Wenn Sie „Benachrichtigungen“ öffnen, sehen Sie einen fortlaufenden Benachrichtigungsfeed über [von Ihnen festgelegte Warnungen](mobile-set-data-alerts-in-the-mobile-apps.md), neue Dashboards, die für Sie freigegeben wurden, sowie Änderungen in Ihrem Gruppenarbeitsbereich, Informationen zu Power BI-Veranstaltungen und -Meetings und vieles mehr.
 

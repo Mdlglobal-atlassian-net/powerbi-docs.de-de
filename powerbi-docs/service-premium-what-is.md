@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889395"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381167"
 ---
 # <a name="what-is-power-bi-premium"></a>Was ist Power BI Premium?
 
@@ -88,7 +88,7 @@ Die Ressourcen und Grenzwerte der einzelnen Premium-SKUs (und A-SKU jeweils glei
 
 ### <a name="capacity-workloads"></a>Kapazitätsworkloads
 
-Kapazitätsworkloads sind Dienste, die Benutzern zur Verfügung gestellt werden. Standardmäßig unterstützen Premium- und Azure-Kapazitäten nur die Workload für die Ausführung von Power BI-Abfragen. Die Dataset-Workload kann nicht deaktiviert werden. Zusätzliche Workloads können für [KI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Dataflows](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) und [paginierte Berichte](paginated-reports-save-to-power-bi-service.md) aktiviert werden. Diese Workloads werden nur in Premium-Abonnements unterstützt. 
+Kapazitätsworkloads sind Dienste, die Benutzern zur Verfügung gestellt werden. Standardmäßig unterstützen Premium- und Azure-Kapazitäten nur die Workload für die Ausführung von Power BI-Abfragen. Die Dataset-Workload kann nicht deaktiviert werden. Zusätzliche Workloads können für [KI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Dataflows](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) und [paginierte Berichte](paginated-reports/paginated-reports-save-to-power-bi-service.md) aktiviert werden. Diese Workloads werden nur in Premium-Abonnements unterstützt. 
 
 Jede zusätzliche Workload ermöglicht das Konfigurieren des maximalen Arbeitsspeichers (als Prozentsatz des gesamten verfügbaren Arbeitsspeichers) für die Verwendung durch die Workload. Die Standardwerte für den maximalen Arbeitsspeicher werden nach SKU bestimmt. Sie können die verfügbaren Ressourcen Ihrer Kapazität maximieren, indem Sie diese zusätzlichen Workloads nur bei Bedarf aktivieren. Und Sie können die Arbeitsspeichereinstellungen erst ändern, wenn Sie bestimmt haben, dass die Standardeinstellungen Ihre Anforderungen an Kapazitätsressourcen nicht erfüllen. Workloads können von Kapazitätsadministratoren für eine Kapazität mithilfe von **Kapazitätseinstellungen** im [Verwaltungsportal](service-admin-portal.md) oder mithilfe der [Kapazitäts-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/capacities) aktiviert und konfiguriert werden.  
 
@@ -209,7 +209,7 @@ Paginierte Berichte, die in den SKUs P1–P3 und A4–A6 unterstützt werden, ba
 
 In Power BI Premium sind paginierte Berichte eine Workload, die im Verwaltungsportal für eine Kapazität aktiviert werden muss. Kapazitätsadministratoren können sie aktivieren und dann die Menge Arbeitsspeicher als Prozentsatz der Gesamtspeicherressoucen der Kapazität angeben. Im Gegensatz zu anderen Arten von Workloads führt Premium paginierte Berichte in einem abgeschlossenen Bereich innerhalb der Kapazität aus. Der für diesen Bereich angegebene maximale Arbeitsspeicher wird unabhängig davon belegt, ob die Workload aktiv ist oder nicht. Der Standardwert beträgt 20 %. 
 
-Weitere Informationen finden Sie unter [Paginierte Berichte in Power BI Premium](paginated-reports-report-builder-power-bi.md). Weitere Informationen zum Aktivieren der Workload Paginierte Berichte finden Sie unter [Konfigurieren von Workloads](service-admin-premium-workloads.md).
+Weitere Informationen finden Sie unter [Paginierte Berichte in Power BI Premium](paginated-reports/paginated-reports-report-builder-power-bi.md). Weitere Informationen zum Aktivieren der Workload Paginierte Berichte finden Sie unter [Konfigurieren von Workloads](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Power BI-Berichtsserver
  
@@ -227,7 +227,7 @@ Premium ermöglicht das weiträumige Verteilen von Inhalten durch Power BI Pro-B
 
 Weitere Informationen finden Sie unter [Power BI-Lizenzierung](service-admin-licensing-organization.md).
 
-## <a name="tool-connectivity-preview"></a>Tool-Verbindungen (Vorschau)
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services in Power BI Premium (Vorschau)
 
 Hinter den Kulissen stützen sich Power BI-Datasets auf die im Unternehmenseinsatz bewährte Microsoft **Analysis Services Vertipaq-Engine**. Analysis Services bietet Programmierbarkeit und Unterstützung für Clientanwendungen und Tools in Form von Clientbibliotheken und APIs, die das XMLA-Protokoll als offenen Standard unterstützen. Aktuell unterstützen Power BI Premium-Datasets *schreibgeschützte* Vorgänge aus Clientanwendungen von Microsoft und Drittanbietern sowie Tools über **XMLA-Endpunkte**. 
 

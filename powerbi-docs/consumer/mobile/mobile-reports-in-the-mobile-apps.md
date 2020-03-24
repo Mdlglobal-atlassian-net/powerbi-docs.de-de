@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538120"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435764"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -21,6 +21,9 @@ Gilt für:
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android-Smartphone](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android-Tablet](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10-Geräte](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
+
+>[!NOTE]
+>Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Ein Power BI-Bericht ist eine interaktive Ansicht Ihrer Daten, und mit den darin enthaltenen Visuals werden unterschiedliche Ergebnisse und Erkenntnisse zu diesen Daten dargestellt. Das Anzeigen von Berichten in den mobilen Power BI-Apps ist der dritte Schritt in einem dreistufigen Prozess:
 
@@ -59,6 +62,14 @@ Wenn Sie die mobile Power BI-App herunterladen, ist hierfür die Interaktion dur
 Wenn Sie möchten, können Sie die App auf die Interaktion durch Doppeltippen umstellen. Bei der Interaktion durch Doppeltippen tippen Sie zuerst auf das Visual, das Sie auswählen möchten, und dann in das Visual, um Ihre gewünschte Aktion auszuführen.
 
 Um zur Interaktion durch Doppeltippen oder zurück zur Interaktion durch einfaches Tippen zu wechseln, navigieren Sie zu den [App-Interaktionseinstellungen](./mobile-app-interaction-settings.md).
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>Einzelauswahlmodus im Vergleich mit Mehrfachauswahlmodus für die Datenpunktauswahl
+
+In einem Bericht tippen Sie auf einen Datenpunkt, um ihn auszuwählen. Sie können entscheiden, ob Sie den Einzel- oder den Mehrfachauswahlmodus verwenden möchten. Wenn Sie im Einzelauswahlmodus auf einen Datenpunkt tippen, um ihn auszuwählen, ersetzt diese Auswahl jede zuvor von Ihnen getroffene Auswahl. Wenn Sie im Mehrfachauswahlmodus auf einen Datenpunkt tippen, um ihn auszuwählen, wird diese Auswahl Ihrer bereits bestehenden Auswahl *hinzugefügt*, und das kombinierte Ergebnis Ihrer sämtlichen Auswahlaktionen wird in allen Visuals des Berichts hervorgehoben.
+
+Um die Auswahl eines ausgewählten Datenpunkts aufzuheben, tippen Sie ihn einfach erneut an.
+
+Um zwischen dem Einzelauswahl- und dem Mehrfachauswahlmodus zu wechseln, navigieren Sie zu den [App-Interaktionseinstellungen](./mobile-app-interaction-settings.md).
 
 ### <a name="using-tap-and-long-tap"></a>Verwenden von Antippen und langem Antippen
 Ein Tippen gleicht einem Mausklick. Wenn Sie den Bericht auf Grundlage eines Datenpunkts übergreifend hervorheben möchten, tippen Sie auf den Datenpunkt.

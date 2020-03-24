@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877466"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207595"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Bearbeiten oder Entfernen einer Dashboardkachel
 
@@ -126,7 +126,7 @@ Standardmäßig gelangen Sie durch Auswählen einer Kachel zu dem Bericht, in de
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Heften Sie die Kachel an ein anderes Dashboard an.
-1. Wählen Sie im Dropdownmenü mit den Auslassungspunkten **Kachel anheften** ![Stecknadelsymbol](media/service-dashboard-edit-tile/pinnooutline.png) aus.
+1. Wählen Sie im Dropdownmenü mit den drei Punkten **Kachel anheften** ![Stecknadelsymbol](media/service-dashboard-edit-tile/pinnooutline.png) aus.
 2. Entscheiden Sie, ob Sie ein Duplikat dieser Kachel an ein vorhandenes oder ein neues Dashboard anheften möchten. 
    
    ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
@@ -135,7 +135,7 @@ Standardmäßig gelangen Sie durch Auswählen einer Kachel zu dem Bericht, in de
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Löschen der Kachel
-1. Um eine Kachel dauerhaft aus einem Dashboard zu entfernen, wählen Sie im Dropdownmenü mit den Auslassungspunkten **Kachel löschen** ![Symbol „Löschen“](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) aus. 
+1. Wählen Sie im Dropdownmenü mit den drei Punkten **Kachel löschen** ![Symbol „Löschen“](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) aus, um eine Kachel dauerhaft aus einem Dashboard zu entfernen. 
 
 2. Durch Löschen einer Kachel wird nicht die zugrunde liegende Visualisierung gelöscht. Öffnen Sie den zugrunde liegenden Bericht, indem Sie die Kachel „Betrag“ auswählen. Öffnen Sie die letzte Seite im Bericht, um sich zu vergewissern, dass die ursprüngliche Visualisierung nicht aus dem Bericht gelöscht wurde. 
 

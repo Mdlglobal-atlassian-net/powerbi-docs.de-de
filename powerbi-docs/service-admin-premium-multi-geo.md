@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698852"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488566"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Konfigurieren von Multi-Geo-Unterstützung für Power BI Premium
 
@@ -22,18 +22,18 @@ Multi-Geo ist ein Power BI Premium-Feature, das multinationale Kunden bei der Er
 
 - USA
 - Kanada
-- United Kingdom
-- Brazil
+- Vereinigtes Königreich
+- Brasilien
 - Europa
 - Japan
-- India
+- Indien
 - Asien-Pazifik
-- Australia
+- Australien
 - Afrika
 
 Multi-Geo ist nicht für Power BI Deutschland, Power BI China (betrieben von 21Vianet) oder Power BI für die US-Regierung verfügbar.
 
-Multi-Geo steht ab sofort auch in Power BI Embedded zur Verfügung. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung in Power BI Embedded](developer/embedded-multi-geo.md).
+Multi-Geo steht ab sofort auch in Power BI Embedded zur Verfügung. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung in Power BI Embedded](developer/embedded/embedded-multi-geo.md).
 
 ## <a name="enable-and-configure"></a>Aktivieren und konfigurieren
 
@@ -99,6 +99,6 @@ Sie haben zwei Möglichkeiten, Arbeitsbereiche aus der Multi-Geo-Kapazität zu e
 ## <a name="next-steps"></a>Nächste Schritte
 
 - [Was ist Power BI Premium?](service-premium-what-is.md)
-- [Multi-Geo für Power BI Embedded-Kapazitäten](developer/embedded-multi-geo.md)
+- [Multi-Geo für Power BI Embedded-Kapazitäten](developer/embedded/embedded-multi-geo.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880358"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380631"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>QuickInfos in Power BI-Visuals
 
-In Visuals können jetzt auch Power BI-QuickInfos verwendet werden. Interaktionen für QuickInfos in Power BI:
+In Visuals können jetzt auch Power BI-QuickInfos verwendet werden. Zu den Interaktionen für QuickInfos in Power BI gehören folgende:
 
 * Anzeigen einer QuickInfo
 * Ausblenden einer QuickInfo
@@ -27,7 +27,7 @@ Eine QuickInfo kann als Textelement mit einem Titel, einem Wert in einer bestimm
 
 Auf dem folgenden Screenshot ist eine QuickInfo in einem beispielhaften Balkendiagramm zu sehen:
 
-![QuickInfo in beispielhaftem Balkendiagramm](./media/tooltips-in-samplebarchart.png)
+![QuickInfo in beispielhaftem Balkendiagramm](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 Auf dem obigen Screenshot mit der QuickInfo wird eine einzelne Kategorie und ein einzelner Wert für ein Balkendiagramm veranschaulicht. Sie können eine einzelne QuickInfo so erweitern, dass mehrere Werte angezeigt werden.
 
@@ -209,7 +209,7 @@ Ein Beispielschema:
 
 QuickInfos für Berichtseiten können Sie im Bereich **Format** definieren.
 
-![QuickInfo für Berichtsseiten](media/report-page-tooltip.png)
+![QuickInfo für Berichtsseiten](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: die QuickInfo-Konfiguration, die vom Visual unterstützt wird und im Bereich „Felder“ angezeigt wird. 
    * `default`: gibt an, ob die „automatische“ Bindung von QuickInfos über das Datenfeld unterstützt wird. 
