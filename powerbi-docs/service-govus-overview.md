@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376722"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114886"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Dieser Artikel richtet sich an US-Behörden, die Power BI als Bestandteil eines Office 365 Government-Plans bereitstellen. Die Government-Pläne sind auf die besonderen Bedürfnisse von Organisationen zugeschnitten, die in den USA geltende Compliance- und Sicherheitsstandards erfüllen müssen. Der für US-Behörden entwickelte Power BI-Dienst unterscheidet sich von der kommerziellen Version des Power BI-Diensts. Diese Funktionsunterschiede werden in den folgenden Abschnitten beschrieben.
@@ -95,7 +95,7 @@ Um den Anforderungen der Government Cloud-Kunden gerecht zu werden, gibt es eini
 |  |Importieren von Daten aus CSV-Dateien|Verfügbar|Verfügbar|Verfügbar|
 |  |Importieren von Daten aus Power BI Desktop-Dateien|Verfügbar|Verfügbar|Verfügbar|
 |  |Konnektivität mit CDS|Verfügbar|Nicht verfügbar|Nicht verfügbar|
-|  |Azure Data Lake Storage Gen2-Connector|Nicht verfügbar|Nicht verfügbar|Nicht verfügbar|
+|  |Azure Data Lake Storage Gen2-Connector|Verfügbar|Nicht verfügbar|Nicht verfügbar|
 |Datenverwaltung|Datenverwaltungsgateway|Verfügbar|Verfügbar|Verfügbar|
 |  |Datenverschlüsselung in Azure SQL|Verfügbar|Verfügbar|Verfügbar|
 |  |Datenverschlüsselung in Blob Storage für Power BI|Verfügbar|Verfügbar|Verfügbar|

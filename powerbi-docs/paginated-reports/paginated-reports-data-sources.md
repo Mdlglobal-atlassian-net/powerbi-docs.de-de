@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921905"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113736"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Unterstützte Datenquellen für paginierte Power BI-Berichte
 
@@ -27,7 +27,7 @@ Paginierte Berichte unterstützen nativ die folgende Liste von Datenquellen:
 | --- | --- | --- |
 | Azure SQL-Datenbank <br>Azure SQL Data Warehouse | Basic, Einmaliges Anmelden (SSO) OAuth2 |   |
 | Verwaltete Azure SQL-Datenbank-Instanz | Standard | Über einen öffentlichen Endpunkt mithilfe der Erweiterung für Azure SQL-Datenbank  |
-| Azure Analysis Services | SSO, OAuth2 | Die Firewall von AAS muss deaktiviert oder so konfiguriert sein, dass sie sämtliche IP-Adressbereiche zulässt.  Die Verwendung eines Alias wird nicht unterstützt.  |
+| Azure Analysis Services | SSO, OAuth2 | Die Firewall von AAS muss deaktiviert oder so konfiguriert sein, dass sie sämtliche IP-Adressbereiche zulässt.|
 | Power BI-Dataset | SSO | Für Power BI Premium-Datasets und Power BI Nicht-Premium-Datasets ist eine Leseberechtigung erforderlich. |
 | Premium-Power BI-Dataset (XMLA) | SSO |   |
 | Daten eingeben | N/V | Daten sind in Bericht eingebettet. |
