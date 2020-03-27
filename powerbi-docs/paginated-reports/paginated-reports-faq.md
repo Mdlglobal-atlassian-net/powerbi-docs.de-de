@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205249"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113606"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Paginierte Berichte in Power BI: Häufig gestellte Fragen 
 
@@ -68,13 +68,17 @@ Sie können paginierte Berichte ohne Pro-Lizenz in „Mein Arbeitsbereich“ hoc
 
 Sie erhalten eine Fehlermeldung und können Ihren Bericht erst wieder anzeigen, wenn die Workload wieder aktiviert ist. Sie können den Bericht nach wie vor aus dem Arbeitsbereich löschen.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>Welcher Standardarbeitsspeicher wird für die jeweilige Premium-SKU für paginierte Berichte unterstützt?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>Wie lautet der Standardarbeitsspeicher für die jeweilige Premium-SKU, die paginierte Berichte unterstützen?
 
 Der Standardarbeitsspeicher der jeweiligen Premium-SKU für paginierte Berichte lautet:
 
 - **P1/A4**: 20 % Standard, mindestens 10 %
 - **P2/A5**: 20 % Standard, mindestens 5 %
 - **P3/A6**: 20 % Standard, mindestens 2,5 %
+
+Power BI-Mandantenadministratoren können den standardmäßigen maximalen Arbeitsspeicherprozentsatz im Verwaltungsportal bearbeiten. Weitere Informationen finden Sie im Abschnitt zu Workloads **Paginierte Berichte** unter **Power BI Premium** auf der Registerkarte **Kapazitätseinstellungen**.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Registerkarte mit Kapazitätseinstellungen zu paginierten Berichten":::
 
 ## <a name="general"></a>Allgemein
 
@@ -86,7 +90,7 @@ Power BI-Berichte sind ideal zum Untersuchen und Interagieren.  Ein gutes Beispi
 
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>Laut Dokumentation ist der Power BI-Berichts-Generator das bevorzugte Erstellungstool. Kann ich paginierte Berichte auch mit SQL Server Data Tools für Power BI erstellen?
 
-Ja, doch Power BI ermöglicht das Hochladen von jeweils nur einem einzelnen Element, sodass viele Szenarien, für die Ersteller SQL Server Data Tools (SSDT) verwenden, noch nicht unterstützt werden. Weiter unten finden Sie die vollständige [Liste der nicht unterstützten Funktionen](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi).  
+Ja, doch Power BI ermöglicht das Hochladen von jeweils nur einem einzelnen Element, sodass viele Szenarios, für die Ersteller SQL Server Data Tools (SSDT) verwenden, noch nicht unterstützt werden. Weiter unten finden Sie die vollständige [Liste der nicht unterstützten Funktionen](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi).  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Welche Versionen des Berichts-Generators werden unterstützt?
 

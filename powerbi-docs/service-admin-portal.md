@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488704"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114444"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -233,7 +233,12 @@ Den Benutzer werden basierend auf der Einstellung **Im Web veröffentlichen** un
 
 ### <a name="export-data"></a>Daten exportieren
 
-Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung exportieren. Informieren Sie sich über das [Exportieren der Daten, die zum Erstellen einer Visualisierung verwendet wurden](visuals/power-bi-visualization-export-data.md).
+Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung exportieren. Dadurch werden die Features „In Excel analysieren“, „In CSV exportieren“, Datasetdownloads (PBIX) und „Live Connect“ des Power BI-Diensts gesteuert. Informieren Sie sich über das [Exportieren der Daten, die zum Erstellen einer Visualisierung verwendet wurden](visuals/power-bi-visualization-export-data.md).
+
+>[!NOTE]
+> Vor der Einführung der Einstellung „Nach Excel exportieren“ wurde von dieser Einstellung auch das Exportieren von Daten in Excel-Dateien gesteuert. Weitere Informationen finden Sie im [Hinweis unter dem Abschnitt zu „Nach Excel exportieren“](#export-to-excel).
+
+![Dateneinstellungen exportieren](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 Die folgende Abbildung zeigt die Option zum Exportieren von Daten aus einer Kachel.
 
@@ -241,6 +246,15 @@ Die folgende Abbildung zeigt die Option zum Exportieren von Daten aus einer Kach
 
 > [!NOTE]
 > Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature [In Excel analysieren](service-analyze-in-excel.md) sowie die Liveverbindung des Power BI-Diensts verwenden können.
+
+### <a name="export-to-excel"></a>Nach Excel exportieren
+
+Benutzer in der Organisation können die Daten aus einer Visualisierung in eine Excel-Datei exportieren.
+
+![Einstellung „Nach Excel exportieren“](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> Vor der Einführung der Einstellung „Nach Excel exportieren“ wurde der Export in eine Excel-Datei durch die Einstellung „Daten exportieren“ gesteuert. Deshalb werden Mandantenadministratoren für Mandanten, die schon vor der Einführung der Einstellung „Nach Excel exportieren“ vorhanden waren, auch *Nicht übernommene Änderungen* bei Betrachtung der Einstellung „Nach Excel exportieren“ angezeigt. Sie müssen diese Änderungen anwenden, damit die neue Einstellung wirksam wird. Andernfalls wird der Export in eine Excel-Datei weiterhin von der Einstellung „Daten exportieren“ gesteuert.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportieren von Berichten als PowerPoint-Präsentationen oder PDF-Dokumente
 

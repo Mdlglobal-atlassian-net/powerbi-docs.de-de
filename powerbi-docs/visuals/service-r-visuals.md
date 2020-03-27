@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
-ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
+ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "78199071"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114840"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Erstellen und Verwenden von visuellen R-Elementen in Power BI
 R-Visualisierungen können derzeit nur in **Power BI Desktop** erstellt und anschließend im Power BI-Dienst veröffentlicht werden. Weitere Informationen zum Erstellen von R-Visuals finden Sie unter [Erstellen von Power BI-Visuals mithilfe von R](../desktop-r-visuals.md).
@@ -88,6 +88,7 @@ R-Visualisierungen weisen im Power BI-Dienst einige Einschränkungen auf:
 * Die Unterstützung für R-Visuals ist auf die unter [R-Pakete, die in Power BI unterstützt werden](../service-r-packages-support.md) verwiesenen Pakete beschränkt. Benutzerdefinierte Pakete werden derzeit nicht unterstützt.
 * Beschränkungen der Datengröße – die vom visuellen R-Element zum Zeichnen verwendeten Daten sind auf 150.000 Zeilen beschränkt. Bei Auswahl von mehr als 150.000 Zeilen werden nur die oberen 150.000 Zeilen verwendet, und im Bild wird eine Meldung angezeigt. Darüber hinaus gilt für die Eingabedaten eine Maximalgröße von 250 MB.
 * Auflösung – alle visuellen R-Elemente werden mit 72 DPI angezeigt.
+* Zeichnen auf Geräten: Es wird nur das Zeichnen auf Standardgeräten unterstützt. 
 * Beschränkung der Berechnungszeit – wenn die Berechnung der R-Visualisierung 60 Sekunden überschreitet, wird das Skript aufgrund der Zeitüberschreitung abgebrochen und eine Fehlermeldung angezeigt.
 * Visuelle R-Elemente werden aktualisiert, wenn Daten aktualisiert, gefiltert oder hervorgehoben werden. Allerdings ist das eigentliche Bild nicht interaktiv und unterstützt QuickInfos nicht.
 * Visuelle R-Elemente reagieren auf das Hervorheben anderer Visualisierungen. Sie können jedoch nicht auf visuelle R-Elemente klicken, um eine Kreuzfilterung anderer Elemente auszuführen.

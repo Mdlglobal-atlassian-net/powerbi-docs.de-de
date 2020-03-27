@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762460"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273200"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Hinzufügen von Textfeldern und Formen in Power BI-Berichten
 Sie können den Power BI-Dienst und Power BI Desktop verwenden, um Berichten Textfelder und Formen hinzuzufügen. In beiden Fällen benötigen Sie Berechtigungen zum Bearbeiten des Berichts. Wenn ein Bericht mit Ihnen im Power BI-Dienst geteilt wurde, verfügen Sie nicht über Berechtigungen zur Bearbeitung. 
@@ -63,8 +63,10 @@ Schauen Sie sich an, wie Will mit Power BI Desktop [statische Bilder zu einem Be
    > 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Hinzufügen eines Links zu einem Textfeld](service-add-hyperlink-to-text-box.md)
 
-[Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
+Folgende Artikel könnten Sie ebenfalls interessieren:
 
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+* [Hinzufügen eines Links zu einem Textfeld](service-add-hyperlink-to-text-box.md)
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
+* [Tipps zur Verbesserung der Analyse mit Formen, Bildern und Symbolen in Power BI-Berichten](guidance/report-tips-shapes-images-icons.md)
+* Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

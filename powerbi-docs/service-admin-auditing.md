@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657188"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113782"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Nachverfolgen von Benutzeraktivitäten in Power BI
 
@@ -49,7 +49,7 @@ Sie können eine Verwaltungsanwendung auf der Grundlage der Power BI-REST-APIs v
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-Wenn die Anzahl der Einträge groß ist, wird die **ActivityEvents**-API nur etwa 5.000 bis 10.000 Einträge und ein Fortsetzungstoken zurückgeben. Sie müssen dann die **ActivityEvents**-API wieder mit dem Fortsetzungstoken aufrufen, um den nächsten Batch von Einträgen zu erhalten usw., bis Sie alle Einträge abgerufen haben und kein Fortsetzungstoken mehr erhalten. Das folgende Beispiel zeigt die Verwendung des Fortsetzungstoken:
+Wenn die Anzahl der Einträge groß ist, wird die **ActivityEvents**-API nur etwa 5.000 bis 10.000 Einträge und ein Fortsetzungstoken zurückgeben. Rufen Sie dann die **ActivityEvents**-API wieder mit dem Fortsetzungstoken auf, um den nächsten Batch von Einträgen zu erhalten usw., bis Sie alle Einträge abgerufen haben und kein Fortsetzungstoken mehr erhalten. Das folgende Beispiel zeigt die Verwendung des Fortsetzungstoken:
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> Es kann bis zu 24 Stunden dauern, bis alle Ereignisse angezeigt werden. Vollständige Daten sind aber normalerweise früher verfügbar.
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent-Cmdlet
 
-Es ist einfach, Aktivitätsereignisse mit den Power BI-Verwaltungs-Cmdlets für PowerShell herunterzuladen, die ein **Get-PowerBIActivityEvent**-Cmdlet enthalten, das das Fortsetzungstoken automatisch für Sie behandelt. Das **Get-PowerBIActivityEvent**-Cmdlet übernimmt einen StartDateTime- und einen EndDateTime-Parameter mit denselben Einschränkungen wie für die **ActivityEvents**-REST-API. Genauer gesagt müssen sich das Start- und Enddatum auf den gleichen Datumswert beziehen, da Sie die Aktivitätsdaten jeweils nur für einen Tag abrufen können.
+Laden Sie Aktivitätsereignisse herunter, indem Sie die Cmdlets der Power BI-Verwaltung für PowerShell verwenden. Das Cmdlet **Get-PowerBIActivityEvent** verarbeitet automatisch das Fortsetzungstoken für Sie. Das **Get-PowerBIActivityEvent**-Cmdlet übernimmt einen StartDateTime- und einen EndDateTime-Parameter mit denselben Einschränkungen wie für die **ActivityEvents**-REST-API. Genauer gesagt müssen sich das Start- und Enddatum auf den gleichen Datumswert beziehen, da Sie die Aktivitätsdaten jeweils nur für einen Tag abrufen können.
 
-Das folgende Skript zeigt, wie Sie alle Power BI-Aktivitäten herunterladen können. Der Befehl konvertiert die Ergebnisse von JSON- in .NET-Objekte für den einfachen Zugriff auf einzelne Aktivitätseigenschaften.
+Das folgende Skript zeigt, wie Sie alle Power BI-Aktivitäten herunterladen können. Der Befehl konvertiert die Ergebnisse von JSON- in .NET-Objekte für den einfachen Zugriff auf einzelne Aktivitätseigenschaften. Diese Beispiele zeigen die kleinsten und größten Zeitstempel, die für einen Tag möglich sind, um sicherzustellen, dass keine Ereignisse übersehen werden.
 
 ```powershell
 Login-PowerBI
@@ -111,11 +114,11 @@ Die folgenden Anforderungen müssen erfüllt sein, um auf Überwachungsprotokoll
 
 - Sie müssen entweder globaler Administrator sein, oder Ihnen muss in Exchange Online die Rolle „Überwachungsprotokolle“ oder „Überwachungsprotokolle schreibgeschützt“ zugewiesen sein, damit Sie auf das Überwachungsprotokoll zugreifen können. Standardmäßig sind diese Rollen den Rollengruppen „Compliance Management“ und „Organisationsmanagement“ auf der Seite **Berechtigungen** im Exchange Admin Center zugewiesen.
 
-    Um Nicht-Administratorkonten Zugriff auf die Überwachungsprotokolle zu geben, müssen Sie den Benutzer als Mitglied einer dieser Rollengruppen hinzufügen. Wenn Sie anders vorgehen möchten, können Sie eine benutzerdefinierte Rollengruppe im Exchange Admin Center erstellen, dieser Gruppe die Rolle „Überwachungsprotokolle“ oder „Überwachungsprotokolle schreibgeschützt“ zuweisen und dann der neuen Rollengruppe das Nicht-Administratorkonto zuweisen. Weitere Informationen finden Sie unter [Verwalten von Rollengruppen in Exchange Online](/Exchange/permissions-exo/role-groups).
+    Fügen Sie Benutzer als Mitglied einer dieser Rollengruppen hinzu, um Nicht-Administratorkonten Zugriff auf die Überwachungsprotokolle zu geben. Wenn Sie anders vorgehen möchten, können Sie eine benutzerdefinierte Rollengruppe im Exchange Admin Center erstellen, dieser Gruppe die Rolle „Überwachungsprotokolle“ oder „Überwachungsprotokolle schreibgeschützt“ zuweisen und dann der neuen Rollengruppe das Nicht-Administratorkonto zuweisen. Weitere Informationen finden Sie unter [Verwalten von Rollengruppen in Exchange Online](/Exchange/permissions-exo/role-groups).
 
     Wenn Sie über das Microsoft 365 Admin Center nicht auf das Exchange Admin Center zugreifen können, navigieren Sie zu https://outlook.office365.com/ecp, und melden Sie sich mit Ihren Anmeldeinformationen an.
 
-- Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. In diesem Fall müssen Sie einen direkten Link zum [Office 365 Security & Compliance Center](https://sip.protection.office.com/#/unifiedauditlog) verwenden.
+- Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. Verwenden Sie in diesem Fall einen direkten Link zum [Office 365 Security & Compliance Center](https://sip.protection.office.com/#/unifiedauditlog).
 
 ### <a name="access-your-audit-logs"></a>Zugriff auf Überwachungsprotokolle
 
@@ -258,7 +261,7 @@ Die folgenden Vorgänge sind sowohl in den Überwachungs- als auch in den Aktivi
 | Created Power BI folder (Power BI-Ordner erstellt)                           | CreateFolder                                |                                          |
 | Created Power BI gateway (Power BI-Gateway erstellt)                          | CreateGateway                               |                                          |
 | Power BI-Gruppe erstellt                            | CreateGroup                                 |                                          |
-| Power BI-Bericht erstellt                           | CreateReport                                |                                          |
+| Power BI-Bericht erstellt                           | CreateReport <sup>1</sup>                                |                                          |
 | Dataflow migrated to external storage account (Dataflow in externes Speicherkonto migriert)     | DataflowMigratedToExternalStorageAccount    | Derzeit nicht verwendet                       |
 | Dataflow-Berechtigungen hinzugefügt                        | DataflowPermissionsAdded                    | Derzeit nicht verwendet                       |
 | Dataflow-Berechtigungen entfernt                      | DataflowPermissionsRemoved                  | Derzeit nicht verwendet                       |
@@ -294,7 +297,7 @@ Die folgenden Vorgänge sind sowohl in den Überwachungs- als auch in den Aktivi
 | Posted Power BI comment (Power BI-Kommentar veröffentlicht)                           | PostComment                                 |                                          |
 | Power BI-Dashboard gedruckt                        | PrintDashboard                              |                                          |
 | Power BI-Berichtseite gedruckt                      | PrintReport                                 |                                          |
-| Published Power BI report to web (Power BI-Bericht im Web veröffentlicht)                  | PublishToWebReport                          |                                          |
+| Published Power BI report to web (Power BI-Bericht im Web veröffentlicht)                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Received Power BI dataflow secret from Key Vault (Geheimnis für Power BI-Dataflow von Key Vault empfangen)  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Removed data source from Power BI gateway (Datenquelle aus Power BI-Gateway entfernt)         | RemoveDatasourceFromGateway                 |                                          |
 | Removed Power BI group members (Power BI-Gruppenmitglieder entfernt)                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ Die folgenden Vorgänge sind sowohl in den Überwachungs- als auch in den Aktivi
 | Viewed Power BI tile (Power BI-Kachel angezeigt)                              | ViewTile                                    |                                          |
 | Viewed Power BI usage metrics (Power BI-Nutzungsmetriken angezeigt)                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> Die Veröffentlichung von Power BI Desktop im Dienst stellt ein CreateReport-Ereignis im Dienst dar.
+
+<sup>2</sup> PublishtoWebReport bezieht sich auf das Feature [Im Web veröffentlichen](service-publish-to-web.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205272"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273177"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Datenschutz in Power BI (Vorschauversion)
 
@@ -105,6 +105,8 @@ In der folgenden Liste finden Sie einige Einschränkungen für Vertraulichkeitsb
 * [HYOK-Schutz](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) (Hold Your Own Key) wird für in Power BI angewendete Bezeichnungen nicht unterstützt.
 * Für das Anzeigen und Anwenden von Bezeichnungen in Office-Apps gelten [Lizenzanforderungen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Vertraulichkeitsbezeichnungen werden nur für Mandanten in der globalen (öffentlichen) Cloud unterstützt. Für Mandanten in anderen Clouds werden keine Vertraulichkeitsbezeichnungen unterstützt.
+* Für Vorlagen-Apps werden keine Vertraulichkeitsbezeichnungen für Daten unterstützt.
+* Power BI unterstützt keine Vertraulichkeitsbezeichnungen der Schutztypen **Nicht weiterleiten** und **Ad-hoc**.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

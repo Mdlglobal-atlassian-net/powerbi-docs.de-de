@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207871"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147375"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Veröffentlichen von Apps in Power BI
 
@@ -28,6 +28,7 @@ Geschäftskunden erhalten Ihre Apps mit unterschiedlichen Methoden:
 - Sie können Ihre Apps in Microsoft AppSource suchen und installieren.
 - Sie können Ihnen einen direkten Link senden.
 - Sie können sie automatisch in den Power BI-Konten Ihrer Kollegen installieren, wenn Ihr Power BI-Administrator Ihnen die Berechtigung dazu erteilt.
+- Power BI sendet keine E-Mails an interne Benutzer, wenn Sie eine App verteilen oder aktualisieren. Wenn Sie eine App an externe Benutzer verteilen, erhalten diese Benutzer eine E-Mail mit einem direkten Link. 
 
 Sie können die App mit einer eigenen integrierten Navigation erstellen, sodass Ihre Benutzer mühelos den Weg zu Ihren Inhalten finden. Den Inhalt der App können sie nicht ändern. Sie können mit ihr im Power BI-Dienst oder in einer der mobilen Apps interagieren, indem sie die Daten selbst filtern, hervorheben und sortieren. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Sie können ihnen auch die Berechtigung „Erstellen“ erteilen, damit sie eine Verbindung mit den zugrunde liegenden Datasets herstellen und Kopien der Berichte in der App erstellen können. Weitere Informationen zur [Erstellungsberechtigung](service-datasets-build-permissions.md).
 

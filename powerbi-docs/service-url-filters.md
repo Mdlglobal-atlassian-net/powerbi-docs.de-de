@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076636"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273246"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
@@ -193,11 +193,17 @@ Diese Abweichung ist nützlich, wenn Sie unterschiedliche Ergebnisse anzeigen m�
 Im Zusammenhang mit Abfragezeichenfolgenparametern müssen ein paar Dinge beachtet werden.
 
 * Wenn Sie den *in*-Operator verwenden, müssen die Werte auf der rechten Seite von *in* einer durch Trennzeichen getrennten Liste entsprechen, die in Klammern eingeschlossen ist.    
-* Der Power BI-Berichtsserver unterstützt auch die Möglichkeit, mithilfe des URL-Parameters „filter“ zusätzliche Filter anzugeben.  Beispielsweise könnte die URL im Power BI-Berichtsserver wie folgt aussehen: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) oder [In PDF exportieren](consumer/end-user-pdf.md) verwendet werden.
-* Das [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md) unterstützt keine URL-Filter.
-* Der Datentyp „long“ ist aufgrund von Beschränkungen bei JavaScript (2^53–1).
+* Der Power BI-Berichtsserver unterstützt auch die Möglichkeit, mithilfe des URL-Parameters „filter“ zusätzliche Filter anzugeben. Beispielsweise könnte die URL im Power BI-Berichtsserver wie folgt aussehen: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Berichts-URL-Filter verfügen über eine Einschränkung von zehn Ausdrücken (zehn Filter die per AND verbunden sind).
+* Der Datentyp „long“ ist aufgrund von Beschränkungen bei JavaScript (2^53–1).
+
+URL-Filter werden in einigen eingebetteten Szenarios unterstützt, in anderen nicht.
+
+- [Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website](service-embed-secure.md) wird unterstützt.
+- URL-Filter werden in Power BI Embedded unterstützt. Weitere Informationen finden Sie unter [Power BI Embedded: erweiterte URL-Filterfunktionen](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities).
+- Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) oder [In PDF exportieren](consumer/end-user-pdf.md) verwendet werden.
+- Das [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md) unterstützt keine URL-Filter.
+- Die Angabe einer URL ist für Teams nicht zulässig.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
