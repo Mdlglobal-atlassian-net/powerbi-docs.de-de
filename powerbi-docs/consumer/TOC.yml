@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 'Drucken eines Dashboards, Drucken einer Dashboardkachel, Drucken einer Berichtsseite'
               href: end-user-print.md
+            - name: Anzeigen von „Für mich freigegeben“
+              href: end-user-shared-with-me.md
             - name: Verwandte Inhalte anzeigen
               href: end-user-related.md
             - name: Neueste Inhalte anzeigen
               href: end-user-recent.md
-            - name: Inhalte im Container „Für mich freigegeben“ anzeigen
-              href: end-user-shared-with-me.md
             - name: Abonnieren eines Berichts oder Dashboards
               href: end-user-subscribe.md
             - name: Suchen und Sortieren von Inhalten in Power BI
