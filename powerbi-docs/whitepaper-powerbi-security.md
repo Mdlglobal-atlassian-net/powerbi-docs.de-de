@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381397"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404582"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper zur Sicherheit in Power BI
 
@@ -135,7 +135,7 @@ Die Benutzerauthentifizierung für den Power BI-Dienst besteht aus mehreren Anfo
 
 Die Benutzerauthentifizierungssequenz für den Power BI-Dienst läuft wie in den folgenden Schritten beschrieben ab und wird durch die Bilder veranschaulicht.
 
-1. Ein Benutzer initiiert eine Verbindung zum Power BI-Dienst von einem Browser aus, indem er entweder die Power BI-Adresse in die Adressleiste eingibt (z.B. https://app.powerbi.com) oder auf der Power BI-Startseite auf _Anmelden_ klickt (https://powerbi.microsoft.com). Die Verbindung wird mit TLS 1.2 und HTTPS hergestellt, und bei der gesamten weiteren Kommunikation zwischen dem Browser und dem Power BI-Dienst wird HTTPS verwendet. Die Anforderung wird an den **Azure Traffic Manager** übermittelt.
+1. Ein Benutzer initiiert eine Verbindung mit dem Power BI-Dienst über einen Browser, indem er entweder die Power BI Adresse in der Adressleiste (z. b. `https://app.powerbi.com`) oder die Option _Anmelden_ von der Power BI Landing Page (https://powerbi.microsoft.com)) eingibt. Die Verbindung wird mit TLS 1.2 und HTTPS hergestellt, und bei der gesamten weiteren Kommunikation zwischen dem Browser und dem Power BI-Dienst wird HTTPS verwendet. Die Anforderung wird an den **Azure Traffic Manager** übermittelt.
 
 2. Der **Azure Traffic Manager** überprüft den DNS-Eintrag des Benutzers, um das nächstgelegene Rechenzentrum zu ermitteln, in dem Power BI bereitgestellt wird, und antwortet DNS mit der IP-Adresse des WFE-Clusters, zu der der Benutzer geleitet werden soll.
 
