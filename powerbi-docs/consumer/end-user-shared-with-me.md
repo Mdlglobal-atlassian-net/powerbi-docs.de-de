@@ -3,23 +3,22 @@ title: Anzeigen der Dashboards und Berichte, die mit mir geteilt wurden
 description: Dokumentation von „Für mich freigegeben“ in Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114142"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302487"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Anzeigen der Dashboards und Berichte, die mit mir geteilt wurden
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -27,7 +26,7 @@ Wenn ein Kollege Inhalte mit Ihnen teilt und dazu die Schaltfläche **Freigeben*
 
 ![Symbol „Freigeben“](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläutert und veranschaulicht, wie Sie durch die Liste navigieren und sie filtern. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren. Damit Sie Dashboards anzeigen können, die für Sie freigegeben sind, benötigen Sie eine Power BI Pro-Lizenz. Weitere Informationen finden Sie unter [Welche Lizenz habe ich?](end-user-license.md).
+Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläutert und veranschaulicht, wie Sie durch die Liste navigieren und sie filtern. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren. Damit Sie Dashboards anzeigen können, die für Sie freigegeben sind, benötigen Sie eine Power BI Pro-Lizenz. Details finden Sie unter [Was ist Power BI Premium?](../service-premium-what-is.md).
     
 
 > [!NOTE]

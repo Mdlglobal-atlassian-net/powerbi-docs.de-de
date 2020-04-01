@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492489"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403707"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicherheit auf Zeilenebene mit Power BI Embedded
 
@@ -217,7 +217,7 @@ Im Folgenden finden Sie die Schritte, mit denen Sie mit der Einrichtung der Cust
 
 7. Verwenden Sie die Power BI-APIs, um das CustomData-Feature in Ihrer Anwendung zu verwenden.  Wenn ein Token mit dem CustomData-Feature generiert wird, müssen Sie einen Benutzernamen besitzen. Der Benutzername muss dem UPN des Hauptbenutzers entsprechen. Der Hauptbenutzer muss Mitglied der von Ihnen erstellten Rollen sein. Wenn keine Rollen angegeben werden, werden alle Rollen, in denen der Hauptbenutzer Mitglied ist, für die RLS-Auswertung verwendet.
 
-    Führen Sie bei der Arbeit mit einem [Dienstprinzipal](embed-service-principal.md) die oben aufgeführten Schritte aus, und verwenden Sie kein Masterkonto. Verwenden Sie beim Generieren eines Einbettungstokens die [ID des Dienstprinzipalobjekts](embed-service-principal.md#how-to-get-the-service-principal-object-id) als Benutzernamen.
+    Führen Sie bei der Arbeit mit einem [Dienstprinzipal](embed-service-principal.md) die oben aufgeführten Schritte aus, und verwenden Sie kein Masterkonto. Verwenden Sie beim Generieren eines Einbettungstokens die [ID des Dienstprinzipalobjekts](embed-service-principal.md) als Benutzernamen.
 
     > [!Note]
     > Wenn Sie zum Bereitstellen Ihrer Anwendung in der Produktion bereit sind, darf das Feld bzw. die Option für das Hauptbenutzerkonto für die Endbenutzer nicht sichtbar sein.

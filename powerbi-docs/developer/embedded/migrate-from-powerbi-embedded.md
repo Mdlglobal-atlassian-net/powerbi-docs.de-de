@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114403"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404049"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded
 
@@ -126,13 +126,13 @@ Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz
 
 **Flow**
 
-1. Rufen Sie GET auf (https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources ), und speichern Sie die erhaltene Verbindungszeichenfolge.
+1. Rufen Sie GET auf (`https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`), und speichern Sie die erhaltene Verbindungszeichenfolge.
 2. Herunterladen PBIX-API Aufrufen im PaaS-Arbeitsbereich.
 3. Speichern Sie die PBIX.
 4. Rufen Sie Import PBIX SaaS-Arbeitsbereich auf.
-5. Aktualisieren Sie die Verbindungszeichenfolge, indem Sie POST aufrufen (https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections ).
-6. Rufen Sie die GW- und Datenquellen-ID über GET (https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources ) auf.
-7. Aktualisieren Sie die Benutzeranmeldedaten, indem Sie PATCH (https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} ) aufrufen.
+5. Aktualisieren Sie die Verbindungszeichenfolge, indem Sie POST aufrufen (`https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections`).
+6. Rufen Sie die GW- und Datenquellen-ID über GET (`https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`) auf.
+7. Aktualisieren Sie die Benutzeranmeldedaten, indem Sie PATCH (`https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}`) aufrufen.
 
 #### <a name="old-dataset--reports"></a>Altes Dataset & Bericht
 

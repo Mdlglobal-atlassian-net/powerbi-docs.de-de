@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699588"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404849"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problembehandlung bei Aktualisierungsszenarios
 
@@ -79,11 +79,11 @@ Wenn bei einer geplanten Aktualisierung viermal hintereinander Fehler auftreten,
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Der Zugriff auf die Ressource ist untersagt  
 
-Dieser Fehler kann auftreten, wenn die zwischengespeicherten Anmeldeinformationen angelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen.
+Dieser Fehler kann auftreten, wenn die zwischengespeicherten Anmeldeinformationen angelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen.
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Fehler beim Aktualisieren der Daten, weil das Kennwort geändert wurde oder die Anmeldeinformationen abgelaufen sind
 
-Es kann beim Aktualisieren der Daten zu einem Fehler kommen, wenn die zwischengespeicherten Anmeldeinformationen abgelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen.
+Es kann beim Aktualisieren der Daten zu einem Fehler kommen, wenn die zwischengespeicherten Anmeldeinformationen abgelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

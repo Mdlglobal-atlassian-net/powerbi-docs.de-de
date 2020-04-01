@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 29a6e9f67258d4babc58d8195dda59afe97554c6
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205226"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404779"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Was sind paginierte Berichte in Power BI Premium?
 
@@ -25,7 +25,7 @@ Nutzen Sie das [Praxislab: Erstellen Sie einen paginierten Microsoft Power BI-Be
 
 ![Paginiert](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Sie können eine Vorschau Ihres Berichts im Berichts-Generator anzeigen und dann im Power BI-Dienst unter https://app.powerbi.com veröffentlichen. Sie benötigen eine Power BI Pro-Lizenz, um einen Bericht im Dienst zu veröffentlichen. Sie können paginierte Berichte unter „Mein Arbeitsbereich“ oder in anderen Arbeitsbereichen veröffentlichen und freigeben, solange sich der Arbeitsbereich in einer Power BI Premium-Kapazität befindet. Außerdem muss ein Power BI-Administrator paginierte Berichte im Abschnitt [Premium-Kapazitäten](../service-admin-premium-workloads.md#paginated-reports) des Power BI-Administratorportals aktivieren. 
+Sie können eine Vorschau Ihres Berichts im Berichts-Generator anzeigen und dann im Power BI-Dienst unter `https://app.powerbi.com` veröffentlichen. Sie benötigen eine Power BI Pro-Lizenz, um einen Bericht im Dienst zu veröffentlichen. Sie können paginierte Berichte unter „Mein Arbeitsbereich“ oder in anderen Arbeitsbereichen veröffentlichen und freigeben, solange sich der Arbeitsbereich in einer Power BI Premium-Kapazität befindet. Außerdem muss ein Power BI-Administrator paginierte Berichte im Abschnitt [Premium-Kapazitäten](../service-admin-premium-workloads.md#paginated-reports) des Power BI-Administratorportals aktivieren. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Erstellen von Berichten im Power BI-Berichts-Generator
 
@@ -61,7 +61,7 @@ Alles in einem paginierten Bericht, vom Bericht selbst bis hin zu jedem Textfeld
 
 ## <a name="creating-a-report-definition"></a>Erstellen einer Berichtsdefinition
 
-Wenn Sie einen paginierten Bericht entwerfen, erstellen Sie eigentlich eine *Berichtsdefinition*. Sie enthält keine Daten. Sie gibt an, wo die Daten bereitstehen, welche Daten abzurufen sind und wie die Daten angezeigt werden sollen. Bei Ausführung des Berichts legt der Berichtsprozessor die angegebene Berichtsdefinition zugrunde, ruft die Daten ab und kombiniert sie mit dem Berichtslayout, um den Bericht zu generieren. Sie laden die Berichtsdefinition in den Power BI-Dienst hoch (https://app.powerbi.com ), entweder in „Mein Arbeitsbereich“ oder in einen Arbeitsbereich, den Sie gemeinsam mit Ihren Kollegen verwenden. Ist die Berichtsdatenquelle lokal gespeichert, leiten Sie die Datenquellenverbindung nach dem Hochladen des Berichts so um, dass sie über ein Gateway verläuft. 
+Wenn Sie einen paginierten Bericht entwerfen, erstellen Sie eigentlich eine *Berichtsdefinition*. Sie enthält keine Daten. Sie gibt an, wo die Daten bereitstehen, welche Daten abzurufen sind und wie die Daten angezeigt werden sollen. Bei Ausführung des Berichts legt der Berichtsprozessor die angegebene Berichtsdefinition zugrunde, ruft die Daten ab und kombiniert sie mit dem Berichtslayout, um den Bericht zu generieren. Sie laden die Berichtsdefinition in den Power BI-Dienst hoch (`https://app.powerbi.com`), entweder in „Mein Arbeitsbereich“ oder in einen Arbeitsbereich, den Sie gemeinsam mit Ihren Kollegen verwenden. Ist die Berichtsdatenquelle lokal gespeichert, leiten Sie die Datenquellenverbindung nach dem Hochladen des Berichts so um, dass sie über ein Gateway verläuft. 
 
 ## <a name="view-your-paginated-report"></a>Anzeigen Ihres paginierten Berichts
 Sie können Ihren paginierten Bericht im Power BI-Dienst in einem Browser und auch in den Power BI Mobile-Apps anzeigen. Sie können den Bericht über den Power BI-Dienst in mehrere Formate exportieren, darunter HTML, MHTML, PDF, XML, CSV, TIFF, Word und Excel. Zudem können Sie ihn für andere Benutzer freigeben.  

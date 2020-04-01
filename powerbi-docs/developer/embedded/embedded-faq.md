@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492788"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403665"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -96,7 +96,7 @@ Der Benutzer kann dieses Problem beheben, indem er die [refreshUserPermissions-A
 
 Über das Power BI-Portal können Sie die Region Ihres Power BI-Mandanten ermitteln.
 
-Navigieren Sie zu https://app.powerbi.com/ > ? > Info
+Navigieren Sie zu `https://app.powerbi.com/` > ? > Info
 
 ![Info](media/embedded-faq/about-01.png)
 ![Mandanten-Region](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Dieser Schritt ist wichtig, wenn Sie den Dienstprinzipal als **Administrator** d
 
 Die **[Anwendungs-ID](embed-sample-for-customers.md#application-id)** wird zum Erstellen des Zugriffstokens verwendet, wenn sie für die Authentifizierung übergeben wird.
 
-Wenn Sie für Vorgänge auf einen Dienstprinzipal verweisen oder Änderungen vornehmen möchten, z.B. einen Dienstprinzipal als Administrator auf einen Arbeitsbereich anwenden, verwenden Sie die **[Objekt-ID des Dienstprinzipals](embed-service-principal.md#how-to-get-the-service-principal-object-id)** .
+Wenn Sie für Vorgänge auf einen Dienstprinzipal verweisen oder Änderungen vornehmen möchten, z.B. einen Dienstprinzipal als Administrator auf einen Arbeitsbereich anwenden, verwenden Sie die **[Objekt-ID des Dienstprinzipals](embed-service-principal.md)** .
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>Kann ich ein lokales Datengateway mit dem Dienstprinzipal verwalten?
 

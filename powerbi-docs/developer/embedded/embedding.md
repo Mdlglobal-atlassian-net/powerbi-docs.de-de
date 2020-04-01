@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 779ca338a211e569c0dd7f529208cf7bfb1bcf7c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492328"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487841"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Embedded Analytics mit Power BI
 
@@ -34,7 +34,7 @@ Wählen Sie die am besten für Sie geeignete Lösung aus:
 * Das [Einbetten für Ihre Organisation](embedding.md#embedding-for-your-organization) ermöglicht Ihnen das Erweitern des Power BI-Diensts. Implementieren Sie zu diesem Zweck die Lösung [Einbetten für Ihre Organisation](https://aka.ms/embedsetup/UserOwnsData).
 * Das [Einbetten für Ihre Kunden](embedding.md#embedding-for-your-customers) bietet die Möglichkeit, Dashboards und Berichte für Benutzer einzubetten, die nicht über ein Konto für Power BI verfügen. Implementieren Sie zu diesem Zweck die Lösung [Einbetten für Ihre Kunden](https://aka.ms/embedsetup/AppOwnsData).
 
-![PBIE-Beispiel](../media/what-can-you-do/what-can-you-do-02.png)
+![PBIE-Beispiel](media/embedding/what-can-you-do-02.png)
 
 ## <a name="use-apis"></a>Verwenden von APIs
 

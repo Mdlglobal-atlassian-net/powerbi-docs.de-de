@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 37f8858d3581f58fc82fcbd1f3a1718ca56b6d72
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79494030"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403829"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
 
@@ -438,7 +438,7 @@ Wenn Sie eine dedizierte Kapazität erstellt haben, können Sie ihr Ihren Arbeit
 
 Alle Arbeitsbereiche, die Power BI-Ressourcen im Zusammenhang mit dem eingebetteten Inhalt (einschließlich Datasets, Berichten und Dashboards) enthalten, müssen dedizierten Kapazitäten zugewiesen werden. Wenn sich z. B. ein eingebetteter Bericht und das an ihn gebundene Dataset in unterschiedlichen Arbeitsbereichen befinden, müssen beide Arbeitsbereiche dedizierten Kapazitäten zugewiesen werden.
 
-Mithilfe der [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) können Sie einem Arbeitsbereich über einen [Dienstprinzipal](embed-service-principal.md) eine dedizierte Kapazität zuzuweisen. Wenn Sie die Power BI-REST-APIs einsetzen, müssen Sie die [Dienstprinzipalobjekt-ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) verwenden.
+Mithilfe der [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) können Sie einem Arbeitsbereich über einen [Dienstprinzipal](embed-service-principal.md) eine dedizierte Kapazität zuzuweisen. Wenn Sie die Power BI-REST-APIs einsetzen, müssen Sie die [Dienstprinzipalobjekt-ID](embed-service-principal.md) verwenden.
 
 Entlang der folgenden Schritte können Sie einem Arbeitsbereich über ein **Hauptkonto** eine dedizierte Kapazität zuordnen.
 
