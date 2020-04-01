@@ -19,6 +19,16 @@
             - name: Entwickler
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
+              items:
+                - name: Eingebettete Analysen
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Power BI-Visuals
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: Automatisierung
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
             - name: Geführte Tutorials
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
