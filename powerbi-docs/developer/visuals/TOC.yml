@@ -1,0 +1,120 @@
+- name: Dokumentation zu Power BI-Visuals
+  href: index.yml
+  expanded: true
+  items:
+    - name: Übersicht
+      expanded: true
+      items:
+        - name: Visuals in Power BI
+          href: power-bi-custom-visuals.md
+    - name: Lernprogramme
+      expanded: true
+      items:
+        - name: Entwickeln eines Power BI-Visuals
+          href: custom-visual-develop-tutorial.md
+        - name: Hinzufügen von Formatierungsoptionen
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: Hinzufügen von Komponententests für Visualprojekte
+          href: unit-tests-introduction.md
+    - name: Konzepte
+      items:
+        - name: Struktur von Visualprojekten in Power BI
+          href: visual-project-structure.md
+        - name: Visualisierungskonzepte
+          href: power-bi-visuals-concept.md
+        - name: Visuals für Organisationen in Power BI
+          href: power-bi-custom-visuals-organization.md
+        - name: Richtlinien für Power BI-Visuals
+          href: guidelines-powerbi-visuals.md
+        - name: Häufig gestellte Fragen zu Visuals
+          href: power-bi-custom-visuals-faq.md
+        - name: Verwenden von Funktionen
+          href: capabilities.md
+        - name: Zuordnungen von Datenansichten
+          href: dataview-mappings.md
+        - name: Objekte und Eigenschaften
+          href: objects-properties.md
+        - name: Modus „Erweiterte Bearbeitung“
+          href: advanced-edit-mode.md
+    - name: Vorgehensweise
+      items:
+        - name: "So lassen Sie sich ein Power\_BI-Visual zertifizieren"
+          href: power-bi-custom-visuals-certified.md
+        - name: Veröffentlichen von Power BI-Visuals in AppSource
+          href: office-store.md
+        - name: Verwenden von R-gestützten Power BI-Visuals in Power BI
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: Visualinteraktionen
+          href: visuals-interactions.md
+        - name: Hinzufügen von Auswahloptionen
+          href: selection-api.md
+        - name: Hinzufügen von QuickInfos zu Visuals
+          href: add-tooltips.md
+        - name: Hinzufügen eines Analysebereichs
+          href: analytics-pane.md
+        - name: Filtern von Visuals
+          href: filter-api.md
+        - name: Abrufen zusätzlicher Daten
+          href: fetch-more-data.md
+        - name: Unterstützung von Lesezeichen
+          href: bookmarks-support.md
+        - name: Hinzufügen von Kontextmenüunterstützung
+          href: context-menu.md
+        - name: Hinzufügen von Unterstützung für Drilldowns
+          href: drill-down-support.md
+        - name: Hervorheben von Daten in Visuals
+          href: highlight.md
+        - name: Unterstützung des Modus für hohen Kontrast
+          href: high-contrast-support.md
+        - name: Synchronisierung von Slicern
+          href: enable-sync-slicers.md
+        - name: Debuggen von Visuals
+          href: visuals-how-to-debug.md
+        - name: Problembehandlung bei Power BI-Visuals
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: Referenz
+      items:
+        - name: Startseite
+          href: landing-page.md
+        - name: Start-URL
+          href: launch-url.md
+        - name: API für lokalen Speicher
+          href: local-storage.md
+        - name: Rendern von Ereignissen
+          href: event-service.md
+        - name: Sortierung
+          href: sort-options.md
+        - name: Lokalisierung
+          href: localization.md
+        - name: "Hilfsprogramme für Power\_BI-Visuals"
+          items:
+            - name: Hinzufügen von externen Bibliotheken
+              href: adding-external-libraries.md
+            - name: Interaktivitätshilfsprogramme
+              href: utils-interactivity-selections.md
+            - name: Formatierungshilfsprogramme
+              href: utils-formatting.md
+            - name: DataViewUtils
+              href: utils-dataview.md
+            - name: ChartUtils
+              href: utils-chart.md
+            - name: Farbhilfsprogramme
+              href: utils-color.md
+            - name: SVGUtils
+              href: utils-svg.md
+            - name: TypeUtils
+              href: utils-type.md
+            - name: QuickInfo-Hilfsprogramme
+              href: utils-tooltip.md
+            - name: DataViewUtils
+              href: utils-dataview.md
+    - name: Ressourcen
+      items:
+        - name: Dev Center
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Beispiele für Power BI-Visuals
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Power BI-Visuals-Git-Repository
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: Erstellen eines SSL-Zertifikats
+          href: create-ssl-certificate.md

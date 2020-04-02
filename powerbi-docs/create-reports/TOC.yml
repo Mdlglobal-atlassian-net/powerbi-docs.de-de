@@ -20,6 +20,8 @@
       items:
         - name: Abrufen von Beispielen für Power BI
           href: ../sample-datasets.md
+        - name: Beispiel für Daten zu COVID-19 für die USA
+          href: sample-covid-19-us.md
         - name: Beispiel zur Kundenrentabilität
           href: ../sample-customer-profitability.md
         - name: Analysebeispiel für IT-Ausgaben

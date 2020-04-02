@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Dokumentation zu Power BI-Visuals
+summary: Entwickeln Sie Ihre eigenen Power BI-Visuals, die von Ihnen, Ihrem Unternehmen oder der gesamten Power BI-Community verwendet werden können. In unserer Dokumentation finden Sie die Informationen, die Sie benötigen.
+metadata:
+  title: Dokumentation zu Power BI-Visuals
+  description: Entwickeln Sie Ihre eigenen Power BI-Visuals, die von Ihnen, Ihrem Unternehmen oder der gesamten Power BI-Community verwendet werden können. In unserer Dokumentation finden Sie die Informationen, die Sie benötigen.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516236"
+landingContent:
+- title: Erste Schritte
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Visuals in Power BI
+      url: power-bi-custom-visuals.md
+    - text: Struktur von Visualprojekten in Power BI
+      url: visual-project-structure.md
+    - text: Häufig gestellte Fragen
+      url: power-bi-custom-visuals-faq.md
+- title: Entwickeln eines Power BI-Visuals
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Tutorial: Entwickeln eines Power BI-Visuals'
+      url: custom-visual-develop-tutorial.md
+    - text: 'Tutorial: Hinzufügen von Formatierungsoptionen zu einem Power BI-Visual'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Richtlinien für Power BI-Visuals
+      url: guidelines-powerbi-visuals.md
+- title: Veröffentlichen von Power BI-Visuals
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Veröffentlichen von Power BI-Visuals in Partner Center
+      url: office-store.md
+    - text: So lassen Sie sich ein Power BI-Visual zertifizieren
+      url: power-bi-custom-visuals-certified.md
+- title: Verweise und -ressourcen
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Beispiele für Power BI-Visuals
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git-Repository
+      url: https://github.com/Microsoft/PowerBI-visuals
