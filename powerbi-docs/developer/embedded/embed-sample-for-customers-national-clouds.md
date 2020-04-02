@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: dc429e4147016df07d339468090ad50bb6f14842
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493892"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550946"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Einbetten von Power BI-Inhalten in Ihre Anwendung für nationale Clouds
 
@@ -116,7 +116,7 @@ Diesem Artikel liegt der im [Beispiel zu Daten im App-Besitz](https://github.com
 
 * Parameter von Power BI für Cloud China
 
-1. Überschreiben Sie die Datei „Cloud.config“ mit dem Inhalt von [Power BI für Cloud Deutschland](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+1. Überschreiben Sie die Datei „Cloud.config“ mit dem Inhalt von [Power BI für Cloud Deutschland](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
 
 2. Aktualisieren Sie „applicationId“ („applicationId“ der nativen App), „workspaceId“, den Benutzer (Ihren master-Benutzer) und das Kennwort in der Datei „Web.config“.
 
@@ -143,7 +143,7 @@ Registrieren Sie Ihre Anwendung bei Azure AD, um REST-API-Aufrufe ausführen zu 
 
 * Power BI für Cloud China – ```https://app.powerbi.cn/apps```
 
-Wenn Sie das [Beispiel zum Einbetten für Ihre Kunden](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) heruntergeladen haben, verwenden Sie die erhaltene **applicationId**, damit das Beispiel in Azure AD authentifiziert werden kann. Ändern Sie zum Konfigurieren des Beispiels die **applicationId** in der Datei *web.config*.
+Wenn Sie das [Beispiel zum Einbetten für Ihre Kunden](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) heruntergeladen haben, verwenden Sie die erhaltene **applicationId**, damit das Beispiel in Azure AD authentifiziert werden kann. Ändern Sie zum Konfigurieren des Beispiels die **applicationId** in der Datei *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Schritt 2: Abrufen eines Zugriffstokens aus Azure AD
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Rufen Sie mit dem Power BI-Clientobjekt einen Verweis auf das Element ab, das eingebettet werden soll. Sie können Dashboards, Kacheln oder Berichte einbetten. Im folgenden Beispiel wird veranschaulicht, wie Sie das erste Dashboard, die erste Kachel oder den ersten Bericht aus einem vorgegebenen Arbeitsbereich abrufen.
 
-Ein Beispiel finden Sie in **Controllers\HomeController.cs** im [Beispiel „App Owns Data“](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Ein Beispiel finden Sie in **Controllers\HomeController.cs** im [Beispiel „App Owns Data“](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 #### <a name="reports"></a>Berichte
 
@@ -243,7 +243,7 @@ Sie können mithilfe der JavaScript-API ein Einbettungstoken generieren. Das Ein
 > [!IMPORTANT]
 > Da Einbettungstoken nur für Entwicklertests vorgesehen sind, ist die Anzahl von Einbettungstoken, die ein Power BI-Masterkonto generieren kann, begrenzt. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.
 
-Ein Beispiel finden Sie in **Controllers\HomeController.cs** im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Ein Beispiel finden Sie in **Controllers\HomeController.cs** im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 Eine Klasse wird für **EmbedConfig** und **TileEmbedConfig** erstellt. Ein Beispiel finden Sie in **Models\EmbedConfig.cs** und **Models\TileEmbedConfig.cs**.
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 Sie können mithilfe von JavaScript ein Dashboard in ein div-Element auf Ihrer Webseite laden. Im Beispiel wird ein Modell „EmbedConfig/TileEmbedConfig“ mit Ansichten für ein Dashboard, eine Kachel oder einen Bericht verwendet. Ein komplettes Beispiel für die Verwendung der JavaScript-API ist im [Beispiel zu Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo) verfügbar.
 
-Ein Anwendungsbeispiel ist innerhalb des [Beispiels zum Einbetten von Inhalten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) verfügbar.
+Ein Anwendungsbeispiel ist innerhalb des [Beispiels zum Einbetten von Inhalten für Ihre Organisation](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) verfügbar.
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ Ein Anwendungsbeispiel ist innerhalb des [Beispiels zum Einbetten von Inhalten f
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* Eine Beispielanwendung können Sie auf GitHub einsehen. Die obigen Beispiele basieren auf diesem Beispiel. Weitere Informationen finden Sie im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+* Eine Beispielanwendung können Sie auf GitHub einsehen. Die obigen Beispiele basieren auf diesem Beispiel. Weitere Informationen finden Sie im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 * Weitere Informationen zur JavaScript-API finden Sie unter [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
 
