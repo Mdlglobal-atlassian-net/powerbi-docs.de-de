@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Paginierte Berichte
           items:
-            - name: 'Praxislab: Erstellen eines paginierten Berichts'
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Eingeben von Daten direkt in einem paginierten Bericht
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Erstellen einer eingebetteten Datenquelle
