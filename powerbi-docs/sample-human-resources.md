@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858863"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404111"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Beispiel für Personalwesen für Power BI: Übersicht
 
@@ -61,10 +61,10 @@ Alternativ können Sie das Beispiel für das Personalwesen als [PBIX-Datei](http
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529780) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529780) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="new-hires"></a>Neue Mitarbeiter
-Betrachten wir zunächst die Neueinstellungen.
+Betrachten Sie zunächst die Neueinstellungen.
 
 1. Wählen Sie im Arbeitsbereich die Registerkarte **Dashboards** aus, und öffnen Sie das Dashboard **Beispiel für das Personalwesen**.
 2. Wählen Sie im Dashboard die Kachel **Anzahl der Neueinstellungen, Neueinstellungen im gleichen Zeitraum des Vorjahres, % Veränderung der Aktiven im Jahresvergleich nach Monat** aus.  
@@ -78,8 +78,8 @@ Betrachten wir zunächst die Neueinstellungen.
 3. Sehen Sie sich diese interessanten Elemente an:
 
     * Das Kombinationsdiagramm **Anzahl der Neueinstellungen, Neueinstellungen GZVJ und % Aktive im Jahresvergleich – Veränderung nach Monat** zeigt, dass wir in jedem Monat des laufenden Jahres mehr Mitarbeiter als im Vorjahr eingestellt haben. In einigen Monaten erheblich mehr Mitarbeiter.
-    * Beachten Sie im Kombinationsdiagramm **Anzahl der Neueinstellungen und Anzahl der aktiven Mitarbeiter nach Region und ethnischer Gruppe**, dass wir weniger Personen im Bereich **Osten** einstellen.
-    * Das Wasserfalldiagramm **Neueinstellungen im Jahresvergleich, Abw. nach Altersgruppe** zeigt, dass wir vor allem jüngere Menschen einstellen. Die Ursache dieses Trends könnte sein, dass die Stellen häufig Teilzeitstellen sind.
+    * Beachten Sie im Kombinationsdiagramm **New Hire Count and Active Employee Count by Region and Ethnicity** (Anzahl der Neueinstellungen und der aktiven Mitarbeiter nach Region und ethnischer Gruppe), dass weniger Personen in der Region **Osten** eingestellt werden.
+    * Das Wasserfalldiagramm **New Hires YoY Var by Age Group** (Abweichung der Neueinstellungen im Jahresvergleich nach Altersgruppe) zeigt, dass vor allem jüngere Menschen eingestellt werden. Die Ursache dieses Trends könnte sein, dass die Stellen häufig Teilzeitstellen sind.
     * Das Kreisdiagramm **Anzahl der Neueinstellungen nach Geschlecht** zeigt eine ziemlich gleichmäßige Verteilung.
 
     Gewinnen Sie weitere Erkenntnisse? Beispielsweise eine Region, in der die Verteilung nach Geschlecht nicht gleichmäßig ist. 
@@ -91,7 +91,7 @@ Betrachten wir zunächst die Neueinstellungen.
    ![Rückkehr zum Dashboard](media/sample-human-resources/power-bi-breadcrumbs.png)
 
 ## <a name="compare-currently-active-and-former-employees"></a>Vergleichen der derzeit aktiven und ehemaligen Mitarbeiter
-Wir sehen uns die Daten für die derzeit aktiven Mitarbeiter und die Mitarbeiter an, die nicht mehr für das Unternehmen arbeiten.
+Sehen Sie sich die Daten für die derzeit aktiven Mitarbeiter und die Mitarbeiter an, die nicht mehr für das Unternehmen arbeiten.
 
 1. Wählen Sie auf dem Dashboard die Kachel **Anzahl der aktiven Mitarbeiter nach Altersgruppen** aus.
 
@@ -108,7 +108,7 @@ Wir sehen uns die Daten für die derzeit aktiven Mitarbeiter und die Mitarbeiter
     * Wenn wir uns die Kreisdiagramme ansehen, fällt auf, dass in Bezug auf die aktiven Mitarbeiter nach Geschlecht und Altersgruppe eine relativ gleichmäßige Verteilung besteht. Wählen Sie verschiedene Altersgruppen aus, um die Geschlechtsverteilung nach Alter anzuzeigen. Liegt für jede Altersgruppe eine gleichmäßige Verteilung nach Geschlecht vor?
 
 ## <a name="reasons-for-separation"></a>Gründe für das Ausscheiden
-Wir sehen uns den Bericht in der Bearbeitungsansicht an. Sie können die Kreisdiagramme so ändern, dass sie Daten ausgeschiedener Mitarbeiter anstelle der Daten aktiver Mitarbeiter anzeigen.
+Sehen Sie sich den Bericht in der Bearbeitungsansicht an. Sie können die Kreisdiagramme so ändern, dass sie Daten ausgeschiedener Mitarbeiter anstelle der Daten aktiver Mitarbeiter anzeigen.
 
 1. Wählen Sie in der oberen linken Ecke **Bericht bearbeiten** aus.
 
@@ -132,10 +132,10 @@ Wir sehen uns den Bericht in der Bearbeitungsansicht an. Sie können die Kreisdi
 
 8. Sie können die gleichen Schritte auch für das Kreisdiagramm **Anzahl der aktiven Mitarbeiter nach Geschlecht** ausführen und es von aktiven Mitarbeitern in Trennungen ändern. Sehen Sie sich die Daten zum freiwilligen Ausscheiden nach Geschlecht an, um nach weiteren Erkenntnissen zu suchen.
 
-9. Wählen Sie im oberen Navigationsbereich **Beispiel für das Personalwesen** aus, um zum Dashboard zurückzukehren. Wenn Sie möchten, können Sie die Änderungen speichern, die Sie am Bericht vorgenommen haben.
+9. Wählen Sie im oberen Navigationsbereich **Beispiel für das Personalwesen** aus, um zum Dashboard zurückzukehren. Wenn Sie möchten, können Sie die vorgenommen Änderungen speichern.
 
 ## <a name="bad-hires"></a>Fehleinstellungen
-Als Letztes untersuchen wir den Bereich der Fehleinstellungen. Bei Fehleinstellungen geht es um Mitarbeiter, die weniger als 60 Tage im Unternehmen tätig waren. Wir stellen schnell ein, aber stellen wir gute Kandidaten ein?
+Als Letztes untersuchen wir den Bereich der Fehleinstellungen. Bei Fehleinstellungen handelt es sich um Mitarbeiter, die weniger als 60 Tage im Unternehmen tätig waren. Wir stellen schnell ein, aber stellen wir auch gute Kandidaten ein?
 
 1. Wählen Sie die Dashboardkachel **Fehleinstellungen in % aktiver Mitarbeiter nach Altersgruppe** aus. Der Bericht öffnet Registerkarte drei, **Fehleinstellungen**.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040449"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404729"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Erstellen und Verwenden von Dataflows in Power BI
 
@@ -32,7 +32,7 @@ Das Verwenden eines Dataflows umfasst drei wesentliche Schritte:
 2. Planen der Aktualisierungshäufigkeit der Daten, die in Ihren Dataflow eingebunden werden
 3. Erstellen des Datasets mit Ihrem Dataflow und Power BI Desktop 
 
-Die folgenden Abschnitten widmen sich jedem dieser Schritte und stellen die dafür verfügbaren Tools vor. Fangen wir an.
+Die folgenden Abschnitten widmen sich jedem dieser Schritte und stellen die dafür verfügbaren Tools vor. Lassen Sie uns loslegen!
 
 ## <a name="creating-a-dataflow"></a>Erstellen eines Dataflows
 Starten Sie den Power BI-Dienst im Browser, und wählen Sie im Navigationsbereich links einen **Arbeitsbereich** aus (Dataflows sind im Power BI-Dienst unter *my-workspace* nicht verfügbar), um einen Dataflow zu erstellen. Die folgende Abbildung veranschaulicht das. Sie können auch einen neuen Arbeitsbereich zum Erstellen Ihres neuen Dataflows erstellen. 
@@ -55,7 +55,7 @@ Eine **Entität** ist eine Gruppe von Feldern, die ähnlich wie eine Tabelle in 
 
 ![Auswählen der Datenquelle zum Hinzufügen von Entitäten](media/service-dataflows-create-use/dataflows-create-use_05a.png)
 
-Wenn Sie eine Datenquelle auswählen, werden Sie aufgefordert, die Verbindungseinstellungen anzugeben, einschließlich des Kontos, das bei der Verbindung mit der Datenquelle verwendet werden soll (s. Abbildung).
+Beim Auswählen einer Datenquelle werden Sie dazu aufgefordert, die Verbindungseinstellungen anzugeben, einschließlich des Kontos, das beim Herstellen der Verbindung mit der Datenquelle verwendet werden soll:
 
 ![Mit Datenquelle verbinden](media/service-dataflows-create-use/dataflows-create-use_06.png)
 
@@ -75,7 +75,7 @@ Wenn Sie den Code, den der Abfrage-Editor bei den einzelnen Schritten erzeugt, a
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>Dataflows und Common Data Model
 
-Dataflowentitäten enthalten neue Tools, mit denen Sie Ihre Geschäftsdaten einfach dem Common Data Model (das standardisierte Schema von Microsoft) zuordnen sowie mit Daten von Microsoft und Drittanbietern anreichern können. Außerdem erhalten Sie vereinfachten Zugriff auf maschinelles Lernen. Diese neuen Funktionen bieten Ihnen intelligente Einblicke und handlungsrelevante Informationen zu Ihren Geschäftsdaten. Wenn Sie alle Transformationen im Schritt „Abfragen bearbeiten“ abgeschlossen haben, können Sie Spalten aus Ihren Datenquellentabellen gemäß dem Common Data Model Standardentitätsfeldern zuordnen. Standardentitäten haben ein bekanntes Schema, das durch das Common Data Model definiert wird.
+Dataflowentitäten enthalten neue Tools, mit denen Sie Ihre Geschäftsdaten einfach dem Common Data Model (das standardisierte Schema von Microsoft) zuordnen sowie mit Daten von Microsoft und Drittanbietern anreichern können. Außerdem erhalten Sie vereinfachten Zugriff auf Machine Learning-Funktionen. Diese neuen Funktionen bieten Ihnen intelligente Einblicke und handlungsrelevante Informationen zu Ihren Geschäftsdaten. Sobald Sie alle Transformationen im Schritt „Abfragen bearbeiten“ abgeschlossen haben, können Sie Spalten aus Ihren Datenquellentabellen gemäß dem Common Data Model Standardentitätsfeldern zuordnen. Standardentitäten haben ein bekanntes Schema, das durch das Common Data Model definiert wird.
 
 Weitere Informationen zu diesem Ansatz und zum Common Data Model finden Sie im Artikel [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview).
 
@@ -92,7 +92,7 @@ Um die Common Data Model-Standardentität beizubehalten, erhalten alle nicht zug
 
 Alle nicht zugeordneten Quellspalten bleiben unverändert, um sicherzustellen, dass das Ergebnis der Zuordnung eine Standardentität mit benutzerdefinierten Feldern ist.
 
-Wenn Sie Ihre Auswahl getroffen haben und Ihre Entität und Dateneinstellungen gespeichert werden können, wählen Sie im Menü **Speichern** aus. Beachten Sie, dass Sie durch Auswählen der Schaltfläche **Entitäten hinzufügen** mehrere Entitäten erstellen können, und dass Sie Entitäten bearbeiten können, um Ihre Abfragen und Entitäten zu verfeinern.
+Wenn Sie Ihre Auswahl getroffen haben und Ihre Entität und die zugehörigen Dateneinstellungen gespeichert werden können, klicken Sie im Menü auf **Speichern**. Beachten Sie, dass Sie durch Auswählen der Schaltfläche **Entitäten hinzufügen** mehrere Entitäten erstellen können, und dass Sie Entitäten bearbeiten können, um Ihre Abfragen und Entitäten zu verfeinern.
 
 ![Speichern der Entitätszuordnung](media/service-dataflows-create-use/dataflows-create-use_09.png)
 
@@ -100,15 +100,15 @@ Wenn Sie **Speichern** auswählen, werden Sie aufgefordert, Ihren Dataflow zu be
 
 ![Name und Beschreibung des neuen Dataflows](media/service-dataflows-create-use/dataflows-create-use_10.png)
 
-Wenn Sie so weit sind, wählen Sie die Schaltfläche **Speichern** aus. Daraufhin erscheint ein Fenster mit dem Hinweis, dass Ihr **Dataflow** erstellt wurde. 
+Klicken Sie abschließend auf die Schaltfläche **Speichern**. Daraufhin wird ein Fenster mit dem Hinweis angezeigt, dass Ihr **Dataflow** erstellt wurde. 
 
 ![Dataflow wird gespeichert.](media/service-dataflows-create-use/dataflows-create-use_11.png)
 
-Großartig! Nun können Sie mit dem nächsten Schritt fortfahren, nämlich der Planung der Aktualisierungshäufigkeit für Ihre Datenquellen.
+Nun können Sie mit dem nächsten Schritt, der Planung der Aktualisierungshäufigkeit für Ihre Datenquellen, fortfahren.
 
 ## <a name="schedule-the-refresh-frequency"></a>Planen der Aktualisierungshäufigkeit
 
-Wenn Ihr Dataflow gespeichert wurde, legen Sie die Aktualisierungshäufigkeit für alle Ihre verknüpften Datenquellen fest.
+Nachdem Ihr Dataflow gespeichert wurde, können Sie die Aktualisierungshäufigkeit für alle verbundenen Datenquellen planen.
 
 Power BI-Dataflows verwenden den Power BI-Datenaktualisierungsprozess, um Ihre Daten auf dem neuesten Stand zu halten. Im **Power BI-Dienst** finden Sie im Abschnitt **Arbeitsbereich** eine Sammlung von Bereichen, in denen Ihre Informationen wie in der folgenden Abbildung veranschaulicht einschließlich Dataflows aufgelistet werden können.
 
@@ -118,7 +118,7 @@ Der Eintrag *Dynamics Dataflow* in der obigen Abbildung entspricht dem Dataflow,
 
 ![Schaltfläche „Aktualisierung planen“ im Abschnitt „Aktionen“](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
-Wenn Sie das Symbol **Aktualisierung planen** auswählen, gelangen Sie zum Bereich **Aktualisierung planen**. Dort können Sie die Aktualisierungshäufigkeit und -zeit für den Dataflow festlegen.
+Klicken Sie auf das Symbol **Aktualisierung planen**, um zum Bereich **Aktualisierung planen** zu gelangen. Dort können Sie die Aktualisierungshäufigkeit und -zeit für den Dataflow festlegen.
 
 ![Planen der Aktualisierungseinstellungen](media/service-dataflows-create-use/dataflows-create-use_14.png)
 
@@ -127,7 +127,7 @@ Weitere Informationen zum Planen der Aktualisierung finden Sie im Artikel [Konfi
 
 ## <a name="connect-to-your-dataflow-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Dataflows in Power BI Desktop
 
-Wenn Sie Ihren Dataflow erstellt und die Aktualisierungshäufigkeit für jede Datenquelle, die das Modell ausfüllt, geplant haben, können Sie mit dem dritten und letzten Schritt fortfahren: Dem Herstellen einer Verbindung mit Ihrem Dataflow über **Power BI Desktop**. 
+Nachdem Sie Ihren Dataflow erstellt und die Aktualisierungshäufigkeit für alle Datenquellen, die das Modell auffüllen, geplant haben, können Sie mit dem dritten und letzten Schritt fortfahren: dem Herstellen einer Verbindung mit Ihrem Dataflow über **Power BI Desktop**. 
 
 Wählen Sie in Power BI Desktop **Daten abrufen > Power BI > Power BI-Dataflows (Beta)** aus, um eine Verbindung mit dem Dataflow herzustellen (s. Abbildung).
 
@@ -150,9 +150,9 @@ Es kann vorkommen, dass beim Verbinden von Dataflows mit Datenquellen Probleme a
 
 * **Salesforce-Connector**: Das Verwenden eines Salesforce-Testkontos mit Dataflows führt zu einem Verbindungsfehler ohne Angabe von weiteren Informationen. Verwenden Sie für diese Problembehandlung ein Salesforce-Produktionskonto oder ein Entwicklerkonto zum Testen.
 
-* **SharePoint-Connector**: Achten Sie darauf, dass Sie die Stammadresse der SharePoint-Website angeben – ohne Unterordner oder Dokumente. Verwenden Sie z.B. einen Link wie den folgenden: https://microsoft.sharepoint.com/teams/ObjectModel/. 
+* **SharePoint-Connector**: Achten Sie darauf, dass Sie die Stammadresse der SharePoint-Website angeben – ohne Unterordner oder Dokumente. Verwenden Sie z.B. einen Link wie den folgenden: `https://microsoft.sharepoint.com/teams/ObjectModel/`. 
 
-* **JSON-Datei-Connector:** Derzeit können Sie eine Verbindung mit einer JSON-Datei nur über die Standardauthentifizierung herstellen.  Die Verbindung zu einer JSON-Datei durch Bereitstellen der Anmeldeinformationen innerhalb der URL (z.B. https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. ) wird derzeit **nicht** unterstützt.  
+* **JSON-Datei-Connector:** Derzeit können Sie eine Verbindung mit einer JSON-Datei nur über die Standardauthentifizierung herstellen.  Das Herstellen einer Verbindung mit einer JSON-Datei durch Bereitstellen der Anmeldeinformationen innerhalb der URL (z. B. `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`) wird derzeit **nicht** unterstützt.  
 
 * **Azure SQL Data Warehouse:** Dataflows unterstützen derzeit nicht die Azure Active Directory-Authentifizierung (AAD) für Azure SQL Data Warehouse. Verwenden Sie für dieses Szenario die Standardauthentifizierung.
 

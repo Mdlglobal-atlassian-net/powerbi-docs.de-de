@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881822"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551083"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Herunterladen eines Berichts aus dem Power BI-Dienst in Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie einen Bericht (*PBIX*-Datei) von Ihrem lokalen Computer aus über den Power BI-Dienst veröffentlichen. Mit Power BI-Berichten können Sie auch andersherum vorgehen: Sie können auch einen Bericht aus dem Power BI-Dienst in Power BI Desktop herunterladen. Die Erweiterung für einen Power BI-Bericht ist in beiden Fällen „.pbix“.
 
-Es sind einige Einschränkungen und Überlegungen zu berücksichtigen, die weiter unten in diesem Artikel erläutert werden.
+Es sind einige Einschränkungen zu berücksichtigen, die in diesem Artikel unter [Zu beachtende Aspekte und Problembehandlung](#considerations-and-troubleshooting) erläutert werden.
 
 ![Dropdownliste mit Dateien](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Beim Herunterladen einer PBIX-Datei aus dem Power BI-Dienst sind einige wichtige
 * Verwenden Sie immer die neueste Version von Power BI Desktop, wenn Sie heruntergeladene Dateien öffnen. Heruntergeladene PBIX-Dateien werden in nicht aktuellen Versionen von Power BI Desktop möglicherweise nicht geöffnet.
 * Wenn Ihr Administrator die Möglichkeit zum Herunterladen von Daten deaktiviert hat, ist dieses Feature im Power BI-Dienst nicht sichtbar.
 * Datasets mit inkrementeller Aktualisierung können nicht in eine PBIX-Datei heruntergeladen werden.
+* Wenn Sie einen Power BI-Bericht auf Grundlage eines Datasets in einem Arbeitsbereich erstellen und in einem anderen Arbeitsbereich veröffentlichen, können Sie und Ihre Benutzer ihn nicht herunterladen. Die Downloadfunktion wird zurzeit in diesem Szenario nicht unterstützt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 Sehen Sie sich das **Guy in a Cube**-Kurzvideo (in englischer Sprache) zu diesem Feature an:

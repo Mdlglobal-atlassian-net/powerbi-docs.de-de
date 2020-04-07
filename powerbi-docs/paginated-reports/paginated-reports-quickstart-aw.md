@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207227"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404887"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Erstellen und Hochladen eines paginierten Berichts in den Power BI-Dienst
 
@@ -286,7 +286,7 @@ Eine weitere Formatierungsverbesserung vor der Veröffentlichung des Berichts im
 
 Nachdem Sie diesen paginierten Bericht erstellt haben, können Sie ihn in den Power BI-Dienst hochladen.
 
-1. Wählen Sie im Power BI-Dienst https://app.powerbi.com) im Navigationsbereich **Arbeitsbereiche** > **Arbeitsbereich erstellen** aus.
+1. Klicken Sie im Power BI-Dienst (`https://app.powerbi.com`) im Navigationsbereich auf **Arbeitsbereiche** > **Arbeitsbereich erstellen**.
 
 2. Nennen Sie Ihren Arbeitsbereich **Azure AW**, oder vergeben Sie einen anderen eindeutigen Namen. Sie sind jetzt das einzige Mitglied. 
 

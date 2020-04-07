@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114969"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487755"
 ---
 # <a name="what-is-power-bi"></a>Was ist Power BI?
 **Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Ihre Daten können als Excel-Kalkulationstabelle oder als eine hybride Sammlung von cloudbasierten und lokalen Data Warehouse-Instanzen vorliegen. Mit Power BI können Sie komfortabel Verbindungen zwischen Ihren Datenquellen herstellen, wichtige Punkte entdecken und visualisieren sowie die Ergebnisse mit den gewünschten Personen teilen.
@@ -44,8 +44,12 @@ Wie Sie Power BI verwenden, kann sich einfach danach richten, welche Funktion od
 Untersuchen Sie Dokumente, die sich auf ihre Rolle beziehen:
 - Power BI Desktop für [*Designer*](../desktop-what-is-desktop.md)
 - Power BI für [*Verbraucher*](../consumer/end-user-consumer.md)
-- Power BI für [*Entwickler*](../developer/what-can-you-do.md)
 - Power BI für [*Administratoren*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI für *Entwickler*
+    * [Embedded Analytics mit Power BI](../developer/embedded/embedding.md)
+    * [Was ist Power BI Embedded in Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Visuals in Power BI](../developer/visuals/power-bi-custom-visuals.md)
+    * [Welche Möglichkeiten bietet die Power BI-API für Entwickler?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Arbeitsablauf in Power BI
 Ein häufiger Workflow in Power BI beginnt mit dem Herstellen einer Verbindung mit Datenquellen und dem Erstellen eines Berichts in Power BI Desktop. Anschließend veröffentlichen Sie diesen Bericht aus Power BI Desktop im Power BI-Dienst und teilen ihn, damit Endbenutzer im Power BI-Dienst und auf den mobilen Geräten den Bericht anzeigen und mit ihm interagieren können.

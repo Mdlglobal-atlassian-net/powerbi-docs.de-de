@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381167"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329668"
 ---
 # <a name="what-is-power-bi-premium"></a>Was ist Power BI Premium?
 
-Power BI Premium bietet dedizierte und erweiterte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation. Beispiel:
+Mit Power BI Premium erhalten Sie dedizierte und erweiterte Ressourcen für Ihre Organisation, sodass Benutzer in Ihrer Organisation den Power BI-Dienst mit besserer Leistung und Reaktionsfähigkeit nutzen können. Beispielsweise haben Sie und die Benutzer Ihrer Organisation mit einem Power BI Premium-Abonnement Zugriff auf Folgendes:
 
 > [!div class="checklist"]
 > * Größere Skalierung und Leistung
@@ -29,13 +29,16 @@ Power BI Premium bietet dedizierte und erweiterte Ressourcen für die Ausführun
 > * Unterstützung für Datenresidenz nach Region (Multi-Geo)
 > * Teilen von Daten mit beliebigen Personen ohne Erwerb einer Benutzerlizenz
 
+
+![Verwaltungsportal](media/service-premium-what-is/premium-admin-portal.png) 
+
 Dieser Artikel stellt wichtige Funktionen in Power BI Premium vor. Wo es erforderlich ist, bieten Links zu weiteren Artikeln ausführlichere Informationen. Weitere Informationen zu Power BI Pro und Power BI Premium finden Sie auf der Website [Power BI – Preise](https://powerbi.microsoft.com/pricing/) im Abschnitt _Vergleich der Power BI-Funktionen_.
 
 ## <a name="subscriptions-and-licensing"></a>Abonnements und Lizenzierung
 
 Power BI Premium ist ein Office 365-Abonnement auf Mandantenebene, das in zwei SKU-Familien (Stock Keeping Unit) erhältlich ist:
 
-- **P**-SKUs (P1–P3) für Einbettungs- und Unternehmensfunktionen, die eine monatliche oder jährliche Verpflichtung erfordern, monatlich abgerechnet werden und eine Lizenz zur lokalen Installation von Power BI-Berichtsserver beinhalten.
+- **P**-SKUs (P1–P5) für Einbettungs- und Unternehmensfunktionen, die eine monatliche oder jährliche Verpflichtung erfordern, monatlich abgerechnet werden und eine Lizenz zur lokalen Installation von Power BI-Berichtsserver beinhalten.
 
 - **EM**-SKUs (EM1–EM3) zum Einbetten für _Organisationen_, die eine jährliche Verpflichtung erfordern und monatlich abgerechnet werden. Die EM1- und EM2-SKUs sind nur über Volumenlizenzierungspläne erhältlich. Sie können sie nicht direkt erwerben.
 
@@ -81,6 +84,8 @@ Die Ressourcen und Grenzwerte der einzelnen Premium-SKUs (und A-SKU jeweils glei
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -219,7 +224,7 @@ Weitere Informationen finden Sie unter [Power BI-Berichtsserver](report-server/g
 
 ## <a name="unlimited-content-sharing"></a>Unbegrenztes Teilen von Inhalten
 
-Mit Premium kann jeder Benutzer – innerhalb und außerhalb Ihrer Organisation – Ihre Power BI-Inhalte wie paginierte und interaktive Berichte anzeigen, ohne dass Sie Einzellizenzen erwerben müssen. 
+Mit Premium kann jeder Benutzer – innerhalb und außerhalb Ihrer Organisation – Ihre Power BI-Inhalte wie paginierte und interaktive Berichte anzeigen, ohne Einzellizenzen erwerben zu müssen. 
 
 ![Teilen von Inhalten](media/service-premium-what-is/premium-sharing.png)
 
@@ -229,13 +234,14 @@ Weitere Informationen finden Sie unter [Power BI-Lizenzierung](service-admin-lic
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services in Power BI Premium (Vorschau)
 
-Hinter den Kulissen stützen sich Power BI-Datasets auf die im Unternehmenseinsatz bewährte Microsoft **Analysis Services Vertipaq-Engine**. Analysis Services bietet Programmierbarkeit und Unterstützung für Clientanwendungen und Tools in Form von Clientbibliotheken und APIs, die das XMLA-Protokoll als offenen Standard unterstützen. Aktuell unterstützen Power BI Premium-Datasets *schreibgeschützte* Vorgänge aus Clientanwendungen von Microsoft und Drittanbietern sowie Tools über **XMLA-Endpunkte**. 
+Hinter den Kulissen stützen sich Power BI Premium-Arbeitsbereiche und -Datasets auf die im Unternehmenseinsatz bewährte Microsoft **Analysis Services Vertipaq-Engine**. Analysis Services bietet Programmierbarkeit und Unterstützung für Clientanwendungen und Tools in Form von Clientbibliotheken und APIs, die das XMLA-Protokoll als offenen Standard unterstützen. Standardmäßig unterstützen Workloads für Power BI Premium-Kapazitätsdatasets *schreibgeschützte* Vorgänge aus Clientanwendungen von Microsoft und Drittanbietern sowie Tools über **XMLA-Endpunkte**. Kapazitätsadministratoren können sich auch dafür entscheiden, *Lese-/Schreibvorgänge* über den Endpunkt zu deaktivieren bzw. zuzulassen.
 
-Microsoft-Tools wie SQL Server Management Studio und SQL Server Profiler und Apps von Drittanbietern wie DAX Studio und Anwendungen zur Datenvisualisierung können mithilfe von XMLA, DAX, MDX, DMVs und Trace-Ereignissen Verbindungen mit Premium-Datasets herstellen und diese abfragen. 
+Bei Lesezugriff können Microsoft-Tools wie SQL Server Management Studio (SSMS) und SQL Server Profiler sowie Apps von Drittanbietern wie DAX Studio und Anwendungen zur Datenvisualisierung mithilfe von XMLA, DAX, MDX, DMVs und Trace-Ereignissen Verbindungen mit Premium-Datasets herstellen und diese abfragen. Bei Lese-/Schreibzugriff können Tools zur Unternehmensdatenmodellierung wie Visual Studio mit der Analysis Services-Projekterweiterung oder dem Editor für Open-Source-Tabellen als Dataset in einem Premium-Arbeitsbereich bereitgestellt werden. Und mit Tools wie SSMS können Administratoren die Tabular Model Scripting Language (TMSL) verwenden, um Metadatenänderungen und erweiterte Datenaktualisierungsszenarios zu schreiben. 
+
+Weitere Informationen finden Sie unter [Konnektivität mit Datasets mithilfe des XMLA-Endpunkts](service-premium-connect-tools.md).
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Weitere Informationen finden Sie unter [Herstellen einer Verbindung zu Datasets mit Clientanwendungen und Tools](service-premium-connect-tools.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

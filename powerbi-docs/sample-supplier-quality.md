@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858405"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404655"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Lieferantenqualität für Power BI: Übersicht
 
@@ -62,10 +62,10 @@ Alternativ können Sie das Analysebeispiel für Lieferantenqualität als [PBIX-D
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529779) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529779) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="downtime-caused-by-defective-materials"></a>Ausfallzeiten durch Materialmängel
-Wir analysieren die Ausfallzeiten durch Materialmängel und stellen fest, welche Anbieter verantwortlich sind.  
+Analysieren Sie die Ausfallzeiten durch Materialmängel, und stellen Sie fest, welche Anbieter dafür verantwortlich sind.  
 
 1. Wählen Sie auf dem Dashboard die Kachel **Gesamtanzahl der Mängel** oder die Kachel **Gesamtdauer der Downtime in Minuten** aus.
 
@@ -73,7 +73,7 @@ Wir analysieren die Ausfallzeiten durch Materialmängel und stellen fest, welche
 
    Der Bericht „Analysebeispiel für Lieferantenqualität“ wird mit der Seite **Analyse der Ausfallzeiten** geöffnet.
 
-   Beachten Sie, dass es 33 Millionen fehlerhafte Teile gibt, die eine Gesamtausfallzeit (Downtime) von 77.000 Minuten verursachen. Obwohl es für einige Materialien weniger fehlerhafte Teile gibt, können diese zu Verzögerungen führen, die zu weiteren Ausfallzeiten führen. Sehen wir uns die Berichte dazu an.  
+   Beachten Sie, dass es 33 Millionen fehlerhafte Teile gibt, die eine Gesamtausfallzeit (Downtime) von 77.000 Minuten verursachen. Obwohl es für einige Materialien weniger fehlerhafte Teile gibt, können diese zu Verzögerungen führen, die zu weiteren Ausfallzeiten führen. Sehen Sie sich dazu die Berichtseite an.  
 2. Ein Blick auf die Linie **Gesamtdauer der Downtime in Minuten** im Kombinationsdiagramm **Mängel und Ausfallzeiten (Min.) nach Materialtyp** zeigt, dass wellende Materialien die meisten Ausfallzeiten verursachen.  
 3. Wählen Sie die Spalte **Corrugate** (Wellen) aus, um zu sehen, welche Werke am häufigsten von diesen Mängeln betroffen sind und welcher Lieferant verantwortlich ist.  
 
@@ -96,7 +96,7 @@ Wir analysieren die Ausfallzeiten durch Materialmängel und stellen fest, welche
 3. Wählen Sie im oberen Navigationsbereich die Option **Analysebeispiel für Lieferantenqualität** aus, um zum Dashboard zurückzukehren.
 
 ### <a name="comparing-plants"></a>Werke vergleichen
-Nun möchten wir prüfen, welches Werk beim Umgang mit Materialmängeln besser abschneidet und weniger Ausfallzeiten verzeichnet.  
+Überprüfen Sie nun, welches Werk beim Umgang mit Materialmängeln besser abschneidet und somit niedrigere Ausfallzeiten verzeichnet.  
 
 1. Wählen Sie auf dem Dasboard die Kartenkachel **Berichte zur Gesamtanzahl der Mängel nach Werk, Mängeltyp** aus.      
 
@@ -108,7 +108,7 @@ Nun möchten wir prüfen, welches Werk beim Umgang mit Materialmängeln besser a
 
     ![Auswirkung auswählen](media/sample-supplier-quality/supplier7.png)  
 
-    Im Blasendiagramm sehen Sie, dass **Logistik** die problematischste Kategorie ist. Sie ist die größte Kategorie in Bezug auf Gesamtanzahl der Mängel, Mängelberichte und Ausfallzeiten in Minuten. Untersuchen wir diese Kategorie genauer.  
+    Im Blasendiagramm sehen Sie, dass **Logistik** die problematischste Kategorie ist. Sie ist die größte Kategorie in Bezug auf Gesamtanzahl der Mängel, Mängelberichte und Ausfallzeiten in Minuten. Untersuchen Sie diese Kategorie genauer.  
 3. Wählen Sie die **Logistik**-Blase im Blasendiagramm aus, und sehen Sie sich die Werke in Springfield und Naperville genauer an. Naperville scheint beim Umgang mit Mängeln erfolgreicher zu sein, da es eine Vielzahl an Reklamationen und eine geringe Auswirkung hat – Springfield verzeichnet hingegen einen hohen Wert bei der Auswirkung.  
 
    ![Logistik auswählen](media/sample-supplier-quality/supplier8.png)  
@@ -123,7 +123,7 @@ Der am besten verwaltete Materialtyp ist unabhängig von der Anzahl der Mängel 
 
    Es ist zu sehen, dass es für den Materialtyp **Raw Materials** (Rohmaterialien) zwar eine große Anzahl von Mängeln gibt, die meisten dieser Mängel jedoch entweder zurückgewiesen werden oder keine Auswirkung haben.
 
-   Es soll nun überprüft werden, ob dieser Materialtyp trotz der großen Anzahl von Mängeln tatsächlich nicht viele Ausfallzeiten verursacht.
+   Überprüfen Sie nun, ob dieser Materialtyp trotz der großen Anzahl von Mängeln tatsächlich nur geringe Ausfallzeiten verursacht.
 
 2. Sehen wir uns im Dashboard die Kachel **Gesamtzahl der Mängel, gesamte Ausfallzeiten in Minuten nach Materialart** an.
 
@@ -147,10 +147,10 @@ Der am besten verwaltete Materialtyp ist unabhängig von der Anzahl der Mängel 
 
    ![Q&A-Frage: Anzeigen von Materialtypen, Jahr und Gesamtdauer der Downtime in Minuten](media/sample-supplier-quality/supplier13.png)
 
-   Sie sehen, dass die Ausfallzeiten für Rohmaterialien 2013 und 2014 etwa gleich waren, obwohl es 2014 mehr Mängel bei Rohmaterialien gegeben hat. Es scheint, dass mehr Mängel bei Rohmaterialien im Jahr 2014 nicht zu viel mehr entsprechenden Ausfallzeiten geführt haben.
+   Sie sehen, dass die Ausfallzeiten für Rohmaterialien 2013 und 2014 etwa gleich waren, obwohl es 2014 mehr Mängel bei Rohmaterialien gegeben hat. Es scheint, dass mehr Mängel bei den Rohmaterialien im Jahr 2014 nicht zu deutlich höheren Ausfallzeiten geführt haben.
 
 ### <a name="compare-defects-to-downtime-month-to-month"></a>Mängel nach Ausfallzeit pro Monat vergleichen
-Sehen wir uns ein weiteres Dashboard-Kachel zur Gesamtzahl der Mängel an.  
+Sehen Sie sich eine weitere Dashboardkachel zur Gesamtzahl der Mängel an.  
 
 1. Wählen Sie **Q&A beenden** in der oberen linken Ecke aus, um zum Dashboard zurückzukehren.  
 
@@ -158,12 +158,12 @@ Sehen wir uns ein weiteres Dashboard-Kachel zur Gesamtzahl der Mängel an.
 
     ![Kachel „Gesamtanzahl der Mängel nach Monat, Jahr“](media/sample-supplier-quality/supplier14.png)  
 
-    Prüfen wir nun, ob durch den Anstieg der Mängel auch die Ausfallzeiten in Minuten angestiegen sind.  
+    Prüfen Sie nun, ob durch den Anstieg der Mängel auch die Ausfallzeiten in Minuten angestiegen sind.  
 2. Geben Sie in das Fragenfeld Folgendes ein: *Gesamtdauer der Downtime in Minuten nach Monat und Jahr als Liniendiagramm* (total downtime minutes by month and year as a line chart).  
 
    ![Q&A-Frage: Gesamtdauer der Downtime in Minuten nach Monat und Jahr als Liniendiagramm](media/sample-supplier-quality/supplier15.png)
 
-   Abgesehen von einem Sprung der Ausfallzeit im Juni und Oktober führte die Anzahl der Mängel nicht zu deutlich mehr Ausfallzeit. Dieses Ergebnis zeigt, dass wir Mängel gut im Griff haben.  
+   Abgesehen von einem Sprung der Ausfallzeiten im Juni und Oktober führte die Anzahl der Mängel nicht zu einer deutlich höheren Ausfallzeit. Dieses Ergebnis zeigt, dass Mängel gut bewältigt werden.  
 3. Um dieses Diagramm an Ihr Dashboard anzuheften, wählen Sie das Stecknadelsymbol ![Stecknadelsymbol](media/sample-supplier-quality/pin.png) über dem Fragenfeld aus.  
 4. Prüfen Sie zum Untersuchen der Monate mit Ausreißern die Ausfallzeiten in Minuten im Oktober nach Materialtyp, Werksstandort, Kategorie usw., indem Sie Fragen wie *Gesamte Downtime in Minuten im Oktober nach Werk* (total downtime minutes in October by plant) stellen. 
 5. Wählen Sie **Q&A beenden** in der oberen linken Ecke aus, um zum Dashboard zurückzukehren.

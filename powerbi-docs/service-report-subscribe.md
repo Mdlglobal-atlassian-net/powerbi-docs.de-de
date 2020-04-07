@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381029"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302746"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere
 
@@ -96,7 +96,7 @@ Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, der Besitzer das Dash
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtseite abonnieren und dann umbenennen, müssen Sie das Abonnement erneut erstellen.
 * Ihre Organisation kann möglicherweise bestimmte Einstellungen in Azure Active Directory konfigurieren, wodurch die Möglichkeit zur Verwendung von E-Mail-Abonnements in Power BI eingeschränkt werden kann.  Dies umfasst unter anderem das Vorhandensein von Einschränkungen durch mehrstufige Authentifizierung oder IP-Adressbereiche beim Zugriff auf Ressourcen.
 * Derzeit können Sie E-Mails zu Berichten bzw. Dashboards mit über eine Liveverbindung verwendeten Datasets nur für andere Benutzer als sich selbst abonnieren, wenn Sie einen paginierten Bericht verwenden, mit dem Sie das Abonnement unter Beachtung Ihres Sicherheitskontexts für andere abschließen können.
-* E-Mail-Abonnements bieten keine Unterstützung für die meisten [Power BI-Visuals](developer/visuals/power-bi-custom-visuals.md).  Die einzige Ausnahme sind Power BI-Visuals, die [zertifiziert](developer/visuals/power-bi-custom-visuals-certified.md) wurden.  
+* E-Mail-Abonnements unterstützen nur Standard- und [zertifizierte Power BI-Visuals](developer/visuals/power-bi-custom-visuals.md).  
 * E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte Power BI-Visuals.  
 * E-Mail-Abonnements werden mit Standardzuständen für Filter und Slicer des Berichts gesendet. Alle Änderungen der Standardwerte, die Sie nach dem Abonnieren vornehmen, werden nicht in der E-Mail angezeigt.  Paginierte Berichte unterstützen diese Funktion und ermöglichen es Ihnen, die spezifischen Parameterwerte für jedes Abonnement festzulegen.
 * Für Abonnements von Dashboards werden bestimmte Typen von Kacheln noch nicht unterstützt.  Dazu zählen Streamingkacheln, Videokacheln und benutzerdefinierte Kacheln mit Webinhalten.     

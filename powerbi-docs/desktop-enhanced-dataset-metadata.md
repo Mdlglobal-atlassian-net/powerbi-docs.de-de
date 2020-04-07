@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201399"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464636"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Verwenden erweiterter Dataset-Metadaten (Vorschauversion)
 
@@ -24,6 +24,8 @@ Mit der Veröffentlichung des Features für **erweiterte Dataset-Metadaten** wer
 
 
 Das Feature für **erweiterte Dataset-Metadaten** ist ein strategisches und grundlegendes Feature, da zukünftige Power BI-Funktionen auf den Metadaten aufbauen werden. Weitere Funktionen, die von erweiterten Dataset-Metadaten profitieren, sind z. B. [XMLA read/write](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) (XMLA Lesen/Schreiben) für die Verwaltung von Power BI-Datasets und die Migration von Analysis Services-Workloads zu Power BI, um von Features der nächsten Generation zu profitieren.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Aktivieren erweiterter Dataset-Metadaten
 
@@ -36,6 +38,9 @@ Sie werden dazu aufgefordert, Power BI Desktop neu zu starten.
 ![Aufforderung zum Neustarten](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 Sobald die Previewfunktion aktiviert ist, versucht Power BI Desktop, PBIX- und PBIT-Dateien, die das vorherige Metadatenformat verwenden, zu aktualisieren. 
+
+> [!IMPORTANT]
+> Wenn Sie die Funktion **Erweiterte Datasetmetadaten** aktivieren, kann das Upgrade der Berichte nicht mehr rückgängig gemacht werden. Alle Power BI-Berichte, die mit Power BI Desktop geladen oder erstellt wurden, werden nach Aktivierung der **erweiterten Datasetmetadaten** unumkehrbar in das erweiterte Metadatenformat konvertiert.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205295"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404167"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Beispiel zur Kundenrentabilität für Power BI: Übersicht
 
@@ -56,7 +56,7 @@ Alternativ können Sie das Beispiel zur Kundenrentabilität als [PBIX-Datei](htt
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529781) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529781) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Welche Erkenntnisse gewinnen wir über unser Dashboard?
 
@@ -87,7 +87,7 @@ Die Kacheln auf der rechten Seite des Dashboard zeigen eine Scorecard für das T
 Durch die Analyse der managerspezifischen Dashboardkacheln können folgende Beobachtungen aufgestellt werden:
 
 - Alle Führungskräfte, mit Ausnahme von Carlos, haben ihre Vertriebsziele bereits übertroffen. Carlos tatsächliche Verkaufszahlen sind jedoch die höchsten.
-- Der Bruttogewinn in % von Annelie ist am niedrigsten, aber es ist ein kontinuierlicher Anstieg seit März zu erkennen.
+- Annelies Bruttogewinn in % ist am niedrigsten, aber es ist ein kontinuierlicher Anstieg ab März zu erkennen.
 - Der Bruttogewinn in % von Valery ist dagegen erheblich gefallen.
 - Andrew hatte ein wechselhaftes Jahr.
 
@@ -133,22 +133,22 @@ Viele Kacheln im Dashboard „Customer Profitability Sample“ wurden aus dem zu
 ### <a name="team-scorecard-page"></a>Seite „Team-Scorecard“
 ![Berichtseite „Team-Scorecard“](media/sample-customer-profitability/customer2.png)
 
-Wir sehen uns nun zwei Teammitglieder genauer an und ermitteln, welche Erkenntnisse wir gewinnen können: 
+Wir sehen uns nun zwei Teammitglieder genauer an und versuchen, aus dem Vergleich Erkenntnisse zu gewinnen: 
 
 1. Wählen Sie links unter **Executive** Andrews Namen aus, um die Berichtsseite zu filtern und nur Daten für Andrew anzuzeigen:
 
-   * Werfen Sie einen Blick auf den KPI, indem Sie Andrews **Revenue Status (Total Year)** (Umsatzstatus (gesamtes Jahr)) ansehen: Dieser ist grün, er erzielt also gute Ergebnisse.
+   * An Andrews **Revenue Status (Total Year)** (Umsatzstatus (gesamtes Jahr)) im KPI wird deutlich: Dieser ist grün, er erzielt also gute Ergebnisse.
    * Im Diagramm **Revenue % Variance to Budget by Month and Executive** (Umsatzabweichung in Prozent vom Budget nach Monat und Führungskraft) ist zu sehen, dass Andrew bis auf einen Einbruch im Februar gute Ergebnisse erzielt. Andrews wichtigste Region ist „East“ (Osten), zu der 49 Kunden und fünf von sieben Produkten gehören. Andrews Bruttogewinn in Prozent ist weder der höchste noch der niedrigste.
    * Aus dem Diagramm **RevenueTY and Revenue % Var to Budget by Month** (Jahresumsatz und Umsatzabweichung in Prozent vom Budget nach Monat) ist ein stetiger, gleichmäßiger Gewinn zu erkennen. Wenn Sie jedoch nach dem Rechteck für **Central** in der Struktur für die Region filtern, stellen Sie fest, dass Andrew nur im März und nur in Indiana Umsatz macht. Ist dieser Trend beabsichtigt, oder sollten Sie das näher untersuchen?
 
-2. Jetzt machen wir mit Valery weiter. Wählen Sie unter **Executive** Valerys Namen aus, um die Berichtsseite zu filtern und nur Daten für Valery anzuzeigen. 
+2. Jetzt machen wir mit Valery weiter. Wählen Sie im Slicer **Executive** Valerys Namen aus, um die Berichtsseite so zu filtern, dass nur Daten für Valery angezeigt werden. 
 
    ![Valerys Daten](media/sample-customer-profitability/customer3.png)
 
    * Beachten Sie den roten KPI-Hinweis für **Revenue Status (Total Year)** . Dieses Element sollte auf jeden Fall näher untersucht werden.
    * Valerys Umsatzabweichung gibt ebenfalls Anlass zur Sorge, denn Valery erfüllt nicht die festgelegten Umsatzmargen.
    * Valery hat nur neun Kunden, bearbeitet nur zwei Produkte und arbeitet fast ausschließlich mit Kunden im Norden zusammen. Diese Spezialisierung könnte eine Erklärung für die großen Schwankungen in ihren Metriken sein.
-   * Wenn Sie das Rechteck **North** in der Strukturkarte auswählen, ist zu erkennen, dass der Bruttogewinn von Valery im Norden mit der Gesamtmarge konsistent ist.
+   * Wenn Sie das Rechteck **North** in der Strukturkarte auswählen, ist zu erkennen, dass Valerys Bruttogewinn im Norden mit der Gesamtmarge konsistent ist.
    * Wenn Sie die anderen Rechtecke unter **Total Revenue by Region** (Gesamtumsatz nach Region) auswählen, erhalten Sie interessante Erkenntnisse: Valerys Bruttogewinn in Prozent liegt zwischen 23 % und 79 %. Valerys Umsatzzahlen sind in allen Regionen außer dem Norden stark von der Saison abhängig.
 
 3. Untersuchen Sie die Daten weiter, um herauszufinden, warum in Valerys Zuständigkeitsbereich keine gute Leistung erzielt wird. Sehen Sie sich die Regionen, die anderen Geschäftseinheiten und die nächste Seite des folgenden Berichts an: **Industry Margin Analysis** (Analyse der Branchenmarge).
@@ -160,20 +160,20 @@ Auf dieser Berichtsseite wird ein anderes Segment der Daten bereitgestellt. Es g
 
 1. Inwiefern variiert die Rentabilität nach der Branche? Wie lassen sich die Produkte und Kunden nach Branche unterteilen? Diese Frage kann beantwortet werden, indem Sie eine oder mehrere Branchen im oberen linken Bereich auswählen. Beginnen Sie dabei mit der Branche „CPG“ (Consumer Packaged Goods, Verbrauchsgüter). Klicken Sie auf das Radierersymbol, um den Filter zu löschen.
 
-2. Im Blasendiagramm **Revenue Var % to Budget, GM%, and RevenueTY by Industry** (Umsatzabweichung in Prozent vom Budget, Bruttogewinn in Prozent und Jahresumsatz nach Branche) achtet ein CFO vor allem auf die größten Blasen, da diese sich am stärksten auf den Umsatz auswirken. Wenn Sie die Seite nach Managern filtern, indem Sie im Flächendiagramm auf den jeweiligen Namen klicken, können Sie die Auswirkungen der Manager nach Branchensegment sehen.
+2. Im Blasendiagramm **Revenue Var % to Budget, GM%, and RevenueTY by Industry** (Umsatzabweichung in Prozent vom Budget, Bruttogewinn in Prozent und Jahresumsatz nach Branche) achtet ein CFO vor allem auf die größten Blasen, da diese sich am stärksten auf den Umsatz auswirken. Filtern Sie die Seite nach Managern, um die Auswirkungen der einzelnen Manger nach Branchensegment anzuzeigen. Klicken Sie dazu im Flächendiagramm nacheinander auf den jeweiligen Namen.
 
 3. Beachten Sie Folgendes, wenn Sie die Manager nacheinander im Diagramm auswählen:
    * Der Einflussbereich von Andrew reicht über viele verschiedene Branchensegmente und weist starke Abweichungen beim Bruttogewinn in % (meist positiv) und bei der Abweichung in % auf.
    * Das Diagramm von Annelie ist ähnlich. Annelie deckt allerdings nur wenige Branchensegmente ab, und ihr Schwerpunkt liegt auf dem Segment „Federal“ (Behörden) und dem Produkt „Gladius“.
    * Bei Carlos liegt der Schwerpunkt eindeutig auf dem Segment „Services“ (Dienstleistungen), und der Gewinn ist gut. Carlos hat außerdem die Abweichung in Prozent für das Segment „High Tech“ (Hightech) stark verbessert und im neuen Segment „Industrial“ (Industrie) gegenüber dem Budget ein hervorragendes Ergebnis erzielt.
    * Tina bearbeitet eine Handvoll Segmente und verfügt über den höchsten Bruttogewinn in %, aber an den zumeist kleinen Blasen ist erkennbar, dass Tinas Beitrag zum Gesamtergebnis des Unternehmens sehr gering ist.
-   * Valery, die nur für ein Produkt verantwortlich ist, bearbeitet nur fünf Branchensegmente. Valerys Brancheneinfluss ist saisonabhängig, aber es ergibt sich immer eine große Blase. Dies deutet auf einen signifikanten Beitrag zum Gesamtergebnis des Unternehmens hin. Kann ihre negative Leistung anhand der Segmente für die Branche erklärt werden?
+   * Valery, die nur für ein Produkt verantwortlich ist, bearbeitet nur fünf Branchensegmente. Valerys Brancheneinfluss ist saisonabhängig, aber es ergibt sich immer eine große Blase. Dies deutet auf einen signifikanten Einfluss auf das Gesamtergebnis des Unternehmens hin. Kann ihre negative Leistung anhand der Segmente für die Branche erklärt werden?
 
 ### <a name="executive-scorecard"></a>Executive Scorecard
 Diese Seite verfügt über ein benutzerdefiniertes Seitenformat.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Näheres Untersuchen der Daten durch Stellen von Fragen mit Q&A
-Für die Analyse kann es hilfreich sein, zu ermitteln, in welcher Branche Valery den höchsten Umsatz erzielt. Hierfür verwenden wir Q&A.
+Für die Analyse kann es hilfreich sein, zu ermitteln, in welcher Branche Valery den höchsten Umsatz erzielt. Verwenden Sie hierfür Q&A.
 
 1. Wählen Sie **Bericht bearbeiten** aus, um den Bericht in der Bearbeitungsansicht zu öffnen. Sie können die Ansicht nur bearbeiten, wenn Sie der Besitzer des Berichts sind. Diese Ansicht wird auch als *Erstellermodus* bezeichnet. Wenn der Bericht jedoch nur für Sie freigegeben wurde, können Sie ihn nicht in der Bearbeitungsansicht öffnen.
 

@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488796"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302461"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aktualisieren von Daten in Power BI
 
@@ -92,7 +92,7 @@ Ein Power BI-Aktualisierungsvorgang kann aus mehreren Aktualisierungstypen beste
 
 #### <a name="data-refresh"></a>Datenaktualisierung
 
-Für Power BI-Benutzer bedeutet die Aktualisierung von Daten in der Regel den Import von Daten aus den ursprünglichen Datenquellen in ein Dataset, entweder basierend auf einem Aktualisierungszeitplan oder bedarfsgesteuert. Sie können mehrere tägliche Aktualisierungen des Datasets durchführen, was notwendig sein kann, wenn sich die zugrunde liegenden Quelldaten häufig ändern. Power BI begrenzt Datasets auf gemeinsam genutzter Kapazität auf acht tägliche Aktualisierungen. Wenn das Dataset sich auf einer Premium-Kapazität befindet, können Sie in den Dataseteinstellungen bis zu 48 Aktualisierungen pro Tag planen. Weitere Informationen finden Sie unter [Konfigurieren von geplanten Aktualisierungen](#configure-scheduled-refresh) weiter unten in diesem Artikel.
+Für Power BI-Benutzer bedeutet die Aktualisierung von Daten in der Regel den Import von Daten aus den ursprünglichen Datenquellen in ein Dataset, entweder basierend auf einem Aktualisierungszeitplan oder bedarfsgesteuert. Sie können mehrere tägliche Aktualisierungen des Datasets durchführen, was notwendig sein kann, wenn sich die zugrunde liegenden Quelldaten häufig ändern. Power BI begrenzt Datasets auf gemeinsam genutzter Kapazität auf acht tägliche Aktualisierungen. Wenn das Dataset sich auf einer Premium-Kapazität befindet, können Sie in den Dataseteinstellungen bis zu 48 Aktualisierungen pro Tag planen. Weitere Informationen finden Sie unter [Konfigurieren von geplanten Aktualisierungen](#configure-scheduled-refresh) weiter unten in diesem Artikel. Datasets in einer Premium-Kapazität, für die der [XMLA-Endpunkt](service-premium-connect-tools.md) für Lese-/Schreibvorgänge aktiviert wurde, unterstützen unbegrenzte Aktualisierungsvorgänge, wenn sie programmgesteuert mit TMSL oder PowerShell konfiguriert werden.
 
 Es ist auch wichtig, darauf hinzuweisen, dass die Beschränkung der gemeinsamen Kapazität für tägliche Aktualisierungen sowohl für geplante als auch für API-Aktualisierungen gilt. Sie können auch eine bedarfsgesteuerte Aktualisierung auslösen, indem Sie **Jetzt aktualisieren** im Datasetmenü auswählen, wie der folgende Screenshot zeigt. Bedarfsgesteuerte Aktualisierungen sind nicht in der Aktualisierungseinschränkung enthalten. Beachten Sie auch, dass Datasets in einer Premium-Kapazität keine Einschränkungen für API-Aktualisierungen enthalten. Wenn Sie daran interessiert sind, eine eigene Aktualisierungslösung mithilfe der Power BI-REST-API zu erstellen, lesen Sie [Datasets – Dataset aktualisieren](/rest/api/power-bi/datasets/refreshdataset).
 

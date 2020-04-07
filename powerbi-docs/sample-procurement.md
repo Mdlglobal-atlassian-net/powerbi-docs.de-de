@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873854"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404669"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Übersicht
 
-Das Beispielinhaltspaket Beschaffungsanalyse enthält ein Dashboard, einen Bericht und ein Dataset, die eine Analyse des Ausgabeverhaltens eines Fertigungsunternehmens für Lieferanten nach Kategorie und Standort darstellen. In diesem Beispiel untersuchen wir die folgenden Bereiche:
+Das Beispielinhaltspaket für die Beschaffungsanalyse enthält ein Dashboard, einen Bericht und ein Dataset, die eine Analyse des Ausgabeverhaltens eines Fertigungsunternehmens für Lieferanten nach Kategorie und Standort darstellen. In diesem Beispiel untersuchen wir die folgenden Bereiche:
 
 * Wer sind die Top-Lieferanten?
 * Für welche Kategorien geben wir am meisten aus?
@@ -61,11 +61,11 @@ Alternativ können Sie das Analysebeispiel für Beschaffung als [PBIX-Datei](htt
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529784) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529784) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 
 ## <a name="spending-trends"></a>Ausgabentrends
-Zuerst sehen wir uns Trends bei den Ausgaben nach Kategorie und Standort an.  
+Sehen Sie sich zunächst die Trends bei den Ausgaben nach Kategorie und Standort an.  
 
 1. Öffnen Sie in dem Arbeitsbereich, in dem Sie das Beispiel gespeichert haben, die Registerkarte **Dashboards**, suchen Sie das Dashboard **Beschaffungs-Analysebeispiel** , und wählen Sie es aus. 
 2. Wählen Sie die Dashboardkachel **Total Invoice by Country/Region** (Gesamtrechnung nach Land/Region) aus, wodurch die Seite **Ausgabenübersicht** des Berichts **Beschaffungs-Analysebeispiel** geöffnet wird.
@@ -80,7 +80,7 @@ Beachten Sie Folgendes:
 * Im Balkendiagramm **Total Invoice by Tier** (Gesamtrechnung nach Ebene) ist zu sehen, dass der größte Teil unseres Geschäfts mit unseren Lieferanten der 1. Ebene (Top 10) abgewickelt wird. Das ermöglicht uns die Pflege besserer Lieferantenbeziehungen.
 
 ## <a name="spending-in-mexico"></a>Ausgaben in Mexiko
-Sehen wir uns die Ausgabenbereiche für Mexiko an:
+Sehen Sie sich die Ausgabenbereiche für Mexiko an.
 
 1. Wählen Sie in der Karte **Gesamtrechnung nach Land/Region** die Blase **Mexiko** aus. Beachten Sie, dass im Säulendiagramm **Gesamtrechnung nach Unterkategorie** der größte Teil in der Unterkategorie **Indirekte Waren und Dienstleistungen** anfällt.
 
@@ -109,7 +109,7 @@ Wir können Hervorhebung verwenden, um verschiedene Städte auszuwerten.
    ![Stadt im Vergleich zu Rabattprozentsatz nach Ebene](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Lieferantenrabatte
-Wir sehen uns auch die Rabatte an, die von Lieferanten angeboten werden, und die Zeiträume, in denen wir die meisten Rabatte erhalten:
+Sehen Sie sich auch die von Lieferanten angebotenen Rabatte an sowie die Zeiträume, in denen die meisten Rabatte gelten:
 * Unterscheiden sich die Rabatte jeden Monat, oder bleiben sie gleich?
 * Werden in einigen Städten höhere Rabatte als in anderen eingeräumt?
 

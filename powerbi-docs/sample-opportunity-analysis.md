@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858705"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404145"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Verkaufschancen für Power BI: Übersicht
 
@@ -23,7 +23,7 @@ Das Beispielinhaltspaket zur Verkaufschancenanalyse enthält ein Dashboard, eine
 Dieses Beispiel baut auf zwei Kennzahlen für den Umsatz auf:
 
 * Umsatz: Die Umsatzschätzung eines Vertriebsmitarbeiters.
-* Umsatzfactoring: Wird als „Umsatz x Wahrscheinlichkeit in Prozent“ berechnet und im Allgemeinen als genauere Voraussage des tatsächlichen Umsatzes angesehen. Die Wahrscheinlichkeit wird über die aktuelle *Verkaufsphase* des Auftrags ermittelt:
+* Umsatzfactoring: Wird als „Umsatz x Wahrscheinlichkeit in Prozent“ berechnet und im Allgemeinen als genauere Voraussage des tatsächlichen Umsatzes angesehen. Die Wahrscheinlichkeit wird über die aktuelle *Vertriebsphase* des Auftrags ermittelt:
   * Lead: 10 %  
   * Qualifizieren: 20 %  
   * Lösung: 40 %  
@@ -66,7 +66,7 @@ Alternativ können Sie das Analysebeispiel für Verkaufschancen als [PBIX-Datei]
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529782) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529782) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Welche Erkenntnisse gewinnen wir über unser Dashboard?
 Unser Vertriebsleiter hat ein Dashboard erstellt, um die Metriken zu verfolgen, die für ihn am wichtigsten sind. Wenn er etwas Interessantes sieht, kann er eine Kachel auswählen, um einen genaueren Blick auf die Daten zu werfen:
@@ -122,7 +122,7 @@ Beachten Sie Folgendes:
 * Große Verkaufschancen kommen am häufigsten in der Region „Mitte“, kleine Verkaufschancen kommen am häufigsten in der Region „Osten“, und mittlere Verkaufschancen kommen am häufigsten in der Region „Westen“ vor.
 
 ### <a name="upcoming-opportunities-by-month-page"></a>Seite „Anstehende Verkaufschancen nach Monat“
-Für diese Seite suchen wir nach ähnlichen Faktoren, aber unter dem Gesichtspunkt von Datum und Uhrzeit. 
+Suchen Sie für diese Seite nach ähnlichen Faktoren, doch dieses Mal bezogen auf Datum und Uhrzeit. 
  
 ![Seite „Anstehende Verkaufschancen“](media/sample-opportunity-analysis/opportunity6.png)
 

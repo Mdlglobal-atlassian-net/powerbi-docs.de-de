@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79202020"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464692"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Neustarten einer Power BI Premium-Kapazität
 
@@ -30,7 +30,7 @@ Power BI verbessert kontinuierlich den Schutz von Benutzern der Premium-Kapazit
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Ist der Neustartprozess sicher? Gehen meine Daten verloren?
 
-Alle gespeicherten Daten, Definitionen, Berichte und Dashboards in Ihrer Kapazität bleiben nach dem Neustart vollständig intakt. Wenn Sie eine Kapazität neu starten, werden aktuell ausgeführte geplante und Ad-hoc-Aktualisierungen in den meisten Fällen vorübergehend vom Aktualisierungsmodul angehalten. Dann werden sie neu gestartet, basierend auf der in Power BI integrierten Logik für Aktualisierungs- bzw. RETRY-Vorgänge. Der Dienst versucht, alle betroffenen Aktualisierungen neu auszuführen, sobald die Kapazität wieder verfügbar ist. Während dem Neustartprozess ändert sich der Aktualisierungstatus auf der Benutzeroberfläche möglicherweise nicht. 
+Alle gespeicherten Daten, Definitionen, Berichte und Dashboards in Ihrer Kapazität bleiben nach dem Neustart vollständig intakt. Wenn Sie eine Kapazität neu starten, werden aktuell ausgeführte geplante und Ad-hoc-Aktualisierungen in den meisten Fällen vorübergehend von der Aktualisierungs-Engine angehalten. Dann werden sie neu gestartet, basierend auf der in Power BI integrierten Logik für Aktualisierungs- bzw. Wiederholungsvorgänge. Der Dienst versucht, alle betroffenen Aktualisierungen neu auszuführen, sobald die Kapazität wieder verfügbar ist. Während dem Neustartprozess ändert sich der Aktualisierungstatus auf der Benutzeroberfläche möglicherweise nicht. 
 
 Nicht gespeicherte von Benutzern vorgenommene Änderungen werden bei einem Neustartprozess nicht gespeichert. Benutzer sollten nach Abschluss des Neustarts ihren Browser aktualisieren.
 
@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um eine Kapazität neu zu starten.
 
 1. Navigieren Sie im Power BI-Verwaltungsportal auf der Registerkarte **Kapazitätseinstellungen** zu Ihrer Kapazität. 
 
-1. Fügen Sie das *Featureflag* **CapacityRestart** zu Ihrer Kapazitäts-URL hinzu: https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
+1. Fügen Sie das *Featureflag* **CapacityRestart** zu Ihrer Kapazitäts-URL hinzu: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. Wählen Sie unter **Erweiterte Einstellungen** > **CAPACITY RESTART** (Neustart der Kapazität) die Option **Restart capacity** (Kapazität neu starten) aus.
 

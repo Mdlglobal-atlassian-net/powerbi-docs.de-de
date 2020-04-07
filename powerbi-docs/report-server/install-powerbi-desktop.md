@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381121"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404180"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 
@@ -62,7 +62,7 @@ Zum Bearbeiten eines Power BI-Berichts auf dem Power BI-Berichtsserver oder Erst
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
-Power BI-Berichte in Power BI-Berichtsserver und im Power BI-Dienst (https://app.powerbi.com) sowie in den mobilen Power BI-Apps funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
+Power BI-Berichte funktionieren im Power BI-Berichtsserver, im Power BI-Dienst (`https://app.powerbi.com`) sowie in den mobilen Power BI-Apps fast identisch. Nur einige Funktionen unterscheiden sich.
 
 ### <a name="selecting-a-language"></a>Auswählen einer Sprache
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113736"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404835"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Unterstützte Datenquellen für paginierte Power BI-Berichte
 
@@ -32,7 +32,7 @@ Paginierte Berichte unterstützen nativ die folgende Liste von Datenquellen:
 | Premium-Power BI-Dataset (XMLA) | SSO |   |
 | Daten eingeben | N/V | Daten sind in Bericht eingebettet. |
 
-Mit Ausnahme von Azure SQL-Datenbank können alle Datenquellen verwendet werden, nachdem Sie den Bericht in den Power BI-Dienst hochgeladen haben. Bei den Datenquellen wird standardmäßig einmaliges Anmelden (Single Sign-on, SSO) verwendet, sofern zutreffend. Für Azure Analysis Services können Sie den Authentifizierungstyp in „OAuth2“ ändern.
+Mit Ausnahme von Azure SQL-Datenbank können alle Datenquellen verwendet werden, nachdem Sie den Bericht in den Power BI-Dienst hochgeladen haben. Bei den Datenquellen wird standardmäßig einmaliges Anmelden (Single Sign-on, SSO) verwendet, sofern zutreffend. Für Azure Analysis Services können Sie den Authentifizierungstyp in „OAuth2“ ändern. Wurde der Authentifizierungstyp für eine bestimmte Datenquelle jedoch in „OAuth2“ geändert, kann das einmalige Anmelden nicht mehr verwendet werden.  Diese Änderung gilt zudem für alle Berichte, die diese Datenquelle arbeitsbereichsübergreifend für einen bestimmten Mandanten verwenden.  In paginierten Berichten funktioniert die Sicherheit auf Zeilenebene erst dann, wenn Benutzer als Authentifizierungstyp SSO festlegen.
 
 Für Azure SQL-Datenbankdaten-Datenquellen müssen Sie weitere Informationen bereitstellen, wie im Abschnitt [Authentifizierung für Azure SQL-Datenbank](#azure-sql-database-authentication) beschrieben.
 

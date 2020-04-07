@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207480"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404708"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Übersicht
 
-Das Einzelhandels-Beispielinhaltspaket enthält ein Dashboard, einen Bericht und ein Dataset, das Einzelhandels-Vertriebsdaten von Artikeln analysiert, die in mehreren Geschäften und Bezirken verkauft wurden. Die Metriken vergleichen die Leistung dieses Jahres mit der des letzten Jahres: Umsatz, Einheiten, Bruttogewinn und Abweichung sowie Analyse neuer Filialen. 
+Das Einzelhandels-Beispielinhaltspaket enthält ein Dashboard, einen Bericht und ein Dataset, das Einzelhandels-Vertriebsdaten von Artikeln analysiert, die in mehreren Geschäften und Bezirken verkauft wurden. Die Metriken vergleichen die Leistung in diesem Jahr mit der des letzten Jahres hinsichtlich Umsatz, Einheiten, Bruttogewinn, Abweichung sowie Analyse neuer Filialen. 
 
 ![Dashboard zum Analysebeispiel für Einzelhandel](media/sample-retail-analysis/retail1.png)
 
@@ -57,7 +57,7 @@ Alternativ können Sie das Analysebeispiel für den Einzelhandel als [PBIX-Datei
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529778) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529778) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Starten auf dem Dashboard und Öffnen des Berichts
 
@@ -89,7 +89,7 @@ Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steh
    ![Umsätze dieses Jahr in Q&A](media/sample-retail-analysis/retail7.png)
 
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Überprüfen einer Kachel, die über Fragen und Antworten in Power BI erstellt wurde
-Gehen wir mehr ins Detail.
+Gehen Sie nun mehr ins Detail.
 
 1. Ändern Sie die Frage in _this year sales **by district**_ . Beobachten Sie das Ergebnis: Q&A platziert die Antwort automatisch in einem Balkendiagramm, und es werden andere Formulierungen vorgeschlagen:
 
@@ -98,7 +98,7 @@ Gehen wir mehr ins Detail.
 
    Beachten Sie, wie Power BI die Frage während Ihrer Eingabe beantwortet und das passende Diagramm anzeigt.
 3. Experimentieren Sie ein bisschen mit weiteren Fragen, und sehen Sie sich die erzielten Ergebnisse an.
-4. Wenn Sie soweit sind, kehren Sie zum Dashboard zurück.
+4. Kehren Sie anschließend zum Dashboard zurück.
 
 ## <a name="dive-deeper-into-the-data"></a>Eingehendere Untersuchung der Daten
 Führen wir unsere Untersuchung auf einer Ebene mit mehr Details fort, indem wir die Leistung der einzelnen Regionen ansehen.
@@ -111,7 +111,7 @@ Führen wir unsere Untersuchung auf einer Ebene mit mehr Details fort, indem wir
 
    ![Diagramm „Total Sales Variance % by Fiscal Month“](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
-   Sehen wir uns einmal an, ob wir die Probleme eingrenzen können.
+   Versuchen Sie, die Probleme einzugrenzen.
 2. Wählen Sie im Blasendiagramm die Blase **020-Mens** (020–Herren) aus.
 
    ![020-Mens auswählen](media/sample-retail-analysis/retail11.png)  
@@ -125,18 +125,18 @@ Führen wir unsere Untersuchung auf einer Ebene mit mehr Details fort, indem wir
 1. Wählen Sie die Blase erneut aus, um den Filter zu löschen.
 
 ## <a name="try-out-the-slicer"></a>Testen des Datenschnitts
-Betrachten wir, wie sich einzelne Regionen entwickelt haben.
+Überprüfen Sie, wie sich einzelne Bezirke entwickelt haben.
 
 1. Wählen Sie **Allan Guinot** im Datenschnitt **District Manager** (Bezirksmanager) oben links aus.
 
    ![Allan Guinot auswählen](media/sample-retail-analysis/retail13.png)
 
-   Beachten Sie, dass Allans Bezirk letztes Jahr in März und Juni im Vergleich zum Vorjahr outperformt hat.
+   Beachten Sie, dass Allans Bezirk im März und Juni im Vergleich zum Vorjahr eine deutlich bessere Leistung erzielt hat.
 2. Wählen Sie bei immer noch bestehender Auswahl **Allan Guinot** die Blase **Womens-10** im Blasendiagramm aus.
 
    ![Allan Guinot und Damen–10 ausgewählt](media/sample-retail-analysis/power-bi-allan.png)
 
-   Beachten Sie, dass für die Kategorie Womens-10 Allans Bezirk das Volumen des Vorjahres nicht erreicht hat.
+   Beachten Sie, dass Allans Bezirk in der Kategorie „Womens-10“ das Volumen des Vorjahres nicht erreicht hat.
 3. Untersuchen Sie die anderen Bezirksmanager und Kategorien – welche weiteren Erkenntnisse können Sie finden?
 4. Wenn Sie bereit sind, kehren Sie zum Dashboard zurück.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527620"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361789"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Inkrementelle Aktualisierung in Power BI
 
@@ -66,7 +66,7 @@ Wählen Sie im Power Query-Editor **Schließen und übernehmen** aus. Eine Teilm
 
 #### <a name="filter-date-column-updates"></a>Filtern von Updates der Datumsspalte
 
-Der Filter für die Datumsspalte wird verwendet, um die Daten im Power BI-Dienst dynamisch in Bereiche zu partitionieren. Die inkrementelle Aktualisierung ist nicht für die Unterstützung in Fällen vorgesehen, in denen die gefilterte Datenspalte im Quellsystem aktualisiert wird. Eine Aktualisierung wird als Einfüge- und Löschvorgang interpretiert, nicht als eigentliche Aktualisierung. Wenn der Löschvorgang im historischen Bereich und nicht im inkrementellen Bereich erfolgt, wird er nicht berücksichtigt. Das kann zu Fehlern bei der Datenaktualisierung führen, die durch Konflikte bei Partitionsschlüssel entstehen.
+Der Filter für die Datumsspalte wird verwendet, um die Daten im Power BI-Dienst dynamisch in Bereiche zu partitionieren. Die inkrementelle Aktualisierung ist nicht für die Unterstützung in Fällen vorgesehen, in denen die gefilterte Datenspalte im Quellsystem aktualisiert wird. Eine Aktualisierung wird als Einfüge- und Löschvorgang interpretiert, nicht als eigentliche Aktualisierung. Erfolgt der Löschvorgang im historischen und nicht im inkrementellen Bereich, wird er nicht berücksichtigt. Das kann zu Fehlern bei der Datenaktualisierung führen, die durch Konflikte bei Partitionsschlüssel entstehen.
 
 #### <a name="query-folding"></a>Abfragefaltung
 
@@ -136,7 +136,7 @@ Eine inkrementelle Aktualisierung der Daten von zehn Tagen ist effizienter als e
 >
 > Reduzieren Sie die Genauigkeit auf ein Niveau, das angesichts Ihrer Anforderungen an die Aktualisierungsfrequenz vertretbar ist.
 >
-> Wir planen, die Definition benutzerdefinierter Abfragen zur Erkennung von Datenänderungen zu einem späteren Zeitpunkt zu ermöglichen. Dies könnte dazu dienen, das Beibehalten des Spaltenwerts ganz zu vermeiden.
+> Definieren Sie eine benutzerdefinierte Abfrage zum Erkennen von Datenänderungen, indem Sie den XMLA-Endpunkt verwenden. So vermeiden Sie die vollständige Beibehaltung des Spaltenwerts. Weitere Informationen finden Sie weiter unten im Abschnitt „Benutzerdefinierte Abfragen zum Erkennen von Datenänderungen“.
 
 #### <a name="only-refresh-complete-periods"></a>Nur vollständige Zeiträume aktualisieren
 
@@ -155,7 +155,7 @@ Sie können das Modell nun aktualisieren. Die erste Aktualisierung kann aufgrund
 
 ## <a name="query-timeouts"></a>Zeitüberschreitungen bei Abfragen
 
-Im Artikel [Problembehandlung bei Aktualisierungsszenarios](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) wird erklärt, dass es bei Aktualisierungsvorgängen im Power BI-Dienst zu Zeitüberschreitungen kommt. Abfragen können auch durch die standardmäßige Zeitüberschreitung für die Datenquelle eingeschränkt werden. Die meisten relationalen Datenquellen erlauben das Überschreiben von Zeitüberschreitungen im Ausdruck „M“. Zum Beispiel wird im folgenden Ausdruck die [SQL Server-Datenzugriffsfunktion](https://msdn.microsoft.com/query-bi/m/sql-database) verwendet, um sie auf 2 Stunden festzulegen. Jeder durch die Richtlinienbereiche definierte Zeitraum sendet eine Abfrage unter Einhaltung der Einstellung für die Befehlszeitüberschreitung.
+Im Artikel [Problembehandlung bei Aktualisierungsszenarios](refresh-troubleshooting-refresh-scenarios.md) wird erklärt, dass es bei Aktualisierungsvorgängen im Power BI-Dienst zu Zeitüberschreitungen kommt. Abfragen können auch durch die standardmäßige Zeitüberschreitung für die Datenquelle eingeschränkt werden. Die meisten relationalen Datenquellen erlauben das Überschreiben von Zeitüberschreitungen im Ausdruck „M“. Zum Beispiel wird im folgenden Ausdruck die [SQL Server-Datenzugriffsfunktion](https://docs.microsoft.com/powerquery-m/sql-database) verwendet, um sie auf 2 Stunden festzulegen. Jeder durch die Richtlinienbereiche definierte Zeitraum sendet eine Abfrage unter Einhaltung der Einstellung für die Befehlszeitüberschreitung.
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>Einschränkungen
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>Vorteile von XMLA-Endpunkten für die inkrementelle Aktualisierung
 
-Die inkrementelle Aktualisierung für [zusammengesetzte Modelle](desktop-composite-models.md) wird derzeit nur für SQL Server-, Azure SQL-Datenbank, SQL Data Warehouse, Oracle- und Teradata-Datenquellen unterstützt.
+Der [XMLA-Endpunkt](service-premium-connect-tools.md) für Datasets in einer Premium-Kapazität kann für Lese-/Schreibvorgänge aktiviert werden, was zu erheblichen Vorteilen bei der inkrementellen Aktualisierung führen kann. Aktualisierungsvorgänge über den XMLA-Endpunkt sind nicht auf [48 Aktualisierungen pro Tag](refresh-data.md#data-refresh) beschränkt. Außerdem gilt der [Timeout für geplante Aktualisierungen](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) nicht, was in Szenarios mit inkrementeller Aktualisierung hilfreich sein kann.
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>Aktualisieren der Verwaltung mit SQL Server Management Studio
+
+Wurde der XMLA-Endpunkt für Lese-/Schreibvorgänge aktiviert, können Sie mit SQL Server Management Studio (SSMS) die Partitionen anzeigen und verwalten, die durch die Anwendung von Richtlinien für die inkrementelle Aktualisierung generiert wurden.
+
+![Partitionen in SSMS](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>Aktualisieren von historischen Partitionen
+
+So können Sie beispielsweise eine bestimmte historische Partition außerhalb des inkrementellen Bereichs aktualisieren, um eine rückwirkende Aktualisierung ohne gleichzeitige Aktualisierung aller Verlaufsdaten auszuführen.
+
+#### <a name="override-incremental-refresh-behavior"></a>Überschreiben des Verhaltens bei der inkrementellen Aktualisierung
+
+Mit SSMS können Sie den Aufruf inkrementeller Aktualisierungen mithilfe der [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) und des [Tabellenobjektmodells (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) auch besser kontrollieren. Klicken Sie beispielsweise in SSMS im Objekt-Explorer mit der rechten Maustaste auf eine Tabelle, und wählen Sie anschließend die Menüoption **Tabelle verarbeiten** aus. Klicken Sie auf die Schaltfläche **Skript**, um einen TMSL-Refresh-Befehl zu generieren.
+
+![Schaltfläche „Skript“ im Dialogfeld „Tabelle verarbeiten“](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+Sie können die folgenden Parameter in den TMSL-Refresh-Befehl einfügen, um das Standardverhalten bei der inkrementellen Aktualisierung zu überschreiben.
+
+- **applyRefreshPolicy**: Wurde für eine Tabelle eine Richtlinie für die inkrementelle Aktualisierung definiert, wird mit „applyRefreshPolicy“ festgelegt, ob die Richtlinie angewendet wird. Wird die Richtlinie nicht angewendet, bleiben bei einem vollständigen Verarbeitungsvorgang die Partitionsdefinitionen unverändert, und alle Partitionen in der Tabelle werden vollständig aktualisiert. Der Standardwert ist true.
+
+- **effectiveDate**: Wird eine Richtlinie für die inkrementelle Aktualisierung angewendet, muss das aktuelle Datum bekannt sein, damit Gleitfensterbereiche für den historischen und den inkrementellen Bereich bestimmt werden können. Mit dem Parameter „effectiveDate“ können Sie das aktuelle Datum überschreiben. Dies ist nützlich für Tests, Demos und Geschäftsszenarios, in denen Daten inkrementell bis zu einem Datum in der Vergangenheit oder in der Zukunft aktualisiert werden (z. B. für künftige Budgets). Der Standardwert ist das [aktuelle Datum](#current-date).
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>Benutzerdefinierte Abfragen zum Erkennen von Datenänderungen
+
+Mit TMSL und/oder TOM können Sie ein erkanntes Datenänderungsverhalten überschreiben. Damit können Sie etwa vermeiden, dass die Spalte „Letzte Aktualisierung“ im In-Memory-Cache beibehalten wird. Des Weiteren werden Szenarios ermöglicht, in denen mit ETL-Vorgängen eine Konfigurations-/Anweisungstabelle vorbereitet wird, durch die nur diejenigen Partitionen gekennzeichnet werden, die aktualisiert werden müssen. Dies ermöglicht einen effizienteren Ablauf der inkrementellen Aktualisierung, da nur die benötigten Zeiträume aktualisiert werden, unabhängig vom Zeitpunkt der zuletzt durchgeführten Datenaktualisierung.
+
+Der Parameter „pollingExpression“ soll als einfacher M-Ausdruck oder Name einer anderen M-Abfrage dienen. Er gibt einen Skalarwert zurück und wird für jede Partition ausgeführt. Unterscheidet sich der zurückgegebene Wert vom Wert der letzten inkrementellen Aktualisierung, wird die Partition für eine vollständige Verarbeitung gekennzeichnet.
+
+Das folgende Beispiel umfasst alle 120 Monate des historischen Bereichs für rückwirkende Änderungen. Durch die Angabe von 120 Monaten anstelle von 10 Jahren ist die Datenkomprimierung möglicherweise weniger effizient. Doch damit wird verhindert, dass ein gesamtes historisches Jahr aktualisiert werden muss, was teurer wäre, wenn auch ein Monat für eine rückwirkende Änderung ausreichend wäre.
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>Reine Metadatenbereitstellung
+
+Wenn Sie eine neue Version einer PBIX-Datei aus Power BI Desktop in einem Arbeitsbereich im Power BI-Dienst veröffentlichen und ein Dataset mit demselben Namen bereits vorhanden ist, werden Sie dazu aufgefordert, das vorhandene Dataset zu ersetzen.
+
+![Aufforderung zum Ersetzen des Datasets](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+In einigen Fällen möchten Sie das Dataset eventuell nicht ersetzen, insbesondere bei der inkrementellen Aktualisierung. Das Dataset in Power BI Desktop könnte viel kleiner sein als das Dataset im Power BI-Dienst. Gilt für das Dataset im Power BI-Dienst eine Richtlinie für die inkrementelle Aktualisierung, enthält es möglicherweise mehrere Jahre zurückreichende Verlaufsdaten, die beim Ersetzen des Datasets verloren gingen. Das Aktualisieren aller Verlaufsdaten könnte Stunden dauern und zu Systemausfallzeiten beim Benutzer führen.
+
+Besser geeignet ist in solchen Fällen eine reine Metadatenbereitstellung. Damit können neue Objekte bereitgestellt werden, ohne die Verlaufsdaten zu verlieren. Wenn Sie beispielsweise einige Measures hinzugefügt haben, können Sie nur diese bereitstellen, ohne gleichzeitig die Daten zu aktualisieren. So sparen Sie eine Menge Zeit.
+
+Wurde der XMLA-Endpunkt für Lese-/Schreibvorgänge konfiguriert, ist er kompatibel mit Tools für eben diese Vorgänge. Das ALM-Toolkit ist beispielsweise ein Schemavergleichstool für Power BI-Datasets, das für eine reine Metadatenbereitstellung verwendet werden kann.
+
+Laden Sie die neueste Version des ALM-Toolkits aus dem [Analysis Services-Git-Repository](https://github.com/microsoft/Analysis-Services/releases) herunter, und installieren Sie diese. Dokumentationslinks und Informationen zur Unterstützung finden Sie über das Menüband „Hilfe“. Führen Sie für eine reine Metadatenbereitstellung einen Vergleich aus. Wählen Sie dabei die aktuell ausgeführte Instanz von Power BI Desktop als Quelle und das vorhandene Dataset im Power BI-Dienst als Ziel aus. Sehen Sie sich die angezeigten Unterschiede an. Überspringen Sie die Aktualisierung der Tabelle mit Partitionen für die inkrementelle Aktualisierung, oder behalten Sie Partitionen zur Tabellenaktualisierung mithilfe des Dialogfelds „Optionen“ bei. Überprüfen Sie die Auswahl, um die Integrität des Zielmodells sicherzustellen. Führen Sie anschließend die Aktualisierung aus.
+
+![ALM-Toolkit](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>Siehe auch
+
+[Konnektivität mit Datasets mithilfe des XMLA-Endpunkts](service-premium-connect-tools.md)   
+[Problembehandlung bei Aktualisierungsszenarios](refresh-troubleshooting-refresh-scenarios.md)   

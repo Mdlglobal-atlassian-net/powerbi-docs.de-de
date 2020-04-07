@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383503"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464582"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Visuals für Organisationen in Power BI
 
@@ -35,7 +35,7 @@ Weitere Informationen zur Verwendung von Power BI-Visuals für Organisationen in
 Weitere Informationen über die Verwaltung und Bereitstellung von Power BI-Visuals für Organisationen finden Sie im folgenden Artikel: [Weitere Informationen zu Bereitstellung und Verwaltung von Power BI-Visuals für Organisationen](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle eines benutzerdefinierten Visuals vertrauen können, bevor Sie dieses für das Repository der Organisation bereitstellen.
+> Ein Power BI-Visual, das aus einer Datei installiert wurde, kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Vergewissern Sie sich, dass Sie dem Autor und der Quelle der Power BI-Visualdatei vertrauen können, bevor Sie diese im Repository der Organisation bereitstellen.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
@@ -45,7 +45,9 @@ Administrator:
 
 * Veraltete Power BI-Visuals (z. B. Power BI-Visuals, die nicht mit den neuen API-Versionen erstellt wurden) werden nicht unterstützt.
 
-* Wenn ein benutzerdefiniertes Visual aus dem Repository gelöscht wird, wird das Rendern aller vorhandenen Berichte beendet, die das gelöschte Visual verwenden. Das Löschen des Visuals aus dem Repository kann nicht rückgängig gemacht werden. Um ein benutzerdefiniertes Visual vorübergehend zu deaktivieren, verwenden Sie die Funktion „Deaktivieren“.
+* Wenn ein Power BI-Visual aus ApSource oder einer Datei aus dem Repository gelöscht wird, wird das Rendern aller vorhandenen Berichte beendet, die das gelöschte Visual verwenden. Das Löschen aus dem Repository kann nicht rückgängig gemacht werden. Verwenden Sie die Funktion „Deaktivieren“, um ein Power BI-Visual aus ApSource oder einer Datei vorübergehend zu deaktivieren.
+
+* Power BI-Organisationsvisuals werden im Power BI-Berichtsserver nicht unterstützt.
 
 Benutzer:
 

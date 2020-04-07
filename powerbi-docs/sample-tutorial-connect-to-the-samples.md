@@ -1,37 +1,37 @@
 ---
-title: Herstellen einer Verbindung mit Beispielen im Power BI-Dienst
-description: Erfahren Sie, wie Sie Beispiele im Power BI-Dienst installieren und durchsuchen.
+title: Kennenlernen des Analysebeispiels für den Einzelhandel
+description: Hier erhalten Sie Informationen über das Analysebeispiel für den Einzelhandel und erfahren, wie Sie es im Power BI-Dienst und in Power BI Desktop installieren.
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762161"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404611"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>Importieren und Öffnen von Beispielpaketen für Power BI
+# <a name="explore-the-retail-analysis-sample"></a>Kennenlernen des Analysebeispiels für den Einzelhandel
 
 In diesem Tutorial wird Folgendes gezeigt: 
-- Importieren eines Beispielinhaltspakets, Hinzufügen des Pakets zum Power BI-Dienst und Öffnen der Inhalte. Ein *Inhaltspaket* ist ein Beispieltyp, in dem das Dataset mit einem Dashboard und einem Bericht gebündelt ist. 
-- Öffnen einer PBIX-Beispieldatei in Power BI Desktop.
+- Importieren des Beispielinhaltspakets für die Einzelhandelsanalyse, Hinzufügen des Pakets zum Power BI-Dienst und Öffnen des Inhalts. Ein *Inhaltspaket* ist ein Beispieltyp, in dem das Dataset mit einem Dashboard und einem Bericht gebündelt ist. 
+- Öffnen der PBIX-Datei mit dem Analysebeispiel für den Einzelhandel in Power BI Desktop.
 
 Wenn Sie weitere Hintergrundinformationen wünschen, lesen Sie [Welche Beispieldaten sind für die Verwendung mit Power BI verfügbar?](sample-datasets.md). In diesem Artikel erfahren Sie alles über die Beispiele: wie Sie sie erhalten, wo Sie sie speichern und wie Sie sie verwenden, sowie einige der Geschichten, die jedes Beispiel erzählen kann. 
 
 ## <a name="prerequisites"></a>Voraussetzungen
-Die Beispiele sind für den Power BI-Dienst und für Power BI Desktop verfügbar. Wir verwenden das Analysebeispiel für den Einzelhandel.
+Die Beispiele sind für den Power BI-Dienst und für Power BI Desktop verfügbar. In diesem Tutorial wird das Analysebeispiel für den Einzelhandel verwendet.
 
 Das in diesem Tutorial verwendete Beispielinhaltspaket zur *Einzelhandelsanalyse* besteht aus einem Dashboard, einem Bericht und einem Dataset.
 Um sich mit diesem bestimmten Inhaltspaket und dessen Szenario vertraut zu machen, lesen Sie [Analysebeispiel für Einzelhandel für Power BI: Übersicht](sample-retail-analysis.md), bevor Sie beginnen.
 
-## <a name="samples-in-the-power-bi-service"></a>Beispiele im Power BI-Dienst
+## <a name="import-the-sample-in-the-power-bi-service"></a>Importieren des Beispiels in den Power BI-Dienst
 
 1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), melden Sie sich an, und öffnen Sie den Arbeitsbereich, in dem Sie das Beispiel speichern möchten. 
 
@@ -94,7 +94,7 @@ Untersuchen Sie jetzt selbstständig das Dashboard, das Dataset und den Bericht.
      
     ![Bericht zu Erkenntnissen](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Beispiele in Power BI Desktop 
+## <a name="download-the-sample-in-power-bi-desktop"></a>Herunterladen des Beispiels in Power BI Desktop 
 Wenn Sie die PBIX-Beispieldatei zum ersten Mal in Power BI Desktop öffnen, wird sie in der Berichtsansicht angezeigt, in der Sie beliebig viele Berichtsseiten mit Visualisierungen erkunden, erstellen und bearbeiten können. Die Berichtsansicht bietet nahezu den gleichen Funktionsumfang wie die Bearbeitungsansicht für Berichte im Power BI-Dienst. Sie können Visualisierungen verschieben, kopieren, einfügen, zusammenführen usw. 
 
 Anders als Bearbeiten eines Berichts im Power BI-Dienst können Sie in Power BI Desktop auch mit Abfragen arbeiten und Daten modellieren, sodass Sie sicherstellen können, dass die Daten in Ihren Berichten optimale Einblicke bieten. Sie können die Power BI Desktop-Datei dann jederzeit entweder auf Ihrem lokalen Laufwerk oder in der Cloud speichern.
@@ -119,7 +119,7 @@ Wenn Sie eine PBIX-Beispieldatei herunterladen, wird nicht nur ein Bericht, sond
 
     In der Datenansicht können Sie Daten im Power BI Desktop-Modell überprüfen, untersuchen und verstehen. Die Ansicht unterscheidet sich davon, wie Sie Tabellen, Spalten und Daten im Abfrage-Editor anzeigen. Die Daten in der Datenansicht sind bereits in das Modell geladen.
 
-    Wenn Sie Ihre Daten modellieren, möchten Sie möglicherweise gelegentlich sehen, was tatsächlich in den Zeilen und Spalten einer Tabelle vorhanden ist, ohne ein visuelles Element auf dem Berichtszeichenbereich erstellen zu müssen. Dies ist besonders dann der Fall, wenn Sie Measures und berechnete Spalten erstellen oder einen Datentyp oder die Datenkategorie identifizieren müssen.
+    Beim Modellieren der Daten möchten Sie möglicherweise sehen, welcher Inhalt in den Zeilen und Spalten einer Tabelle tatsächlich vorhanden ist, ohne im Berichtszeichenbereich ein Visual erstellen zu müssen. Dies gilt insbesondere dann, wenn Sie Measures und berechnete Spalten erstellen oder einen Datentyp/eine Datenkategorie identifizieren müssen.
 
 1. Wechseln Sie zur [Beziehungsansicht](desktop-relationship-view.md), indem Sie das folgende Symbol auswählen: ![Symbol für Beziehungsansicht](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
  

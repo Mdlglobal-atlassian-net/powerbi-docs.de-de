@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873903"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404701"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für IT-Investitionen für Power BI: Übersicht
 
@@ -57,10 +57,10 @@ Alternativ können Sie das Analysebeispiel für IT-Ausgaben als [PBIX-Datei](htt
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529783) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Anzeigen der Excel-Beispiele in Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [Excel-Arbeitsmappe](https://go.microsoft.com/fwlink/?LinkId=529783) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Aktivieren Sie die Add-Ins für die Datenanalyse, um die Rohdaten anzuzeigen, und klicken Sie dann auf **Power Pivot > Verwalten**. Weitere Informationen zum Aktivieren der Add-Ins für Power View und Power Pivot finden Sie unter [Kennenlernen der Excel-Beispiele in Excel](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard zum Analysebeispiel für IT-Ausgaben
-Die beiden numerischen Kacheln links auf dem Dashboard, **Planabweichung in Prozent** und **Abweichung, aktuelle Schätzung 3, Prozent**, geben uns einen Überblick darüber, wie wir uns im Vergleich zum Plan und zur Schätzung des letzten Quartals (LE3 = Latest Estimate Quarter 3) geschlagen haben. Insgesamt liegen wir etwa 6% neben dem Plan. Betrachten wir die Ursache für diese Abweichung: Wann, wo und in welcher Kategorie?
+Die beiden numerischen Kacheln links auf dem Dashboard, **Planabweichung in Prozent** und **Abweichung, aktuelle Schätzung 3, Prozent**, geben uns einen Überblick darüber, wie wir uns im Vergleich zum Plan und zur Schätzung des letzten Quartals (LE3 = Latest Estimate Quarter 3) geschlagen haben. Insgesamt liegen wir etwa 6% neben dem Plan. Suchen Sie nach der Ursache für diese Abweichung: Wann, wo und in welcher Kategorie kommt es zu Abweichungen?
 
 ## <a name="ytd-it-spend-trend-analysis-page"></a>Seite „YTD IT Spend Trend Analysis“ (Analyse des IT-Ausgabentrends seit Jahresbeginn)
 Wenn Sie die Kachel **Var Plan % by Sales Region** (Planabweichung % nach Verkaufsregion) im Dashboard auswählen, gelangen Sie zur Seite **YTD IT Spend Trend Analysis** (Analyse des IT-Ausgabentrends seit Jahresbeginn) des Berichts Analysebeispiel für IT-Ausgaben. Wir sehen auf einen Blick, dass wir eine positive Abweichung in den USA und Europa und eine negative Abweichung in Kanada, Lateinamerika und Australien haben. Die USA hatten etwa 6% +LE-Abweichung und Australien etwa 7% -LE-Abweichung.
@@ -74,7 +74,7 @@ Aber Schlüsse nur aus einem Blick auf dieses Diagramm zu ziehen, kann in die Ir
    ![Seite „YTD IT Spend Trend Analysis“ (Analyse des IT-Ausgabentrends seit Jahresbeginn)](media/sample-it-spend/it3.png)
 2. Wählen Sie jetzt **USA**aus. Beachten Sie, dass Australien und Neuseeland im Vergleich zu den USA einen sehr kleinen Teil unserer Gesamtausgaben ausmachen.
 
-    Nun untersuchen wir, welche Kategorie in den USA die Abweichung verursacht.
+    Finden Sie nun heraus, welche Kategorie in den USA die Abweichung verursacht.
 
 ## <a name="ask-questions-of-the-data"></a>Fragen an die Daten stellen
 1. Wählen Sie im oberen Navigationsbereich **Analysebeispiel für IT-Ausgaben** aus, um zum Beispieldashboard zurückzukehren.

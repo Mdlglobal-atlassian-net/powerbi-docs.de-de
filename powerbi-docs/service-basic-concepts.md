@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207917"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404065"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Grundlegende Konzepte für Designer im Power BI-Dienst
 
 Dieser Artikel soll Ihnen die Orientierung im Power BI-Dienst erleichtern: Was sind die verschiedenen Elemente, wie arbeiten sie zusammen und wie können Sie mit ihnen arbeiten. Sie profitieren mehr davon, wenn Sie sich bereits [für den Power BI-Dienst registriert](service-self-service-signup-for-power-bi.md) und [Daten hinzugefügt](service-get-data.md) haben. Als Entwerfer beginnt Ihr normaler Workflow üblicherweise mit dem Erstellen von Berichten in Power BI Desktop. Anschließend veröffentlichen Sie sie im Power BI-Dienst, wo Sie sie weiter bearbeiten können. Auf der Grundlage Ihrer Berichte erstellen Sie außerdem die Dashboards im Power BI-Dienst. 
 
-Wenn Sie noch nicht über eigene Berichte verfügen, installieren Sie für die Zwecke dieses Artikels ein [Power BI-Beispielinhaltspaket](sample-datasets.md#the-power-bi-samples-as-content-packs).
+Wenn Sie noch nicht über eigene Berichte verfügen, installieren Sie für die Zwecke dieses Artikels eines der [Power BI-Beispiele](sample-datasets.md).
 
 ![Startbildschirm des Power BI-Diensts in einem Browser](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -76,7 +76,7 @@ Sie können keine Dashboards oder Berichte ohne Daten erstellen. Zwar können le
 ## <a name="datasets"></a>Datasets
 Ein *Dataset* ist eine Sammlung von Daten, die Sie *importieren* oder mit denen Sie eine *Verbindung herstellen*. In Power BI können Sie Verbindungen mit allen Arten von Datasets herstellen, sie importieren und zentral anordnen. Datasets können auch Daten aus Dataflows entnehmen.
 
-Datasets sind *Arbeitsbereichen* zugeordnet, und ein einzelnes Dataset kann Teil mehrerer Arbeitsbereiche sein. Wenn Sie einen Arbeitsbereich öffnen, werden die zugeordneten Datasets auf der Registerkarte **Datasets** aufgeführt. Jedes aufgelistete Dataset stellt eine einzelne Datenquelle dar, z. B. eine Excel-Arbeitsmappe auf OneDrive oder ein lokales tabellarisches SSAS-Dataset oder ein Salesforce-Dataset. Es werden viele verschiedene Datenquellen unterstützt, zu denen beständig neue Datenquellen hinzugefügt werden. Mehr dazu finden Sie in der Liste der [Datasettypen, die mit Power BI verwendet werden können](service-get-data.md).
+Datasets sind *Arbeitsbereichen* zugeordnet, und ein einzelnes Dataset kann Teil mehrerer Arbeitsbereiche sein. Wenn Sie einen Arbeitsbereich öffnen, werden die zugeordneten Datasets auf der Registerkarte **Datasets** aufgeführt. Jedes aufgelistete Dataset stellt eine einzelne Datenquelle dar, z. B. eine Excel-Arbeitsmappe auf OneDrive oder ein lokales tabellarisches SSAS-Dataset oder ein Salesforce-Dataset. Es werden viele verschiedene Datenquellen unterstützt, zu denen ständig neue hinzukommen. Mehr dazu finden Sie in der Liste der [Datasettypen, die mit Power BI verwendet werden können](service-get-data.md).
 
 Im folgenden Beispiel ist der Arbeitsbereich „Vertrieb und Marketing“ ausgewählt, und es wurde auf die Registerkarte **Datasets** geklickt.
 
@@ -165,7 +165,7 @@ Es gibt viele verschiedene Möglichkeiten, wie Sie oder ein Kollege [ein Dashboa
 ## <a name="workbooks"></a>Arbeitsmappen
 Arbeitsmappen sind eine besondere Art von Dataset. Wenn Sie den Abschnitt **Datasets** weiter oben gelesen haben, wissen Sie bereits das Wichtigste über Arbeitsmappen. Vielleicht fragen Sie sich jedoch, warum Excel-Arbeitsmappen in Power BI manchmal ein **Dataset** und manchmal eine **Arbeitsmappe** sind.
 
-Wenn Sie **Daten abrufen** für Excel-Dateien verwenden, können Sie zwischen den Optionen *Importieren* und *Verknüpfen* für die Datei wählen. Wenn Sie „Verknüpfen“ wählen, wird die Arbeitsmappe in Power BI genauso angezeigt wie in Excel Online. Allerdings haben Sie im Gegensatz zu Excel Online einige hervorragende Funktionen zur Hand, mit denen Sie Elemente aus Arbeitsblättern direkt an Ihre Dashboards anheften können.
+Wenn Sie **Daten abrufen** für Excel-Dateien verwenden, können Sie zwischen den Optionen *Importieren* und *Verknüpfen* für die Datei wählen. Wenn Sie „Verknüpfen“ wählen, wird die Arbeitsmappe in Power BI genauso angezeigt wie in Excel Online. Allerdings stehen Ihnen im Gegensatz zu Excel Online einige hervorragende Funktionen zur Verfügung, mit denen Sie Elemente aus den Arbeitsblättern direkt an Ihre Dashboards anheften können.
 
 Sie können Ihre Arbeitsmappe in Power BI nicht bearbeiten. Wenn Sie aber Änderungen vornehmen müssen, können Sie auf „Bearbeiten“ klicken und die Arbeitsmappe in Excel online oder lokal bearbeiten. Alle vorgenommenen Änderungen werden in der Arbeitsmappe in OneDrive gespeichert.
 

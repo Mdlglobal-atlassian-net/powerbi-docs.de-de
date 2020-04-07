@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871250"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403403"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: Herstellen einer Verbindung mit einem GitHub-Repository mit Power BI
 In diesem Tutorial stellen Sie mit Power BI eine Verbindung mit realen Daten im GitHub-Dienst her. Anschließend erstellt Power BI automatisch Dashboards und Berichte. Sie stellen eine Verbindung mit dem öffentlichen *Repository* mit Power BI-Inhalten her und erhalten Antworten auf folgende Fragen: die Anzahl der Mitwirkenden an öffentlichen Power BI-Inhalten. Sie erfahren, wer sich am aktivsten beteiligt und am welchen Tag der Woche es die meisten Beiträge gab. Und andere Fragen. 
@@ -43,7 +43,7 @@ Für dieses Tutorial benötigen Sie ein GitHub-Konto, falls Sie noch keines habe
 
 
 ## <a name="how-to-connect"></a>Herstellen der Verbindung
-1. Melden Sie sich beim Power BI-Dienst (https://app.powerbi.com) ) an. 
+1. Melden Sie sich beim Power BI-Dienst (`https://app.powerbi.com`) an. 
 2. Wählen Sie im Navigationsbereich **Apps** und dann **Apps abrufen** aus.
    
    ![Power BI-Option „Apps abrufen“](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -58,13 +58,13 @@ Für dieses Tutorial benötigen Sie ein GitHub-Konto, falls Sie noch keines habe
 
     ![Erste Schritte mit Ihrer neuen App](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. Geben Sie den Namen und Besitzer des Repositorys ein. Die URL für dieses Repository ist https://github.com/MicrosoftDocs/powerbi-docs , sodass **MicrosoftDocs** der **Besitzer des Repositorys** und **Powerbi-Docs** das **Repository** ist. 
+7. Geben Sie den Namen und Besitzer des Repositorys ein. Die URL für dieses Repository ist https://github.com/MicrosoftDocs/powerbi-docs, sodass **MicrosoftDocs** der **Besitzer des Repositorys** und **Powerbi-Docs** das **Repository** ist. 
    
     ![Power BI: Name des GitHub-Repositorys](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. Geben Sie die GitHub-Anmeldeinformationen ein, die Sie erstellt haben. Power BI überspringt diesen Schritt möglicherweise, wenn Sie bereits in Ihrem Browser bei GitHub angemeldet sind. 
 
-6. Wählen Sie als **Authentifizierungsmethode** die Option **oAuth2** \> **Anmelden** aus.
+6. Wählen Sie als **Authentifizierungsmethode** die Option **oAuth2**\> **Anmelden** aus.
 
 7. Befolgen Sie die Anweisungen auf den Bildschirmen der GitHub-Authentifizierung. Erteilen Sie den GitHub-Daten die Berechtigung für Power BI.
    
