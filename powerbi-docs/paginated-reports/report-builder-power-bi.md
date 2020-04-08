@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923009"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621521"
 ---
 # <a name="power-bi-report-builder"></a>Power BI-Berichts-Generator
 
  Der Power BI Report Builder ist ein Tool für das Erstellen von paginierten Berichten.  Wenn Sie einen paginierten Bericht entwerfen, erstellen Sie eine Berichtsdefinition, die angibt, welche Daten abgerufen werden sollen, wo Sie abgerufen werden können und wie sie angezeigt werden sollen. Bei Ausführung des Berichts legt der Berichtsprozessor die angegebene Berichtsdefinition zugrunde, ruft die Daten ab und kombiniert sie mit dem Berichtslayout, um den Bericht zu generieren. Im Berichts-Generator können Sie sich eine Vorschau des Berichts ansehen. Dann veröffentlichen Sie den Bericht im Power BI-Dienst.
-
-Nutzen Sie das [Praxislab: Erstellen Sie einen paginierten Microsoft Power BI-Bericht](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 Sie ziehen das Lernen aus Videos vor? Sehen Sie sich die Videoreihe über paginierte Power BI-Berichte auf YouTube an, die vom Principal Program Manager von Power BI, Chris Finlan, stammt.
 
@@ -30,13 +28,13 @@ Die folgenden paginierten Berichte enthalten eine Matrix mit Zeilen- und Spalten
 
 ![Paginierter Bericht im Power BI-Dienst](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> Beschleunigte Berichtserstellung  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> Beschleunigte Berichtserstellung  
  
 -   **Mit dem Tabellen-, Matrix- oder Diagramm-Assistenten** erstellen Sie eine Datenquellenverbindung, ziehen Sie anschließend Felder per Drag & Drop, um eine Datasetabfrage zu erstellen, wählen Sie Layout und Stil aus, und passen Sie den Bericht an.  
   
 -   **Mit dem Karten-Assistenten** erstellen Sie Berichte, die aggregierte Daten vor einem geografischen oder geometrischen Hintergrund anzeigen. Kartendaten können räumliche Daten aus einer Transact-SQL-Abfrage oder einer Shape-Datei des Environmental Systems Research Institute (ESRI) sein. Sie können auch einen Microsoft Bing-Kartenkachelhintergrund hinzufügen.  
 
-##  <a name="DesignRept"></a> Entwerfen des Berichts  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> Entwerfen des Berichts  
   
 -   **Erstellen Sie paginierte Berichte mit Tabellen-, Matrix-, Diagramm- und Freiformlayouts.** Erstellen Sie Tabellenberichte für spaltenbasierte Daten, Matrixberichte wie Kreuztabellenberichte oder PivotTable-Berichte für zusammengefasste Daten, Diagrammberichte für grafische Daten und Freiformberichte für alles übrige. In Berichten können andere Berichte und Diagramme sowie Listen, Grafiken und Steuerelementen für dynamische, webbasierte Anwendungen eingebettet werden.  
   
@@ -52,7 +50,7 @@ Die folgenden paginierten Berichte enthalten eine Matrix mit Zeilen- und Spalten
   
 -   **Betten Sie Bilder und andere Ressourcen ein, oder verweisen Sie auf sie,** einschließlich externer Inhalte.  
   
-##  <a name="ManageRpt"></a> Verwalten des Berichts  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Verwalten des Berichts  
   
 -   **Speichern Sie die Berichtsdefinition** auf Ihrem Computer oder auf dem Berichtsserver, wo Sie sie verwalten und für andere Personen freigeben können.  
   
@@ -63,5 +61,4 @@ Die folgenden paginierten Berichte enthalten eine Matrix mit Zeilen- und Spalten
 ## <a name="next-steps"></a>Nächste Schritte
 
 - [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
-- Nutzen Sie das [Praxislab: Erstellen Sie einen paginierten Microsoft Power BI-Bericht](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Sehen Sie sich die [Videoreihe über paginierte Power BI-Berichte](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) auf YouTube an, die vom Principal Program Manager von Power BI, Chris Finlan, stammt.
