@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: Anzeigen lokaler Berichte in mobilen Apps
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Schutz durch Face ID, Touch ID, Passcode oder Fingerprint-ID'
+              href: mobile-native-secure-access.md
             - name: Zugreifen auf Inhalte über eine externe Organisation (B2B)
               href: mobile-apps-b2b.md
             - name: Scannen eines Power BI-QR-Codes mit dem Smartphone
@@ -76,8 +78,6 @@
           items:
             - name: Erste Schritte mit der iOS-App
               href: mobile-iphone-app-get-started.md
-            - name: 'Schützen mit Face ID, Touch ID oder einem Passcode'
-              href: mobile-ios-native-secure-access.md
             - name: Virtueller Q&A-Analyst in mobilen iOS-Apps
               href: mobile-apps-ios-qna.md
             - name: Integration der mobilen Power BI-App mit Siri-Kurzbefehlen
@@ -90,6 +90,10 @@
           items:
             - name: Erste Schritte mit der Android-App
               href: mobile-android-app-get-started.md
+            - name: Verwenden von Android-App-Verknüpfungen
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Suchen und Zugreifen auf Inhalte mit Google Search
+              href: mobile-app-find-access-google-search.md
             - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
