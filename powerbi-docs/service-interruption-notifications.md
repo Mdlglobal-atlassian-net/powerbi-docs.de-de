@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 04/06/2020
 ms.author: kfollis
-ms.openlocfilehash: cb117cb325255f63a0c5d21eddc01e9806358f7f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697242"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80812966"
 ---
 # <a name="service-interruption-notifications"></a>Dienstunterbrechungsbenachrichtigungen
 
@@ -31,6 +31,28 @@ Benachrichtigungen werden gesendet, wenn eine _längere Verzögerung_ bei Vorgä
 
 > [!NOTE]
 > Diese Funktion ist zurzeit nur für dedizierte Kapazitäten in Power BI Premium verfügbar. Sie ist nicht für gemeinsam genutzte oder eingebettete Kapazität verfügbar.
+
+## <a name="capacity-and-reliability-notifications"></a>Benachrichtigungen zu Kapazität und Zuverlässigkeit
+
+Wenn eine Power BI Premium-Kapazität mehrmals über einen längeren Zeitraum hinweg einen hohen Ressourcenverbrauch aufweist, die sich potenziell auf die Zuverlässigkeit auswirkt, wird eine Benachrichtigung per E-Mail gesendet. Beispiele für solche Auswirkungen sind lange Verzögerungen bei Vorgängen wie z. B. dem Öffnen eines Berichts, dem Aktualisieren von Datasets und dem Ausführen von Abfragen. 
+
+Die E-Mail-Benachrichtigung enthält Informationen zur Ursache des hohen Ressourcenverbrauchs, darunter Folgendes:
+
+* Dataset-ID des verantwortlichen Datasets
+* Vorgangsart
+* CPU-Zeit, die dem hohen Ressourcenverbrauch zugeordnet wird
+
+Power BI sendet auch E-Mail-Benachrichtigungen, wenn eine Überlastung in einer Power BI Premium-Kapazität erkannt wird. In der E-Mail wird die wahrscheinliche Ursache für die Überlastung erläutert und aufgeführt, welche Vorgänge die Auslastung in den letzten 10 Minuten generiert haben und wie viel Auslastung von jedem Vorgang generiert wurde. 
+
+Wenn Sie über mehr als eine Premium-Kapazität verfügen, enthält die E-Mail Informationen zu diesen Kapazitäten im Zeitraum der Überlastung. Dadurch können Sie sich überlegen, ob Sie die Arbeitsbereiche mit ressourcenintensiven Elementen in die Kapazitäten mit der geringsten Auslastung verschieben.
+
+E-Mail-Benachrichtigungen zu Überlastungen werden nur gesendet, wenn ein Überlastungsschwellenwert überschritten wird. Sie erhalten keine zweite E-Mail, wenn die Auslastung dieser Premium-Kapazität nicht mehr überlastet ist.
+
+Die folgende Abbildung zeigt ein Beispiel für eine E-Mail-Benachrichtigung:
+
+
+![E-Mail-Benachrichtigung zur Überlastung der Kapazität](media/service-interruption-notifications/refresh-notification-email-2.png)
+
 
 ## <a name="enable-notifications"></a>Aktivieren von Benachrichtigungen
 

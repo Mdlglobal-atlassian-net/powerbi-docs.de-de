@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133248"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751605"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informationen zum Sternschema und der Wichtigkeit für Power BI
 
@@ -75,7 +75,7 @@ Es gibt jedoch drei überzeugende Gründe für die Erstellung von Measures, auch
 
 - Wenn Sie wissen, dass Ihre Berichtsautoren das Modell mithilfe von [mehrdimensionalen Ausdrücken (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) abfragen, muss das Modell _explizite Measures_ enthalten. Explizite Measures werden mit DAX definiert. Dieser Entwurfsansatz ist äußerst relevant, wenn ein Power BI-DataSet mithilfe von MDX abgefragt wird, da keine Summen von Spaltenwerten mit MDX möglich sind. Insbesondere wird MDX für [Analysen in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) verwendet, da PivotTables MDX-Abfragen ausgeben.
 - Wenn Sie wissen, dass Ihre Berichtsautoren paginierte Power BI-Berichte mit dem MDX-Abfrage-Designer erstellen, muss das Modell explizite Measures enthalten. Nur der MDX-Abfrage-Designer unterstützt [Serveraggregate](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Wenn für Berichtsautoren also von Power BI ausgewertete Measures benötigt werden (anstelle der paginierten Berichts-Engine), müssen sie den MDX-Abfrage-Designer verwenden.
-- Wenn Sie sicherstellen müssen, dass Ihre Berichtsautoren Spalten nur auf bestimmte Weisen zusammenfassen können. Beispielsweise kann die Spalte **Unit Price** (Einzelpreis) des Wiederverkäufers (die einen Preis pro Einheit darstellt) zusammengefasst werden, aber nur mithilfe spezifischer Aggregationsfunktionen. Diese Spalte sollte nie zusammengefast werden, jedoch ist es angebracht, sie mithilfe anderer Aggregationsfunktionen zusammenzufassen (min, max, average usw.). In diesem Fall kann der Modellierer die Spalte **Unit Price** (Einzelpreis) ausblenden und Measures für alle entsprechenden Aggregationsfunktionen erstellen.
+- Wenn Sie sicherstellen müssen, dass Ihre Berichtsautoren Spalten nur auf bestimmte Weisen zusammenfassen können. Beispielsweise kann die Spalte **Unit Price** (Einzelpreis) des Wiederverkäufers (die einen Preis pro Einheit darstellt) zusammengefasst werden, aber nur mithilfe spezifischer Aggregationsfunktionen. Diese Spalte sollte nie summiert werden, jedoch kann sie mithilfe anderer Aggregationsfunktionen zusammengefasst werden (z. B. min, max, average usw.). In diesem Fall kann der Modellierer die Spalte **Unit Price** (Einzelpreis) ausblenden und Measures für alle entsprechenden Aggregationsfunktionen erstellen.
 
 Dieser Entwurfsansatz eignet gut sich für Berichte, die im Power BI-Dienst erstellt wurden, und für Q&A. Jedoch können Power BI Desktop-Liveverbindungen Berichtsautoren ermöglichen, ausgeblendete Felder im Bereich **Felder** anzuzeigen, wodurch dieser Entwurfsansatz umgangen werden kann.
 
@@ -188,7 +188,7 @@ Im Power BI-Modell kann es sich als sinnvoll erweisen, die Bestellnummerspalte z
 
 ![Beispiel für degenerierte Dimensionen](media/star-schema/degenerate-dimension.png)
 
-Weitere Informationen finden Sie im [Leitfaden zu 1:1-Beziehungen (Degenerierte Dimensionen)](relationships-one-to-one.md#degenerate-dimensions).
+Verfügt die Adventure Works-Tabelle der Handelspartnerumsätze jedoch sowohl über Spalten für Auftragsnummern _als auch_ für Auftragspositionsnummern, und diese werden zum Filtern benötigt, bietet sich eine Tabelle für eine degenerierte Dimension an. Weitere Informationen finden Sie im [Leitfaden zu 1:1-Beziehungen (Degenerierte Dimensionen)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Faktenlose Faktentabellen
 
@@ -196,7 +196,7 @@ Weitere Informationen finden Sie im [Leitfaden zu 1:1-Beziehungen (Degenerierte 
 
 Faktenlose Faktentabellen können Beobachtungen enthalten, die mit Dimensionsschlüsseln definiert werden. Zum Beispiel wenn sich ein bestimmter Kunde zu einem bestimmten Datum und zu einer bestimmten Uhrzeit bei Ihrer Website anmeldet. Sie könnten ein Measure definieren, um die Zeilen der faktenlosen Faktentabelle zu zählen, um Analysen für Zeitpunkt und Anzahl von Kundenanmeldungen durchzuführen.
 
-Eine überzeugendere Verwendungsmöglichkeit für faktenlose Faktentabellen besteht darin, Beziehungen zwischen Dimensionen zu enthalten. Dies ist der Power BI-Modelentwurfsansatz, der zum Definieren von m:n-Dimensionsbeziehungen empfohlen wird. Im Entwurf von m:n-Dimensionsbeziehungen wird die faktenlose Faktentabelle als _bridging table_ (Überbrückungstabelle) bezeichnet.
+Eine überzeugendere Verwendungsmöglichkeit für faktenlose Faktentabellen besteht darin, Beziehungen zwischen Dimensionen zu enthalten. Dies ist der Power BI-Modelentwurfsansatz, der zum Definieren von m:n-Dimensionsbeziehungen empfohlen wird. Im [Entwurf von m:n-Dimensionsbeziehungen](relationships-many-to-many.md#relate-many-to-many-dimensions) wird die faktenlose Faktentabelle als _bridging table_ (Überbrückungstabelle) bezeichnet.
 
 Denken Sie beispielsweise daran, dass Vertriebsmitarbeiter einer _oder mehrerer_ Vertriebsregionen zugewiesen werden können. Die Überbrückungstabelle würde als faktenlose Faktentabelle konzipiert werden, die aus zwei Spalten besteht: Vertriebsmitarbeiterschlüssel und Regionsschlüssel. Beide Spalten können doppelte Werte enthalten.
 

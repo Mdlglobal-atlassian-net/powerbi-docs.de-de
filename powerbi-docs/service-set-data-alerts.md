@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163772"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621630"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Datenwarnungen im Power BI-Dienst
 
 Legen Sie Warnungen fest, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen festgelegten Grenzen überschreiten.
 
-Sie können Warnungen für Kacheln festlegen, wenn Sie über eine Power BI Pro-Lizenz verfügen. Sie können auch Warnungen festlegen, wenn jemand ein Dashboard in einer [Premium-Kapazität](service-premium-what-is.md) freigibt. Warnungen können nur für Kacheln, die über Berichtsvisuals angeheftet wurden, und nur für Messgeräte, KPIs und Karten festgelegt werden. Warnungen können für Visuals festgelegt werden, die aus Streamingdatasets erstellt wurden, die Sie aus einem Bericht an ein Dashboard anheften. Warnungen können nicht für Streamingkacheln festgelegt werden, die direkt auf dem Dashboard über **Kachel hinzufügen** > **Benutzerdefinierte Streamingdaten** erstellt wurden.
+Sie können Warnungen für Kacheln in Ihrem Arbeitsbereich festlegen. Sie können auch Warnungen für den Fall festlegen, dass jemand ein Dashboard aus einer [Premium-Kapazität](service-premium-what-is.md) freigibt. Wenn Sie über eine Power BI Pro-Lizenz verfügen, können Sie auch Warnungen für Kacheln in einem anderen Arbeitsbereich festlegen. Warnungen können nur für Kacheln, die über Berichtsvisuals angeheftet wurden, und nur für Messgeräte, KPIs und Karten festgelegt werden. Warnungen können für Visuals festgelegt werden, die aus Streamingdatasets erstellt wurden, die Sie aus einem Bericht an ein Dashboard anheften. Warnungen können nicht für Streamingkacheln festgelegt werden, die direkt auf dem Dashboard über **Kachel hinzufügen** > **Benutzerdefinierte Streamingdaten** erstellt wurden.
 
 Die Warnungen werden nur Ihnen angezeigt, auch wenn Sie das Dashboard freigeben. Nicht einmal der Besitzer des Dashboards kann Warnungen anzeigen, die Sie in ihrer Ansicht Ihres Dashboards festgelegt haben. Datenwarnungen werden mit allen Plattformen synchronisiert. Sie können Datenwarnungen daher [in den mobilen Power BI-Apps](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) und im Power BI-Dienst festlegen und anzeigen. Für Power BI Desktop sind sie nicht verfügbar. Sie können Warnungen sogar mit Power Automate automatisieren und integrieren. Sie können es selbst in diesem [Power Automate und Power BI](service-flow-integration.md)-Artikel ausprobieren.
 

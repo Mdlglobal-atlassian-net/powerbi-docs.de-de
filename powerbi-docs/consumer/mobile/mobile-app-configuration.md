@@ -2,18 +2,17 @@
 title: Konfigurationseinstellungen für die Power BI-App
 description: Anpassen des Verhaltens von Power BI mithilfe des MDM-Tools
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205548"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802024"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Remotekonfiguration der Power BI-App mithilfe des Tools für die mobile Geräteverwaltung
 
@@ -22,7 +21,7 @@ Die Power BI Mobile-App für iOS und Android unterstützt App-Einstellungen, mit
 Die Power BI Mobile-App unterstützt die folgenden Konfigurationsszenarios:
 
 * Berichtsserverkonfiguration (iOS und Android)
-* Datenschutzeinstellungen (iOS)
+* Datenschutzeinstellungen (iOS und Android)
 * Interaktionseinstellungen (iOS und Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Berichtsserverkonfiguration (iOS und Android)
@@ -36,13 +35,16 @@ Die Power BI-App für iOS und Android ermöglicht Administratoren, die Berichtss
 | com.microsoft.powerbi.mobile.ServerDisplayName | Zeichenfolge | [Optional]<br><br>Der Standardwert ist „Berichtsserver“.<br><br>Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolescher Wert | [Optional]<br><br>Der Standardwert ist TRUE. Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt.<br><br>Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server noch mal eine Authentifizierung durchzuführen. |
 
-## <a name="data-protection-settings-ios"></a>Datenschutzeinstellungen (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>Datenschutzeinstellungen (iOS und Android)
 
-Die Power BI-App für iOS bietet Administratoren die Möglichkeit, die Standardkonfiguration für Sicherheits- und Datenschutzeinstellungen anzupassen. Sie können erzwingen, dass Benutzer Face ID, Touch ID oder ihren Passcode bereitstellen müssen, wenn sie auf die Power BI-App zugreifen.
+Die mobile Power BI-App für iOS und Android bietet Administratoren die Möglichkeit, die Standardkonfiguration der Sicherheits- und Datenschutzeinstellungen anzupassen. Bei iOS können Sie erzwingen, dass Benutzer Face ID, Touch ID oder ihren Passcode bereitstellen müssen, wenn sie auf die mobile Power BI-App zugreifen. Bei Android können Sie Benutzer dazu zwingen, die biometrische Authentifizierung (Fingerabdruck-ID) zu verwenden.
 
 | Schlüssel | Typ | Beschreibung |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolescher Wert | Der Standardwert ist FALSE. <br><br>Biometrische Methoden wie TouchID oder FaceID können für den Zugriff von Benutzern auf die App auf ihrem Gerät erforderlich sein. Wenn dies der Fall ist, werden biometrische Methoden zusätzlich zur Authentifizierung verwendet.<br><br>Microsoft empfiehlt bei Verwendung von App-Schutzrichtlinien das Deaktivieren dieser Einstellung, um zwei Aufforderungen hinsichtlich des Zugriffs zu verhindern. |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolescher Wert | Der Standardwert ist FALSE. <br><br>Biometrische Methoden wie Touch ID oder Face ID (iOS) oder Fingerabdruck-ID (Android) können für den Zugriff von Benutzern auf die App auf ihrem Gerät erforderlich sein. Wenn dies der Fall ist, werden biometrische Methoden zusätzlich zur Authentifizierung verwendet.<br><br>Microsoft empfiehlt bei Verwendung von App-Schutzrichtlinien das Deaktivieren dieser Einstellung, um zwei Aufforderungen hinsichtlich des Zugriffs zu verhindern. |
+
+>[!NOTE]
+>Die Datenschutzeinstellungen werden nur auf Android-Geräten angewendet, die die biometrische Authentifizierung unterstützen.
 
 ## <a name="interaction-settings-ios-and-android"></a>Interaktionseinstellungen (iOS und Android)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114863"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979889"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Erstellen von Power BI-Visualisierungen mithilfe von R
 Mit Power BI Desktop können Sie *R* zum Visualisieren Ihrer Daten verwenden. [R](https://mran.revolutionanalytics.com/documents/what-is-r) ist eine Sprache und Umgebung für statistische Berechnungen und Grafiken.
@@ -142,6 +142,8 @@ Für R-Visuals in Power BI Desktop gelten die folgenden Einschränkungen:
 * Hervorhebungen: R-Visuals reagieren auf das Hervorheben anderer Visuals. Sie können jedoch keine Elemente im R-Visual auswählen, um eine Kreuzfilterung für andere Elemente durchzuführen.
 
 * Anzeigegeräte: Nur auf dem R-Standardanzeigegerät erzeugte Zeichnungen werden im Zeichenbereich ordnungsgemäß angezeigt. Verwenden Sie nicht explizit ein anderes R-Anzeigegerät.
+
+* Umbenennen von Spalten: R-Visuals unterstützen das Umbenennen von Eingabespalten nicht. Spalten werden nach Ihrem ursprünglichen Namen bei der Skriptausführung bezeichnet.
 
 * RRO-Installationen: In diesem Release werden RRO-Installationen von der 32-Bit-Version von Power BI Desktop nicht automatisch erkannt. Daher müssen Sie den Pfad zum R-Installationsverzeichnis unter **Optionen und Einstellungen** > **Optionen** > **R-Skripterstellung** manuell angeben.
 

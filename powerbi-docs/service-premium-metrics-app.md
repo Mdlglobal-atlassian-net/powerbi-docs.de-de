@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/19/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488681"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813050"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium-Metrik-App
 
@@ -27,6 +27,9 @@ Sie können die **Power BI Premium-Metrik-App** verwenden, um die Integrität un
 ![Die Power BI Premium-Metrik-App](media/service-premium-metrics-app/premium-metrics-app-00.png)
 
 In den folgenden Abschnitte werden die Startseite sowie die drei Metrikberichtsseiten detailliert beschrieben. 
+
+> [!IMPORTANT]
+> Wenn Ihre Power BI Premium-Kapazität einen hohen Ressourcenverbrauch aufweist, der zu Leistungs- oder Zuverlässigkeitsproblemen führt, erhalten Sie eine E-Mail-Benachrichtigung, damit Sie das Problem identifizieren und lösen können. Weitere Informationen finden Sie unter [Benachrichtigungen zu Kapazität und Zuverlässigkeit](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="premium-capacity-health-center"></a>Premium – Capacity Health Center
 

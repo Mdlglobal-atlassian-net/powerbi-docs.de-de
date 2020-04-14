@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e60aed5b538eab3b630f42a665d96256cc07879c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700094"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813096"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Konfigurieren und Verwalten von Kapazitäten in Power BI Premium
 
@@ -94,6 +94,10 @@ Power BI-Administratoren und globale Administratoren von Office 365 können Powe
     Administratoren können Knoten erstellen, löschen und ihre Größe ändern, solange sie über die erforderliche Anzahl von V-Kernen verfügen.
 
     P-SKUs können nicht auf EM-SKUs herabgestuft werden. Sie können auf eine deaktivierte Option zeigen, um deren Erläuterung anzuzeigen.
+
+> [!IMPORTANT]
+> Wenn Ihre Power BI Premium-Kapazität einen hohen Ressourcenverbrauch aufweist, der zu Leistungs- oder Zuverlässigkeitsproblemen führt, erhalten Sie eine E-Mail-Benachrichtigung, damit Sie das Problem identifizieren und lösen können. Weitere Informationen finden Sie unter [Benachrichtigungen zu Kapazität und Zuverlässigkeit](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
 
 ### <a name="manage-user-permissions"></a>Verwalten von Benutzerberechtigungen
 

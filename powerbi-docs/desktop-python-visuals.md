@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609830"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979866"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Erstellen von Power BI-Visualisierungen mithilfe von Python
 
@@ -88,7 +88,7 @@ Im Artikel [Ausführen von Python-Skripts in Power BI Desktop](desktop-python-s
 
    Power BI Desktop zeichnet das Visual neu, wenn eines der folgenden Ereignisse eintritt:
 
-   - Wenn Sie auf der Titelleiste des **Python-Skript-Editors****Ausführen** auswählen.
+   - Wenn Sie auf der Titelleiste des **Python-Skript-Editors** **Ausführen** auswählen.
    - Bei jedem Ändern der Daten durch Aktualisieren, Filtern oder Hervorheben von Daten.
 
    Wenn Sie ein Python-Skript ausführen, das einen Fehler auslöst, wird das Python-Visual nicht gezeichnet, und es wird eine Fehlermeldung in der Canvas angezeigt. Sie können Fehlerdetails abrufen, indem Sie in der Meldung auf **Details anzeigen** klicken.
@@ -155,9 +155,9 @@ Wenn Sie auf die Schaltfläche **Skript ausführen** klicken, wird das folgende 
 > **Sicherheit von Python-Skripts:** Visuelle Python-Elemente werden aus Python-Skripts erstellt, die Code mit Sicherheits- oder Datenschutzrisiken enthalten können. Wenn ein Benutzer ein visuelles Python-Element zum ersten Mal aufruft oder damit interagiert, wird eine Sicherheitswarnmeldung angezeigt. Aktivieren Sie visuelle Python-Elemente nur dann, wenn Sie dem Autor und der Quelle vertrauen, oder wenn Sie die zugehörigen Python-Skripts überprüft und nachvollzogen haben.
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Weitere Informationen zum Zeichnen mit Matprolib, Pandas und Python
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Weitere Informationen zum Zeichnen mit Matplotlib, Pandas und Python
 
-Dieses Tutorial soll Ihnen den Einstieg in die Erstellung von Visuals mit Python in Power BI Desktop erleichtern. Die vielen Optionen und Funktionen zum Erstellen von visuellen Berichten mithilfe von Python und den Bibliotheken Pandas und Matprolib können in diesem Rahmen nur grob vorgestellt werden. Es gibt noch viele weitere Informationen. Hier finden Sie einige Links, die Ihnen beim Start helfen:
+Dieses Tutorial soll Ihnen den Einstieg in die Erstellung von Visuals mit Python in Power BI Desktop erleichtern. Die vielen Optionen und Funktionen zum Erstellen von visuellen Berichten mithilfe von Python, Pandas und der Bibliothek Matplotlib können in diesem Rahmen nur grob vorgestellt werden. Es gibt noch viele weitere Informationen. Hier finden Sie einige Links, die Ihnen beim Start helfen:
 
 - Dokumentation auf der [Matplotlib](https://matplotlib.org/)-Website. 
 - [Matplotlib Tutorial: A Basic Guide to Use Matplotlib with Python (Matplotlib-Tutorial: Basisanleitung zur Verwendung von Matplotlib mit Python)](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
@@ -177,6 +177,7 @@ Bei Python-Visuals in Power BI Desktop gelten einige Einschränkungen:
 - Visuelle Python-Elemente werden aktualisiert, wenn Daten aktualisiert, gefiltert oder hervorgehoben werden. Das Bild selbst ist jedoch nicht interaktiv und kann nicht als Quelle für die Kreuzfilterung verwendet werden.
 - Python-Visuals reagieren auf das Hervorheben anderer Visuals. Sie können jedoch nicht auf Elemente in den Python-Visuals klicken, um eine Kreuzfilterung für andere Elemente durchzuführen.
 - Nur auf dem Python-Standardanzeigegerät erzeugte Zeichnungen werden im Zeichenbereich ordnungsgemäß angezeigt. Verwenden Sie nicht explizit ein anderes Python-Anzeigegerät.
+- Python-Visuals unterstützen das Umbenennen von Eingabespalten nicht. Spalten werden nach Ihrem ursprünglichen Namen bei der Skriptausführung bezeichnet.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

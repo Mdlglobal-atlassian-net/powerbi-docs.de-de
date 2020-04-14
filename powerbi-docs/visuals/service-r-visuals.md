@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114840"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979820"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Erstellen und Verwenden von visuellen R-Elementen in Power BI
 R-Visualisierungen können derzeit nur in **Power BI Desktop** erstellt und anschließend im Power BI-Dienst veröffentlicht werden. Weitere Informationen zum Erstellen von R-Visuals finden Sie unter [Erstellen von Power BI-Visuals mithilfe von R](../desktop-r-visuals.md).
@@ -93,7 +93,8 @@ R-Visualisierungen weisen im Power BI-Dienst einige Einschränkungen auf:
 * Visuelle R-Elemente werden aktualisiert, wenn Daten aktualisiert, gefiltert oder hervorgehoben werden. Allerdings ist das eigentliche Bild nicht interaktiv und unterstützt QuickInfos nicht.
 * Visuelle R-Elemente reagieren auf das Hervorheben anderer Visualisierungen. Sie können jedoch nicht auf visuelle R-Elemente klicken, um eine Kreuzfilterung anderer Elemente auszuführen.
 * R-Visualisierungen werden für den *Uhrzeit*-Datentyp derzeit nicht unterstützt. Bitte verwenden Sie stattdessen Datum/Uhrzeit.
-* R-Visualisierungen werden nicht angezeigt, wenn **Im Web veröffentlichen** verwendet wird.
+* R-Visuals werden nicht angezeigt, wenn **Im Web veröffentlichen** verwendet wird.
+* R-Visuals unterstützen das Umbenennen von Eingabespalten nicht. Spalten werden nach Ihrem ursprünglichen Namen bei der Skriptausführung bezeichnet.
 * R-Visualisierungen drucken derzeit nicht, wenn Dashboards und Berichte drucken
 * R-Visualisierungen werden im DirectQuery-Modus von Analysis Services derzeit nicht unterstützt
 * Visuelle R-Elemente können Textbezeichnungen in grafische Elemente konvertieren. Hierfür müssen Sie im Power BI-Dienst den folgenden zusätzlichen Schritt ausführen:

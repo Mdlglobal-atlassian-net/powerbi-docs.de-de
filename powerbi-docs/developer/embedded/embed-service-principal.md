@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403482"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751632"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Einbetten von Power BI-Inhalten mit Dienstprinzipal und Anwendungsgeheimnis
 
-Der Dienstprinzipal ist eine Authentifizierungsmethode, die verwendet kann, um einer Azure AD-Anwendung den Zugriff auf die Inhalte und die APIs im Power BI-Dienst zu ermöglichen.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Beim Erstellen einer Azure Active Directory-App (Azure AD) wird ein [Dienstprinzipalobjekt](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) angelegt. Das Dienstprinzipalobjekt, das manchmal auch einfach als *Dienstprinzipal* bezeichnet wird, ermöglicht Azure AD die Authentifizierung Ihrer App. Nach der Authentifizierung kann die App auf Azure AD-Mandantenressourcen zugreifen.
-
-Zum Authentifizieren verwendet der Dienstprinzipal die *Anwendungs-ID* der Azure AD-App und eines der folgenden Elemente:
-* Anwendungsgeheimnis
-* Zertifikat
-
-In diesem Artikel wird die Dienstprinzipalauthentifizierung mit einer *Anwendungs-ID* und einem *Anwendungsgeheimnis* beschrieben. Informationen zum Authentifizieren unter Verwendung eines Dienstprinzipals mit einem Zertifikat finden Sie unter [Auf Power BI-Zertifikaten basierende Authentifizierung]().
+In diesem Artikel wird die Dienstprinzipalauthentifizierung mit einer *Anwendungs-ID* und einem *Anwendungsgeheimnis* beschrieben.
 
 ## <a name="method"></a>Methode
 
@@ -55,12 +49,12 @@ Führen Sie die folgenden Schritte aus, um den Dienstprinzipal und eine Anwendun
 ## <a name="step-1---create-an-azure-ad-app"></a>Schritt 1: Erstellen einer Azure AD-App
 
 Erstellen Sie eine Azure AD-App mit einer der folgenden Methoden:
-* Erstellen Sie die App im [Microsoft Azure-Portal](https://ms.portal.azure.com/#allservices).
+* Erstellen Sie die App im [Microsoft Azure-Portal](https://portal.azure.com/#allservices).
 * Erstellen Sie die App mit [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Erstellen einer Azure AD-App im Microsoft Azure-Portal
 
-1. Melden Sie sich bei [Microsoft Azure](https://ms.portal.azure.com/#allservices) an.
+1. Melden Sie sich bei [Microsoft Azure](https://portal.azure.com/#allservices) an.
 
 2. Suchen Sie nach **App-Registrierungen**, und klicken Sie auf den Link **App-Registrierungen**.
 
@@ -72,7 +66,7 @@ Erstellen Sie eine Azure AD-App mit einer der folgenden Methoden:
 
 4. Füllen Sie die erforderlichen Informationen aus:
     * **Name**: Geben Sie einen Namen für Ihre Anwendung ein.
-    * **Unterstützte Kontotypen**: Wählen Sie die unterstützten Kontotypen aus.
+    * **Unterstützte Kontotypen:** Wählen Sie das benötigte Azure AD-Konto aus.
     * (Optional) **Umleitungs-URI**: Geben Sie bei Bedarf einen URI ein.
 
 5. Klicken Sie auf **Registrieren**.
@@ -205,5 +199,3 @@ Nach dem Einbetten Ihrer Inhalte können Sie in die [Produktionsphase wechseln](
 * [Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden](embed-sample-for-customers.md)
 
 * [Sicherheit auf Zeilenebene bei Verwendung eines lokalen Datengateways mit Dienstprinzipal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [Einbetten von Power BI-Inhalten mit Dienstprinzipal und Zertifikat]()

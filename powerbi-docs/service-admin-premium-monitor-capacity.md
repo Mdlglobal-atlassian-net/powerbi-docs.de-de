@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698875"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813073"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Überwachen von Premium-Kapazitäten über die App
 
 Die Überwachung Ihrer Kapazitäten ist entscheidend für das Treffen fundierter Entscheidungen zur optimalen Nutzung Ihrer Premium-Kapazitäten. Sie können die Kapazitäten im Verwaltungsportal oder mithilfe der App **Power BI Premium-Kapazitätsmetriken** überwachen. In diesem Artikel wird die Verwendung der Premium-Kapazitätsmetriken-App erläutert. Die App stellt ausführliche Informationen zur Leistung Ihrer Kapazitäten bereit. Einen allgemeineren Überblick durchschnittlicher Nutzungsmetriken der letzten sieben Tage finden Sie im Verwaltungsportal. Weitere Informationen zur Überwachung im Portal finden Sie unter [Monitor Premium capacities in the Admin portal (Überwachung von Premium-Kapazitäten im Verwaltungsportal)](service-admin-premium-monitor-portal.md).
 
 Die App erhält regelmäßige Updates mit neuen Features und Funktionalitäten. Stellen Sie sicher, dass Sie die neueste Version verwenden. Wenn Sie bereits eine ältere Version installiert haben, löschen Sie sie aus Ihren Apps, und drücken Sie das STRG+F5 zum Aktualisieren.
+
+> [!IMPORTANT]
+> Wenn Ihre Power BI Premium-Kapazität einen hohen Ressourcenverbrauch aufweist, der zu Leistungs- oder Zuverlässigkeitsproblemen führt, erhalten Sie eine E-Mail-Benachrichtigung, damit Sie das Problem identifizieren und lösen können. Dies kann eine optimierte Methode zum Behandeln von Problemen mit überlasteten Kapazitäten darstellen. Weitere Informationen finden Sie unter [Benachrichtigungen zu Kapazität und Zuverlässigkeit](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="install-the-app"></a>Installieren der App
 
@@ -60,7 +63,7 @@ Das Dashboard umfasst die folgenden Metriken:
 
 #### <a name="top"></a>Oben
 
-| Metrik | Beschreibung |
+| Metric | Beschreibung |
 | --- | --- |
 | Version | Die App-Version. | 
 | Funktionen | Die Anzahl der Kapazitäten, für die Sie als Administrator zuständig sind. | 
@@ -69,7 +72,7 @@ Das Dashboard umfasst die folgenden Metriken:
 
 #### <a name="system-summary"></a>Systemübersicht
 
-| Metrik | Beschreibung |
+| Metric | Beschreibung |
 | --- | --- |
 | Kapazität mit der höchsten CPU-Auslastung | Die Kapazität mit den häufigsten Fällen, in denen die CPU-Auslastung in den letzten sieben Tagen 80 % der Schwellenwerte überschritten hat. |
 | Anzahl der Fälle mit der höchsten CPU-Auslastung | Die Anzahl der Fälle, in denen die benannte Kapazität in den letzten sieben Tagen 80 % der Schwellenwerte für die CPU-Auslastung überschritten hat. | 
@@ -79,7 +82,7 @@ Das Dashboard umfasst die folgenden Metriken:
 
 #### <a name="dataset-summary"></a>Dataset Summary
 
-| Metrik | Beschreibung |
+| Metric | Beschreibung |
 | --- | --- |
 | Datasets | Die Gesamtzahl der Datasets über alle Arbeitsbereiche in Ihren Kapazitäten.|
 | Durchschnittsgröße von Datasets (MB) | Die durchschnittliche Größe von Datasets in allen Arbeitsbereichen in Ihren Kapazitäten.|  
@@ -106,7 +109,7 @@ Das Dashboard umfasst die folgenden Metriken:
 
 #### <a name="dataflow-summary"></a>Dataflow Summary
 
-| Metrik | Beschreibung |
+| Metric | Beschreibung |
 | --- | --- |
 | Dataflows |  Die Gesamtzahl der Dataflows in allen Arbeitsbereichen in Ihren Kapazitäten.|
 | Aktualisierungen gesamt | Die Gesamtanzahl von Aktualisierungen in den letzten sieben Tagen.|  
@@ -120,7 +123,7 @@ Das Dashboard umfasst die folgenden Metriken:
 
 #### <a name="paginated-report-summary"></a>Paginated Report Summary
 
-| Metrik | Beschreibung |
+| Metric | Beschreibung |
 | --- | --- |
 | Paginated Reports |  Die Gesamtanzahl der paginierten Berichte in allen Arbeitsbereichen in Ihren Kapazitäten. |
 | Ansichten gesamt | Die Gesamtzahl der Fälle, in denen alle Berichte von Benutzern angezeigt wurden. | 
@@ -134,7 +137,7 @@ Das Dashboard umfasst die folgenden Metriken:
 
 #### <a name="ai-summary"></a>KI-Zusammenfassung
 
-| Metrik | Beschreibung |
+| Metric | Beschreibung |
 | --- | --- |
 | AI Function Execution (KI-Funktionsausführung) | Die Gesamtzahl der Ausführungen in den letzten sieben Tagen. |
 | AI Function Execution Reliability (%) (Zuverlässigkeit der KI-Funktionsausführung (%)) | Die Anzahl der erfolgreichen Ausführungen, geteilt durch die Gesamtzahl der Ausführungen in den letzten sieben Tagen. |

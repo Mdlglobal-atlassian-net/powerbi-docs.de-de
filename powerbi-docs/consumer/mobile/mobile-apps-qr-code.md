@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: d28596aae776d9a0087895cae38fc2e8848297b6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218935"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802070"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scannen eines Power BI-QR-Codes mit einem mobilen Gerät
 Gilt für:
 
-| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android-Smartphone](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android-Tablet](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPads](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android-Smartphone](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android-Tablet](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhones |Android-Telefone |Android-Tablets |
+|iPhones |iPads |Android-Telefone |Android-Tablets |
 
 QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen verknüpfen – es ist keine Navigation oder Suche erforderlich.
 
@@ -52,7 +52,7 @@ Wenn Ihr Kollege das Dashboard oder den Bericht nicht für Sie freigegeben hat, 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Scannen des QR-Codes mit einem externen Scanner auf dem iPhone
 1. Richten Sie einen beliebigen, auf dem Smartphone installierten Scanner auf den gewünschten Power BI-QR-Code, um direkt auf die zugehörige Kachel oder den entsprechenden Bericht zuzugreifen. 
-2. Wenn Sie die Power BI-App nicht installiert haben, werden Sie zum [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=522062) weitergeleitet, um sie herunterzuladen.
+2. Wenn Sie die Power BI-App nicht installiert haben, werden Sie zum [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=522062) weitergeleitet, um sie auf Ihr iPhone herunterzuladen.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Scannen eines Power BI-QR-Codes mit dem Power BI-Scanner auf dem Android-Gerät
 

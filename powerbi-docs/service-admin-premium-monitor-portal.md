@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 51d7b29eee1394ec1bbcad8d69b39b4e45ecdb18
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700071"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813004"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Überwachen von Kapazitäten im Verwaltungsportal
 
@@ -23,6 +23,9 @@ Im Verwaltungsportal sehen Sie im Bereich **Kapazitätseinstellungen** auf der R
 ![Registerkarte „Kapazitätsintegrität“ im Portal](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
 Für umfassendere Metriken können Sie die App [Power BI Premium-Kapazitätsmetriken](service-admin-premium-monitor-capacity.md) verwenden. Sie bietet Drilldown- und Filterfunktionen sowie äußerst detaillierte Metriken für nahezu alle Aspekte, die sich auf die Kapazitätsleistung auswirken. Weitere Informationen finden Sie unter [Überwachen von Premium-Kapazitäten über die App](service-admin-premium-monitor-capacity.md).
+
+> [!IMPORTANT]
+> Wenn Ihre Power BI Premium-Kapazität einen hohen Ressourcenverbrauch aufweist, der zu Leistungs- oder Zuverlässigkeitsproblemen führt, erhalten Sie eine E-Mail-Benachrichtigung, damit Sie das Problem identifizieren und lösen können. Weitere Informationen finden Sie unter [Benachrichtigungen zu Kapazität und Zuverlässigkeit](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="system-metrics"></a>Systemmetriken
 

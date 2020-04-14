@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237521"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979843"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Datenquellen für Power BI-Berichte in Power BI-Berichtsserver
 Power BI-Berichte können Verbindungen mit einer Reihe von Datenquellen herstellen. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar. Daten können importiert werden, oder Daten können direkt mit DirectQuery oder über eine Liveverbindung mit SQL Server Analysis Services abgefragt werden.
@@ -156,7 +156,7 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 | SharePoint-Online-Liste |Nein |Nein |Nein |Nein |
 | Snowflake |Nein |Nein |Nein |Nein |
 | Sybase-Datenbank |Nein |Nein |Ja |Ja |
-| Teradata |Nein |Nein |Ja |Ja |
+| Teradata |Nein |Nein |Ja |Ja** |
 | appFigures (Beta) |Nein |Nein |Nein |Nein |
 | Azure Analysis Services-Datenbank (Beta) |Nein |Nein |Nein |Nein |
 | Azure Cosmos DB (Beta) |Nein |Nein |Nein |Nein |
@@ -189,6 +189,8 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 | Visual Studio Team Services (Beta) |Nein |Nein |Nein |Nein |
 | Webtrends (Beta) |Nein |Nein |Nein |Nein |
 | Zendesk (Beta) |Nein |Nein |Nein |Nein |
+
+** Die Verwendung der LDAP-Authentifizierung mit Teradata (in Power BI Desktop über den Eingabeaufforderungsbefehl „setx PBI_EnableTeradataLdap true“ aktiviert) wird für die Modellaktualisierung nicht unterstützt.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Liste der unterstützten Authentifizierungsmethoden für DirectQuery
 

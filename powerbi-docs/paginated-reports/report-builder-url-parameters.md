@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922227"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647718"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>URL-Parameter in paginierten Berichten in Power BI
 
@@ -78,6 +78,14 @@ Sie können die folgenden Parameter als Teil einer URL verwenden, um die Benutze
 - CSV 
 - PDF 
 - XML 
+
+**Zustand des Parameterbereichs** gibt an, ob der Parameterbereich beim Laden des Berichts geschlossen oder geöffnet oder vollständig ausgeblendet ist.
+
+-   rdl:parameterPanelState
+
+    - 'collapsed': Der Bericht wird mit geschlossenem Parameterbereich geladen. Die Schaltfläche „Parameter“ ist aktiviert, sodass Benutzer darauf klicken können, um den Bereich aufzuklappen.
+    - 'hidden': Der Bericht wird mit geschlossenem Parameterbereich geladen, und die Schaltfläche „Parameter“ ist deaktiviert.
+    - 'expanded' (Standardwert): Der Bericht wird mit geöffnetem Parameterbereich geladen, und die Schaltfläche „Parameter“ ist aktiviert.
 
 **Geräteinformationen** Sie können zusätzliche Ausgabeparameter für die folgenden Exportformate angeben. 
 
