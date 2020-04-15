@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: Exportieren eines Berichts in eine Datei
           href: export-to.md
+        - name: Exportieren de paginierten Berichts in eine Datei
+          href: export-paginated-report.md
         - name: Automatisches Installieren von Apps
           href: embed-auto-install-app.md
         - name: Erstellen eines Azure Active Directory-Mandanten

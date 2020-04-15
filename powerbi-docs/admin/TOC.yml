@@ -76,6 +76,8 @@
               href: service-security-data-protection-metrics-report.md
         - name: Sicherheit auf Zeilenebene
           href: ../service-admin-rls.md
+        - name: Einrichten der Dataset- und Dataflowzertifizierung
+          href: service-admin-setup-certification.md
         - name: Konfigurieren mobiler Apps mit Intune
           href: ../service-admin-mobile-intune.md
         - name: Power BI Premium

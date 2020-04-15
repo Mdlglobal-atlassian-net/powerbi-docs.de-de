@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: Suchen von Inhalten über die Startseite
           href: end-user-home.md
-        - name: Stellen von Fragen in natürlicher Sprache
-          href: end-user-q-and-a.md
+        - name: Liste der für Nutzer verfügbaren Features
+          href: end-user-features.md
         - name: Erstmaliges Anmelden
           href: end-user-sign-in.md
         - name: Welche Power BI-Lizenz benötige ich?
           href: end-user-license.md
+        - name: Stellen von Fragen in natürlicher Sprache
+          href: end-user-q-and-a.md
         - name: Navigieren durch das neue Design
           href: ../service-new-look.md
         - name: 'Das „neue Design“: Wo sind die Aktionen jetzt?'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: 'Lernen Sie, wie Kreuzfilterung bei Berichtsvisualisierungen funktioniert'
               href: end-user-interactions.md
+            - name: Interagieren mit Berichtslicern
+              href: end-user-slicer.md
             - name: Exportieren eines Berichts als PDF
               href: end-user-pdf.md
             - name: Exportieren eines Berichts in PowerPoint

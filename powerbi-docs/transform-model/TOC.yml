@@ -81,7 +81,9 @@
           items:
             - name: Erstellen und Verwenden von Dataflows
               href: ../service-dataflows-create-use.md
-            - name: Verwenden der erweiterten Compute-Engine mit Datenflüssen
+            - name: Höherstufen oder Zertifizieren von Dataflows
+              href: service-dataflows-promote-certify.md
+            - name: Verwenden der erweiterten Compute-Engine mit Dataflows
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Berechnete Entitäten mit Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md
