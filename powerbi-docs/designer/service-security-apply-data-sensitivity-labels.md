@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538426"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006409"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI (Vorschau)
 
@@ -79,7 +79,7 @@ Berücksichtigen Sie bei der Anwendung von Vertraulichkeitsbezeichnungen Folgend
 * Vertraulichkeitsbezeichnungen für Power BI-Objekte sind nur in der Arbeitsbereichsliste und in Herkunftsansichten sichtbar. In den Ansichten „Favoriten“, „Für mich freigegeben“, „Kürzlich verwendet“ oder in der App-Ansicht werden Bezeichnungen aktuell nicht angezeigt. Beachten Sie jedoch, dass eine auf ein Power BI-Asset angewendete Vertraulichkeitsbezeichnung – auch wenn sie nicht sichtbar ist – immer dauerhaft mit den Daten gespeichert wird, die in Excel-, PowerPoint- und PDF-Dateien exportiert werden.
 * Die Vertraulichkeitsbezeichnung *Dateiverschlüsselungseinstellung*, die entweder im [Microsoft 365 Security Center](https://security.microsoft.com/) oder im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) konfiguriert ist, gilt nur für Dateien, die aus Power BI *exportiert werden*. Sie wird *innerhalb von Power BI* nicht erzwungen.
 * [HYOK-Schutz](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) (Hold Your Own Key) wird für in Power BI angewendete Bezeichnungen nicht unterstützt.
-* Für das Anzeigen und Anwenden von Bezeichnungen in Office-Apps gelten [Lizenzanforderungen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
+* Für das Anzeigen und Anwenden von Bezeichnungen in Office-Apps gelten [Lizenzanforderungen](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Vertraulichkeitsbezeichnungen werden nur für Mandanten in der globalen (öffentlichen) Cloud unterstützt. Für Mandanten in anderen Clouds werden keine Vertraulichkeitsbezeichnungen unterstützt.
 * Vertraulichkeitsbezeichnungen werden für [externe Benutzer (B2B-Gastbenutzer in Azure Active Directory)](../service-admin-azure-ad-b2b.md) nicht unterstützt. Das bedeutet, dass externe Benutzer sich keine Bezeichnungen ansehen und keine Daten als Excel-, PDF- oder PPTX-Datei exportieren können. [Entfernen Sie die Bezeichnung](#removing-sensitivity-labels), um externen Benutzern den Export in diese Dateitypen zu ermöglichen.
 

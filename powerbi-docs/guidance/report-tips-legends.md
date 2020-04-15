@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3724a9e66d5e8baa31bc312699e623e2d00eeeeb
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78238165"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006087"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Tipps zum Formatieren und Implementieren von Legenden in Power BI-Berichten
 
@@ -22,7 +22,7 @@ Dieser Artikel richtet sich an Berichtsautoren, die Power BI-Berichte entwerfen 
 
 Sehen Sie sich das Video mit den sechs Top-Tipps zum Formatieren und Implementieren von Legenden in Power BI-Berichten an.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r9XnHmuWkZQ" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/r9XnHmuWkZQ]
 
 ## <a name="tips"></a>Tipps
 

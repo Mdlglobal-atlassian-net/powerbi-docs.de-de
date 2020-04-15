@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ecb377ccabf3b94f37c3fcc69b24c4437c42281b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d74f35ecb50309bed445985049e306d89a7ba8bd
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609815"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006432"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Verwenden von KI Insights in Power BI Desktop (Vorschau)
 
@@ -183,7 +183,7 @@ Die Schritte in diesem Abschnitt beschreiben, wie Power BI-Benutzern Zugriff auf
 
 Data Scientists verwenden zum Entwickeln und sogar zum Bereitstellen ihrer Machine Learning-Modelle für Machine Learning in erster Linie Python. Im Gegensatz zur klassischen Version von Machine Learning Studio, die die Automatisierung des Erstellens einer Schemadatei für das Modell erleichtert, muss der Data Scientist beim Machine Learning die Schemadatei explizit mit Python generieren.
 
-Diese Schemadatei muss in den bereitgestellten Webdienst für Machine Learning-Modelle aufgenommen werden. Um das Schema für den Webdienst automatisch zu generieren, müssen Sie ein Beispiel der Eingabe/Ausgabe im Eingangsskript für das bereitgestellte Modell angeben. Informationen dazu finden Sie im Unterabschnitt der [(optionalen) Azure Machine Learning Service-Dienstdokumentation zur automatischen Swagger-Schemagenerierung in Bereitstellungsmodellen](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). Der Link beinhaltet das Beispieleingangsskript mit den Anweisungen für die Schemagenerierung.
+Diese Schemadatei muss in den bereitgestellten Webdienst für Machine Learning-Modelle aufgenommen werden. Um das Schema für den Webdienst automatisch zu generieren, müssen Sie ein Beispiel der Eingabe/Ausgabe im Eingangsskript für das bereitgestellte Modell angeben. Informationen dazu finden Sie im Unterabschnitt der [(optionalen) Azure Machine Learning Service-Dienstdokumentation zur automatischen Swagger-Schemagenerierung in Bereitstellungsmodellen](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). Der Link beinhaltet das Beispieleingangsskript mit den Anweisungen für die Schemagenerierung.
 
 Die spezifischen Funktionen _@input\_schema_ und _@output\_schema_ im Eingangsskript referenzieren die Beispielformate für Eingaben und Ausgaben der Variablen _input\_sample_ und _output\_sample_ und nutzen diese Beispiele, um während der Bereitstellung eine OpenAPI-Spezifikation (Swagger) für den Webdienst zu generieren.
 
