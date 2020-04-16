@@ -29,9 +29,12 @@
                 - name: Automatisierung
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: Geführte Tutorials
+            - name: Geführtes Lernen
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
+            - name: Ausbildungskatalog
+              tocHref: /power-bi/learning-catalog/
+              topicHref: /power-bi/learning-catalog/index
             - name: Berichtsserver
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
