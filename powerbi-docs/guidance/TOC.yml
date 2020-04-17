@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Power BI-Berichte
           items:
+            - name: Separate Berichte aus Modellen
+              href: report-separate-from-model.md
             - name: Erweitern von Visuals mit QuickInfos für Berichtsseiten
               href: report-page-tooltips.md
             - name: Verwenden des Drillthrough für Berichtsseiten

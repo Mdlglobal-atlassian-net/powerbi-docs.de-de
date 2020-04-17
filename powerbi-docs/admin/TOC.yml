@@ -16,14 +16,24 @@
       items:
         - name: Administratorrolle in Microsoft 365
           href: ../service-admin-role.md
+        - name: Lizenzierung für Ihre Organisation
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI für US-Behörden
+          items:
+            - name: Power BI für US-Behörden
+              href: ../service-govus-overview.md
+            - name: Registrieren einer US-Behörde
+              href: ../service-govus-signup.md
+        - name: Power BI in regionalen Clouds
+          items:
+            - name: Migrieren zu deutschen „Go Local“-Regionen
+              href: service-admin-migrate-data-germany.md
+            - name: Häufig gestellte Fragen für Kunden von Cloud Deutschland
+              href: ../service-govde-faq.md
         - name: Häufig gestellte Fragen (FAQ)
           href: ../service-admin-faq.md
         - name: 'FAQ: Hochverfügbarkeit und Failover'
           href: ../service-admin-failover.md
-        - name: Migrieren zu deutschen „Go Local“-Regionen
-          href: service-admin-migrate-data-germany.md
-        - name: Häufig gestellte Fragen für Kunden von Cloud Deutschland
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: Verwalten von Premium-Kapazitäten
@@ -38,14 +48,14 @@
       items:
         - name: Lizenzierung und Registrierung
           items:
-            - name: Lizenzierung für Ihre Organisation
-              href: ../service-admin-licensing-organization.md
+            - name: Abrufen von Power BI für Ihre Organisation
+              href: service-admin-org-subscription.md
             - name: Power BI Pro kaufen
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI für US-Behörden
-              href: ../service-govus-overview.md
-            - name: Registrieren einer US-Behörde
-              href: ../service-govus-signup.md
+            - name: Deaktivieren der Self-Service-Registrierung
+              href: service-admin-disable-self-service.md
+            - name: Anzeigen und Verwalten von Benutzerlizenzen
+              href: service-admin-manage-licenses.md
             - name: "Registrieren für eine kostenlose Microsoft\_365-Testversion"
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Hinzufügen von Power BI mit einem Microsoft 365-Partner
