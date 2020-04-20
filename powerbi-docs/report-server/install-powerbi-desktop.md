@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404180"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122256"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 
@@ -96,6 +96,10 @@ Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den
 ### <a name="custom-security"></a>Benutzerdefinierte Sicherheit
 
 Die für den Power BI-Berichtsserver optimierte Version von Power BI Desktop unterstützt die benutzerdefinierte Sicherheit nicht. Wenn Ihre Instanz des Power BI-Berichtsservers mit einer benutzerdefinierten Sicherheitserweiterung konfiguriert ist, können Sie keine Power BI-Berichte über Power BI Desktop (für den Power BI-Berichtsserver optimiert) in dieser Instanz speichern. Sie müssen die PBIX-Berichtsdatei aus Power BI Desktop speichern und anschließend auf der Website des Power BI-Berichtsserver-Portals hochladen.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Speichern von Berichten in Power BI-Berichtsserver in einer anderen Domäne
+
+Beim Speichern eines Power BI-Berichts in Power BI-Berichtsserver werden Ihre Windows-Anmeldeinformationen verwendet. Sie können mit Ihren Windows-Anmeldeinformationen jedoch nicht direkt in einen Berichtsserver in einer anderen Domäne speichern. Diese Funktion wird nicht unterstützt. Verwenden Sie stattdessen einen Webbrowser, um den Berichtsserver anzuzeigen, und laden Sie die Datei manuell von Ihrem Computer hoch.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop für frühere Versionen von Power BI-Berichtsserver
 

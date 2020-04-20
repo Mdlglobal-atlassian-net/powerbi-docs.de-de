@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877585"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006501"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Erstellen eines dynamischen Datenschnitts mit anpassbarer Größe in Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Bei dynamischen Datenschnitten kann die Größe an einen Bericht angepasst werden. Sie können dynamische Datenschnitte in verschiedenen Größen und Formen anzeigen, von horizontal über quadratisch zu vertikal. Dabei werden die Werte im Datenschnitt automatisch neu angeordnet. In Power BI Desktop und im Power BI-Dienst können Sie horizontale Datenschnitte und Datums-/Bereichsdatenschnitte als dynamisch konfigurieren. Datums-/Bereichsdatenschnitte verfügen außerdem über optimierte Touchbereiche und können daher ganz einfach mit einem Fingertippen geändert werden. Sie können dynamische Datenschnitte beliebig klein oder groß erstellen. Sie werden automatisch angepasst, um perfekt in Berichte sowohl im Power BI-Dienst und auch in den mobilen Power BI-Apps zu passen. 
 
@@ -26,7 +28,7 @@ Bei dynamischen Datenschnitten kann die Größe an einen Bericht angepasst werde
 
 Der erste Schritt beim Erstellen eines dynamischen Datenschnitts besteht darin, einen einfachen Datenschnitt zu erstellen. 
 
-1. Wählen Sie im Bereich **Visualisierungen** das **Datenschnittsymbol** ![Datenschnittsymbol](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) aus.
+1. Wählen Sie im Bereich **Visualisierungen** das **Datenschnittsymbol**![Datenschnittsymbol](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) aus.
 2. Ziehen Sie das Feld, das gefiltert werden soll, auf **Feld**.
 
     ![Feld im Datenschnitt hinzufügen](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)

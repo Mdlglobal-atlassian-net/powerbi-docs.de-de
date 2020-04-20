@@ -1,28 +1,41 @@
 ---
-title: Verwenden der Funktion „Datenschnitt für numerischen Bereich“ in Power BI Desktop
-description: Mit dem Datenschnitt in Power BI Desktop numerische Bereiche eingrenzen
+title: Verwenden eines Slicers für numerische Bereiche in Power BI
+description: Hier erfahren Sie, wie Sie mit einem Slicer in Power BI numerische Bereiche eingrenzen.
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539300"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006639"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Verwenden der Funktion „Datenschnitt für numerischen Bereich“ in Power BI Desktop
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>Verwenden eines Slicers für numerische Bereiche in Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Mit dem Feature „Datenschnitt für numerischen Bereich“ können Sie numerischen Spalten eine Reihe an Filtern zuweisen. Sie haben drei Optionen zum Filtern von numerischen Daten: Daten, die zwischen Zahlen liegen oder deren Wert kleiner als oder gleich oder größer als oder gleich eine Zahl ist. Diese einfache Technik eignet sich ausgezeichnet, um Ihre Daten zu filtern.
 
 ![Visual mit dem Datenschnitt für numerischen Bereich](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>Verwenden der Funktion „Datenschnitt für numerischen Bereich“
+## <a name="video"></a>Video
+
+In diesem Video wird die Erstellung eines Slicers für numerische Bereiche veranschaulicht.
+
+> [!NOTE]
+> In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>Hinzufügen eines Slicers für numerische Bereiche
 
 Der Datenschnitt für numerische Bereiche funktioniert wie jeder andere Datenschnitt. Erstellen Sie einfach ein **Datenschnittvisual** für einen Bericht, und legen Sie dann für **Feld** einen numerischen Wert fest. In der folgenden Abbildung ist das Feld **LineTotal** ausgewählt.
 

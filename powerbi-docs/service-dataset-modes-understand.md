@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208055"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267340"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Datasetmodi im Power BI-Dienst
 
@@ -77,19 +77,10 @@ DirectQuery-Modelle bringen eine Reihe von Vorteilen mit:
 - Echtzeitberichte können mithilfe der Funktion [Automatische Seitenaktualisierung](desktop-automatic-page-refresh.md) entwickelt werden
 - Dashboardkacheln, die auf DirectQuery-Modellen basieren, können automatisch bis zu alle 15 Minuten aktualisiert werden
 
-Allerdings gehen mit DirectQuery-Modellen auch viele Nachteile und Einschränkungen einher:
+Allerdings gehen mit DirectQuery-Modellen auch einige Einschränkungen einher:
 
-- Das Modell muss auf einer einzelnen unterstützten Datenquelle basieren. Daher muss jede Form von Datenintegration bereits in der Datenquelle erreicht werden. Die unterstützten Datenquellen sind relationale und analytische Systeme, mit Unterstützung für viele beliebte Datenspeicher.
-
-    > [!TIP]
-    > Viele Microsoft-Datenquellen werden unterstützt. Zu den Microsoft-Datenquellen gehören SQL Server, Azure Data Bricks, Azure HDInsight Spark (Beta), Azure SQL Database und Azure SQL Data Warehouse. Weitere Informationen finden Sie im Artikel [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md).
-
-- Die Leistung kann schwach sein, was sich negativ auf den Power BI-Dienst auswirken kann. Dieses Problem tritt möglicherweise auf, weil einige Abfragen für den Power BI-Dienst CPU-intensiv sind. Ein weiterer Grund kann darin bestehen, dass die Datenquelle nicht für die von Power BI gesendeten Abfragen optimiert ist.
-- Power Query-Abfragen müssen „faltbar“ sein. Diese Anforderung bedeutet, dass Power Query-Logik nicht übermäßig komplex sein kann. Darüber hinaus muss sich die Logik auf die Verwendung von M-Ausdrücken und -Funktionen beschränken, die in native Abfragen umgewandelt werden können, die von der Datenquelle verstanden werden.
-- DAX-Formeln sind auf die Verwendung von M-Ausdrücken und -Funktionen beschränkt, die in native Abfragen umgewandelt werden können, die von der Datenquelle verstanden werden. Ferner gibt es keine Unterstützung für berechnete Tabellen oder DAX-Zeitintelligenz-Funktionen.
-- Es können keine Modellabfragen ausgeführt werden, die das Abrufen von mehr als einer Million Zeilen erfordern
-- Berichte und Dashboards mit mehreren visuellen Elementen zeigen möglicherweise inkonsistente Ergebnisse an, insbesondere, wenn die Datenquelle volatil ist
-- Die Funktionen Q&A und Quick Insights werden nicht unterstützt
+- DAX-Formeln sind auf die Verwendung von M-Ausdrücken und -Funktionen beschränkt, die in native Abfragen umgewandelt werden können, die von der Datenquelle verstanden werden. Berechnete Tabellen werden nicht unterstützt.
+- Die Features Q&A und Quick Insights werden nicht unterstützt.
 
 Aus der Perspektive einer Power BI-Dienstressource ist für DirectQuery-Modelle Folgendes erforderlich:
 

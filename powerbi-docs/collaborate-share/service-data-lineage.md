@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: cb58b71d4fe15458516dc0b1d3f25d79e6ef1a62
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79126050"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267271"
 ---
 # <a name="data-lineage-preview"></a>Datenherkunft (Vorschau)
 In Projekten mit moderner Business Intelligence (BI) kann es eine Herausforderung sein, den Datenfluss von der Datenquelle bis zum Ziel zu verstehen. Die Herausforderung ist noch größer, wenn Sie erweiterte analytische Projekte erstellt haben, die mehrere Datenquellen, Artefakte und Abhängigkeiten umfassen. Es kann schwierig sein, Fragen wie „Was geschieht, wenn ich diese Daten ändere?“ oder „Warum ist dieser Bericht nicht auf dem neusten Stand?“ zu beantworten. Sie benötigen möglicherweise ein Team von Experten oder eine umfassende Untersuchung, um das zu verstehen. Wir haben die Datenherkunftsansicht entworfen, um Sie beim Beantworten dieser Fragen zu unterstützen.
@@ -93,3 +93,4 @@ Die Herkunftsansicht ist eine interaktive Canvas. Mit der Maus und dem Touchpad 
 ## <a name="next-steps"></a>Nächste Schritte
 
 * [Einführung in die Verwendung von Datasets in mehreren Arbeitsbereichen (Vorschau)](../service-datasets-across-workspaces.md)
+* [Datasetauswirkungsanalyse](service-dataset-impact-analysis.md)

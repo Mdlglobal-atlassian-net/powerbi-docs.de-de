@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/08/2020
-ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979797"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006455"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -29,7 +29,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
            -  Fehlerbehebung für Power BI-Berichte, die für bestimmte Datenquellen nicht hochgeladen werden können
            -  Fehlerbehebung für den Downloadlink für Power BI-Berichtsserver, Desktopversion, im Portal
            -  Fehlerbehebung für DynamicImageDPI für das Excel-Rendering
-           -  Fehlerbehebung für Oracle-Verbindungen, die in bestimmten Szenarios mit mehreren Benutzern eine falsche Threadkultur verwenden (weitere Informationen unter [UseInstalledUICulture documentation] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) )
+           -  Fehlerbehebung für Oracle-Verbindungen, die in bestimmten Szenarios mit mehreren Benutzern eine falsche Threadkultur verwenden (weitere Informationen unter [UseInstalledUICulture documentation](https://docs.microsoft.com/power-bi/report-server/connect-data-sources)).
            -  Fehlerbehebung für den CustomHeaders-Standardwert, der Fehler beim Einbetten von Berichten verursacht
            -  Fehlerbehebung für SQL-Parameternamen, die in bestimmten Fällen falsch generiert werden
     - *Version: 1.6.7327.3007 (Build 15.0.1102.759), Veröffentlichung: 23. Januar 2020*

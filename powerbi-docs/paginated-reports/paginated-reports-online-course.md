@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621486"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267593"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Onlinekurs: Paginierte Power BI-Berichte in einem Tag
 
-Der Onlinekurs **Paginierte Power BI-Berichte in einem Tag** vermittelt Ihnen als Berichtsautor das erforderliche technische Wissen, um paginierte Power BI-Berichte erstellen, veröffentlichen und verteilen zu können. Er umfasst Inhalte mit einer Dauer von fast 4 Stunden und 20 Minuten, die Sie sich on demand und kostenlos ansehen können.
+Der Onlinekurs **Paginierte Power BI-Berichte in einem Tag** vermittelt Ihnen als Berichtsautor das erforderliche technische Wissen, um paginierte Power BI-Berichte erstellen, veröffentlichen und verteilen zu können. Er umfasst Inhalte mit einer Dauer von fast 4 Stunden und 20 Minuten, die Sie sich on demand und kostenlos ansehen können. Über ein [Kit zum Selbststudium](#self-study-kit) zum Herunterladen können Sie acht Praxislabs ausführen.
 
 Dieser Kurs richtet sich insbesondere an:
 
@@ -39,7 +39,7 @@ Wenn Sie den Kurs abgeschlossen haben, werden Sie Folgendes gelernt haben:
 
 Sehen Sie sich das Willkommens- und Einführungsvideo an, um mit dem Kurs zu beginnen.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN1t5p9aui0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0]
 
 ## <a name="course-outline"></a>Kursübersicht
 
@@ -79,9 +79,32 @@ Dieser [aus 24 Videos bestehende Kurs](https://www.youtube.com/playlist?list=PL
   - Video 23: [Bonus Content: Evolution of Paginated Reporting (Bonusinhalt: Die Geschichte der Erstellung paginierter Berichte)](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 24: [Bonus Content: Lowering the Barrier to Entry (Bonusinhalt: Zugangsbeschränkungen abbauen)](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
-## <a name="additional-content"></a>Zusätzliche Inhalte
+## <a name="self-study-kit"></a>Kit zum Selbststudium
 
-Die PowerPoint-Präsentation und die Praxislabs werden bald als Paket zum Selbststudium veröffentlicht. Kehren Sie für die entsprechenden Downloadlinks später zu diesem Artikel zurück.
+Laden Sie das Kit zum Selbststudium herunter, das die Präsentationsinhalte und acht Praxislabs umfasst, und richten Sie es ein:
+
+1. Über [diesen Link](https://aka.ms/priad-ilt-student) können Sie das Kit zum Selbststudium (ZIP-Datei) auf Ihren lokalen Computer herunterladen.
+1. Öffnen Sie die Dateieigenschaften, und aktivieren Sie das Kontrollkästchen bei „Blockierung aufheben“ (die Datei wird von Windows möglicherweise als potenziell nicht vertrauenswürdig gekennzeichnet).
+1. Extrahieren Sie den Inhalt der Datei in einen Ordner im Dateisystem. Erstellen Sie am besten einen Ordner mit einem aussagekräftigen Namen, wie etwa **Training**. Die Dokumente der Praxislabs verweisen auf diesen Speicherort als **&lt;CourseFolder&gt;** .
+
+Nach der Extraktion befinden sich die folgenden Ordner im Ordner **PowerBIPRIAD**:
+
+- **Lab01A** (und alle anderen Ordner der Praxislabs): Die Lab-Ordner enthalten die Lab-Dokumente und Lab-Ressourcen, die wiederum Ressourcen und Projektmappendateien enthalten können.
+- **MySolution**: In diesem Ordner werden die Projektmappendateien gespeichert. In den Anweisungen der Praxislabs erfahren Sie, wann Sie diese verwenden sollen.
+- **Presentation**: Dieser Ordner enthält die Präsentationsdatei des Kurses als PDF-Dokument.
+
+### <a name="getting-started"></a>Erste Schritte
+
+Sehen Sie sich am besten zunächst den Onlinekurs an. Durch Öffnen der Datei **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** können Sie zurück zur Präsentationstheorie wechseln. Die Präsentation umfasst acht Lab-Folien, im Verlauf derer Sie aufgefordert werden, Ihre theoretischen Kenntnisse in die Praxis umzusetzen. Außerdem werden zahlreiche Ressourcenlinks zu verwandten Inhalten aufgeführt.
+
+Wenn Sie mit dem ersten Lab beginnen möchten, öffnen Sie die Datei **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Darin erhalten Sie Anweisungen zum Anmelden beim Power BI-Dienst, zum Hochladen eines Datasets und zum Installieren des [Power BI-Berichts-Generators](report-builder-power-bi.md).
+
+> [!NOTE]
+> Hierfür benötigen Sie ein eigenes Power BI-Konto. Falls Sie noch keines besitzen, lesen Sie den Artikel [Registrieren für Power BI als Einzelperson](../service-self-service-signup-for-power-bi.md).
+>
+> Damit Sie eine Power BI Desktop-Datei in einem Arbeitsbereich veröffentlichen können, müssen Sie sich bei Power BI anmelden. Bei der Veröffentlichung wird ein Dataset generiert, das als Berichtsdatenquelle verwendet wird. Sie benötigen weder eine Power BI Pro-Lizenz noch ein Power BI Premium-Abonnement, um ein Dataset als Berichtsdatenquelle verwenden zu können.
+>
+> Einige Aufgaben des Labs beinhalten jedoch das Veröffentlichen des paginierten Berichts in einem Arbeitsbereich. Ein paginierter Bericht kann nur geöffnet werden, wenn er in einem Arbeitsbereich auf [dedizierter Kapazität](../service-premium-what-is.md#dedicated-capacities) gespeichert ist, für den die Workload für paginierte Berichte aktiviert wurde. Wenn Sie keinen Zugriff auf einen geeigneten Arbeitsbereich haben, erhalten Sie einen Link zu einem Video mit Informationen zur Berichtsveröffentlichung.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

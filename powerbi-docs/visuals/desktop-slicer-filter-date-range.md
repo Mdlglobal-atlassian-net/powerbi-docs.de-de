@@ -1,22 +1,24 @@
 ---
-title: Verwenden eines relativen Datenschnitts mit Datum oder relativen Datumsfilters in Power BI Desktop
-description: Hier erfahren Sie, wie Sie mit einem Datenschnitt oder Filter relative Datumsbereiche in Power BI Desktop einschränken.
+title: Verwenden eines Slicers oder Filters für relative Datumsbereiche in Power BI
+description: Hier erfahren Sie, wie Sie mit einem Slicer oder Filter relative Datumsbereiche in Power BI einschränken.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876799"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006783"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Verwenden eines relativen Datenschnitts mit Datum und relativen Datumsfilters in Power BI Desktop
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Verwenden eines Slicers und Filters für relative Datumsbereiche in Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 Mit dem **relativen Datenschnitt mit Datum** oder **relativem Datumsfilter** können Sie zeitbasierte Filter auf beliebige Datumsspalten in Ihrem Datenmodell anwenden. Zum Beispiel können Sie mit dem **relativen Datenschnitt mit Datum** nur Daten zu Verkäufen anzeigen lassen, die innerhalb der letzten 30 Tage (des letzten Monats, des Kalendermonats usw.) aufgetreten sind. Wenn Sie die Daten aktualisieren, wendet der relative Zeitraum automatisch die entsprechende relative Datumseinschränkung an.
 

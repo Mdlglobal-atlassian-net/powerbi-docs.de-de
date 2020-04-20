@@ -1,31 +1,35 @@
 ---
 title: Slicer in Power BI
 description: Ein Power BI-Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird.
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265378"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006788"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Angenommen, die Leser des Berichts sollen die gesamten Vertriebsmetriken einsehen, aber auch die Leistung einzelner Bezirksleiter und in unterschiedlichen Zeiträumen hervorheben können. Sie können separate Berichte oder vergleichende Diagramme erstellen. Alternativ können Sie auch Slicer verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
-
-In diesem Tutorial werden anhand des kostenlosen [Analysebeispiels für den Einzelhandel](../sample-retail-analysis.md) die Erstellung und Formatierung eines Slicers sowie die Verwendung des Slicers für Listen und Datumsbereiche erläutert. Viel Vergnügen beim Entdecken der Möglichkeiten zum Formatieren und Verwenden von Slicern! 
+Angenommen, die Leser des Berichts sollen die gesamten Vertriebsmetriken einsehen, aber auch die Leistung einzelner Bezirksleiter und in unterschiedlichen Zeiträumen hervorheben können. Sie können separate Berichte oder vergleichende Diagramme erstellen. Alternativ können Sie auch *Datenschnitte* verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
 
 ![Animation eines Slicers](media/power-bi-visualization-slicers/slicer2.gif)
+
+Dieser Artikel führt Sie durch das Erstellen und Formatieren eines einfachen Datenschnitts mit dem kostenlosen [Analysebeispiel für den Einzelhandel](../sample-retail-analysis.md). Es wird auch gezeigt, wie Sie steuern können, welche Visuals von einem Datenschnitt betroffen sind und wie eine Synchronisierung mit Datenschnitten auf anderen Seiten durchführen. Hier finden Sie weitere Artikel, in denen erläutert wird, wie bestimmte Datenschnitttypen erstellt werden:
+
+- [Datenschnitt für numerischen Bereich](../desktop-slicer-numeric-range.md)
+- [Relativer Datenschnitt mit Datum](desktop-slicer-filter-date-range.md)
+- Reaktionsfähige und [größenveränderbare Datenschnitte](../power-bi-slicer-filter-responsive.md)
+- [Hierarchiedatenschnitte](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) mit mehreren Feldern
 
 ## <a name="when-to-use-a-slicer"></a>Verwenden von Slicern
 Slicer sind für folgende Zwecke gut geeignet:
@@ -40,14 +44,11 @@ Power BI-Slicer unterstützen Folgendes nicht:
 - Eingabefelder
 - Drilldown
 
+## <a name="create-a-slicer"></a>Erstellen von Slicern
 
-## <a name="create-slicers"></a>Erstellen von Slicern
+Dieser Datenschnitt filtert Daten vom Bezirksleiter. Wenn Sie dieses Verfahren durchlaufen möchten, laden Sie die [PBIX-Datei mit dem Analysebeispiel für den Einzelhandel herunter](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-**Erstellen eines neuen Slicers zum Filtern von Daten nach District Manager (Bezirksleiter)**
-
-1. Laden Sie die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) herunter.
-
-1. Klicken Sie auf der Power BI Desktop-Menüleiste auf **Datei** > **Öffnen**.
+1. Öffnen Sie Power BI Desktop, und wählen Sie über die Menüleiste **Datei** > **Öffnen** aus.
    
 1. Wechseln Sie zur **PBIX-Datei mit dem Analysebeispiel für den Einzelhandel**, und wählen Sie dann **Öffnen** aus.
 
@@ -73,36 +74,6 @@ Power BI-Slicer unterstützen Folgendes nicht:
 
    >[!TIP]
    >Slicerelemente für Listen werden standardmäßig in aufsteigender Reihenfolge sortiert. Wenn Sie die Sortierreihenfolge in absteigend umkehren möchten, klicken Sie rechts oben im Slicer auf die Auslassungspunkte ( **...** ) und anschließend auf **Absteigend sortieren**.
-
-**Erstellen eines neuen Slicers zum Filtern von Daten nach Datumsbereich**
-
-1. Wählen Sie die Seite **Übersicht** des Berichts aus. Wählen Sie, ohne eine Auswahl im Berichtszeichenbereich zu treffen, im Bereich **Felder** den Befehl **Store** >  **OpenDate**aus.
-
-    Diese Aktion füllt im Bereich **Visualisierungen** das Feld **Werte** auf, um eine neue Visualisierung zu erstellen.
-
-1. Wählen Sie bei im Bericht ausgewählter neuer Visualisierung im Bereich **Visualisierungen** das Symbol **Slicer** aus, um die neue Visualisierung in einen Slicer zu konvertieren. Dieser **OpenDate**-Slicer stellt ein Steuerelement des Typs „Schieberegler“ mit ausgefülltem Datumsbereich dar.
-    
-    ![Erstellen der OpenDate-Visualisierung](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. Sie können die Größe des Slicers und der anderen Elemente im Zeichenbereich ändern und diese ziehen, um Platz für den Slicer zu schaffen. Obwohl sich die Größe des Schiebereglers mit der Größe des Slicers ändert, verschwindet er und die Datumsangaben werden abgeschnitten, sobald Sie den Slicer zu stark verkleinern. 
-
-1. Wählen Sie mit dem Schieberegler unterschiedliche Datumsbereiche aus, oder wählen Sie ein Datumsfeld aus, um für eine genauere Auswahl ein Datum einzugeben oder einen Kalender in einem Popupmenü zu öffnen. Beachten Sie die Auswirkungen auf die anderen Visualisierungen auf der Seite.
-    
-    >[!NOTE]
-    >Numerische Datentypen und Datentypen des Typs „Datum/Uhrzeit“ erzeugen standardmäßig Schieberegler-Slicer für Bereiche. Seit dem Power BI-Update im Februar 2018 werden Schieberegler für Bereiche mit Datentypen des Typs „Ganzzahl“ jetzt an ganzzahligen Werten ausgerichtet und nicht mit Dezimalstellen angezeigt. 
-
-1. Wenn Sie bei ausgewähltem Slicer dessen Typ ändern möchten, zeigen Sie mit dem Mauszeiger auf den rechten oberen Bereich des Slicers. Wählen Sie das angezeigte Zirkumflexzeichen und eine der anderen Optionen aus, z. B. **Liste** oder **Vorher**. Beachten Sie, wie sich die Darstellung des Slicers und die Auswahloptionen ändern. 
- 
-    ![Neuer Bereich für Slicer](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-Weitere Informationen zum Erstellen von Slicern für Datums- und numerische Bereiche finden Sie unter [Verwenden der Funktion „Slicer für numerische Bereiche“ in Power BI Desktop](../desktop-slicer-numeric-range.md) oder im folgenden Video.
-   > [!NOTE]
-   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Steuern der Auswirkungen von Slicern auf visuelle Seitenelemente
 Auf Berichtsseiten haben Slicer standardmäßig auf alle anderen Visualisierungen auf dieser Seite Auswirkungen, auch untereinander. Beachten Sie die Auswirkungen auf die anderen Visualisierungen, wenn Sie gerade erstellte Werte in der Liste und Schieberegler für Datumsangaben auswählen. Die gefilterten Daten stellen eine Schnittmenge der Werte dar, die in beiden Slicern ausgewählt wurden. 
@@ -208,7 +179,7 @@ Weitere Informationen zur horizontalen Ausrichtung und zum dynamischen Layout fi
 
 ### <a name="title-options"></a>Titeloptionen
 **Titel** ist standardmäßig **aktiviert**. Diese Auswahl zeigt den Namen des Datenfelds oben im Slicer. 
-- Formatieren Sie für dieses Tutorial den Titeltext wie folgt: 
+- Formatieren Sie für diesen Artikel den Titeltext wie folgt: 
    - **Schriftfarbe**: rot
    - **Textgröße**: **14 pt**
    - **Ausrichtung**: **Zentriert**
@@ -216,7 +187,7 @@ Weitere Informationen zur horizontalen Ausrichtung und zum dynamischen Layout fi
 
 
 ### <a name="items-options-list-slicers-only"></a>Elementoptionen (nur bei Slicern für Listen)
-1. Formatieren Sie für dieses Tutorial die Optionen für **Elemente** wie folgt:
+1. Formatieren Sie für diesen Artikel die Optionen für **Elemente** wie folgt:
     - **Schriftfarbe**: schwarz
     - **Hintergrund**: hellrot
     - **Textgröße**: **10 pt**

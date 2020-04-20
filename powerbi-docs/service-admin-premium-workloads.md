@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979912"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267478"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Konfigurieren von Workloads in einer Premium-Kapazität
 
@@ -24,23 +24,13 @@ In diesem Artikel erfahren Sie, wie Sie Workloads für Power BI Premium-Kapazi
 
 Abfrageworkloads sind für Ressourcen optimiert und durch Ressourcen beschränkt, die durch Ihre Premium-Kapazitäts-SKU bestimmt werden. Premium-Kapazitäten unterstützen auch zusätzliche Workloads, die Ihre Kapazitätsressourcen nutzen können. Arbeitsspeicher-Standardwerte für diese Workloads basieren auf den Kapazitätsknoten, die für Ihre SKU zur Verfügung stehen. Die Einstellungen für maximalen Arbeitsspeicher sind nicht kumulativ. Für KI und Dataflows wird Arbeitsspeicher dynamisch bis zum angegebenen Maximalwert zugeordnet. Für paginierte Berichte ist die Zuordnung dagegen statisch.
 
-### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Microsoft Office-SKUs für Software-as-a-Service-Szenarios (SaaS)
-
-|                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| KI | 40% Standard; mindestens 40% | 20 % Standard; mindestens 20 % | 20 % Standard, mindestens 8 % | 20 % Standard, mindestens 4 % | 20 % Standard, mindestens 2 % |
-| Dataflows | N/V |20% Standard; mindestens 12%  | 20 % Standard, mindestens 5 %  | 20% Standard; mindestens 3% | 20 % Standard, mindestens 2 %  |
-| Paginierte Berichte | N/V |N/V | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
-| | | | | | |
-
-### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Microsoft Azure-SKUs für Plattform-as-a-Service-Szenarios (PaaS)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| KI | N/V  | 40% Standard; mindestens 40%  | 20 % Standard; mindestens 20 % | 20 % Standard, mindestens 8 % | 20 % Standard, mindestens 4 % | 20 % Standard, mindestens 2 % |
-| Dataflows         | 40% Standard; mindestens 40% | 24% Standard; mindestens 24% | 20% Standard; mindestens 12% | 20 % Standard, mindestens 5 %  | 20% Standard; mindestens 3% | 20 % Standard, mindestens 2 %   |
-| Paginierte Berichte | N/V                      | N/V                      | N/V                     | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
-| | | | | | |
+|                   | EM1/A1                  | EM2/A2                  | EM3/A3                  | P1/A4                  | P2/A5                  | P3/A6                   |
+|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| KI                | Nicht unterstützt               | 40% Standard; mindestens 40%  | 20 % Standard; mindestens 20 %  | 20 % Standard, mindestens 8 %  | 20 % Standard, mindestens 4 %  | 20 % Standard, mindestens 2 %   |
+| Datasets          | 100 % Standard; mindestens 67 % | 100 % Standard; mindestens 40 % | 100 % Standard; mindestens 20 % | 100 % Standard; mindestens 8 % | 100 % Standard; mindestens 4 % | 100 % Standard; mindestens 2 %  |
+| Dataflows         | 40% Standard; mindestens 40%  | 24% Standard; mindestens 24%  | 20% Standard; mindestens 12%  | 20 % Standard, mindestens 5 %  | 20% Standard; mindestens 3%  | 20 % Standard, mindestens 2 %   |
+| Paginierte Berichte | Nicht unterstützt               | Nicht unterstützt               | Nicht unterstützt               | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 %  | 20 % Standard, mindestens 2,5 % |
+|                   |                           |                           |                           |                          |                          |                           |
 
 ## <a name="workload-settings"></a>Workloadeinstellungen
 
@@ -83,9 +73,16 @@ Beachten Sie, dass sich diese Einstellung nur auf DirectQuery-Abfragen auswirkt,
 
 #### <a name="max-offline-dataset-size"></a>Maximale Größe für Offlinedataset
 
-Mit dieser Einstellung hindern Sie Ersteller von Berichten daran, ein großes Dataset zu veröffentlichen, das sich negativ auf die Kapazität auswirken könnte. Beachten Sie, dass Power BI die tatsächliche Größe im Arbeitsspeicher erst ermitteln kann, wenn das Dataset in den Arbeitsspeicher geladen wurde. Es ist möglich, dass ein Dataset mit einer geringeren Offline-Größe über einen größeren Speicherbedarf als ein Dataset mit einer größeren Offline-Größe verfügt.
+Mit dieser Einstellung hindern Sie Ersteller von Berichten daran, ein großes Dataset zu veröffentlichen, das sich negativ auf die Kapazität auswirken könnte. Beachten Sie, dass Power BI die tatsächliche Größe im Arbeitsspeicher erst ermitteln kann, wenn das Dataset in den Arbeitsspeicher geladen wurde. Es ist möglich, dass ein Dataset mit einer geringeren Offlinegröße über einen größeren Speicherbedarf verfügt als ein Dataset mit einer größeren Offlinegröße.
 
-Wenn Sie über ein vorhandenes Dataset verfügen, das größer ist als die von Ihnen angegebene Größe für diese Einstellung, kann das Dataset nicht geladen werden, wenn ein Benutzer versucht, darauf zuzugreifen.
+Wenn Sie über ein vorhandenes Dataset verfügen, das größer ist als die von Ihnen angegebene Größe für diese Einstellung, kann das Dataset nicht geladen werden, wenn ein Benutzer versucht, darauf zuzugreifen. Auch wenn das Dataset größer als der für die Datasetworkload konfigurierte maximale Arbeitsspeicher ist, kann es nicht geladen werden.
+
+Zum Schutz der Systemleistung wird unabhängig vom konfigurierten Wert eine zusätzliche SKU-spezifische feste Obergrenze für die maximale Größe des Offlinedatasets angewendet. Diese feste Obergrenze gilt nicht für Power BI-Datasets, die für große Datenmengen optimiert sind. Weitere Informationen finden Sie unter [Große Modelle in Power BI Premium](service-premium-large-models.md).
+
+|                                           | EM1/A1 | EM2/A2 | EM3/A3 | P1/A4 | P2/A5 | P3/A6 |   
+|-------------------------------------------|----------|----------|----------|---------|---------|---------|
+| Feste Obergrenze für die maximale Größe des Offlinedatasets | 3GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
+|                                           |          |          |          |         |         |         |
 
 #### <a name="max-result-row-set-count"></a>Maximale Anzahl von Ergebniszeilen
 
@@ -110,6 +107,7 @@ Die Standardeinstellung ist 0 (null), was dazu führt, dass die folgende SKU-spe
 | Automatische Arbeitsspeichergrenze für Abfragen | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
+Zum Schutz der Systemleistung wird für alle Abfragen, die von Power BI-Berichten ausgeführt werden, eine feste Obergrenze von 10 GB erzwungen, die unabhängig vom Arbeitsspeicherlimit für Abfragen, das vom Benutzer konfiguriert wurde, angewendet wird. Diese feste Obergrenze gilt nicht für Abfragen, die von Tools ausgegeben werden, die das Analysis Services-Protokoll (auch als XMLA bezeichnet) verwenden. Bei zu speicherintensiven Abfragen sollten Benutzer in Erwägung ziehen, die Abfrage oder die zugehörigen Berechnungen zu vereinfachen.
 
 #### <a name="query-timeout"></a>Abfragetimeout
 
@@ -132,8 +130,8 @@ Beachten Sie, dass Power BI-Berichte diesen Standardwert mit einem wesentlich ge
 
 Wenn diese Option aktiviert ist, ermöglicht die automatische Seitenaktualisierung Benutzern in Ihrer Premium-Kapazität das Aktualisieren von Seiten in ihrem Bericht in einem definierten Intervall für DirectQuery-Quellen. Als Kapazitätsadministrator können Sie die folgenden Aufgaben ausführen:
 
-1.  Aktivieren und Deaktivieren der automatischen Seitenaktualisierung
-2.  Definieren eines Mindestintervalls für die Aktualisierung
+- Aktivieren und Deaktivieren der automatischen Seitenaktualisierung
+- Definieren eines Mindestintervalls für die Aktualisierung
 
 Die folgende Abbildung zeigt, wo Sie die Einstellung für das automatische Aktualisierungsintervall finden:
 
@@ -165,9 +163,9 @@ Beim Aktualisieren eines Dataflows erzeugt die Workload für Dataflows einen Con
 
 Es wird empfohlen, die App [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md) zu verwenden, um die Leistung der Workload für Dataflows zu analysieren.
 
-In einigen Fällen führt das Erhöhen der Containergröße möglicherweise nicht zu einer Verbesserung der Leistung. Wenn z. B. der Dataflow Daten aus einer Quelle ausschließlich abruft, ohne wesentliche Berechnungen durchzuführen, hat eine Anpassung der Containergröße vermutlich keine positiven Auswirkungen. Die Erhöhung der Containergröße kann hilfreich sein, wenn die Workload für Dataflows mehr Speicher für Entitätsaktualisierungen belegen kann. Dadurch kann die Aktualisierungszeit für Entitäten verkürzt werden, für die rechenintensive Vorgänge ausgeführt werden.
+In einigen Fällen führt das Erhöhen der Containergröße möglicherweise nicht zu einer Verbesserung der Leistung. Wenn z. B. der Dataflow nur Daten aus einer Quelle abruft, ohne wesentliche Berechnungen durchzuführen, hat eine Änderung der Containergröße vermutlich keine positiven Auswirkungen. Die Erhöhung der Containergröße kann hilfreich sein, wenn die Workload für Dataflows mehr Speicher für Entitätsaktualisierungen belegen kann. Dadurch kann die Aktualisierungszeit für Entitäten verkürzt werden, für die rechenintensive Vorgänge ausgeführt werden.
 
-Der Wert für „Containergröße“ darf die maximale Größe des Arbeitsspeichers für die Workload der Dataflows nicht überschreiten. Eine P1-Kapazität verfügt beispielsweise über 25 GB Arbeitsspeicher. Wenn für die Einstellung „Max. Arbeitsspeicher“ ein Wert von 20 % für die Workload der Dataflows festgelegt ist, kann der Wert von „Containergröße“ 5000 MB nicht überschreiten. In keinem Fall kann der Wert von „Containergröße“ den von „Max. Arbeitsspeicher“ überschreiten, und zwar auch dann nicht, wenn Sie einen höheren Wert festlegen.
+Der Wert für „Containergröße“ darf die maximale Größe des Arbeitsspeichers für die Dataflowworkload nicht überschreiten. Eine P1-Kapazität verfügt beispielsweise über 25 GB Arbeitsspeicher. Wenn für die Einstellung „Max. Arbeitsspeicher“ ein Wert von 20 % für die Workload der Dataflows festgelegt ist, kann der Wert von „Containergröße“ 5000 MB nicht überschreiten. In keinem Fall kann der Wert von „Containergröße“ den von „Max. Arbeitsspeicher“ überschreiten, und zwar auch dann nicht, wenn Sie einen höheren Wert festlegen.
 
 ### <a name="paginated-reports"></a>Paginierte Berichte
 
@@ -178,7 +176,7 @@ Die Workload für paginierte Berichte ermöglicht Ihnen die Ausführung paginier
 | **Max. Arbeitsspeicher (%)** | Der Prozentsatz des maximal verfügbaren Arbeitsspeichers, der von paginierten Berichten in einer Kapazität verwendet werden kann. |
 |  |  |
 
-Paginierte Berichte bieten die gleichen Funktionen wie SSRS-Berichte (SQL Server Reporting Services) einschließlich der Möglichkeit für Berichtsautoren, benutzerdefinierten Code hinzuzufügen.  Dies ermöglicht es Autoren, Berichte dynamisch zu ändern und beispielsweise die Textfarben basierend auf Codeausdrücken zu ändern.  Paginierte Berichte werden innerhalb eines geschützten Sandkastens pro Kapazität ausgeführt, um eine ordnungsgemäße Isolation sicherzustellen. Berichte, die mit derselben Kapazität ausgeführt werden, können Nebenwirkungen verursachen. Ebenso wie Sie die Autoren einschränken, die Inhalte in einer Instanz von SSRS veröffentlichen zu können, empfiehlt es sich, eine ähnliche Vorgehensweise bei paginierten Berichten zu befolgen. Stellen Sie sicher, dass Autoren, die Inhalte in einer Kapazität veröffentlichen, von der Organisation als vertrauenswürdig eingestuft wurden. Sie können Ihre Umgebung weiter schützen, indem Sie mehrere Kapazitäten bereitstellen und jeweils verschiedene Autoren zuweisen. 
+Paginierte Berichte bieten die gleichen Funktionen wie SSRS-Berichte (SQL Server Reporting Services) einschließlich der Möglichkeit für Berichtsautoren, benutzerdefinierten Code hinzuzufügen.  Dies ermöglicht es Autoren, Berichte dynamisch zu ändern und beispielsweise die Textfarben basierend auf Codeausdrücken zu ändern.  Paginierte Berichte werden innerhalb eines geschützten Sandkastens pro Kapazität ausgeführt, um eine ordnungsgemäße Isolation sicherzustellen. Berichte, die mit derselben Kapazität ausgeführt werden, können Nebenwirkungen verursachen. Ebenso wie Sie die Autoren einschränken, die Inhalte in einer SSRS-Instanz veröffentlichen können, wird bei paginierten Berichten eine ähnliche Vorgehensweise empfohlen. Stellen Sie sicher, dass Autoren, die Inhalte in einer Kapazität veröffentlichen, von der Organisation als vertrauenswürdig eingestuft wurden. Sie können Ihre Umgebung weiter schützen, indem Sie mehrere Kapazitäten bereitstellen und jeweils verschiedene Autoren zuweisen. 
 
 Teilweise kann es vorkommen, dass die Workload für paginierte Berichte nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts beim Rendern von Berichten angezeigt. Deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut, um dieses Problem zu beheben.
 
