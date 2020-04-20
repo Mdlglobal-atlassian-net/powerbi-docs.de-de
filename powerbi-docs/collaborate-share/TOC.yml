@@ -23,6 +23,8 @@
           items:
             - name: Erstellen neuer Arbeitsbereiche
               href: ../service-create-the-new-workspaces.md
+            - name: Auswählen des neuen Designs für Arbeitsbereiche
+              href: service-workspaces-new-look.md
             - name: Upgrade für klassische Arbeitsbereiche
               href: ../designer/service-upgrade-workspaces.md
             - name: Erstellen von Arbeitsbereichen
@@ -65,8 +67,6 @@
               href: ../service-publish-to-web.md
             - name: 'Freigeben eines Dashboards, das mit einer Excel-Arbeitsmappe in OneDrive verknüpft ist'
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher für Excel
-              href: ../publisher-for-excel.md
         - name: Visuelle Elemente verwenden
           items:
             - name: In Excel analysieren

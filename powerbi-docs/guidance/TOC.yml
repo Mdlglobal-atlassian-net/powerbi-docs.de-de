@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: Überprüfen der Berichtsleistung
               href: monitor-report-performance.md
+            - name: Problembehandlung für die Berichtsleistung
+              href: report-performance-troubleshoot.md
     - name: Whitepaper
       items:
         - name: Whitepaper – Übersicht
