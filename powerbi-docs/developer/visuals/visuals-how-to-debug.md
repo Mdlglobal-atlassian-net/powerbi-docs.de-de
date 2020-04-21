@@ -18,7 +18,7 @@ ms.locfileid: "80113713"
 # <a name="how-to-debug-power-bi-visuals"></a>Debuggen von Power BI-Visuals
 
 Diese Seite bietet einige Tipps für das Debuggen beim Erstellen von Visuals. Sie enthält grundlegende Schritte und zeigt die Unterschiede zwischen dem Debuggen von standardmäßigen Front-End-Anwendungen und Power BI-Visuals auf.
-Wenn Sie diesen Artikel gelesen haben, können Sie Power BI-Visuals mithilfe von Breakpoints debuggen, Ausnahmen protokollieren und Ausnahmen in Chrome und Edge abfangen.
+Wenn Sie diesen Artikel gelesen haben, können Sie Power BI-Visuals mithilfe von Breakpoints debuggen, Ausnahmen protokollieren und Ausnahmen in Chrome und Microsoft Edge abfangen.
 
 ## <a name="using-breakpoints"></a>Verwenden von Breakpoints
 
