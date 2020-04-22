@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877067"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637892"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Abrufen von Daten aus Excel-Arbeitsmappendateien
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -124,8 +124,6 @@ Wenn Sie derzeit auf „Importieren“ klicken, importiert Power BI lediglich di
 **Geplante Aktualisierung** – Wenn Ihre Excel-Arbeitsmappendatei mit einer externen Datenquelle verknüpft wird oder Sie von einem lokalen Laufwerk importieren, können Sie die Geplante Aktualisierung einrichten, um sicherzustellen, dass Ihr Dataset oder Bericht immer auf dem neuesten Stand ist. In den meisten Fällen ist das Einrichten einer geplanten Aktualisierung recht einfach. Eine detaillierte Beschreibung übersteigt aber den Rahmen dieses Artikels. Weitere Informationen finden Sie unter [Aktualisieren von Daten in Power BI](refresh-data.md).
 
 [Veröffentlichen in Power BI aus Excel 2016](service-publish-from-excel.md)
-
-[Power BI Publisher für Excel](publisher-for-excel.md)
 
 [Aktualisieren von Daten in Power BI](refresh-data.md)
 

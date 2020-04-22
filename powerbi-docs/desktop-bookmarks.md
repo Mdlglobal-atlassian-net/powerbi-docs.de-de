@@ -1,20 +1,20 @@
 ---
 title: Verwenden von Lesezeichen zum Teilen von Erkenntnissen und Erstellen von Präsentationen in Power BI Desktop
 description: Mit den Lesezeichen in Power BI Desktop können Sie Ansichten und Einstellungen in Ihren Berichten speichern und Präsentationen erstellen, die eine Geschichte erzählen.
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/18/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: b986b86642e5ac3e6a8394010bf27922daaf5ea7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378982"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439915"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Erstellen von Lesezeichen zum Teilen von Erkenntnissen und Erstellen von Präsentationen in Power BI Desktop
 Mithilfe von *Lesezeichen* können Sie in Power BI Desktop die aktuell konfigurierte Ansicht einer Berichtsseite, einschließlich Filterung und Zustands der Visuals, erfassen. Sie können später zu diesem Zustand zurückkehren, indem Sie das gespeicherte Lesezeichen auswählen. 

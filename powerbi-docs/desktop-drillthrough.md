@@ -1,20 +1,20 @@
 ---
 title: Einrichten des Drillthroughfeatures in Power BI-Berichten
 description: Hier erfahren Sie, wie Sie auf einer neuen Berichtsseite in Power BI-Berichten Drilldowns in Daten ausführen.
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 5e415fb46f845312253f37d8549a4eecb5b10ae7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201453"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439777"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Einrichten des Drillthroughfeatures in Power BI-Berichten
 Mit einem *Drillthrough* können Sie in Power BI-Berichten eine Seite erstellen, die sich auf eine bestimmte Entität konzentriert, z. B. auf einen Lieferanten, einen Kunden oder einen Hersteller. Wenn Ihre Berichtsleser einen Drillthrough verwenden möchten, klicken sie mit der rechten Maustaste auf einen Datenpunkt auf anderen Berichtsseiten und führen einen Drillthrough zu der fokussierten Seite aus, um Details abzurufen, die entsprechend diesem Kontext gefiltert sind. Sie können auch eine [Schaltfläche erstellen, die einen Drilltrough in Details ausführt](desktop-drill-through-buttons.md), wenn auf sie geklickt wird.

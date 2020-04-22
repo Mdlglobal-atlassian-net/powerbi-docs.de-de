@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267478"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637732"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Konfigurieren von Workloads in einer Premium-Kapazität
 
@@ -202,8 +202,9 @@ Workloads können mithilfe der REST-APIs vom Typ [Capacities](https://docs.micro
 
 Die [Power BI Premium-Kapazitätsmetriken-App](service-admin-premium-monitor-capacity.md) bietet Metriken für Datasets, Dataflows und paginierte Berichte zur Überwachung von Workloads, die für Ihre Kapazitäten aktiviert sind. 
 
-> [!IMPORTANT]
-> Wenn Ihre Power BI Premium-Kapazität einen hohen Ressourcenverbrauch aufweist, der zu Leistungs- oder Zuverlässigkeitsproblemen führt, erhalten Sie eine E-Mail-Benachrichtigung, damit Sie das Problem identifizieren und lösen können. Weitere Informationen finden Sie unter [Benachrichtigungen zu Kapazität und Zuverlässigkeit](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
+
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 

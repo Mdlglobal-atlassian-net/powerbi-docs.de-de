@@ -1,5 +1,5 @@
 ---
-title: Dataset-Auswirkungsanalyse (Vorschau)
+title: Datasetauswirkungsanalyse
 description: Visualisieren und analysieren Sie nachgelagerte Auswirkungen von Änderungen an Datasets.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268027"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525328"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Dataset-Auswirkungsanalyse (Vorschau)
+# <a name="dataset-impact-analysis"></a>Datasetauswirkungsanalyse
 
 Wenn Sie Änderungen an einem Dataset vornehmen oder in Betracht ziehen, solche Änderungen vorzunehmen, ist es wichtig, dass Sie die Auswirkungen dieser Änderungen auf nachgeschaltete Berichte und Dashboards, die von diesem Dataset abhängig sind, abschätzen können. Die **Dataset-Auswirkungsanalyse** stellt Informationen bereit, die Ihnen bei dieser Einschätzung helfen können.
 * Sie zeigt Ihnen, wie viele Arbeitsbereiche, Berichte und Dashboards möglicherweise von Ihrer Änderung betroffen sind, und lässt Sie einfach zu den Arbeitsbereichen navigieren, in denen sich die betroffenen Berichte und Dashboards befinden, sodass Sie diese weiter untersuchen können.

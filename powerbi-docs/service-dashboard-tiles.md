@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872780"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637880"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Einführung in Dashboardkacheln für Power BI-Designer
 
@@ -41,7 +41,6 @@ Es gibt viele verschiedene Möglichkeiten, eine Kachel zu Ihrem Dashboard hinzuz
 * [ein Bericht](service-dashboard-pin-tile-from-report.md)
 * [ein anderes Dashboard](service-pin-tile-to-another-dashboard.md)
 * [einer Excel-Arbeitsmappe auf OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher für Excel](publisher-for-excel.md)
 * [Quick Insights (Schnelle Einblicke)](service-insights.md)
 * [ein lokaler paginierter Bericht im Power BI-Berichtsserver oder in SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 

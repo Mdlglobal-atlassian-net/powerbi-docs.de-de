@@ -1,20 +1,20 @@
 ---
 title: Verwenden von Schaltflächen in Power BI
 description: Sie können in Power BI-Berichten Schaltflächen hinzufügen, sodass das Verhalten Ihrer Berichte Apps ähnelt und sie von Benutzern noch einfacher verwendet werden können.
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201624"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439823"
 ---
 # <a name="use-buttons-in-power-bi"></a>Verwenden von Schaltflächen in Power BI
 Durch das Verwenden von **Schaltflächen** in Power BI können Sie Berichte erstellen, die sich ähnlich wie Apps verhalten, und dadurch eine interaktive Umgebung erstellen, sodass die Benutzer auf Power BI-Elemente zeigen, klicken oder auf andere Weise mit diesen interagieren können. Sie können in Berichten in **Power BI Desktop** und im **Power BI-Dienst** Schaltflächen hinzufügen. Wenn Sie Ihre Berichte im Power BI-Dienst freigeben, können Benutzer sie ähnlich wie Apps verwenden.

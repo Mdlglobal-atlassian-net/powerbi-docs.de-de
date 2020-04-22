@@ -1,5 +1,5 @@
 ---
-title: Datenherkunft (Vorschau)
+title: Datenherkunft
 description: In Projekten mit moderner Business Intelligence (BI) ist es für viele Kunden eine wesentliche Herausforderung, den Datenfluss von der Datenquelle bis zum Ziel zu verstehen.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267271"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525397"
 ---
-# <a name="data-lineage-preview"></a>Datenherkunft (Vorschau)
+# <a name="data-lineage"></a>Datenherkunft
 In Projekten mit moderner Business Intelligence (BI) kann es eine Herausforderung sein, den Datenfluss von der Datenquelle bis zum Ziel zu verstehen. Die Herausforderung ist noch größer, wenn Sie erweiterte analytische Projekte erstellt haben, die mehrere Datenquellen, Artefakte und Abhängigkeiten umfassen. Es kann schwierig sein, Fragen wie „Was geschieht, wenn ich diese Daten ändere?“ oder „Warum ist dieser Bericht nicht auf dem neusten Stand?“ zu beantworten. Sie benötigen möglicherweise ein Team von Experten oder eine umfassende Untersuchung, um das zu verstehen. Wir haben die Datenherkunftsansicht entworfen, um Sie beim Beantworten dieser Fragen zu unterstützen.
 
 ![Power BI-Herkunftsansicht](media/service-data-lineage/service-data-lineage-view.png)
