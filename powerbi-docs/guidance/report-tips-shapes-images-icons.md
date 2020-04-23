@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a4c1357ba2bcd4e4703a09974ee01a3ee10ad87b
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006547"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065568"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Tipps zur Verbesserung der Analyse mit Formen, Bildern und Symbolen in Power BI-Berichten
 
@@ -37,7 +37,7 @@ Zusammengefasst sind die besten vier Tipps zur Verbesserung der Analyse mit Form
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Tipps zum Erstellen überzeugender Berichte](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Tipps zum Erstellen überzeugender Berichte](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-Video: [Die besten vier Tipps zur Verbesserung der Analyse mit Piktogrammen in Power BI](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

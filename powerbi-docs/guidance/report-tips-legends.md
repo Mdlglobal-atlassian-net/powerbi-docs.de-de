@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006087"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066105"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Tipps zum Formatieren und Implementieren von Legenden in Power BI-Berichten
 
@@ -39,7 +39,7 @@ Hier die sechs Top-Tipps zum Formatieren und Implementieren von Legenden in Powe
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Tipps zum Erstellen überzeugender Berichte](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Tipps zum Erstellen überzeugender Berichte](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-Video: [Top 6 Tips for Legend Formatting & Implementation in Power BI](https://www.youtube.com/watch?v=r9XnHmuWkZQ) (Sechs Top-Tipps zum Formatieren und Implementieren von Legenden in Power BI)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
