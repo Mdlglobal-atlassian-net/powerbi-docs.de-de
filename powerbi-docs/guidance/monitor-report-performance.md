@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610016"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525535"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Überwachen der Berichtsleistung in Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "77610016"
 Die Überwachung der Leistung ist in den folgenden Situationen relevant:
 
 - Das Importdatenmodell wird langsam aktualisiert.
-- Ihre DirectQuery- oder LiveConnection-Berichte werden langsam generiert.
+- Ihre DirectQuery-Berichte oder Liveverbindungsberichte werden langsam generiert.
 - Ihre Modellberechnungen werden langsam durchgeführt.
 
 Ein Schwerpunkt der kontinuierlichen Optimierung sollten langsame Abfragen oder visuelle Berichtselemente sein.
@@ -85,6 +85,7 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Abfragediagnose](/power-query/QueryDiagnostics)
 - [Leistungsanalyse](../desktop-performance-analyzer.md)
+- [Problembehandlung für die Berichtsleistung in Power BI](report-performance-troubleshoot.md)
 - [Power BI Premium Metrics-App](../service-premium-metrics-app.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

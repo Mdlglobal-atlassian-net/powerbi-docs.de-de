@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576842"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637844"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Erstellen von Matrixvisualisierungen in Power BI
 
@@ -57,7 +57,8 @@ Der Erweiterungsstatus der Matrix wird zusammen mit dem Bericht gespeichert. Ein
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Wenn Sie einen Bericht auf der Grundlage eines mehrdimensionalen Analysis Services-Modells entwickeln, gibt es für das Erweitern/Reduzieren einiges zu beachten, wenn das Modell das Feature für Standardmember verwendet. Weitere Informationen finden Sie unter [Verwenden von mehrdimensionalen Modellen in Power BI](../desktop-default-member-multidimensional-models.md).
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Verwenden von Drilldown mit dem Matrixvisual
 Mit dem Matrixvisual können Sie viele interessante Drilldownaktionen durchführen, die zuvor nicht verfügbar waren. Hierzu zählt die Möglichkeit des Drilldowns auf Zeilen, Spalten und sogar einzelne Abschnitte und Zellen. Im Folgenden befassen Sie sich mit der Funktionsweise.

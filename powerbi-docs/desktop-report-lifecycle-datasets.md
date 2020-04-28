@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206836"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525423"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop
 
@@ -91,7 +91,7 @@ Wählen Sie in Power BI Desktop auf dem Menüband **Start** die Option **Daten a
 
 Sofern Sie noch nicht angemeldet sind, werden Sie von Power BI zur Anmeldung aufgefordert. Nach der Anmeldung wird in Power BI angezeigt, in welchen Arbeitsbereichen Sie Mitglied sind. Sie können auswählen, welcher Arbeitsbereich das Dataset enthält, mit dem Sie eine Power BI-Liveverbindung herstellen möchten.
 
-Die Datasets in der Liste sind alles freigegebene Datasets aller Arbeitsbereiche, für die Sie über Erstellberechtigungen verfügen. Sie können nach einem bestimmten Dataset suchen und dessen Namen, Besitzer und den entsprechenden Arbeitsbereich sowie die letzte Aktualisierung anzeigen. Außerdem werden oben in der Liste **EMPFEHLUNG** für Datasets angezeigt, die entweder zertifiziert oder beworben wurden.
+Die Datasets in der Liste sind alles freigegebene Datasets aller Arbeitsbereiche, für die Sie über Erstellberechtigungen verfügen. Sie können nach einem bestimmten Dataset suchen und dessen Namen, Besitzer und den entsprechenden Arbeitsbereich sowie die letzte Aktualisierung anzeigen. Außerdem werden oben in der Liste unter **UNTERSTÜTZUNG** Datasets angezeigt, die entweder zertifiziert oder beworben wurden.
 
 ![Liste verfügbarer Datasets](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

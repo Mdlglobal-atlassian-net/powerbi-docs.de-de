@@ -1,20 +1,20 @@
 ---
 title: Konfigurieren von geplanten Aktualisierungen
 description: Hier werden die Schritte zur Auswahl eines Gateways und zur Konfiguration einer geplanten Aktualisierung behandelt.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958400"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675701"
 ---
 # <a name="configure-scheduled-refresh"></a>Konfigurieren von geplanten Aktualisierungen
 
@@ -32,17 +32,17 @@ So gelangen Sie zum Bildschirm für die **Geplante Aktualisierung**
 
 ## <a name="gateway-connection"></a>Gatewayverbindung
 
-Abhängig davon, ob Sie ein Personal oder Enterprise-Gateway online und verfügbar haben, werden Ihnen hier verschiedene Optionen angezeigt.
+Hier werden Ihnen hier verschiedene Optionen angezeigt, die davon abhängig sind, ob Sie ein persönliches Gateway oder Unternehmensgateway online geschaltet haben.
 
-Falls kein Gateway verfügbar ist, wird Ihnen **Gatewayverbindung** als deaktiviert angezeigt. Ihnen wird auch eine Meldung angezeigt, die angibt, wie Sie das Personal Gateway installieren.
+Falls kein Gateway verfügbar ist, wird Ihnen die **Gatewayverbindung** als deaktiviert angezeigt. Ihnen wird auch eine Meldung angezeigt, die angibt, wie Sie das persönliche Gateway installieren.
 
 ![Gateway nicht konfiguriert](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-Falls Sie ein persönliches Gateway konfiguriert haben, steht es Ihnen als Auswahlmöglichkeit zur Verfügung, sofern es online ist. Es wird „offline“ anzeigen, falls es nicht verfügbar ist.
+Falls Sie ein persönliches Gateway konfiguriert haben, steht es als Auswahlmöglichkeit zur Verfügung, sofern es online ist. Es wird als offline angezeigt, wenn es nicht verfügbar ist.
 
 ![Gatewayverbindung](media/refresh-scheduled-refresh/gateway-connection.png)
 
-Sie können auch das Enterprise-Gateway verwenden, falls Ihnen eins zur Verfügung steht. Ihnen wird nur dann ein Enterprise-Gateway als verfügbar angezeigt, wenn Ihr Konto in der Registerkarte **Benutzer** der für ein bestimmtes Gateway konfigurierten Datenquelle aufgelistet ist.
+Sie können auch das Enterprise-Gateway verwenden, falls Ihnen eins zur Verfügung steht. Ihnen wird nur dann ein Unternehmensgateway als verfügbar angezeigt, wenn Ihr Konto auf der Registerkarte **Benutzer** der für ein bestimmtes Gateway konfigurierten Datenquelle aufgelistet ist.
 
 ## <a name="data-source-credentials"></a>Anmeldeinformationen für die Datenquelle
 
@@ -52,12 +52,12 @@ Falls Sie das persönliche Gateway zum Aktualisieren der Daten verwenden, müsse
 
 ![Anmeldeinformationen für die Datenquelle](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
 
-Sie müssen sich nur beim ersten Mal bei Datenquellen anmelden, wenn Sie dieses Dataset aktualisiert haben. Sobald Sie sie eingegeben haben, werden diese Anmeldeinformationen im Dataset beibehalten.
+Sie müssen sich nur beim ersten Mal bei einer Datenquelle anmelden, wenn Sie dieses Dataset aktualisieren. Sobald Sie sie eingegeben haben, werden diese Anmeldeinformationen im Dataset beibehalten.
 
 > [!NOTE]
-> Wenn sich das Kennwort, das Sie für die Anmeldung in der Datenquelle verwenden, geändert hat oder es abgelaufen ist, erfordern einige Authentifizierungsmethoden, dass Sie das Kennwort für die Datenquellen auch unter **Datenquellen-Anmeldeinformationen** ändern.
+> Wenn sich das Kennwort, das Sie für die Anmeldung in der Datenquelle verwenden, geändert hat oder abgelaufen ist, erfordern einige Authentifizierungsmethoden, dass Sie das Kennwort für die Datenquellen auch unter **Datenquellen-Anmeldeinformationen** ändern.
 
-Wenn etwas schief geht, steht das Problem normalerweise im Zusammenhang damit, dass das Gateway offline ist, weil es sich nicht bei Windows anmelden und den Dienst starten konnte, oder damit, dass sich Power BI nicht bei den Datenquellen anmelden konnte, um eine Abfrage nach aktualisierten Daten durchzuführen. Wenn die Aktualisierung fehlschlägt, überprüfen Sie das Dataseteinstellungen. Wenn der Gatewaydienst offline ist, wird Ihnen unter **Status** der Fehler angezeigt. Wenn sich Power BI nicht bei den Datenquellen anmelden kann, sehen Sie eine Fehlermeldung in den Anmeldeinformationen für die Datenquellen.
+Wenn etwas schief geht, ist meistens entweder das Gateway offline, weil es sich nicht bei Windows anmelden und den Dienst starten konnte, oder Power BI konnte sich nicht bei den Datenquellen anmelden, um eine Abfrage nach aktualisierten Daten durchzuführen. Wenn die Aktualisierung fehlschlägt, überprüfen Sie das Dataseteinstellungen. Wenn der Gatewaydienst offline ist, wird Ihnen unter **Status** der Fehler angezeigt. Wenn sich Power BI nicht bei den Datenquellen anmelden kann, wird eine Fehlermeldung in den Anmeldeinformationen für die Datenquellen angezeigt.
 
 ### <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -84,14 +84,18 @@ Der Schieberegler **Halten Sie Ihre Daten aktuell** muss auf **Ja** festgelegt s
 
 ## <a name="whats-supported"></a>Was wird unterstützt?
 
+
+> [!NOTE]
+> Die geplante Aktualisierung wird nach vier aufeinanderfolgenden Fehlern ebenfalls automatisch deaktiviert.
+
 Bestimmte Datasets werden gegenüber verschiedenen Gateways für geplante Aktualisierungen unterstützt. Hier finden Sie eine Referenz, dazu was verfügbar ist.
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway – Personal
 
 **Power BI Desktop**
 
-* Alle Onlinedatenquellen, die unter **Daten abrufen** und im Abfrage-Editor von Power BI Desktop angezeigt werden.
-* Alle lokalen Datenquellen, die unter **Daten abrufen** oder im Abfrage-Editor von Power BI Desktop angezeigt werden, außer Hadoop-Dateien (HDFS) und Microsoft Exchange.
+* Alle Onlinedatenquellen, die unter **Daten abrufen** und im Abfrage-Editor von Power BI Desktop angezeigt werden
+* Alle lokalen Datenquellen, die unter **Daten abrufen** oder im Abfrage-Editor von Power BI Desktop angezeigt werden, außer Hadoop-Dateien (HDFS) und Microsoft Exchange
 
 **Excel**
 

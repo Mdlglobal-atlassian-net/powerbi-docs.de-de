@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207825"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675616"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Erstellen der neuen Arbeitsbereiche in Power BI
 
@@ -127,7 +127,7 @@ In den neuen Arbeitsbereichen können Sie keine organisationsbezogenen Inhaltspa
 
     ![Inhaltsliste der Arbeitsbereiche](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Fügen Sie diesen Arbeitsbereichen Sicherheitsgruppen, Verteilerlisten, Office 365-Gruppen oder Einzelpersonen als Mitglieder, Mitwirkende oder Administratoren hinzu. Eine Erläuterung der verschiedenen Rollen finden Sie unter [Rollen in den neuen Arbeitsbereichen](service-new-workspaces.md#roles-in-the-new-workspaces).
+1. Fügen Sie diesen Arbeitsbereichen Sicherheitsgruppen, Verteilerlisten, Office 365-Gruppen oder Einzelpersonen als anzeigende Benutzer, Mitglieder, Mitwirkende oder Administratoren hinzu. Eine Erläuterung der verschiedenen Rollen finden Sie unter [Rollen in den neuen Arbeitsbereichen](service-new-workspaces.md#roles-in-the-new-workspaces).
 
     ![Arbeitsbereiche: Hinzufügen von Mitgliedern, Administratoren und Mitwirkenden](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

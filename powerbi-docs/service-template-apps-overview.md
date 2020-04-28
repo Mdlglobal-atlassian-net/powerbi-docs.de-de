@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376682"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066323"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Was sind Power BI-Vorlagen-Apps?
 
 Mit den neuen *Vorlagen-Apps* von Power BI können Power BI-Partner Power BI-Apps ohne oder mit nur wenig Code erstellen und für Power BI-Kunden bereitstellen.  Dieser Artikel enthält eine Übersicht über Vorlagen-Apps in Power BI.
 
-Vorlagen-Apps sind ein Ersatz für die aktuellen Dienstinhaltspakete. Als Power BI-Partner erstellen Sie sofort verfügbare Inhalte für Ihre Kunden und veröffentlichen diese selbst.  
+Als Power BI-Partner erstellen Sie sofort verfügbare Inhalte für Ihre Kunden und veröffentlichen diese selbst.  
 
 Sie erstellen Vorlagen-Apps, mit denen Ihre Kunden Verbindungen und Instanziierungen innerhalb ihrer eigenen Konten ausführen können. Als Experten auf ihrem Fachgebiet können die Kunden ihre Daten so freigeben, dass diese von ihren Geschäftsbenutzern ganz einfach genutzt werden können.  
 
-Sie übermitteln Ihre Vorlagen-Apps an das Cloud-Partnerportal. Die Apps werden dann im [Marketplace für Power BI-Apps](https://app.powerbi.com/getdata/services) und in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) öffentlich zur Verfügung gestellt. Hier erhalten Sie einen Überblick über die Erstellung von öffentlichen Vorlagen-Apps.
+Sie übermitteln eine Vorlagen-App an Partner Center. Die Apps werden dann im [Marketplace für Power BI-Apps](https://app.powerbi.com/getdata/services) und in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) öffentlich zur Verfügung gestellt. Hier erhalten Sie einen Überblick über die Erstellung von öffentlichen Vorlagen-Apps.
 
 ## <a name="power-bi-apps-marketplace"></a>Marketplace für Power BI-Apps
 
@@ -38,7 +38,7 @@ Mithilfe von Power BI-Vorlagen-Apps können Benutzer von Power BI Pro oder Po
 Der allgemeine Prozess zum Entwickeln und Übermitteln einer Vorlagen-App umfasst mehrere Phasen. Manche Phasen umfassen mehr als eine Aktivität zur gleichen Zeit.
 
 
-| Phase | Power BI Desktop |  |Power BI-Dienst  |  |Cloud-Partnerportal  |
+| Phase | Power BI Desktop |  |Power BI-Dienst  |  |Partner Center  |
 |---|--------|--|---------|---------|---------|
 | **Eins** | Erstellen Sie ein Datenmodell und einen Bericht in einer PBIX-Datei. |  | Erstellen Sie einen Arbeitsbereich, importieren Sie die PBIX-Datei, und erstellen Sie ein komplementäres Dashboard.  |  | Registrieren Sie sich als Partner |
 | **Zwei** |  |  | Erstellen Sie ein Testpaket, und führen Sie die interne Validierung aus.        |  | |
@@ -49,7 +49,7 @@ Der allgemeine Prozess zum Entwickeln und Übermitteln einer Vorlagen-App umfass
 
 Zum Erstellen der Vorlagen-App benötigen Sie zunächst die erforderlichen Berechtigungen. Informationen dazu finden Sie in den Vorlagen-App-Einstellungen im Power BI-Verwaltungsportal. 
 
-Zum Veröffentlichen einer Vorlagen-App im Power BI-Dienst und in AppSource müssen Sie die Anforderungen unter [Weg zum Cloud Marketplace-Herausgeber](https://docs.microsoft.com/azure/marketplace/become-publisher) erfüllen.
+Zum Veröffentlichen einer Vorlagen-App im Power BI-Dienst und in AppSource müssen Sie die Anforderungen erfüllen, um sich als [Partner Center-Herausgeber](https://docs.microsoft.com/azure/marketplace/become-publisher) zu qualifizieren.
  
 ## <a name="high-level-steps"></a>Allgemeine Schritte
 
@@ -67,7 +67,7 @@ Im Folgenden werden die allgemeinen Schritte aufgeführt.
 
 6. Stufen Sie die Test-App zur Präproduktion hinauf, um die App für die Validierung an AppSource zu übermitteln und sie außerhalb Ihres eigenen Mandanten zu testen. 
 
-7. Übermitteln Sie den Inhalt zur Veröffentlichung an das Cloud-Partnerportal. 
+7. Übermitteln Sie den Inhalt zur Veröffentlichung an das [Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). 
 
 8. Stellen Sie Ihr Angebot in AppSource „Live“, und verschieben Sie Ihre App in Power BI in die Produktion.
 
@@ -75,11 +75,11 @@ Im Folgenden werden die allgemeinen Schritte aufgeführt.
 
 ## <a name="requirements"></a>Anforderungen
 
-Zum Erstellen der Vorlagen-App benötigen Sie zunächst die erforderlichen Berechtigungen. Details finden Sie unter Power BI-[Verwaltungsportal > Vorlagen-App-Einstellungen](service-admin-portal.md#template-apps-settings). 
+Zum Erstellen der Vorlagen-App benötigen Sie zunächst die erforderlichen Berechtigungen. Details finden Sie unter Power BI-[Verwaltungsportal > Vorlagen-App-Einstellungen](service-admin-portal.md#template-apps-settings).
 
-Zum Veröffentlichen einer Vorlagen-App im Power BI-Dienst und in AppSource müssen Sie die Anforderungen unter [Weg zum Cloud Marketplace-Herausgeber](https://docs.microsoft.com/azure/marketplace/become-publisher) erfüllen.
+Zum Veröffentlichen einer Vorlagen-App im Power BI-Dienst und in AppSource müssen Sie die Anforderungen erfüllen, um sich als [Partner Center-Herausgeber](https://docs.microsoft.com/azure/marketplace/become-publisher) zu qualifizieren.
  > [!NOTE] 
- > Übermittelte Vorlagen-Apps werden im [Cloud-Partnerportal](https://cloudpartner.azure.com) verwaltet. Verwenden Sie für die Anmeldung dasselbe Microsoft Developer Center-Registrierungskonto. Sie sollten nur über ein Microsoft-Konto für Ihre AppSource-Angebote verfügen. Konten sollten nicht speziell für einzelne Dienste oder Angebote geführt werden.
+ > Übermittelte Vorlagen-Apps werden in [Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) verwaltet. Verwenden Sie für die Anmeldung dasselbe Microsoft Developer Center-Registrierungskonto. Sie sollten nur über ein Microsoft-Konto für Ihre AppSource-Angebote verfügen. Konten sollten nicht speziell für einzelne Dienste oder Angebote geführt werden.
 
 ## <a name="tips"></a>Tipps 
 

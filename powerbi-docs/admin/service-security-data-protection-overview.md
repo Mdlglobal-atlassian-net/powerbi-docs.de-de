@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006616"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637606"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Datenschutz in Power BI (Vorschauversion)
 
@@ -105,7 +105,7 @@ In der folgenden Liste finden Sie einige Einschränkungen für Vertraulichkeitsb
 * [HYOK-Schutz](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) (Hold Your Own Key) wird für in Power BI angewendete Bezeichnungen nicht unterstützt.
 * Für das Anzeigen und Anwenden von Bezeichnungen in Office-Apps gelten [Lizenzanforderungen](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Vertraulichkeitsbezeichnungen werden nur für Mandanten in der globalen (öffentlichen) Cloud unterstützt. Für Mandanten in anderen Clouds werden keine Vertraulichkeitsbezeichnungen unterstützt.
-* Für Vorlagen-Apps werden keine Vertraulichkeitsbezeichnungen für Daten unterstützt.
+* Für Vorlagen-Apps werden keine Vertraulichkeitsbezeichnungen für Daten unterstützt. Vertraulichkeitsbezeichnungen, die vom Ersteller einer Vorlagen-App festgelegt werden, werden entfernt, wenn die App extrahiert und installiert wird, und Vertraulichkeitsbezeichnungen, die durch den App-Anwender zu Artefakten in einer installierten Vorlagen-App hinzugefügt werden, gehen verloren, wenn die App aktualisiert wird.
 * Power BI unterstützt keine Vertraulichkeitsbezeichnungen der Schutztypen **Nicht weiterleiten** und **Ad-hoc**.
 
 ## <a name="next-steps"></a>Nächste Schritte

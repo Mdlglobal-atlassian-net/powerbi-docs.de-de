@@ -10,18 +10,18 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bfcb88354d542416268ab145a056644db5042b21
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882855"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439984"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI
 
 Die Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI kann zum Einschränken des Datenzugriffs für bestimmte Benutzer verwendet werden. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren. Beachten Sie, dass Mitglieder eines Arbeitsbereichs im Power BI-Dienst über Zugriff auf die Datasets im Arbeitsbereich verfügen. RLS schränkt den Zugriff auf diese Daten nicht ein.
 
-Sie können RLS für Datenmodelle konfigurieren, die mithilfe von Power BI Desktop in Power BI importiert wurden. Sie können auch RLS für Datasets konfigurieren, die DirectQuery verwenden, z. B. SQL Server. Bisher konnte RLS nur in lokalen Analysis Services-Modellen außerhalb von Power BI implementiert werden. Für Liveverbindungen von Analysis Services konfigurieren Sie RLS auf dem lokalen Modell. Die Sicherheitsoption wird nicht für Liveverbindungsdatasets angezeigt.
+Sie können RLS für Datenmodelle konfigurieren, die mithilfe von Power BI Desktop in Power BI importiert wurden. Sie können auch RLS für Datasets konfigurieren, die DirectQuery verwenden, z. B. SQL Server. Bisher konnte RLS nur in lokalen Analysis Services-Modellen außerhalb von Power BI implementiert werden. Bei Analysis Services- oder Azure Analysis Services-Liveverbindungen konfigurieren Sie die Sicherheit auf Zeilenebene im Modell, nicht in Power BI Desktop. Die Sicherheitsoption wird nicht für Liveverbindungsdatasets angezeigt.
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 

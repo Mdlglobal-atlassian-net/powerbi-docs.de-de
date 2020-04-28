@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273223"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066280"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tipps für die Erstellung von Vorlagen-Apps in Power BI
 
@@ -128,7 +128,7 @@ Vorlagen-Apps unterstützen Apps, die nur Beispieldaten enthalten; achten Sie da
 * Halten Sie Anweisungen für das Validierungsteam bereit, die Anmeldeinformationen und Parameter enthalten, die für das Herstellen der Verbindung mit Daten erforderlich sind.
 * Die Anwendung muss in Power BI und in Ihrem CPP-Angebot ein App-Symbol enthalten. [Weitere Informationen](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Landing Page muss konfiguriert sein. [Weitere Informationen](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Befolgen Sie die Dokumentation [Power BI-App-Angebot](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+* Befolgen Sie die Dokumentation [Power BI-App-Angebot](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) in Partner Center.
 * Falls ein Dashboard Teil Ihrer App ist, stellen Sie sicher, dass es nicht leer ist.
 * Installieren Sie die App über den App-Link, bevor Sie sie übermitteln, stellen Sie sicher, dass Sie die Verbindung mit dem Dataset herstellen können und die App wie geplant funktioniert.
 * Entladen Sie vor dem Hochladen der PBIX-Datei in den Vorlagenarbeitsbereich unbedingt alle unnötigen Verbindungen.

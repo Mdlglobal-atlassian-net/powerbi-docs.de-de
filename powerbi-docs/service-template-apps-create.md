@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436017"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066346"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Erstellen einer Vorlagen-App in Power BI
 
@@ -166,7 +166,7 @@ Betrachten wir die einzelnen Phasen nun etwas genauer:
 
     Wenn diese Option nicht angezeigt wird, kontaktieren Sie Ihren Power BI-Administrator, damit er Ihnen im Verwaltungsportal [Berechtigungen für die Entwicklung von Vorlagen-Apps](service-admin-portal.md#template-apps-settings) gewährt.
 11. Klicken Sie auf **Promote** (Höher stufen), um Ihre Auswahl zu bestätigen.
-12. Kopieren Sie diese neue URL, um sie zum Testen außerhalb Ihres Mandanten freizugeben. Diesen Link können Sie auch senden, um mit dem Verteilen Ihrer App auf AppSource zu beginnen. Erstellen Sie hierzu ein [neues Cloud-Partnerportal-Angebot](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Übermitteln Sie nur Links für die Produktion an das Cloud-Partnerportal. Sobald die App genehmigt wurde und Sie die Benachrichtigung erhalten haben, dass sie in AppSource bereitgestellt wird, können Sie dieses Paket in die Produktionsphase in Power BI höher stufen.
+12. Kopieren Sie diese neue URL, um sie zum Testen außerhalb Ihres Mandanten freizugeben. Diesen Link können Sie auch senden, um mit dem Verteilen Ihrer App auf AppSource zu beginnen. Erstellen Sie hierzu ein [neues Partner Center-Angebot](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Übermitteln Sie nur Präproduktionslinks an Partner Center. Sobald die App genehmigt wurde und Sie die Benachrichtigung erhalten haben, dass sie in AppSource bereitgestellt wird, können Sie dieses Paket in die Produktionsphase in Power BI höher stufen.
 13. Wenn Ihre App bereit ist für die Produktion oder für die Freigabe über AppSource, wechseln Sie zurück in den **Release Management**-Bereich, und wählen Sie **Promote app** (App höher stufen) neben **Pre-production** (Präproduktion) aus.
 14. Klicken Sie auf **Promote** (Höher stufen), um Ihre Auswahl zu bestätigen.
 
@@ -174,10 +174,10 @@ Betrachten wir die einzelnen Phasen nun etwas genauer:
 
     ![App in der Produktionsphase](media/service-template-apps-create/power-bi-template-app-production.png)
 
-Um Ihre App für tausende von Power BI-Benutzern weltweit verfügbar zu machen, empfehlen wir Ihnen die Freigabe über AppSource. Weitere Informationen darüber finden Sie unter [Power BI Application offer (Angebot für Power BI-Anwendungen)](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Um Ihre App für tausende von Power BI-Benutzern weltweit verfügbar zu machen, empfehlen wir Ihnen die Freigabe über AppSource. Weitere Informationen darüber finden Sie unter [Power BI Application offer (Angebot für Power BI-Anwendungen)](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Sehen Sie unter [Install, customize, and distribute template apps in your organization (Installieren, anpassen und verteilen von Vorlagen-Apps in Ihrer Organisation)](service-template-apps-install-distribute.md), wie Ihre Kunden mit Ihrer Vorlagen-App interagieren.
 
-Weitere Informationen über die Verteilung Ihrer App finden Sie unter [Power BI Application offer (Angebot für Power BI-Anwendungen)](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Weitere Informationen über die Verteilung Ihrer App finden Sie unter [Power BI Application offer (Angebot für Power BI-Anwendungen)](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).

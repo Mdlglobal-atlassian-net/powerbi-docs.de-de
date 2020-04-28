@@ -6,19 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881384"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637822"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Das neue Design des Power BI-Diensts
 
-Der Power BI-Dienst (app.powerbi.com) verfügt über ein neues Design, das das Anzeigen und Interagieren mit Ihren Berichten vereinfacht. Das neue Design ist einfacher und basiert auf Ihrer Vertrautheit mit anderen Microsoft-Produkten. Innerhalb des gesamten Power BI-Diensts bilden nun Berichtsinhalte den wesentlichen Schwerpunkt. Dazu wurde zu einem helleren Farbdesign und aktualisierten Symbolen gewechselt. Hier sehen Sie eine Übersicht über die Änderungen beim neuen Design. Ausführlichere Informationen finden Sie in den nummerierten Abschnitten:
+Der Power BI-Dienst (app.powerbi.com) verfügt über ein neues Design, das das Anzeigen und Interagieren mit Ihren Berichten vereinfacht. Das neue Design ist einfacher und basiert auf Ihrer Vertrautheit mit anderen Microsoft-Produkten. Innerhalb des gesamten Power BI-Diensts bilden nun Berichtsinhalte den wesentlichen Schwerpunkt. Dazu wurde zu einem helleren Farbdesign und aktualisierten Symbolen gewechselt. 
+
+Suchen Sie nach Informationen zum neuen Design in **Power BI Desktop**? Lesen Sie [Verwenden des aktualisierten Menübands in Power BI Desktop](desktop-ribbon.md).
+
+Hier sehen Sie eine Übersicht über die Änderungen beim neuen Design. Ausführlichere Informationen finden Sie in den nummerierten Abschnitten:
 
 ![Übersicht über die Änderungen beim neuen Design](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -36,7 +40,7 @@ Jeder Benutzer des Power BI-Diensts kann das neue Design auswählen. Verschieben
 
 ![Auswählen des neuen Designs](media/service-new-look/power-bi-new-look-off.png)
 
-Wenn Sie das alte Design benötigen, können Sie die Option ![Neues Design ein](media/service-new-look/power-bi-new-look-toggle-on.png) einfach wieder in **aus** ändern. Wenn die Schaltfläche nicht angezeigt wird, klicken Sie auf das Dreipunktmenü in der oberen rechten Ecke.
+Wenn Sie das alte Design benötigen, können Sie die Option ![Neues Design ein](media/service-new-look/power-bi-new-look-toggle-on.png) einfach wieder in **Aus** ändern. Wenn die Schaltfläche nicht angezeigt wird, klicken Sie auf das Dreipunktmenü in der oberen rechten Ecke.
 
 ![Abwählen des neuen Designs](media/service-new-look/power-bi-new-look-on.png)
 
@@ -87,4 +91,6 @@ Die Erstellungsoberfläche ähnelt weiterhin der Oberfläche in Power BI Desktop
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Power BI für Verbraucher](consumer/end-user-consumer.md)
+- [Verwenden des aktualisierten Menübands in Power BI Desktop](desktop-ribbon.md)
+- [Aktivieren des neuen Designs für den Arbeitsbereich](collaborate-share/service-workspaces-new-look.md)
+- [Power BI für Verbraucher](consumer/end-user-consumer.md)

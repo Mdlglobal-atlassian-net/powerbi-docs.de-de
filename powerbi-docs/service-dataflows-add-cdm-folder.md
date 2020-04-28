@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404762"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439340"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)
 
@@ -30,6 +30,12 @@ Das Erstellen von Dataflows aus CDM-Ordnern unterliegt einigen wenigen Anforderu
 * Sie müssen über die Berechtigungen zum Lesen und Ausführen für alle Dateien und Ordner im CDM-Ordner verfügen, um sie in Power BI einzufügen.
 
 In den folgenden Abschnitten wird beschrieben, wie Sie einen Dataflow aus einem CDM-Ordner erstellen können.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Autorisierung von Benutzern für CDM-Ordner zum Erstellen eines Dataflows
+
+Die folgenden Berechtigungen müssen hinzugefügt werden, um einen Dataflow aus einem CDM-Ordner zu erstellen:
+* Der Benutzer, der über Power BI auf den CDM-Ordner zugreift, muss in der Rolle **Besitzer von Speicherblobdaten** des Speicherkontos aufgeführt sein.
+* Der Benutzer, der über Power BI auf den CDM-Ordner zugreifen wird, muss in den Zugriffssteuerungslisten **Lesezugriff** und **Zugriff** für den CDM-Ordner und alle in diesem enthaltenen Dateien und Ordner aufgeführt sein. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Erstellen eines Dataflows aus einem CDM-Ordner
 

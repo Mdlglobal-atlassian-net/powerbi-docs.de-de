@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427689"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675661"
 ---
 # <a name="analyze-in-excel"></a>In Excel analysieren
 Es gibt Situationen, in denen Sie zum Anzeigen von und Interagieren mit einem Datenset aus Power BI Excel verwenden möchten. Mit **In Excel analysieren** können Sie genau dies tun. Greifen Sie in Excel basierend auf dem in Power BI existierenden Dataset auf PivotTable-, Diagramm- und Datenschnitt-Features in Excel zu.
@@ -68,9 +68,7 @@ Auch wenn Sie bereits in Ihrem Browser bei Power BI angemeldet sind, werden Sie 
 ### <a name="users-with-multiple-power-bi-accounts"></a>Benutzer mit mehreren Konten für Power BI
 Bei Benutzern mit mehreren Power BI-Konten kann es vorkommen, dass sie mit einem Konto bei Power BI angemeldet sind, aber das für „In Excel analysieren“ verwendete Konto, das Zugriff auf das Dataset hat, ein anderes Konto ist. In diesen Fällen erhalten Sie möglicherweise die Fehlermeldung **Unzulässig** oder können sich nicht anmelden, um auf ein Dataset zuzugreifen, das in einer Arbeitsmappe für „In Excel analysieren“ verwendet wird.
 
-Sie erhalten die Möglichkeit, sich erneut anzumelden. Zu diesem Zeitpunkt können Sie sich bei dem Power BI-Konto anmelden, das Zugriff auf das für „In Excel analysieren“ verwendete Dataset hat. Sie können auch auf der Registerkarte **Power BI** des Menübands in Excel **Profil** auswählen. Dadurch wird ermittelt, mit welchem Konto Sie derzeit angemeldet sind. Außerdem wird ein Link zum Abmelden angezeigt (um sich anschließend bei einem anderen Konto anzumelden). Sie können [Power BI Publisher für Excel herunterladen](https://www.microsoft.com/download/details.aspx?id=50729), wenn Sie es nicht bereits installiert haben. Auf diese Weise können Sie das Power BI-Menüband in Excel installieren.
-
-![Anzeigen des Profils](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+Sie erhalten die Möglichkeit, sich erneut anzumelden. Zu diesem Zeitpunkt können Sie sich bei dem Power BI-Konto anmelden, das Zugriff auf das für „In Excel analysieren“ verwendete Dataset hat. Sie können auch auf dem oberen Menüband in Excel auf Ihren Namen klicken. Dann wird angezeigt, mit welchem Konto Sie derzeit angemeldet sind. Melden Sie sich ab, und melden Sie sich mit einem anderen Konto an.
 
 ### <a name="enable-data-connections"></a>Aktivieren von Datenverbindungen
 Zum Analysieren Ihrer Power BI-Daten werden Sie aufgefordert, den Dateinamen und den Pfad für die ODC-Datei zu überprüfen. Wählen Sie dann **Aktivieren** aus.

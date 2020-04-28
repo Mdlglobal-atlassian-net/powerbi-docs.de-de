@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267593"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675638"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Onlinekurs: Paginierte Power BI-Berichte in einem Tag
 
@@ -83,7 +83,7 @@ Dieser [aus 24 Videos bestehende Kurs](https://www.youtube.com/playlist?list=PL
 
 Laden Sie das Kit zum Selbststudium herunter, das die Präsentationsinhalte und acht Praxislabs umfasst, und richten Sie es ein:
 
-1. Über [diesen Link](https://aka.ms/priad-ilt-student) können Sie das Kit zum Selbststudium (ZIP-Datei) auf Ihren lokalen Computer herunterladen.
+1. Über [diesen Link](https://aka.ms/priad-student) können Sie das Kit zum Selbststudium (ZIP-Datei) auf Ihren lokalen Computer herunterladen.
 1. Öffnen Sie die Dateieigenschaften, und aktivieren Sie das Kontrollkästchen bei „Blockierung aufheben“ (die Datei wird von Windows möglicherweise als potenziell nicht vertrauenswürdig gekennzeichnet).
 1. Extrahieren Sie den Inhalt der Datei in einen Ordner im Dateisystem. Erstellen Sie am besten einen Ordner mit einem aussagekräftigen Namen, wie etwa **Training**. Die Dokumente der Praxislabs verweisen auf diesen Speicherort als **&lt;CourseFolder&gt;** .
 
@@ -105,6 +105,10 @@ Wenn Sie mit dem ersten Lab beginnen möchten, öffnen Sie die Datei **&lt;Cours
 > Damit Sie eine Power BI Desktop-Datei in einem Arbeitsbereich veröffentlichen können, müssen Sie sich bei Power BI anmelden. Bei der Veröffentlichung wird ein Dataset generiert, das als Berichtsdatenquelle verwendet wird. Sie benötigen weder eine Power BI Pro-Lizenz noch ein Power BI Premium-Abonnement, um ein Dataset als Berichtsdatenquelle verwenden zu können.
 >
 > Einige Aufgaben des Labs beinhalten jedoch das Veröffentlichen des paginierten Berichts in einem Arbeitsbereich. Ein paginierter Bericht kann nur geöffnet werden, wenn er in einem Arbeitsbereich auf [dedizierter Kapazität](../service-premium-what-is.md#dedicated-capacities) gespeichert ist, für den die Workload für paginierte Berichte aktiviert wurde. Wenn Sie keinen Zugriff auf einen geeigneten Arbeitsbereich haben, erhalten Sie einen Link zu einem Video mit Informationen zur Berichtsveröffentlichung.
+
+## <a name="instructor-kit"></a>Anleitungskit
+
+Über [diesen Link](https://aka.ms/priad-instructor) können Sie das Anleitungskit (ZIP-Datei) auf Ihren lokalen Computer herunterladen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

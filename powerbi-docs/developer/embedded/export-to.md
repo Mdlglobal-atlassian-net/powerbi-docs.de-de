@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267501"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525466"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportieren eines Power BI-Berichts in eine Datei (Vorschau)
 
@@ -106,6 +106,7 @@ Ein Auftrag, bei dem die Anzahl gleichzeitiger Anforderungen überschritten ist,
 * Ein Bericht mit einer Vertraulichkeitsbezeichnung kann nicht mithilfe eines [Dienstprinzipals](embed-service-principal.md) in eine PDF- oder PPTX-Datei exportiert werden.
 * Ein exportierter Bericht darf maximal 30 Seiten umfassen. Wenn der Bericht mehr Seiten enthält, gibt die API einen Fehler zurück, und der Exportauftrag wird abgebrochen.
 * [Persönliche Lesezeichen](../../consumer/end-user-bookmarks.md#personal-bookmarks) und [permanente Filter](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) werden nicht unterstützt.
+* Sovereign Clouds werden nicht unterstützt.
 * Die unten aufgeführten Power BI-Visuals werden nicht unterstützt. Wenn ein Bericht mit diesen Visuals exportiert wird, werden die Teile des Berichts, die diese Visuals enthalten, nicht gerendert, und es wird ein Fehlersymbol angezeigt.
     * Nicht zertifizierte Power BI-Visuals
     * R-Visuals

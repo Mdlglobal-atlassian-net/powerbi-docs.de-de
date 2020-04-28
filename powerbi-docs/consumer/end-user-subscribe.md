@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302452"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525443"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst 
 
@@ -33,7 +33,7 @@ Die E-Mail, die Sie erhalten, enthält einen Link, mit dem Sie zum Bericht/Dashb
 
 
 ## <a name="requirements"></a>Anforderungen
-Zum **Erstellen** eines Abonnements für Sie selbst ist eine bestimmte [Lizenz](end-user-license.md) erforderlich. Sollten Sie kein Abonnement erstellen können, wenden Sie sich an Ihren Power BI-Administrator. **Abonnieren für andere** ist nur für den Besitzer des Dashboards oder Berichts verfügbar. Das Abonnieren von paginierten Berichten unterscheidet sich etwas. Weitere Informationen finden Sie unter  [Abonnieren von paginierten Berichten für sich selbst und andere im Power BI-Dienst](paginated-reports-subscriptions.md) . 
+Zum **Erstellen** eines Abonnements für Sie selbst ist eine bestimmte [Lizenz](end-user-license.md) erforderlich. Sollten Sie kein Abonnement erstellen können, wenden Sie sich an Ihren Power BI-Administrator. **Abonnieren für andere** ist nur für den Besitzer des Dashboards oder Berichts verfügbar. Das Abonnieren von paginierten Berichten unterscheidet sich etwas. Details finden Sie unter [Abonnieren eines paginierten Berichts im Power BI-Dienst für sich selbst und andere](paginated-reports-subscriptions.md). 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonnieren eines Berichts oder Dashboards
 Unabhängig davon, ob Sie ein Dashboard oder einen Bericht abonnieren, ist der Vorgang ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
@@ -55,9 +55,9 @@ Unabhängig davon, ob Sie ein Dashboard oder einen Bericht abonnieren, ist der V
 
     c. Fügen Sie optional einen Betreff und E-Mail-Adressinformationen hinzu. 
 
-    d. Wählen Sie eine Option für **Häufigkeit** für Ihr Abonnement aus.  Ihnen stehen folgende Optionen zur Verfügung: Täglich, Wöchentlich und Nach Datenaktualisierung (einmal täglich).  Wenn Sie die E-Mail des Abonnements nur an bestimmten Tagen erhalten möchten, können Sie **Wöchentlich** und dann die konkreten Tage auswählen.  Wenn Sie die E-Mail des Abonnements zum Beispiel nur an Werktagen erhalten möchten, können Sie **Wöchentlich** für die Häufigkeit auswählen und die Kontrollkästchen bei „Sa“ und „So“ deaktivieren. Wenn Sie   **Monatlich** auswählen, geben Sie den Tag oder die Tage des Monats ein, an dem oder denen Sie die E-Mail des Abonnements erhalten möchten.   
+    d. Wählen Sie eine Option für **Häufigkeit** für Ihr Abonnement aus.  Ihnen stehen folgende Optionen zur Verfügung: Täglich, Wöchentlich und Nach Datenaktualisierung (einmal täglich).  Wenn Sie die E-Mail des Abonnements nur an bestimmten Tagen erhalten möchten, können Sie **Wöchentlich** und dann die konkreten Tage auswählen.  Wenn Sie die E-Mail des Abonnements zum Beispiel nur an Werktagen erhalten möchten, können Sie **Wöchentlich** für die Häufigkeit auswählen und die Kontrollkästchen bei „Sa“ und „So“ deaktivieren. Wenn Sie **Monthly** (Monatlich) auswählen, geben Sie den Tag oder die Tage des Monats ein, an dem oder denen Sie die E-Mail des Abonnements erhalten möchten.   
 
-    e. Wenn Sie „Täglich“, „Stündlich“, „Monatlich“ oder „Wöchentlich“ auswählen, können Sie auch eine geplante Zeit für das Abonnement wählen. Sie müssen es zur vollen Stunde oder zur Minute 15, 30 oder 45 ausführen. Wählen Sie Vormittag (AM) oder Nachmittag/Abend (PM) aus. Sie können auch die Zeitzone angeben. Wenn Sie „Stündlich“ auswählen, müssen Sie auch den „Geplanten Zeitpunkt“ festlegen, zu dem das Abonnement gestartet werden soll. Anschließend wird es stündlich ausgeführt.  
+    e. Wenn Sie „Täglich“, „Stündlich“, „Monatlich“ oder „Wöchentlich“ auswählen, können Sie auch eine geplante Zeit für das Abonnement angeben. Sie müssen es zur vollen Stunde oder zur Minute 15, 30 oder 45 ausführen. Wählen Sie Vormittag (AM) oder Nachmittag/Abend (PM) aus. Sie können auch die Zeitzone angeben. Wenn Sie „Stündlich“ auswählen, müssen Sie auch die geplante Zeit festlegen, zu der das Abonnement gestartet werden soll. Anschließend wird es stündlich ausgeführt.  
 
     f. Legen Sie das Start- und Enddatum fest, indem Sie die Datumsangaben in die Datumsfelder eingeben. Der Startzeitpunkt Ihres Abonnements ist standardmäßig das Datum, an dem Sie es erstellt haben, und das Enddatum ist standardmäßig ein Jahr später. Sie können es zu einem beliebigen Zeitpunkt vor dem Ablauf des Abonnements in ein beliebiges Datum in der Zukunft (bis zum Jahr 9999) ändern. Wenn ein Abonnement ein Enddatum erreicht, wird es deaktiviert, bis Sie es erneut aktivieren.  Vor dem geplanten Enddatum werden Sie per Benachrichtigung(en) gefragt, ob Sie das Abonnement verlängern möchten.     
 
@@ -73,7 +73,7 @@ Unabhängig davon, ob Sie ein Dashboard oder einen Bericht abonnieren, ist der V
 
 
 ## <a name="manage-your-subscriptions"></a>Verwalten Ihrer Abonnements
-Sie können nur Abonnements verwalten, die Sie erstellen. Klicken Sie erneut auf **Abonnieren**, und klicken Sie dann in der unteren linken Ecke auf **Alle Abonnements verwalten** (siehe Screenshots oben). Welche Abonnements hier angezeigt werden, hängt vom aktiven Arbeitsbereich ab. Wenn Sie alle Ihre Abonnements für alle Arbeitsbereiche anzeigen möchten, muss  **Mein Arbeitsbereich**  aktiv sein. Grundlegende Informationen zu Arbeitsbereichen finden Sie unter  [Arbeitsbereiche in Power BI](end-user-workspaces.md). 
+Sie können nur Abonnements verwalten, die Sie erstellen. Klicken Sie erneut auf **Abonnieren**, und klicken Sie dann in der unteren linken Ecke auf **Alle Abonnements verwalten** (siehe Screenshots oben). Welche Abonnements hier angezeigt werden, hängt vom aktiven Arbeitsbereich ab. Wenn Sie alle Ihre Abonnements für alle Arbeitsbereiche anzeigen möchten, muss **Mein Arbeitsbereich** aktiv sein. Grundlegende Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche in Power BI](end-user-workspaces.md). 
 
 ![Alle Abonnements unter „My Workspace“ (Mein Arbeitsbereich) anzeigen](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

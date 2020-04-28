@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427252"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066223"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -87,7 +87,7 @@ Achten Sie darauf, dass die resultierende Aggregatspalte eine Zahl als Datentyp 
 
 Definieren eines Histogramms, das Brushing unterstützt – Brushing liegt vor, wenn Visuals miteinander verknüpft sind, sodass, nachdem ein Benutzer einen Datenpunkt in einem Visual ausgewählt hat, in anderen Visuals auf der Berichtsseite Datenpunkte hervorgehoben oder gefiltert werden, die mit dem ausgewählten Datenpunkt verknüpft sind. Da Daten zur Abfragezeit verarbeitet werden, müssen Sie eine Beziehung zwischen Tabellen erstellen und sicher sein, dass Sie wissen, welches Detailelement mit dem Bucket im Histogramm verknüpft ist und umgekehrt.
 
-Beginnen Sie den Vorgang, indem Sie die Option „Verweis“ für die Abfrage verwenden, die das Feld umfasst, für das Sie ein Histogramm erstellen möchten. Geben Sie der neuen Abfrage den Namen „Buckets“. Für dieses Beispiel soll die ursprüngliche Abfrage den Namen „Details“ haben. Entfernen Sie als Nächstes alle Spalten außer der Spalte, die Sie als Bucket für das Histogramm verwenden möchten. Verwenden Sie nun die Funktion „Duplikate entfernen“ in der Abfrage (diese Funktion wird im Kontextmenü angezeigt, wenn Sie die Spalte auswählen), damit die verbleibenden Werte die eindeutigen Werte in der Spalte sind. Wenn Sie Dezimalzahlen haben, können Sie zunächst den Tipp zum Definieren von Buckets verwenden, um ein Histogramm zu erstellen, damit Sie eine verwaltbare Anzahl von Buckets erhalten. Prüfen Sie jetzt die Daten, die in der Abfragevorschau angezeigt werden. Wenn Sie leere Werte oder Nullwerte sehen, müssen Sie diese korrigieren, bevor Sie eine Beziehung erstellen. Weitere Informationen finden Sie unter „Erstellen einer Beziehung, wenn die Daten Null- oder leere Werte haben“. Dieser Ansatz kann problematisch sein, weil sortiert werden muss. Informationen zur richtigen Sortierung der Buckets finden Sie unter „Sortierreihenfolge: Kategorien in der gewünschten Reihenfolge anzeigen“. 
+Beginnen Sie den Vorgang, indem Sie die Option „Verweis“ für die Abfrage verwenden, die das Feld umfasst, für das Sie ein Histogramm erstellen möchten. Geben Sie der neuen Abfrage den Namen „Buckets“. Für dieses Beispiel soll die ursprüngliche Abfrage den Namen „Details“ haben. Entfernen Sie als Nächstes alle Spalten außer der Spalte, die Sie als Bucket für das Histogramm verwenden möchten. Verwenden Sie nun die Funktion „Duplikate entfernen“ in der Abfrage (diese Funktion wird im Kontextmenü angezeigt, wenn Sie die Spalte auswählen), damit die verbleibenden Werte die eindeutigen Werte in der Spalte sind. Wenn Sie Dezimalzahlen verwenden, können Sie zunächst den Tipp zum Definieren von Buckets verwenden, um ein Histogramm zu erstellen, damit Sie eine verwaltbare Anzahl von Buckets erhalten. Prüfen Sie jetzt die Daten, die in der Abfragevorschau angezeigt werden. Wenn leere Werte oder NULL-Werte vorhanden sind, müssen Sie diese korrigieren, bevor Sie eine Beziehung erstellen. Weitere Informationen finden Sie unter „Erstellen einer Beziehung, wenn die Daten Null- oder leere Werte haben“. Dieser Ansatz kann problematisch sein, weil sortiert werden muss. Informationen zur richtigen Sortierung der Buckets finden Sie unter „Sortierreihenfolge: Kategorien in der gewünschten Reihenfolge anzeigen“. 
 
 >[!NOTE]
 >Sie sollten sich die Sortierreihenfolge überlegt haben, bevor Sie Visuals erstellen. 
@@ -148,10 +148,10 @@ Sie haben nun eine Dimensionstabelle, die Sie dazu verwenden können, Beziehunge
 Der Abfrage-Editor ist sehr leistungsfähig hinsichtlich des Bearbeitens von Daten, um diese zu formen und zu bereinigen, sodass sie visualisiert oder modelliert werden können. Es gibt einige Muster, die Sie beachten sollten.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Temporäre Spalten können gelöscht werden, nachdem ein Ergebnis berechnet ist
-Häufig müssen Sie in Power BI Desktop eine Berechnung erstellen, in der Daten aus mehreren Spalten in eine einzige neue Spalte transformiert werden. Dies kann komplex sein. Eine einfache Möglichkeit, das Problem zu umgehen, besteht darin, den Vorgang in Schritte zu zerlegen. Beginnen Sie, indem Sie die ursprünglichen Spalten duplizieren. Erstellen Sie danach temporäre Spalten. Erstellen Sie daran anschließend eine Spalte für das Endergebnis. Nun können Sie die temporären Spalten löschen, damit das resultierende Dataset nicht überladen ist. Dies ist möglich, weil Schritte auf der Abfrageregisterkarte der Reihe nach ausgeführt wird. 
+Häufig müssen Sie in Power BI Desktop eine Berechnung erstellen, in der Daten aus mehreren Spalten in eine einzige neue Spalte transformiert werden. Dies kann komplex sein. Eine einfache Möglichkeit, das Problem zu umgehen, besteht darin, den Vorgang in Schritte zu zerlegen. Beginnen Sie, indem Sie die ursprünglichen Spalten duplizieren. Erstellen Sie dann die temporären Spalten. Erstellen Sie anschließend eine Spalte für das Endergebnis. Nun können Sie die temporären Spalten löschen, damit das resultierende Dataset nicht überladen ist. Dies ist möglich, weil Schritte auf der Abfrageregisterkarte der Reihe nach ausgeführt wird. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Duplizieren der oder Verweisen auf die Abfragen, dann Zusammenführen mit der ursprünglichen Abfrage
-Manchmal sollen Übersichtsstatistiken für ein Dataset berechnet werden. Die einfache Möglichkeit hierzu ist, die Abfrage auf der Abfrageregisterkarte zu duplizieren oder dort auf diese Abfrage zu verweisen. Danach verwenden Sie **Gruppieren nach** , um die Übersichtsstatistiken zu berechnen. Übersichtsstatistiken versetzen Sie in die Lage, die ursprünglichen Daten zu normalisieren, sodass sie besser vergleichbar sind als im ursprünglichen Zustand. Dies ist besonders nützlich für ein Vergleichen von einzelnen Werten mit allen Werten. Wechseln Sie dazu zur ursprüngliche Abfrage, und wählen Sie die Option für Zusammenführen aus. Führen Sie dann die Daten aus der Übersichtsstatistikabfrage zusammen, die mit den entsprechenden Bezeichnern übereinstimmen. Nun können Sie die Daten nach Bedarf für Ihre Analyse zu normalisieren.
+Manchmal sollen Übersichtsstatistiken für ein Dataset berechnet werden. Die einfache Möglichkeit hierzu ist, die Abfrage auf der Abfrageregisterkarte zu duplizieren oder dort auf diese Abfrage zu verweisen. Danach verwenden Sie **Gruppieren nach** , um die Übersichtsstatistiken zu berechnen. Übersichtsstatistiken versetzen Sie in die Lage, die ursprünglichen Daten zu normalisieren, sodass sie besser vergleichbar sind. Dies ist besonders nützlich für ein Vergleichen von einzelnen Werten mit allen Werten. Wechseln Sie dazu zur ursprüngliche Abfrage, und wählen Sie die Option für Zusammenführen aus. Führen Sie dann die Daten aus der Übersichtsstatistikabfrage zusammen, die mit den entsprechenden Bezeichnern übereinstimmen. Nun können Sie die Daten nach Bedarf für Ihre Analyse zu normalisieren.
 
 ## <a name="using-dax-for-the-first-time"></a>Erstmaliges Verwenden von DAX
 DAX ist die Formelsprache für Berechnungen in Power BI Desktop. Sie ist für Business Intelligence (BI) optimiert. Sie unterscheidet sich ein wenig von dem, mit dem Sie möglicherweise vertraut sind, wenn Sie nur eine SQL-orientierte Abfragesprache verwendet haben. Sowohl online als auch in Buchform gibt es sehr gute Ressourcen zum Erlernen von DAX. 
@@ -161,3 +161,64 @@ DAX ist die Formelsprache für Berechnungen in Power BI Desktop. Sie ist für Bu
 [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX-Ressourcencenter](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI-Dienst *und* Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Erfahren Sie mehr unter „Erstellen visuell ansprechender Berichte (und Dashboards) in Power BI“.
+Community-Mitglied Miguel Myers ist sowohl Datenanalysten als auch Grafikdesigner.
+
+![Power BI-Bericht](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [Blogbeitrag lesen](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [Webinar ansehen](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>Zielgruppe berücksichtigen
+Wie lauten die wichtigsten Kennzahlen, um Entscheidungen zu treffen? Wozu wird der Bericht verwendet? Welche erlernten oder kulturellen Annahmen wirken sich möglicherweise auf die Gestaltung aus? Welche Informationen benötigt Ihre Zielgruppe, um erfolgreich zu sein?
+
+Wo wird der Bericht angezeigt? Wird es auf einem großen Monitor angezeigt, können Sie mehr Inhalt einfügen. Wird er von Lesern auf Tablets angezeigt, ist er mit weniger Visualisierungen besser lesbar.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Alle Informationen auf einen Blick
+Jede Berichtsseite sollte einen Gesamtüberblick bieten. Können Sie Scrollleisten auf Ihren Seiten vermeiden? Ist der Bericht zu überladen oder überfrachtet?  Entfernen Sie alles bis auf die wesentlichen Informationen, die leicht gelesen und interpretiert werden können.
+
+### <a name="make-the-most-important-information-biggest"></a>Die wichtigsten Informationen in der größten Schrift anzeigen
+Wenn die Texte und Visualisierungen auf Ihrer Berichtsseite alle gleich groß sind, haben die Leser Schwierigkeiten, sich auf das Wesentliche zu konzentrieren. So sind z. B. Kartenvisualisierungen eine gute Möglichkeit, wichtige Informationen anschaulich zu präsentieren:  
+![Kartenvisualisierung](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>Stellen Sie unbedingt Kontext bereit  
+
+Verwenden Sie Features wie z.B. Textfelder und QuickInfos, um den Visualisierungen Kontext hinzufügen.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>Die wichtigsten Informationen in der oberen Ecke platzieren
+Die meisten Personen lesen von oben nach unten. Daher sollten die wichtigsten Details oben angezeigt werden und weitere Einzelheiten in der Leserichtung Ihrer Zielgruppe eingefügt werden (von links nach rechts, von rechts nach links)
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Die richtigen Visualisierungen für die Daten verwenden und diese in ein übersichtliches Format bringen
+Vermeiden Sie zahlreiche Visualisierungen auf Kosten der Vielfalt.  Visualisierungen sollten ein Bild vermitteln und leicht zu „lesen“ und interpretieren sein.  Für einige Daten und Visualisierungen reicht eine einfache grafische Visualisierung aus. Möglicherweise erfordern andere Daten eine komplexere Visualisierung – verwenden Sie Titel und Beschriftungen sowie andere Anpassungen, um das Lesen zu erleichtern.  
+
+* Seien Sie vorsichtig mit Diagrammen, die die Realität verzerren, wie z. B. 3D-Diagramme und Diagramme, die nicht bei null beginnen. Bedenken Sie, dass das Interpretieren bestimmter Kreisformen für das menschliche Gehirn schwieriger ist. Kreisdiagramme, Ringdiagramme, Messgerätdiagramme und andere Arten von kreisförmigen Diagrammen mögen nett aussehen, sollten jedoch möglicherweise durch andere visuelle Elemente ersetzt werden.    
+* Achten Sie auf Einheitlichkeit bei den Diagrammskalen auf Achsen, der Reihenfolge der Diagrammdimensionen und den Farben der Dimensionswerte in Diagrammen.    
+* Stellen Sie sicher, dass quantitative Daten ansprechend verschlüsselt sind. Zeigen Sie in Telefonnummern maximal drei oder vier Ziffern am Stück an. Runden Sie Maßangaben auf eine oder zwei Stellen nach dem Dezimalkomma und unterteilen Sie Tausender oder Millionen, d. h. 3,4 Millionen anstatt 3.400.000.    
+* Achten Sie möglichst auf eine Trennung von Genauigkeit und Zeit. Sorgen Sie für verständliche Zeitangaben.  Zeigen Sie ein Diagramm vom letzten Monat nicht neben gefilterten Diagrammen von einem bestimmten Monat an.    
+* Wechseln Sie auf einer Skala, wie etwa auf einem Linien- oder Balkendiagramm, nicht zwischen großen und kleinen Maßeinheiten.  Beispiel: Eine Maßeinheit wird in Millionen, die andere in Tausenden angegeben.  Hier wäre es schwierig, die Differenz der Maßeinheit in Millionen und der Maßeinheit in Tausenden zu ermitteln.  Müssen Sie beide angeben, wählen Sie eine Visualisierung, bei der eine zweite Achse möglich ist, wie z.B. ein Kombinationsdiagramm.    
+* Überladen Sie Ihre Diagramme nicht mit unnötigen Datenbeschriftungen. Werte in Balkendiagrammen sind in der Regel, ***wenn sie groß genug sind***, auch ohne Anzeige der tatsächlichen Zahl gut verständlich.   
+* Achten Sie darauf, wie die [Diagramme sortiert werden](consumer/end-user-change-sort.md). Wenn Sie den höchsten oder niedrigsten Wert hervorheben möchten, sortieren Sie nach der Maßeinheit. Sollen Benutzer eine bestimmte Kategorie in vielen anderen Kategorien schnell finden können, sortieren Sie nach der Achse.  
+* Kreisdiagramme sind mit weniger als acht Kategorien am übersichtlichsten. Da Sie Werte nicht nebeneinander vergleichen können, sind Werte in einem Kreisdiagramm schwieriger zu vergleichen als in Balken- und Säulendiagrammen. Kreisdiagramme eignen sich besser zum Anzeigen von Teil-Ganzes-Beziehungen als zum Vergleichen der Teile. Und Messgerätdiagramme eignen sich ideal, um den aktuellen Status im Kontext eines Ziels anzuzeigen.    
+
+Weitere Informationen zur Visualisierung finden Sie unter [Visualisierungstypen in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>Weitere Informationen zu Best Practices bei der Gestaltung von Dashboards
+Zu unseren Lieblingsbüchern (in englischer Sprache) zählen:
+
+* *Storytelling with Data* von Cole Nussbaumer Knafic
+* *Data points* von Nathan Yau
+* *The truthful Art* von Alberto Cairo
+* *Now You See It* von Stephen Few  
+* *Envisioning Information* von Edward Tufte  
+* *Advanced Presentations Design* von Andrew Abela   
+
+## <a name="next-steps"></a>Nächste Schritte
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
+* [Berichte in Power BI](consumer/end-user-reports.md)
+
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+
+
