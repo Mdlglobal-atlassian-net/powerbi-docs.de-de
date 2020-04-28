@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Richtlinien für Power BI-Visuals
           href: guidelines-powerbi-visuals.md
+        - name: Leistungstipps
+          href: performance-tips.md
         - name: Häufig gestellte Fragen zu Visuals
           href: power-bi-custom-visuals-faq.md
         - name: Verwenden von Funktionen
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: Debuggen von Visuals
           href: visuals-how-to-debug.md
+        - name: Mobile-Entwicklung
+          href: mobile-development.md
         - name: Problembehandlung bei Power BI-Visuals
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Referenz
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: TypeUtils
               href: utils-type.md
+            - name: Testhilfsprogramme
+              href: utils-test.md
             - name: QuickInfo-Hilfsprogramme
               href: utils-tooltip.md
             - name: DataViewUtils
