@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436343"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256149"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für US-Behördenkunden
 Dieser Artikel richtet sich an US-Behörden, die Power BI als Bestandteil eines Office 365 Government-Plans bereitstellen. Die Government-Pläne sind auf die besonderen Bedürfnisse von Organisationen zugeschnitten, die in den USA geltende Compliance- und Sicherheitsstandards erfüllen müssen. Der für US-Behördenkunden entwickelte Power BI-Dienst unterscheidet sich von der kommerziellen Version des Power BI-Diensts. Diese Funktionsunterschiede werden in den folgenden Abschnitten beschrieben.
@@ -88,7 +88,7 @@ Um den Anforderungen der Government Cloud-Kunden gerecht zu werden, gibt es eini
 |Berichterstellung|Erstellen und Anzeigen von Dashboards und Berichten|Verfügbar|Verfügbar|Verfügbar|
 |  |Geplante Datenaktualisierung|Verfügbar|Verfügbar|Verfügbar|
 |  |Aktualisierbare Teamdashboards|Verfügbar|Verfügbar|Verfügbar|
-|  |Paginierte Berichte|Verfügbar|Verfügbar|In der Roadmap|
+|  |Paginierte Berichte|Verfügbar|In der Roadmap|In der Roadmap|
 |  |Vorlagen-Apps|Nicht verfügbar|Nicht verfügbar|Nicht verfügbar|
 |Verbinden mit Daten|Importieren von Daten und Berichten aus Excel|Verfügbar|Verfügbar|Verfügbar|
 |  |Importieren von Daten aus CSV-Dateien|Verfügbar|Verfügbar|Verfügbar|

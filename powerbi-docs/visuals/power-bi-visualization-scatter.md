@@ -138,7 +138,7 @@ Nun fügen wir eine dritte Dimension hinzu.
     Ändern Sie die Markierungsform in Raute, Dreieck oder Quadrat. Die Verwendung einer anderen Markierungsform für jede Linie erleichtert den Benutzern des Berichts, die Linien (oder Flächen) voneinander zu unterscheiden.
 
 1. Öffnen Sie den Bereich „Analyse“ ![Screenshot des Symbols für den Bereich „Analyse“.](media/power-bi-visualization-scatter/power-bi-analytics.png) zum Hinzufügen zusätzlicher Informationen zur Visualisierung.  
-    - Fügen Sie eine Linie für den Medianwert hinzu. Wählen Sie **Median** > **Hinzufügen** aus. Standardmäßig wird von Power BI eine Medianlinie für *Umsatz pro Quadratfuß* hinzugefügt. Dies ist nicht besonders nützlich, da offensichtlich 10 Datenpunkte vorhanden sind und der Median mit fünf Datenpunkten auf jeder Seite erstellt wird. Wechseln Sie stattdessen zum **Measure***Gesamtumsatzabweichung in Prozent*.  
+    - Fügen Sie eine Linie für den Medianwert hinzu. Wählen Sie **Median** > **Hinzufügen** aus. Standardmäßig wird von Power BI eine Medianlinie für *Umsatz pro Quadratfuß* hinzugefügt. Dies ist nicht besonders nützlich, da offensichtlich 10 Datenpunkte vorhanden sind und der Median mit fünf Datenpunkten auf jeder Seite erstellt wird. Wechseln Sie stattdessen zum **Measure** *Gesamtumsatzabweichung in Prozent*.  
 
         ![Screenshot des Blasendiagramms mit Medianlinie.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
 

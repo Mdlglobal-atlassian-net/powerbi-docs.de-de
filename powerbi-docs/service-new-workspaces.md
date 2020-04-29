@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 40bbec8a6a28def6cde9128b51c8919fd4f493de
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488727"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120348"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organisieren der Arbeit in den neuen Power BI-Arbeitsbereichen
 
@@ -60,30 +60,7 @@ Mit Rollen können Sie verwalten, wer welche Aktionen in einem Arbeitsbereich du
 
 Wenn Sie einer Benutzergruppe Rollen zuweisen, verfügen die Personen in der Gruppe über Zugriffsberechtigungen für Inhalte. Wenn Sie Benutzergruppen schachteln, verfügen alle Benutzer über die Berechtigung.
 
-Folgende Rollen sind verfügbar: Administrator, Mitglied, Mitwirkender und Betrachter. Für alle diese Funktionen außer Anzeigen und Interaktion ist eine Power BI Pro-Lizenz erforderlich.
-
-|Funktionalität   | Administrator  | Mitglied  | Mitwirkender  | Viewer |
-|---|---|---|---|---|
-| Den Arbeitsbereich aktualisieren und löschen.  | X  |   |   |   | 
-| Personen hinzufügen/entfernen (einschließlich anderer Administratoren).  | X  |   |   |   |
-| Mitglieder oder andere Benutzer mit niedrigeren Berechtigungen hinzufügen.  |  X | X  |   |   |
-| Apps veröffentlichen und aktualisieren. |  X | X  |   |   |
-| Elemente und Apps freigeben<sup>1</sup> |  X | X  |   |   |
-| Anderen erlauben, Elemente erneut freizugeben<sup>1</sup> |  X | X  |   |   |
-| Apps auf der Startseite von Kollegen unter „Empfohlen“ anzeigen lassen |  X | X  |   |   |
-| Dashboards und Berichte auf der Startseite von Kollegen unter „Empfohlen“ anzeigen lassen |  X | X  | X |   |
-| Inhalte im Arbeitsbereich erstellen, bearbeiten und löschen.  |  X | X  | X  |   |
-| Berichte im Arbeitsbereich veröffentlichen und Inhalt löschen.  |  X | X  | X  |   |
-| Erstellen Sie einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich.<sup>1</sup> |  X | X  | X  |   |
-| Einen Bericht kopieren<sup>2</sup> | X | X | X |  |
-| Ein Element anzeigen und mit ihm interagieren<sup>3</sup> |  X | X  | X  | X  |
-| Lesen von in Arbeitsbereichs-Datenflüssen gespeicherten Daten | X | X | X | X |
-
-1. Mitwirkende und Zuschauer können Elemente in einem Arbeitsbereich freigeben, wenn sie über die entsprechenden Berechtigungen verfügen.
-2. Sie müssen zusätzliche Kriterien erfüllen, um einen Bericht zu kopieren und einen Bericht in einem anderen Arbeitsbereich basierend auf einem Dataset in diesem Arbeitsbereich zu erstellen:
-    - Sie benötigen eine Power BI Pro-Lizenz. Weitere Informationen finden Sie im nächsten Abschnitt zur [Lizenzierung](#licensing).
-    - Sie benötigen die Erstellungsberechtigung für das Dataset. Für Datasets in diesem Arbeitsbereich haben die Personen mit den Rollen „Administrator“, „Mitglied“ und „Mitwirkender“ über ihre Arbeitsbereichsrolle die Erstellungsberechtigung.
-2. Auch wenn Sie nicht über eine Power BI Pro-Lizenz verfügen, können Sie Elemente im Power BI-Dienst anzeigen und mit ihnen interagieren, wenn sich die Elemente in einem Arbeitsbereich in einer Premium-Kapazität befinden.
+[!INCLUDE [power-bi-workspace-roles-table](includes/power-bi-workspace-roles-table.md)]
 
 ## <a name="licensing"></a>Lizenzierung
 Alle Benutzer, die Sie einem Arbeitsbereich in der gemeinsam genutzten Kapazität hinzufügen, benötigen eine Power BI Pro-Lizenz. Im Arbeitsbereich ist die Zusammenarbeit aller Beteiligten beim Erstellen von Dashboards und Berichten möglich, die Sie für eine größere Zielgruppe oder sogar die gesamte Organisation veröffentlichen möchten. 
