@@ -2,20 +2,20 @@
 title: Beispiel zur Nachverfolgung von COVID-19-Daten für US-Behörden auf bundesstaatlicher und kommunaler Ebene
 description: Laden Sie den Beispielbericht mit US-Daten zur COVID-19-Pandemie auf bundesstaatlicher und kommunaler Ebene herunter, und ändern Sie ihn.
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979774"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584931"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Beispiel zur Nachverfolgung von COVID-19-Daten für US-Behörden auf bundesstaatlicher und kommunaler Ebene
 
@@ -48,7 +48,7 @@ Wenn Sie die interaktive Grafik auf Ihrer Website einbinden möchten, kopieren S
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Der Einbettungscode ist ein iFrame-Element im HTML-Format, das Sie in eine beliebige HTML-Seite einfügen können. Passen Sie die Breite und Höhe des iFrame-Elements entsprechend Ihrer Website an. Der Beispielbericht wurde im Format 16:9 erstellt. Wählen Sie daher eine Größe aus, bei der dieses Seitenverhältnis beibehalten wird. Bei korrekter Implementierung wird die Grafik ohne einen grauen Rahmen angezeigt. Vor der Durchführung dieser Anpassungen ist es hilfreich, die [Tipps und Tricks für die iFrame-Höhe und -Breite](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width) zu lesen.
+Der Einbettungscode ist ein iFrame-Element im HTML-Format, das Sie in eine beliebige HTML-Seite einfügen können. Passen Sie die Breite und Höhe des iFrame-Elements entsprechend Ihrer Website an. Der Beispielbericht wurde im Format 16:9 erstellt. Wählen Sie daher eine Größe aus, bei der dieses Seitenverhältnis beibehalten wird. Bei korrekter Implementierung wird die Grafik ohne einen grauen Rahmen angezeigt. Vor der Durchführung dieser Anpassungen ist es hilfreich, die [Tipps und Tricks für die iFrame-Höhe und -Breite](../service-publish-to-web.md#tips-for-iframe-height-and-width) zu lesen.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Option 2: Anpassen der Power BI-Beispieldatei
 
@@ -112,7 +112,7 @@ Wenn Sie den angepassten Bericht auf Ihrer Website veröffentlichen möchten, so
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Erstellen eines Einbettungscodes für die Webveröffentlichung 
 
-Führen Sie zur Einbettung des angepassten Berichts auf Ihrer Website die Schritte aus, die im Artikel [Erstellen von Einbettungscode für die Webveröffentlichung](../service-publish-to-web.md#how-to-use-publish-to-web) beschrieben werden.
+Führen Sie zur Einbettung des angepassten Berichts auf Ihrer Website die Schritte aus, die im Artikel [Erstellen von Einbettungscode für die Webveröffentlichung](../service-publish-to-web.md#create-embed-codes-with-publish-to-web) beschrieben werden.
 
 Nach der Veröffentlichung des Einbettungscodes können Sie mithilfe des iFrame-Elements im Bestätigungsdialogfeld die Einbettung in Ihre Website vornehmen.
 
