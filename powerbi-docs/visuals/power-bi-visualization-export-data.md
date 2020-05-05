@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381374"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585380"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportieren der Daten, die zum Erstellen einer Visualisierung verwendet wurden
 
@@ -242,7 +242,7 @@ Diese Einschränkungen und Überlegungen gelten für Power BI Desktop und Power 
 
 - Das Exportieren mithilfe *Zugrunde liegender Daten* ist nicht möglich, wenn Sie für die Visualisierung, die Power BI exportiert, die Option *Elemente ohne Daten anzeigen* aktivieren.
 
-- Wenn Sie DirectQuery verwenden, kann Power BI maximal 16 MB unkomprimierter Daten exportieren. Ein unbeabsichtigtes Ergebnis kann sein, dass Sie weniger als die maximale Anzahl von Zeilen exportieren. Dies ist wahrscheinlich, wenn:
+- Wenn Sie DirectQuery verwenden, kann Power BI maximal 16 MB unkomprimierter Daten exportieren. Ein unbeabsichtigtes Ergebnis kann sein, dass Sie weniger als die maximale Anzahl von 150.000 Zeilen exportieren. Dies ist wahrscheinlich, wenn:
 
     - Viele Spalten vorhanden sind.
 

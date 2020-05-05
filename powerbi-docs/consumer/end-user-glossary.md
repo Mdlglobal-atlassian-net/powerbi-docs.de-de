@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267225"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120112"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst
 Der Power BI-Dienst führt möglicherweise Terminologie ein, die nicht vertraut oder zunächst verwirrend ist. Das Glossar ist der ideale Ort, um Begriffe nachzuschlagen – vielleicht sollten Sie ein Lesezeichen setzen? Eine weitere hervorragende Ressource, mehr über die Bausteine zu erfahren, aus denen sich der Power BI-Dienst zusammensetzt, sind die [Grundkonzepte](end-user-basic-concepts.md). Grundkonzepte bietet einen allgemeinen Überblick über die Power BI-*Bestandteile* und die Art ihrer Verbindung.
@@ -22,9 +22,9 @@ Dieses Glossar ist eine Communityinitiative.  Fehlt hier ein Begriff? Bitten Sie
 
 ## <a name="a"></a>A
 
-**Konto** Es gibt verschiedene Arten von Power BI-Konten, die auch als *Lizenzen* bezeichnet werden.  Die Konten sind entweder Benutzer- oder Organisationskonten. Benutzerkonten sind in den Versionen *Free* oder *Pro* verfügbar.  Ein Power BI-Benutzer mit einer *Free*-Lizenz verwendet entweder eigenständiges Power BI Desktop oder den Power BI-Dienst innerhalb eines Organisationskontos mit Premium-Lizenz. Das Power BI-Benutzerkonto *Pro* ist ein kostenpflichtiges monatliches Abonnement, das die Zusammenarbeit und gemeinsame Nutzung von Inhalten mit anderen *Pro*-Benutzern ermöglicht. 
+**Account** (Konto). Es gibt verschiedene Arten von Power BI-Konten, die auch als *Lizenzen* oder *Abonnements* bezeichnet werden.  Die Konten sind entweder Benutzer- oder Organisationskonten. Benutzerkonten sind in den Versionen *Free* oder *Pro* verfügbar.  Ein Power BI *Free*-Benutzer verwendet entweder Power BI Desktop als eigenständigen Dienst oder Power BI als eigenständigen Dienst oder den Power BI-Dienst im Rahmen einer Organisation, die ein Premium-Organisationsabonnement hat. Das Power BI-Benutzerkonto *Pro* ist ein kostenpflichtiges monatliches Abonnement, das die Zusammenarbeit und gemeinsame Nutzung von Inhalten mit anderen *Pro*-Benutzern ermöglicht. 
 
-Das Organisationskonto *Premium* (auch als *Premium-Kapazität* bezeichnet) bietet im Vergleich zu Benutzerlizenzen eine zusätzliche Funktionsebene. Beispielsweise können Inhaber eines Benutzerkontos des Typs *Free* innerhalb einer Organisation, die über eine *Premium*-Lizenz verfügt, viel mehr mit Power BI erreichen als Benutzer mit *Free*-Lizenz ohne *Premium*. Beispielsweise können Benutzer der *Free-Lizenz* in Organisationskonten des Tarifs *Premium* mit Kollegen zusammenarbeiten und Inhalte anzeigen, die in er Power BI Premium-Kapazität gehostet werden.  
+Das *Premium*-Organisationsabonnement (auch als *Premium-Kapazität* bezeichnet) bietet im Vergleich zu Benutzerlizenzen eine zusätzliche Funktionsebene. Beispielsweise können Inhaber eines *Free*-Benutzerkontos innerhalb einer Organisation, die über ein *Premium*-Abonnement verfügt, viel mehr mit Power BI erreichen als *Free*-Benutzer ohne *Premium*. Beispielsweise können Benutzer der *Free-Lizenz* in Organisationskonten des Tarifs *Premium* mit Kollegen zusammenarbeiten und Inhalte anzeigen, die in er Power BI Premium-Kapazität gehostet werden. 
 
 **admin portal (Verwaltungsportal)** Der Ort, an dem Power BI-Administratoren Benutzer, Funktionen und Einstellungen für Power BI in ihrer Organisation verwalten. (Hinweis: Office 365, Azure und PowerApps verwenden das Admin Center.)
 

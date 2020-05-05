@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006788"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585070"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 
@@ -131,6 +131,11 @@ Im aktuellen Bericht enthält die Seite **District Monthly Sales** (Monatsumsät
     >[!NOTE]
     >Wenn Sie einen Slicer auf einer Seite synchronisieren, ihn auf dieser Seite jedoch nicht sichtbar machen, werden die Daten auf der Seite von den auf den anderen Seiten ausgewählten Slicern weiterhin gefiltert.
  
+## <a name="filtering-slicers"></a>Filterslicer
+Sie können Filter auf Visualebene auf Slicer anwenden, um die Liste der Werte zu reduzieren, die im Slicer angezeigt werden. Beispielsweise können Sie leere Werte aus einem Listenslicer oder bestimmte Datumsangaben aus einem Bereichsslicer herausfiltern. Hierbei werden nur *die Werte beeinflusst, die im Slicer angezeigt werden*, nicht *der Filter, den der Slicer auf andere Visuals anwendet*, wenn Sie eine Auswahl treffen. Angenommen, Sie wenden einen Filter auf einen Bereichsslicer an, um nur bestimmte Datumsangaben anzuzeigen. Die Auswahl im Slicer zeigt nur die ersten und letzten Datumsangaben aus dem Bereich an, die anderen Datumsangaben werden jedoch in Ihren anderen Visuals angezeigt. Sobald Sie Änderungen am ausgewählten Bereich im Slicer vornehmen, werden auch die anderen Visuals geändert. Wenn der Slicer gelöscht wird, werden wieder alle Datumsangaben angezeigt.
+
+Weitere Informationen über Filter auf Visualebene finden Sie unter [Filtertypen](../power-bi-report-filter-types.md).
+
 ## <a name="format-slicers"></a>Formatieren von Slicern
 Abhängig vom Slicertyp sind verschiedene Formatierungsoptionen verfügbar. Wenn Sie die Ausrichtung **Horizontal**, das Layout **Dynamisch** und die Farbgebung für **Elemente** auswählen, können Sie anstelle von Standardlistenelementen Schaltflächen oder Kacheln erstellen und die Größe von Slicerelementen an verschiedene Bildschirmgrößen und Layouts anpassen.  
 

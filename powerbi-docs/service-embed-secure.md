@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488819"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585033"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website
 
@@ -22,11 +22,13 @@ Mit der neuen Option **Einbetten** für Power BI-Berichte können Sie Berichte o
 
 Die Option **Einbetten** unterstützt [URL-Filter](service-url-filters.md) und URL-Einstellungen. Sie ermöglicht eine Integration in Portale mit geringem Programmieraufwand, für die nur grundlegende HTML- und JavaScript-Kenntnisse benötigt werden.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>**Einbetten** von Power BI-Berichten in Portale
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Einbetten von Power BI-Berichten in Portale
 
-1. Sie finden die neue Option **Einbetten** im Power BI-Dienst im Menü **Datei** für Berichte.
+1. Öffnen Sie einen Bericht im Power BI-Dienst.
 
-    ![Dropdownoption für das sichere Einbetten](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. Klicken Sie im Menü **Weitere Optionen** auf **Einbetten** >  **Website oder Portal**.
+
+    ![Option „Website oder Portal“](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Klicken Sie auf die Option **Einbetten**, um ein Dialogfeld mit einem Link und einem iFrame zu öffnen, die Sie zum sicheren Einbetten des Berichts verwenden können.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223283"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149595"
 ---
 # <a name="connect-to-an-oracle-database"></a>Herstellen einer Verbindung mit einer Oracle-Datenbank
 Für die Herstellung einer Verbindung mit einer Oracle-Datenbank muss auf dem Computer, auf dem Power BI Desktop ausgeführt wird, die richtigen Oracle-Clientsoftware installiert sein. Welche Oracle-Clientsoftware Sie verwenden, hängt davon ab, welche Version von Power BI Desktop Sie installiert haben: 32-Bit oder 64-Bit.
@@ -22,6 +22,10 @@ Für die Herstellung einer Verbindung mit einer Oracle-Datenbank muss auf dem Co
 Unterstützte Oracle-Versionen: 
 - Oracle 9 und höher
 - Oracle-Clientsoftware, Version 8.1.7 und höher
+
+> [!NOTE]
+> Wenn Sie eine Oracle-Datenbank für den Power BI-Berichtsserver konfigurieren möchten, finden Sie im Artikel [Oracle-Verbindungstyp ((Berichts-Generator und Power BI-Berichtsserver) | Microsoft-Dokumentation)](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) weitere Informationen. 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Ermitteln der installierten Version von Power BI Desktop
 Wählen Sie **Datei** > **Hilfe** > **Info** aus, und überprüfen Sie dann die Zeile **Version**, um zu bestimmen, welche Version von Power BI Desktop installiert ist. In der folgenden Abbildung ist eine 64-Bit-Version von Power BI Desktop installiert:
@@ -65,3 +69,5 @@ Wenn Sie Power BI Desktop aus dem Microsoft Store heruntergeladen haben, können
 * Wenn Sie die Version aus dem Microsoft Store verwenden möchten: Kopieren Sie auf Ihrem lokalen Computer die Datei „oraons.dll“ von _12.X.X\client_X_ nach _12.X.X\client_X\bin_, wobei _X_ die Version und Verzeichnisnummern darstellt.
 
 Wenn Ihnen im Power BI Gateway beim Herstellen einer Verbindung mit einer Oracle-Datenbank die Fehlermeldung *Object reference not set* (Der Objektverweis ist nicht festgelegt) angezeigt wird, befolgen Sie die Anweisungen im Artikel [Verwalten der Datenquelle – Oracle](service-gateway-onprem-manage-oracle.md).
+
+Wenn Sie den Power BI-Berichtsserver verwenden möchten, finden Sie im Artikel [Oracle-Verbindungstyp ((Berichts-Generator und Power BI-Berichtsserver) | Microsoft-Dokumentation)](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) eine Anleitung.

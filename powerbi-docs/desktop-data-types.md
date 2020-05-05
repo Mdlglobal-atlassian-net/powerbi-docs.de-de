@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729711"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584776"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Datentypen in Power BI Desktop
 Dieser Artikel beschreibt Datentypen, die im Power BI Desktop und von DAX (Data Analysis Expressions) unterstützt werden. 
@@ -35,6 +35,8 @@ Im Power BI Desktop können Sie den Datentyp einer Spalte im Abfrage-Editor oder
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 Die Dropdownliste „Datentyp“ im Abfrage-Editor weist zwei Datentypen auf, die derzeit nicht in der Daten- oder Berichtsansicht enthalten sind: **Datum/Uhrzeit/Zeitzone** und **Dauer**. Wenn eine Spalte mit diesen Datentypen in das Modell geladen und in der Daten- oder Berichtansicht angezeigt wird, wird eine Spalte mit einem Datentyp für Datum/Uhrzeit/Zeitzone in einen Datentyp für Datum/Uhrzeit konvertiert, und eine Spalte mit einem Datentyp für die Dauer in eine Dezimalzahl.
+
+Der Datentyp **Binary** wird derzeit nicht außerhalb des Abfrage-Editors unterstützt. Sie können den Datentyp im Abfrage-Editor beim Laden von Binärdateien verwenden, wenn Sie diese in andere Datentypen umwandeln, bevor Sie sie in das Power BI-Modell laden. Der Datentyp ist in den Menüs „Datenansicht“ und „Berichtsansicht“ für die Kompatibilität mit Legacyversionen enthalten, wenn Sie jedoch versuchen, binäre Spalten in das Power BI-Modell zu laden, treten womöglich Fehler auf.  
 
 ### <a name="number-types"></a>Zahlentypen
 Power BI Desktop unterstützt drei Zahlentypen:
@@ -71,6 +73,16 @@ Power BI Desktop unterstützt fünf Datum/Uhrzeit-Datentypen in der Abfrageansic
 
 ### <a name="blanksnulls-type"></a>Leerzeichen-/Null-Typ
 **Leer** – Ein Datentyp in DAX, der SQL-Nullen darstellt und ersetzt. Sie können mit der [BLANK](https://msdn.microsoft.com/library/ee634820.aspx)-Funktion ein Leerzeichen erstellen und mit der logischen [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx)-Funktion nach Leerzeichen suchen.
+
+### <a name="binary-data-type"></a>Binary-Datentyp
+
+Der Datentyp „Binary“ kann zum Darstellen beliebiger anderer Daten mit einem Binärformat verwendet werden. Sie können den Datentyp im Abfrage-Editor beim Laden von Binärdateien verwenden, wenn Sie diese in andere Datentypen umwandeln, bevor Sie sie in das Power BI-Modell laden. Binärspalten werden nicht im Power BI-Datenmodell unterstützt. Der Datentyp ist in den Menüs „Datenansicht“ und „Berichtsansicht“ für die Kompatibilität mit Legacyversionen enthalten, wenn Sie jedoch versuchen, binäre Spalten in das Power BI-Modell zu laden, treten womöglich Fehler auf.
+
+
+> [!NOTE]
+>  Wenn sich eine Binärspalte in der Ausgabe der Schritte einer Abfrage befindet, können beim Aktualisieren der Daten über ein Gateway Fehler auftreten. Es wird empfohlen, dass Sie Binärspalten im letzten Schritt Ihrer Abfragen explizit entfernen.    
+> 
+>
 
 ### <a name="table-data-type"></a>Tabellendatentyp
 DAX verwendet einen Tabellendatentyp in vielen Funktionen, z. B. in Aggregationen und Zeitintelligenzberechnungen. Einige Funktionen erfordern einen Verweis auf eine Tabelle, während andere Funktionen eine Tabelle zurückgeben, die dann als Eingabe für andere Funktionen verwendet werden kann. In einigen Funktionen, die eine Tabelle als Eingabe erfordern, können Sie einen Ausdruck angeben, der eine Tabelle ergibt. Bei einigen Funktionen ist ein Verweis auf eine Basistabelle erforderlich. Informationen zu den Anforderungen bestimmter Funktionen finden Sie unter [DAX-Funktionsreferenz](https://msdn.microsoft.com/library/ee634396.aspx).

@@ -9,14 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
+ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401923"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82191612"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URLs zur Aufnahme in die Whitelist
+[//]: # "suparnap und miwehnia sind Kontakte, die für die Verwaltung dieser Liste zuständig sind"
 
 **Der Power BI-Onlinedienst**, auch als SaaS-App von Power BI bezeichnet, erfordert eine Verbindung mit dem Internet. Die unten aufgeführten Endpunkte sollten für Kunden, die den Power BI-Onlinedienst verwenden, erreichbar sein.
 
@@ -52,6 +53,7 @@ Für die allgemeine Verwendung von Power BI müssen Sie eine Verbindung zu den i
 | 5 | **Erforderlich:** Diensttelemetrie | dc.services.visualstudio.com | TCP 443 |
 | 6 | **Optional:** Informationsmeldungen | dynmsg.modpim.com | TCP 443 |
 | 7 | **Optional:** NPS-Umfragen | nps.onyx.azure.net | TCP 443 |
+| 8 | **Optional:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Verwaltung

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496706"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120239"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 
@@ -29,8 +29,8 @@ Ihre Apps sind in der Inhaltsliste der **Apps** organisiert. Wählen Sie einfach
 
 ![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> Für die Verwendung der Apps-Funktion ist eine Power BI Pro-Lizenz erforderlich. [Ermitteln des Lizenztyps](end-user-license.md)
+
+Für die Verwendung des Apps-Features ist eine Power BI Pro-Lizenz erforderlich oder die App muss in einer Premium-Kapazität gespeichert werden. Weitere Informationen über Lizenzen und Premium-Kapazitäten finden Sie unter [Lizenzen für Anwender](end-user-license.md).
 
 ## <a name="app-designers-and-app-consumers"></a>*Designer* und *Endbenutzer* von Apps
 Je nach Rolle gibt es *Designer*, die Apps zur eigenen Nutzung oder zur Freigabe für Kollegen erstellen, und *Benutzer*, die von anderen Personen erstellte Apps erhalten und herunterladen. Dieser Artikel richtet sich an *Endbenutzer* von Apps.
@@ -44,8 +44,8 @@ In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller di
 ## <a name="get-a-new-app"></a>Erhalten einer neuen App
 Sie können Apps auf unterschiedliche Weise erhalten. Einige der Methoden sind unten aufgeführt.  Ausführliche Anleitungen zum Installieren und Erkunden einer App finden Sie unter [Öffnen und Interagieren mit einer App](end-user-app-view.md).
 
-- Der App-Designer kann die App automatisch in Ihrem Power BI-Konto installieren. Die neue App wird dann beim nächsten Öffnen von Power BI in Ihrer Inhaltsliste der **Apps** angezeigt. 
-- Der App-Designer kann Ihnen per E-Mail einen direkten Link zur App senden. Durch Klicken auf den Link wird die App in Power BI geöffnet.
+- Der App-Designer kann die App automatisch in Ihrem Power BI-Konto installieren. Die neue App wird dann beim nächsten Öffnen des Power BI-Diensts in Ihrer Inhaltsliste der **Apps** angezeigt. 
+- Der App-Designer kann Ihnen per E-Mail einen direkten Link zur App senden. Durch Klicken auf den Link wird die App im Power BI-Dienst geöffnet.
 - Wenn Sie Power BI auf Ihrem mobilen Gerät nutzen, können Sie eine App nur über einen direkten Link und nicht über AppSource installieren. Wenn der Ersteller der App diese automatisch installieren lässt, wird sie in der Liste der Apps angezeigt.
 - Sie können unter [AppSource](https://appsource.microsoft.com) nach Apps suchen. AppSource enthält Apps, die von Berichts-Designern sowohl innerhalb als auch außerhalb Ihres Unternehmens veröffentlicht wurden. So finden sich in AppSource beispielsweise Apps für Dienste, die Sie bereits verwenden, wie etwa Google Analytics, GitHub oder Microsoft Dynamics. Außerdem finden Sie Apps, bei denen es sich um Beispiele handelt, die Sie zum Erlernen von Power BI verwenden können.  
 

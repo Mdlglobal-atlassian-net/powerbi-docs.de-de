@@ -1,23 +1,23 @@
 ---
-title: Einbetten mit dem Berichts-Webpart in SharePoint Online
+title: Einbetten eines Berichts-Webparts in SharePoint Online
 description: 'Jetzt in Power BI: Mit dem neuen Berichts-Webpart für SharePoint Online können Sie interaktive Power BI-Berichte einfach in SharePoint Online-Seiten einbetten.'
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221710"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585194"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>Einbetten eines Berichts-Webparts in SharePoint Online
 
 Jetzt in Power BI: Mit dem neuen Berichts-Webpart für SharePoint Online können Sie interaktive Power BI-Berichte einfach in SharePoint Online-Seiten einbetten.
 
@@ -38,9 +38,9 @@ Um Ihren Bericht in SharePoint Online einzubetten, müssen Sie die Berichts-URL 
 
 1. Zeigen Sie den Bericht in Power BI an.
 
-2. Wählen Sie das Dropdownmenü **Datei** und dann **in SharePoint Online einbetten** aus.
+2. Klicken Sie im Dropdownmenü **Weitere Optionen** auf **Einbetten** > **SharePoint Online**.
 
-    ![Dateimenü](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Option „SharePoint Online“ im Menü „Weitere Optionen“](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. Kopieren Sie die Berichts-URL aus dem Dialogfeld.
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766292"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584995"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Paginierte Berichte in Power BI: Häufig gestellte Fragen 
 
@@ -173,6 +173,11 @@ Nein, derzeit ist kein Berichtanzeige-Steuerelement verfügbar.
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Kann ich auf der neuen Power BI-Startseite nach paginierten Berichten suchen?
 
 Ja, Sie können jetzt auf der Startseite nach Ihren paginierten Berichten suchen.  Sie werden auch in anderen Bereichen der neuen Startseite angezeigt.
+
+## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+Folgendes sollten Sie bei der Verwendung von Datetime-Feldern in paginierten Berichten beachten.
+
+- Derzeit gibt es einige Globalisierungseinschränkungen im Bezug zu Datetime-Parametern. Alle Datetime-Parameter im Power BI-Dienst werden unabhängig davon, wie Sie die Datetime-Felder in Power BI Report Builder entwerfen, im US-Format (MM/TT/JJJJ) abgerufen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

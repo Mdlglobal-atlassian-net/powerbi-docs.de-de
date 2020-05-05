@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114444"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585428"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -203,32 +203,30 @@ Die folgende Abbildung zeigt die Meldung, die bei der Freigabe für einen extern
 
 ### <a name="publish-to-web"></a>Im Web veröffentlichen
 
-Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere Informationen](service-publish-to-web.md). Dies führt dazu, dass der Bericht und die darin enthaltenen Daten für jeden im Web verfügbar sind.
+Als Administrator für einen Power BI-Mandanten verfügen Sie über die Einstellung **Im Web veröffentlichen** über Optionen, für die Benutzer Einbindungscode zum Veröffentlichen von Berichten im Web erstellen können. Diese Funktionalität stellt den Bericht und die enthaltenen Daten für jeden im Web zur Verfügung. Weitere Informationen finden Sie unter [Veröffentlichen im Web](service-publish-to-web.md).
 
 > [!NOTE]
-> Das Erstellen neuer Einbindungscodes zur Veröffentlichung im Web muss von einem Power BI-Administrator erlaubt werden. Organisationen verfügen möglicherweise über vorhandene Einbindungscodes. Überprüfen Sie derzeit veröffentlichte Berichte mit der Seite [Einbindungscodes](service-admin-portal.md#embed-codes).
+> Nur Power BI-Administratoren können das Erstellen neuer Einbindungscodes für die Veröffentlichung im Web erlauben. Organisationen verfügen möglicherweise bereits über Einbindungscodes. Im Abschnitt [Einbindungscodes](service-admin-portal.md#embed-codes) des Verwaltungsportals können Sie die derzeit veröffentlichten Berichte einsehen.
 
-Die folgende Abbildung zeigt das Menü **Datei** für einen Bericht an, wenn die Einstellung **Im Web veröffentlichen** aktiviert ist.
+Die folgende Abbildung zeigt das Menü **Weitere Optionen** für einen Bericht an, wenn die Einstellung **Im Web veröffentlichen** aktiviert ist.
 
-![„Im Web veröffentlichen“ im Menü „Datei“](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Einstellung „Im Web veröffentlichen“ im Menü „Weitere Optionen“](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-Bei der Einstellung **Im Web veröffentlichen** gibt es mehrere Optionen dafür, welche Benutzer Einbindungscodes erstellen können.
+Die Einstellung **Im Web veröffentlichen** im Verwaltungsportal stellt Optionen bereit, für die Benutzer Einbindungscodes erstellen können.
 
 ![Einstellung „Im Web veröffentlichen“](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-Benutzer werden dazu aufgefordert, sich an den Power BI-Administrator zu wenden, damit dieser ihnen die Berechtigung zum Erstellen von Einbindungscodes erteilt, wenn bei der Option **Funktionsweise von Einbindungscodes auswählen** **Nur vorhandene Einbindungscodes zulassen** und für die Einstellung **Im Web veröffentlichen** **Aktiviert** ausgewählt ist.
+Administratoren können **Im Web veröffentlichen** auf **Aktiviert** und **Funktionsweise von Einbindungscodes auswählen** auf **Nur vorhandene Codes zulassen** festlegen. In diesem Fall können Benutzer Einbindungscodes erstellen, aber sie müssen den Power BI-Administrator kontaktieren, damit dieser dies erlaubt.
 
 ![„Im Web veröffentlichen“-Aufforderung](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Den Benutzer werden basierend auf der Einstellung **Im Web veröffentlichen** unterschiedliche Optionen in der Benutzeroberfläche angezeigt.
 
 |Feature |Für die gesamte Organisation aktiviert |Für die gesamte Organisation deaktiviert |Sicherheitsgruppen angeben   |
 |---------|---------|---------|---------|
-|**Im Web veröffentlichen** im Menü **Datei** des Berichts.|Für alle aktiviert|Nicht für alle sichtbar|Nur für autorisierte Benutzer oder Gruppen sichtbar|
+|**Im Web veröffentlichen** im Menü **Weitere Optionen** des Berichts|Für alle aktiviert|Nicht für alle sichtbar|Nur für autorisierte Benutzer oder Gruppen sichtbar|
 |**Einbindungscodes verwalten** unter **Einstellungen**|Für alle aktiviert|Für alle aktiviert|Für alle aktiviert<br><br>Option * **Löschen** nur für autorisierte Benutzer oder Gruppen<br>* **Codes abrufen** für alle aktiviert|
-|**Einbindungscodes** im Verwaltungsportal|Es wird einer der folgenden Statuswerte angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert|Angezeigter Status **Deaktiviert**|Es wird einer der folgenden Statuswerte angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert<br><br>Wenn ein Benutzer gemäß den Mandanteneinstellungen nicht autorisiert ist, wird als Status **Verletzt** angezeigt.|
+|**Einbindungscodes** im Verwaltungsportal|Es wird einer der folgenden Statuswerte angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert|Angezeigter Status **Deaktiviert**|Es wird einer der folgenden Statuswerte angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert<br><br>Wenn ein Benutzer gemäß den Mandanteneinstellungen nicht autorisiert ist, wird der Status **Verletzt** angezeigt.|
 |Vorhandene veröffentlichte Berichte|Alle aktiviert|Alle deaktiviert|Berichte werden weiterhin für alle gerendert.|
 
 ### <a name="export-data"></a>Daten exportieren

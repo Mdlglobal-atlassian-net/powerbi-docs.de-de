@@ -1,38 +1,62 @@
 ---
-title: Registrieren für Power BI mit einer neuen Office 365-Testversion
-description: Registrieren für Power BI mit einer neuen Office 365-Testversion
+title: Registrieren für Power BI mit einer neuen Microsoft 365-Testversion
+description: Registrieren für Power BI mit einer neuen Microsoft 365-Testversion
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
-ms.author: kfollis
+ms.date: 04/24/2020
+ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: aab3c01abc970261164c5cc225d89db09ce63d12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698438"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256319"
 ---
-# <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Registrieren für Power BI mit einer neuen Office 365-Testversion
+# <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registrieren für Power BI mit einer neuen Microsoft 365-Testversion
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
+In diesem Artikel wird eine alternative Methode für die Registrierung für Power BI beschrieben, wenn Sie nicht bereits über eine Geschäfts-, Schul- oder Uni-E-Mail-Adresse verfügen. 
 
-Dieser Artikel beschreibt eine alternative Methode für die Registrierung für Power BI: eine Office 365-Testversion. Wenn Sie Probleme damit haben, sich mit Ihrer geschäftlichen E-Mail-Adresse für Power BI zu registrieren, stellen Sie zunächst sicher, dass [die E-Mail-Adresse mit Power BI verwendet werden kann](service-self-service-signup-for-power-bi.md#supported-email-addresses). Wenn dies nicht der Fall ist, versuchen Sie sich zunächst für eine Office 365-Testversion und danach für Power BI zu registrieren. Sie können Power BI auch dann weiter verwenden, wenn die Office 365-Testversion abgelaufen ist.
+Wenn Sie Probleme damit haben, sich mit Ihrer E-Mail-Adresse für Power BI zu registrieren, stellen Sie zunächst sicher, dass [die E-Mail-Adresse mit Power BI verwendet werden kann](service-self-service-signup-for-power-bi.md#supported-email-addresses). Wenn das nicht funktioniert, registrieren Sie sich für eine Microsoft 365-Testversion, und erstellen Sie ein Geschäftskonto. Verwenden Sie dann das neue Geschäftskonto, um sich für den Power BI-Dienst zu registrieren. Sie können Power BI auch dann weiter verwenden, wenn die Microsoft 365-Testversion abgelaufen ist.
 
-1. Registrieren Sie sich auf der [Office 365-Website](https://go.microsoft.com/fwlink/p/?LinkID=403802) für eine Testversion von Office 365.
+> [!NOTE]
+> Office 365 wurde vor kurzem in Microsoft 365 umbenannt. Bis alle Artikel aktualisiert wurden, sehen Sie möglicherweise weiterhin die Bezeichnung Office 365.
 
-1. Wenn Sie diesen Registrierungsvorgang abschließen, erhalten Sie einen neuen Anmeldenamen, der wie folgt aussieht: you@yourcompany.onmicrosoft.com. Dies ist die Anmeldung, die Sie bei Power BI verwenden.
+1. Melden Sie sich [auf der Microsoft 365-Website](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans) für eine Microsoft 365-Testversion an.
 
-1. Registrieren Sie sich über [diesen Link](https://app.powerbi.com/signupredirect?pbi_source=web) für Power BI. Wenn Sie dazu aufgefordert werden, melden Sie sich mit dem Anmeldenamen sowie dem Kennwort an, den bzw. das Sie im vorherigen Schritt für Office 365 ausgewählt haben.
+    ![Willkommensseite](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-now.png)
 
-1. Das ist schon alles! Wenn Sie fertig sind, werden Sie zu Power BI weitergeleitet. Wenn beim Anmelden mit dem neuen Konto Probleme auftreten, versuchen Sie die Anmeldung in einer privaten Browsersitzung.
+    ![Registrieren für ein neues Konto](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-existing.png)
+
+    ![Geschäfts-, Schul- oder Unikonto erstellen](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-email.png)
+
+    ![Registrieren für ein neues Konto](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-no-email.png)
+
+    ![Kontaktinformationen eingeben](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-welcome-you.png)
+
+    
+
+1. Erstellen Sie Ihren neuen geschäftlichen Anmeldenamen im Format you@yourcompany.onmicrosoft.com. Dies ist die Anmeldung, die Sie bei Power BI verwenden.
+
+    ![Geschäftliche E-Mail-Adresse erstellen](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-address.png)
+
+    ![Code per Textnachricht erhalten](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-robot.png)    
+
+1. Möglicherweise müssen Sie warten, bis Ihr neuer Mandant erstellt wird. 
+
+Das ist alles.  Sie verfügen nun über eine E-Mail-Adresse, die Sie für die Registrierung für Power BI verwenden können. Fahren Sie mit dem Artikel [Registrieren für Power BI als Einzelperson](service-self-service-signup-for-power-bi.md) fort.
+
+
+
+
 
 ## <a name="important-considerations"></a>Wichtige Hinweise
+Wenn beim Anmelden mit dem neuen Konto Probleme auftreten, versuchen Sie die Anmeldung in einer privaten Browsersitzung.    
 
-Mit dieser Registrierungsmethode erstellen Sie einen neuen organisatorischen Mandanten und werden zum Administrator dieses Mandanten. Weitere Informationen finden Sie unter [Was ist die Power BI-Verwaltung?](service-admin-administering-power-bi-in-your-organization.md). Sie können Ihrem Mandanten neue Benutzer hinzufügen und diesen für andere Benutzer freigeben, wie in der [Administratorhilfe zu Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) beschrieben.
+Mit dieser Registrierungsmethode erstellen Sie einen neuen organisatorischen Mandanten und werden zum Administrator dieses Mandanten. Weitere Informationen finden Sie unter [Was ist die Power BI-Verwaltung?](service-admin-administering-power-bi-in-your-organization.md). Sie können Ihrem Mandanten neue Benutzer hinzufügen und diesen für andere Benutzer freigeben, wie in der [Administratorhilfe zu Microsoft 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) beschrieben.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

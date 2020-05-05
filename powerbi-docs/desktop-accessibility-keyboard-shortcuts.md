@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869372"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584819"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Tastenkombinationen in Power BI Desktop
 
@@ -56,6 +56,7 @@ Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, desha
 | Mehrfachauswahl | **STRG + EINGABETASTE** oder **STRG + LEERTASTE** |
 | Rechtsklick | <ul><li>Windows-Tastatur: **Windows-Taste + F10** Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastatur: **UMSCHALT + F10**</li></ul> |
 | Auswahl löschen | **STRG + UMSCHALT + C** |
+| QuickInfo ein- oder ausblenden | **STRG + H** |
 
 ## <a name="table-and-matrix-navigation"></a>Tabellen- und Matrixnavigation
 | So führen Sie diese Aktion aus          | Tastenkombination                |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464636"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584674"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Verwenden erweiterter Dataset-Metadaten (Vorschauversion)
 
@@ -46,6 +46,7 @@ Sobald die Previewfunktion aktiviert ist, versucht Power BI Desktop, PBIX- und P
 
 In der Vorschauversion gelten die folgenden Einschränkungen, wenn die Previewfunktion aktiviert ist.
 
+### <a name="unsupported-features-and-connectors"></a>Nicht unterstützte Features und Connectors
 Beim Öffnen einer vorhandenen PBIX- oder PBIT-Datei, die nicht aktualisiert wurde, schlägt das Upgrade fehl, wenn das Dataset eines der folgenden Features oder einen der folgenden Connectors enthält. Wenn ein solcher Fehler auftritt, sollte dies keine unmittelbaren Auswirkungen auf das Benutzererlebnis haben, und Power BI Desktop verwendet weiterhin das vorherige Metadatenformat.
 
 * Python-Skripts
@@ -67,6 +68,8 @@ Beim Öffnen einer vorhandenen PBIX- oder PBIT-Datei, die nicht aktualisiert wur
 
 Darüber hinaus können PBIX- und PBIT-Dateien, die bereits erfolgreich für die Verwendung von **erweiterten Dataset-Metadaten** aktualisiert wurden, die obigen Features und Connectors in der aktuellen Version *nicht* mehr verwenden.
 
+### <a name="lineage-view"></a>Herkunftsansicht
+Datasets, die das neue Metadatenformat verwenden, zeigen derzeit keine Links zu Dataflows in der Datenherkunftsansicht im Power BI-Dienst an.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
