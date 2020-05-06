@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698392"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Problembehandlung für Power BI Gateway (persönlicher Modus)
@@ -127,7 +127,7 @@ Die Protokolle **Datenverwaltungsgateway** und **PowerBIGateway** befinden sich 
 ![Protokolle „Datenverwaltungsgateway“ und „PowerBIGateway“](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Ablaufverfolgung mit Fiddler
-[Fiddler](https://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann. Sie können die Kommunikation zwischen dem Power BI-Dienst und dem Clientcomputer verfolgen. Dieser Kommunikation können Sie Fehler und ähnliche Informationen entnehmen.
+[Fiddler](https://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Datenverkehr überwacht wird. Sie können die Kommunikation zwischen dem Power BI-Dienst und dem Clientcomputer verfolgen. Dieser Kommunikation können Sie Fehler und ähnliche Informationen entnehmen.
 
 ![Ablaufverfolgung mit Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 

@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439800"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Verwenden der berichtsübergreifenden Drillthroughfunktion in Power BI
@@ -44,7 +44,7 @@ Nachdem Sie Ihre Modelle überprüft haben, aktivieren Sie den Quellbericht, um 
 1. Öffnen Sie in Power BI Desktop **Datei** > **Optionen und Einstellungen** > **Optionen**. 
 1. Wählen Sie links im Fenster im Navigationsbereich **Optionen** unten den Abschnitt **Aktuelle Datei** und dann **Berichtseinstellungen** aus. 
 1. Aktivieren Sie rechts unten unter **Berichtsübergreifender Drillthrough** das Kontrollkästchen **Gestatten Sie, dass Visuals in diesem Bericht Drillthroughziele aus anderen Berichten verwenden**. 
-1. Wählen Sie **OK** aus. 
+1. Klicken Sie auf **OK**. 
    
    ![Aktiveren der berichtsübergreifenden Drillthroughfunktion in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
@@ -100,7 +100,7 @@ Für den berichtsübergreifenden Drillthrough übergibt Power BI den Filterkonte
 
 Wenn Sie nach der berichtsübergreifenden Drillthroughaktion zum Quellbericht zurückkehren möchten, verwenden Sie die Schaltfläche **Zurück** des Browsers. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Folgende Artikel könnten Sie ebenfalls interessieren:
 

@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698760"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets auf einem lokalen Laufwerk
@@ -49,10 +49,10 @@ Wenn Sie Power Query (Daten abrufen und transformieren in Excel 2016) für die 
 Klicken Sie im **Navigator**auf **Laden in...**  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-Wenn Sie im Navigator auf **Bearbeiten** klicken, wird der Abfrage-Editor geöffnet. Dort können Sie auf **Schließen und Laden in...** klicken.  
+Wenn Sie im Navigator auf **Bearbeiten** klicken, wird der Abfrage-Editor geöffnet. Dort können Sie auf **Schließen und laden in...** klicken.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-Stellen Sie anschließend unter **Laden in**sicher, dass **Dem Datenmodell diese Daten hinzufügen**ausgewählt ist.  
+Stellen Sie anschließend unter **Laden in**sicher, dass **Diese Daten dem Datenmodell hinzufügen**ausgewählt ist.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Was geschieht, wenn ich in Power Pivot „Externe Daten abrufen“ verwende?
@@ -78,6 +78,6 @@ Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf e
 
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 

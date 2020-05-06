@@ -1,6 +1,6 @@
 ---
-title: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
-description: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
+title: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
+description: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758420"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Hinzufügen von Visuals zu einem Power BI-Bericht (Teil 2)
@@ -36,7 +36,7 @@ In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einze
 
 1. Öffnen Sie die **PBIX-Datei mit einem Analysebeispiel für den Einzelhandel** in der Berichtsansicht ![Screenshot des Berichtsansichtssymbols.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
 ## <a name="add-visualizations-to-the-report"></a>Hinzufügen von Visualisierungen zum Bericht
 
@@ -69,7 +69,7 @@ Erstellen Sie eine Visualisierung durch Auswahl eines Felds aus dem Bereich **Fe
 2. Fügen Sie eine Legende hinzu.  Ziehen Sie **Store** > **Kette** in den Bereich „Legende“, um die Daten nach dem Namen des Geschäfts anzuzeigen.  
    ![Zeichenbereich für den Bericht mit einem Pfeil, der von „Kette“ in der Liste „Felder“ nach „Kette“ im Bucket „Legende“ zeigt](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md).  
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 

@@ -11,10 +11,10 @@ ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874484"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Anzeigen von Bildern in einem Bericht in einer Tabelle, Matrix oder einem Slicer
@@ -41,7 +41,7 @@ Ihren Berichten Bilder hinzuzufügen ist eine gute Möglichkeit, sie zu verbesse
 - Anonymer Zugriff auf die URL muss möglich sein, nicht auf einer Site, für die eine Anmeldung erforderlich ist, z. B. SharePoint. Wenn Bilder jedoch auf SharePoint oder OneDrive gehostet werden, können Sie möglicherweise einen Einbindungscode erhalten, der direkt auf sie verweist. 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Seitenlayout und Formatierung](/learn/modules/visuals-in-power-bi/12-formatting)
 

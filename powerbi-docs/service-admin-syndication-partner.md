@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958354"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI kann einem Office 365-Partnerabonnement nicht hinzugefügt werden
@@ -52,7 +52,7 @@ Sie können sich für eine kostenlose Testversion von Power BI registrieren. We
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Aktivieren von Ad-hoc-Abonnements
 
-Standardmäßig sind individuelle Registrierungen (sogenannte Ad-hoc-Abonnements) deaktiviert. In diesem Fall sehen Sie beim Registrierungsversuch die folgende Meldung: *Ihre IT-Abteilung hat die Registrierung für Microsoft Power BI deaktiviert*.
+Standardmäßig sind individuelle Registrierungen (sogenannte Ad-hoc-Abonnements) deaktiviert. In diesem Fall wird die folgende Meldung angezeigt, wenn Sie versuchen, sich zu registrieren: *Ihre IT-Abteilung hat die Registrierung für Microsoft Power BI deaktiviert*.
 
 ![Abbildung der Meldung](media/service-admin-syndication-partner/sorry.png)
 
@@ -79,7 +79,7 @@ Um Ad-Hoc-Abonnements zu aktivieren können Sie sich an Ihren Partner wenden und
     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
     ```
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Power BI licensing in your organization (Power BI-Lizenzierung in Ihrem Unternehmen)](service-admin-licensing-organization.md)
 

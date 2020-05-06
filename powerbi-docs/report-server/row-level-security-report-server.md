@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859178"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicherheit auf Zeilenebene auf dem Power BI-Berichtsserver
@@ -57,7 +57,7 @@ Nachdem Sie Ihren Bericht im Power BI-Berichtsserver gespeichert haben, verwalte
 
 1. Geben Sie den Benutzer oder die Gruppe im Benutzernamensformat (DOMÄNE\Benutzer) in das Textfeld ein, und wählen Sie die Rollen aus, die zugewiesen werden sollen. Das Mitglied muss sich in Ihrer Organisation befinden.   
 
-    ![Hinzufügen eines Mitglieds zu einer Rolle](media/row-level-security-report-server/power-bi-report-server-add-members.png)
+    ![Add member to role (Mitglied zu Rolle hinzufügen)](media/row-level-security-report-server/power-bi-report-server-add-members.png)
 
     Je nachdem, wie Sie Active Directory konfiguriert haben, funktioniert diese Methode auch, wenn Sie den Benutzerprinzipalnamen eingeben. In diesem Fall zeigt der Berichtsserver den entsprechenden Benutzernamen in der Liste an.
 
@@ -116,7 +116,7 @@ Nein. Sie sichern einzelne Datenzeilen, für die Benutzer werden jedoch immer en
 Ja, wenn Sie bereits vorhandene Rollen auf dem Power BI-Berichtsserver definiert und Mitglieder zugewiesen haben, können Sie zusätzliche Rollen erstellen und Ihren Bericht erneut veröffentlichen, ohne dass dies Auswirkungen auf Ihre aktuellen Zuweisungen hat. 
  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Administratorübersicht](get-started.md) 
 [Power BI-Berichtsserver](admin-handbook-overview.md)  

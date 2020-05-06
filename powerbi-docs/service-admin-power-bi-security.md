@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207986"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841892"
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 
-Um eine ausführliche Erläuterung der Sicherheit in Power BI zu erhalten, [lesen Sie das Whitepaper zur Sicherheit in Power BI](whitepaper-powerbi-security.md).
+Um eine ausführliche Erläuterung der Sicherheit in Power BI zu erhalten, [lesen Sie das Whitepaper zur Sicherheit in Power BI](guidance/whitepaper-powerbi-security.md).
 
 Der Power BI-Dienst basiert auf **Azure**, der Infrastruktur und Plattform für Cloud-Computing von Microsoft. Die Power BI-Dienstarchitektur basiert auf zwei Clustern – dem Web-Front-End (**WFE**)-Cluster und dem **Back-End**-Cluster. Das WFE-Cluster verwaltet die Erstverbindung und Authentifizierung beim Power BI-Dienst. Nach erfolgter Authentifizierung steuert dann das Back-End-Cluster alle weiteren Benutzerinteraktionen. Power BI verwendet Azure Active Directory (AAD) zum Speichern und Verwalten von Benutzeridentitäten. Zum Speichern von Daten und Metadaten verwendet es Azure-BLOB bzw. die Azure SQL-Datenbank.
 
@@ -37,11 +37,11 @@ Das **Back-End**-Cluster zeigt, wie authentifizierte Clients mit dem Power BI-Di
 > [!IMPORTANT]
 > Es ist unbedingt zu beachten, dass nur **Azure API Management** (APIM) und **Gateway**-Rollen (GW) über das öffentliche Internet zugänglich sind. Sie bieten Authentifizierung, Autorisierung, DDoS-Schutz, Einschränkung, Lastenausgleich, Routing und andere Funktionen.
 
-## <a name="data-storage-security"></a>Datenspeichersicherheit
+## <a name="data-storage-security"></a>Datenspeichersicherheit 
 
 Power BI verwendet zwei primäre Repositorys zum Speichern und Verwalten von Daten: Daten, die von Benutzern hochgeladen werden, werden in der Regel an den **Azure-BLOB** Speicher gesendet, und alle Metadaten sowie Artefakte des Systems selbst werden in der **Azure SQL-Datenbank**gespeichert.
 
-Die gepunktete Linie im Bild des **-Back-End**-Clusters oben verdeutlicht die Grenze zwischen den beiden einzigen Komponenten, die für Benutzer (links neben der gepunkteten Linie) zugänglich sind, und Rollen, die nur für das System zugänglich sind. Wenn ein authentifizierter Benutzer eine Verbindung mit dem Power BI-Dienst herstellt, werden die Verbindung und jede Anforderung vom Client von der **Gateway-Rolle** akzeptiert und verwaltet (um schließlich von **Azure API Management**verwaltet zu werden), welche dann im Namen des Benutzers mit dem übrigen Power BI-Dienst interagiert. Wenn beispielsweise ein Client versucht, ein Dashboard anzuzeigen, akzeptiert die **Gateway-Rolle** die Anforderung und sendet dann separat eine Anforderung an die **Präsentationsrolle** , um die vom Browser benötigten Daten zum Rendern des Dashboards abzurufen.
+Die gepunktete Linie im Bild des **-Back-End**-Clusters oben verdeutlicht die Grenze zwischen den beiden einzigen Komponenten, die für Benutzer (links neben der gepunkteten Linie) zugänglich sind, und Rollen, die nur für das System zugänglich sind. Wenn ein authentifizierter Benutzer eine Verbindung mit dem Power BI-Dienst herstellt, werden die Verbindung und jede Anforderung vom Client von der **Gateway-Rolle** akzeptiert und verwaltet (um schließlich von **Azure API Management**verwaltet zu werden), welche dann im Namen des Benutzers mit dem übrigen Power BI-Dienst interagiert. Wenn beispielsweise ein Client versucht, ein Dashboard anzuzeigen, akzeptiert die **Gateway-Rolle** die Anforderung und sendet dann separat eine Anforderung an die **Präsentationsrolle**, um die vom Browser benötigten Daten zum Rendern des Dashboards abzurufen.
 
 ## <a name="user-authentication"></a>Benutzerauthentifizierung
 

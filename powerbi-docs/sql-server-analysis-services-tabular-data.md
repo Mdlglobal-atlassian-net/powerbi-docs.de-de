@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871189"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>SQL Server Analysis Services-Livedaten in Power BI
@@ -44,7 +44,7 @@ In Power BI gibt es zwei Möglichkeiten, die Verbindung mit einem SQL Server Ana
 
 5. Wählen Sie das Modell aus, mit dem Sie eine Verbindung herstellen möchten. Dieses kann tabellarisch oder mehrdimensional sein.
 
-Nachdem Sie die Verbindung mit dem Modell hergestellt haben, wird es auf der Power BI-Website unter **Mein Arbeitsbereich/Datasets**angezeigt. Bei einem Wechsel zu einem Gruppenarbeitsbereich wird das Dataset in der Gruppe angezeigt.
+Nachdem Sie die Verbindung mit dem Modell hergestellt haben, wird es auf der Power BI-Website unter **Mein Arbeitsbereich/Datasets** angezeigt. Bei einem Wechsel zu einem Gruppenarbeitsbereich wird das Dataset in der Gruppe angezeigt.
 
 ![Verbinden mit einem Dataset](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
@@ -56,9 +56,9 @@ Wenn Sie visuelle Elemente aus einem Bericht auf dem Dashboard anheften, werden 
 
 * Schemafehler „Cannot load the model“ (Das Modell kann nicht geladen werden): Dieser Fehler wird ausgegeben, wenn der Benutzer, der eine Verbindung zu SSAS herstellt, keinen Zugriff auf die SSAS-Datenbank, den Cube und das Modell hat.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
-* [On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)  
+* [Lokales Datengateway](service-gateway-onprem.md)  
 * [Verwalten von Analysis Services-Datenquellen](service-gateway-enterprise-manage-ssas.md)  
 * [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 

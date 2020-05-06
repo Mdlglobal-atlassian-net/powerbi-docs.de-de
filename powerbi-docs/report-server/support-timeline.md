@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77527566"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ablauffristen für den Support für Power BI-Berichtsserver
@@ -36,12 +36,12 @@ Diese Supportrichtlinie erlaubt es uns, unseren Kunden Innovationen schnell zur 
 | August 2018 | 15. August 2018 | Nicht mehr unterstützt |
 | Januar 2019 | 23. Januar 2019 | Nicht mehr unterstützt |
 | Mai 2019 | 22. Mai 2019 | 22. Mai 2020 |
-| September 2019 | September 2019 | September 2020 
+| September 2019 | September 2019 | September 2020 
 | Januar 2020 | Januar 2020 | Januar 2021
 
 Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Neuerungen in Power BI-Berichtsserver](whats-new.md)  
 [Was ist der Microsoft Power BI-Berichtsserver?](get-started.md)
 [Administratorübersicht](admin-handbook-overview.md)  

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874311"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserunterstützung für Power BI-Berichtsserver
@@ -75,7 +75,7 @@ Browser unterstützen spezifische Authentifizierungsschemas, die vom Berichtsser
 | **Microsoft Internet Explorer** |Aushandeln, Kerberos, NTLM, Standard |Aushandeln |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Internet Explorer. |
 | **Google Chrome**(+) |Aushandeln, NTLM, Standard |Aushandeln |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Chrome. |
 | **Mozilla Firefox**(+) |NTLM, Standard |NTLM |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Firefox. |
-| **Apple Safari**(+) |NTLM, Standard |Standard |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Safari. |
+| **Apple Safari**(+) |NTLM, Standard |Basic |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Safari. |
 
  **(+)**  Neueste veröffentliche Version
 
@@ -88,10 +88,10 @@ Wenn die Skripterstellung nicht aktiviert ist, wird bei Öffnen eines Berichts e
 Your browser does not support scripts or has been configured to not allow scripts to run. Click here to view this report without scripts
 ```
 
- Wenn Sie den Bericht ohne Skriptunterstützung anzeigen möchten, wird der Bericht als HTML ohne Berichts-Viewer-Funktionen wie Berichtssymbolleiste und Dokumentstruktur gerendert.
+ Wenn Sie den Bericht ohne Skriptunterstützung anzeigen, wird der Bericht ohne Funktionen des Berichts-Viewers, wie z. B. die Berichtssymbolleiste oder die Dokumentstruktur, in HTML gerendert.
 
 > [!NOTE]
-> Die Berichtssymbolleiste ist Teil der HTML-Viewer-Komponente. Standardmäßig wird die Symbolleiste am oberen Rand jedes Berichts angezeigt, der in einem Browserfenster gerendert wird. Der Berichts-Viewer stellt Funktionen bereit, so beispielsweise die Möglichkeit, den Bericht nach Informationen zu durchsuchen, zu einer bestimmten Seite zu scrollen und die Seitengröße für Anzeigezwecke anzupassen. Weitere Informationen zur Berichtssymbolleiste oder zum HTML-Viewer finden Sie unter [HTML-Viewer und die Berichtssymbolleiste](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar).
+> Die Berichtssymbolleiste ist Teil der HTML-Viewerkomponente. Die Symbolleiste wird standardmäßig oberhalb der jeweiligen in einem Browserfenster gerenderten Berichte angezeigt. Der Berichts-Viewer stellt Funktionen bereit, so beispielsweise die Möglichkeit, den Bericht nach Informationen zu durchsuchen, zu einer bestimmten Seite zu scrollen und die Seitengröße für Anzeigezwecke anzupassen. Weitere Informationen zur Berichtssymbolleiste oder zum HTML-Viewer finden Sie unter [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar).
 > 
 > 
 
@@ -110,11 +110,11 @@ Verwenden Sie einen Browser mit aktivierter Skriptunterstützung. Wenn der Brows
   
   **(+)**  Neueste veröffentliche Version
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Herunterladen der SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download der neuesten SQL Server-Datatools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

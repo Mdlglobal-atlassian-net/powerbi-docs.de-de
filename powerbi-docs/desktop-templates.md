@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Vorlagen in Power BI Desktop
+title: Verwenden von Vorlagen in Power BI Desktop
 description: Erstellen und Freigeben von Vorlagen in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913535"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Erstellen von Berichtsvorlagen für Power BI Desktop
@@ -66,13 +66,13 @@ Sobald Sie alle erforderlichen Parameter angegeben haben, werden Sie aufgeforder
 
 Sobald Parameter und Daten angegeben wurden, wird ein Bericht erstellt, der alle Seiten, Visuals, Datenmodellartefakte und Abfragen enthält, die Teil des Berichts sind, auf dem die Vorlage basiert. 
 
-Das ist alles. Es ist ganz einfach,Berichtsvorlagen in Power BI Desktop zu erstellen und zu verwenden, sodass Sie problemlos überzeugende Layouts und andere Berichtsaspekte reproduzieren und für andere Benutzer freigeben können.
+Fertig! Es ist ganz einfach,Berichtsvorlagen in Power BI Desktop zu erstellen und zu verwenden, sodass Sie problemlos überzeugende Layouts und andere Berichtsaspekte reproduzieren und für andere Benutzer freigeben können.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Lernen Sie beispielsweise mehr über **Abfrageparameter**:
 * [Verwenden von Abfrageparametern in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters)
 
-Darüber hinaus gibt es noch viele weitere Anwendungsmöglichkeiten für Power BI Desktop. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in den folgenden Ressourcen:
+Darüber hinaus gibt es noch viele weitere Anwendungsmöglichkeiten für Power BI Desktop. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Übersicht zu Abfragen mit Power BI Desktop](desktop-query-overview.md)

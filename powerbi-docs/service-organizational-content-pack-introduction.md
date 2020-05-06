@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871989"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Einführung in organisationsbezogene Inhaltspakete in Power BI
@@ -21,7 +21,7 @@ ms.locfileid: "73871989"
 > Sie können in den neuen Arbeitsbereichsumgebungen keine organisationsbezogenen Inhaltspakete erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
 > 
 
-Verteilen Sie regelmäßig Berichte per E-Mail an Ihr Team? Probieren Sie diese Alternative aus: Erstellen Sie ein Paket aus Ihren Dashboards, Berichten, Excel-Arbeitsmappen und Datasets, und veröffentlichen Sie sie für Ihr Team als *organisationsbezogenes Inhaltspaket*. Alle von Ihnen erstellten Inhaltspakete kann Ihr Team leicht in AppSource finden. Da Inhaltspakete Teil von Power BI sind, nutzen sie alle Features von Power BI, einschließlich interaktiver Untersuchung von Daten, neuer Visualisierungen, Fragen und Antworten, Integration mit anderen Datenquellen, Aktualisierung von Daten und mehr.
+Verteilen Sie regelmäßig Berichte per E-Mail an Ihr Team? Probieren Sie diese Alternative aus: Packen Sie Ihre Dashboards, Berichte, Excel-Arbeitsmappen und Datasets, und veröffentlichen Sie sie für Ihr Team als *organisationsbezogenes Inhaltspaket*. Alle von Ihnen erstellten Inhaltspakete kann Ihr Team leicht in AppSource finden. Da Inhaltspakete Teil von Power BI sind, nutzen sie alle Features von Power BI, einschließlich interaktiver Untersuchung von Daten, neuer Visualisierungen, Fragen und Antworten, Integration mit anderen Datenquellen, Aktualisierung von Daten und mehr.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
@@ -71,7 +71,7 @@ Der Lebenszyklus sieht etwa wie folgt aus:
 ## <a name="data-security"></a>Datensicherheit
 Alle Mitglieder der Verteilergruppe verfügen über dieselben Berechtigungen für die Daten wie der Ersteller des Inhaltspakets. Die einzige Ausnahme hierbei sind lokale tabellarische SSAS (SQL Server Analysis Services)-Datasets. Da die Berichte und Dashboards eine Liveverbindung mit dem lokalen SSAS-Modell herstellen, wird anhand der Anmeldeinformationen der einzelnen Verteilergruppenmitglieder bestimmt, auf welche Daten das jeweilige Mitglied zugreifen darf.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erstellen und Veröffentlichen von organisationsbezogenen Inhaltspaketen](service-organizational-content-pack-create-and-publish.md)
 * [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md) 
 * [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)

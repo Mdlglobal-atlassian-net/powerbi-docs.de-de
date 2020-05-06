@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873793"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Hinzufügen eines Links zu einem Textfeld in einem Bericht
@@ -59,7 +59,7 @@ Informationen zu Links in Power BI-Tabellen und -Matrizen finden Sie unter [Hinz
 
    Power BI Desktop entfernt den Link, aber lässt den Text stehen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Textfelder und Formen in Power BI-Berichten](power-bi-reports-add-text-and-shapes.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/).

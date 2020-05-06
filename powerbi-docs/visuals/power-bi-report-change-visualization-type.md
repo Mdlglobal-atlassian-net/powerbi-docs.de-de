@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871025"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Ändern des Visualisierungstyps in einem Power BI-Bericht
@@ -34,7 +34,7 @@ Probieren Sie verschiedene Arten von Visualisierungen im Power BI-Dienst und in 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Wenn Sie den Visualisierungstyp im Bericht ändern, nachdem Sie die Kachel an das Dashboard angeheftet haben, wird die Dashboardkachel nicht automatisch aktualisiert. Wenn Sie den Power BI-Dienst verwendet haben, um die Visualisierung beispielsweise als Liniendiagramm anzuheften, und Sie sie im Bericht anschließend in ein Balkendiagramm ändern, bleibt die bereits angeheftete Version ein Liniendiagramm. Heften Sie das Balkendiagramm an, um es ebenfalls auf dem Dashboard zu sehen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)
 
 [Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)

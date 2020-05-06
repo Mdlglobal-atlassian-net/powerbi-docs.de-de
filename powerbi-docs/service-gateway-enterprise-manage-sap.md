@@ -10,10 +10,10 @@ ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698162"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Verwalten Ihrer Datenquelle –SAP HANA
@@ -33,7 +33,7 @@ Sobald Sie den Datenquellentyp „SAP HANA“ ausgewählt haben, vervollständig
 > [!NOTE]
 > Alle Abfragen der Datenquelle werden mithilfe dieser Anmeldeinformationen durchgeführt. Weitere Informationen zum Speichern von Anmeldeinformationen finden Sie unter [Speichern verschlüsselter Anmeldeinformationen in der Cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
-![Auffüllen der Datenquelleneinstellungen](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
+![Ausfüllen der Einstellungen zur Datenquelle](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
 Nachdem Sie alles ausgefüllt haben, klicken Sie auf **Hinzufügen**. Sie können diese Datenquelle nun für eine geplante Aktualisierung oder DirectQuery mit einem lokalen SAP HANA-Server verwenden. Bei erfolgreicher Ausführung wird *Verbindung erfolgreich* angezeigt.
 
@@ -41,7 +41,7 @@ Nachdem Sie alles ausgefüllt haben, klicken Sie auf **Hinzufügen**. Sie könne
 
 ### <a name="advanced-settings"></a>Erweiterte Einstellungen
 
-Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Diese Einstellung steuert, wie Daten kombiniert werden können. Sie wird nur für die geplante Aktualisierung verwendet. Die Einstellung für die Datenschutzebene gilt nicht für DirectQuery. Weitere Informationen zu Datenschutzebenen für Ihre Datenquelle finden Sie unter [Datenschutzebenen (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
+Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Diese Einstellung steuert, wie Daten kombiniert werden können. Sie wird nur für die geplante Aktualisierung verwendet. Die Einstellung für die Datenschutzebene gilt nicht für DirectQuery. Weitere Informationen zu Datenschutzebenen für Ihre Datenquelle finden Sie unter [Privacy levels (Power Query) (Datenschutzebenen (Power Query))](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
 ![Festlegen der Datenschutzebene](media/service-gateway-enterprise-manage-sap/datasourcesettings9.png)
 
@@ -68,7 +68,7 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 
 ![Anzeigen der Benutzer](media/service-gateway-enterprise-manage-sap/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Problembehandlung beim lokalen Datengateway](/data-integration/gateway/service-gateway-tshoot)
 * [Lokales Datengateway – Power BI](service-gateway-onprem-tshoot.md) 

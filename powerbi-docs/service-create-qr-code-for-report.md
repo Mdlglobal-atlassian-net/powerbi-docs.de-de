@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines QR-Codes für einen Bericht für die Verwendung in mobilen Power BI-Apps
-description: QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App verbinden – es ist keine Suche erforderlich.
+description: QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App verbinden – es ist keine Suche erforderlich.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853364"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Erstellen eines QR-Codes für einen Bericht in Power BI für die Verwendung in mobilen Apps
@@ -46,9 +46,9 @@ Power BI generiert den QR-Code für den Druck als JPG-Datei.
 1. Drucken Sie die Datei mit einer Größe von 100 % oder in „Originalgröße“.  
 2. Schneiden Sie den QR-Code entlang des Rands aus, und kleben Sie ihn an einem für den Bericht relevanten Ort auf. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Connect to Power BI data from the real world](consumer/mobile/mobile-apps-data-in-real-world-context.md) (Verbinden mit realen Power BI-Daten mit den Apps für mobile Geräte)
 * [Scannen eines Power BI-QR-Codes mit einem mobilen Gerät](consumer/mobile/mobile-apps-qr-code.md)
 * [Erstellen eines QR-Codes für eine Kachel](service-create-qr-code-for-tile.md)
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

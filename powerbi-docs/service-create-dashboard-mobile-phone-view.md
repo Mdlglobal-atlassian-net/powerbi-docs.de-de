@@ -10,10 +10,10 @@ ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872856"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimieren von Dashboards für Mobiltelefone: Power BI 
@@ -55,7 +55,7 @@ Suchen Sie nach Informationen über das Anzeigen von Dashboards auf einem mobile
    
     Das Telefonlayout wird in Power BI automatisch gespeichert.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind](desktop-create-phone-report.md)
 * [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](visuals/desktop-create-responsive-visuals.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

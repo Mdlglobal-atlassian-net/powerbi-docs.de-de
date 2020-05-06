@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872679"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Herstellen einer Verbindung mit Datenquellen über Power BI-Dataflows
@@ -51,9 +51,9 @@ Datenquellen für Dataflows werden in den folgenden Kategorien organisiert, die 
 * Alle Kategorien
 * Datei
 * Datenbank
-* Power BI
+* Power BI.
 * Azure
-* Onlinedienste
+* Online-Dienste
 * Sonstige
 
 Die Kategorie **Alle Kategorien** enthält alle Datenquellen, aus allen Kategorien. 
@@ -70,7 +70,7 @@ Die Kategorie **Datenbank** enthält die folgenden verfügbaren Datenverbindunge
 
 * IBM DB2-Datenbank
 * MySQL-Datenbank
-* Oracle-Datenbank
+* Oracle Database
 * PostgreSQL-Datenbank
 * SQL Server-Datenbank
 * Sybase-Datenbank
@@ -170,7 +170,7 @@ In der folgenden Liste können Sie sehen, welche Connectors Sie aktuell durch Ko
 Mehr ist zum Herstellen einer Verbindung mit Datenquellen in Power BI-Dataflows nicht erforderlich.
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In diesem Artikel wurde erläutert, mit welchen Datenquellen Sie für Dataflows Verbindungen herstellen können. Die folgenden Artikel gehen näher auf gängige Anwendungsszenarien für Dataflows ein. 
 
@@ -185,6 +185,6 @@ Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)
 * [Konfigurieren geplanter Aktualisierungen](refresh-scheduled-refresh.md)
 
-Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 

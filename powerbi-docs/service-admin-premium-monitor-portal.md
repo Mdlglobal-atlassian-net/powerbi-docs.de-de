@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637685"
 ---
-# <a name="monitor-capacities-in-the-admin-portal"></a>Überwachen von Kapazitäten im Verwaltungsportal
+# <a name="monitor-capacities-in-the-admin-portal"></a>Überwachen von Kapazitäten über das Verwaltungsportal
 
 Im Verwaltungsportal sehen Sie im Bereich **Kapazitätseinstellungen** auf der Registerkarte **Integrität** eine Zusammenfassung der Metriken für Ihre Kapazität und aktivierten Workloads.  
 
@@ -32,7 +32,7 @@ Für umfassendere Metriken können Sie die App [Power BI Premium-Kapazitätsmetr
 
 Ganz oben auf der Registerkarte **Integrität** bieten die Angaben zu CPU-Auslastung und Speicherauslastung einen schnellen Überblick über die wichtigsten Metriken für die Kapazität. Diese Metriken sind kumulativ und enthalten alle aktivierten Workloads für die Kapazität.
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | CPU-AUSLASTUNG | Durchschnittliche CPU-Auslastung als Prozentsatz der gesamten verfügbaren CPU-Kapazität. |
 | SPEICHERAUSLASTUNG | Durchschnittliche Speicherauslastung in Gigabytes (GB).|
@@ -41,7 +41,7 @@ Ganz oben auf der Registerkarte **Integrität** bieten die Angaben zu CPU-Auslas
 
 Für jede für die Kapazität aktivierte Workload werden die CPU-Auslastung und die Speicherauslastung angezeigt.
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | CPU-AUSLASTUNG | Durchschnittliche CPU-Auslastung als Prozentsatz der gesamten verfügbaren CPU-Kapazität. |
 | SPEICHERAUSLASTUNG | Durchschnittliche Speicherauslastung in Gigabytes (GB).|
@@ -56,7 +56,7 @@ Jede Workload verfügt über weitere Metriken. Je nach Workload werden unterschi
 
 ##### <a name="dataflow-operations"></a>Dataflowvorgänge
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | Gesamtanzahl | Die Gesamtanzahl aller Aktualisierungen für jeden Dataflow. |
 | Anzahl erfolgreicher Vorgänge | Gesamtzahl aller erfolgreichen Aktualisierungen für jeden Dataflow.|
@@ -67,9 +67,9 @@ Jede Workload verfügt über weitere Metriken. Je nach Workload werden unterschi
 
 #### <a name="datasets"></a>Datasets
 
-##### <a name="refresh"></a>Aktualisieren
+##### <a name="refresh"></a>Vorschau
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | Gesamtanzahl | Die Gesamtanzahl aller Aktualisierungen für jedes Dataset. |
 | Anzahl erfolgreicher Vorgänge | Gesamtzahl aller erfolgreichen Aktualisierungen für jedes Dataset. |
@@ -80,9 +80,9 @@ Jede Workload verfügt über weitere Metriken. Je nach Workload werden unterschi
 | Durchschnittliche Wartezeit (Min.) | Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Datasetaktualisierung in Minuten. |
 | Maximale Wartezeit (Min.) | Die maximale Wartezeit für das Dataset in Minuten. |
 
-##### <a name="query"></a>Abfrage
+##### <a name="query"></a>Query
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | Gesamtanzahl | Die Gesamtzahl der Abfragen, die für das Dataset ausgeführt werden. |
 | Durchschnittliche Dauer (ms) |die durchschnittliche Abfragedauer für das Dataset in Millisekunden|
@@ -92,21 +92,21 @@ Jede Workload verfügt über weitere Metriken. Je nach Workload werden unterschi
 
 ##### <a name="eviction"></a>Entfernung
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | Modellanzahl | Gesamtzahl der entfernten Datasets für diese Kapazität. Wenn eine Kapazität Arbeitsspeicherauslastung unterliegt, entfernt der Knoten mindestens ein Dataset aus dem Arbeitsspeicher. Datasets, die inaktiv sind (ohne derzeit ausgeführten Abfrage- oder Aktualisierungsvorgang), werden zuerst entfernt. Anschließend orientiert sich die Entfernungsreihenfolge an den „am seltensten verwendeten“ Datasets. |
 
-#### <a name="paginated-reports"></a>Paginated Reports
+#### <a name="paginated-reports"></a>Paginierte Berichte
 
 ##### <a name="report-execution"></a>Berichtsausführung
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | Ausführungsanzahl  | Anzahl der Ausführungen und Aufrufe des Berichts durch Benutzer.|
 
 ##### <a name="report-usage"></a>Berichtsnutzung
 
-| **Metrik** | **Beschreibung** |
+| **Metrik** | **Description** (Beschreibung) |
 | --- | --- |
 | Anzahl erfolgreicher Vorgänge | Anzahl der Aufrufe des Berichts durch einen Benutzer. |
 | Anzahl Fehler |Anzahl der Aufrufe des Berichts durch einen Benutzer.|
@@ -118,7 +118,7 @@ Jede Workload verfügt über weitere Metriken. Je nach Workload werden unterschi
 > [!NOTE]
 > Ausführliche Metriken für den **KI**-Workload sind noch nicht verfügbar.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Nachdem Sie die Überwachung von Power BI Premium-Kapazitäten kennengelernt haben, können Sie sich über das Optimieren von Kapazitäten informieren.
 

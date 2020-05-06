@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878873"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Hinzufügen einer benutzerdefinierten Spalte in Power BI Desktop
@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um mit der Erstellung einer benutzerdefi
 
 2. Wählen Sie auf der Registerkarte **Spalte hinzufügen** im Menüband **Benutzerdefinierte Spalte** aus.
 
-   ![Auswählen von „Benutzerdefinierte Spalte“](media/desktop-add-custom-column/add-custom-column_02.png)
+   ![Auswahl von „Benutzerdefinierte Spalte“](media/desktop-add-custom-column/add-custom-column_02.png)
 
    Das Fenster **Benutzerdefinierte Spalte hinzufügen** wird angezeigt.
 
@@ -67,7 +67,7 @@ Das Fenster **Benutzerdefinierte Spalte hinzufügen** weist die folgenden Featur
 
    ![Fehler auf der Seite „Benutzerdefinierte Spalte hinzufügen“](media/desktop-add-custom-column/add-custom-column_05.png)
 
-3. Wählen Sie **OK**aus. 
+3. Klicken Sie auf **OK**. 
 
    Power BI Desktop fügt dem Modell Ihre benutzerdefinierte Spalte und der Liste **Angewendete Schritte** in den **Abfrageeinstellungen** den Schritt **Spalte hinzugefügt** hinzu.
 
@@ -79,18 +79,18 @@ Das Fenster **Benutzerdefinierte Spalte hinzufügen** weist die folgenden Featur
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>Verwenden des erweiterten Editors für benutzerdefinierte Spalten
 
-Nachdem Sie Ihre Abfrage erstellt haben, können Sie auch den **Erweiterten Editor** verwenden, um die Schritte Ihrer Abfrage zu ändern. Führen Sie hierfür die folgenden Schritte aus:
+Nachdem Sie Ihre Abfrage erstellt haben, können Sie auch den **Erweiterten Editor** verwenden, um die Schritte Ihrer Abfrage zu ändern. Gehen Sie hierzu folgendermaßen vor:
 
 1. Wählen Sie im Fenster **Abfrage-Editor** die Registerkarte **Ansicht** im Menüband aus. 
 
-2. Wählen Sie **Erweiterter Editor**aus.
+2. Wählen Sie **Erweiterter Editor** aus.
 
    Die Seite **Erweiterter Editor** wird angezeigt, die Ihnen vollständige Kontrolle über Ihre Abfrage bietet. 
 
    ![Seite „Erweiterter Editor“](media/desktop-add-custom-column/add-custom-column_07.png)
 
    
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - Sie können eine benutzerdefinierte Spalte auch auf andere Weise erstellen, beispielsweise indem Sie eine Spalte anhand von Beispielen erstellen, die Sie im Abfrage-Editor angeben. Weitere Informationen finden Sie unter [Hinzufügen einer Spalte aus einem Beispiel in Power BI Desktop](desktop-add-column-from-example.md).
 

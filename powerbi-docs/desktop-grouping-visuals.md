@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761132"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Gruppieren von visuellen Elementen in Power BI Desktop-Berichten
@@ -65,7 +65,7 @@ Sie können auch eine Hintergrundfarbe auf eine Gruppe anwenden, indem Sie im Be
 Wenn Sie eine Hintergrundfarbe anwenden, wird durch Klicken auf das Leerzeichen zwischen Visuals in der Gruppe die Gruppe ausgewählt (vergleichen Sie dies mit dem Klicken auf den Leerraum zwischen Visuals in einer Gruppe, wodurch die Gruppe nicht ausgewählt wird). 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zum Gruppieren erhalten Sie im folgenden Video:
 
 * [Gruppieren in Power BI Desktop – Video](https://youtu.be/sf4n7VXoQHY?t=10)

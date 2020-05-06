@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872845"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Erstellen einer Kopie eines Dashboards im Power BI-Dienst
@@ -46,7 +46,7 @@ Um eine Kopie eines Dashboards zu erstellen, müssen Sie der *Ersteller* des Das
     f. Freigeben des Dashboards für Kollegen, direkt oder als Teil einer Power BI-App. 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Tipps zum Gestalten überzeugender Power BI-Dashboards](service-dashboards-design-tips.md) 
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

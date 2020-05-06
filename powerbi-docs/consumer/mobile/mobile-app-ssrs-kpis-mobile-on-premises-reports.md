@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
 ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75220053"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Anzeigen lokaler Berichte und KPIs eines Berichtsservers in den mobilen Power BI-Apps
@@ -68,7 +68,7 @@ In den mobilen Power BI-Apps können Sie lokale Power BI-Berichte, mobile Report
    
      `https://<servername>/reports`
    
-     ODER
+     OR
    
      `https://<servername>/reports`
    
@@ -130,7 +130,7 @@ Sie können KPIs und Berichte im Webportal als Favoriten markieren und dann bequ
 2. Tippen Sie auf den Servernamen, dessen Verbindung Sie trennen möchten.
 3. Tippen Sie auf **Server entfernen**.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Was ist Power BI?](../../fundamentals/power-bi-overview.md)  
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 
