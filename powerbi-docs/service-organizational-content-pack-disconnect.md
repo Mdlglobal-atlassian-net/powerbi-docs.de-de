@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881296"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Entfernen der Verbindung mit einem organisationsbezogenen Power BI-Inhaltspaket
@@ -32,7 +32,7 @@ Um ein Inhaltspaket zu entfernen, entfernen Sie das Dataset.
 
 Durch das Entfernen des Datasets werden auch alle zugehörigen Berichte und Dashboards entfernt. Durch Entfernen der Verbindung mit dem Inhaltspaket wird das Inhaltspaket jedoch nicht aus der AppSource-Instanz Ihrer Organisation gelöscht.  Sie können jederzeit zu AppSource zurückkehren und das Inhaltspaket wieder Ihrem Arbeitsbereich hinzufügen. Sie können nur dann ein [Inhaltspaket aus AppSource löschen](service-organizational-content-pack-manage-update-delete.md), wenn Sie es selbst erstellt haben.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Einführung in organisationsbezogene Inhaltspakete](service-organizational-content-pack-introduction.md) 
 * [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md) 
 * [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)  

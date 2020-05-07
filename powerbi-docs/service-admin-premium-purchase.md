@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488612"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
@@ -35,7 +35,7 @@ Sie können entweder einen neuen Mandanten mit einer konfigurierten P1-SKU für 
 
 ### <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Erstellen eines neuen Mandanten mit Power BI Premium P1
 
-Wenn Sie noch nicht über einen Mandanten verfügen und einen erstellen möchten, können Sie gleichzeitig Power BI Premium erwerben. Der folgende Link führt Sie durch die Schritte zum Erstellen eines neuen Mandanten und ermöglicht Ihnen den Erwerb von Power BI Premium: [Power BI Premium P1-Angebot](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Wenn Sie den Mandanten erstellen, wird Ihnen automatisch die globale Microsoft 365-Administratorrolle für diesen Mandanten zugewiesen.
+Wenn Sie noch nicht über einen Mandanten verfügen und einen erstellen möchten, können Sie gleichzeitig Power BI Premium erwerben. Der folgende Link führt Sie durch die Schritte zum Erstellen eines neuen Mandanten und ermöglicht Ihnen den Erwerb von Power BI Premium: [Power BI Premium-P1-Angebot](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Wenn Sie den Mandanten erstellen, wird Ihnen automatisch die globale Microsoft 365-Administratorrolle für diesen Mandanten zugewiesen.
 
 Nachdem Sie Kapazität erworben haben, sollten Sie lernen, wie Sie [Kapazitäten verwalten](service-admin-premium-manage.md#manage-capacity) und einer Kapazität [Arbeitsbereiche zuweisen](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).
 
@@ -77,7 +77,7 @@ Da Sie nun über eine Kapazität verfügen, können Sie weitere hinzufügen, wen
 
 1. Zeigen Sie mit dem Mauszeiger auf **Weitere Optionen** (...), und wählen Sie dann **Lizenzanzahl ändern** aus.
 
-    ![Anzahl an Lizenzen ändern](media/service-admin-premium-purchase/premium-purchase-more.png)
+    ![Lizenzanzahl ändern](media/service-admin-premium-purchase/premium-purchase-more.png)
 
 1. Ändern Sie die Anzahl der Instanzen, über die Sie von diesem Artikel verfügen möchten. Wählen Sie dann **Senden** aus, wenn Sie fertig sind.
 
@@ -169,7 +169,7 @@ Gehen Sie folgendermaßen vor, um A-SKUs im Azure-Portal zu erwerben:
 
 Nachdem Sie Kapazität erworben haben, sollten Sie lernen, wie Sie [Kapazitäten verwalten](service-admin-premium-manage.md#manage-capacity) und einer Kapazität [Arbeitsbereiche zuweisen](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Konfigurieren und Verwalten von Kapazitäten in Power BI Premium](service-admin-premium-manage.md)\
 [Power BI – Preise](https://powerbi.microsoft.com/pricing/)\

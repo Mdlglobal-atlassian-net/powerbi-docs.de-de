@@ -1,5 +1,5 @@
 ---
-title: Verbinden mit CSV-Dateien in Power BI Desktop
+title: Connect to CSV files in Power BI Desktop (Verbinden mit CSV-Dateien in Power BI Desktop)
 description: Einfaches Verbinden mit und Verwenden von CSV-Dateidaten in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -11,13 +11,13 @@ ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c5d817af65529506a0ee515be5e287a629d6ad54
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878549"
 ---
-# <a name="connect-to-csv-files-in-power-bi-desktop"></a>Verbinden mit CSV-Dateien in Power BI Desktop
+# <a name="connect-to-csv-files-in-power-bi-desktop"></a>Connect to CSV files in Power BI Desktop (Verbinden mit CSV-Dateien in Power BI Desktop)
 Das Verbinden mit einer *CSV*-Datei (durch Trennzeichen getrennte Datei) von Power BI Desktop aus hat große Ähnlichkeit mit dem Verbinden mit einer Excel-Arbeitsmappe. Beides ist einfach, und dieser Artikel führt Sie Schritt für Schritt durch das Verbinden mit einer beliebigen CSV-Datei, auf die Sie Zugriff haben.
 
 Wählen Sie zunächst in Power BI Desktop auf dem Menüband **Start** die Option **Daten abrufen > CSV** aus.
@@ -48,11 +48,11 @@ Sie können diese Daten in Power BI Desktop verwenden, um Visualisierungen oder 
 > Wenn Sie eine CSV-Datei importieren, generiert Power BI Desktop *columns=x* (wobei *x* für die Anzahl der Spalten in der CSV-Datei während des anfänglichen Importvorgangs steht) als Schritt in Power Query-Editor. Wenn Sie anschließend weitere Spalten hinzufügen und die Aktualisierung der Datenquelle festgelegt ist, werden alle Spalten nach der anfänglichen *x*-Anzahl von Spalten nicht aktualisiert. 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

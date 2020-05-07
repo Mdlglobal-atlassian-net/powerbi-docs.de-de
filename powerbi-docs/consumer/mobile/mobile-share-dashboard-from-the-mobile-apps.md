@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435787"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
@@ -99,8 +99,8 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
    
    Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../service-share-dashboards.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Kommentieren und Freigeben einer Momentaufnahme einer Kachel, eines Berichts oder einer Visualisierung in den mobilen Apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere](../../service-share-dashboards.md)
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

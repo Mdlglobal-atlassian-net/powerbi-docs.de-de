@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435925"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Einmaliges Anmelden in der mobilen Power BI-Windows-App
@@ -34,8 +34,8 @@ Falls Sie die mobile Power BI-App für Windows bereits einsetzen, können Sie SS
 
 Wenn Sie nicht Ihre aktuellen Windows-Anmeldeinformationen für aktive Sitzungen für die Anmeldung bei Power BI verwenden möchten, wechseln Sie einfach zu **Einstellungen**. Melden Sie sich ab, und melden Sie sich mit anderen Anmeldeinformationen wieder an. 
  
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Erste Schritte mit der mobilen Power BI-App für Windows 10](mobile-windows-10-phone-app-get-started.md)
-- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

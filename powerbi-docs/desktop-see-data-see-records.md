@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877763"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Verwenden von „Daten anzeigen“ und „Datensätze anzeigen“ in Power BI Desktop
@@ -86,7 +86,7 @@ Um zum Bericht zurückzukehren, wählen Sie in der oberen linken Ecke des Zeiche
 > - Wenn die Visualisierung ein berechnetes Measure beinhaltet, können Sie **Datensätze anzeigen** nicht verwenden.
 > - Sie können **Datensätze anzeigen** nicht verwenden, wenn Sie mit einem aktiven mehrdimensionalen Modell (MD-Modell) verbunden sind.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 In **Power BI Desktop** stehen verschiedene Features für das Formatieren von Berichten und die Datenverwaltung zur Verfügung. Die folgenden Ressourcen enthalten einige Beispiele:
 
 * [Verwenden von Gruppierung und Diskretisierung in Power BI Desktop](desktop-grouping-and-binning.md)

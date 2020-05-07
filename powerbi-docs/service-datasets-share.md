@@ -10,10 +10,10 @@ ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872484"
 ---
 # <a name="share-a-dataset-preview"></a>Freigeben eines Datasets (Vorschau)
@@ -51,7 +51,7 @@ Wenn Sie über ein freigegebenes Dataset in Ihrem Arbeitsbereich verfügen, müs
  
     ![Verwandte Inhalte (Dialogfeld)](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Verwenden von Datasets in mehreren Arbeitsbereichen (Vorschau)](service-datasets-across-workspaces.md)
-- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

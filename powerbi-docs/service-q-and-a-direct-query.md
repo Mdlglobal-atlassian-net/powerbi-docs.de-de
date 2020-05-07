@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265492"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Aktivieren von Q&A für Liveverbindungen in Power BI
@@ -34,12 +34,12 @@ Weitere Informationen finden Sie unter:
 * Was ist das [lokale Datengateway](service-gateway-onprem.md)?
 * [Power BI Q&A für Nutzer](consumer/end-user-q-and-a.md)
 
-## <a name="enable-qa"></a>Aktivieren von Q&A
+## <a name="enable-qa"></a>Aktivieren von F&A
 Nachdem Sie das Datengateway eingerichtet haben, stellen Sie aus Power BI eine Verbindung mit Ihren Daten her.  Erstellen Sie ein Dashboard mit Ihren lokalen Daten oder laden Sie eine PBIX-Datei hoch, die lokale Daten verwendet.  Möglicherweise enthalten Ihre Dashboards, Berichte und Datasets auch bereits lokale Daten, die für Sie freigegeben wurden.
 
 1. Klicken Sie rechts oben auf das Zahnradsymbol ![Zahnradsymbol](media/service-q-and-a-direct-query/power-bi-cog.png) und dann auf **Einstellungen**.
    
-   ![Menü „Einstellungen“](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Einstellungsmenü](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Wählen Sie **Datasets**, und wählen Sie das für Q&A aktivierte Dataset aus.
    
    ![Anzeige „Datasets“ im Menü „Einstellungen“](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
@@ -58,9 +58,9 @@ Die Funktion weist einige Einschränkungen auf:
 * Die Sicherheit auf Objektebene wird nicht unterstützt. Q&A berücksichtigt die Sicherheit auf Objektebene nicht und kann Tabellen- oder Spaltennamen für Benutzer offenlegen, die keinen Zugriff darauf haben. Sie sollten die Sicherheit auf Zeilenebene aktivieren, um sicherzustellen, dass Datenwerte angemessen gesichert sind. 
 * Liveverbindungen werden nur mit dem lokalen Datengateway unterstützt. Daher kann dieses Feature nicht mit dem persönlichen Gateway verwendet werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
-- [On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)  
+- [Lokales Datengateway](service-gateway-onprem.md)  
 - [Verwalten Ihrer Datenquelle – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 - [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)  
 - [Übersicht über Power BI Q&A](consumer/end-user-q-and-a.md)  

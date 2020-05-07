@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114380"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Q&A in Power BI Embedded
@@ -98,7 +98,7 @@ qna.on("visualRendered", function(event) {
 
 Erstellen Sie ein Einbettungstoken aus einem Dataset, um ein Q&A-Teil zu starten. Weitere Informationen finden Sie im Artikel mit Vorgängen zum [Generieren eines Tokens](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Um sich mit der Q&A-Einbettung vertraut zu machen, sehen Sie sich das [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/) an.
 

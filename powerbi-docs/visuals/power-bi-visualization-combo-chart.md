@@ -11,10 +11,10 @@ ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436086"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Erstellen und Verwenden von Kombinationsdiagrammen in Power BI
@@ -35,7 +35,7 @@ Kombinationsdiagramme sind gut für folgende Zwecke geeignet:
 * Zur Platzersparnis im Zeichenbereich
 
 ### <a name="prerequisites"></a>Voraussetzungen
-In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) verwendet.
+Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Wählen Sie im oberen linken Bereich der Menüleiste **Datei** > **Öffnen** aus.
    
@@ -43,7 +43,7 @@ In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einze
 
 1. Öffnen Sie die **PBIX-Datei mit einem Analysebeispiel für den Einzelhandel** in der Berichtsansicht ![Screenshot des Berichtsansichtssymbols.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
 
 
@@ -68,7 +68,7 @@ In diesem Video sehen Sie, wie ein Kombinationsdiagramm anhand des Beispiels fü
     ![Beispiel eines Kombinationsdiagramms](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Wählen Sie **Weitere Optionen** (...) in der rechten oberen Ecke der Visualisierung und dann **Sortieren nach > FiscalMonth** aus. Wenn Sie die Sortierreihenfolge ändern möchten, klicken Sie erst erneut auf die Auslassungspunkte und anschließend auf **Aufsteigend sortieren** oder **Absteigend sortieren**. In diesem Beispiel wird **Aufsteigend sortieren** verwendet.
 
-6. Konvertieren Sie das Säulendiagramm in ein Kombinationsdiagramm. Es gibt zwei Kombinationsdiagramme: **Linien- und gestapeltes Säulendiagramm** und **Linien- und gruppiertes Säulendiagramm**. Wenn Sie das Säulendiagramm ausgewählt haben, wählen Sie im Bereich **Visualisierungen** die Option **Linien- und gruppiertes Säulendiagramm** aus.
+6. Konvertieren Sie das Säulendiagramm in ein Kombinationsdiagramm. Es gibt zwei Kombinationsdiagramme: **Line and stacked column** (gestapeltes Säulendiagramm mit Linien) und **Line and clustered column** (gruppiertes Säulendiagramm mit Linien). Wenn Sie das Säulendiagramm ausgewählt haben, wählen Sie im Bereich **Visualisierungen** die Option **Linien- und gruppiertes Säulendiagramm** aus.
 
     ![Beispiel „In ein Kombinationsdiagramm konvertieren“](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. Ziehen Sie aus dem **Felder**bereich die Option **Sales** \> **Last Year Sales** (Verkäufe > Verkäufe im letzten Jahr) in den Bucket **Zeilenwerte**.
@@ -124,7 +124,7 @@ Jetzt haben Sie folgende Möglichkeiten:
 
 Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht das Kreuzhervorheben und Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Verwenden Sie [Visualinteraktionen](../service-reports-visual-interactions.md), um dieses Standardverhalten zu ändern.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Ringdiagramme in Power BI](power-bi-visualization-doughnut-charts.md)
 
