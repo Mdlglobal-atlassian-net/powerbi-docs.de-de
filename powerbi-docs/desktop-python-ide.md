@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73865969"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Verwenden einer externen Python-IDE mit Power BI
@@ -34,11 +34,11 @@ Um dieses Feature verwenden zu können, müssen Sie eine **Python-IDE** auf dem 
 * Sie können auch eine andere **Python-IDE** installieren und sie durch **Power BI Desktop** starten lassen. Führen Sie dazu einen der folgenden Schritte aus:
   
   * Verknüpfen Sie **PY**-Dateien mit der externen IDE, die von **Power BI Desktop** gestartet werden soll.
-  * Sie können die EXE-Datei angeben, die von **Power BI Desktop** gestartet werden soll, indem Sie im Abschnitt **Optionen für Python-Skript** des Dialogfelds **Optionen** die Option *Sonstige* angeben. Sie öffnen das Dialogfeld **Optionen**, indem Sie **Datei > Optionen und Einstellungen > Optionen** auswählen.
+  * Sie können die EXE-Datei angeben, die von **Power BI Desktop** gestartet werden soll, indem Sie im Abschnitt *Optionen für Python-Skript* des Dialogfelds **Optionen** die Option **Sonstige** angeben. Sie öffnen das Dialogfeld **Optionen**, indem Sie **Datei > Optionen und Einstellungen > Optionen** auswählen.
     
     ![](media/desktop-python-ide/python-ide-2.png)
 
-Wenn Sie mehrere Python-IDEs installiert haben, können Sie angeben, welche gestartet werden soll, indem Sie sie im Dialogfeld **Optionen** in der Dropdownliste *Erkannte Python-IDEs* auswählen.
+Wenn Sie mehrere Python-IDEs installiert haben, können Sie angeben, welche gestartet werden soll, indem Sie sie im Dialogfeld *Optionen* in der Dropdownliste **Erkannte Python-IDEs** auswählen.
 
 **Power BI Desktop** startet standardmäßig **Visual Studio Code** als externe Python-IDE, wenn es auf dem lokalen Computer installiert ist. Wenn **Visual Studio Code** nicht installiert ist und Sie über **Visual Studio**  verfügen, wird stattdessen dieses gestartet. Wenn keine dieser Python-IDEs installiert ist, wird die mit den **PY**-Dateien verknüpfte Anwendung gestartet.
 
@@ -80,7 +80,7 @@ Für das Starten einer Python-IDE direkt aus Power BI Desktop gelten einige Eins
 
 * Das automatische Exportieren eines Skripts aus der Python-IDE in **Power BI Desktop** wird nicht unterstützt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Betrachten Sie die folgenden zusätzlichen Informationen über Python in Power BI.
 
 * [Ausführen von Python-Skripts in Power BI Desktop](desktop-python-scripts.md)

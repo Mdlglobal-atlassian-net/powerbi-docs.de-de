@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697886"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Zusammenführen oder Anfügen von lokalen und Clouddatenquellen
@@ -35,7 +35,7 @@ Sie können das lokale Datengateway verwenden, um lokale und Clouddatenquellen i
 
 1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) >  und dann auf **Gateways verwalten**.
 
-    ![Gateways verwalten](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
+    ![Verwalten von Gateways](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. Wählen Sie das Gateway aus, das Sie konfigurieren möchten.
 
@@ -58,6 +58,6 @@ Sie können das lokale Datengateway verwenden, um lokale und Clouddatenquellen i
 
 7. Wenn Sie die Cloudanmeldeinformationen festgelegt haben, können Sie eine Aktualisierung des Datasets mithilfe der Option **Jetzt aktualisieren** vornehmen. Sie können aber auch eine Aktualisierung in regelmäßigen Abständen planen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zur Datenaktualisierung für Gateways finden Sie unter [Verwenden der Datenquelle für geplanten Aktualisierungen](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh).

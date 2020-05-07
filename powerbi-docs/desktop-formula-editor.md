@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867620"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Formel-Editor in Power BI Desktop
@@ -56,7 +56,7 @@ Sie können die folgenden Tastenkombinationen verwenden, um Ihre Produktivität 
 |ALT+Klicken  |Cursor einfügen  |
 |POS1/ENDE  |Zum Anfang/Ende der Zeile wechseln  |
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Die folgenden Artikel bieten weitere Informationen über Formeln und DAX in Power BI Desktop.
 

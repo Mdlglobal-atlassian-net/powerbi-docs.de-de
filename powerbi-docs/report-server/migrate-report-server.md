@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
 ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73858894"
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrieren einer Berichtsserverinstallation
@@ -93,7 +93,7 @@ Das Migrieren von einem Power BI-Berichtsserver zu einem anderen entspricht dem 
 * Konfigurieren Sie den Berichtsserver mit dem Berichtsserver-Konfigurations-Manager, und stellen Sie eine Verbindung mit der geklonten Datenbank her.
 * Führen Sie für die alte Installation von Power BI-Berichtsserver erforderliche Bereinigungen durch.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  

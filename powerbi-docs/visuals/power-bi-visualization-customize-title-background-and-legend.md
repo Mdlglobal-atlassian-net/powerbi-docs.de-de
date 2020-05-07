@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893424"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Anpassen von Visualisierungstiteln, Hintergründen und Legenden
@@ -122,7 +122,7 @@ Wenn Sie einmal alle Änderungen zurücksetzen müssen, wählen Sie **Auf Standa
 
 ## <a name="customize-colors-using-a-theme"></a>Anpassen von Farben mithilfe eines Designs
 
-Mit Berichtsdesigns können Sie Entwurfsänderungen auf den gesamten Bericht anwenden, z. B. die Verwendung von Unternehmensfarben, das Ändern von Symbolsätzen oder das Anwenden der neuen Standardformatierung für Visuals. Wenn Sie ein Berichtsdesign anwenden, verwenden alle Visuals im Bericht Farben und Formatierung des ausgewählten Designs.
+Mit Berichtsdesigns können Sie Entwurfsänderungen auf den gesamten Bericht anwenden, z. B. die Verwendung von Unternehmensfarben, das Ändern von Symbolsätzen oder das Anwenden der neuen Standardformatierung für Visuals. Wenn Sie ein Berichtsdesign anwenden, verwenden alle Visuals im Bericht die Farben und Formatierung des ausgewählten Designs.
 
 Wenn Sie ein Design auf den Bericht anwenden möchten, wählen Sie **Design wechseln** in der Menüleiste aus. Wählen Sie ein Design aus.  Im folgenden Bericht wird das Design **Solar** verwendet.
 
@@ -133,37 +133,37 @@ Wenn Sie ein Design auf den Bericht anwenden möchten, wählen Sie **Design wech
 
 Hier ist eine Liste der Visualisierungen und jeweils verfügbaren Anpassungsoptionen:
 
-| Visualisierung | Titel | Hintergrund | Legende |
+| Visualisierung | Title | Hintergrund | Legende |
 |:--- |:--- |:--- |:--- |
-| Fläche | Ja | Ja |Ja |
-| Balken | Ja | Ja |Ja |
-| Karte | Ja | Ja |n/v |
-| Mehrzeilige Karte | Ja | Ja | n/v |
-| Spalte | Ja | Ja | Ja |
-| Kombinationsdiagramm | Ja | Ja | Ja |
-| Ringdiagramm | Ja | Ja | Ja |
-| Flächenkartogramm | Ja | Ja | Ja |
-| Trichterdiagramm | Ja | Ja | n/v |
-| Maßstab | Ja | Ja | n/v |
-| Wichtigste Einflussfaktoren | Ja | Ja | n/v |
-| KPI | Ja | Ja | n/v |
-| Linie | Ja | Ja | Ja |
-| Zuordnung | Ja | Ja | Ja |
-| Matrix | Ja | Ja | n/v |
-| Kreis | Ja | Ja | Ja |
-| Q&A | Ja | Ja | n/v |
-| Punktdiagramm | Ja | Ja | Ja |
-| Formen | Ja | Ja | Ja |
-| Slicer | Ja | Ja | n/v |
-| Tabelle | Ja | Ja | n/v |
-| Textfeld | Nein | Ja | n/v |
-| Treemap | Ja | Ja | Ja |
-| Wasserfall | Ja | Ja | Ja |
+| Area | ja | ja |ja |
+| Balken | ja | ja |ja |
+| Karte | ja | ja |n/v |
+| Mehrzeilige Karte | ja | ja | n/v |
+| Column | ja | ja | ja |
+| Kombinationsdiagramm | ja | ja | ja |
+| Ringdiagramm | ja | ja | ja |
+| Flächenkartogramm | ja | ja | ja |
+| Trichterdiagramm | ja | ja | n/v |
+| Messgerät | ja | ja | n/v |
+| Wichtigste Einflussfaktoren | ja | ja | n/v |
+| KPI | ja | ja | n/v |
+| Linie | ja | ja | ja |
+| Zuordnung | ja | ja | ja |
+| Matrix | ja | ja | n/v |
+| Kreis | ja | ja | ja |
+| Fragen | ja | ja | n/v |
+| Punktdiagramm | ja | ja | ja |
+| Form | ja | ja | ja |
+| Slicer | ja | ja | n/v |
+| Tabelle (Table) | ja | ja | n/v |
+| Textfeld | Nein | ja | n/v |
+| Treemap | ja | ja | ja |
+| Wasserfall | ja | ja | ja |
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Anpassen der Eigenschaften der X- und Y-Achse](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
-- [Erste Schritte mit Farbeinstellungen und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
+- [Erste Schritte mit Farbformatierung und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

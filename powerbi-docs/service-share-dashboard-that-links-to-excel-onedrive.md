@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871465"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Freigeben eines Power BI-Dashboards, das mit einer Excel-Datei in OneDrive verknüpft ist
@@ -30,7 +30,7 @@ Weitere Informationen zum Freigeben eines Dashboards mit Links auf eine Excel-Ar
 1. Geben Sie die E-Mail-Adressen für Ihre Kollegen ein.
 2. Wählen Sie zum Aktivieren der Anzeige der Excel-Arbeitsmappe aus Power BI für Ihre Kollegen **Zu OneDrive for Business wechseln, um Arbeitsmappenberechtigungen festzulegen**aus.
 3. [Ändern Sie die Berechtigungen](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) auf OneDrive nach Bedarf.
-4. Wählen Sie **Freigeben**aus.
+4. Wählen Sie **Freigeben** aus.
 
 >[!NOTE]
 >Ihre Kollegen werden nicht in der Lage sein, zusätzliche Kacheln aus der Arbeitsmappe anzuheften, und sie können in Power BI keine Änderungen an der Excel-Arbeitsmappe vornehmen.
@@ -38,7 +38,7 @@ Weitere Informationen zum Freigeben eines Dashboards mit Links auf eine Excel-Ar
 > 
 
 ## <a name="create-an-organizational-content-pack-with-a-dashboard-that-contains-workbook-tiles"></a>Erstellen eines organisationsbezogenen Inhaltspakets mit einem Dashboard, das Arbeitsmappenkacheln enthält
-Wenn Sie ein [Inhaltspaket veröffentlichen](service-organizational-content-pack-create-and-publish.md), erteilen Sie Zugriff für einzelne Kollegen oder Gruppen. Wenn Sie ein Inhaltspaket veröffentlichen, das Arbeitsmappenlinks enthält, haben Sie die Möglichkeit, vor der Veröffentlichung die Berechtigungen für die verknüpfte Excel-Arbeitsmappe zu ändern.
+Wenn Sie [ein Inhaltspaket veröffentlichen](service-organizational-content-pack-create-and-publish.md), erteilen Sie Zugriff für einzelne Kollegen oder Gruppen. Wenn Sie ein Inhaltspaket veröffentlichen, das Arbeitsmappenlinks enthält, haben Sie die Möglichkeit, vor der Veröffentlichung die Berechtigungen für die verknüpfte Excel-Arbeitsmappe zu ändern.
 
 1. Geben Sie auf dem Bildschirm **Inhaltspaket erstellen** E-Mail-Adressen ein, geben Sie dem Inhaltspaket einen Titel, fügen Sie eine Beschreibung hinzu, und laden Sie ein Bild hoch.
 2. Wählen Sie das Dashboard und/oder den Bericht aus, das bzw. der mit der Excel-Arbeitsmappe auf OneDrive for Business verknüpft ist.
@@ -46,14 +46,14 @@ Wenn Sie ein [Inhaltspaket veröffentlichen](service-organizational-content-pack
     ![Excel-Arbeitsmappe in einem Inhaltspaket](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Wählen Sie **Zu OneDrive for Business wechseln, um Arbeitsmappenberechtigungen festzulegen**aus.
 4. [Ändern Sie die Berechtigungen](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) auf OneDrive nach Bedarf.
-5. Wählen Sie **Veröffentlichen**aus.
+5. Klicken Sie auf **Veröffentlichen**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Freigeben eines Dashboards in einem Power BI-Arbeitsbereich
 Das Freigeben eines Dashboards in einem Power BI-Arbeitsbereich ähnelt dem Freigeben eines Dashboards aus dem eigenen Arbeitsbereich mit der Ausnahme, dass die Dateien in einer Office 365-Arbeitsbereichswebsite anstatt im privaten OneDrive for Business gespeichert sind. Ändern Sie die Berechtigungen für die Excel-Arbeitsmappe vor der Freigabe des Dashboards für Personen außerhalb des Arbeitsbereichs.
 
 ![Freigeben aus OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Anheften einer Kachel an ein Power BI-Dashboard aus Excel](service-dashboard-pin-tile-from-excel.md)
 * [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

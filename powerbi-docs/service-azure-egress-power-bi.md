@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855567"
 ---
 # <a name="power-bi-and-azure-egress"></a>Ausgehender Datenverkehr in Power BI und Azure
@@ -28,7 +28,7 @@ Im Artikel [Where is my Power BI tenant located?](service-admin-where-is-my-tena
 
 Wenn Sie Multi-Geo von Power BI Premium verwenden und sich ihr Power BI-Mandant nicht in der optimalen Region für einige Azure-basierte Datenquellen befindet, können Sie Multi-Geo von Power BI Premium in der gewünschten Azure-Region bereitstellen und so Ihren Power BI-Mandaten und die Azure-Datenquellen in derselben Azure-Region nutzen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zu Power BI Premium oder Multi-Geo finden Sie in den folgenden Artikeln:
 
@@ -36,6 +36,6 @@ Weitere Informationen zu Power BI Premium oder Multi-Geo finden Sie in den folge
 * [Erwerben von Power BI Premium](service-admin-premium-purchase.md)
 * [Multi-Geo-Unterstützung für Power BI Premium (Vorschau)](service-admin-premium-multi-geo.md)
 * [Wo befindet sich mein Power BI-Mandant?](service-admin-where-is-my-tenant-located.md)
-* [Power BI Premium – Häufig gestellte Fragen (FAQ)](service-premium-faq.md)
+* [Power BI Premium FAQ (Häufig gestellte Fragen zu Power BI Premium)](service-premium-faq.md)
 
 

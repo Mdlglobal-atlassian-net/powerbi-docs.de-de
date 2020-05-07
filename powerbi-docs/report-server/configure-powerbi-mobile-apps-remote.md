@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925877"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Remotekonfiguration des Zugriffs der mobilen Power BI-App auf Berichtsserver
@@ -38,12 +38,12 @@ Sie als Administrator müssen in Microsoft Intune die folgenden Schritte ausfüh
 
 In der folgenden Tabelle sind die Paare aufgeführt.
 
-|Schlüssel  |Typ  |Beschreibung  |
+|Schlüssel  |type  |Beschreibung  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | Zeichenfolge | Berichtsserver-URL <br> Muss mit http/https beginnen |
 | com.microsoft.powerbi.mobile.ServerUsername | Zeichenfolge | [Optional] <br> Der Benutzername, der zum Verbinden des Servers verwendet wird. <br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Zeichenfolge | [Optional] <br> Der Standardwert ist „Berichtsserver“. <br> Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolescher Wert | Der Standardwert ist TRUE <br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. <br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. <br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. <br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolesch | Der Standardwert ist TRUE <br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. <br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. <br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. <br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
 
 Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über Intune.
 
@@ -55,7 +55,7 @@ Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über I
 
 1. Den Benutzern wird eine Meldung angezeigt, die besagt, dass ihre mobile App mit einem Berichtsserver konfiguriert ist. Der Benutzer tippt dann auf **Anmelden**.
 
-    ![Anmelden beim Berichtsserver](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
+    ![Anmelden bei dem Berichtsserver](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
 2.  Auf der Seite **Mit Server verbinden** sind die Berichtsserverdetails bereits ausgefüllt. Die Benutzer müssen auf **Verbinden** tippen.
 
@@ -67,7 +67,7 @@ Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über I
 
 Sie können nun KPIs und Power BI-Berichte, die auf dem Berichtsserver gespeichert sind, anzeigen und mit diesen interagieren.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Aktivieren des Remotezugriffs auf Power BI Mobile mit dem Azure AD-Anwendungsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [Administratorübersicht](admin-handbook-overview.md)  

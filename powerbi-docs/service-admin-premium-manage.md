@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren und Verwalten von Kapazitäten in Power BI Premium
-description: Erfahren Sie, wie Sie Power BI Premium verwalten und den Zugriff auf Inhalte für Ihre gesamte Organisation aktivieren können.
+description: Erfahren Sie, wie Sie Power BI Premium verwalten und den Zugriff auf Inhalt für Ihre gesamte Organisation ermöglichen können.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637925"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Konfigurieren und Verwalten von Kapazitäten in Power BI Premium
@@ -56,7 +56,7 @@ Wenn Sie verfügbare V-Kerne haben, können Sie Ihre neue Kapazität mit den fol
 
     ![Verfügbare Premium-Kapazitätsumfänge](media/service-admin-premium-manage/premium-capacity-size.png)
 
-1. Klicken Sie auf **Einrichten**.
+1. Wählen Sie **Einrichten** aus.
 
     ![Einrichten einer neuen Kapazität](media/service-admin-premium-manage/set-up-capacity.png)
 
@@ -126,14 +126,14 @@ Kapazitätsadministratoren können, genauso wie Administratoren von Power BI und
 
     ![Arbeitsbereiche zuweisen](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Auswahl | Beschreibung |
+   | Auswahl (Selection) | Beschreibung |
    | --- | --- |
    | **Arbeitsbereiche nach Benutzern** | Wenn Sie Ihre Arbeitsbereiche nach Benutzern oder Gruppen zuweisen, werden alle Arbeitsbereiche dieses Benutzers einer Premium-Kapazität zugewiesen, einschließlich seiner der persönlichen Arbeitsbereiche. Diese Benutzer erhalten automatisch Berechtigung zur Zuweisung von Arbeitsbereichen.<br>Dies gilt auch für Arbeitsbereiche, die bereits einer anderen Kapazität zugewiesen wurden. |
    | **Bestimmte Arbeitsbereiche** | Geben Sie den Namen eines bestimmten Arbeitsbereichs ein, den Sie der ausgewählten Kapazität zuweisen möchten. |
    | **Arbeitsbereiche der gesamten Organisation** | Wenn Sie die Arbeitsbereiche der gesamten Organisation einer Premium-Kapazität zuweisen, werden alle Arbeitsbereiche und „Meine Arbeitsbereiche“, die sich in Ihrer Organisation befinden, dieser Premium-Kapazität zugewiesen. Des Weiteren erhalten alle aktuellen und zukünftigen Benutzer die Berechtigung, einzelne Arbeitsbereiche erneut dieser Kapazität zuzuweisen. |
    | | |
 
-1. Klicken Sie auf **Übernehmen**.
+1. Wählen Sie **Übernehmen**.
 
 ### <a name="assign-from-workspace-settings"></a>Zuweisen über Einstellungen von Arbeitsbereichen
 
@@ -153,7 +153,7 @@ Sie können einer Premium-Kapazität auch einen Arbeitsbereich über die Einstel
 
 Sobald Sie die Änderungen speichern, wird der Arbeitsbereich mitsamt seinen Inhalten in die Premium-Kapazität verschoben, ohne dass die Benutzererfahrung der Endbenutzer beeinträchtigt wird.
 
-## <a name="power-bi-report-server-product-key"></a>Product Key für den Power BI-Berichtsserver
+## <a name="power-bi-report-server-product-key"></a>Produktschlüssel für den Power BI-Berichtsserver
 
 Auf der Registerkarte **Kapazitätseinstellungen** im Verwaltungsportal von Power BI haben Sie Zugang zum Product Key für den Power BI-Berichtsserver. Dieser steht nur globalen Administratoren oder Benutzern zur Verfügung, denen die Administratorrolle für den Power BI-Dienst zugewiesen wurde. Voraussetzung ist außerdem, dass Sie eine Power BI Premium-SKU erworben haben.
 
@@ -161,11 +161,11 @@ Auf der Registerkarte **Kapazitätseinstellungen** im Verwaltungsportal von Powe
 
 Wenn Sie auf **Power BI Report Server key** (Schlüssel für den Power BI-Berichtsserver) klicken, wird ein Dialogfeld mit Ihrem Product Key angezeigt. Diesen können Sie kopieren und bei der Installation verwenden.
 
-![Product Key für den Power BI-Berichtsserver](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
+![Produktschlüssel für den Power BI-Berichtsserver](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
-Weitere Informationen finden Sie unter [Install Power BI Report Server (Installation vom Power BI-Berichtsserver)](report-server/install-report-server.md).
+Weitere Informationen finden Sie unter [Installieren von Power BI-Berichtsserver](report-server/install-report-server.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Verwalten von Premium-Kapazitäten](service-premium-capacity-manage.md)
 

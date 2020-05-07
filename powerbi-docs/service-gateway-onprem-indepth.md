@@ -1,5 +1,5 @@
 ---
-title: Ausführliche Informationen zu On-premises data gateway
+title: Ausführliche Informationen zu On-premises Data Gateway
 description: Dieser Artikel befasst sich ausführlich mit dem lokalen Gateway. Er beleuchtet die Funktionsweise des Diensts in Kombination mit Azure Active Directory und Ihrem lokalen Active Directory, wenn Sie Analysis Services nutzen.
 author: arthiriyer
 ms.reviewer: ''
@@ -10,19 +10,19 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699381"
 ---
-# <a name="on-premises-data-gateway-in-depth"></a>Ausführliche Informationen zu On-premises data gateway
+# <a name="on-premises-data-gateway-in-depth"></a>Ausführliche Informationen zu On-premises Data Gateway
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
 Wir haben die Informationen aus diesem Artikel in mehrere Artikel zu Power BI und in die allgemeinen Dokumente verschoben. Folgen Sie den Links unter den einzelnen Überschriften, um die relevanten Inhalte zu finden.
 
-## <a name="how-the-gateway-works"></a>So funktioniert das Gateway
+## <a name="how-the-gateway-works"></a>Funktionsweise des Gateways
 
 Siehe [Architektur eines lokalen Datengateways](/data-integration/gateway/service-gateway-onprem-indepth).
 

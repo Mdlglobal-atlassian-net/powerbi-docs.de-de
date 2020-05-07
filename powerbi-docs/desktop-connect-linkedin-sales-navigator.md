@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565640"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Herstellen einer Verbindung mit LinkedIn Sales Navigator in Power BI Desktop
@@ -64,7 +64,7 @@ Zusätzlich zur PBIX-Datei verfügt LinkedIn Sales Navigator auch über eine Vor
 
 ## <a name="using-the-linkedin-sales-navigator-template-app"></a>Verwenden der Vorlagen-App für LinkedIn Sales Navigator
 
-Sie können die [Vorlagen-App](service-template-apps-overview.md) verwenden, um die Verwendung von **LinkedIn Sales Navigator** so einfach wie möglich zu gestalten. Diese erstellt aus Ihren LinkedIn Sales Navigator-Daten automatisch einen vorgefertigten Bericht.
+Sie können die **Vorlagen-App** verwenden, um die Verwendung von [LinkedIn Sales Navigator](service-template-apps-overview.md) so einfach wie möglich zu gestalten. Diese erstellt aus Ihren LinkedIn Sales Navigator-Daten automatisch einen vorgefertigten Bericht.
 
 ![Vorlagen-App für LinkedIn Sales Navigator](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-10.png)
 
@@ -80,7 +80,7 @@ Sie können die Vorlagen-App für **LinkedIn Sales Navigator** über folgenden L
 Die Vorlagen-App bietet vier Registerkarten zur Unterstützung beim Analysieren und Teilen Ihrer Informationen:
 
 * Verwendung
-* Suche
+* Search
 * InMail
 * SSI
 
@@ -116,11 +116,11 @@ Nachdem die Daten aktualisiert wurden, werden Ihnen in der App Ihre Daten angeze
 
 Wenn beim Herstellen einer Verbindung mit Ihren Daten Probleme auftreten, können Sie sich unter https://www.linkedin.com/help/sales-navigator an den LinkedIn Sales Navigator-Support wenden. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

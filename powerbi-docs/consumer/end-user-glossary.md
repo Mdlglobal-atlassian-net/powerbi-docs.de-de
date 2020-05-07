@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
 ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120112"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst

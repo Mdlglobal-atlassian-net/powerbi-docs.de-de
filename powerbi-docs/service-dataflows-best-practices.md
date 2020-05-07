@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4bbc8b71455d01405854304dd4b889f664ce8575
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877290"
 ---
 # <a name="dataflows-best-practice"></a>Bewährte Methoden für Dataflows
@@ -64,7 +64,7 @@ Zusätzlich zu den zuvor beschriebenen bewährten Methoden können Sie einen sep
 
 Wenn Sie Drosselungslimits feststellen oder regelmäßige Ausfälle bei Ihren Dataflows aufgrund von Arbeitsspeicherlimits bei Ihrer Kapazität auftreten, erwägen Sie, die Dataflows zu trennen oder die Premium-Kapazität für zusätzlichen Arbeitsspeicher zentral hochzuskalieren.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Dieser Artikel enthält Informationen zu bewährten Methoden für Dataflows. Weitere Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 

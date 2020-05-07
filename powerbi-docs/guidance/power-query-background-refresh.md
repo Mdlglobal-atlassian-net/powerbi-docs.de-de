@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75623059"
 ---
 # <a name="disable-power-query-background-refresh"></a>Deaktivieren der Hintergrundaktualisierung in Power Query
@@ -38,9 +38,9 @@ Es ist immer möglich, den Vorschaucache zu aktualisieren. Sie können diesen f�
 
 ![Power Query-Editor-Befehle zum Aktualisieren der Vorschaudaten](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Power Query-Dokumentation](/power-query/)
-- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

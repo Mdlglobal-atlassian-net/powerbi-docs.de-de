@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881079"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Optimieren von Excel-Daten für Q&A in Power BI
@@ -42,7 +42,7 @@ Hier finden Sie einige Tipps zur optimalen Nutzung von Q&A in der Arbeitsmappe.
 
 * Öffnen Sie das Dataset in Power BI Desktop, und erstellen Sie neue Spalten, erstellen Sie berechnete Measures, verketten Sie Felder, um eindeutige Werte zu erstellen, klassifizieren Sie Daten nach Typ (z.B. Datumsangaben, Zeichenfolgen, Geografie, Bilder, URLs), und führen Sie weitere Aktionen aus.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Q&A für Nutzer](consumer/end-user-q-and-a.md)  
 - [Verwenden von Q&A in Dashboards und Berichten](power-bi-tutorial-q-and-a.md)

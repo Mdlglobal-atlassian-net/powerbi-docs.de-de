@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 46072ca4c21857476dea6308a891f261109a2388
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878049"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Mehrfachauswahl von Datenelementen in Visuals mit Power BI Desktop
@@ -28,7 +28,7 @@ Mit der Mehrfachauswahl können Sie mehrere Datenpunkte auf der Berichtsseite vo
 
 Diese Funktion mag trivial erscheinen, eröffnet aber viele Möglichkeiten beim Erstellen und Freigeben von Berichten und bei der Interaktion mit diesen. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Folgende Artikel könnten Sie ebenfalls interessieren:
 

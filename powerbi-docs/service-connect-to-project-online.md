@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565679"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Herstellen einer Verbindung mit Project Web App mithilfe von Power BI
@@ -40,7 +40,7 @@ Stellen Sie eine Verbindung mit der [Vorlagen-App von Project Web App](https://a
    ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. Wählen Sie unter **Erste Schritte mit Ihrer neuen App** die Option **Daten verbinden** aus.
    
-   ![Verbinden mit Daten](media/service-connect-to-project-online/mproject.png)
+   ![Herstellen einer Datenverbindung](media/service-connect-to-project-online/mproject.png)
 7. Geben Sie im Textfeld **Project Web App-URL** die URL für die Project Web App (PWA) ein, mit der Sie eine Verbindung herstellen möchten.  Beachten Sie, dass dies bei Verwendung einer benutzerdefinierten Domäne vom Beispiel abweichen kann. Geben Sie im Textfeld **PWA Site Language** (PWA-Websitesprache) die Zahl ein, die der Sprache Ihrer PWA-Website entspricht. Geben Sie die einzelne Zahl „1“ für Englisch, „2“ für Französisch, „3“ für Deutsch, „4“ für Portugiesisch (Brasilien), „5“ für Portugiesisch (Portugal) oder „6“ für Spanisch ein. 
    
    ![Herstellen einer Verbindung mit Microsoft Project Online](media/service-connect-to-project-online/params.png)
@@ -69,7 +69,7 @@ Stellen Sie eine Verbindung mit der [Vorlagen-App von Project Web App](https://a
 
 Laden Sie die [GitHub-PBIT-Datei](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) herunter, um das Inhaltspaket weiter anzupassen und zu aktualisieren.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Erste Schritte mit Power BI](service-get-started.md)
 
 [Abrufen von Daten in Power BI](service-get-data.md)

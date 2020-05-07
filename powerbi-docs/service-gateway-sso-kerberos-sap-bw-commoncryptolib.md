@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75000179"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Verwenden von Kerberos-Single Sign-On für Einmaliges Anmelden (SSO) bei SAP BW mithilfe von CommonCryptoLib (sapcrypto.dll)

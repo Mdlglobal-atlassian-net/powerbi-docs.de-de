@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
 ms.openlocfilehash: 9469127ea28b0370edebd4c044bd929ff22c488f
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675712"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Debuggen von Power BI-Visuals
@@ -71,7 +71,7 @@ public update(options: VisualUpdateOptions) {
 
 Sie können den Browser auch so einrichten, dass bei abgefangenen Ausnahmen die Ausführung unterbrochen wird. Damit wird die Codeausführung angehalten, sobald ein Fehler auftritt, und Sie können das Debuggen ab diesem Punkt fortsetzen.
 
-### <a name="edge"></a>Microsoft Edge
+### <a name="edge"></a>Edge
 
 1. Öffnen Sie die Entwicklertools (F12).
 2. Wechseln Sie zur Registerkarte **Debugger**.
@@ -89,6 +89,6 @@ Sie können den Browser auch so einrichten, dass bei abgefangenen Ausnahmen die 
 
 ![Datenrollenfelder](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Problembehandlung bei Power BI-Visuals](power-bi-custom-visuals-troubleshoot.md)
 * Weitere Informationen und Antworten auf Fragen finden Sie in den [häufig gestellten Fragen zu Power BI-Visuals](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

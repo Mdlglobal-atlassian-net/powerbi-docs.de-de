@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958432"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Aktualisieren von Daten aus einer lokalen SQL Server-Datenbank
@@ -75,7 +75,7 @@ Gehen Sie folgendermaßen vor, um mithilfe der AdventureWorksDW-Beispieldatenban
 
 5. Ziehen Sie **EndDate** auf **Report level filters** (Filter auf Berichtsebene), und aktivieren Sie unter **Basic filtering** (Standardfilter) nur das Kontrollkästchen für **(Blank)** (Leer).
 
-    ![Berichtsstufenfilter](./media/service-gateway-sql-tutorial/report-level-filters.png)
+    ![Filter auf Berichtebene](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     Das Diagramm sollte nun wie folgt aussehen.
 
@@ -114,7 +114,7 @@ Sie haben in Power BI Desktop eine direkte Verbindung mit Ihrer lokalen SQL Serv
 
 5. Geben Sie auf der Seite zur Verwaltung von **Gateways** auf der Registerkarte **Datenquelleneinstellungen** die folgenden Informationen ein, überprüfen Sie diese, und wählen Sie **Hinzufügen** aus.
 
-    | Option | Wert |
+    | Option | Werte |
     | --- | --- |
     | Datenquellenname | AdventureWorksProducts |
     | Datenquellentyp | SQL Server |
@@ -122,7 +122,7 @@ Sie haben in Power BI Desktop eine direkte Verbindung mit Ihrer lokalen SQL Serv
     | Datenbank | Der Name Ihrer SQL Server-Datenbank, z. B. AdventureWorksDW (muss mit der Angabe in Power BI Desktop übereinstimmen) |
     | Authentifizierungsmethode | Windows oder Standard (in der Regel Windows) |
     | Benutzername | Das Benutzerkonto zum Herstellen der Verbindung mit SQL Server |
-    | Kennwort | Das Kennwort für das Konto zum Herstellen der Verbindung mit SQL Server |
+    | Password | Das Kennwort für das Konto zum Herstellen der Verbindung mit SQL Server |
 
     ![Datenquelleneinstellungen](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
@@ -201,7 +201,7 @@ Sie sollten die Ergebnisse vergangener Aktualisierungszyklen im Aktualisierungsv
 
 Wenn Sie die Beispieldaten nicht mehr verwenden möchten, löschen Sie die Datenbank in SQL Server Management Studio (SSMS). Wenn Sie die SQL Server-Datenquelle nicht mehr verwenden möchten, entfernen Sie die Datenquelle von Ihrem Datengateway. Erwägen Sie auch die Deinstallation des Datengateways, falls Sie es nur für dieses Tutorial installiert haben. Sie sollten ebenfalls das Dataset „AdventureWorksProducts“ und den Bericht „AdventureWorksProducts“ löschen, die von Power BI beim Hochladen der Datei „AdventureWorksProducts.pbix“ erstellt wurden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In diesem Tutorial haben Sie erfahren, wie Sie Daten aus einer lokalen SQL Server-Datenbank in ein Power BI-Dataset importieren und wie Sie dieses Dataset nach einem Zeitplan bzw. bedarfsgesteuert aktualisieren, um die Berichte und Dashboards, die dieses Dataset verwenden, in Power BI auf dem neusten Stand zu halten. Nun können Sie mehr über das Verwalten von Datengateways und Datenquellen in Power BI erfahren. Sie sollten auch den konzeptionellen Artikel „Aktualisieren von Daten in Power BI“ lesen.
 

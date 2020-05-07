@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c0dc3b9eeb7932ca0cb6784fd6a46857821d1b12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698116"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Verwalten Ihrer Datenquelle – SQL Server
@@ -38,7 +38,7 @@ Wählen Sie unter **Authentifizierungsmethode** entweder **Windows** oder **Stan
 > [!NOTE]
 > Alle Abfragen der Datenquelle werden mit diesen Anmeldeinformationen ausgeführt, es sei denn, für die Datenquelle ist einmaliges Anmelden (Single Sign-On, SSO) mit Kerberos-Authentifizierung konfiguriert und aktiviert. Bei Verwendung von SSO werden für Importdatasets die gespeicherten Anmeldeinformationen verwendet. Für DirectQuery-Datasets wird jedoch der aktuelle Power BI-Benutzer zum Ausführen der Abfragen mit SSO verwendet. Weitere Informationen zum Speichern von Anmeldeinformationen finden Sie unter [Speichern verschlüsselter Anmeldeinformationen in der Cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud). Alternativ finden Sie weitere Informationen im Artikel zum [Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen](service-gateway-sso-kerberos.md).
 
-![Auffüllen der Datenquelleneinstellungen](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
+![Ausfüllen der Einstellungen zur Datenquelle](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
 Nachdem Sie alles ausgefüllt haben, klicken Sie auf **Hinzufügen**. Sie können diese Datenquelle nun für eine geplante Aktualisierung oder DirectQuery mit einer lokalen SQL Server-Instanz verwenden. Bei erfolgreicher Ausführung wird *Verbindung erfolgreich* angezeigt.
 
@@ -46,7 +46,7 @@ Nachdem Sie alles ausgefüllt haben, klicken Sie auf **Hinzufügen**. Sie könne
 
 ### <a name="advanced-settings"></a>Erweiterte Einstellungen
 
-Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Diese Einstellung steuert, wie Daten kombiniert werden können. Sie wird nur für die geplante Aktualisierung verwendet. Die Einstellung für die Datenschutzebene gilt nicht für DirectQuery. Weitere Informationen zu Datenschutzebenen für Ihre Datenquelle finden Sie unter [Datenschutzebenen (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
+Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Diese Einstellung steuert, wie Daten kombiniert werden können. Sie wird nur für die geplante Aktualisierung verwendet. Die Einstellung für die Datenschutzebene gilt nicht für DirectQuery. Weitere Informationen zu Datenschutzebenen für Ihre Datenquelle finden Sie unter [Privacy levels (Power Query) (Datenschutzebenen (Power Query))](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
 ![Festlegen der Datenschutzebene](media/service-gateway-enterprise-manage-sql/datasourcesettings9.png)
 
@@ -73,7 +73,7 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 
 ![Anzeigen der Benutzer](media/service-gateway-enterprise-manage-sql/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Herstellen einer Verbindung mit lokalen Daten in SQL Server](service-gateway-sql-tutorial.md)
 * [Problembehandlung beim lokalen Datengateway](/data-integration/gateway/service-gateway-tshoot)

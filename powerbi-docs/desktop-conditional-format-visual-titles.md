@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f3c1f047e3be7520005458294381877d1198ee21
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878631"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Ausdrucksbasierte Titel in Power BI Desktop
@@ -70,7 +70,7 @@ Es gibt einige Einschränkungen bei der aktuellen Implementierung von ausdrucksb
 * Das Feld, das Sie für den Titel erstellen, muss einen Zeichenfolgendatentyp (String-Datentyp) haben. Measures, die Zahlen oder Datum/Uhrzeit-Werte (oder einen beliebigen anderen Datentyp) zurückgeben, werden zurzeit nicht unterstützt.
 * Ausdrucksbasierte Titel werden nicht übertragen, wenn Sie ein visuelles Element an ein Dashboard anheften.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In diesem Artikel ist beschrieben, wie Sie DAX-Ausdrücke erstellen, mit denen die Titel ihrer visuellen Elemente in dynamische Felder umgewandelt werden, die sich ändern können, wenn Benutzer mit ihren Berichten interagieren. Möglicherweise sind auch die folgenden Artikel für Sie nützlich.
 

@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799866"
 ---
 Mit DAX erhalten Sie viele verfügbare Funktionen zum Strukturieren, Formatieren oder Analysieren Ihrer Daten. Diese Funktionen können in eine Handvoll Kategorien unterteilt werden:

@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877317"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Dataflows und Azure Data Lake-Integration (Vorschauversion)
@@ -70,7 +70,7 @@ Benutzer und Dienste außerhalb von Power BI können ebenfalls alternative Autor
 ).
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In diesem Artikel haben Sie eine Übersicht über die Integration von Power BI-Dataflows, CDM-Ordner und Azure Data Lake Storage Gen2 erhalten. Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -88,10 +88,10 @@ Allgemeine Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 * [Developer resources for Power BI dataflows (Entwicklerressourcen für Power BI-Datenflüsse)](service-dataflows-developer-resources.md)
 
 Weitere Informationen zu Azure Storage finden Sie in den folgenden Artikeln:
-* [Azure Storage-Sicherheitsleitfaden](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage security guide (Azure Storage Sicherheitsleitfaden)](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 * [Erste Schritte mit GitHub-Beispielen aus Azure Data Services](https://aka.ms/cdmadstutorial)
 
-Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 * [CDM folders (CDM-Ordner)](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [The metadata file (model.json) for the Common Data Model (Die Metadatendatei (model.json) des CDM)](https://go.microsoft.com/fwlink/?linkid=2045521)

@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730324"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Verwenden bedingter Formatierungen in Tabellen 
@@ -63,13 +63,13 @@ Die Beispieltabelle mit der Farbskala-Schriftformatierung in der Spalte **Afford
 
 ![Beispieltabelle mit abweichender Schriftfarbskala](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
 
-## <a name="color-by-rules"></a>Nach Regeln färben
+## <a name="color-by-rules"></a>Farbe nach Regeln
 
 Um den Zellhintergrund oder die Schriftfarbe nach Regeln zu formatieren, wählen Sie im Feld **Formatieren nach** des Dialogfelds **Hintergrundfarbe** oder **Schriftfarbe** die Option **Regeln** aus. Auch hier zeigt **Basierend auf Feld** das Feld an, auf dem die Formatierung basiert, und **Zusammenfassung** zeigt den Aggregationstyp für das Feld an. 
 
 Geben Sie unter **Regeln** einen oder mehrere Wertebereiche ein, und stellen Sie für jeden einzelnen eine Farbe ein. Jeder Wertebereich verfügt über eine *Wenn Wert*-Bedingung, eine *Und*-Wertbedingung und eine Farbe. Zellenhintergründe oder Schriften in den einzelnen Wertebereichen erhalten die angegebene Farbe. Das folgende Beispiel hat drei Regeln:
 
-![Nach Regeln färben](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+![Farbe nach Regeln](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
 
 Eine Beispieltabelle mit der regelbasierten Hintergrundfarbformatierung in der Spalte **Affordability** (Erschwinglichkeit) sieht folgendermaßen aus:
 
@@ -149,7 +149,7 @@ Das folgende Beispiel fügt Symbole auf der Grundlage von drei Regeln hinzu:
 
 ![Dialogfeld „Symbole“](media/desktop-conditional-table-formatting/table-formatting-1-default-table.png)
 
-Wählen Sie **OK** aus. Mit den auf die Spalte **Affordability** (Erschwinglichkeit) nach Regeln angewandten Symbolen sieht die Beispieltabelle wie folgt aus:
+Klicken Sie auf **OK**. Mit den auf die Spalte **Affordability** (Erschwinglichkeit) nach Regeln angewandten Symbolen sieht die Beispieltabelle wie folgt aus:
 
 ![Beispieltabelle mit Symbolen](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
 
@@ -173,7 +173,7 @@ Bei der Anwendung von bedingter Formatierung auf Tabellen sollten Sie folgende �
 - Sie können keine Farbverlaufsformatierung mit automatischen Maximal-/Minimalwerten oder regelbasierte Formatierung mit Prozentregeln anwenden, wenn Ihre Daten *NaN*-Werte enthalten. NaN bedeutet „Not a Number“, was in der Regel durch einen Fehler aufgrund einer Division durch Null verursacht wird. Mit der [Divide () DAX-Funktion](https://docs.microsoft.com/dax/divide-function-dax) können Sie diese Fehler vermeiden.
 - Die bedingte Formatierung erfordert eine Aggregation oder ein Measure, das auf den Wert angewendet wird. Deshalb wird im Beispiel **Farbe nach Wert** „Erster“ oder „Letzter“ angezeigt. Wenn Sie Ihren Bericht für einen mehrdimensionalen Cube des Analysedienstes erstellen, können Sie kein Attribut für die bedingte Formatierung verwenden, es sei denn, der Cubebesitzer hat ein Measure erstellt, das den Wert bereitstellt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zur Farbformatierung finden Sie unter [Tipps und Tricks zur Farbformatierung in Power BI](visuals/service-tips-and-tricks-for-color-formatting.md).  
 

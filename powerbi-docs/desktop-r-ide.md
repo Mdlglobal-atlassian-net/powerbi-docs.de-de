@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75223467"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Verwenden einer externen R-IDE mit Power BI
@@ -35,11 +35,11 @@ Um dieses Feature verwenden zu können, müssen Sie eine **R-IDE** auf dem lokal
 * Sie können auch eine andere **R-IDE** installieren und sie durch **Power BI Desktop** starten lassen. Führen Sie dazu einen der folgenden Schritte aus:
   
   * Verknüpfen Sie **R**-Dateien mit der externen IDE, die von **Power BI Desktop** gestartet werden soll.
-  * Sie können die EXE-Datei angeben, die von **Power BI Desktop** gestartet werden soll, indem Sie im Abschnitt **Optionen für R-Skript** des Dialogfelds **Optionen** die Option *Sonstige* angeben. Sie öffnen das Dialogfeld **Optionen**, indem Sie **Datei > Optionen und Einstellungen > Optionen** auswählen.
+  * Sie können die EXE-Datei angeben, die von **Power BI Desktop** gestartet werden soll, indem Sie im Abschnitt *Optionen für R-Skript* des Dialogfelds **Optionen** die Option **Sonstige** angeben. Sie öffnen das Dialogfeld **Optionen**, indem Sie **Datei > Optionen und Einstellungen > Optionen** auswählen.
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 
-Wenn Sie mehrere R-IDEs installiert haben, können Sie angeben, welche gestartet werden soll, indem Sie sie im Dialogfeld **Optionen** in der Dropdownliste *Erkannte R-IDEs* auswählen.
+Wenn Sie mehrere R-IDEs installiert haben, können Sie angeben, welche gestartet werden soll, indem Sie sie im Dialogfeld *Optionen* in der Dropdownliste **Erkannte R-IDEs** auswählen.
 
 **Power BI Desktop** startet standardmäßig **R Studio** als externe R-IDE, wenn sie auf dem lokalen Computer installiert ist. Wenn **R Studio** nicht installiert ist und Sie über **Visual Studio 2015** mit **R-Tools für Visual Studio** verfügen, wird stattdessen diese IDE gestartet. Wenn keine dieser R-IDEs installiert ist, wird die mit den **R**-Dateien verknüpfte Anwendung gestartet.
 
@@ -82,7 +82,7 @@ Für das Starten einer R-IDE direkt aus Power BI Desktop gelten einige Einschrä
 * Das automatische Exportieren eines Skripts aus der R-IDE in **Power BI Desktop** wird nicht unterstützt.
 * Der **R Client**-Editor (RGui.exe) wird nicht unterstützt, da der Editor selbst das Öffnen von Dateien nicht unterstützt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Betrachten Sie die folgenden zusätzlichen Informationen über R in Power BI.
 
 * [Ausführen von R-Skripts in Power BI Desktop](desktop-r-scripts.md)

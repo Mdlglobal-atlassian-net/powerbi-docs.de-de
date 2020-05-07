@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698507"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Konfigurieren mobiler Apps mit Microsoft Intune
@@ -55,7 +55,7 @@ Die URL sollte ungefähr wie folgt aussehen: *https://itunes.apple.com/us/app/mi
 
 Sie können die URL zu Google Play von der [Website von Power BI Mobile](https://powerbi.microsoft.com/mobile/) abrufen. Klicken Sie auf **Von Google Play herunterladen**, um zur Seite der App zu gelangen. Kopieren Sie die URL aus der Adressleiste des Browsers. Die URL sollte ungefähr wie folgt aussehen: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>Schritt 2: Erstellen einer Richtlinie für die Verwaltung mobiler Anwendungen
+## <a name="step-2-create-a-mobile-application-management-policy"></a>Schritt 2: Erstellen einer Richtlinie für die Verwaltung mobiler Anwendungen
 
 Die Richtlinie für die Verwaltung mobiler Anwendungen ermöglicht Ihnen das Erzwingen von Einstellungen, z. B. einer Zugriffs-PIN. Sie können eine im Intune-Portal erstellen.
 
@@ -79,7 +79,7 @@ Sie können zunächst die Anwendung oder die Richtlinie erstellen. Die Reihenfol
 
 1. Wählen Sie im Intune-Portal im linken Menü **Apps** aus.
 
-1. Wählen Sie **App hinzufügen**aus. Hierdurch wird die Anwendung **Software hinzufügen** gestartet.
+1. Wählen Sie **App hinzufügen** aus. Hierdurch wird die Anwendung **Software hinzufügen** gestartet.
 
 ### <a name="create-for-ios"></a>Erstellen für iOS
 
@@ -89,11 +89,11 @@ Sie können zunächst die Anwendung oder die Richtlinie erstellen. Die Reihenfol
 
     ![Softwaresetup: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
-1. Füllen Sie die Felder **Herausgeber**, **Name** und **Beschreibung**aus. Sie können optional ein **Symbol**bereitstellen. Die **Kategorie** ist für die Unternehmensportal-App gedacht. Sobald Sie fertig sind, wählen Sie **Weiter**aus.
+1. Füllen Sie die Felder **Herausgeber**, **Name** und **Beschreibung**aus. Sie können optional ein **Symbol** bereitstellen. Die **Kategorie** ist für die Unternehmensportal-App gedacht. Sobald Sie fertig sind, wählen Sie **Weiter** aus.
 
-1. Sie können entscheiden, ob Sie die Anwendung als **Alle** (Standard), **iPad** oder **iPhone**veröffentlichen möchten. **Alle** wird standardmäßig angezeigt und funktioniert für beide Gerätetypen. Die URL der Power BI-App ist für iPhone und iPad identisch. Wählen Sie **Weiter**aus.
+1. Sie können entscheiden, ob Sie die Anwendung als **Alle** (Standard), **iPad** oder **iPhone**veröffentlichen möchten. **Alle** wird standardmäßig angezeigt und funktioniert für beide Gerätetypen. Die URL der Power BI-App ist für iPhone und iPad identisch. Wählen Sie **Weiter**.
 
-1. Wählen Sie **Hochladen**aus.
+1. Wählen Sie die Option **Hochladen**.
 
 1. Wenn die App in der Liste nicht angezeigt wird, aktualisieren Sie die Seite: Wechseln Sie zu **Übersicht** und dann erneut zu **Apps**.
 
@@ -105,11 +105,11 @@ Sie können zunächst die Anwendung oder die Richtlinie erstellen. Die Reihenfol
 
 1. Geben Sie die App-URL ein, die wir in [Schritt 1](#step-1-get-the-url-for-the-application) erhalten haben, und wählen Sie **Weiter** aus.
 
-    ![Softwaresetup: Android-](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![Softwaresetup: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
-1. Füllen Sie die Felder **Herausgeber**, **Name** und **Beschreibung**aus. Sie können optional ein **Symbol**bereitstellen. Die **Kategorie** ist für die Unternehmensportal-App gedacht. Sobald Sie fertig sind, wählen Sie **Weiter**aus.
+1. Füllen Sie die Felder **Herausgeber**, **Name** und **Beschreibung**aus. Sie können optional ein **Symbol** bereitstellen. Die **Kategorie** ist für die Unternehmensportal-App gedacht. Sobald Sie fertig sind, wählen Sie **Weiter** aus.
 
-1. Wählen Sie **Hochladen**aus.
+1. Wählen Sie die Option **Hochladen**.
 
 1. Wenn die App in der Liste nicht angezeigt wird, aktualisieren Sie die Seite: Wechseln Sie zu **Übersicht** und dann erneut zu **Apps**.
 
@@ -125,19 +125,19 @@ Nachdem Sie die Anwendung hinzugefügt haben, müssen Sie sie bereitstellen, dam
 
     ![Verwalten der Bereitstellung](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
-1. Auf dem Bildschirm **Gruppen auswählen** können Sie wählen, welchen Gruppen Sie diese App bereitstellen möchten. Wählen Sie **Weiter**aus.
+1. Auf dem Bildschirm **Gruppen auswählen** können Sie wählen, welchen Gruppen Sie diese App bereitstellen möchten. Wählen Sie **Weiter**.
 
-1. Auf dem Bildschirm **Bereitstellungsaktion** können Sie wählen, wie Sie diese App bereitstellen möchten. Bei Auswahl von **Verfügbare Installation**oder **Erforderliche Installation**wird die App Benutzern für eine bedarfsabhängige Installation im Unternehmensportal zur Verfügung gestellt. Wenn Sie Ihre Auswahl getroffen haben, wählen Sie **Weiter**aus.
+1. Auf dem Bildschirm **Bereitstellungsaktion** können Sie wählen, wie Sie diese App bereitstellen möchten. Bei Auswahl von **Verfügbare Installation**oder **Erforderliche Installation**wird die App Benutzern für eine bedarfsabhängige Installation im Unternehmensportal zur Verfügung gestellt. Wenn Sie Ihre Auswahl getroffen haben, wählen Sie **Weiter** aus.
 
     ![Bereitstellungsaktion](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. Auf dem Bildschirm **Mobile App-Verwaltung** können Sie die Verwaltungsrichtlinie für mobile Apps auswählen, die wir in [Schritt 2](#step-2-create-a-mobile-application-management-policy) erstellt haben. Falls dies die einzige verfügbare iOS-Richtlinie ist, wird sie standardmäßig ausgewählt. Wählen Sie **Weiter**aus.
+1. Auf dem Bildschirm **Mobile App-Verwaltung** können Sie die Verwaltungsrichtlinie für mobile Apps auswählen, die wir in [Schritt 2](#step-2-create-a-mobile-application-management-policy) erstellt haben. Falls dies die einzige verfügbare iOS-Richtlinie ist, wird sie standardmäßig ausgewählt. Wählen Sie **Weiter**.
 
     ![Mobile App-Verwaltung](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
-1. Auf dem Bildschirm **VPN-Profil** können Sie eine Richtlinie auswählen, falls es eine für Ihre Organisation gibt. Der Standardwert lautet **Keine**. Wählen Sie **Weiter**aus.
+1. Auf dem Bildschirm **VPN-Profil** können Sie eine Richtlinie auswählen, falls es eine für Ihre Organisation gibt. Der Standardwert lautet **Keine**. Wählen Sie **Weiter**.
 
-1. Auf dem Bildschirm **Mobile App-Konfiguration** können Sie eine **App-Konfigurationsrichtlinie** auswählen, sofern Sie eine erstellt haben. Der Standardwert lautet **Keine**. Dies ist nicht erforderlich. Wählen Sie **Fertig stellen**aus.
+1. Auf dem Bildschirm **Mobile App-Konfiguration** können Sie eine **App-Konfigurationsrichtlinie** auswählen, sofern Sie eine erstellt haben. Der Standardwert lautet **Keine**. Dies ist nicht erforderlich. Wählen Sie **Fertig stellen** aus.
 
 Nachdem Sie die App bereitgestellt haben, sollte auf der Seite „Apps“ für „Bereitgestellt“ **Ja** angezeigt werden.
 
@@ -146,13 +146,13 @@ Nachdem Sie die App bereitgestellt haben, sollte auf der Seite „Apps“ für �
 1. Wählen Sie auf dem Bildschirm „Apps“ die App aus. Wählen Sie dann den Link **Bereitstellung verwalten** aus.
 
     ![Verwalten der Bereitstellung](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. Auf dem Bildschirm **Gruppen auswählen** können Sie wählen, welchen Gruppen Sie diese App bereitstellen möchten. Wählen Sie **Weiter**aus.
+1. Auf dem Bildschirm **Gruppen auswählen** können Sie wählen, welchen Gruppen Sie diese App bereitstellen möchten. Wählen Sie **Weiter**.
 
-1. Auf dem Bildschirm **Bereitstellungsaktion** können Sie wählen, wie Sie diese App bereitstellen möchten. Bei Auswahl von **Verfügbare Installation**oder **Erforderliche Installation**wird die App Benutzern für eine bedarfsabhängige Installation im Unternehmensportal zur Verfügung gestellt. Wenn Sie Ihre Auswahl getroffen haben, wählen Sie **Weiter**aus.
+1. Auf dem Bildschirm **Bereitstellungsaktion** können Sie wählen, wie Sie diese App bereitstellen möchten. Bei Auswahl von **Verfügbare Installation**oder **Erforderliche Installation**wird die App Benutzern für eine bedarfsabhängige Installation im Unternehmensportal zur Verfügung gestellt. Wenn Sie Ihre Auswahl getroffen haben, wählen Sie **Weiter** aus.
 
     ![Bereitstellungsaktion](media/service-admin-mobile-intune/intune-deploy-android2.png)
 
-1. Auf dem Bildschirm **Mobile App-Verwaltung** können Sie die Verwaltungsrichtlinie für mobile Apps auswählen, die wir in [Schritt 2](#step-2-create-a-mobile-application-management-policy) erstellt haben. Falls dies die einzige verfügbare Android-Richtlinie ist, wird sie standardmäßig ausgewählt. Wählen Sie **Fertig stellen**aus.
+1. Auf dem Bildschirm **Mobile App-Verwaltung** können Sie die Verwaltungsrichtlinie für mobile Apps auswählen, die wir in [Schritt 2](#step-2-create-a-mobile-application-management-policy) erstellt haben. Falls dies die einzige verfügbare Android-Richtlinie ist, wird sie standardmäßig ausgewählt. Wählen Sie **Fertig stellen** aus.
 
     ![Mobile App-Verwaltung](media/service-admin-mobile-intune/intune-deploy-android3.png)
 
@@ -172,7 +172,7 @@ Sie installieren die Anwendung über die *Unternehmensportal*-App. Wenn Sie das 
 
     ![Power BI-App](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. Wählen Sie **Installieren**aus.
+1. Wählen Sie **Installieren** aus.
 
     ![Installieren der App](media/service-admin-mobile-intune/intune-companyportal3.png)
 
@@ -184,7 +184,7 @@ Sie installieren die Anwendung über die *Unternehmensportal*-App. Wenn Sie das 
 
     ![Eingeben der PIN](media/service-admin-mobile-intune/intune-powerbi-pin.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Konfigurieren und Bereitstellen von Richtlinien zur Verwaltung mobiler Anwendungen in der Microsoft Intune-Konsole](/intune/app-protection-policies/)  
 

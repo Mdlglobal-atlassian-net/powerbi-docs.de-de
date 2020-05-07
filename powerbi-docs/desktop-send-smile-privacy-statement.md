@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 39fa082133b519feab004f475110a3a701ff085c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876119"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Datenschutzbestimmungen für Lächeln senden in Power BI Desktop

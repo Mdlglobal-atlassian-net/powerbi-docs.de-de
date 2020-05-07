@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859684"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Ermitteln des Product Key für den Berichtsserver
@@ -31,7 +31,7 @@ Wenn Sie Power BI Premium erworben haben, haben Sie auf der Registerkarte **Kapa
 
 Wenn Sie auf **Power BI Report Server key** (Schlüssel für den Power BI-Berichtsserver) klicken, wird ein Dialogfeld mit Ihrem Product Key angezeigt. Diesen können Sie kopieren und bei der Installation verwenden.
 
-![Product Key für den Power BI-Berichtsserver](media/find-product-key/pbirs-product-key-dialog.png)
+![Produktschlüssel für den Power BI-Berichtsserver](media/find-product-key/pbirs-product-key-dialog.png)
 
 ## <a name="purchased-software-assurance-agreement"></a>Software Assurance-Vertrag
 Wenn Sie über einen SQL Server Enterprise SA-Vertrag verfügen, können Sie Ihren Product Key im [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/) abrufen. Suchen Sie unter dem neuesten Service Pack nach der aktuellen Version von SQL Server. Wenn er dort nicht angezeigt wird, suchen Sie ihn unter der RTM-Version der neuesten SQL Server-Version.
@@ -43,11 +43,11 @@ Wenn Sie über einen SQL Server Enterprise SA-Vertrag verfügen, können Sie Ihr
 
 ![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop](install-powerbi-desktop.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Herunterladen der SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download der neuesten SQL Server-Datatools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 
