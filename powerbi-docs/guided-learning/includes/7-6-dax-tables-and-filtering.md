@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799867"
 ---
 Ein wesentlicher Unterschied zwischen **DAX** und der Excel-Formelsprache ist der, dass Sie mit DAX *komplette Tabellen* in Ausdrücken berechnen können, ohne dass Sie auf einen einzigen Wert beschränkt sind. Ein signifikanter Effekt ist, dass DAX Ihnen erlaubt, Tabellen in deren Ausdrücken zu filtern und anschließend mit dem gefilterten Wertesatz zu arbeiten.

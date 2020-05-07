@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f1d782aa7409dce43d960956406e996cc7951a57
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876452"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Verbinden mit Daten, die von Power BI-Dataflows in Power BI Desktop (Beta) erstellt wurden
@@ -50,10 +50,10 @@ Ben müssen Leseberechtigungen für den CDM-Ordner und die darin enthaltenen Dat
 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Power BI-Dataflows bieten Ihnen viele interessante Möglichkeiten. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Self-Service-Datenaufbereitung mit Dataflows](service-dataflows-overview.md)
+* [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
 * [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
@@ -68,7 +68,7 @@ Weitere Informationen zur Integration in Azure Data Lake Storage Gen2 finden Sie
 
 Es gibt außerdem nützliche Artikel über **Power BI Desktop**:
 
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

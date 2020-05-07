@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74792000"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisierung
@@ -31,16 +31,16 @@ Wenn Sie unsicher sind, welche Datenquelle verwendet wurde, können Sie diese su
    ![Power BI Desktop-Berichtsbereich](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. Wählen Sie im Menüband die Option **Abfragen bearbeiten** aus.  
    ![Abfragen bearbeiten](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
-3. Wählen Sie **Erweiterter Editor**aus.  
+3. Wählen Sie **Erweiterter Editor** aus.  
    ![Erweiterter Editor](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Notieren Sie sich den für die Datenquelle aufgeführten Anbieter.  In diesem Beispiel ist der Anbieter Active Directory.  
    ![Datenquellenanbieter](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. Vergleichen Sie den Anbieter mit der Liste der unterstützten Datenquellen, die in [Power BI-Datenquellen](power-bi-data-sources.md) gefunden wurden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Datenaktualisierung](refresh-data.md)  
 [Power BI Gateway – Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)  
+[Lokales Datengateway](service-gateway-onprem.md)  
 [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

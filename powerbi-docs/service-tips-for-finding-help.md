@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178269"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 Tipps, um Hilfe bei Ihren Fragen zu Power BI zu erhalten
@@ -29,7 +29,7 @@ Experten, die Antworten zu Power BI benötigen, greifen oft auf die Suche zurüc
 Das Power BI-Team aktualisiert und verbessert die Power BI-Dokumentation und Schulungen ständig. Dort finden Sie hilfreiche Inhalte, u.a. Aufzeichnungen von Webinaren, Whitepapers, geführtes Lernen und Links zu Blogbeiträgen zu den neuesten Funktionen.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3\. Power BI-Blog mit aktuellen Nachrichten
-Das Power BI-Team erläutert alle neuen Funktionen ausführlich in regelmäßigen [Beiträgen im Power BI-Blog](https://powerbi.microsoft.com/blog/). Von Power BI Desktop bis hin zu den mobilen Power BI-Apps – hier erfahren Sie, welche Neuigkeiten es gibt. Machen Sie es sich zur Gewohnheit, regelmäßig hierher zurückzukehren und sich über Neuerungen zu informieren: Nehmen Sie sich jede Woche einige Minuten Zeit, um die Blogs zu überfliegen. Wer weiß, wann Sie von etwas profitieren werden, was Sie dort vor Monaten gelesen haben.
+Das Power BI-Team erläutert alle neuen Funktionen ausführlich in regelmäßigen [Beiträgen im Power BI-Blog](https://powerbi.microsoft.com/blog/). Von Power BI Desktop bis hin zu den mobilen Power BI-Apps – hier erfahren Sie, welche Neuigkeiten es gibt. Machen Sie es sich zur Gewohnheit, hier öfters vorbeizuschauen: Nehmen Sie sich jede Woche ein paar Minuten Zeit, um die Blogs zu überfliegen. Wer weiß, wann Sie von etwas profitieren werden, was Sie dort vor Monaten gelesen haben.
 
 ## <a name="4-try-twitter"></a>4\. Twitter
 Viele Power BI-Kunden und -Experten sind auf Twitter. Stellen Sie Ihre Frage in einem Tweet. Fügen Sie die Hashtags #powerbi und #powerbihelp hinzu, damit die entsprechenden Experten auf Ihren Tweet aufmerksam werden.
@@ -67,7 +67,7 @@ Wenn alles andere nichts hilft, ist der letzte Tipp, das System zu beobachten. H
 
 Angenommen, Sie möchten wissen, ob Sie Dashboards für eine Sicherheitsgruppe freigeben können. Um diese Frage zu beantworten, öffnen Sie das Dialogfeld für die Freigabe und versuchen, eine Sicherheitsgruppe hinzuzufügen. Danach kennen Sie in jedem Fall die Antwort.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Was ist Power BI?](fundamentals/power-bi-overview.md)
 * Stellen Sie Ihre Frage in der [Power BI-Community](https://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).

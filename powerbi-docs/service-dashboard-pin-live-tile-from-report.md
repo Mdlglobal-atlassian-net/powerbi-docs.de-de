@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853082"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Heften Sie eine gesamte Berichtsseite als Live-Kachel an ein Power BI-Dashboard an
@@ -51,7 +51,7 @@ Sehen Sie, wie eine Liveberichtsseite an ein Dashboard angeheftet wird, und befo
    
     ![Dashboard mit einer Live-Kachel](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Dashboards in Power BI](consumer/end-user-dashboards.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

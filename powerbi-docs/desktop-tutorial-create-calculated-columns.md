@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731717"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Erstellen von berechneten Spalten in Power BI Desktop
@@ -129,7 +129,7 @@ Die Tabelle **Stores** besitzt glücklicherweise eine Spalte namens **Status** m
 
 Berechnete Spalten können Ihre Daten bereichern und Einsichten leichter zugänglich machen. Sie haben gelernt, wie berechnete Spalten im Bereich **Felder** und über die Bearbeitungsleiste erstellt werden, wie Vorschlagslisten und QuickInfos beim Erstellen von Formeln helfen, wie die DAX-Funktionen „RELATED“ und „IF“ mit den entsprechenden Argumenten aufgerufen werden und wie berechnete Spalten in Berichtsvisualisierungen verwendet werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Ausführlichere Information zu DAX-Formeln und der Erstellung von berechneten Spalten unter Verwendung von komplexeren Formeln finden Sie unter [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Dieser Artikel konzentriert sich auf grundlegende Konzepte in DAX, wie etwa Syntax, Funktionen und ein tiefer gehendes Verständnis von Kontext.
 

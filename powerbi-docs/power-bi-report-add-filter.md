@@ -10,10 +10,10 @@ ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73875173"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Hinzufügen eines Filters zu einem Bericht in Power BI
@@ -172,7 +172,7 @@ Im Folgenden wird beschrieben, wie der Drillthroughfilter funktioniert.
 - Wenn der Bereich „Felder“ nicht angezeigt wird, stellen Sie sicher, dass Sie die [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) des Berichts geöffnet haben.    
 - Wenn Sie viele Änderungen an den Filtern vorgenommen haben und zu den Standardeinstellungen des Berichtsautors zurückkehren möchten, wählen Sie auf der oberen Menüleiste **Auf Standardwert zurücksetzen** aus.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Überblick über den Berichtsbereich „Filter“](consumer/end-user-report-filter.md)
 
 [Filter und Hervorhebungen in Berichten](power-bi-reports-filters-and-highlighting.md)

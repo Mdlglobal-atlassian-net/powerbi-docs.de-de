@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873955"
 ---
-# <a name="upgrade-power-bi-report-server"></a>Power BI-Berichtsserver aktualisieren
+# <a name="upgrade-power-bi-report-server"></a>Aktualisieren von Power BI-Berichtsserver
 
 Erfahren Sie, wie Power BI-Berichtsserver aktualisiert wird.
 
- **Download** ![herunterladen](media/upgrade/download.png "Herunterladen")
+ **Herunterladen** ![Herunterladen](media/upgrade/download.png "Herunterladen")
 
 Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/).
 
-## <a name="before-you-begin"></a>Vorbereitung
+## <a name="before-you-begin"></a>Vorbereitende Schritte
 
 Bevor Sie ein Upgrade für einen Berichtsserver ausführen, empfehlen wir, die folgenden Schritte zum Sichern Ihres Berichtsservers auszuführen.
 
@@ -38,7 +38,7 @@ Da es sich bei einem Berichtsserver um einen statusfreien Server handelt, sind a
 
 * Verwenden Sie das vollständige Wiederherstellungsmodell zum Sichern der **reportserver**-Datenbank.
 * Verwenden Sie das einfache Wiederherstellungsmodell zum Sichern der **reportservertempdb**-Datenbank.
-* Sie können für jede Datenbank verschiedene Sicherungszeitpläne verwenden. Der einzige Grund für das Sichern von **reportservertempdb** besteht darin, die Notwendigkeit einer Neuerstellung im Fall eines Hardwarefehlers zu vermeiden. Bei einem Hardwareausfall müssen die Daten in **reportservertempdb** nicht wiederhergestellt werden, Sie benötigen aber die Tabellenstruktur. Wenn Sie **reportservertempdb** verlieren, besteht die einzige Möglichkeit zu ihrer Wiederherstellung in der Neuerstellung der Berichtsserver-Datenbank. Wenn Sie **reportservertempdb** neu erstellen, muss sie den gleichen Namen wie die primäre Berichtsserver-Datenbank aufweisen.
+* Sie können für jede Datenbank verschiedene Sicherungszeitpläne verwenden. Der einzige Grund für das Sichern der **reportservertempdb**-Datenbank besteht darin, sie nach einem Hardwarefehler nicht erneut erstellen zu müssen. Bei einem Hardwareausfall müssen die Daten in **reportservertempdb** nicht wiederhergestellt werden, Sie benötigen aber die Tabellenstruktur. Wenn Sie **reportservertempdb** verlieren, besteht die einzige Möglichkeit zu ihrer Wiederherstellung in der Neuerstellung der Berichtsserver-Datenbank. Wenn Sie **reportservertempdb** neu erstellen, muss sie den gleichen Namen wie die primäre Berichtsserver-Datenbank aufweisen.
 
 Weitere Informationen zu Sicherung und Wiederherstellung von relationalen SQL Server-Datenbanken finden Sie unter [Sichern und Wiederherstellen von SQL Server-Datenbanken](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
@@ -62,7 +62,7 @@ Das Aktualisieren des Power BI-Berichtsservers ist einfach. Zum Installieren der
 
 2. Wählen Sie **Upgrade von Power BI-Berichtsserver ausführen** aus.
 
-    ![Upgrade von Power BI-Berichtsserver](media/upgrade/reportserver-upgrade1.png "Power BI-Berichtsserver aktualisieren")
+    ![Upgrade von Power BI-Berichtsserver](media/upgrade/reportserver-upgrade1.png "Aktualisieren von Power BI-Berichtsserver")
 
 3. Lesen Sie die Lizenzbedingungen, stimmen Sie ihnen zu, und wählen Sie dann **Upgrade** aus.
 
@@ -76,7 +76,7 @@ Das Aktualisieren des Power BI-Berichtsservers ist einfach. Zum Installieren der
 
 Nach der Aktualisierung des Berichtsservers sollten Sie sicherstellen, dass alle Autoren von Power BI-Berichten auf die Power BI Desktop-Version mit Optimierung für Power BI-Berichtsserver aktualisieren, die der Serverversion entspricht.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Administratorübersicht](admin-handbook-overview.md)  
 * [Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop](install-powerbi-desktop.md)  

@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907646"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Wasserfalldiagramme in Power BI
@@ -26,7 +26,7 @@ Wasserfalldiagramme zeigen eine laufende Summe an, während Power BI Werte hinzu
 Die Säulen sind farbkodiert, damit Sie Zu- und Abnahmen der Werte schnell erkennen können. Die Säulen für den Anfangs- und den Endwert [gehen häufig von der horizontalen Achse aus](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "Starten Sie auf der horizontalen Achse"), während die Zwischenwerte unverankerte Säulen sind. Aufgrund dieses Aussehens werden Wasserfalldiagramme auch als „Brückendiagramme“ bezeichnet.
 
    > [!NOTE]
-   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
+   > Dieses Video verwendet eine ältere Version von Power BI Desktop.
    > 
    > 
 
@@ -42,7 +42,7 @@ Wasserfalldiagramme sind gut für folgende Zwecke geeignet:
 
 * Zum Anzeigen des jährlichen Gewinns Ihres Unternehmens mithilfe einer Darstellung verschiedener Umsatzquellen und letztendlich des Gesamtgewinns (oder -verlusts).
 
-* Zum Illustrieren der Mitarbeiterzahl Ihres Unternehmens zu Jahresbeginn und -ende.
+* Um die Belegschaft für Ihr Unternehmen am Jahresanfang und -ende zu veranschaulichen.
 
 * Zum Visualisieren Ihrer Einnahmen und Ausgaben pro Monat und des laufenden Kontostands für Ihr Konto.
 
@@ -56,7 +56,7 @@ Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Ein
 
 1. Öffnen Sie die **PBIX-Datei mit einem Analysebeispiel für den Einzelhandel** in der Berichtsansicht ![Screenshot des Berichtsansichtssymbols.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
 
 ## <a name="create-a-waterfall-chart"></a>Erstellen eines Wasserfalldiagramms
@@ -73,7 +73,7 @@ Sie erstellen ein Wasserfalldiagramm, mit dem Abweichungen beim Umsatz (geschät
 
     ![Visualisierungsvorlagen](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. Wählen Sie **Zeit** > **FiscalMonth** aus, um den Wert dem Bereich **Kategorie** hinzuzufügen.
+1. Wählen Sie **Zeit** > **Geschäftsmonat** aus, um den Wert dem Bereich **Kategorie** hinzuzufügen.
 
     ![Wasserfalldiagramm](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
@@ -115,7 +115,7 @@ Analysieren Sie die Informationen genauer, um zu ermitteln, was von Monat zu Mon
 
     ![Wasserfalldiagramm](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Ändern der Interaktion von Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md)
 

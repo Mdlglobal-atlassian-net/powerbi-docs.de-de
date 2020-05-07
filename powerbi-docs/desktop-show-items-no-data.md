@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73879733"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Elemente ohne Daten in Power BI anzeigen
@@ -31,7 +31,7 @@ Um das Konzept zu verstehen, nach dem Power BI bestimmt, welche Daten für die A
 |*Produkt [Farbe]*  |*Produkt [Größe]*  |
 |---------|---------|
 |Blue     |Large         |
-|Blue     |Medium         |
+|Blue     |Mittel         |
 |Blue     |Small         |
 |Red     |Large         |
 
@@ -99,7 +99,7 @@ So wird es mit deaktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt
 
 |*Produkt [Farbe]*  |*Produkt [Größe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Blue     |Medium         |15         |
+|Blue     |Mittel         |15         |
 |Blue     |Small         |10         |
 
 So wird es mit aktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt:
@@ -107,7 +107,7 @@ So wird es mit aktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt:
 |*Produkt [Farbe]*  |*Produkt [Größe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
 |Blue     |Large         |         |
-|Blue     |Medium         |15         |
+|Blue     |Mittel         |15         |
 |Blue     |Small         |10         |
 |Red     |Large         |         |
 
@@ -129,7 +129,7 @@ So wird es mit aktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt:
 |Glänzend     |Blue         |10         |
 |Glänzend     |Red         |         |
 |Matt     |Blue         |15         |
-|Keiner     |         |         |
+|Ohne     |         |         |
 
 Beachten Sie, dass *(Glänzend-Rot)* und *(Ohne, leer)* als Kombinationen angezeigt wurden. Dies ist der Grund, warum sie angezeigt wurden:
 * Power BI zog zuerst ProduktStil[Finish] in Betracht und wählte alle anzuzeigenden Werte aus – dies ergab Glänzend, Matt, Ohne.
@@ -163,7 +163,7 @@ Wenn sich z. B auf einem Matrixvisual vier Felder im Bucket **Zeilen** befinden
 
 ![Für Felder innerhalb desselben Visuals wird automatisch „Elemente ohne Daten anzeigen“ aktiviert.](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-Im Gegensatz dazu wird für das Feld *Kontinent* im Bucket **Spalten** das Feature **Elemente ohne Daten anzeigen** *nicht* automatisch aktiviert. 
+Im Gegensatz dazu wird für das Feld *Kontinent* im Bucket **Spalten** das Feature **Elemente ohne Daten anzeigen***nicht* automatisch aktiviert. 
 
 Dieses Visualverhalten tritt oft dann auf, wenn ein Visual in einen anderen Typ konvertiert wird. Ein Beispiel ist die Konvertierung eines Matrixvisuals in ein Tabellenvisual. Bei solchen Konvertierungen wird **Elemente ohne Daten anzeigen** automatisch für Felder aktiviert, wenn diese in ein Bucket verschoben werden, in dem sich bereits ein Feld befindet, für das dieses Feature aktiviert ist. Wenn im vorherigen Beispiel für *SupplierID* das Feature **Elemente ohne Daten anzeigen** aktiviert ist und das Visual in eine Tabelle konvertiert wird, wird das Feld *Continent* (Kontinent) aus dem Bucket **Spalten** zusammen mit den Feldern im Bucket **Zeilen** in den einzigen Bucket verschoben, der in einem Tabellenvisual verwendet wird. Dabei handelt es sich um den Bucket **Werte**. Daher ist für alle Felder im Bucket **Werte** das Feature **Elemente ohne Daten anzeigen** aktiviert.
 
@@ -183,7 +183,7 @@ Dieser Abschnitt zeigt das Beispieldatenmodell, das in den Beispielen in diesem 
 |Produkt[ProduktID]|    Produkt[ProduktName]|   Produkt[Farbe]| Produkt[Größe]|  Produkt[KategorieID]|    Produkt[StilID]|
 |---------|---------|---------|---------|---------|---------|
 |1  |Prod1  |Blue   |Small  |1  |1 |
-|2  |Prod2  |Blue   |Medium |2  |2 |
+|2  |Prod2  |Blue   |Mittel |2  |2 |
 |3  |Prod3  |Red    |Large  |1  |1 |
 |4  |Prod4  |Blue   |Large  |2  |2 |
 
@@ -199,7 +199,7 @@ Dieser Abschnitt zeigt das Beispieldatenmodell, das in den Beispielen in diesem 
 |---------|---------|---------|
 |1  |Glänzend  |Ja |
 |2  |Matt  |Nein |
-|3  |Keiner   |Nein |
+|3  |Ohne   |Nein |
 
 
 |Umsatz[UmsatzID]| Umsatz[ProduktID]|   Umsatz[Datum]|    Umsatz[Menge]|

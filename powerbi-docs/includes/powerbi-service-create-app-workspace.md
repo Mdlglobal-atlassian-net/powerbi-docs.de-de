@@ -9,10 +9,10 @@ ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
 ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73021107"
 ---
 1. Erstellen Sie zunächst den Arbeitsbereich. Wählen Sie **Arbeitsbereiche** > **Arbeitsbereich erstellen** aus. 
@@ -55,5 +55,5 @@ ms.locfileid: "73021107"
 
 Der Arbeitsbereich wird in Power BI erstellt und geöffnet. Er wird in der Liste der Arbeitsbereiche angezeigt, deren Mitglied Sie sind. Da Sie Administrator sind, können Sie **Weitere Optionen** (...) auswählen, um zurückzukehren, und Änderungen vornehmen, neue Mitglieder hinzufügen oder deren Berechtigungen ändern.
 
-![Arbeitsbereich bearbeiten](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
+![Bearbeiten des Arbeitsbereichs](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

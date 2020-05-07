@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 8dbd72b310d6e62619a61d34001afc1f7bc44189
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730994"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop-Videos
@@ -34,7 +34,7 @@ Mit dem Power Query-Editor können Sie Daten importieren, umformen und transform
 
 Wählen Sie die folgenden Links aus, um alle in dem YouTube-Kanal für Power BI verfügbaren Videos anzuzeigen:
 
-- [Erste Schritte mit Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA)
+- [Erste Schritte mit Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA)
 - [Erstellen eines Berichts in Power BI Desktop](https://www.youtube.com/watch?v=IMAsitQ2cAc)
 - [Verwenden des Power Query-Editors](https://www.youtube.com/watch?v=ByIUx-HmQbw)
 - [Erstellen von Beziehungen zwischen Tabellen](https://www.youtube.com/watch?v=fVW4MCr0APA)

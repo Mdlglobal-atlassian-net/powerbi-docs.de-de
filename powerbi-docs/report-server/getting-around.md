@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859485"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Verwalten von Inhalten im Webportal 
@@ -22,8 +22,8 @@ Das Webportal von Power BI-Berichtsserver ist ein lokaler Speicherort zum Anzeig
 
 Sie können das Webportal in einem beliebigen modernen Browser anzeigen. Im Webportal sind Berichte und KPIs in Ordnern organisiert, die Sie als Favoriten markieren können. Sie können hier auch Excel-Arbeitsmappen speichern. Im Webportal können Sie die Tools starten, die Sie zum Erstellen von Berichten benötigen:
 
-* Mit Power BI Desktop erstellte **Power BI-Berichte** können Sie im Webportal und den Power BI Mobile-Apps anzeigen.
-* Im Berichts-Generator erstellte **paginierte Berichte** sind Dokumente mit modernem Look und einem für das Drucken optimierten festen Layout.
+* Mit Power BI Desktop erstellte **Power BI-Berichte** können Sie im Webportal und den mobilen Power BI-Apps anzeigen.
+* Im Berichts-Generator erstellte **paginierte Berichte** sind Dokumente mit einem moderne Aussehen und einem für das Drucken optimierten festen Layout.
 * Direkt im Webportal erstellte **KPIs**.
 
 Im Webportal können Sie die Berichtsserverordner durchsuchen oder nach bestimmten Berichten suchen. Sie können einen Bericht, seine allgemeinen Eigenschaften und Vorversionen anzeigen, die im Berichtsverlauf erfasst werden. Abhängig von Ihren Berechtigungen können Sie auch Berichte für die Übermittlung in Ihren E-Mail-Posteingang oder einen im Dateisystem freigegebenen Ordner abonnieren.
@@ -39,7 +39,7 @@ Die Webportalanwendung wird in einem Browser ausgeführt. Nach Starten des Webpo
    
     Standardmäßig lautet die URL <em>https://[Computername]/reports</em>.
    
-    Der Berichtsserver kann für die Verwendung eines bestimmten Ports konfiguriert werden. Beispiele: <em>https://[Computername]:80/reports</em> oder <em>https://[Computername]:8080/reports</em>
+    Der Berichtsserver ist möglicherweise für die Verwendung eines bestimmten Ports konfiguriert. Beispiele: <em>https://[Computername]:80/reports</em> oder <em>https://[Computername]:8080/reports</em>
    
     Wie Sie sehen, werden im Webportal Elemente in den folgenden Kategorien gruppiert:
    
@@ -61,11 +61,11 @@ Power BI-Berichtsserver bietet eine detaillierte Kontrolle über die Elemente, d
 2. Wählen Sie die Eigenschaft oder ein anderes Feature aus, die/das Sie festlegen möchten.
    
     ![Eigenschaft auswählen](media/getting-around/report-server-web-portal-manage-properties.png)
-3. Klicken Sie auf **Übernehmen**.
+3. Wählen Sie **Übernehmen**.
 
 Erfahren Sie mehr über das [Arbeiten mit Abonnements im Webportal](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Was ist der Power BI-Berichtsserver?](get-started.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495801"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Diagnoseprotokollierung für Power BI Embedded in Azure
@@ -41,7 +41,7 @@ Die Diagnose ermöglicht einige Szenarien wie etwa Folgende:
     * **An Log Analytics senden**: Verwenden Sie für diese Option entweder einen vorhandenen Arbeitsbereich, oder erstellen Sie einen neuen Log Analytics-Arbeitsbereich, indem Sie die Schritte zum [Erstellen eines neuen Arbeitsbereichs](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) im Portal durchführen. Hierfür wird der Dienst [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview) eingesetzt, der integrierte Analyse, Dashboards und Benachrichtigungsfunktionen bereitstellt. Mit Log Analytics können Sie eine größere Menge an Daten von anderen Ressourcen einbinden und erhalten einen zentralen, umfassenden Überblick über Daten zu sämtlichen Ressourcen Ihrer Anwendung. Mit nur einem Mausklick kann der Dienst zudem mit [Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi) verbunden werden.
     Weitere Informationen zum Anzeigen Ihrer Protokolle in Log Analytics finden Sie unter [Anzeigen von Protokollen in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity).
     * **Engine**: Wählen Sie diese Option aus, um die Gruppe von [Engine-Ereignissen](#whats-logged), die unten aufgeführt werden, zu protokollieren.
-    * **AllMetrics**: Wählen Sie diese Option zum Speichern von ausführlichen Daten unter [Metriken](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics) aus. Wenn Sie Daten in einem Speicherkonto archivieren, können Sie die Beibehaltungsdauer für die Diagnoseprotokolle auswählen. Protokolle werden nach Ablauf der Beibehaltungsdauer automatisch gelöscht.
+    * **AllMetrics**: Wählen Sie diese Option zum Speichern von ausführlichen Daten unter [Metriken](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics) aus. Wenn Sie auf einem Speicherkonto archivieren, können Sie die Beibehaltungsdauer für die Diagnoseprotokolle auswählen. Protokolle werden nach Ablauf der Beibehaltungsdauer automatisch gelöscht.
 
 3. Wählen Sie **Speichern**.
 
@@ -53,7 +53,7 @@ Die Diagnose ermöglicht einige Szenarien wie etwa Folgende:
 
 Um die Metrik- und Diagnoseprotokollierung mittels PowerShell zu aktivieren, verwenden Sie die folgenden Befehle:
 
-* Um die Speicherung von Diagnoseprotokollen in einem Speicherkonto zu aktivieren, verwenden Sie den folgenden Befehl:
+* Verwenden Sie den folgenden Befehl, um das Speichern von Diagnoseprotokollen in einem Speicherkonto zu aktivieren:
 
     ```powershell
     Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -StorageAccountId [your storage account id] -Enabled $true
@@ -77,7 +77,7 @@ Um die Metrik- und Diagnoseprotokollierung mittels PowerShell zu aktivieren, ver
         Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -WorkspaceId [resource id of the log analytics workspace] -Enabled $true
     ```
 
-* Sie können die Ressourcen-ID Ihres Log Analytics-Arbeitsbereichs mithilfe des folgenden Befehls abrufen:
+* Sie können die Ressourcen-ID mit dem folgenden Befehl aus Ihrem Log Analytics-Arbeitsbereich abrufen:
 
     ```powershell
     (Get-AzureRmOperationalInsightsWorkspace).ResourceId
@@ -93,7 +93,7 @@ Erfahren Sie, wie [die Diagnoseeinstellungen mithilfe der Azure Monitor-REST-API
 
 Erfahren Sie, wie die [Diagnoseeinstellungen bei der Ressourcenerstellung mithilfe einer Resource Manager-Vorlage aktiviert werden können](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
 
-## <a name="whats-logged"></a>Was wird protokolliert?
+## <a name="whats-logged"></a>Protokollierte Daten
 
 Sie können die Kategorien **Engine** und/oder **AllMetrics** auswählen.
 
@@ -101,7 +101,7 @@ Sie können die Kategorien **Engine** und/oder **AllMetrics** auswählen.
 
 Die Kategorie „Engine“ weist die Ressource an, die folgenden Ereignisse zu protokollieren, und für jedes der Ereignisse stehen die folgenden Eigenschaften zur Verfügung:
 
-|     Ereignisname     |     Ereignisbeschreibung     |
+|     Veranstaltungsname     |     Ereignisbeschreibung     |
 |----------------------------|----------------------------------------------------------------------------------|
 |    Überwachung von Anmeldungsereignissen    |    Zeichnet alle neuen Verbindungen mit den Engine-Ereignissen seit Beginn der Ablaufverfolgung auf.    |
 |    Sitzungsinitialisierung    |    Zeichnet alle Sitzungsinitialisierungsereignisse seit Beginn der Ablaufverfolgung auf.    |
@@ -110,29 +110,29 @@ Die Kategorie „Engine“ weist die Ressource an, die folgenden Ereignisse zu p
 |    Ende der Abfrage    |    Zeichnet alle Abfrageendereignisse seit Beginn der Ablaufverfolgung auf.    |
 |    Ende der Vertipaq-Abfrage    |    Zeichnet alle VertiPaq SE-Abfrageendereignisse seit Beginn der Ablaufverfolgung auf.    |
 |    Überwachung von Abmeldungsereignissen    |    Zeichnet alle Trennungen von den Engine-Ereignissen seit Beginn der Ablaufverfolgung auf.    |
-|    Fehler    |    Zeichnet alle Engine-Fehlerereignisse seit Beginn der Ablaufverfolgung auf.    |
+|    Fehler (Error)    |    Zeichnet alle Engine-Fehlerereignisse seit Beginn der Ablaufverfolgung auf.    |
 
 <br>
 <br>
 
-| Eigenschaftenname | Beispiel für das Ende der Vertipaq-Abfrage | Eigenschaftenbeschreibung |
+| Eigenschaftsname | Beispiel für das Ende der Vertipaq-Abfrage | Eigenschaftsbeschreibung |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | Die Ereignisklasse wird zum Kategorisieren von Ereignissen verwendet. |
-| EventSubclass | 0 | Die Ereignisunterklasse enthält weitere Informationen zu den einzelnen Ereignisklassen. (Zum Beispiel 0: VertiPaq-Überprüfung) |
+| EventSubclass | 0 | Die Ereignisunterklasse enthält weitere Informationen zu den einzelnen Ereignisklassen. (z.B. 0: VertiPaq-Überprüfung) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | Stammaktivitäts-ID. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Der Zeitpunkt, zu dem das Ereignis begonnen hat, falls verfügbar. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Der Zeitpunkt, zu dem das Ereignis begonnen hat, falls verfügbar. |
 | JobID | 0 | Auftrags-ID für den Status. |
 | ObjectID | 464 | Objekt-ID |
-| ObjectType | 802012 | ObjectType |
+| ObjektType | 802012 | ObjektType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Der Zeitpunkt, zu dem das Ereignis beendet wurde. |
-| Dauer | 0 | Die für das Ereignis benötigte Zeit (in Millisekunden). |
-| SessionType | Benutzer | Sitzungstyp (welche Entität hat den Vorgang verursacht). |
+| Dauer (Duration) | 0 | Die für das Ereignis benötigte Zeit (in Millisekunden). |
+| SessionType | User | Sitzungstyp (welche Entität hat den Vorgang verursacht). |
 | ProgressTotal | 0 | Status gesamt. |
-| IntegerData | 0 | Integer-Daten. |
-| Schweregrad | 0 | Schweregrad einer Ausnahme. |
+| IntegerData | 0 | Ganzzahlige Daten. |
+| Severity | 0 | Schweregrad einer Ausnahme. |
 | Vorgang erfolgreich | 1 | 1 = Erfolgreiche Ausführung 0 = Fehlerhafte Ausführung (z.B. gibt der Wert „1“ die erfolgreiche Ausführung einer Berechtigungsüberprüfung und „0“ einen Fehler bei dieser Überprüfung an). |
-| Fehler | 0 | Fehlernummer eines bestimmten Ereignisses. |
+| Fehler (Error) | 0 | Fehlernummer eines bestimmten Ereignisses. |
 | ConnectionID | 3 | Eindeutige Verbindungs-ID. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID des Datasets, in dem die Anweisung des Benutzers ausgeführt wird. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | Sitzungs-GUID. |
@@ -168,7 +168,7 @@ Nachdem Sie nun die Datensammlung aktiviert haben, klicken Sie unter **Protokoll
 
 ![Alle gesammelten Daten](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-Klicken Sie unter **Typ** auf **AzureDiagnostics** und dann auf **Anwenden**. AzureDiagnostics umfasst-Engine-Ereignisse. Beachten Sie, dass Log Analytics-Abfragen dynamisch erstellt werden.
+Klicken Sie unter **Typ** auf **AzureDiagnostics** und dann auf **Anwenden**. AzureDiagnostics umfasst-Engine-Ereignisse. Beachten Sie, dass direkt eine Log Analytics-Abfrage erstellt wird.
 
 ![Azure-Diagnose](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
@@ -176,7 +176,7 @@ Wählen Sie **EventClass\_s** oder einen der Ereignisnamen aus. Log Analytics f�
 
 Sehen sich unbedingt den Dienst [Log Analytics](https://docs.microsoft.com/azure/log-analytics/) an, der eine Website mit einer erweiterten Abfrage, Dashboards und Warnfunktionen für gesammelte Daten bietet.
 
-### <a name="queries"></a>Abfragen
+### <a name="queries"></a>bearbeiten
 
 Es gibt Hunderte von Abfragen, die Sie verwenden können. Im Folgenden finden Sie einige Beispiele für den Einstieg: Weitere Informationen zur Verwendung der neuen Abfragesprache der Protokollsuche finden Sie unter [Grundlegendes zu Protokollsuchvorgängen in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 
@@ -201,7 +201,7 @@ Es gibt Hunderte von Abfragen, die Sie verwenden können. Im Folgenden finden Si
 
     ![Ergebnisse der Abfrage von Kapazitätsnamen](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-capacity-name-query.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Erfahren Sie mehr über die Diagnoseprotokollierung für Azure-Ressourcen.
 

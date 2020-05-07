@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860228"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Administratorübersicht, Power BI-Berichtsserver
@@ -40,15 +40,15 @@ Zum Konfigurieren Ihres Berichtsservers stehen Ihnen viele Optionen zur Verfügu
 
 Der Großteil der Konfigurationsaufgaben erfolgt im Berichtsserver-Konfigurations-Manager. In der Dokumentation zum [Konfigurations-Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) finden Sie weitere Einzelheiten.
 
-## <a name="security"></a>Sicherheit
+## <a name="security"></a>Security
 Sicherheit und Schutz sind für jede Organisation wichtig. In der Dokumentation zum Thema [Sicherheit](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) erfahren Sie mehr über Authentifizierung, Autorisierung, Rollen und Berechtigungen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Ermitteln des Product Key für den Berichtsserver](find-product-key.md)  
 [Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop](install-powerbi-desktop.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Herunterladen der SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download der neuesten SQL Server-Datatools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

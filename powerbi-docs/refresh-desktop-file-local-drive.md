@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698806"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets auf einem lokalen Laufwerk
@@ -37,7 +37,7 @@ In Power BI wird „Jetzt Aktualisieren“ und die „Zeitplanaktualisierung“ 
 
 Sie können eine einmalige, manuelle Aktualisierung in Power BI Desktop ausführen, indem Sie auf dem Menüband „Start“ **Aktualisieren** auswählen. Wenn Sie hier **Aktualisieren** auswählen, werden die Daten im Modell der *Datei* mit den aktualisierten Daten aus der ursprünglichen Datenquelle aktualisiert. Diese Art der vollständig in der Power BI Desktop-Anwendung ausgeführten Aktualisierung unterscheidet sich von der manuellen oder Zeitplanaktualisierung in Power BI, und es ist wichtig, den Unterschied zu verstehen.
 
-![Aktualisieren](media/refresh-desktop-file-local-drive/pbix-refresh.png)
+![Vorschau](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
 Beim Importieren der Power BI Desktop-Datei von einem lokalen Laufwerk werden die Daten gemeinsam mit anderen Informationen über das Modell in ein Dataset in den Power BI-Dienst geladen. Sie sollten die Daten im Dataset im Power BI-Dienst, nicht in Power BI Desktop, aktualisieren, da diese Daten für die Berichte des Power BI-Diensts genutzt werden. Da die Datenquellen extern sind, können Sie das Dataset mithilfe von **Jetzt aktualisieren** manuell aktualisieren, oder Sie richten mithilfe von **Aktualisierung planen** einen Aktualisierungszeitplan ein.
 

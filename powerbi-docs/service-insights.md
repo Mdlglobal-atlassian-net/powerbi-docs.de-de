@@ -12,10 +12,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872247"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Automatisches Erstellen von Einblicken in Daten mit Power BI
@@ -41,7 +41,7 @@ Jetzt sind sie dran. Durchsuchen Sie Erkenntnisse, indem Sie das [Analysebeispie
    
     ![Registerkarte „Datasets“](media/service-insights/power-bi-ellipses.png)
    
-    ![Menü unter Auslassungspunkten](media/service-insights/power-bi-tab.png)
+    ![Menü nach Auswahl der Auslassungspunkte](media/service-insights/power-bi-tab.png)
 2. Power BI verwendet [verschiedene Algorithmen](service-insight-types.md) zum Suchen nach Trends in Ihrem Dataset.
    
     ![Dialogfeld „Nach Erkenntnissen suchen“](media/service-insights/pbi_autoinsightssearching.png)
@@ -91,7 +91,7 @@ Anstatt nach Erkenntnissen für ein gesamtes Dataset zu suchen, schränken Sie I
 3. Ist einer der Einblicke für Sie interessant? Wählen Sie die entsprechende Einblickkarte aus, um weitere Informationen zu erhalten. Der ausgewählte Einblick wird auf der linken Seite angezeigt, und neue Einblickkarten (ausschließlich abhängig von den Daten in diesem Einblick) werden rechts angezeigt.    
 4. Schlüsseln Sie Ihre Daten weiter auf. Wenn Sie für Sie interessante Einblicke finden, können Sie sie an Ihr Dashboard anheften, indem Sie rechts oben auf **Visualisierung anheften** klicken.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 - Wenn Sie ein Dataset besitzen, [optimieren Sie es für Quick Insights](service-insights-optimize.md).
 - Weitere Informationen zu den [verfügbaren Quick Insights-Typen](service-insight-types.md).
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874238"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Konfigurieren der Kerberos-Authentifizierung zur Verwendung von Power BI-Berichten
@@ -134,7 +134,7 @@ Für Analysis Services verwenden wir den Dienst „MSOLAPSvc.3“. Wir geben den
 
 Es folgt ein Beispiel eines SPN für Analysis Services.
 
-| Typ | Format |
+| type | Formatieren |
 | --- | --- |
 | Standardinstanz |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Benannte Instanz |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -189,7 +189,7 @@ Wir konfigurieren die eingeschränkte Delegierung mit Protokollübertragung. Bei
 1. Klicken Sie mit der rechten Maustaste auf das Dienstkonto des Berichtsservers, und wählen Sie **Eigenschaften** aus.
 2. Wählen Sie die Registerkarte **Delegierung** aus.
 3. Wählen Sie **Computer nur bei Delegierungen angegebener Dienste vertrauen** aus.
-4. Wählen Sie dann **Beliebiges Authentifizierungsprotokoll verwenden** aus.
+4. Wählen Sie die Option **Beliebiges Authentifizierungsprotokoll verwenden** aus.
 5. Klicken Sie unter der **Dienste, für die dieses Konto delegierte Anmeldeinformationen verwenden kann** auf **Hinzufügen**.
 6. Wählen Sie im Dialogfeld „Neu“ **Benutzer oder Computer** aus.
 7. Geben Sie das Dienstkonto für den Analysis Services-Dienst ein, und klicken Sie auf **OK**.
@@ -213,7 +213,7 @@ Sobald die zuvor beschriebene Konfiguration vorhanden ist, sollte Ihr Bericht or
 
 Wenngleich diese Konfiguration in den meisten Fällen funktionieren sollte, kann für die Kerberos-Authentifizierung abhängig von Ihrer Umgebung eine andere Konfiguration nötig sein. Wenn der Bericht nicht geladen wird, sollten Sie den Domänenadministrator bitten, dies zu untersuchen, oder sich an den Support wenden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 

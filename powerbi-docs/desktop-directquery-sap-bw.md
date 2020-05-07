@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761178"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Verbinden mit SAP Business Warehouse über DirectQuery in Power BI
@@ -31,24 +31,24 @@ Weiterhin ist es *essentiell*, dass Ihnen bewusst ist, dass SAP BW viele Funktio
 ## <a name="additional-modeling-restrictions"></a>Zusätzliche Modellierungseinschränkungen
 Dies sind die wesentlichen zusätzlichen Modellierungseinschränkungen beim Herstellen einer Verbindung mit SAP BW mithilfe von DirectQuery in Power BI:
 
-* **Keine Unterstützung für berechnete Spalten:** Das Erstellen berechneter Spalten ist deaktiviert. Dies bedeutet zudem, dass Gruppierung und Clustering, mit denen berechnete Spalten erstellt werden, nicht zur Verfügung stehen.
-* **Zusätzliche Einschränkungen für Measures:** Es gibt zusätzliche Einschränkungen von DAX-Ausdrücken, die in Measures verwendet werden können, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
-* **Keine Unterstützung für das Definieren von Beziehungen:** Beziehungen sind in der externen SAP-Quelle verankert, und es können keine zusätzlichen Beziehungen im Modell definiert werden.
-* **Keine Datenansicht:** Die **Datenansicht** zeigt in der Tabelle normalerweise Daten auf Detailebene an. Aufgrund der Beschaffenheit von OLAP-Quellen wie SAP BW ist diese Ansicht in SAP BW nicht verfügbar.
-* **Details von Spalten und Measures sind unveränderlich:** Die in der Feldliste anzeigte Listen von Spalten und Measures sind in der zugrunde liegenden Quelle festgelegt und können nicht verändert werden. Es ist z.B. nicht möglich, eine Spalte oder deren Datentyp zu löschen (Sie können sie allerdings umbenennen).
-* **Zusätzliche Einschränkungen in DAX:** Es gibt zusätzliche Einschränkungen für die DAX-Bibliothek, die in Measuredefinitionen verwendet werden kann, damit die Einschränkungen in der Quelle übernommen werden. Es ist z.B. nicht möglich, eine Aggregatfunktion über eine Tabelle zu verwenden.
+* **Keine Unterstützung für berechnete Spalten**: Das Erstellen von berechneten Spalten ist deaktiviert. Dies bedeutet zudem, dass Gruppierung und Clustering, mit denen berechnete Spalten erstellt werden, nicht zur Verfügung stehen.
+* **Zusätzliche Einschränkungen von Measures**: Es gibt zusätzliche Einschränkungen von DAX-Ausdrücken, die in Measures verwendet werden können, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
+* **Keine Unterstützung für das Definieren von Beziehungen**: Beziehungen sind in der externen SAP-Quelle verankert, und es können keine zusätzlichen Beziehungen im Modell definiert werden.
+* **Keine Datenansicht**: Die **Datenansicht** zeigt in der Tabelle normalerweise Daten auf Detailebene an. Aufgrund der Beschaffenheit von OLAP-Quellen wie SAP BW ist diese Ansicht in SAP BW nicht verfügbar.
+* **Details von Spalten und Measures sind unveränderlich**: Die in der Feldliste anzeigte Listen von Spalten und Measures sind in der zugrunde liegenden Quelle festgelegt und können nicht verändert werden. Es ist z.B. nicht möglich, eine Spalte oder deren Datentyp zu löschen (Sie können sie allerdings umbenennen).
+* **Zusätzliche Einschränkungen in DAX**: Es gibt zusätzliche Einschränkungen für DAX, die in Measuredefinitionen verwendet wird, damit die Einschränkungen in der Quelle übernommen werden. Es ist z.B. nicht möglich, eine Aggregatfunktion über eine Tabelle zu verwenden.
 
 ## <a name="additional-visualization-restrictions"></a>Zusätzliche Visualisierungseinschränkungen
 Dies sind die wesentlichen zusätzliche Visualisierungsseinschränkungen beim Verbinden mit SAP BW mit DirectQuery in Power BI:
 
 * **Keine Spaltenaggregation:** Es ist nicht möglich, die Aggregation einer Spalte für ein Visual zu ändern. Die Einstellung lautet immer *Nicht zusammenfassen*.
-* **Das Filtern von Measures ist deaktiviert:** Das Filtern von Measures ist deaktiviert, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
-* **Auswählen und Einschließen/Ausschließen von mehreren Elementen:** Die Möglichkeit zum Auswählen von mehreren Datenpunkten in einem visuellen Element ist deaktiviert, wenn die Punkte für Werte stehen, die aus mehr als einer Spalte stammen. Wenn Sie z.B ein Balkendiagramm mit den Verkaufszahlen pro Land haben, wobei sich die Kategorie in der Legende befindet, ist es nicht möglich, die Punkte für „USA, Fahrräder“ und „Frankreich, Kleidung“ auszuwählen. Ebenso ist es nicht möglich, den Punkt für „USA, Fahrräder“ auszuwählen und diesen aus dem visuellen Element auszuschließen. Beide Einschränkungen sind vorgegeben, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
+* **Das Filtern von Measures ist deaktiviert**: Das Filtern von Measures ist deaktiviert, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
+* **Auswählen und Einschließen/Ausschließen von mehreren Elementen**: Die Möglichkeit zum Auswählen von mehreren Datenpunkten in einem visuellen Element ist deaktiviert, wenn die Punkte für Werte stehen, die aus mehr als einer Spalte stammen. Wenn Sie z.B ein Balkendiagramm mit den Verkaufszahlen pro Land haben, wobei sich die Kategorie in der Legende befindet, ist es nicht möglich, die Punkte für „USA, Fahrräder“ und „Frankreich, Kleidung“ auszuwählen. Ebenso ist es nicht möglich, den Punkt für „USA, Fahrräder“ auszuwählen und diesen aus dem visuellen Element auszuschließen. Beide Einschränkungen sind vorgegeben, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
 
 ## <a name="support-for-sap-bw-features"></a>Unterstützung für Funktionen von SAP BW
 In der folgenden Tabelle werden alle Funktionen von SAP BW aufgelistet, die nicht vollständig unterstützt werden oder die sich mit Power BI anders verhalten.   
 
-| Ausgewählt | Beschreibung |
+| Funktion | Beschreibung |
 | --- | --- |
 | Lokale Berechnungen |In einer BEx-Abfrage definierte lokale Berechnungen wirken sich auf die Zahlen aus, die über Tools wie BEx Analyzer angezeigt werden. Sie spiegeln sich allerdings nicht in den von SAP über die öffentliche MDX-Schnittstelle zurückgegebenen Zahlen wider. <br/> <br/> **Daher entsprechen die im visuellen Element von Power BI angezeigten Datei nicht unbedingt denen in dem entsprechenden visuellen Element in einem SAP-Tool.**<br/> <br/>  Wenn Sie z.B. eine Verbindung mit einem Abfragecube von einer BEx-Abfrage aus herstellen, die die zu kumulierende Aggregation angibt (d.h. die laufende Summe), ruft Power BI die Basiszahlen ab und ignoriert die Einstellung.  Ein Analytiker könnte dann natürlich die Berechnung der laufenden Summe lokal in Power BI anwenden, müsste aber bei der Interpretation der Zahlen vorsichtig sein, wenn dies nicht gemacht wird. |
 | Aggregationen |In einigen Fällen () entsprechen die von der öffentlichen SAP-Schnittstelle zurückgegebenen Aggregatzahlen nicht denen vom SAP-Tool. <br/> <br/> **Daher entsprechen die im visuellen Element von Power BI angezeigten Datei nicht unbedingt denen in dem entsprechenden visuellen Element in einem SAP-Tool.** <br/> <br/> Gesamtbeträge aus unterschiedlichen Währungen würden im BEx Analyzer z.B. als „*“ angezeigt, aber der Gesamtbetrag würde von der öffentlichen SAP-Schnittstelle ohne den Hinweis zurückgegeben werden, dass eine derartige Aggregatzahl keine Bedeutung hat. Dementsprechend würde die Zahl (die z.B. USD, EUR und AUD aggregiert) in Power BI angezeigt werden. |
@@ -74,7 +74,7 @@ In der folgenden Tabelle werden alle Funktionen von SAP BW aufgelistet, die nich
 | Charakteristische Strukturen | Charakteristische Strukturen in der zugrunde liegenden SAP BW-Quelle führen zum explosionsartigen Verfügbarmachen von Measures in Power BI. Wenn beispielsweise die beiden Measures „Sales“ und „Costs“ vorliegen sowie eine charakteristische Struktur, die „Budget“ und „Actual“ enthält, werden vier Measures zur Verfügung gestellt: Sales.Budget, Sales.Actual, Costs.Budget, Costs.Actual. |
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu DirectQuery finden Sie in den folgenden Ressourcen:
 
 * [DirectQuery in Power BI](desktop-directquery-about.md)

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
 ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74882878"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Problembehandlung für Probleme bei der Power BI-Anmeldung
@@ -47,6 +47,6 @@ Eine weitere Möglichkeit, den Microsoft Support zu kontaktieren, um Hilfe zu er
 
 Wenn Sie keinen Beitrag im Power BI Communityforum erstellen können, liegt es daran, dass für das Forum ebenfalls eine Anmeldung erforderlich ist. Weitere Informationen finden Sie unter [Community-Support](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Power BI Pro und Power BI Premium: Supportoptionen](service-support-options.md)

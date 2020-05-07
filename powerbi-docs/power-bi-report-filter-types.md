@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874419"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Filtertypen in Power BI-Berichten
@@ -76,21 +76,21 @@ Pass-Through-Filter sind Filter auf Visualebene, die über Q&A erstellt werden. 
 
 Diese Tabelle zeigt zum Vergleich, wie Ersteller die verschiedenen Arten von Filtern verwenden können.
 
-| Filtertyp | Bearbeiten | Löschen | Löschen | Ausblenden | Sperren | Sortieren | Umbenennen |
+| Filtertyp | Edit (Bearbeiten) | Clear | Löschen | Ausblenden | Sperre | Sortieren | Umbenennen |
 |----|----|----|----|----|----|----|----|
-| Manuelle Filter | Y | Y | Y | Y | Y | Y | Y |
-| Automatische Filter | Y | Y | N | Y | Y | Y | Y |
-| Einschluss-/Ausschlussfilter | N | N | Y | Y | Y | Y | N |
-| Drilldownfilter | Y | Y | N | N | N | N | N |
+| Manuelle Filter | J | J | J | J | J | J | J |
+| Automatische Filter | J | J | N | J | J | J | J |
+| Einschluss-/Ausschlussfilter | N | N | J | J | J | J | N |
+| Drilldownfilter | J | J | N | N | N | N | N |
 | Crossdrillfilter | N | N | N | N | N | N | N |
-| Drillthroughfilter (rufen Drillthrough auf) | Y | Y | Y | Y | Y | N | N |
-| Drillthroughfilter (transient) | Y | Y | Y | N | N | N | N |
-| URL-Filter – transient | Y | Y | Y | N | N | N | N |
-| Pass-Through-Filter | N | N | Y | Y | N | Y | N |
+| Drillthroughfilter (rufen Drillthrough auf) | J | J | J | J | J | N | N |
+| Drillthroughfilter (transient) | J | J | J | N | N | N | N |
+| URL-Filter – transient | J | J | J | N | N | N | N |
+| Pass-Through-Filter | N | N | J | J | N | J | N |
 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Hinzufügen von Filtern zu Berichten](power-bi-report-add-filter.md)
 

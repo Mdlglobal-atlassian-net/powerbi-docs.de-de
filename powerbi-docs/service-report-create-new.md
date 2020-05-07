@@ -10,10 +10,10 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871767"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Erstellen eines Berichts im Power BI-Dienst durch Importieren eines Datasets
@@ -31,7 +31,7 @@ Diese Methode zum Erstellen eines Berichts beginnt mit einem Dataset und einem l
    ![Liste von Arbeitsbereichen](media/service-report-create-new/power-bi-workspaces2.png)
 2. Wählen Sie unten im Navigationsbereich **Daten abrufen** aus.
    
-   ![Daten abrufen](media/service-report-create-new/power-bi-get-data3.png)
+   ![Abrufen von Daten](media/service-report-create-new/power-bi-get-data3.png)
 3. Wählen Sie **Dateien** aus, und navigieren Sie zum Speicherort des Beispiels für die Einzelhandelsanalyse.
    
     ![„Dateien“ auswählen](media/service-report-create-new/power-bi-select-files.png)
@@ -55,7 +55,7 @@ Nachdem das Dataset importiert wurde, beginnen wir damit, einige Fragen zu beant
 1. Wählen Sie im Felderbereich die Option **Sales** > **This Year Sales** > **Wert**.
    
     ![Balkendiagramm im Berichts-Editor](media/service-report-create-new/power-bi-report-step1.png)
-2. Konvertieren Sie das Visual in einen Maßstab, indem Sie im Bereich **Visualisierungen** auf die Vorlage für „Maßstab“ ![Symbol „Maßstab“](media/service-report-create-new/powerbi-gauge-icon.png) klicken.
+2. Konvertieren Sie das Visual in einen Maßstab, indem Sie im Bereich ![Visualisierungen](media/service-report-create-new/powerbi-gauge-icon.png) auf die Vorlage für „Maßstab“ **Symbol „Maßstab“** klicken.
    
     ![Visuelles Element „Maßstab“ im Berichts-Editor](media/service-report-create-new/power-bi-report-step2.png)
 3. Ziehen Sie **Sales** > **This Year Sales** > **Ziel** in den Bereich **Zielwert**. Anscheinend haben wir unser Ziel nahezu erreicht.
@@ -72,7 +72,7 @@ Die CMO stellt noch weitere Fragen, die beantwortet werden müssen. Sie möchte 
 2. Heben Sie die Auswahl des Messgeräts auf. Wählen Sie im Felderbereich die Option **Sales** > **This Year Sales** > **Wert**, und wählen Sie dann **Sales** > **Last Year Sales**.
    
     ![Berichts-Editor mit „Maßstab“ und Balkendiagramm](media/service-report-create-new/power-bi-report-step4.png)
-3. Konvertieren Sie das Visual in ein Flächendiagramm, indem Sie im Bereich **Visualisierungen** auf die Vorlage für Flächendiagramme ![Symbol „Diagramm“](media/service-report-create-new/power-bi-areachart-icon.png) klicken.
+3. Konvertieren Sie das Visual in ein Flächendiagramm, indem Sie im Bereich ![Visualisierungen](media/service-report-create-new/power-bi-areachart-icon.png) auf die Vorlage für Flächendiagramme **Symbol „Diagramm“** klicken.
 4. Wählen Sie **Zeit** > **Zeitraum**, um es auch der **Achse** hinzuzufügen.
    
     ![Berichts-Editor mit aktivem Flächendiagramm](media/service-report-create-new/power-bi-report-step5.png)
@@ -89,7 +89,7 @@ Die CMO stellt noch weitere Fragen, die beantwortet werden müssen. Sie möchte 
 
 Erkunden Sie weiter Ihre Daten, und fügen Sie Visualisierungen hinzu. Wenn Sie interessante Einblicke finden, [heften Sie diese an ein Dashboard](service-dashboard-pin-tile-from-report.md) an.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * Erfahren Sie, wie Sie [Visualisierungen an ein Dashboard anheften](service-dashboard-pin-tile-from-report.md).   
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696531"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro und Power BI Premium: Supportoptionen
@@ -23,9 +23,9 @@ In diesem Artikel werden die einzelnen Supportoptionen beschrieben, die für Pow
 | --- | --- | --- | --- | --- | --- |
 | **Communitysupport:** Webforen, in denen Benutzer Support, Anleitungen Informationen zu bewährten Methoden und Antworten auf Fragen von einer weltweiten Community erhalten, die aus Power BI-Experten und Microsoft-Mitarbeitern besteht. | X |   |   | Keine. Es wird die bestmögliche Unterstützung geboten. | [Power BI-Community](https://community.powerbi.com) |
 | **Power BI Pro-Support für Endbenutzer:** Technischer Basissupport für Endbenutzer, die Power BI-Inhalte erstellen oder verwenden. | X |   |   | Ein Werktag | [Supportwebsite für Power BI](https://support.powerbi.com)  |
-| **Power BI Premium-Support für Administratoren:** Technischer Support für Administratoren, die Power BI Premium-Kapazitäten bereitstellen und betreiben. | X |   |   | Ein Werktag oder eine Stunde, je nach Schwere des Falls\* | [Supportwebsite für Power BI](https://support.powerbi.com)<br>ODER<br>[Microsoft 365 Admin Center](https://portal.office.com/adminportal)<br>ODER<br> Telefon |
-| **Power BI-Support für Administratoren:** Technischer Support und Abrechnungssupport für Administratoren von Power BI-Bereitstellungen in den Organisationen.  Diese Option steht nur Unternehmensadministratoren für Azure Active Directory und Office 365 sowie Dienstadministratoren für Office 365 und Power BI zur Verfügung. | X | X |   | Ein Werktag oder eine Stunde, je nach Schwere des Falls\* | [Microsoft 365 Admin Center](https://portal.office.com/adminportal)<br>ODER<br> Telefon |
-| **Microsoft Premier-Support:** Ein Ansatz auf Unternehmensniveau, der den Support vor Ort mit der Kontoverwaltung sowie proaktive Dienstleistungen wie Schulungen und die Leistungsoptimierung von Datenmodellen möglich macht. | X | X | X | Unterschiedlich, je nach Angebot und Schwere des Falls\* | Technical Account Manager <br>ODER<br> [Microsoft 365 Admin Center](https://portal.office.com/adminportal) |
+| **Power BI Premium-Support für Administratoren:** Technischer Support für Administratoren, die Power BI Premium-Kapazitäten bereitstellen und betreiben. | X |   |   | Ein Werktag oder eine Stunde, je nach Schwere des Falls\* | [Supportwebsite für Power BI](https://support.powerbi.com)<br>OR<br>[Microsoft 365 Admin Center](https://portal.office.com/adminportal)<br>OR<br> Telefon |
+| **Power BI-Support für Administratoren:** Technischer Support und Abrechnungssupport für Administratoren von Power BI-Bereitstellungen in den Organisationen.  Diese Option steht nur Unternehmensadministratoren für Azure Active Directory und Office 365 sowie Dienstadministratoren für Office 365 und Power BI zur Verfügung. | X | X |   | Ein Werktag oder eine Stunde, je nach Schwere des Falls\* | [Microsoft 365 Admin Center](https://portal.office.com/adminportal)<br>OR<br> Telefon |
+| **Microsoft Premier-Support:** Ein Ansatz auf Unternehmensniveau, der den Support vor Ort mit der Kontoverwaltung sowie proaktive Dienstleistungen wie Schulungen und die Leistungsoptimierung von Datenmodellen möglich macht. | X | X | X | Unterschiedlich, je nach Angebot und Schwere des Falls\* | Technical Account Manager <br>OR<br> [Microsoft 365 Admin Center](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \* Eine SLA, bei der Sie innerhalb von einer Stunde Support erhalten, ist nur für _Fälle mit dem Schweregrad A_ verfügbar. Deshalb müssen Sie begründen, dass ein Arbeitsausfall in der bestehenden Produktion sofortige und direkte Auswirkung auf Ihr Unternehmen hat.

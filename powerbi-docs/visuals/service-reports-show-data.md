@@ -10,15 +10,15 @@ ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758621"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Anzeigen der zugrunde liegenden Daten einer Visualisierung
 
-## <a name="show-data"></a>Daten anzeigen
+## <a name="show-data"></a>Anzeigen von Daten
 Eine Power BI-Visualisierung wird mithilfe von Daten aus Ihren Datasets erstellt. Sie haben in Power BI die Möglichkeit, die Daten *anzuzeigen*, die der Visualisierung zugrunde liegen. Wenn Sie **Daten anzeigen** auswählen, werden die Daten in Power BI unter (oder neben) der Visualisierung angezeigt.
 
 Sie können die Daten, mit denen die Visualisierung erstellt wurde, auch als XLSX- oder CSV-Datei exportieren und in Excel anzeigen. Weitere Informationen finden Sie unter [Exportieren von Daten aus Power BI-Visualisierungen](power-bi-visualization-export-data.md).
@@ -71,7 +71,7 @@ Sie können den Fokus auch auf einen Datensatz einer Visualisierung legen und di
 - Wenn die Visualisierung ein berechnetes Measure beinhaltet, können Sie „Datensätze anzeigen“ nicht verwenden.
 - Sie können „Datensätze anzeigen“ nicht verwenden, wenn Sie mit einem aktiven mehrdimensionalen Modell (MD-Modell) verbunden sind.  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Exportieren von Daten aus Power BI-Visualisierungen](power-bi-visualization-export-data.md)    
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

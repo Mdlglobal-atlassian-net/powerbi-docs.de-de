@@ -10,10 +10,10 @@ ms.date: 10/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880793"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Verschieben und Ändern der Größe einer Visualisierung
@@ -36,7 +36,7 @@ Berichts-Designer und -besitzer können Visualisierungen verschieben und deren G
 * Zeigen Sie auf die Visualisierung, und wählen Sie das Symbol des Fokusmodus aus.
   ![Symbol „Fokusmodus“](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Ändern der Größe einer Visualisierung in einem Dashboard](../service-dashboard-edit-tile.md)  
 
 [Fokusmodus](../consumer/end-user-focus.md)

@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
 ms.openlocfilehash: cb9ae846f1033c6e7bcbecae28c039dd985adec0
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255811"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL-Datenbank mit DirectQuery
@@ -51,10 +51,10 @@ Sie finden Ihren vollqualifizierten Servernamen und den Datenbanknamen im Azure-
 
 [!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Verwenden von DirectQuery in Power BI Desktop](desktop-use-directquery.md)  
 * [Was ist Power BI?](fundamentals/power-bi-overview.md)  
-* [Abrufen von Daten in Power BI](service-get-data.md)  
+* [Abrufen von Daten für Power BI](service-get-data.md)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

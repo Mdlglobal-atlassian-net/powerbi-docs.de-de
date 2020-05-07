@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699619"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets in OneDrive oder SharePoint Online
@@ -47,7 +47,7 @@ In Power BI wird **Jetzt Aktualisieren** und **Aktualisierung planen** für Data
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive oder OneDrive for Business. Was ist der Unterschied?
 
-Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business importiert werden sollen. Erfahren Sie, warum: Sie verwenden wahrscheinlich zwei unterschiedliche Konten für die Anmeldung.
+Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business importiert werden sollen. Dies wird empfohlen, da Sie wahrscheinlich zwei unterschiedliche Konten für die Anmeldung verwenden.
 
 Das Herstellen einer Verbindung mit OneDrive for Business in Power BI erfolgt i. d. R. nahtlos, da für die Anmeldung bei Power BI häufig das gleiche Konto verwendet wird, das auch für die Anmeldung bei OneDrive for Business verwendet wird. Bei einem privaten OneDrive melden Sie sich wahrscheinlich mit einem anderen [Microsoft-Konto](https://account.microsoft.com) an.
 
@@ -82,11 +82,11 @@ Klicken Sie im **Navigator**auf **Laden in...**
 
 ![Befehl „Laden in“](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-Wenn Sie im **Navigator** auf **Bearbeiten** klicken, wird der Abfrage-Editor geöffnet. Dort können Sie auf **Schließen und Laden in...** klicken.  
+Wenn Sie im **Navigator** auf **Bearbeiten** klicken, wird der Abfrage-Editor geöffnet. Dort können Sie auf **Schließen und laden in...** klicken.  
 
 ![Befehl „Schließen und Laden in“](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
-Stellen Sie anschließend unter **Laden in**sicher, dass **Dem Datenmodell diese Daten hinzufügen**ausgewählt ist.  
+Stellen Sie anschließend unter **Laden in**sicher, dass **Diese Daten dem Datenmodell hinzufügen**ausgewählt ist.  
 
 ![Kontrollkästchen „Diese Daten dem Datenmodell hinzufügen“](media/refresh-excel-file-onedrive/refresh_loadtodm_3.png)
 

@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a655c55520d76bfaeb51318d09244ea663ccc192
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872649"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Verwenden berechneter Entitäten in Power BI Premium
@@ -78,7 +78,7 @@ Verknüpfte Entitäten sind nicht für Dataflows verfügbar, die aus Common Data
 
 Wenn Sie Berechnungen für Daten durchführen, die durch lokale Daten und Clouddaten verknüpft sind, wird empfohlen, eine neue Entität zu erstellen, um solche Berechnungen durchzuführen. Dies ist einfacher, als eine vorhandene Entität für Berechnungen zu verwenden, also z.B. eine Entität, die auch Daten von beiden Quellen abfragt und Data Lake-interne Transformationen durchführt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Dieser Artikel beschreibt berechnete Entitäten und Dataflows, die im Power BI-Dienst zur Verfügung stehen. Diese Artikel können ebenfalls hilfreich sein:
 
@@ -94,6 +94,6 @@ Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)
 * [Konfigurieren geplanter Aktualisierungen](refresh-scheduled-refresh.md)
 
-Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 

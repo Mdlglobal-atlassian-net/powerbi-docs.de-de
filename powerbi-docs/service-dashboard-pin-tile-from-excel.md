@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877427"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anheften einer Kachel an ein Power BI-Dashboard aus Excel
@@ -53,7 +53,7 @@ Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-use
 1. Markieren Sie die Zellen, die Sie an das Dashboard anheften möchten.
    
     ![Zellen in der Excel-Arbeitsmappe auswählen](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Wählen Sie das Symbol zum Anheften ![Stecknadelsymbol](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) aus. 
+2. Wählen Sie das Symbol zum Anheften ![Anheften-Symbol](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) klicken. 
 3. Heften Sie die Kachel an ein vorhandenes oder neues Dashboard an. 
    
    * Vorhandenes Dashboard: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus.
@@ -80,9 +80,9 @@ Wenn Sie eine Arbeitsmappenkachel auswählen, wird die verknüpfte Arbeitsmappe 
  ![Video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-Nicht unterstützte Features: Power BI verwendet Excel Services, um die Arbeitsmappenkacheln abzurufen. Da einige Funktionen von Excel in der Excel Services-REST-API nicht unterstützt werden, werden sie nicht auf Kacheln in Power BI angezeigt. Beispiel: Sparklines, bedingte Formatierung von Symbolsätzen und Zeitslicer. Eine vollständige Liste der nicht unterstützten Features finden Sie unter den [nicht unterstützten Features in der Excel Services-REST-API](https://msdn.microsoft.com/library/office/ff394477.aspx).
+Nicht unterstützte Funktionen: Power BI verwendet Excel Services, um die Arbeitsmappenkacheln abzurufen. Da einige Funktionen von Excel in der Excel Services-REST-API nicht unterstützt werden, werden sie nicht auf Kacheln in Power BI angezeigt. Beispiele: Sparklines, bedingte Formatierung von Symbolsätzen und Zeitdatenschnitte. Eine vollständige Liste der nicht unterstützten Features finden Sie unter den [nicht unterstützten Features in der Excel Services-REST-API](https://msdn.microsoft.com/library/office/ff394477.aspx).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Freigeben eines Dashboards mit Links zu einer Excel-Arbeitsmappe](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Abrufen von Daten aus Excel-Arbeitsmappendateien](service-excel-workbook-files.md)
