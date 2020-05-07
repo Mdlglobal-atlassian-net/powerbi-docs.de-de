@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichen in Power BI aus Microsoft Excel
-description: Erfahren Sie, wie Sie eine Excel-Arbeitsmappe auf Ihrer Power BI-Website veröffentlichen.
+description: Erfahren Sie, wie Sie eine Excel-Arbeitsmappe auf Ihrer Power BI-Website veröffentlichen.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329610"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Veröffentlichen in Power BI aus Microsoft Excel
@@ -81,7 +81,7 @@ Wählen Sie die Option **Veröffentlichen**, wenn Sie die Funktionen „Daten ab
 
 Die Verwendung der Option **Exportieren** ähnelt der Vorgehensweise **Daten abrufen > Datei > OneDrive for Business > Excel-Daten in Power BI exportieren** von Power BI in Ihrem Browser.
 
-## <a name="publishing"></a>Veröffentlichen
+## <a name="publishing"></a>Veröffentlichung
 Bei beiden Optionen meldet sich Excel mit Ihrem aktuellen Konto bei Power BI an, und die Arbeitsmappe wird anschließend in Ihrem Power BI-Arbeitsbereich veröffentlicht. Auf der Statusleiste in Excel wird der Fortschritt des Veröffentlichungsprozesses angezeigt.
 
 ![Statusleiste für die Veröffentlichung in Power BI](media/service-publish-from-excel/pbi_publishingstatus.png)
@@ -90,7 +90,7 @@ Nach Abschluss des Vorgangs können Sie direkt von Excel zu Power BI wechseln.
 
 ![Wechseln zu Power BI](media/service-publish-from-excel/pbi_gotopbi.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Excel-Daten in Power BI](service-excel-workbook-files.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 

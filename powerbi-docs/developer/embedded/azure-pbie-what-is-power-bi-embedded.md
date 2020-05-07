@@ -11,10 +11,10 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495272"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Was ist Power BI Embedded in Azure?
@@ -27,7 +27,7 @@ Im Mai 2017 wurde die Konvergenz von Power BI- und Power BI Embedded-Diensten an
 
 Mit Power BI Embedded sind unabhängige Softwarehersteller und Entwickler flexibler beim Einbetten von Intelligenz in ihre Anwendungen über die Power BI-APIs. Unabhängige Softwarehersteller und Entwickler können die Vorteile eines minimierten Entwicklungsaufwands nutzen, um eine schnellere Markteinführung und Differenzierung zu erreichen, indem sie die erstklassige Analyse-Engine von Microsoft in ihre App integrieren. Ebenso können sich Entwickler auf ihre Lösung konzentrieren, um Kundenanforderungen zu erfüllen, anstatt visuelle Analysefunktionen zu entwickeln. Darüber hinaus können Sie mit Power BI Embedded in den bekannten Entwicklungsumgebungen – Visual Studio und Azure – arbeiten, die Sie bereits verwenden.
 
-Haben Sie eine vorhandene App mit eingebetteten Power BI-Inhalten mit Power BI Premium? Wenn Sie ein unabhängiger Softwarehersteller oder Entwickler sind, der Apps bereitstellt, oder einer Organisation angehören, die diese nutzt, ist keine Aktion erforderlich. Sie und Ihre Kunden können diese Apps ohne Unterbrechung weiterhin nutzen. Wenn Sie eine vorhandene App haben, die auf Power BI-Arbeitsbereichsammlungen basiert, und die Vorteile der konvergenten API-Oberfläche sowie der neuen kapazitätsbasierten Azure-SKUs nutzen möchten, lesen Sie die Dokumentation zur Migrationsanleitung.
+Haben Sie eine vorhandene App mit eingebetteten Power BI-Inhalten mit Power BI Premium? Wenn Sie ein unabhängiger Softwarehersteller oder Entwickler sind, der Apps bereitstellt, oder einer Organisation angehören, die diese nutzt, ist keine Aktion erforderlich. Sie und Ihre Kunden können diese Apps ohne Unterbrechung weiterhin nutzen. Wenn Sie bereits eine auf Power BI-Arbeitsbereichssammlungen basierende App haben und daran interessiert sind, die Vorteile der integrierten API-Oberfläche und der neuen kapazitätsbasierten Azure-SKUs zu nutzen, lesen Sie die Dokumentation mit der Migrationsanleitung.
 
 ## <a name="comparing-power-bi-embedded-with-power-bi-premium"></a>Vergleich: Power BI Embedded und Power BI Premium
 
@@ -39,19 +39,19 @@ Haben Sie eine vorhandene App mit eingebetteten Power BI-Inhalten mit Power BI P
 
 Mit Power BI Embedded können Sie sich auf das konzentrieren, was Sie am besten können: das Entwickeln großartiger Anwendungen. Sie können mit Power BI Embedded mit bereits vorhandenen Tools und Fähigkeiten verwalten und entwickeln.
 
-* [**Azure-Portal:** ](https://portal.azure.com/) eine webbasierte Anwendung zum Verwalten aller Azure-Dienste
+* [**Azure-Portal**](https://portal.azure.com/): eine webbasierte Anwendung zum Verwalten aller Azure-Dienste
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): ein kostenloser, herunterladbarer Open Source-Code-Editor für Windows, macOS und Linux, der Erweiterungen unterstützt
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): ein kostenloses, herunterladbares Tool zum Erstellen umfassender, interaktiver Berichte mit visuellen Analysen
 
-Mithilfe der REST-API ermöglicht Power BI Embedded die Entwicklung mit jeder beliebigen Sprache.
+Beim Verwenden der REST-API ermöglicht Power BI Embedded das Entwickeln mit einer beliebigen Sprache.
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Austausch mit dem Power BI-Technikteam
 
-* [Communitys:](https://community.powerbi.com/) Stellen Sie Fragen zu Power BI.
-* [Power BI Ideas:](https://ideas.powerbi.com) Fordern Sie Funktionen an und bewerten Sie diese.
-* [Reddit:](https://www.reddit.com/r/PowerBI/) Tauschen Sie sich über Power BI aus.
+* [Communitys](https://community.powerbi.com/): Stellen Sie Fragen zu Power BI.
+* [Power BI Ideas](https://ideas.powerbi.com): Hier können Sie Funktionen anfragen und dafür abstimmen.
+* [Reddit](https://www.reddit.com/r/PowerBI/): Tauschen Sie sich über Power BI aus.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In der [Preisübersicht](https://azure.microsoft.com/pricing/details/power-bi-embedded/) finden Sie weitere Informationen zu Kapazitätsknoten.
 

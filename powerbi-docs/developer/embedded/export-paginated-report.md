@@ -8,10 +8,10 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
 ms.openlocfilehash: acb13a70ea4693f447b70aa59da07cd91639de25
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268763"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Exportieren des paginierten Berichts in eine Datei (Vorschau)
@@ -100,7 +100,7 @@ Hier sehen Sie ein Beispiel zum Festlegen der Berichtsparameterwerte.
 }
 ```
 
-### <a name="authentication"></a>Authentifizierung
+### <a name="authentication"></a>Authentication
 
 Die Authentifizierung kann mit einem Benutzer (oder einem Hauptbenutzer) oder einem [Dienstprinzipal](embed-service-principal.md) erfolgen.
 
@@ -288,7 +288,7 @@ private async Task<ExportedFile> ExportPaginatedReport(
 }
 ```
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Sehen Sie sich an, wie Sie Inhalte für Ihre Kunden und Ihre Organisation einbetten:
 

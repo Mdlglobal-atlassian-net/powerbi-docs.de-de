@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006501"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Erstellen eines dynamischen Datenschnitts mit anpassbarer Größe in Power BI
@@ -28,7 +28,7 @@ Bei dynamischen Datenschnitten kann die Größe an einen Bericht angepasst werde
 
 Der erste Schritt beim Erstellen eines dynamischen Datenschnitts besteht darin, einen einfachen Datenschnitt zu erstellen. 
 
-1. Wählen Sie im Bereich **Visualisierungen** das **Datenschnittsymbol**![Datenschnittsymbol](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) aus.
+1. Wählen Sie im Bereich **Visualisierungen** das ![Datenschnittsymbol](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)**Datenschnittsymbol** aus.
 2. Ziehen Sie das Feld, das gefiltert werden soll, auf **Feld**.
 
     ![Feld im Datenschnitt hinzufügen](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
@@ -79,7 +79,7 @@ Sie können die gleichen Schritte ausführen, um einen Kachel- oder Berichtsdate
 - Durch neue, runde Ziehpunkte an den Schiebereglern werden Touchinteraktionen optimiert. 
 - Wenn ein Visual zu klein wird, um noch nützlich zu sein, wird sie stattdessen als Symbol dargestellt, das den Typ des Visuals zeigt. Tippen Sie auf das Symbol, um die Visualisierung im Fokusmodus zu öffnen und damit zu interagieren. Hierdurch wird Platz auf der Berichtsseite gespart, ohne dabei Funktionalität zu verlieren.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Slicer im Power BI-Dienst](visuals/power-bi-visualization-slicers.md)
 - Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

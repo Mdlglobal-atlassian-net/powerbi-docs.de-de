@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114656"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Multi-Geo-Unterstützung für Power BI Embedded
@@ -81,7 +81,7 @@ Um die Verwaltung von Kapazitäten mit Multi-Geo per API zu unterstützen, wurde
 
 * Multi-Geo führt in der Regel nicht zur Leistungssteigerung. Für das Laden von Berichten und Dashboards sind weiterhin Anforderungen an die Heimatregion für Metadaten erforderlich.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zu Power BI Embedded-Kapazitäten und Multi-Geo-Optionen für alle Kapazitäten finden Sie über die nachstehenden Links.
 

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114518"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Abrufen eines Azure AD-Zugriffstokens für Ihre Power BI-Anwendung
@@ -202,7 +202,7 @@ Fehlermeldung: "'AuthenticationContext' doesn't contain a definition for 'Acquir
 
    Laden Sie [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) herunter, wenn dieser Fehler angezeigt wird.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Nun verfügen Sie über das Zugriffstoken und können die Power BI-REST-API aufrufen, um Inhalte einzubetten. Weitere Informationen finden Sie unter [Einbetten von Power BI-Inhalt](embed-sample-for-customers.md#embed-content-within-your-application).
 

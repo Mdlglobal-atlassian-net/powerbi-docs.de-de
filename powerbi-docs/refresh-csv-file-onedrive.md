@@ -11,10 +11,10 @@ ms.date: 09/12/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699703"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Aktualisieren eines aus einer CSV-Datei erstellten Datasets auf OneDrive oder SharePoint Online
@@ -29,7 +29,7 @@ Viele Organisationen führen Prozesse aus, die Datenbanken automatisch auf Daten
 Dateien mit kommagetrennten Werten sind einfache Textdateien, daher werden keine Verbindungen mit externen Datenquellen und Berichten unterstützt. Sie können keine Zeitplanaktualisierung für ein Dataset planen, das aus einer kommagetrennten Datei erstellt wurde. Wenn sich die Datei in OneDrive oder SharePoint Online befindet, synchronisiert Power BI jedoch Änderungen an der Datei automatisch mit dem Dataset etwa einmal in der Stunde.
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive oder OneDrive for Business. Was ist der Unterschied?
-Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business verbunden werden sollen. Erfahren Sie, warum: Sie verwenden wahrscheinlich zwei unterschiedliche Konten für die Anmeldung.
+Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business verbunden werden sollen. Dies wird empfohlen, da Sie wahrscheinlich zwei unterschiedliche Konten für die Anmeldung verwenden.
 
 Das Herstellen einer Verbindung mit OneDrive for Business in Power BI erfolgt i. d. R. nahtlos, da für die Anmeldung bei Power BI häufig das gleiche Konto verwendet wird, das auch für OneDrive for Business verwendet wird. Bei einem privaten OneDrive melden Sie sich wahrscheinlich mit einem anderen [Microsoft-Konto](https://account.microsoft.com) an.
 
@@ -42,7 +42,7 @@ Wenn Sie Änderungen an der CSV-Datei in OneDrive vornehmen, die nicht mit dem D
 ## <a name="when-things-go-wrong"></a>Bei Problemen
 Wenn die Daten in der CSV-Datei in OneDrive geändert und diese Änderungen nicht in Power BI wiedergegeben werden, liegt dies wahrscheinlich daran, dass Power BI keine Verbindung mit OneDrive herstellen kann. Stellen Sie eine Verbindung mit der Datei her, und importieren Sie sie erneut. Wenn Sie aufgefordert werden, sich anzumelden, stellen Sie sicher, dass **Angemeldet bleiben**aktiviert ist.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Tools zur Behandlung von Aktualisierungsproblemen](service-gateway-onprem-tshoot.md)
 [Problembehandlung bei Aktualisierungsszenarios](refresh-troubleshooting-refresh-scenarios.md)
 

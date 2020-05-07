@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802070"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scannen eines Power BI-QR-Codes mit einem mobilen Gerät
@@ -73,10 +73,10 @@ Wenn Ihr Kollege das Dashboard oder den Bericht nicht für Sie freigegeben hat, 
 1. Richten Sie einen beliebigen, auf dem Android-Gerät installierten Scanner auf den gewünschten Power BI-QR-Code, um direkt auf die Kachel oder den Bericht zuzugreifen. 
 2. Wenn Sie die Power BI-App nicht installiert haben, werden Sie zu [Google Play weitergeleitet, um sie herunterzuladen](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Connect to Power BI data from the real world](mobile-apps-data-in-real-world-context.md) (Verbinden mit realen Power BI-Daten mit den Apps für mobile Geräte)
 * [Erstellen eines QR-Codes für eine Kachel im Power BI-Dienst](../../service-create-qr-code-for-tile.md)
 * [Erstellen eines QR-Codes für einen Bericht im Power BI-Dienst](../../service-create-qr-code-for-report.md)
 * Sie können auch [einen QR-Code mit der Power BI für Mixed Reality-App scannen](mobile-mixed-reality-app.md).
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 
