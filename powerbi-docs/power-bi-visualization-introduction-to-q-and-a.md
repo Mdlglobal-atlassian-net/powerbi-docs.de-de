@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874461"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Erstellen eines Visuals mit Power BI Q&A
@@ -48,7 +48,7 @@ Wie gehen Sie beim Erstellen des Liniendiagramms mithilfe von Q&A vor?
    
    ![Von Q&A ausgefülltes Flächendiagramm](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. Um das Diagramm an Ihr Dashboard anzuheften, wählen Sie das Anheftsymbol. ![Stecknadelsymbol](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) in der rechten oberen Ecke.
+4. Um das Diagramm an Ihr Dashboard anzuheften, wählen Sie das Anheftsymbol. ![Anheften-Symbol](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) in der rechten oberen Ecke.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>Erstellen eines Visuals im Berichts-Editor
 
@@ -67,11 +67,11 @@ Wie gehen Sie beim Erstellen des Liniendiagramms mithilfe von Q&A vor?
 
     Wie Sie sehen, ist das Ergebnis dasselbe Visual. Es war nicht sehr kompliziert, es auf diese Weise zu erstellen. Aber die Erstellung mit Q&A war noch einfacher!
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Verwenden von Q&A in Dashboards und Berichten](power-bi-tutorial-q-and-a.md)  
 - [Q&A für Nutzer](consumer/end-user-q-and-a.md)
-- [Optimieren Ihrer Daten für Q&A in Power BI](service-prepare-data-for-q-and-a.md)
+- [Optimieren Ihrer Daten für Q&amp;A in Power BI](service-prepare-data-for-q-and-a.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 

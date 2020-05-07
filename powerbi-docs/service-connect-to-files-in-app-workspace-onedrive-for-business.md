@@ -9,10 +9,10 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854882"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Herstellen einer Verbindung mit in OneDrive gespeicherten Dateien für Ihren Power BI-Arbeitsbereich
@@ -37,7 +37,7 @@ Das Hinzufügen von Dateien zu Ihrem Power BI-Arbeitsbereich erfolgt in zwei Sch
 2. Wählen Sie **Dateien** aus, um OneDrive for Business für Ihren Arbeitsbereich in Office 365 zu öffnen.
    
    > [!NOTE]
-   > Wenn **Dateien** im Menü des Arbeitsbereichs nicht angezeigt wird, wählen Sie **Mitglieder** aus, um OneDrive for Business für den Arbeitsbereich zu öffnen. Wählen Sie dort **Dateien**aus. Office 365 richtet einen OneDrive-Speicherort für die Dateien des Gruppenarbeitsbereichs Ihrer App ein. Dies kann einige Zeit dauern. 
+   > Wenn **Dateien** im Menü des Arbeitsbereichs nicht angezeigt wird, wählen Sie **Mitglieder** aus, um OneDrive for Business für den Arbeitsbereich zu öffnen. Wählen Sie dort **Dateien**aus. Office 365 richtet einen OneDrive-Speicherort für die Dateien des Gruppenarbeitsbereichs Ihrer App ein. Dieser Vorgang kann eine Weile dauern. 
    > 
    > 
 3. Hier können Sie Ihre Dateien in OneDrive for Business für Ihren Arbeitsbereich hochladen. Wählen Sie **Hochladen**aus, und navigieren Sie zu Ihren Dateien.
@@ -45,7 +45,7 @@ Das Hinzufügen von Dateien zu Ihrem Power BI-Arbeitsbereich erfolgt in zwei Sch
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2\. Importieren von Excel-Dateien als Datasets oder Excel Online-Arbeitsmappen
-Jetzt, da sich die Dateien im OneDrive for Business Ihres Arbeitsbereichs befinden, haben Sie zwei Möglichkeiten. Sie können: 
+Jetzt, da sich die Dateien im OneDrive for Business Ihres Arbeitsbereichs befinden, haben Sie zwei Möglichkeiten. Sie haben folgende Möglichkeiten: 
 
 * [Die Daten aus der Excel-Arbeitsmappe als DataSet importieren](service-get-data-from-files.md). Anschließend verwenden Sie die Daten zum Erstellen von Berichten und Dashboards, die Sie in einem Webbrowser und auf mobilen Geräten anzeigen können.
 * Oder [eine Verbindung mit einer kompletten Excel-Arbeitsmappe in Power BI herstellen](service-excel-workbook-files.md) und sie genauso anzeigen, wie sie in Excel Online dargestellt wird.
@@ -55,7 +55,7 @@ Jetzt, da sich die Dateien im OneDrive for Business Ihres Arbeitsbereichs befind
 2. Wählen Sie unten im Navigationsbereich **Daten abrufen** aus. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
-3. Wählen Sie im Feld **Dateien** die Option **Abrufen**aus.
+3. Wählen Sie im Feld **Dateien** die Option **Abrufen** aus.
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. Wählen Sie **OneDrive** - *Name Ihres Arbeitsbereichs* aus.
@@ -75,7 +75,7 @@ Jetzt, da sich die Dateien im OneDrive for Business Ihres Arbeitsbereichs befind
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erstellen von Apps und Arbeitsbereichen in Power BI](service-create-distribute-apps.md)
 * [Importieren von Daten aus Excel-Arbeitsmappen](service-get-data-from-files.md)
 * [Verbinden mit gesamten Excel-Arbeitsmappen](service-excel-workbook-files.md)

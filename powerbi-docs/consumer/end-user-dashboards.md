@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496311"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard für Benutzer des Power BI-Diensts
@@ -46,9 +46,9 @@ Ein Dashboard sieht nicht nur gut aus – es ist auch interaktiv und die Kachel
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Dashboards und Berichte für Power BI-***Kunden***
 Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden Berichte gerne mit Dashboards verwechselt. Es gibt aber einige wichtige Unterschiede für Power BI-*Kunden*.
 
-| **Eigenschaften** | **Dashboards** | **Berichte** |
+| **Funktion** | **Dashboards** | **Berichte** |
 | --- | --- | --- |
-| Seiten |Eine Seite |Eine oder mehrere Seiten |
+| Pages |Eine Seite |Eine oder mehrere Seiten |
 | Datenquellen |Ein oder mehrere Berichte und ein oder mehrere Datasets pro Dashboard |Ein Dataset pro Bericht |
 | Filterung |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
 | Benachrichtigungen festlegen |Benachrichtigungen können erstellt werden. Sie erhalten eine E-Mail, wenn bestimmte Bedingungen erfüllt sind. |Nein |
@@ -68,5 +68,5 @@ Als ein Power BI-***Nutzer*** erhalten Sie Dashboards von *Designern*. In diesen
 > Über das Inhaltsverzeichnis finden Sie bei Bedarf weitere Antworten.
 > 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Anzeigen eines Dashboards](end-user-dashboard-open.md) 

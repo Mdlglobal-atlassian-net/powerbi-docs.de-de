@@ -10,10 +10,10 @@ ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464679"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Sortieren nach Spalten in Power BI Desktop
@@ -106,7 +106,7 @@ When we go back to the menu and select **SalesQuantity** again, the visual defau
 With so many options for sorting your visuals, creating just the chart or image you want is easy.
 --->
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Folgende Artikel könnten Sie ebenfalls interessieren:
 

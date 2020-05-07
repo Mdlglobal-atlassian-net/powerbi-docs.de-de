@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872516"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Erstellen von ansprechenden Berichten aus Excel-Arbeitsmappen im Power BI-Dienst
@@ -44,7 +44,7 @@ Der Power BI-Dienst stellt Verbindungen mit vielen Datenquellen her, einschlie�
  > [!NOTE] 
  > Verwenden Sie die [Arbeitsmappe mit den Finanzbeispieldaten](sample-financial-download.md), um die verbleibenden Schritte in diesem Tutorial auszuführen.
 
-1. Melden Sie sich zuerst beim Power BI-Dienst an. Wenn Sie sich noch nicht registriert haben, [können Sie dies kostenlos tun](https://powerbi.com).
+1. Melden Sie sich zuerst beim Power BI-Dienst an. Wenn Sie sich noch nicht registriert haben, [können Sie dies kostenlos machen](https://powerbi.com).
 
 2. Erstellen Sie ein neues Dashboard. Öffnen Sie **Mein Arbeitsbereich**, und klicken Sie auf **+ Erstellen**.
 
@@ -84,7 +84,7 @@ Nachdem die Excel-Datei vom Power BI-Dienst importiert wurde, können Sie mit d
 
 3. Ziehen Sie jetzt **Datum** auf den Zeichenbereich des Berichts. 
 
-   Power BI aktualisiert das Balkendiagramm, um Gewinne nach Datum anzuzeigen.
+   Power BI aktualisiert das Balkendiagramm, um Gewinne nach Datum anzuzeigen.
 
    ![Säulendiagramm im Berichts-Editor](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
@@ -98,7 +98,7 @@ Ihre Vorgesetzte möchte wissen, welche Länder die meisten Gewinne erzeugen. Be
 
 2. Ziehen Sie aus dem Bereich **Felder** die Elemente **Land/Region** und **Gewinn** auf den Zeichenbereich Ihres Berichts.
 
-   Power BI erstellt eine Kartenvisualisierung mit Blasendiagramm, die den relativen Gewinn jedes Standorts darstellt.
+   Power BI erstellt eine Kartenvisualisierung mit Blasendiagramm, die den relativen Gewinn jedes Standorts darstellt.
 
    ![Kartenvisual im Berichts-Editor](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
 
@@ -129,14 +129,14 @@ Angenommen, Sie möchten Ihr Dashboard für Ihren Vorgesetzten freigeben. Sie k�
 
 2. Geben Sie im Feld **E-Mail-Adresse eingeben** die E-Mail-Adressen der Empfänger ein, und fügen Sie eine Nachricht in das Feld darunter ein. 
 
-3. Um den Empfängern die Freigabe Ihres Dashboards für Dritte zu ermöglichen, wählen Sie **Empfängern das Freigeben Ihres Dashboards erlauben**aus. Wählen Sie **Freigeben**aus.
+3. Um den Empfängern die Freigabe Ihres Dashboards für Dritte zu ermöglichen, wählen Sie **Empfängern das Freigeben Ihres Dashboards erlauben**aus. Wählen Sie **Freigeben** aus.
 
    ![Fenster „Dashboard freigeben“](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Erste Schritte mit Power BI](service-get-started.md)
-* [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
+* [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
 * [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/).

@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584776"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841662"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Datentypen in Power BI Desktop
 Dieser Artikel beschreibt Datentypen, die im Power BI Desktop und von DAX (Data Analysis Expressions) unterstützt werden. 
@@ -79,10 +79,11 @@ Power BI Desktop unterstützt fünf Datum/Uhrzeit-Datentypen in der Abfrageansic
 Der Datentyp „Binary“ kann zum Darstellen beliebiger anderer Daten mit einem Binärformat verwendet werden. Sie können den Datentyp im Abfrage-Editor beim Laden von Binärdateien verwenden, wenn Sie diese in andere Datentypen umwandeln, bevor Sie sie in das Power BI-Modell laden. Binärspalten werden nicht im Power BI-Datenmodell unterstützt. Der Datentyp ist in den Menüs „Datenansicht“ und „Berichtsansicht“ für die Kompatibilität mit Legacyversionen enthalten, wenn Sie jedoch versuchen, binäre Spalten in das Power BI-Modell zu laden, treten womöglich Fehler auf.
 
 
+
+
 > [!NOTE]
 >  Wenn sich eine Binärspalte in der Ausgabe der Schritte einer Abfrage befindet, können beim Aktualisieren der Daten über ein Gateway Fehler auftreten. Es wird empfohlen, dass Sie Binärspalten im letzten Schritt Ihrer Abfragen explizit entfernen.    
 > 
->
 
 ### <a name="table-data-type"></a>Tabellendatentyp
 DAX verwendet einen Tabellendatentyp in vielen Funktionen, z. B. in Aggregationen und Zeitintelligenzberechnungen. Einige Funktionen erfordern einen Verweis auf eine Tabelle, während andere Funktionen eine Tabelle zurückgeben, die dann als Eingabe für andere Funktionen verwendet werden kann. In einigen Funktionen, die eine Tabelle als Eingabe erfordern, können Sie einen Ausdruck angeben, der eine Tabelle ergibt. Bei einigen Funktionen ist ein Verweis auf eine Basistabelle erforderlich. Informationen zu den Anforderungen bestimmter Funktionen finden Sie unter [DAX-Funktionsreferenz](https://msdn.microsoft.com/library/ee634396.aspx).

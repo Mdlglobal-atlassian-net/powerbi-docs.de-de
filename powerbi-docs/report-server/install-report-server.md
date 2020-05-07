@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160602"
 ---
-# <a name="install-power-bi-report-server"></a>Power BI-Berichtsserver installieren
+# <a name="install-power-bi-report-server"></a>Installieren von Power BI-Berichtsserver
 
 Erfahren Sie, wie Power BI-Berichtsserver installiert wird.
 
@@ -32,7 +32,7 @@ Vor der Installation von Power BI-Berichtsserver wird empfohlen, dass Sie die [H
  > [!IMPORTANT]
  > Während Sie den Power BI-Berichtsserver in einer Umgebung mit schreibgeschütztem Domänencontroller (RODC) installieren können, benötigt der Power BI-Berichtsserver Zugang zu einem Domänencontroller mit Lese-/Schreibzugriff, um wie vorgesehen zu funktionieren. Wenn der Power BI-Berichtsserver nur Zugang zu einem RODC hat, treten beim Verwalten des Diensts möglicherweise Fehlermeldungen auf.
 
-### <a name="power-bi-report-server-product-key"></a>Product Key für den Power BI-Berichtsserver
+### <a name="power-bi-report-server-product-key"></a>Produktschlüssel für den Power BI-Berichtsserver
 
 Sie können den Product Key für Power BI-Berichtsserver aus zwei verschiedenen Quellen abrufen:
 
@@ -49,7 +49,7 @@ Wenn Sie Power BI Premium erworben haben, haben Sie auf der Registerkarte **Prem
 
 Wenn Sie auf **Schlüssel für Power BI-Berichtsserver** klicken, wird ein Dialogfeld mit Ihrem Product Key angezeigt. Diesen können Sie kopieren und bei der Installation verwenden.
 
-![Product Key](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Product Key für den Power BI-Berichtsserver")
+![Product Key](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Produktschlüssel für den Power BI-Berichtsserver")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
@@ -65,7 +65,7 @@ Zum Zeitpunkt der Installation ist kein Server mit der SQL Server-Datenbank-Engi
 
 2. Wählen Sie **Power BI-Berichtsserver installieren** aus.
 
-    ![Power BI-Berichtsserver installieren](media/install-report-server/pbireportserver-install.png)
+    ![Installieren von Power BI-Berichtsserver](media/install-report-server/pbireportserver-install.png)
 3. Wählen Sie eine zu installierende Edition aus, und klicken Sie dann auf **Weiter**.
 
     ![Wählen einer Edition](media/install-report-server/pbireportserver-choose-edition.png)
@@ -105,17 +105,17 @@ Standardmäßig verwendet der Berichtsserver das virtuelle Dienstkonto. Wenn Sie
 
 `System.Data.SqlClient.SqlException (0x80131904): Windows NT user or group '(null)' not found. Check the name again.`
 
-Um diesen Fehler zu vermeiden, können Sie das Dienstkonto entweder in „Netzwerkdienst“ oder ein Domänenkonto ändern. Bei Ändern des Dienstkontos in „Netzwerkdienst“ gelten Rechte im Kontext des Computerkontos für den Berichtsserver.
+Sie können das Dienstkonto entweder in „Netzwerkdienst“ oder „Domänenkonto“ ändern, um den Fehler zu umgehen. Bei Ändern des Dienstkontos in „Netzwerkdienst“ gelten Rechte im Kontext des Computerkontos für den Berichtsserver.
 
 ![Konfigurieren des Dienstkontos für den Berichtsserver](media/install-report-server/pbireportserver-configure-account.png)
 
-Weitere Informationen finden Sie unter [Konfigurieren des Dienstkontos für den Berichtsserver](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
+Weitere Informationen finden Sie unter [Configure the report server service account (Konfigurieren des Dienstkontos für den Berichtsserver)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
 
 ## <a name="windows-service"></a>Windows-Dienst
 
 Ein Windows-Dienst wird als Teil der Installation erstellt. Dieser wird als **Power BI-Berichtsserver** angezeigt. Der Dienstname lautet **PowerBIReportServer**.
 
-![Windows-Dienst „Berichtsserver“](media/install-report-server/pbireportserver-windows-service.png)
+![Report Server-Windows-Dienst](media/install-report-server/pbireportserver-windows-service.png)
 
 ![Eigenschaften des Windows-Diensts „Berichtsserver“](media/install-report-server/pbireportserver-windows-service2.png)
 
@@ -125,15 +125,15 @@ URL-Reservierungen bestehen aus einem Präfix, Hostnamen, Port und virtuellen Ve
 
 | Teil | Beschreibung |
 | --- | --- |
-| Präfix |Das Standardpräfix ist HTTP. Wenn Sie zuvor ein SSL-Zertifikat (Secure Sockets Layer) installiert haben, versucht Setup, URL-Reservierungen zu erstellen, die das Präfix HTTPS verwenden. |
-| Hostname |Der Standardhostname ist ein Platzhalter (+). Er gibt an, dass der Berichtsserver alle HTTP-Anforderungen am vorgesehenen Port für alle Hostnamen akzeptiert, die in den Computer aufgelöst werden, einschließlich `https://<computername>/reportserver`, `https://localhost/reportserver` oder `https://<IPAddress>/reportserver.`. |
+| Präfix |Das Standardpräfix ist HTTP. Wenn Sie zuvor ein SSL-Zertifikat (Secure Sockets Layer) installiert haben, versucht das Setup, die URL-Reservierungen mit dem Präfix HTTPS zu erstellen. |
+| Hostname |Der Standardhostname ist ein Platzhalter (+). Dieses gibt an, dass der Berichtsserver eine beliebige HTTP-Anforderung an den angegebenen Port für einen beliebigen Hostnamen akzeptiert, der für den Computer steht, einschließlich `https://<computername>/reportserver`, `https://localhost/reportserver` oder `https://<IPAddress>/reportserver.`. |
 | Port |Der Standardport ist 80. Wenn Sie einen anderen Port als 80 verwenden, müssen Sie diesen explizit der URL hinzufügen, sobald Sie das Webportal in einem Browserfenster öffnen. |
 | Virtuelles Verzeichnis |Standardmäßig werden virtuelle Verzeichnisse im Format „ReportServer“ für den Berichtsserver-Webdienst und „Reports“ für das Webportal erstellt. Für den Report Server-Webdienst heißt das standardmäßige virtuelle Verzeichnis **reportserver**. Für das Webportal heißt das standardmäßige virtuelle Verzeichnis **reports**. |
 
 Ein Beispiel der vollständigen URL-Zeichenfolge kann folgendermaßen aussehen:
 
 * `https://+:80/reportserver`: Ermöglicht den Zugriff auf den Berichtsserver.
-* `https://+:80/reports`: Ermöglicht den Zugriff auf das Webportal.
+* `https://+:80/reports` bietet Zugriff auf das Webportal.
 
 ## <a name="firewall"></a>Firewall
 
@@ -148,7 +148,7 @@ Wenn Sie von einem Remotecomputer aus auf den Berichtsserver zugreifen möchten,
 * Informationen zum Konfigurieren des Webportals, damit Sie auf einem Berichtscomputer darauf zugreifen können, um Berichte anzuzeigen und zu verwalten, finden Sie unter [Konfigurieren einer Firewall für den Berichtsserverzugriff](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) und [Konfigurieren eines Berichtsservers für die Remoteverwaltung](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
 * Ausführliche Informationen zum Festlegen von Systemeigenschaften für Berichtsserver in SQL Server Management Studio finden Sie unter [Servereigenschaften (Seite „Erweitert“)](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services). Sofern nicht anders angegeben, gilt die Option sowohl für den Power BI-Berichtsserver als auch für SQL Server Reporting Services.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Administratorübersicht](admin-handbook-overview.md)  
 [Ermitteln des Product Key für den Berichtsserver](find-product-key.md)  

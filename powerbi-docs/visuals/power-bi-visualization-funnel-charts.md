@@ -11,10 +11,10 @@ ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762437"
 ---
 # <a name="create-and-use-funnel-charts"></a>Erstellen und Verwenden von Trichterdiagrammen
@@ -54,13 +54,13 @@ Trichterdiagramme:
 Dieses Tutorial verwendet die [PBIX-Datei zum Analysebeispiel für Opportunity](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
 ).
 
-1. Wählen Sie im oberen linken Bereich der Menüleiste die Option **Datei** > **Öffnen** aus.
+1. Wählen Sie im oberen linken Bereich der Menüleiste **Datei** > **Öffnen** aus.
    
 2. Suchen Sie nach Ihrer Kopie der **PBIX-Datei zum Analysebeispiel für Opportunity**.
 
 1. Öffnen Sie die **PBIX-Datei zum Analysebeispiel für Opportunity** in der Berichtsansicht ![Screenshot des Berichtsansichtssymbols.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
 
 ## <a name="create-a-basic-funnel-chart"></a>Erstellen eines einfachen Trichterdiagramms
@@ -92,7 +92,7 @@ Erstellen Sie jetzt ein eigenes Trichterdiagramm, das die Anzahl der Verkaufscha
 6. [Speichern Sie den Bericht](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
-Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
+Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen von Filtern zu Berichten](../power-bi-report-add-filter.md).
 
 Durch Markieren eines Balkens in einem Trichterdiagramm werden Kreuzfilter zu anderen Visualisierungen auf der Berichtsseite aktiviert und umgekehrt. Fügen Sie hierfür der Berichtsseite, die das Trichterdiagramm enthält, einige weitere visuelle Elemente hinzu.
 
@@ -101,7 +101,7 @@ Durch Markieren eines Balkens in einem Trichterdiagramm werden Kreuzfilter zu an
    ![Kurzes Video, das visuelle Interaktionen zeigt](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Informationen zum Festlegen der Einstellungen für die Kreuzhervorhebung und Kreuzfilterung von visuellen Elementen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Messanzeigen in Power BI](power-bi-visualization-radial-gauge-charts.md)
 

@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038547"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Aktualisieren eines auf OneDrive oder in SharePoint Online gespeicherten Datasets
@@ -52,7 +52,7 @@ Power BI unterstützt **Jetzt Aktualisieren** und **Aktualisierung planen** für
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive oder OneDrive for Business. Was ist der Unterschied?
-Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, sollten Sie alle Dateien beibehalten, die Sie in Power BI in OneDrive for Business importieren möchten. Erfahren Sie, warum: Sie verwenden wahrscheinlich zwei unterschiedliche Konten für die Anmeldung.
+Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, sollten Sie alle Dateien beibehalten, die Sie in Power BI in OneDrive for Business importieren möchten. Dies wird empfohlen, da Sie wahrscheinlich zwei unterschiedliche Konten für die Anmeldung verwenden.
 
 Wenn Sie mit OneDrive for Business in Power BI eine Verbindung herstellen, ist dies einfach, da Ihr Power BI-Konto oft mit Ihrem OneDrive for Business-Konto identisch ist. Mit privatem OneDrive melden Sie sich in der Regel mit einem anderen [Microsoft-Konto](https://account.microsoft.com) an.
 

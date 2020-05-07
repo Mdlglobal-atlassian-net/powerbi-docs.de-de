@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881213"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
@@ -40,7 +40,7 @@ Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-use
    ![Fenster „An das Dashboard angeheftet“](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
 6. Wählen Sie **Zum Dashboard wechseln**, um die angeheftete Kachel anzuzeigen. Hier können Sie die angeheftete Visualisierung [umbenennen, die Größe ändern, verknüpfen und verschieben](service-dashboard-edit-tile.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Kacheln in Power BI](consumer/end-user-tiles.md)  
 [Dashboards in Power BI](consumer/end-user-dashboards.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

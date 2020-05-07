@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894986"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tipps und Tricks zur Farbformatierung in Power BI
@@ -149,6 +149,6 @@ Klicken Sie auf **Auf Standardwert zurücksetzen**, um alle Änderungen zu verwe
 ## <a name="feedback"></a>Feedback
 Haben Sie einen Tipp, von dem Sie berichten möchten? Bitte lassen Sie ihn uns zukommen –möglicherweise nehmen wir ihn in diese Liste auf.
 
-## <a name="next-steps"></a>Nächste Schritte
-[Erste Schritte mit Farbeinstellungen und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
+## <a name="next-steps"></a>Weitere Schritte
+[Erste Schritte mit Farbformatierung und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
 
