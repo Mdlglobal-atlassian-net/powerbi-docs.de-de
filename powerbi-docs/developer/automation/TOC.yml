@@ -14,7 +14,7 @@
           href: walkthrough-push-data.md
         - name: Abrufen eines Authentifizierungszugriffstokens
           href: walkthrough-push-data-get-token.md
-        - name: Dataset erstellen
+        - name: Erstellen eines Datasets
           href: walkthrough-push-data-create-dataset.md
         - name: Abrufen eines Datasets zum Hinzufügen von Zeilen
           href: walkthrough-push-data-get-datasets.md
@@ -24,19 +24,19 @@
       items:
         - name: Automatische Beibehaltungsrichtlinie für Echtzeitdaten
           href: api-automatic-retention-policy-for-real-time-data.md
-        - name: Übertragen von Daten per Push
+        - name: Übertragen von Daten
           items:
             - name: "Einschränkungen für Power\_BI-REST-API"
               href: api-rest-api-limitations.md
-            - name: Dataseteigenschaften
+            - name: Dataset-Eigenschaften
               href: api-dataset-properties.md
             - name: Versionsverwaltung für Datenmodelle
               href: api-data-model-versioning.md
-    - name: Vorgehensweise
+    - name: Anleitung
       items:
         - name: Konfigurieren von Anmeldeinformationen
           href: configure-credentials.md
-    - name: Referenz
+    - name: Verweis
       items:
         - name: REST-APIs
           href: 'https://docs.microsoft.com/rest/api/power-bi'
@@ -48,7 +48,7 @@
       items:
         - name: Dev Center
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Power BI-C#-Git-Repository'
+        - name: 'Git-Repository für Power BI (C#)'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET-SDK-Download
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

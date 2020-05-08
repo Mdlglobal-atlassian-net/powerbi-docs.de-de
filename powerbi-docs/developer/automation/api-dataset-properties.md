@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079667"
 ---
 # <a name="dataset-properties"></a>Dataseteigenschaften
@@ -24,50 +24,50 @@ Die aktuelle Version 1 der Datasets-API erlaubt nur die Erstellung eines Dataset
 
 ## <a name="dataset"></a>Dataset
 
-Name  |Typ  |Beschreibung  |Schreibgeschützt  |Erforderlich
+Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich
 ---------|---------|---------|---------|---------
-ID     |  GUID       | Systemweit eindeutiger Bezeichner für das Dataset.        | True        | False        
-name     | Zeichenfolge        | Benutzerdefinierter Name des Datasets.        | False        | True        
+id     |  GUID       | Systemweit eindeutiger Bezeichner für das Dataset.        | True        | False        
+Name     | Zeichenfolge        | Benutzerdefinierter Name des Datasets.        | False        | True        
 tables     | Table[]        | Eine Auflistung von Tabellen.        |  False       | False        
 relationships     | Relationship[]        | Eine Auflistung von Beziehungen zwischen Tabellen.        | False        |  False  
 defaultMode     | Zeichenfolge        | Legt mithilfe der Werte „Push“ und „Streaming“ fest, ob das Dataset gepusht, gestreamt oder sowohl gepusht als auch gestreamt wird.         | False        |  False
 
-## <a name="table"></a>Tabelle
+## <a name="table"></a>Tabelle (Table)
 
-Name  |Typ  |Beschreibung  |Schreibgeschützt  |Erforderlich
+Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich
 ---------|---------|---------|---------|---------
-name     | Zeichenfolge        |  Benutzerdefinierter Name der Tabelle. Wird außerdem als Bezeichner der Tabelle verwendet.       | False        |  True       
+Name     | Zeichenfolge        |  Benutzerdefinierter Name der Tabelle. Wird außerdem als Bezeichner der Tabelle verwendet.       | False        |  True       
 columns     |  column[]       |  Eine Auflistung von Spalten.       | False        |  True       
 measures     | measure[]        |  Eine Auflistung von Measures.       | False        |  False       
-isHidden     | Boolescher Wert        | Wenn „true“, wird die Tabelle in Clienttools ausgeblendet.        | False        | False        
+isHidden     | Boolesch        | Wenn „true“, wird die Tabelle in Clienttools ausgeblendet.        | False        | False        
 
-## <a name="column"></a>Column (Spalte)
+## <a name="column"></a>Column
 
-Name  |Typ  |Beschreibung  |Schreibgeschützt  |Erforderlich
+Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich
 ---------|---------|---------|---------|---------
-name     |  Zeichenfolge        | Benutzerdefinierter Name der Spalte.        |  False       | True       
+Name     |  Zeichenfolge        | Benutzerdefinierter Name der Spalte.        |  False       | True       
 dataType     |  Zeichenfolge       |  Unterstützte [EDM-Datentypen](https://msdn.microsoft.com/library/ee382832.aspx) und Einschränkungen. Siehe [Datentypeinschränkungen](#data-type-restrictions).      |  False       | True        
 formatString     | Zeichenfolge        | Eine Zeichenfolge, die beschreibt, wie der Wert für die Anzeige formatiert werden soll. Weitere Informationen zur Formatierung von Zeichenfolgen finden Sie unter [FORMAT_STRING-Inhalte](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
 sortByColumn    | Zeichenfolge        |   Zeichenfolgenname einer Spalte in der gleichen Tabelle, die zum Sortieren der aktuellen Spalte verwendet werden soll.     | False        | False       
 dataCategory     | Zeichenfolge        |  Zeichenfolgenwert, der als Datenkategorie verwendet werden soll, die die Daten in dieser Spalte beschreibt. Beispiele für häufig verwendete Werte: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
-isHidden    |  Boolescher Wert       |  Eigenschaft, die angibt, ob die Spalte ausgeblendet wird. Standardwert ist „false“.       | False        | False        
+isHidden    |  Boolesch       |  Eigenschaft, die angibt, ob die Spalte ausgeblendet wird. Standardwert ist „false“.       | False        | False        
 summarizeBy     | Zeichenfolge        |  Standardaggregationsmethode für die Spalte. Beispielwerte: default, none, sum, min, max, count, average, distinctCount     |  False       | False
 
 ## <a name="measure"></a>Measure
 
-Name  |Typ  |Beschreibung  |Schreibgeschützt  |Erforderlich
+Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich
 ---------|---------|---------|---------|---------
-name     | Zeichenfolge        |  Benutzerdefinierter Name des Measures.       |  False       | True        
+Name     | Zeichenfolge        |  Benutzerdefinierter Name des Measures.       |  False       | True        
 expression     | Zeichenfolge        | Ein gültiger DAX-Ausdruck.        | False        |  True       
 formatString     | Zeichenfolge        |  Eine Zeichenfolge, die beschreibt, wie der Wert für die Anzeige formatiert werden soll. Weitere Informationen zur Formatierung von Zeichenfolgen finden Sie unter [FORMAT_STRING-Inhalte](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
 isHidden     | Zeichenfolge        |  Wenn „true“, wird die Tabelle in Clienttools ausgeblendet.       |  False       | False       
 
 ## <a name="relationship"></a>Beziehung
 
-Name  |Typ  |Beschreibung  |Schreibgeschützt  |Erforderlich 
+Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich 
 ---------|---------|---------|---------|---------
-name     | Zeichenfolge        | Benutzerdefinierter Name der Beziehung. Wird außerdem als Bezeichner der Beziehung verwendet.        | False       | True        
-crossFilteringBehavior     | Zeichenfolge        |    Die Filterrichtung der Beziehung: OneDirection (Standard), BothDirections, Automatic       | False        | False        
+Name     | Zeichenfolge        | Benutzerdefinierter Name der Beziehung. Wird außerdem als Bezeichner der Beziehung verwendet.        | False       | True        
+crossFilteringBehavior     | Zeichenfolge        |    Die Filterrichtung der Beziehung: OneDirection (eine Richtung, Standard), BothDirections (beide Richtungen), Automatic (automatisch)       | False        | False        
 fromTable     | Zeichenfolge        | Name der Fremdschlüsseltabelle.        | False        | True         
 fromColumn    | Zeichenfolge        | Name der Fremdschlüsselspalte.        | False        | True         
 toTable    | Zeichenfolge        | Name der Primärschlüsseltabelle.        | False        | True         
@@ -81,7 +81,7 @@ Datentyp  |Einschränkungen
 ---------|---------
 Int64     |   Int64.MaxValue und Int64.MinValue sind nicht zulässig.      
 Double     |  Die Werte Double.MaxValue und Double.MinValue sind nicht zulässig. NaN wird nicht unterstützt. +Infinity und -Infinity werden bei einigen Funktionen (z. B. Min, Max) nicht unterstützt.       
-Boolescher Wert     |   „True“ oder „False“.
+Boolesch     |   „True“ oder „False“.
 Datetime    |   Beim Laden von Daten werden Werte mit Bruchteilen von Tagen auf ganze Vielfache von 1/300 Sekunden (3,33 ms) quantisiert.      
 Zeichenfolge     |  Derzeit werden bis zu 4000 Zeichen pro Zeichenfolgenwert zugelassen.
 Dezimal|Genauigkeit=28, Skalierung=4

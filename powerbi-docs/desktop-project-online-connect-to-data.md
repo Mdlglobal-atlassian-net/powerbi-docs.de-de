@@ -11,19 +11,19 @@ ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550917"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Herstellen einer Verbindung mit Project Online-Daten über Power BI Desktop
 Sie können sich mit Daten in Project Online über Power BI Desktop verbinden.
 
-## <a name="step-1-download-power-bi-desktop"></a>Schritt 1: Laden Sie Power BI Desktop herunter
+## <a name="step-1-download-power-bi-desktop"></a>Schritt 1: Herunterladen von Power BI Desktop
 1. [Laden Sie Power BI Desktop herunter](https://go.microsoft.com/fwlink/?LinkID=521662), und führen Sie das Installationsprogramm aus, um **Power BI Desktop** auf Ihrem Computer zu installieren.
 
-## <a name="step-2-connect-to-project-online-with-odata"></a>Schritt 2: Verbinden mit Project Online mit OData
+## <a name="step-2-connect-to-project-online-with-odata"></a>Schritt 2: Verbinden mit Project Online mit OData
 1. Öffnen Sie **Power BI Desktop**.
 2. Klicken Sie auf der *Willkommensseite* auf **Daten abrufen**.
 3. Wählen Sie **OData-Feed**, und klicken Sie auf **Verbinden**.

@@ -9,10 +9,10 @@ ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922986"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planen von Berichten im Berichts-Generator von Power BI
@@ -21,7 +21,7 @@ Mit dem Power BI Report Builder können Sie viele Arten von paginierten Berichte
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>In welchem Format soll der Bericht angezeigt werden?
   
-Berichte können online in einem Browser gerendert werden, z. B. über das Power BI-Portal, oder in andere Formate exportiert werden, z. B. Excel, Word oder PDF. Das endgültige Format für Ihren Bericht zu bestimmen, ist eine wichtige Überlegung, da nicht alle Features für alle Exportformate verfügbar sind. 
+Berichte können online in einem Browser gerendert werden, z. B. über das Power BI-Portal, oder in andere Formate exportiert werden, z. B. Excel, Word oder PDF. Die endgültige Form des Berichts ist ein wichtiger Gesichtspunkt, weil nicht alle Funktionen in sämtlichen Exportformaten verfügbar sind. 
   
 ## <a name="in-what-structure-do-you-want-to-present-the-data"></a>In welcher Struktur sollen die Daten angezeigt werden?
   
@@ -29,11 +29,11 @@ Sie können Daten als Tabelle, Matrix (ähnlich eines Kreuztabellen- oder PivotT
   
 ## <a name="how-do-you-want-your-report-to-look"></a>Wie soll Ihr Bericht aussehen?
   
-Der Berichts-Generator stellt viele Berichtselemente zur Verfügung, die Sie Ihrem Bericht hinzufügen können, z. B. um die Lesbarkeit zu vereinfachen, wichtige Informationen hervorzuheben oder die Zielgruppe beim Navigieren im Bericht zu unterstützen. Wenn Sie wissen, wie der Bericht aussehen soll, können Sie bestimmen, ob Sie Berichtselemente wie Textfelder, Rechtecke, Bilder und Linien benötigen. Vielleicht möchten Sie auch, dass Elemente angezeigt oder ausgeblendet werden, eine Dokumentstruktur hinzufügen, Drillthroughberichte oder Unterberichte einbinden oder andere Berichte verlinken.   
+Der Berichts-Generator stellt viele Berichtselemente zur Verfügung, die Sie Ihrem Bericht hinzufügen können, z. B. um die Lesbarkeit zu vereinfachen, wichtige Informationen hervorzuheben oder die Zielgruppe beim Navigieren im Bericht zu unterstützen. Wenn Sie wissen, wie der Bericht aussehen soll, können Sie bestimmen, ob Sie Berichtselemente wie Textfelder, Rechtecke, Bilder und Linien benötigen. Möglicherweise sollen auch Elemente angezeigt oder ausgeblendet werden, soll eine Dokumentstruktur hinzugefügt, sollen Drillthroughberichte oder Unterberichte aufgenommen oder Links zu anderen Berichten erstellt werden.   
   
 ## <a name="should-the-data-be-filtered"></a>Sollten die Daten gefiltert werden?
   
-Vielleicht möchten Sie auch, dass der Bericht nur bestimmte Benutzer oder bestimmte Speicherorte abdeckt, oder möglicherweise auch nur einen bestimmten Zeitraum. Wenn Sie die Berichtsdaten filtern möchten, können Sie Parameter verwenden, um nur die gewünschten Daten abzurufen und anzuzeigen. Weitere Informationen finden Sie unter [Report parameters in Power BI Report Builder (Berichtsparameter im Berichts-Generator von Power BI)](paginated-reports-parameters.md).  
+Vielleicht möchten Sie auch, dass der Bericht nur bestimmte Benutzer oder bestimmte Speicherorte abdeckt, oder möglicherweise auch nur einen bestimmten Zeitraum. Zum Filtern der Berichtsdaten verwenden Sie Parameter, um nur die gewünschten Daten abzurufen und anzuzeigen. Weitere Informationen finden Sie unter [Report parameters in Power BI Report Builder (Berichtsparameter im Berichts-Generator von Power BI)](paginated-reports-parameters.md).  
   
 ## <a name="do-you-need-to-create-calculations"></a>Müssen Berechnungen erstellt werden? 
   
@@ -41,12 +41,12 @@ Manchmal enthalten Ihre Datenquelle und Datasets nicht genau die Felder, die Sie
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>Sollen Berichtselemente anfangs ausgeblendet sein?
   
-Überlegen Sie sich, ob Sie möchten, dass Berichtselemente ausgeblendet werden, einschließlich Datenbereichen und Gruppen und Spalten, wenn der Bericht das erste Mal ausgeführt wird. So könnte beispielsweise zuerst eine zusammenfassende Tabelle angezeigt werden, und dann könnten Sie einen Drilldown in die detaillierten Daten ausführen. 
+Überlegen Sie sich, ob Sie möchten, dass Berichtselemente ausgeblendet werden, einschließlich Datenbereichen und Gruppen und Spalten, wenn der Bericht das erste Mal ausgeführt wird. Beispiel: Sie können anfänglich eine zusammenfassende Tabelle darstellen und danach einen Drilldown auf die detaillierten Daten durchführen. 
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>Wie soll Ihr Bericht zugestellt werden?  
   
 Sie können Ihren Bericht auf Ihrem lokalen Computer speichern und mit der Arbeit daran fortfahren oder ihn lokal zu Ihrer eigenen Information ausführen. Um den Bericht jedoch mit anderen Benutzern zu teilen, müssen Sie ihn in Power BI speichern. Durch das Speichern in Power BI können andere ihn jederzeit ausführen. Alternativ können Sie ein Abonnement und eine E-Mail-Zustellung des Berichts an andere Personen einrichten. Wenn Sie möchten, können Sie den Bericht in einem bestimmten Exportformat zustellen lassen. 
   
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
