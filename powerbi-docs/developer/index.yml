@@ -14,10 +14,10 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487788"
 highlightedContent:
   items:
@@ -48,7 +48,7 @@ conceptualContent:
       text: Kapazität und SKUs
     footerLink:
       url: embedded/index.yml
-      text: Mehr anzeigen
+      text: Weitere Informationen
   - title: Power BI-Visuals
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,8 +62,8 @@ conceptualContent:
       text: Veröffentlichen von Power BI-Visuals in Partner Center
     footerLink:
       url: visuals/index.yml
-      text: Mehr anzeigen
-  - title: Automatisierung
+      text: Weitere Informationen
+  - title: Automation
     links:
     - url: automation/overview-of-power-bi-rest-api.md
       itemType: overview
@@ -76,7 +76,7 @@ conceptualContent:
       text: Konfigurieren von Anmeldeinformationen
     footerLink:
       url: automation/index.yml
-      text: Mehr anzeigen
+      text: Weitere Informationen
 additionalContent:
   sections:
   - title: Verwandte Tools
