@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837614"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplante Aktualisierung von Power BI-Berichten in Power BI-Berichtsserver
@@ -36,7 +36,7 @@ Beim Verwenden der geplanten Aktualisierung für Ihre Power BI-Berichte werden v
 * In einer Konfiguration mit horizontaler Skalierung kann das Datenmodell knotenübergreifend repliziert werden.
 * Analysis Services verarbeitet die Daten und führt alle erforderlichen Berechnungen aus.
 
-Power BI-Berichtsserver verwaltet eine Ereigniswarteschlange für alle geplanten Vorgänge. Dabei wird die Warteschlange in regelmäßigen Abständen nach neuen Ereignissen abgefragt. In der Standardeinstellung wird die Warteschlange alle 10 Sekunden überprüft. Sie können das Intervall ändern, indem Sie die Konfigurationseinstellungen **PollingInterval**, **IsNotificationService** und **IsEventService** in der Konfigurationsdatei „RSReportServer.config“ bearbeiten. Mit **IsDataModelRefreshService** kann zudem festgelegt werden, ob ein Berichtsserver geplante Ereignisse verarbeitet.
+Power BI-Berichtsserver verwaltet eine Ereigniswarteschlange für alle geplanten Vorgänge. Die Warteschlange wird in regelmäßigen Abständen nach neuen Ereignissen abgefragt. In der Standardeinstellung wird die Warteschlange alle 10 Sekunden überprüft. Sie können das Intervall ändern, indem Sie die Konfigurationseinstellungen **PollingInterval**, **IsNotificationService** und **IsEventService** in der Konfigurationsdatei „RSReportServer.config“ bearbeiten. Mit **IsDataModelRefreshService** kann zudem festgelegt werden, ob ein Berichtsserver geplante Ereignisse verarbeitet.
 
 ### <a name="analysis-services"></a>Analysis Services
 Für das Rendern eines Power BI-Berichts sowie das Durchführen einer geplanten Aktualisierung muss das Datenmodell des Power BI-Berichts in Analysis Services geladen werden. Ein Analysis Services-Prozess wird mit Power BI-Berichtsserver ausgeführt.
@@ -64,7 +64,7 @@ Weitere Informationen zu Arbeitsspeichereinstellungen in Analysis Services finde
 ### <a name="data-model-size-limit"></a>Grenzwert für die Größe des Datenmodells
 Das Datenmodell, das bei einer geplanten Aktualisierung in die interne Analysis Services-Engine geladen wird, hat eine maximale Größe von 2.000 MB (2 GB). Diese maximale Größe kann nicht konfiguriert werden. Wenn Ihr Datenmodell größer als 2 GB wird, erhalten Sie den Aktualisierungsfehler „Die Länge des Ergebnisses überschreitet die maximale Länge (2 GB) des umfangreichen Zieldatentyps“. In diesem Fall wird empfohlen, das Modell in einer Analysis Services-Instanz zu hosten und eine Liveverbindung mit dem Modell im Bericht zu verwenden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Konfigurieren Sie die [geplante Aktualisierung](configure-scheduled-refresh.md) für einen Power BI-Bericht.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

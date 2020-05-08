@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268602"
 ---
 # <a name="developer-learning-catalog"></a>Lernkatalog für Entwickler
@@ -23,7 +23,7 @@ Der folgende Katalog ist von allgemeinen bis hin zu spezifischen und fortgeschri
 | Inhalt | Beschreibung | Format  | Länge      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
 | [Microsoft Power BI (YouTube-Kanal)](https://www.youtube.com/user/mspowerbi/videos)  | Der YouTube-Kanal mit den Inhalten des Power BI-Produktteams von Microsoft   | Videos  |             |
-| [How Microsoft Is Changing BI Data Protection](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection-OnDemand.html) (Wie Microsoft den Schutz von BI-Daten ändert) | Registrieren Sie sich für dieses Webinar, und lernen Sie, wie Ihre BI-Daten auch bei einem Export geschützt bleiben. Aktivieren Sie Vertraulichkeitsklassifizierungen sowie Risikoanalysen in Echtzeit, um Zugriffsberechtigungen zu definieren. | Webinar | 18:49 Min. |
+| [How Microsoft Is Changing BI Data Protection](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection-OnDemand.html) (Wie Microsoft den Schutz von BI-Daten ändert) | Registrieren Sie sich für dieses Webinar, und lernen Sie, wie Ihre BI-Daten geschützt bleiben, auch wenn sie exportiert werden. Aktivieren Sie Vertraulichkeitsklassifizierungen sowie Risikoanalysen in Echtzeit, um Zugriffsberechtigungen zu definieren. | Webinar | 18:49 Min. |
 ## <a name="embedded"></a>Embedded<a name="embedded"></a>
 | Inhalt | Beschreibung | Format  | Länge      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
