@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5bf1c79aa411788fdb3275b938e7eaad7d6014a1
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380523"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Hinzufügen der Unterstützung von Lesezeichen für Power BI-Visuals
@@ -187,7 +187,7 @@ Weitere Informationen finden Sie im [Zeitachsenslicer-Repository](https://github
 
 Durch die `filterState`-Eigenschaft wird eine Eigenschaft zum Bestandteil der Filterung. Das Visual ist in der Lage, verschiedene Werte in Lesezeichen zu speichern.
 
-Wenn Sie den Eigenschaftswert als Filterzustand speichern möchten, markieren Sie die Objekteigenschaft in der Datei *capabilities.json* als `"filterState": true`.
+Wenn Sie den Eigenschaftswert als Filterzustand speichern möchten, markieren Sie die Objekteigenschaft in der Datei `"filterState": true`capabilities.json*als*.
 
 Beispielsweise speichert der Zeitachsenslicer die Eigenschaftswerte für `Granularity` in einem Filter. Dadurch kann sich die aktuelle Granularität ändern, während Sie die Lesezeichen ändern.
 

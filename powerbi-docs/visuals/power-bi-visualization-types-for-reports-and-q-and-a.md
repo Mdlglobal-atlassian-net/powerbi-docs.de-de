@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381420"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Karte (Kachel für groß
 ![Kombinationsdiagramme](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->Ein Kombinationsdiagramm vereinigt Säulendiagramm und Liniendiagramm. Wählen Sie entweder *Linien- und gestapeltes Säulendiagramm* oder *Linien- und gruppiertes Säulendiagramm* aus.
+>Ein Kombinationsdiagramm vereinigt Säulendiagramm und Liniendiagramm. Wählen Sie entweder *Linien- und gestapeltes Säulendiagramm* oder *Linien- und gruppiertes Säulendiagramm*aus.
 
 Weitere Informationen finden Sie unter [Kombinationsdiagramme in Power BI](power-bi-visualization-combo-chart.md).
 
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie unter [KPIs in Power BI](power-bi-visualization
 >[!TIP]
 >Diese heben die allgemeine Form einer ganzen Wertereihe hervor, in der Regel im Zeitverlauf.
 
-### <a name="maps-basic-maps"></a>Karten: einfache Karten
+### <a name="maps-basic-maps"></a>Karten: Einfache Karten
 ![Einfache Karte](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -115,7 +115,7 @@ Weitere Informationen finden Sie unter [Tipps und Tricks für Kartenvisualisieru
 
 Weitere Informationen finden Sie unter [ArcGIS Maps in Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten (Choropleth)
+### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten
 ![Flächenkartogramm](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -162,7 +162,7 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Power Apps-Visuals zu 
 Weitere Informationen finden Sie unter [Visuals für Fragen und Antworten in Power BI](power-bi-visualization-q-and-a.md).
 
 ### <a name="r-script-visuals"></a>Visuelle R-Skriptelemente
-![R-Visuals](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
+![Visuelle R-Elemente](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
 >Mit R-Skripts erstellte visuelle Elemente, sogenannte*Visuelle R-Skriptelemente*, können erweiterte Datenstrukturierung und -analysen wie z.B. Vorhersagen darstellen, indem sie sich das Leistungsvermögen von R hinsichtlich Analysen und Visualisierung zu Nutze machen. Visuelle R-Elemente können in Power BI Desktop erstellt und im Power BI-Dienst veröffentlicht werden.   
@@ -227,13 +227,13 @@ Weitere Informationen finden Sie unter [Treemaps in Power BI](power-bi-visualiza
 
 Weitere Informationen finden Sie unter [Wasserfalldiagramme in Power BI](power-bi-visualization-waterfall-charts.md).
 
-## <a name="tell-qa-which-visualization-to-use"></a>Angeben der verwendeten Visualisierung für Q&A
+## <a name="tell-qa-which-visualization-to-use"></a>Angeben der verwendeten Visualisierung für den Bereich für Fragen und Antworten
 Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Fragen und Antworten in Power BI können Sie den Visualisierungstyp in der Abfrage angeben.  Beispiel:
 
 ***Umsätze nach Bundesland als Treemap***
 
 ![Q&A-Fragefeld mit dem angegebenen Visualisierungstyp](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)    
 [„The right visual reference“ von sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

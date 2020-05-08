@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114959"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
@@ -58,7 +58,7 @@ Für Reporting Services muss nicht viel konfiguriert werden. Sie müssen ledigli
 
 ### <a name="service-principal-name-spn"></a>Dienstprinzipalname (Service Principal Name, SPN)
 
-Bei dem SPN handelt es sich um einen eindeutigen Bezeichner für einen Dienst, der Kerberos-Authentifizierung verwendet. Sie müssen sicherstellen, dass ein gültiger HTTP-SPN für den Berichtsserver vorhanden ist.
+Der SPN ist ein eindeutiger Bezeichner für einen Dienst, der die Kerberos-Authentifizierung verwendet. Sie müssen sicherstellen, dass ein gültiger HTTP-SPN für den Berichtsserver vorhanden ist.
 
 Informationen zum Konfigurieren des richtigen Dienstprinzipalnamens (Service Principal Name, SPN) für den Berichtsserver finden Sie unter [Registrieren eines Dienstprinzipalnamens (SPN) für einen Berichtsserver](https://msdn.microsoft.com/library/cc281382.aspx).
 
@@ -94,7 +94,7 @@ Hierzu führen Sie die folgenden Schritten aus.
 
    ![Assistent zum Hinzufügen von Anwendungsgruppen in ADFS (1)](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. Wählen Sie **Weiter** aus.
+3. Wählen Sie **Weiter**.
 
 4. Geben Sie einen **Namen** für die hinzuzufügende Anwendung ein. 
 
@@ -112,7 +112,7 @@ Hierzu führen Sie die folgenden Schritten aus.
    urn:ietf:wg:oauth:2.0:oob
 
    ![Assistent zum Hinzufügen von Anwendungsgruppen in ADFS (2)](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. Wählen Sie **Weiter** aus.
+7. Wählen Sie **Weiter**.
 
 8. Geben Sie die URL für den Berichtsserver ein. Bei dieser URL handelt es sich um die externe URL, die auf den Webanwendungsproxy verweist. Das Format sollte wie folgt lauten.
 
@@ -122,19 +122,19 @@ Hierzu führen Sie die folgenden Schritten aus.
    *https://<url_des_berichtsservers>/*
 
    ![Assistent zum Hinzufügen von Anwendungsgruppen in ADFS (3)](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. Wählen Sie **Weiter** aus.
+9. Wählen Sie **Weiter**.
 
 10. Wählen Sie die **Zugriffssteuerungsrichtlinie** aus, die für Ihre Organisation am besten geeignet ist.
 
     ![Assistent zum Hinzufügen von Anwendungsgruppen in ADFS (4)](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. Wählen Sie **Weiter** aus.
+11. Wählen Sie **Weiter**.
 
-12. Wählen Sie **Weiter**aus.
+12. Wählen Sie **Weiter**.
 
-13. Wählen Sie **Weiter** aus.
+13. Wählen Sie **Weiter**.
 
-14. Wählen Sie **Schließen** aus.
+14. Klicken Sie auf **Schließen**.
 
 Abschließend sollten die Eigenschaften der Anwendungsgruppe ähnlich wie im folgenden Beispiel aussehen.
 
@@ -185,7 +185,7 @@ Führen Sie zum Konfigurieren der eingeschränkten Delegierung die folgenden Sch
 
     ![Eingeschränkte Delegierung für WAP (4)](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Wählen Sie **OK** aus.
+11. Klicken Sie auf **OK**.
 
 ### <a name="add-wap-application"></a>Hinzufügen einer WAP-Anwendung
 
@@ -246,7 +246,7 @@ Sie können [Fiddler](https://www.telerik.com/fiddler) als Proxy für Ihre mobil
 
 Wenn die Anmeldung bei Verwendung von Fiddler erfolgreich ist, liegt möglicherweise ein Zertifikatsproblem mit der WAP-Anwendung oder dem AD FS-Server vor. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Registrieren eines Dienstprinzipalnamens (SPN) für einen Berichtsserver](https://msdn.microsoft.com/library/cc281382.aspx)  
 [Ändern einer Reporting Services-Konfigurationsdatei (RSreportserver.config)](https://msdn.microsoft.com/library/bb630448.aspx)  

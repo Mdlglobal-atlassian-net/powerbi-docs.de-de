@@ -1,19 +1,19 @@
 ---
 title: Tipps für die Erstellung von Vorlagen-Apps in Power BI
 description: Tipps für die Erstellung von Abfragen, Datenmodellen, Berichten und Dashboards für gute Vorlagen-Apps
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066280"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781292"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tipps für die Erstellung von Vorlagen-Apps in Power BI
 
@@ -142,22 +142,8 @@ Nach der Veröffentlichung der Vorlagen-App in AppSource, sollten Sie auf Ihrer 
 * Power BI: Dieser Link kann von Power BI-Benutzern geöffnet werden.
 
 Sehen Sie sich das folgende Codebeispiel an, um einen Benutzer über den Link zum Download der App in Power BI weiterzuleiten: [GitHub-Repository](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+
 [![Downloadlink für die App](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>Bekannte Einschränkungen
-
-| Feature | Bekannte Einschränkung |
-|---------|---------|
-|Inhalt:  Datasets   | Genau ein Dataset sollte vorhanden sein. Nur Datasets, die in Power BI Desktop erstellt wurden (.pbix-Dateien), sind zulässig. <br>Nicht unterstützt: Datasets aus anderen Vorlagen-Apps, arbeitsbereichübergreifende Datasets, paginierte Berichte (.rdl-Dateien), Excel-Arbeitsmappen, erweiterte Datasetmetadaten |
-|Inhalt: Dashboards | Echtzeitkacheln sind nicht zulässig (d. h. Push- oder Streamingdatasets werden nicht unterstützt). |
-|Inhalt: Dataflows | Nicht unterstützt: Dataflows |
-|Inhalte aus Dateien | Nur PBIX-Dateien sind zulässig. <br>Nicht unterstützt: .rdl-Dateien (paginierte Berichte), Excel-Arbeitsmappen   |
-| Datenquellen | Datenquellen, die für geplante Datenaktualisierungen in der Cloud unterstützt werden, sind zulässig. <br>Nicht unterstützt: <li> DirectQuery</li><li>Liveverbindungen (ausgenommen Azure Analysis Services)</li> <li>Lokale Datenquellen (persönliche Gateways und Enterprise-Gateways werden nicht unterstützt)</li> <li>Echtzeit (Pushdataset wird nicht unterstützt)</li> <li>Zusammengesetzte Modelle</li></ul> |
-| Dataset: arbeitsbereichübergreifend | Arbeitsbereichübergreifende Datasets sind nicht zulässig.  |
-| Abfrageparameter | Nicht unterstützt: Parameter vom Typ „Any“ oder „Binary“ blockieren den Aktualisierungsvorgang für Datasets. |
-| Power BI-Visuals | Es werden nur öffentlich verfügbare Power BI-Visuals unterstützt. [Power BI-Organisationsvisuals](developer/visuals/power-bi-custom-visuals-organization.md) werden nicht unterstützt. |
 
 ## <a name="next-steps"></a>Nächste Schritte
 

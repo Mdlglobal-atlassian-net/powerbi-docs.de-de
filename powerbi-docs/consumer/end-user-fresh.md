@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040111"
 ---
 # <a name="your-content-is-up-to-date"></a>Aktualität Ihrer Inhalte
@@ -44,7 +44,7 @@ Der Name des Besitzers ist in der Titelleiste von Dashboards und Berichten aufge
 
 Auf dem App-Bildschirm werden Ihnen sowohl der Name des Designers als auch das Datum der letzten Aktualisierung der App angezeigt.  
 
-1. Klicken Sie im Navigationsbereich auf **Apps**.
+1. Wählen Sie im Navigationsbereich **Apps** aus.
 
     ![Navigationsbereich](media/end-user-fresh/power-bi-nav-app.png)
 
@@ -95,7 +95,7 @@ Eine andere Möglichkeit, auf dem neuesten Stand zu bleiben, ist einen Bericht o
 ## <a name="set-data-alerts"></a>Festlegen von Datenwarnungen
 Möchten Sie benachrichtigt werden, wenn sich Daten über von Ihnen festgelegte Grenzwerte hinweg ändern? [Erstellen Sie eine Datenwarnung](end-user-alerts.md).  Mithilfe von Datenwarnungen bleiben Sie einfach auf dem neuesten Stand. Mithilfe von Datenwarnungen legen Sie fest, dass Sie von Power BI eine E-Mail erhalten, sobald ein Wert in einem Bericht einen bestimmten Grenzwert überschreitet.  Beispielsweise wenn der Inventar auf weniger als 25 Einheiten sinkt oder wenn Verkaufsziele überschritten werden.  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Erstellen einer Datenwarnung](end-user-alerts.md)    
 [Abonnieren von Dashboards und Berichten](end-user-subscribe.md)    
 [Anzeigen verwandter Inhalte](end-user-related.md)    

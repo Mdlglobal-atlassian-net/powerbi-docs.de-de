@@ -10,10 +10,10 @@ ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426608"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Die Berechtigung „Erstellen“ für freigegebene Datasets (Vorschau)
@@ -57,7 +57,7 @@ Es ist möglich, dass Sie irgendwann Benutzern eines freigegebenen Datensatzes d
 1. Wechseln Sie in einem Arbeitsbereich zur Listenseite **Datasets**. 
 1. Klicken Sie neben dem Dataset auf **Weitere Optionen** (...) und dann auf **Berechtigungen verwalten**.
 
-    ![Berechtigungen verwalten](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Verwalten von Berechtigungen](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Wählen Sie neben einem Namen **Weitere Optionen**  (...) und dann **Build entfernen** aus.
 
@@ -87,7 +87,7 @@ Angenommen, Sie haben eine App aus einem Arbeitsbereich an eine Gruppe von Benut
 1. Wechseln Sie im Arbeitsbereich zur Listenseite **Datasets**. 
 1. Klicken Sie neben dem Dataset auf **Weitere Optionen** (...) und dann auf **Berechtigungen verwalten**.
 
-    ![Berechtigungen verwalten](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Verwalten von Berechtigungen](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Wählen Sie neben ihrem Namen **Weitere Optionen**  (...) und dann **Build entfernen** aus.
 
@@ -105,7 +105,7 @@ Wenn Ihr Dataset von einem Bericht außerhalb des Arbeitsbereichs des Datasets v
 
 Sie können die Berechtigung „Erstellen“ entziehen. In diesem Fall können die Personen, deren Berechtigungen Sie widerrufen haben, den Bericht immer noch anzeigen, ihn aber nicht mehr bearbeiten oder dessen zugrunde liegenden Daten exportieren. Benutzer, die nur über Leseberechtigung verfügen, können zusammengefasste Daten weiterhin exportieren. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Verwenden von Datasets in mehreren Arbeitsbereichen (Vorschau)](service-datasets-across-workspaces.md)
-- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

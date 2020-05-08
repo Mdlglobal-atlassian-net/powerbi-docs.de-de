@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435373"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Anzeigen lokaler Berichte und KPIs in der Power BI-Windows-App
@@ -75,7 +75,7 @@ Reporting Services-KPIs sowie mobile und Power BI-Berichte (Vorschau) werden in 
 * Tippen Sie auf einen KPI, um diesen im Fokusmodus anzuzeigen.
   
     ![KPI im Fokusmodus](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* Tippen Sie auf einem mobilen Bericht, um diesen in der Power BI-App zu öffnen und mit der Interaktion zu beginnen.
+* Tippen Sie auf einen mobilen Bericht, um ihn in der Power BI-App zu öffnen und mit ihm zu interagieren.
   
     ![Reporting Services-Mobilgerätebericht](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
@@ -105,8 +105,8 @@ Reporting Services KPIs und mobile Berichte werden nicht in der mobilen Power BI
 * [Erstellen Sie eigene mobile Reporting Services-Berichte](https://msdn.microsoft.com/library/mt652547.aspx), und veröffentlichen Sie sie in einem Reporting Services-Webportal.
 * Erstellen Sie [KPIs in einem Reporting Services-Webportal](https://msdn.microsoft.com/library/mt683632.aspx).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erste Schritte mit der mobilen Power BI-App für Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Was ist Power BI?](../../fundamentals/power-bi-overview.md)  
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

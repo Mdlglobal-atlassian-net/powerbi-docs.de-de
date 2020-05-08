@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205870"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objekte und Eigenschaften von Power BI-Visuals
@@ -34,7 +34,7 @@ Objekte beschreiben anpassbare Eigenschaften, die einem Visual zugeordnet sind. 
 
 `displayName` ist der Name, der im Eigenschaftenbereich angezeigt wird.
 
-## <a name="properties"></a>Eigenschaften
+## <a name="properties"></a>eigenschaften
 
 `properties` ist eine Zuordnung von Eigenschaften, die vom Entwickler definiert wurden.
 
@@ -194,7 +194,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 }
 ```
 
-### <a name="properties"></a>Eigenschaften
+### <a name="properties"></a>eigenschaften
 
 Die Eigenschaften in `enumerateObjectInstances` entsprechen den in Ihren Funktionen definierten Eigenschaften. Ein Beispiel finden Sie am Ende dieses Artikels.
 
@@ -202,7 +202,7 @@ Die Eigenschaften in `enumerateObjectInstances` entsprechen den in Ihren Funktio
 
 Der Selektor in `enumerateObjectInstances` bestimmt, wo die einzelnen Objekte in dataView gebunden sind. Es gibt vier verschiedene Optionen.
 
-#### <a name="static"></a>static
+#### <a name="static"></a>Statisch
 
 Dieses Objekt wird wie hier gezeigt an `dataviews[index].metadata.objects`-Metadaten gebunden.
 

@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113848"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagieren mit Visuals in Berichten, Dashboards und Apps
@@ -43,30 +43,30 @@ Für viele dieser Optionen kann Ihr Administrator oder der *Designer* die Mögli
 
 
 
-|Aufgabe  |In einem Dashboard  |In einem Bericht  | In Q&A
+|Task  |In einem Dashboard  |In einem Bericht  | In Q&A
 |---------|---------|---------|--------|
-|[Fügen Sie einem visuellen Element für sich selbst Kommentare hinzu, oder beginnen Sie ein Gespräch mit Kollegen über das visuelle Element](end-user-comment.md).     |  Ja       |   Ja      |  Nein  |
-|[Öffnen und erkunden Sie den Bericht, in dem das visuelle Element erstellt wurde](end-user-tiles.md).     |    Ja     |   NV      |  Nein |
-|[Zeigen Sie eine Liste der Filter und Slicer an, die sich auf das Visual auswirken](end-user-report-filter.md).     |    wenn Sie es im Fokusmodus öffnen     |   Ja      |  Nein |
-|[Öffnen und erkunden Sie ein Visual in Q&A (wenn der *Designer* das Visual mit Q&A erstellt hat)](end-user-q-and-a.md).     |   Ja      |   NV      |  NV  |
-|[Erstellen Sie ein Visual in Q&A (zur Untersuchung können Sie es nicht speichern)](end-user-q-and-a.md).     |   Ja      |   Wenn der Designer Q&A dem Bericht hinzugefügt hat      |  Ja  |
+|[Fügen Sie einem visuellen Element für sich selbst Kommentare hinzu, oder beginnen Sie ein Gespräch mit Kollegen über das visuelle Element](end-user-comment.md).     |  ja       |   ja      |  Nein  |
+|[Öffnen und erkunden Sie den Bericht, in dem das visuelle Element erstellt wurde](end-user-tiles.md).     |    ja     |   NV      |  Nein |
+|[Zeigen Sie eine Liste der Filter und Slicer an, die sich auf das Visual auswirken](end-user-report-filter.md).     |    wenn Sie es im Fokusmodus öffnen     |   ja      |  Nein |
+|[Öffnen und erkunden Sie ein Visual in Q&A (wenn der *Designer* das Visual mit Q&A erstellt hat)](end-user-q-and-a.md).     |   ja      |   NV      |  NV  |
+|[Erstellen Sie ein Visual in Q&A (zur Untersuchung können Sie es nicht speichern)](end-user-q-and-a.md).     |   ja      |   Wenn der Designer Q&A dem Bericht hinzugefügt hat      |  ja  |
 |[Lassen Sie Power BI für Sie in den Daten des visuellen Elements nach interessanten Fakten oder Trends ](end-user-insights.md) zu suchen.  Diese automatisch generierten Visuals werden *Erkenntnisse* genannt.     |    ja, für Kacheln    |  Nein       | Nein   |
 |[Zeigen Sie immer nur ein visuelles Element gleichzeitig an, indem Sie den *Fokus*modus](end-user-focus.md) verwenden.     | ja, für Kacheln        |   ja, für Visuals      | NV  |
-|[Suchen Sie den Zeitpunkt, zu dem das Visual zum letzten Mal aktualisiert wurde](end-user-fresh.md).     |  Ja       |    Ja     | NV  |
-|[Zeigen Sie immer nur ein Visual gleichzeitig ohne Ränder oder Navigationsbereiche an, indem Sie den *Vollbildmodus* verwenden](end-user-focus.md).     |   Ja      |  Ja       | Standardmäßig  |
-|[Drucken](end-user-print.md).     |  Ja       |   Ja      | Nein  |
-|[Untersuchen Sie das visuelle Element, indem Sie visuelle Filter hinzufügen und ändern.](end-user-report-filter.md)     |    Nein     |   Ja      | Nein  |
-|Zeigen Sie auf ein visuelles Element, um zusätzliche Details und QuickInfos anzuzeigen.     |    Ja     |   Ja      | Ja  |
-|[Kreuzfiltern Sie andere visuelle Elemente auf der Seite, oder heben Sie sie hervor.](end-user-interactions.md)    |   Nein      |   Ja      | NV  |
-|[Zeigen Sie die zum Erstellen des visuellen Elements verwendeten Daten an](end-user-show-data.md).     |  Nein       |   Ja      | Nein  |
-| [Ändern Sie die Art, in der das visuelle Element sortiert ist](end-user-change-sort.md). | Nein  | Ja  | Sortierung kann durch Umformulieren der Frage geändert werden  |
-| Fügen Sie einem visuellen Element ein Spotlight hinzu. | Nein  | Ja  |  Nein |
-| [Exportieren Sie nach Excel.](end-user-export.md) | Ja | Ja | Nein|
-| [Erstellen Sie eine Warnung](end-user-alerts.md), um Sie zu benachrichtigen, wenn ein Wert einen von Ihnen festgelegten Schwellenwert überschreitet.  | Ja  | Nein  | Nein |
-| [Führen Sie an den anderen Visuals auf der Seite eine Kreuzfilterung und übergreifende Hervorhebung aus](end-user-report-filter.md).  | Nein      | Ja  | NV |
-| [Führen Sie ein Drillup an einem Visual mit einer Hierarchie aus](end-user-drill.md).  | Nein  | Ja   | Nein |
+|[Suchen Sie den Zeitpunkt, zu dem das Visual zum letzten Mal aktualisiert wurde](end-user-fresh.md).     |  ja       |    ja     | NV  |
+|[Zeigen Sie immer nur ein Visual gleichzeitig ohne Ränder oder Navigationsbereiche an, indem Sie den *Vollbildmodus* verwenden](end-user-focus.md).     |   ja      |  ja       | Standardmäßig  |
+|[Drucken](end-user-print.md).     |  ja       |   ja      | Nein  |
+|[Untersuchen Sie das visuelle Element, indem Sie visuelle Filter hinzufügen und ändern.](end-user-report-filter.md)     |    Nein     |   ja      | Nein  |
+|Zeigen Sie auf ein visuelles Element, um zusätzliche Details und QuickInfos anzuzeigen.     |    ja     |   ja      | ja  |
+|[Kreuzfiltern Sie andere visuelle Elemente auf der Seite, oder heben Sie sie hervor.](end-user-interactions.md)    |   Nein      |   ja      | NV  |
+|[Zeigen Sie die zum Erstellen des visuellen Elements verwendeten Daten an](end-user-show-data.md).     |  Nein       |   ja      | Nein  |
+| [Ändern Sie die Art, in der das visuelle Element sortiert ist](end-user-change-sort.md). | Nein  | ja  | Sortierung kann durch Umformulieren der Frage geändert werden  |
+| Fügen Sie einem visuellen Element ein Spotlight hinzu. | Nein  | ja  |  Nein |
+| [Exportieren Sie nach Excel.](end-user-export.md) | ja | ja | Nein|
+| [Erstellen Sie eine Warnung](end-user-alerts.md), um Sie zu benachrichtigen, wenn ein Wert einen von Ihnen festgelegten Schwellenwert überschreitet.  | ja  | Nein  | Nein |
+| [Führen Sie an den anderen Visuals auf der Seite eine Kreuzfilterung und übergreifende Hervorhebung aus](end-user-report-filter.md).  | Nein      | ja  | NV |
+| [Führen Sie ein Drillup an einem Visual mit einer Hierarchie aus](end-user-drill.md).  | Nein  | ja   | Nein |
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Zurück zu [Grundlegende Konzepte für Benutzer](end-user-basic-concepts.md)    
 [Auswählen eines visuellen Elements zum Öffnen eines Berichts](end-user-report-open.md)    
 [In Power BI verfügbare Typen visueller Elemente](end-user-visual-type.md)

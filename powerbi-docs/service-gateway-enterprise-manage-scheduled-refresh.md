@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207411"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Verwalten der Datenquelle: Import/Geplante Aktualisierung
@@ -35,7 +35,7 @@ Vervollständigen dann die Angaben zur Datenquelle, zu denen die Quell- und Anme
 > [!NOTE]
 > Alle Abfragen der Datenquelle erfolgen mithilfe dieser Anmeldeinformationen. Weitere Informationen zum Speichern von Anmeldeinformationen finden Sie unter [Speichern verschlüsselter Anmeldeinformationen in der Cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
-![Auffüllen der Datenquelleneinstellungen](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
+![Ausfüllen der Einstellungen zur Datenquelle](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
 Eine Liste der Datenquellentypen, die mit geplanten Aktualisierungen verwendet werden können, finden Sie unter [Liste der verfügbaren Datenquellentypen](service-gateway-data-sources.md#list-of-available-data-source-types).
 
@@ -45,7 +45,7 @@ Nachdem Sie alles ausgefüllt haben, klicken Sie auf **Hinzufügen**. Sie könne
 
 ### <a name="advanced-settings"></a>Erweiterte Einstellungen
 
-Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Diese Einstellung steuert, wie Daten kombiniert werden können. Sie wird nur für die geplante Aktualisierung verwendet. Weitere Informationen zu Datenschutzebenen für Ihre Datenquelle finden Sie unter [Datenschutzebenen (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
+Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Diese Einstellung steuert, wie Daten kombiniert werden können. Sie wird nur für die geplante Aktualisierung verwendet. Weitere Informationen zu Datenschutzebenen für Ihre Datenquelle finden Sie unter [Privacy levels (Power Query) (Datenschutzebenen (Power Query))](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
 ![Festlegen der Datenschutzebene](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
@@ -56,7 +56,7 @@ Nachdem Sie die Datenquelle erstellt haben, kann diese mit DirectQuery-Verbindun
 > [!NOTE]
 > Server- und Datenbanknamen müssen in Power BI Desktop und der Datenquelle innerhalb des lokalen Datengateways übereinstimmen.
 
-Der Link zwischen Ihrem Dataset und der Datenquelle innerhalb des Gateways basiert auf dem Namen Ihres Servers und Ihrer Datenbank. Diese Namen müssen übereinstimmen. Wenn Sie z.B. eine IP-Adresse für den Servernamen in Power BI Desktop angeben, müssen Sie die IP-Adresse für die Datenquelle innerhalb der Gatewaykonfiguration verwenden. Wenn Sie *SERVER\INSTANZ* in Power BI Desktop verwenden, müssen Sie dies ebenfalls in der für das Gateway konfigurierten Datenquelle verwenden.
+Der Link zwischen Ihrem Dataset und der Datenquelle innerhalb des Gateways basiert auf dem Namen Ihres Servers und Ihrer Datenbank. Diese Namen müssen übereinstimmen. Wenn Sie z.B. eine IP-Adresse für den Servernamen in Power BI Desktop angeben, müssen Sie die IP-Adresse für die Datenquelle innerhalb der Gatewaykonfiguration verwenden. Wenn Sie *SERVER\INSTANCE* in Power BI Desktop verwenden, müssen Sie dies ebenfalls in der für das Gateway konfigurierten Datenquelle verwenden.
 
 Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenquelle aufgeführt sind und die Namen des Servers und der Datenbank übereinstimmen, wird das Gateway als Option für geplante Aktualisierungen angezeigt.
 
@@ -69,7 +69,7 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 
 Für das lokale Datengateway wird das Authentifizierungsschema OAuth nicht unterstützt. Datenquellen, die OAuth erfordern, können nicht hinzugefügt werden. Wenn Ihr Dataset über eine Datenquelle verfügt, die OAuth erfordert, kann das Gateway nicht für die geplante Aktualisierung verwendet werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Problembehandlung beim lokalen Datengateway](/data-integration/gateway/service-gateway-tshoot)
 * [Lokales Datengateway – Power BI](service-gateway-onprem-tshoot.md)

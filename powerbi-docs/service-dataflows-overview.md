@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208124"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Self-Service-Datenaufbereitung in Power BI
@@ -102,7 +102,7 @@ Durch das Speichern von Geschäftsdaten im standardisierten **Common Data Model*
 * Vorstellen von Dataflows für Entwickler
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Dieser Artikel bietet einen Überblick über die Self-Service-Datenaufbereitung für Big Data in Power BI und die vielfältigen Verwendungsoptionen. Die folgenden Artikel gehen näher auf gängige Anwendungsszenarien für Dataflows ein. 
 
@@ -116,6 +116,6 @@ Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)
 * [Konfigurieren geplanter Aktualisierungen](refresh-scheduled-refresh.md)
 
-Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 

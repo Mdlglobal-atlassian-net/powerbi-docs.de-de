@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: Vorstellung der Homepage
           href: mobile-apps-home-page.md
-    - name: Schnellstartanleitungen
+    - name: Schnellstarts
       expanded: true
       items:
         - name: Erkunden von Dashboards und Berichten
@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: Power BI for Mixed Reality-App (Vorschauversion)
           href: mobile-mixed-reality-app.md
-    - name: Vorgehensweise
+    - name: Anleitung
       items:
         - name: Alle mobilen Apps
           items:
@@ -64,7 +64,7 @@
               href: mobile-native-secure-access.md
             - name: Zugreifen auf Inhalte über eine externe Organisation (B2B)
               href: mobile-apps-b2b.md
-            - name: Scannen eines Power BI-QR-Codes mit dem Smartphone
+            - name: "Scannen eines Power\_BI-QR-Codes mit dem Smartphone"
               href: mobile-apps-qr-code.md
             - name: Kommentieren und Freigeben in den mobilen Apps
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
@@ -98,7 +98,7 @@
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
               href: mobile-android-error-update-android-system-webview.md
-        - name: "Power\_BI-App für Windows 10-Geräte"
+        - name: Power BI-App für Windows 10-Geräte
           items:
             - name: Erste Schritte mit der Windows 10-App
               href: mobile-windows-10-phone-app-get-started.md

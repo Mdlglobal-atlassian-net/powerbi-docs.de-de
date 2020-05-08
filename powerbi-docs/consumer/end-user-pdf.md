@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377211"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportieren von Power BI-Berichten als PDF-Dateien
@@ -68,5 +68,5 @@ Einige Aspekte und Einschränkungen sind bei der Arbeit mit dem Feature **In PDF
 * Beim Exportieren nach PDF werden bei Berichten, die Designs mit benutzerdefinierten Schriftarten verwenden, die benutzerdefinierte Schriftart durch eine Standardschriftart ersetzt.
 * Grundsätzlich sollte Ihnen eine konsistente Servicequalität zur Verfügung stehen, es kann jedoch nicht garantiert werden, dass das aus Power BI exportierte PDF immer mit dem aus einer lokalen Power BI Desktop-Datei exportierten PDF übereinstimmt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Drucken eines Berichts](end-user-print.md)

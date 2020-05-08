@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7a9aa0ca62ae4f1008d4cf47caa909841f9ec495
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464391"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Einschränken des Datenzugriffs mit Sicherheit auf Zeilenebene (RLS) für Power BI Desktop
@@ -34,7 +34,7 @@ Sie können RLS jetzt für Datenmodelle konfigurieren, die mithilfe von Power BI
 
 [!INCLUDE [include-short-name](./includes/rls-faq.md)]
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI](service-admin-rls.md)  
 

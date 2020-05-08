@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263804"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Leitfaden zu 1:1-Beziehungen
@@ -97,7 +97,7 @@ Es wird empfohlen, das Erstellen von 1:1-Modellbeziehungen nach Möglichkeit zu 
 - Dieses Design kann den Bereich **Fields** unübersichtlich machen, weil mehr Tabellen als nötig aufgeführt werden.
 - Für die Berichtsautoren ist es bei diesem Design schwieriger, nach verwandten Feldern zu suchen, da diese über mehrere Tabellen verteilt sind.
 - Das Design schränkt die Möglichkeit zum Erstellen von Hierarchien ein, weil die Ebenen auf Spalten aus _derselben Tabelle_ basieren müssen.
-- Dieses Design kann zu unerwarteten Ergebnissen führen, wenn die Zeilen zwischen den Tabellen nicht vollständig übereinstimmen.
+- Dieses Design kann zu unerwarteten Ergebnissen führen, wenn die Zeilen zwischen den Tabellen nicht vollständig übereinstimmen. 
 
 Die spezifischen Empfehlungen weichen ab – je nachdem, ob es sich um eine _inselinterne_ oder um eine _inselübergreifende_ 1:1-Beziehung handelt. Weitere Informationen zur Beziehungsauswertung finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../desktop-relationships-understand.md#relationship-evaluation).
 

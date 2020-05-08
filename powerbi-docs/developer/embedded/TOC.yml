@@ -40,9 +40,9 @@
           href: azure-pbie-diag-logs.md
         - name: Häufig gestellte Fragen zum Einbetten
           href: embedded-faq.md
-        - name: "Power\_BI-Berechtigungen"
+        - name: Power BI-Berechtigungen
           href: power-bi-permissions.md
-    - name: Vorgehensweise
+    - name: Anleitung
       items:
         - name: Einbetten aus einer App
           href: embed-from-apps.md
@@ -52,17 +52,17 @@
           href: export-paginated-report.md
         - name: Automatisches Installieren von Apps
           href: embed-auto-install-app.md
-        - name: Erstellen eines Azure Active Directory-Mandanten
+        - name: "Erstellen eines Azure\_Active\_Directory-Mandanten"
           href: create-an-azure-active-directory-tenant.md
         - name: Registrieren einer Anwendung
           href: register-app.md
-        - name: Abrufen eines Azure AD-Zugriffstokens
+        - name: Anfordern eines Azure AD-Zugriffstokens
           href: get-azuread-access-token.md
         - name: Verknüpfen eines Berichts mithilfe von dynamischer Bindung
           href: embed-dynamic-binding.md
         - name: Einbetten von Q&A
           href: qanda.md
-        - name: Problembehandlung bei eingebetteten Anwendungen
+        - name: Problembehandlung bei Embedded-Anwendungen
           href: embedded-troubleshoot.md
         - name: Verwalten von Kapazitäten in Azure
           items:
@@ -76,17 +76,17 @@
               href: azure-pbie-pause-start.md
         - name: Migrieren von Arbeitsbereichssammlungen
           items:
-            - name: So migrieren Sie von Power BI-Arbeitsbereichssammlungen
+            - name: Migrieren von Power BI-Arbeitsbereichssammlungen
               href: migrate-from-powerbi-embedded.md
             - name: Migrationstool
               href: migrate-tool.md
-            - name: Migrations-Codeausschnitte
+            - name: Migrationscodeausschnitte
               href: migrate-code-snippets.md
-    - name: Referenz
+    - name: Verweis
       items:
         - name: APIs
           items:
-            - name: REST-APIs der Azure-Ressourcenverwaltung
+            - name: REST-APIs für Azure-Ressourcenverwaltung
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: Power BI-REST-APIs
               href: 'https://msdn.microsoft.com/library/mt147898.aspx'
@@ -100,9 +100,9 @@
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: Einbettungssetuptool
           href: 'https://aka.ms/embedsetup'
-        - name: JavaScript Playground-Beispiel
+        - name: JavaScript-Playground-Beispiel
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Power BI-JavaScript-Wiki
+        - name: Wiki für Power BI JavaScript
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Entwicklerbeispiele und -skripts
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'

@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039982"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
@@ -54,13 +54,13 @@ Wenn Ihr Unternehmen Power BI-Lizenzen oder ein Konto mit Premium-Kapazität erw
 
 Sie können sich auch als Einzelperson für den Power BI-Dienst registrieren. Unter [Power BI-Self-Service-Registrierungsprozess](../service-self-service-signup-for-power-bi.md) finden Sie weitere Informationen.
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Weshalb muss ich mich mit meiner Geschäfts-E-Mail-Adresse anmelden?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Warum muss ich mich mit meiner beruflich genutzten E-Mail-Adresse anmelden?
 
-Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Hier finden Sie weitere Informationen zum [Power BI-Self-Service-Registrierungsprozess](../service-self-service-signup-for-power-bi.md).
+Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Weitere Informationen zum [Power BI-Self-Service-Registrierungsprozess](../service-self-service-signup-for-power-bi.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Unterstützt Power BI mobile Geräte?
 
-Ja. Power BI bietet native Apps für Android-Smartphones und -Tablets, iOS- und Windows 10-Geräte. Laden Sie eine der [Power BI-Mobile Apps](https://powerbi.microsoft.com/mobile) aus dem entsprechenden Store herunter:  
+Ja. Power BI bietet native Apps für Android-Smartphones und -Tablets, iOS- und Windows 10-Geräte. Laden Sie eine der [mobilen Power BI-Apps](https://powerbi.microsoft.com/mobile) aus dem entsprechenden Store herunter:  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
@@ -109,7 +109,7 @@ Wie viele andere Microsoft-Dienste und Software bietet Power BI eine einfache M�
 
 * Wenn Sie Ihre letzte Aktion oder mehrere Aktionen **rückgängig machen** möchten, drücken Sie STRG+Z.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Was ist ein Power BI-Benutzer?](end-user-consumer.md)
 * [Verwenden von Power BI als Benutzer](end-user-reading-view.md)

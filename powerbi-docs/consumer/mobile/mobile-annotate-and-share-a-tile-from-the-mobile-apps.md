@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205502"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Kommentieren und Freigeben von Kacheln, Berichten oder Visuals in den mobilen Power BI-Apps
@@ -71,7 +71,7 @@ Sie können auch [eine Kachel in der mobilen Power BI-App für Windows 10-Gerät
    Die E-Mail-Nachricht enthält ein Bild sowie einen Link zu der speziellen Kachel, dem speziellen Bericht oder der speziellen Visualisierung. 
 4. Tippen Sie auf **Senden**.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Freigeben eines Dashboards in den mobilen Power BI-Apps](mobile-share-dashboard-from-the-mobile-apps.md)
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

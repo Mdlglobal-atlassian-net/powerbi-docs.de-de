@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488290"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Übertragen von Daten in ein Dataset per Push – vollständiger Code
@@ -222,7 +222,7 @@ Nachdem Sie die Schritte 2 bis 5 unter **Übertragen von Daten in ein Dataset pe
       }
 ```
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Übertragung von Daten in ein Power BI-Dataset per Push](walkthrough-push-data.md)
 * [Registrieren einer App in Azure AD](../embedded/register-app.md)  
@@ -230,7 +230,7 @@ Nachdem Sie die Schritte 2 bis 5 unter **Übertragen von Daten in ein Dataset pe
 * [Erstellen eines Datasets in Power BI](walkthrough-push-data-create-dataset.md)  
 * [Abrufen eines Datasets, um einer Power BI-Tabelle Zeilen hinzuzufügen](walkthrough-push-data-get-datasets.md)  
 * [Hinzufügen von Zeilen zu einer Power BI-Tabelle](walkthrough-push-data-add-rows.md)  
-* [Referenz zur Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Referenz für Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/)  
 * [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260851"
 ---
 # <a name="power-bi-videos"></a>Power BI-Videos
-Wir betreiben einen YouTube-Kanal für Power BI! Sie können [unseren Kanal](https://www.youtube.com/user/mspowerbi/videos) besuchen. Wenn Sie noch keine Kenntnisse zu Power BI haben, empfiehlt sich für den Einstieg die [Wiedergabeliste zum Thema Analysieren und Visualisieren von Daten mit Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
+Wir betreiben einen YouTube-Kanal für Power BI! Sie können [unseren Kanal](https://www.youtube.com/user/mspowerbi/videos) besuchen. Wenn Sie noch keine Kenntnisse zu Power BI haben, empfiehlt sich für den Einstieg die [Wiedergabeliste zum Thema „Analysieren und Visualisieren von Daten mit Power BI“](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
 
 Hier sind einige Videos aus dieser Wiedergabeliste, die Ihnen den Einstieg erleichtern.
 
@@ -44,7 +44,7 @@ Sehen Sie sich die folgende Sammlung von Quellen und Inhalten für weitere Video
 
 * [Geführtes Lernen zu Power BI](https://powerbi.microsoft.com/guided-learning/) – eine sequenzielle Schulung in Power BI in kleinen Schritten
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Was ist Power BI?](fundamentals/power-bi-overview.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

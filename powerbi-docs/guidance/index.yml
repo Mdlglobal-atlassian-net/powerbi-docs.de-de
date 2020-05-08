@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: eecccb15eb48e922fd6b29e703a2bc4f298caa6e
-  ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
+  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/16/2020
-  ms.locfileid: "81525351"
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "82841577"
 landingContent:
 - title: Power BI-Leitfaden
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
     - text: Leitfaden für die Optimierung von Power BI
       url: power-bi-optimization.md
     - text: Whitepaper – Übersicht
-      url: ../whitepapers.md
+      url: whitepapers.md
 - title: Transformieren und Strukturieren von Daten
   linkLists:
   - linkListType: concept
@@ -53,7 +53,7 @@ landingContent:
       url: auto-date-time.md
     - text: 1:1-Beziehungen
       url: relationships-one-to-one.md
-    - text: M:n-Beziehungen
+    - text: m:n-Beziehungen
       url: relationships-many-to-many.md
     - text: Aktive und inaktive Beziehungen im Vergleich
       url: relationships-active-inactive.md

@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: 70f10620932708dd178b635f966a55f8139cde65
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81439984"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841156"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI
 
@@ -51,7 +51,7 @@ Sie können Rollen nur in Power BI Desktop erstellen oder ändern.
 
 ### <a name="add-members"></a>Hinzufügen von Mitgliedern
 
-Sie können der Rolle ein Mitglied hinzufügen, indem Sie die E-Mail-Adresse oder den Namen des Benutzers, der Sicherheitsgruppe oder der Verteilerliste eingeben, den bzw. die Sie hinzufügen möchten. Sie können keine in Power BI erstellten Gruppen hinzufügen. Sie können [Ihrer Organisation externe Mitglieder hinzufügen](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
+Sie können der Rolle ein Mitglied hinzufügen, indem Sie die E-Mail-Adresse oder den Namen des Benutzers, der Sicherheitsgruppe oder der Verteilerliste eingeben, den bzw. die Sie hinzufügen möchten. Sie können keine in Power BI erstellten Gruppen hinzufügen. Sie können [Ihrer Organisation externe Mitglieder hinzufügen](guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
 
 ![Hinzufügen eines Mitglieds](media/service-admin-rls/rls-add-member.png)
 
