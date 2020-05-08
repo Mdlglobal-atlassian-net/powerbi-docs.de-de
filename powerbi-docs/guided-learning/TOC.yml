@@ -4,13 +4,13 @@
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: Erste Schritte beim Erstellen mit Power BI
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
-- name: Daten abrufen
+- name: Datensammlung
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
 - name: Modellieren von Daten
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: Verwenden von Visuals
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
-- name: Analysieren von Daten
+- name: Durchsuchen von Daten
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
 - name: Veröffentlichen und Freigeben
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'

@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761816"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Anwenden der Einstellung „Referenzielle Integrität voraussetzen“ in Power BI Desktop
@@ -37,10 +37,10 @@ Im folgenden Beispiel wird das Verhalten von **Referenzielle Integrität vorauss
 1. Beachten Sie in der folgenden Abbildung mit den Tabellen **Orders** und **Products**, dass die referenzielle Integrität zwischen **Orders[ProductID]** und **Products[ProductID]** vorhanden ist. Die Spalte **[ProductID]** in der Tabelle **Orders** ist nie *NULL*, und jeder Wert ist auch in der Tabelle **Products** vorhanden. Daher sollte **Referenzielle Integrität voraussetzen** festgelegt werden, um effizientere Abfragen zu ermöglichen (durch die Verwendung dieser Einstellung werden die in Visualisierungen angezeigten Werte nicht geändert).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Beachten Sie in der nächsten Abbildung, dass zwischen **Orders[DepotID]** und **Depots[DepotID]** keine referenzielle Integrität vorhanden ist, da **DepotID** für einige *Orders* gleich *NULL* ist. Daher sollte **Referenzielle Integrität voraussetzen** *nicht* festgelegt werden.
+2. Beachten Sie in der nächsten Abbildung, dass zwischen **Orders[DepotID]** und **Depots[DepotID]** keine referenzielle Integrität vorhanden ist, da **DepotID** für einige *Orders* gleich *NULL* ist. Daher sollte **Referenzielle Integrität voraussetzen***nicht* festgelegt werden.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Schließlich besteht in den folgenden Tabellen keine referenzielle Integrität zwischen **Orders[CustomerID]** und **Customers[CustID]** . **CustomerID** enthält einige Werte (in diesem Fall *CustX*), die nicht in der Tabelle *Customers* enthalten sind. Daher sollte **Referenzielle Integrität voraussetzen** *nicht* festgelegt werden.
+3. Schließlich besteht in den folgenden Tabellen keine referenzielle Integrität zwischen **Orders[CustomerID]** und **Customers[CustID]** . **CustomerID** enthält einige Werte (in diesem Fall *CustX*), die nicht in der Tabelle *Customers* enthalten sind. Daher sollte **Referenzielle Integrität voraussetzen***nicht* festgelegt werden.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
@@ -59,7 +59,7 @@ Wenn Sie **Referenzielle Integrität voraussetzen** festlegen, obwohl Probleme m
 * Ein visuelles Element, in dem die gesamte *Bestellmenge* angezeigt wird, würde den Wert 40 anzeigen.
 * Ein visuelles Element, in dem der Gesamtwert für *Bestellmenge nach Depotstadt* angezeigt wird, würde lediglich den Gesamtwert *30* anzeigen, da die Bestell-ID 1, deren **DepotID** gleich *NULL* ist, nicht eingeschlossen wäre.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu [DirectQuery](desktop-use-directquery.md)
 
 Weitere Informationen zu [Beziehungen in Power BI](desktop-create-and-manage-relationships.md)

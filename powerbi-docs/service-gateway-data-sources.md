@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207457"
 ---
 # <a name="manage-data-sources"></a>Verwalten von Datenquellen
@@ -29,15 +29,15 @@ Die meisten Verwaltungsvorgänge für Datenquellen können auch mit APIs ausgef�
 
 1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-data-sources/icon-gear.png) >  und dann auf **Gateways verwalten**.
 
-    ![Gateways verwalten](media/service-gateway-data-sources/manage-gateways.png)
+    ![Verwalten von Gateways](media/service-gateway-data-sources/manage-gateways.png)
 
 2. Wählen Sie ein Gateway und dann **Datenquelle hinzufügen** aus. Oder wechseln Sie zu **Gateways** > **Datenquelle hinzufügen**.
 
-    ![Datenquelle hinzufügen](media/service-gateway-data-sources/add-data-source.png)
+    ![Hinzufügen einer Datenquelle](media/service-gateway-data-sources/add-data-source.png)
 
 3. Wählen Sie den **Datenquellentyp** aus.
 
-    ![SQL Server auswählen](media/service-gateway-data-sources/select-sql-server.png)
+    ![Auswählen von „SQL Server“](media/service-gateway-data-sources/select-sql-server.png)
 
 4. Geben Sie Informationen zur Datenquelle ein. In diesem Beispiel: **Server**, **Datenbank** und weitere Informationen. 
 
@@ -62,9 +62,9 @@ Wenn Sie die Option **SSO über Kerberos für DirectQuery- und Importabfragen ve
 
     ![Erweiterte Einstellungen](media/service-gateway-data-sources/advanced-settings.png)
 
-8. Klicken Sie auf **Hinzufügen**. Bei erfolgreicher Ausführung wird *Die Verbindung wurde hergestellt.* angezeigt.
+8. Wählen Sie **Hinzufügen**. Bei erfolgreicher Ausführung wird *Die Verbindung wurde hergestellt.* angezeigt.
 
-    ![Die Verbindung wurde hergestellt.](media/service-gateway-data-sources/connection-successful.png)
+    ![Verbindung erfolgreich](media/service-gateway-data-sources/connection-successful.png)
 
 Sie können diese Datenquelle jetzt verwenden, um Daten aus SQL Server in Ihre Power BI-Dashboards und -Berichte einzubinden.
 
@@ -96,7 +96,7 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 
 Das OAuth-Authentifizierungsschema wird nur für benutzerdefinierte Connectors in lokalen Datengateways unterstützt. Sie können keine anderen Datenquellen hinzufügen, für die OAuth erforderlich ist. Wenn Ihr Dataset über eine Datenquelle verfügt, die OAuth erfordert und kein benutzerdefinierter Connector ist, kann das Gateway nicht für die geplante Aktualisierung verwendet werden.
 
-## <a name="manage-users"></a>Benutzer verwalten
+## <a name="manage-users"></a>Verwalten von Benutzern
 
 Nachdem Sie eine Datenquelle zu einem Gateway hinzugefügt haben, gewähren Sie Benutzern und E-Mail-fähigen Sicherheitsgruppen Zugriff auf die spezifische Datenquelle (nicht auf das gesamte Gateway). Die Datenquellen-Benutzerliste steuert nur, wer Berichte veröffentlichen darf, die Daten aus der Datenquelle enthalten. Besitzer eines Berichts können Dashboards, Inhaltspakete und Apps erstellen und diese dann für andere Benutzer freigeben.
 
@@ -114,7 +114,7 @@ Sie können Benutzern und Sicherheitsgruppen auch Verwaltungszugriff auf das Gat
 
 4. Klicken Sie auf **Hinzufügen**, woraufhin das hinzugefügte Mitglied im Feld angezeigt wird.
 
-    ![Benutzer hinzufügen](media/service-gateway-data-sources/add-user.png)
+    ![Hinzufügen von Benutzern](media/service-gateway-data-sources/add-user.png)
 
 Denken Sie daran, dass Sie jeder Datenquelle, für die Sie den Zugriff gewähren möchten, Benutzer hinzufügen müssen. Jede Datenquelle verfügt über eine separate Liste von Benutzern. Fügen Sie Benutzer jeder Datenquelle separat hinzu.
 
@@ -132,7 +132,7 @@ Beim Hinzufügen einer Datenquelle für das Gateway müssen Sie für diese Daten
 
 Informationen zu den Datenquellen, die das lokale Datengateway unterstützt, finden Sie unter [Power BI-Datenquellen](power-bi-data-sources.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Verwalten Ihrer Datenquelle – Analysis Services](service-gateway-enterprise-manage-ssas.md)
 * [Verwalten Ihrer Datenquelle –SAP HANA](service-gateway-enterprise-manage-sap.md)

@@ -10,10 +10,10 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439294"
 landingContent:
 - title: Geschäftsentscheidungsträger
@@ -22,7 +22,7 @@ landingContent:
     links:
     - text: Lernkatalog für geschäftliche und technische Entscheidungsträger
       url: learning-catalog-bdm.md#
-- title: Verbraucher
+- title: Consumer
   linkLists:
   - linkListType: overview
     links:
@@ -66,7 +66,7 @@ landingContent:
       url: learning-catalog-data-analyst.md#integration
     - text: Sicherheit
       url: learning-catalog-data-analyst.md#security
-- title: Administrators
+- title: Administratoren
   linkLists:
   - linkListType: overview
     links:
@@ -74,7 +74,7 @@ landingContent:
       url: learning-catalog-administrator.md
     - text: Erste Schritte
       url: learning-catalog-administrator.md#get-started
-    - text: Deploy
+    - text: Bereitstellen
       url: learning-catalog-administrator.md#deploy
 - title: Entwickler
   linkLists:
@@ -84,11 +84,11 @@ landingContent:
       url: learning-catalog-developer.md
     - text: Erste Schritte
       url: learning-catalog-developer.md#get-started
-    - text: Embedded
+    - text: Eingebettet
       url: learning-catalog-developer.md#embedded
     - text: DAX
       url: learning-catalog-developer.md#dax
-    - text: Development
+    - text: Entwicklung
       url: learning-catalog-developer.md#development
 - title: Partner-Presales-Rollen
   linkLists:

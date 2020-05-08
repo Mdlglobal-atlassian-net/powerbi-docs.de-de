@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114104"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Die API für visuelle Filter für Power BI-Visuals
@@ -53,7 +53,7 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
-Hier gilt:
+Dabei gilt Folgendes:
 * `target` ist die Tabellenspalte in der Datenquelle.
 
 ## <a name="the-basic-filter-api"></a>API für einfache Filter
@@ -67,7 +67,7 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-Hier gilt:
+Dabei gilt Folgendes:
 * `operator` ist eine Enumeration mit den Werten *In*, *NotIn* und *All*.
 * `values` sind Werte für die Bedingung.
 
@@ -178,7 +178,7 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-Hier gilt:
+Dabei gilt Folgendes:
 * `target` ist ein Array von Spalten mit Tabellennamen:
 
     ```typescript

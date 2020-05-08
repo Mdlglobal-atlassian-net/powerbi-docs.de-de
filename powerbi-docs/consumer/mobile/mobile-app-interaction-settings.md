@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
 ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377373"
 ---
 # <a name="configure-report-interaction-settings"></a>Konfigurieren der Interaktionseinstellungen für Berichte
 
-## <a name="overview"></a>Übersicht
+## <a name="overview"></a>Overview
 
 Die mobile Power BI-App verfügt über mehrere konfigurierbare Interaktionseinstellungen, mit denen Sie steuern können, wie Sie mit Ihren Daten interagieren, und mit denen Sie das Verhalten einiger Elemente der mobilen Power BI-App definieren können. Die folgende Tabelle zeigt die derzeit verfügbaren Interaktionseinstellungen und die Geräte mit diesen Einstellungen.
 
@@ -76,6 +76,6 @@ Navigieren Sie zum Symbol zum Aktualisieren des Berichts in den Interaktionseins
 Interaktionen können auch remote durch einen Administrator konfiguriert werden, indem ein MDM-Tool mit einer App-Konfigurationsdatei verwendet wird. Somit ist es möglich, die Interaktionseinstellungen für Berichte in der Organisation oder für spezifische Benutzergruppen der Organisation zu standardisieren. Weitere Informationen finden Sie unter [Konfigurieren der Interaktion mithilfe der mobilen Geräteverwaltung](./mobile-app-configuration.md).
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Interagieren mit Berichten](./mobile-reports-in-the-mobile-apps.md#interact-with-reports)
 * [Konfigurieren der Interaktion mithilfe der mobilen Geräteverwaltung](./mobile-app-configuration.md)

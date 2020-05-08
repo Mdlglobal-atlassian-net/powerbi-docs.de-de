@@ -9,10 +9,10 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760994"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Festlegen eines geografischen Filters in Power BI Desktop für die mobile App
@@ -58,7 +58,7 @@ Nehmen wir z.B. an, dass Sie ein Vertriebsleiter sind, der sich auf einer Gesch�
 
 Weitere Informationen zum [Filtern eines Berichts nach Standort in den mobilen Power BI-Apps](consumer/mobile/mobile-apps-geographic-filtering.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Datenkategorisierung in Power BI Desktop](desktop-data-categorization.md)  
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

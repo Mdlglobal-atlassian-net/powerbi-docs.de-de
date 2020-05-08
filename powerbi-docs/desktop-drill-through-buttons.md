@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206445"
 ---
 # <a name="create-a-drill-through-button-in-power-bi-preview"></a>Erstellen einer Drillthroughschaltfläche in Power BI (Vorschauversion)
@@ -90,7 +90,7 @@ Die Schaltfläche funktioniert wie der normale Drillthrough, sodass Sie auch Fil
 
 Wenn Sie auf die Drillthroughschaltfläche klicken, werden die Filter sowohl für den Store als auch das Produkt angezeigt, die an die Zielseite weitergeleitet werden:
 
-![Filter für diese Seite](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
+![Filter auf dieser Seite](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
 
 ### <a name="ambiguous-filter-context"></a>Mehrdeutiger Filterkontext
 
@@ -107,7 +107,7 @@ In diesem Beispiel ist die Schaltfläche deaktiviert, da zwei Visuals jeweils ei
 - Die deaktivierte Statusformatierung für die Schaltfläche ist an die Farbklassen im Berichtsdesign gebunden. Hier finden Sie weitere Informationen zu [Farbklassen](desktop-report-themes.md#setting-structural-colors).
 - Die Drillthroughaktion funktioniert für alle integrierten und *einige* von AppSource importierten Visuals. Es kann jedoch nicht garantiert werden, dass die Arbeit mit *allen* aus AppSource importierten Visuals möglich ist.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu Features, die Schaltflächen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Erstellen von Schaltflächen](desktop-buttons.md)

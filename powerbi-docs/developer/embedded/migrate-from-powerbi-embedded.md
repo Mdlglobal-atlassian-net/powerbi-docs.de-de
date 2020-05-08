@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404049"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded
@@ -45,8 +45,8 @@ Es gibt einige Schritte, die Sie zur Vorbereitung der Migration der Power BI-Arb
     Sie müssen bestimmen, welches Mandantensetup verwendet werden soll.
 
    * Verwenden Sie Ihren vorhandenen, unternehmensbezogenen Power BI-Mandanten?
-   * Verwenden Sie einen separaten Mandanten für Ihre Anwendung?
-   * Verwenden Sie einen separaten Mandanten pro Kunde?
+   * Soll ein separater Mandant für die Anwendung verwendet werden?
+   * Soll jeweils ein separater Mandant für jeden Kunden verwendet werden?
 
      Wenn Sie einen neuen Mandanten für Ihre Anwendung oder jeden Kunden erstellen möchten, finden Sie unter [Erstellen eines Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md) oder [Vorgehensweise: Abrufen eines Azure Active Directory-Mandanten](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant) weitere Informationen dazu.
 2. Erstellen Sie einen Benutzer in diesem neuen Mandanten, der als Ihr „Master“-Anwendungskonto fungiert. Das Konto muss für Power BI registriert werden und muss eine Power BI Pro-Lizenz zugewiesen bekommen.
@@ -116,7 +116,7 @@ Es gibt mehrere Berichtstypen, jeder erfordert einen etwas anderen Migrationsflo
 
 Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz zu einer Liveverbindung oder DirectQuery-Verbindung importiert hatten.
 
-**Flow**
+**Ablauf**
 
 1. Herunterladen PBIX-API Aufrufen im PaaS-Arbeitsbereich.
 2. Speichern Sie die PBIX.
@@ -124,7 +124,7 @@ Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz
 
 #### <a name="directquery-dataset--report"></a>DirectQuery-Dataset & Bericht
 
-**Flow**
+**Ablauf**
 
 1. Rufen Sie GET auf (`https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`), und speichern Sie die erhaltene Verbindungszeichenfolge.
 2. Herunterladen PBIX-API Aufrufen im PaaS-Arbeitsbereich.
@@ -138,16 +138,16 @@ Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz
 
 Hierbei handelt es sich um Datasets/Berichte, die vor Oktober 2016 erstellt wurden. Das Herunterladen von PBIX unterstützt keine PBIXs, die vor Oktober 2016 hochgeladen wurden
 
-**Flow**
+**Ablauf**
 
-1. Rufen Sie PBIX aus Ihrer Entwicklungsumgebung (die interne Quellcodeverwaltung) ab.
+1. Rufen Sie PBIX von Ihrer Entwicklungsumgebung (Ihre interne Quellcodeverwaltung) ab.
 2. Rufen Sie Import PBIX SaaS-Arbeitsbereich auf.
 
 #### <a name="push-dataset--report"></a>Push-Dataset & Bericht
 
 PBIX herunterladen unterstützt keine *Push-API*-Datasets. Daten von Datasets per Push-API können nicht von PaaS zu SaaS portiert werden.
 
-**Flow**
+**Ablauf**
 
 1. Rufen Sie die „Create Dataset“-API (Dataset erstellen) mit Dataset-Json auf, um Datasets im Arbeitsbereich „SaaS“ zu erstellen.
 2. Erstellen Sie für das erstellte Dataset * einen neuen Bericht.
@@ -168,7 +168,7 @@ Zusätzlich zu dem Inhalt, den Sie aus der Power BI-Arbeitsbereichssammlung migr
 ## <a name="rebuild-your-application"></a>Erneutes Erstellen der Anwendung
 
 1. Sie müssen Ihre Anwendung ändern, um die Power BI-REST-APIs und den Speicherort des Berichts in „powerbi.com“ zu verwenden.
-2. Erstellen Sie die AuthN-/AuthZ-Authentifizierung unter Verwendung des *Masterkontos* für Ihre Anwendung neu. Sie können dabei ein [Einbettungstoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) verwenden, damit dieser Benutzer im Auftrag anderer Benutzer handeln kann.
+2. Erstellen Sie die AuthN-/AuthZ-Authentifizierung unter Verwendung des *Masterkontos* für Ihre Anwendung neu. Sie können ein [Einbettungstoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) nutzen, um diesem Benutzer zu ermöglichen, im Namen anderer Benutzer zu agieren.
 3. Betten Sie Ihre Berichte auf „powerbi.com“ in Ihrer Anwendung ein.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Zuordnen der Benutzer zu einem Power BI-Benutzer
@@ -194,12 +194,12 @@ Sie sollten in Azure einige Bereinigungsschritte ausführen.
 * Entfernen Sie alle Arbeitsbereiche aus der bereitgestellten Lösung in Azure Embedded der Power BI-Arbeitsbereichssammlung.
 * Löschen Sie alle Arbeitsbereichsammlungen, die in Azure vorhanden sind.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Einbetten mit Power BI](embedding.md)  
 [Migrationstool für die Power BI-Arbeitsbereichssammlung](migrate-tool.md)  
 [Codeausschnitte zum Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung](migrate-code-snippets.md)  
-[Wie soll ich Power BI-Dashboards, -Berichte und -Kacheln einbetten?](embed-sample-for-your-organization.md)  
+[Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embed-sample-for-your-organization.md)  
 [Power BI Premium – Beschreibung](../../service-premium-what-is.md)  
 [JavaScript-API-Git-Repository](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI-C#-Git-Repository](https://github.com/Microsoft/PowerBI-CSharp)  

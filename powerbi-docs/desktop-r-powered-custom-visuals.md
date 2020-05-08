@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378683"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Verwenden von R-gestützten Power BI-Visuals in Power BI
@@ -145,7 +145,7 @@ Das Power BI-Team arbeitet daran, diese Probleme zu beheben, bevor sie bei Ihnen
 
    b. Wenn das Problem durch den vorherigen Schritt nicht behoben wird, wählen Sie in **R Studio** die Option **Tools > Global Options > Packages** (Extras > Globale Optionen > Pakete) aus, aktivieren Sie das Kontrollkästchen **Use Internet Explorer library/proxy for HTTP** (Internet Explorer-Bibliothek/-Proxy für HTTP verwenden), und wiederholen Sie dann Schritt 3.b. aus den oben genannten Schritten.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Betrachten Sie die folgenden zusätzlichen Informationen über R in Power BI.
 

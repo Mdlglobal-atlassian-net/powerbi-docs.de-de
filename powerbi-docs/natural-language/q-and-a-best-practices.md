@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609946"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841915"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best Practices zum Optimieren von Q&A in Power BI
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Noch besser ist es, wenn Ihre Daten Ihnen Antworten liefern – und genau das ist mit Q&A in Power BI möglich.
@@ -194,6 +194,8 @@ Die einzige Ausnahme zur Regel „Normalisierung ist besser“ gilt, wenn es meh
 Dieser Schritt bezieht sich speziell auf Q&A (und nicht auf Power BI-Berichte im Allgemeinen). Benutzer nutzen häufig verschiedene Begriffe, um auf etwas zu verweisen, z.B. Gesamtumsatz, Nettoumsatz, Gesamtnettoumsatz. Sie können diese Synonyme zu Tabellen und Spalten im Power BI-Modell hinzufügen. 
 
 Dieser Schritt kann von Bedeutung sein. Selbst bei unkomplizierten Tabellen- und Spaltennamen stellen die Benutzer von Q&A Fragen mit den Wörtern, die ihnen spontan einfallen. Sie wählen nicht aus einer vordefinierten Liste von Spalten aus. Je mehr sinnvolle Synonyme Sie hinzufügen können, desto höher ist die Benutzerfreundlichkeit Ihres Berichts. Um Synonyme hinzuzufügen, wechseln Sie in Power BI Desktop zur Modellansicht, klicken Sie auf die Registerkarte „Modellierung“, und wählen Sie ein Feld oder eine Tabelle aus. Das Eigenschaftenfenster zeigt das Feld **Synonyme** an, in dem Sie Synonyme hinzufügen können.
+
+
 
 ![Q&A-Eigenschaftenfenster für Synonyme](media/qna-modelling-pane-synonyms.png)
 

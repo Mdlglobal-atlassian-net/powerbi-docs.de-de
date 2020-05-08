@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
 ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435879"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlinien für Power BI-Visuals
@@ -102,7 +102,7 @@ Wenn ein kommerzielles Logo verwendet wird, muss die Farbe des Logos grau sein (
 
 > [!TIP]
 > * Wenn Ihr Power BI-Visual eine Grafik enthält, fügen Sie Ihrem Logo ggf. einen weißen Hintergrund hinzu (mit Rändern in der Größe von 10 px).
-> * Fügen Sie für Ihr Logo ggf. einen Schlagschatten hinzu (Durchlässigkeit in schwarz von 30 %).
+> * Fügen Sie für Ihr Logo ggf. einen Schlagschatten hinzu (Durchlässigkeit in schwarz von 30 %).{1}
 
 ### <a name="commercial-logo-size"></a>Größe des kommerziellen Logos
 
@@ -158,10 +158,10 @@ Verwenden Sie die Startseite, um den Benutzern zu verdeutlichen, wie sie Power B
 
 Fügen Sie Felder für Lizenzschlüssel oder Token im oberen Teil des Formatierungsbereichs hinzu, sodass Benutzer diese leicht finden können.
 
-## <a name="faq"></a>Häufig gestellte Fragen
+## <a name="faq"></a>HÄUFIG GESTELLTE FRAGEN
 
 Weitere Informationen zu Power BI-Visuals finden Sie in den [häufig gestellten Fragen zu Power BI-Visuals mit zusätzlichen Käufen](power-bi-custom-visuals-faq.md#visuals-with-additional-purchases).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Erfahren Sie, wie Sie ein Power BI-Visual in [Microsoft AppSource](office-store.md) veröffentlichen, damit es von anderen gefunden und verwendet werden kann.

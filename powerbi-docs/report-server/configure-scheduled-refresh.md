@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439961"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Konfigurieren der geplanten Aktualisierung für Power BI-Berichte
@@ -70,7 +70,7 @@ Zeigen Sie den Status eines Plans für die geplante Aktualisierung im Webportal 
 2. Wählen Sie im linken Menü die Registerkarte **Geplante Aktualisierung** aus.
 3. Auf der Seite **Geplante Aktualisierung** wird der Status des Plans in der äußersten rechten Spalte angezeigt.
    
-   | **Status** | **Beschreibung** |
+   | **Status** | **Description** (Beschreibung) |
    | --- | --- |
    | Neuer geplanter Aktualisierungsplan |Der Plan wurde erstellt, jedoch noch nicht ausgeführt. |
    | Aktualisieren |Der Aktualisierungsvorgang wurde gestartet. |
@@ -83,7 +83,7 @@ Zeigen Sie den Status eines Plans für die geplante Aktualisierung im Webportal 
 
 Die Webseite muss aktualisiert werden, damit der aktuelle Status angezeigt wird. Der Status ändert sich nicht automatisch.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zum Erstellen und Ändern von Zeitplänen finden Sie unter [Erstellen, Ändern und Löschen von Zeitplänen](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
 
 Informationen zur Problembehandlung von geplanten Aktualisierungen finden Sie unter [Problembehandlung für geplante Aktualisierungen in Power BI-Berichtsserver](scheduled-refresh-troubleshoot.md).

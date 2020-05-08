@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379855"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Hinzufügen des Gebietsschemas in Power BI für benutzerdefinierte Power BI-Visuals
@@ -45,14 +45,14 @@ this.locale = options.host.locale;
 
 Unterstützte Gebietsschemas:
 
-Zeichenfolge des Gebietsschemas | Sprache
+Zeichenfolge des Gebietsschemas | Language
 --------------|----------------------
 ar-SA | العربية (Arabisch)
 bg-BG | Български (Bulgarisch)
 ca-ES | Katala (Katalanisch)
 cs-CZ | Čeština (Tschechisch)
 da-DK | Dansk (Dänisch)
-de-de | Deutsch (Deutsch)
+de-DE | Deutsch (Deutsch)
 el-GR | ελληνικά (Griechisch)
 en-US | Englisch (Englisch)
 es-ES | Español-Dienst (Spanisch)
@@ -215,6 +215,6 @@ let legend: string = this.localization.getDisplayName("Role_Legend");
 
 Für en-US wird „Legend“ und für ru-RU wird „Обозначения“ zurückgegeben.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Lesen Sie, wie Sie mit Formatierungshilfsprogrammen lokalisierte Formate bereitstellen](utils-formatting.md)

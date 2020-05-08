@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496261"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Inhalte auf der Power BI-Startseite von Kollegen unter „Empfohlen“ anzeigen
@@ -56,9 +56,9 @@ Die Prozesse für das Empfehlen von Dashboards und Berichten ähneln sich.
 
 Nun wird diese App allen Benutzern mit Zugriff auf diese App auf der Seite **Home** unter **Empfohlen** angezeigt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Wie kann ich Dashboards und Berichte freigeben?](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Verwalten von empfohlenen Inhalten](../service-admin-portal.md#manage-featured-content)
-* Haben Sie Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+* Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 
