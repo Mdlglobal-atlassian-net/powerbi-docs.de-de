@@ -10,10 +10,10 @@ ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133222"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Verwenden des aktualisierten Menübands in Power BI Desktop
@@ -71,11 +71,11 @@ Zusätzlich zu diesen sichtbaren Änderungen können wir mit dem aktualisierten 
 * Verbesserung der Barrierefreiheit
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

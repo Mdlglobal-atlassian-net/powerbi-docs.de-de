@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637880"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Einführung in Dashboardkacheln für Power BI-Designer
@@ -41,7 +41,7 @@ Es gibt viele verschiedene Möglichkeiten, eine Kachel zu Ihrem Dashboard hinzuz
 * [ein Bericht](service-dashboard-pin-tile-from-report.md)
 * [ein anderes Dashboard](service-pin-tile-to-another-dashboard.md)
 * [einer Excel-Arbeitsmappe auf OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (Schnelle Einblicke)](service-insights.md)
+* [Schnelle Einblicke](service-insights.md)
 * [ein lokaler paginierter Bericht im Power BI-Berichtsserver oder in SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Eigenständige Kacheln für Bilder, Textfelder, Videos, Streamingdaten und Webinhalte können Sie mit [Kachel hinzufügen](service-dashboard-add-widget.md) direkt auf dem Dashboard erstellen.
@@ -92,7 +92,7 @@ Wenn Sie eine Kachel auswählen, hängt das, was anschließend geschieht, davon 
 * Angenommen, Sie wählen eine Kachel aus, die aus einem lokalen paginierten Bericht erstellt wurde, der sich im Power BI-Berichtsserver oder in SQL Server Reporting Services befindet. Wenn Sie keinen Zugriff auf das Netzwerk mit dem Berichtsserver haben, wird eine Seite angezeigt, die Sie darauf hinweist, dass der Server nicht gefunden wurde (HTTP 404). Ihr Gerät muss Netzwerkzugriff auf den Berichtsserver besitzen, um den Bericht anzeigen zu können.
 * Wenn sich das ursprüngliche Visual ändert, das zum Erstellen der Kachel verwendet wurde, ändert sich die Kachel nicht. Wenn Sie beispielsweise ein Liniendiagramm aus einem Bericht anheften und dann das Liniendiagramm in ein Balkendiagramm ändern, wird auf der Dashboardkachel weiterhin ein Liniendiagramm angezeigt. Die Daten werden aktualisiert, der Visualtyp hingegen nicht.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 - [Erstellen einer Karte (Kachel für große Zahlen) für das Dashboard](power-bi-visualization-card.md)
 - [Einführung in Dashboards für Power BI-Designer](service-dashboards.md)  
 - [Aktualisieren von Daten in Power BI](refresh-data.md)

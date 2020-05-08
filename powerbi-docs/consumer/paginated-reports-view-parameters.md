@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 50de63aed17d9fab695119d5c94fa4a5d9312702
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74834584"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Anzeigen von Parametern für paginierte Berichte im Power BI-Dienst
@@ -35,6 +35,6 @@ Wenn Sie einen Bericht mit Parametern anzeigen, zeigt die Symbolleiste der Beric
 
 5. **Standardwerte**: Wenn alle Parameter über Standardwerte verfügen, wird der Bericht beim ersten Anzeigen automatisch ausgeführt. Einige Parameter in diesem Bericht hatten keine Standardwerte, sodass der Bericht erst angezeigt wird, wenn Sie Werte ausgewählt haben.  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Paginierte Berichte im Power BI-Dienst](end-user-paginated-report.md)

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637716"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Überwachen von Premium-Kapazitäten über die App
@@ -180,7 +180,7 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | Durchschnittliche stündliche Aktualisierungswartezeiten (Minuten) |  Die durchschnittliche Aktualisierungswartezeit, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. Mehrere Spitzen mit langen Aktualisierungswartezeiten weisen auf eine hohe Auslastung der Kapazität hin. |
 |  |  |
 
-#### <a name="query-durations-area"></a>Bereich „Query Durations“ (Abfragedauer)
+#### <a name="query-durations-area"></a>Bereich „Query Durations“ (Abfragedauer) 
 
 | Berichtsabschnitt | Metrics |
 | --- | --- |

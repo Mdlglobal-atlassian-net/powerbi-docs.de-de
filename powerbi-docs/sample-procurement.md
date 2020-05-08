@@ -1,6 +1,6 @@
 ---
-title: 'Beispiel für Beschaffungsanalysen: Übersicht'
-description: 'Analysebeispiel für Beschaffung für Power BI: Übersicht'
+title: 'Beispiel zur Beschaffungsanalyse: Tour'
+description: 'Analysebeispiel für Beschaffung für Power BI: Tour'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404669"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Übersicht
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Tour
 
 Das Beispielinhaltspaket für die Beschaffungsanalyse enthält ein Dashboard, einen Bericht und ein Dataset, die eine Analyse des Ausgabeverhaltens eines Fertigungsunternehmens für Lieferanten nach Kategorie und Standort darstellen. In diesem Beispiel untersuchen wir die folgenden Bereiche:
 
@@ -138,7 +138,7 @@ Wählen Sie in der oberen linken Ecke **Bericht bearbeiten** aus, und führen Si
 * Ändern Sie die Visualisierung für ein Diagramm, indem Sie beispielsweise das Treemap-Diagramm in ein Ringdiagramm ändern.
 * Heften Sie Diagramme an Ihr Dashboard an.
 
-## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen einer Verbindung mit den Daten
+## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
 In dieser Umgebung können Sie sicher experimentieren, da Sie die Änderungen nicht speichern müssen. Wenn Sie sie speichern, können Sie jederzeit wieder auf **Daten abrufen** klicken, um ein neues Exemplar dieses Beispiels herunterzuladen.
 
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen- und Antwortenmodul und Berichte Ihnen Einblicke in Beispieldaten geben können. Jetzt liegt es an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen mit einer Vielzahl von Datenquellen herstellen. Weitere Informationen finden Sie unter [Erste Schritte mit dem Power BI-Dienst](service-get-started.md).

@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114391"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Anzeigen verwandter Inhalte im Power BI-Dienst
@@ -52,7 +52,7 @@ Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen.
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Anzeigen verwandter Inhalte für ein Dataset
-Zum Öffnen des Bereichs **Verwandte Inhalte** benötigen Sie mindestens *Anzeigeberechtigungen* für ein Dataset. In diesem Beispiel verwenden wir das [Analysebeispiel für Beschaffung](../sample-procurement.md).
+Zum Öffnen des Bereichs *Verwandte Inhalte* benötigen Sie mindestens **Anzeigeberechtigungen** für ein Dataset. In diesem Beispiel verwenden wir das [Analysebeispiel für Beschaffung](../sample-procurement.md).
 
 Suchen Sie im Navigationsbereich die Überschrift **Arbeitsbereiche**, und wählen Sie in der Liste einen Arbeitsbereich aus. Wenn ein Arbeitsbereich Inhalte enthält, werden diese im Zeichenbereich auf der rechten Seite angezeigt. 
 
@@ -74,7 +74,7 @@ Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen.
 * Um verwandte Inhalte für einen Bericht öffnen zu können, müssen Sie sich in der [Leseansicht](end-user-reading-view.md) befinden.
 * Das Feature „Verwandte Inhalte“ kann nicht für Streamingdatasets verwendet werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erste Schritte mit dem Power BI-Dienst](../service-get-started.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 

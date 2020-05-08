@@ -1,19 +1,19 @@
 ---
 title: Beispiele für Vorlagen-Apps
 description: Beispiele für die persönliche Verwendung oder Weiterverteilung als AppSource-Power BI-App
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 01/01/2020
-ms.author: tebercov
-ms.openlocfilehash: 2402487bde2632a81a03f9a052777dba7277e445
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: d87f06ce9da57c278478e78b2bbb47bcbbaf758b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75622387"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82780970"
 ---
 # <a name="template-apps-samples"></a>Beispiele für Vorlagen-Apps
 
@@ -37,6 +37,6 @@ Die Beispiele erfordern möglicherweise zusätzliche Benutzerkonten mit dem rele
 * [Zendesk](https://templateapps.blob.core.windows.net/sampletemplateapps/Zendesk.pbix)
 * [Marketo](https://templateapps.blob.core.windows.net/sampletemplateapps/Marketo.pbix)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Was sind Power BI-Vorlagen-Apps?](service-template-apps-overview.md)
