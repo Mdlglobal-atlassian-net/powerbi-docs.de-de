@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761632"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Herstellen einer Verbindung mit einer Amazon Redshift-Datenbank in Power BI Desktop
@@ -24,7 +24,7 @@ Klicken Sie in Power BI Desktop im Menüband **Start** auf die Option **Daten ab
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-Geben Sie im angezeigten Fenster **Amazon Redshift** den Namen des **Amazon Redshift**-Servers und der Amazon Redshift-Datenbank in das Feld ein, oder fügen Sie sie ein. Im Feld *Server* können Benutzer einen Port im folgenden Format eingeben: *ServerURL:Port*
+Geben Sie im angezeigten Fenster **Amazon Redshift** den Namen des **Amazon Redshift**-Servers und der Amazon Redshift-Datenbank in das Feld ein, oder fügen Sie sie ein. Im Feld *Server* können Benutzer auch einen Port im folgenden Format eingeben: *ServerURL:Port*
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
@@ -41,11 +41,11 @@ Sobald Sie im Fenster **Navigator** eine Auswahl vornehmen, können Sie die Date
 * Wenn Sie die Option zum **Laden** von Daten ausgewählt haben, werden Sie aufgefordert, hierzu den Modus *importieren* oder *DirectQuery* zu verwenden. Weitere Informationen finden Sie in diesem [Artikel, in dem DirectQuery erläutert wird](desktop-use-directquery.md).
 * Wenn Sie die Option zum **Bearbeiten** der Daten ausgewählt haben, wird der **Abfrage-Editor** angezeigt. In diesem können Sie alle Arten von Transformationen und Filtern auf die Daten anwenden, von denen viele auf die zugrunde liegende **Amazon Redshift**-Datenbank selbst angewendet werden (sofern unterstützt).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

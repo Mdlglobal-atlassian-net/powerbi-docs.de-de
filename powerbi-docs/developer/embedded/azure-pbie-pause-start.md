@@ -1,5 +1,5 @@
 ---
-title: Anhalten und Starten einer Power BI Embedded-Kapazität im Azure-Portal | Microsoft-Dokumentation
+title: Anhalten und Starten Ihrer Power BI Embedded-Kapazität im Azure-Portal | Microsoft-Dokumentation
 description: In diesem Artikel erfahren Sie, wie Sie eine Power BI Embedded-Kapazität in Microsoft Azure anhalten und starten.
 services: power-bi-embedded
 author: KesemSharabi
@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114748"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Anhalten und Starten einer Power BI Embedded-Kapazität im Azure-Portal
@@ -43,7 +43,7 @@ Das Anhalten Ihrer Kapazität verhindert, dass sie berechnet wird. Diese Option 
 
     ![Anhalten einer Kapazität](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. Wählen Sie **Ja** aus, um zu bestätigen, dass Sie die Kapazität anhalten möchten.
+5. Wählen Sie **Ja** aus, was bestätigt, dass die Kapazität angehalten werden soll.
 
     ![Bestätigen von „Anhalten“](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -65,13 +65,13 @@ Setzen Sie die Nutzung fort, indem Sie Ihre Kapazität starten. Wenn Sie Ihre Ka
 
     ![Starten einer Kapazität](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. Wählen Sie **Ja** aus, um zu bestätigen, dass Sie die Kapazität starten möchten.
+5. Wählen Sie **Ja** aus, was bestätigt, dass die Kapazität gestartet werden soll.
 
-    ![Bestätigen von „Starten“](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
+    ![Starten bestätigen](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 
 Ist dieser Kapazität Inhalte zugeordnet sind, stehen diese nach dem Start zur Verfügung.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Wie Sie eine Kapazität hoch- oder herunterskalieren, erfahren Sie in Artikel [Skalieren einer Power BI Embedded-Kapazität](azure-pbie-scale-capacity.md).
 

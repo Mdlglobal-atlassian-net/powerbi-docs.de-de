@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761109"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Anwenden von Einblicken in Power BI Desktop zum Ermitteln von unterschiedlicher Verteilung (Vorschau)
@@ -64,33 +64,33 @@ Der Algorithmus berücksichtigt im Grunde alle anderen Modellspalten, wendet sie
 
 Doch was genau bedeutet *unterschiedlich*? Angenommen, dass die Gesamtaufteilung der Umsätze zwischen den USA und Kanada folgendermaßen aussieht:
 
-|Land  |Umsatz (Mio. $)|
+|Country  |Umsatz (Mio. $)|
 |---------|----------|
 |USA      |15        |
-|Kanada   |5         |
+|Canada   |5         |
 
 Dann sieht die Umsatzaufteilung für eine bestimmte Produktkategorie (*Rennräder*) möglicherweise so aus:
 
-|Land  |Umsatz (Mio. $)|
+|Country  |Umsatz (Mio. $)|
 |---------|----------|
 |USA      |3        |
-|Kanada   |1         |
+|Canada   |1         |
 
 Während die Zahlen in jeder dieser Tabellen unterschiedlich sind, sind die relativen Werte für die USA und Kanada identisch (75 % und 25 % insgesamt und für Rennräder). Aus diesem Grund werden sie nicht als unterschiedlich betrachtet. Für einfache additive Measures wie diese, sucht der Algorithmus daher nach Unterschieden im *relativen* Wert.  
 
 Betrachten Sie dagegen ein Measure wie die Marge, die als Gewinn/Kosten berechnet wird. Angenommen, dass die Gesamtmargen für die USA und Kanada wie folgt aussehen:
 
-|Land  |Marge (%)|
+|Country  |Marge (%)|
 |---------|----------|
 |USA      |15        |
-|Kanada   |5         |
+|Canada   |5         |
 
 Dann sieht die Umsatzaufteilung für eine bestimmte Produktkategorie (*Rennräder*) möglicherweise so aus:
 
-|Land  |Marge (%)|
+|Country  |Marge (%)|
 |---------|----------|
 |USA      |3        |
-|Kanada   |1         |
+|Canada   |1         |
 
 Solche Measures weisen einen interessanten *Unterschied* auf. Für nicht additive Measures wie in diesem Margenbeispiel sucht der Algorithmus also nach Unterschieden im absoluten Wert.
 
@@ -139,12 +139,12 @@ Außerdem werden die folgenden Modelltypen und Datenquellen für Einblicke derze
 * Lokale Reporting Services
 * Einbetten
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu **Power BI Desktop** und den ersten Schritten finden Sie in den folgenden Artikeln.
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Übersicht zu Abfragen mit Power BI Desktop](desktop-query-overview.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)   

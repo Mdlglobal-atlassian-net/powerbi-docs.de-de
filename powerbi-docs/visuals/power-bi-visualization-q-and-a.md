@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762276"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Einführung in Q&A-Visualisierungen in Power BI
@@ -45,7 +45,7 @@ Q&A-Visuals bestehen aus vier Kernkomponenten:
 
 1. Öffnen Sie die Datei in der Berichtsansicht. ![Screenshot des Symbols für die Berichtsansicht](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
 
 Wird beim Erstellen eines Q&A-Visuals ein Fehler angezeigt, überprüfen Sie im Artikel zu den [Einschränkungen](../natural-language/q-and-a-limitations.md), ob die Datenquellenkonfiguration unterstützt wird.
@@ -87,7 +87,7 @@ Wenn Sie sich nicht sicher sind, wie die Frage aussehen oder welche Terminologie
 
 5. Mithilfe der Vorschläge von Power BI war es schließlich möglich, eine Frage bestehend aus erkannten Begriffen zu formulieren. Power BI stellt die Ergebnisse als Liniendiagramm dar. 
 
-    ![Q&A-Visual mit Ergebnissen](media/power-bi-visualization-q-and-a/power-bi-type.png)
+    ![Visuelle Ergebnisse in Q&A](media/power-bi-visualization-q-and-a/power-bi-type.png)
 
 
 6. Auf die folgende Weise können Sie das Visual in ein Säulendiagramm ändern. 
@@ -146,7 +146,7 @@ Im Bereich „Tools“ können Sie Q&A für nicht erkannte Begriffe trainieren, 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Q&A-Visuals sind in Office und Bing integriert, um gängige nicht erkannte Wörter nach Möglichkeit mit Feldern in Ihrem Dataset abzugleichen.  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Sie können natürliche Sprache auf verschiedene Weise integrieren. Weitere Informationen finden Sie in den folgenden Artikeln:
 

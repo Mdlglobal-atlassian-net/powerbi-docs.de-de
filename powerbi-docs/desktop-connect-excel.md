@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c63b84b506b872831c1a5ce00f6ef0e79f993849
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761655"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Connect to Excel workbooks in Power BI Desktop (Verbinden mit Excel-Arbeitsmappen in Power BI Desktop)
@@ -45,11 +45,11 @@ Und das ist auch schon alles!
 
 Sie können die von Ihrer Excel-Arbeitsmappe importierten Daten nun in Power BI Desktop verwenden, um Visualisierungen oder Berichte zu erstellen und um mit anderen Daten zu interagieren, mit denen Sie möglicherweise eine Verbindung herstellen bzw. die Sie möglicherweise importieren möchten, wie z.B. andere Excel-Arbeitsmappen, Datenbanken oder beliebige andere Datenquellen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit CSV-Dateien in Power BI Desktop](desktop-connect-csv.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

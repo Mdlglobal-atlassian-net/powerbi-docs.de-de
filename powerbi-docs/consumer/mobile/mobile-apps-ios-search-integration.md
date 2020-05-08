@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 7d61a57a928df95bd2210bf58cc44e37d14c393d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114477"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Die Integration der iOS-Gerätesuche (Spotlight) mit der Power BI Mobile-iOS-App (Vorschauversion)
@@ -47,7 +47,7 @@ Die von Siri unterstützte Gerätesuche enthält auch Vorschläge, die auf Ihren
 >Um die Gerätesuche und Siri-Vorschläge zu deaktivieren, navigieren Sie zu **Geräteeinstellungen** > **Power BI-Einstellungen** > **Siri und Suchen**, und deaktivieren Sie die Einstellung **Siri und Vorschläge**.
 >
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Führen Sie folgende Schritte aus, um mehr über die mobile Power BI-App zu erfahren: 
 
 * Laden Sie die [mobile Power BI-App für iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) herunter.

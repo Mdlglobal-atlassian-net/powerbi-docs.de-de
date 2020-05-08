@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494950"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Verwalten der Mehrinstanzenfähigkeit mit Power BI Embedded Analytics
@@ -252,7 +252,7 @@ Während Endbenutzer Berichte bearbeiten oder erstellen, können sie das mehrins
 * Die Anzahl von Aktualisierungen, die für eine Kapazität gleichzeitig ausgeführt werden können, finden Sie unter [Verwaltung und Optimierung der Microsoft Power BI Premium-Kapazitätsressource](../../service-premium-what-is.md#capacity-nodes).
 * Die Skalierung einer Kapazität dauert im Durchschnitt zwischen 1 und 2 Minuten. Während dieses Zeitraums ist die Kapazität nicht verfügbar. Es wird empfohlen, einen Ansatz für horizontales Skalieren zu verwenden, um [Downtime zu vermeiden](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Embedded Analytics mit Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)

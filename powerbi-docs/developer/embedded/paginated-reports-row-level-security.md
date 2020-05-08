@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.openlocfilehash: 8d3068453ea2d166b0b55fbba45d8452431de319
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79491730"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementieren der Sicherheit auf Zeilenebene in eingebetteten paginierten Berichten (Vorschau)
@@ -26,7 +26,7 @@ Diese Funktion ermöglicht das sichere Anzeigen einer Teilmenge von Daten, ohne 
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Konfigurieren eines Parameters zum Filtern des Datasets
 
-Beim Anwenden der Sicherheit auf Zeilenebene auf einen paginierten Power BI-Bericht müssen Sie dem **UserID**-Attribut einen [Parameter](../../paginated-reports/report-builder-parameters.md) zuweisen. Dieser Parameter schränkt die Daten ein, die aus dem Dataset abgerufen werden, bevor der Bericht eingebettet wird.
+Beim Anwenden der Sicherheit auf Zeilenebene auf einen paginierten Power BI-Bericht müssen Sie dem [UserID](../../paginated-reports/report-builder-parameters.md)-Attribut einen **Parameter** zuweisen. Dieser Parameter schränkt die Daten ein, die aus dem Dataset abgerufen werden, bevor der Bericht eingebettet wird.
 
 Verwenden Sie nach dem Zuweisen des Parameter zum **UserID**-Attribut die API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup), um das Token für die Einbettung zu erhalten.
 
