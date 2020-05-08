@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829050"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Festlegen der Größe des lokalen Datengateways
@@ -91,7 +91,7 @@ Schaffen Sie von vornherein die besten Voraussetzungen für die bestmögliche Ko
 
 ### <a name="clustering"></a>Clustering
 
-Bei großen Bereitstellungen können Sie ein Gateway von Clusterinstallationen erstellen. Mit Clustern lassen sich Single Points of Failure vermeiden. Außerdem können Sie einen gatewayübergreifenden Lastenausgleich für den Datenverkehr vornehmen. Ihre Möglichkeiten:
+Bei großen Bereitstellungen können Sie ein Gateway von Clusterinstallationen erstellen. Mit Clustern lassen sich Single Points of Failure vermeiden. Außerdem können Sie einen gatewayübergreifenden Lastenausgleich für den Datenverkehr vornehmen. Sie können:
 
 - Installieren von mindestens einem Gateway in einem Cluster
 - Auslagern von Workloads in eigenständige Gateways oder Cluster von Gatewayservern
@@ -126,10 +126,10 @@ Bei Liveverbindungsdatasets:
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Leitfaden zum Bereitstellen eines Datengateways für Power BI](../service-gateway-deployment-guidance.md)
-- [Konfigurieren von Proxyeinstellungen für das lokale Datengateway](/data-integration/gateway/service-gateway-proxy)
+- [Configure proxy settings for the on-premises data gateway (Konfigurieren von Proxyeinstellungen für das lokale Datengateway)](/data-integration/gateway/service-gateway-proxy)
 - [Überwachen und Optimieren der Leistung des lokalen Datengateways](/data-integration/gateway/service-gateway-performance)
 - [Lokales Datengateway – Power BI](../service-gateway-onprem-tshoot.md)
-- [Problembehandlung des lokalen Datengateways](/data-integration/gateway/service-gateway-tshoot)
+- [Problembehandlung für das lokale Datengateway](/data-integration/gateway/service-gateway-tshoot)
 - [Query Folding-Anleitung für Power BI Desktop](power-query-folding.md)
-- Fragen? [Fragen Sie die Power BI-Community](https://community.powerbi.com/)
+- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)

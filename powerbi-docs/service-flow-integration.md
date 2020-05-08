@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609696"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate und Power BI
@@ -90,7 +90,7 @@ In dieser Aufgabe erstellen wir einen einfachen Flow von Grund auf neu, der durc
 1. Wählen Sie in der Dropdownliste den Namen der Warnung aus.  Informationen zum Erstellen einer Warnung finden Sie unter [Datenwarnungen in Power BI](service-set-data-alerts.md).
    
     ![Namen der Warnung auswählen](media/service-flow-integration/power-bi-totalstores2.png)
-2. Wählen Sie **Neuer Schritt** > **Aktion hinzufügen**.
+2. Wählen Sie **Neuer Schritt** > **Aktion hinzufügen** aus.
    
    ![Neuen Schritt hinzufügen](media/service-flow-integration/power-bi-new-step.png)
 3. Suchen Sie nach **Outlook**, und wählen Sie **Ereignis erstellen** aus.
@@ -101,12 +101,12 @@ In dieser Aufgabe erstellen wir einen einfachen Flow von Grund auf neu, der durc
    ![Fortfahren mit dem Erstellen des Flows](media/service-flow-integration/power-bi-flow-event.png)
 5. Wählen Sie zum Abschluss **Flow erstellen** aus.  Power Automate speichert den Flow und wertet ihn aus. Wenn keine Fehler vorliegen, wählen Sie **Fertig** aus, um diesen Flow auszuführen.  Der neue Flow wird der Seite **Meine Flüsse** hinzugefügt.
    
-   ![Flow abschließen](media/service-flow-integration/power-bi-flow-running.png)
+   ![Abschließen des Flows](media/service-flow-integration/power-bi-flow-running.png)
 6. Wenn der Flow durch die Power BI-Datenwarnung ausgelöst wird, erhalten Sie eine ähnliche Outlook-Ereignisbenachrichtigung wie die folgende.
    
     ![Power Automate löst eine Outlook-Benachrichtig aus](media/service-flow-integration/power-bi-flow-notice.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erste Schritte mit Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [Festlegen von Datenwarnungen im Power BI-Dienst](service-set-data-alerts.md)
 * [Festlegen von Datenwarnungen auf dem iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

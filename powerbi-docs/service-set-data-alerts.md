@@ -11,10 +11,10 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621630"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Datenwarnungen im Power BI-Dienst
@@ -75,7 +75,7 @@ Als Nächstes sendet Power BI eine Warnung an Ihre **Mitteilungszentrale** und o
     ![Warnung lesen](media/service-set-data-alerts/powerbi-alert-notification.png)
 
    > [!NOTE]
-   > Warnungen funktionieren nur bei aktualisierten Daten. Wenn Daten aktualisiert werden, überprüft Power BI, ob eine Warnung für diese Daten festgelegt ist. Wenn die Daten einen Warnungsschwellenwert erreicht haben, löst Power BI eine Warnung aus.
+   > Warnungen erfolgen nur bei aktualisierten Daten. Wenn Daten aktualisiert werden, überprüft Power BI, ob eine Warnung für diese Daten festgelegt ist. Wenn die Daten einen Warnungsschwellenwert erreicht haben, löst Power BI eine Warnung aus.
 
 ## <a name="managing-alerts"></a>Verwalten von Warnungen
 
@@ -123,7 +123,7 @@ Es gibt viele Möglichkeiten zum Verwalten von Warnungen:
 * Für Streamingdatasets können Warnungen nur erfolgen, wenn Sie ein KPI-, Karten- oder Messgerät-Berichtsvisual erstellen, und dieses dann an das Dashboard anheften.
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Erstellen Sie einen Flow in Power Automate, der eine Datenwarnung enthält.](service-flow-integration.md)
 

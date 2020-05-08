@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889349"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion)
+# <a name="configure-workspace-dataflow-settings-preview"></a>Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschau)
 
 Mithilfe von Power BI und Dataflows können Sie die Dataflowdefinitionsdatei eines Arbeitsbereichs sowie dessen Datendateien in Ihrem Azure Data Lake Storage Gen2-Konto speichern. Administratoren von Arbeitsbereichen können Power BI entsprechend konfigurieren. In diesem Artikel erhalten Sie die dafür notwendigen Informationen. 
 
@@ -58,7 +58,7 @@ Als Alternative zum Erstellen eines neuen Arbeitsbereichs können Sie auch einen
 
 Sie können einen Arbeitsbereich bearbeiten, indem Sie auf die Auslassungspunkte **(…)** und dann auf **Edit workspace** (Arbeitsbereich bearbeiten) klicken. 
 
-![Arbeitsbereich bearbeiten](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
+![Bearbeiten des Arbeitsbereichs](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
 Erweitern Sie **Erweitert** im Fenster **Arbeitsbereich bearbeiten**, und ändern Sie die Einstellung für **Dataflowspeicher (Vorschauversion)** in **Ein**. 
 
@@ -109,7 +109,7 @@ Benutzer von **Power BI Desktop** haben nur Zugriff auf Dataflows, die in einem 
     ![Fehlermeldung beim Versuch, Dataflow zu nutzen](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In diesem Artikel haben Sie eine Anleitung dafür erhalten, wie Sie den Speicher eines Arbeitsbereichs für Dataflows konfigurieren können. Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -117,7 +117,7 @@ Weitere Informationen zu Dataflows, CDM und Azure Data Lake Storage Gen2 finden 
 
 * [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 * [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md)
-* [Verbinden von Azure Data Lake Storage Gen2 zur Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Allgemeine Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 
@@ -128,10 +128,10 @@ Allgemeine Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 
 Weitere Informationen zu Azure Storage finden Sie in den folgenden Artikeln:
 
-* [Azure Storage-Sicherheitsleitfaden](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage security guide (Azure Storage Sicherheitsleitfaden)](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 * [Erste Schritte mit GitHub-Beispielen aus Azure Data Services](https://aka.ms/cdmadstutorial)
 
-Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
 
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 * [CDM folders (CDM-Ordner)](https://go.microsoft.com/fwlink/?linkid=2045304)

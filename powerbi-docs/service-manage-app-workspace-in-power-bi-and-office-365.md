@@ -10,10 +10,10 @@ ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78237843"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Verwalten von Arbeitsbereichen in Power BI und Office 365
@@ -51,7 +51,7 @@ Sie benötigen eine [Power BI Pro](service-features-license-type.md)-Lizenz, dam
 
    ![Dialogfeld „Arbeitsbereich bearbeiten“](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 
-1. Wählen Sie **Speichern** oder **Abbrechen**aus.
+1. Wählen Sie **Speichern** oder **Abbrechen** aus.
 
 ## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Bearbeiten von Eigenschaften des Power BI-Arbeitsbereichs in Office 365
 
@@ -82,7 +82,7 @@ Wenn Sie Ihre App über den Arbeitsbereich verteilen, ist das Bild, das Sie hier
 
 1. Wählen Sie **Speichern** oder **Verwerfen**.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Veröffentlichen einer App in Power BI](service-create-distribute-apps.md)
 

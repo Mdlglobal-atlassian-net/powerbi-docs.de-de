@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
 ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079368"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referenz für Power BI-REST-API
@@ -23,11 +23,11 @@ Power BI ist ein cloudbasierter Dienst, den Sie zum Erstellen einer benutzerdefi
 * Berichte
 * Gateways
 
-Die Power BI-REST-API bietet die folgenden Vorgänge:
+Die Power BI-REST-API bietet die folgenden Vorgänge:
 
-* Datasetvorgänge: Abrufen und Erstellen von Datasets.
+* Dataset-Vorgänge: Abrufen und Erstellen von Datasets.
 * Tabellenvorgänge: Abrufen von Tabellen und Aktualisieren des Tabellenschemas.
-* Zeilenvorgänge: Hinzufügen und Löschen von Zeilen.
+* Zeilenvorgänge: Hinzufügen von Zeilen und Löschen von Zeilen.
 * Gruppenvorgänge: Abrufen von Gruppen.
 
 Weitere Informationen finden Sie im Artikel zur [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/).

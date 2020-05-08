@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381466"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
@@ -27,7 +27,7 @@ Im Power BI-Bereich „Visualisierungen“ stehen viele verschiedene Visualtypen
 
 ![Bereich mit Symbolen für jeden Visualisierungstyp](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Eine noch größere Auswahl finden Sie auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com). Dort können Sie [Power BI-Visuals](../developer/visuals/custom-visual-develop-tutorial.md) suchen und [herunterladen](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die von Microsoft und der Community bereitgestellt werden.
+Eine noch größere Auswahl finden Sie auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com). Dort können Sie [Power BI-Visuals](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) suchen und [herunterladen](../developer/visuals/custom-visual-develop-tutorial.md), die von Microsoft und der Community bereitgestellt werden.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -67,7 +67,7 @@ Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie im Power BI-
 
 - Der obere Grenzwert für Visuals liegt bei 100 Feldern (Measures oder Spalten). Reduzieren Sie die Anzahl der Felder, wenn das Laden des Visuals fehlschlägt.   
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Power BI-Visuals](../developer/visuals/power-bi-custom-visuals.md)

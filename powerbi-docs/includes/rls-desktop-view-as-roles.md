@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 8dc488a47ac2b5b4e7980b7404b2722b1120b6ab
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464386"
 ---
 ## <a name="validate-the-roles-within-power-bi-desktop"></a>Überprüfen der Rollen in Power BI Desktop
@@ -29,7 +29,7 @@ Nachdem Sie Ihre Rollen erstellt haben, können Sie die Ergebnisse der Rollen in
 
    In Power BI Desktop zeigt die Option **Anderer Benutzer** nur dann unterschiedliche Ergebnisse an, wenn Sie die dynamische Sicherheit auf Ihren DAX-Ausdrücken basierend verwenden. 
 
-5. Wählen Sie **OK** aus. 
+5. Klicken Sie auf **OK**. 
 
    Die Berichte werden auf Grundlage dessen gerendert, was dem Benutzer angezeigt wird.
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
 ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76819512"
 ---
 # <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Konformität der PDF-Renderingerweiterung mit ISO 14289-1 – Power BI-Berichtsserver & SSRS
@@ -24,21 +24,21 @@ Dieses Dokument beschreibt die Konformität der PDF-Renderingerweiterung von Pow
 > [!NOTE]
 > Sie können dieses Whitepaper speichern oder ausdrucken, indem Sie in Ihrem Browser erst auf **Drucken** und dann auf **Als PDF speichern** klicken.
 
-## <a name="1--scope"></a>1.  `Scope`
+## <a name="1--scope"></a>1.  Bereich
 
-Nicht verfügbar
+Nicht zutreffend
 
 ## <a name="2--normative-references"></a>2.  Normative Verweise
 
-Nicht verfügbar
+Nicht zutreffend
 
 ## <a name="3--terms-and-definitions"></a>3.  Bedingungen und Definitionen
 
-Nicht verfügbar
+Nicht zutreffend
 
 ## <a name="4--notation"></a>4.  Notation
 
-Nicht verfügbar
+Nicht zutreffend
 
 ## <a name="5-version-identification"></a>5. Versionsidentifikation
 
@@ -94,11 +94,11 @@ Sämtliche Informationen in diesem Dokument basierend auf dem Rendering eines PD
 
 ## <a name="8--conforming-reader-requirements"></a>8.  Anforderungen an einen konformen Reader
 
-Nicht verfügbar
+Nicht zutreffend
 
 ## <a name="9--at-requirements"></a>9.  AT-Anforderungen
 
-Nicht verfügbar
+Nicht zutreffend
 
 ## <a name="disclaimer"></a>Disclaimer
 
@@ -112,5 +112,5 @@ This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES,
 ## <a name="next-steps"></a>Nächste Schritte
 [Administratorübersicht](admin-handbook-overview.md)  
 
-Haben Sie dazu Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

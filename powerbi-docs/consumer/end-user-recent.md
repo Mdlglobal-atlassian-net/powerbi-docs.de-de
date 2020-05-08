@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114356"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Suchen von **zuletzt verwendeten** Inhalten im Power BI-Dienst
@@ -52,7 +52,7 @@ Die Aktionen, die Ihnen zur Verfügung stehen, hängen von den Einstellungen ab,
     ![Alle zuletzt verwendeten Inhalte sortieren](./media/end-user-recent/power-bi-recent-sort.png)
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Apps im Power BI-Dienst](end-user-apps.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260713"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Datenquellen für paginierte Berichte auf dem Power BI-Berichtsserver
@@ -36,7 +36,7 @@ Zum Aktivieren des Features ändern Sie den Eintrag für die ORACLE-Erweiterung 
 </Extension>
 ```
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Da Sie nun eine Verbindung mit der Datenquelle hergestellt haben, können Sie [einen paginierten Bericht erstellen](quickstart-create-paginated-report.md).  
 
 

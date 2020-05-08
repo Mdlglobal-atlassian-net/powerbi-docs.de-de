@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381259"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Hinzufügen von Links (URLs) zu einer Tabelle oder Matrix
@@ -92,7 +92,7 @@ Sie können auch ein anderes Feld in einer Tabelle als Link formatieren und kein
     ![Bedingte Formatierung, Web-URL](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
 
     > [!NOTE]
-    > Wenn die Option **Web-URL** nicht angezeigt wird, stellen Sie sicher, dass die Spalte, die den Link enthält, im Dropdownfeld **Datenkategorie** *nicht* als **Web-URL**formatiert ist.
+    > Wenn die Option **Web-URL** nicht angezeigt wird, stellen Sie sicher, dass die Spalte, die den Link enthält, im Dropdownfeld *Datenkategorie* **nicht** als **Web-URL**formatiert ist.
 
 5. Wählen Sie im Dialogfeld **Web-URL** unter **Basierend auf Feld** das Feld aus, das die URL enthält, und klicken Sie auf **OK**.
 
@@ -121,7 +121,7 @@ Sie können Ihren Power BI-Tabellen und -Matrizen auch Hyperlinks hinzufügen, i
    > URLs müssen mit bestimmten Präfixen beginnen. Eine vollständige Liste finden Sie unter [Zu beachtende Aspekte und Problembehandlung](#considerations-and-troubleshooting).
    > 
    
-5. Wählen Sie in der Gruppe **Berichtseigenschaften** die Dropdownliste **Datenkategorie** und wählen Sie dann **Web-URL**aus. 
+5. Wählen Sie in der Gruppe **Berichtseigenschaften** die Dropdownliste **Datenkategorie** und wählen Sie dann **Web-URL** aus. 
    
    ![Dropdownliste „Datenkategorie“ in Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
@@ -145,7 +145,7 @@ F: Kann ich eine benutzerdefinierte URL als Link in einer Tabelle oder Matrix ve
 A: Nein. Sie können ein Linksymbol verwenden. Wenn Sie benutzerdefinierten Text für Ihre Links benötigen und die Liste der URLs kurz ist, sollten Sie stattdessen ein Textfeld verwenden.
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Visualisierungen in Power BI-Berichten](visuals/power-bi-report-visualizations.md)
 
 [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)

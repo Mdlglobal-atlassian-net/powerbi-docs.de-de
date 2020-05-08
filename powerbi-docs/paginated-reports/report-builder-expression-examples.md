@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921146"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Beispiele für Ausdrücke im Power BI-Berichts-Generator
@@ -34,11 +34,11 @@ Dieses Thema enthält Beispiele für Ausdrücke, die für allgemeine Aufgaben in
   
 Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendungsbereiche der Ausdrücke, und die Arten von Verweisen, die Sie in einen Ausdruck aufnehmen können, finden Sie in den Themen unter [Ausdrücken in Power BI-Berichts-Generator](report-builder-expressions.md). 
   
-## <a name="functions"></a>Funktionen  
+## <a name="functions"></a>Functions  
  Viele Ausdrücke in einem Bericht enthalten Funktionen. Sie können Daten formatieren, Logik anwenden und mit diesen Funktionen auf Berichtsmetadaten zugreifen. Sie können Ausdrücke schreiben, die Funktionen aus der Microsoft Visual Basic-Laufzeitbibliothek sowie aus den Namespaces `xref:System.Convert` und `xref:System.Math` verwenden. Sie können Verweise auf Funktionen in benutzerdefiniertem Code hinzufügen. Sie können auch Klassen aus Microsoft .NET Framework verwenden, wie z.B. `xref:System.Text.RegularExpressions`.  
   
-##  <a name="VisualBasicFunctions"></a> Visual Basic-Funktionen  
- Mit Visual Basic-Funktionen können Sie die Daten bearbeiten, die in Textfeldern angezeigt werden, oder die für Parameter, Eigenschaften oder andere Bereichen des Berichts verwendet werden. Dieser Abschnitt enthält Beispiele zur Veranschaulichung einiger dieser Funktionen. Weitere Informationen finden Sie unter [Member der Visual Basic-Laufzeitbibliothek](https://go.microsoft.com/fwlink/?LinkId=198941) auf MSDN.  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic-Funktionen  
+ Mit Visual Basic-Funktionen können Sie die Daten bearbeiten, die in Textfeldern angezeigt werden, oder die für Parameter, Eigenschaften oder andere Bereichen des Berichts verwendet werden. Dieser Abschnitt enthält Beispiele zur Veranschaulichung einiger dieser Funktionen. Weitere Informationen finden Sie unter [Member der Visual Basic-Laufzeitbibliothek](https://go.microsoft.com/fwlink/?LinkId=198941) bei MSDN.  
   
  Das .NET Framework bietet viele benutzerdefinierte Formatoptionen, z.B. für bestimmte Datumsformate. Weitere Informationen finden Sie unter [Formatierung von Typen](/dotnet/standard/base-types/formatting-types).  
   
@@ -56,9 +56,9 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> Datumsfunktionen  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> Datumsfunktionen  
   
--   Die Funktion **Today** stellt das aktuelle Datum bereit. Dieser Ausdruck kann in einem Textfeld verwendet werden, um das Datum im Bericht anzuzeigen, oder in einem Parameter, um Daten nach dem aktuellen Datum zu filtern.  
+-   Die Funktion **Today** stellt das aktuelle Datum bereit. Mit diesem Ausdruck können Sie in einem Textfeld das Datum im Bericht anzeigen oder aber in einem Parameter Daten basierend auf dem aktuellen Datum filtern.  
   
     ```  
     =Today()  
@@ -89,7 +89,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =DateAdd(DateInterval.Month, 6, Parameters!StartDate.Value)  
     ```  
   
--   Die Funktion **Year** zeigt das Jahr für ein bestimmtes Datum an. Hiermit können Sie Datumsangaben zusammenfassen oder die Jahreszahl für eine Datumsgruppe anzeigen. Dieser Ausdruck gibt das Jahr für eine bestimmte Gruppe von Bestelldaten an. Die Funktion **Month** und andere Funktionen können ebenfalls zum Bearbeiten von Daten verwendet werden. Weitere Informationen finden Sie in der Visual Basic-Dokumentation.  
+-   Die **Year** -Funktion zeigt das Jahr für ein bestimmtes Datum an. Hiermit können Sie Datumsangaben zusammenfassen oder die Jahreszahl für eine Datumsgruppe anzeigen. Dieser Ausdruck liefert das Jahr für eine bestimmte Gruppe von Bestelldaten. Die Funktion **Month** und andere Funktionen können ebenfalls zum Bearbeiten von Daten verwendet werden. Weitere Informationen finden Sie in der Visual Basic-Dokumentation.  
   
     ```  
     =Year(Fields!OrderDate.Value)  
@@ -117,7 +117,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =FORMAT(Fields!SellStartDate.Value, "dd/MM/yyyy")  
     ```  
   
--   Die Funktion **CDate** konvertiert den Wert in ein Datum. Die Funktion **Now** gibt einen Datumswert zurück, der das aktuelle Datum und die aktuelle Uhrzeit laut Ihrem System enthält. **DateDiff** gibt einen Long-Wert zurück, der die Anzahl der Zeitintervalle zwischen zwei Datumswerten angibt.  
+-   Die Funktion **CDate** konvertiert den Wert in ein Datum. Die **Now** -Funktion gibt einen Datumswert zurück, der das aktuelle Datum und die aktuelle Uhrzeit des Systems enthält. **DateDiff** gibt einen Long-Wert zurück, der die Anzahl der Zeitintervalle zwischen zwei Datumswerten angibt.  
   
      Das folgende Beispiel zeigt das Startdatum des aktuellen Jahres an.  
   
@@ -161,9 +161,9 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
 |Vor einem Jahr|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |Vor zwei Jahren|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> Zeichenfolgenfunktion  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> Zeichenfolgenfunktion  
   
--   Kombinieren Sie mehr als ein Feld, indem Sie Verkettungsoperatoren und Visual Basic-Konstanten verwenden. Der folgende Ausdruck gibt zwei Felder in jeweils einer separaten Zeile im gleichen Textfeld zurück:  
+-   Kombinieren Sie mehr als ein Feld, indem Sie Verkettungsoperatoren und Visual Basic-Konstanten verwenden. Der folgende Ausdruck gibt zwei Felder zurück, die sich jeweils in einer eigenen Zeile in demselben Textfeld befinden.  
   
     ```  
     =Fields!FirstName.Value & vbCrLf & Fields!LastName.Value   
@@ -189,13 +189,13 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Parameters!User.Value.Substring(Parameters!User.Value.IndexOf("\")+1, Parameters!User.Value.Length-Parameters!User.Value.IndexOf("\")-1)  
     ```  
   
--   Sie können die ausgewählten Werte aus einem mehrwertigen Parameter anzeigen. Das folgende Beispiel verwendet die Funktion **Join**, um die ausgewählten Werte des Parameters *MySelection* zu einer einzelnen Zeichenfolge zu verketten, die als Ausdruck für den Wert eines Textfeldes in einem Berichtselement festgelegt werden kann:  
+-   Die ausgewählten Werte aus einem mehrwertigen Parameter können angezeigt werden. Das folgende Beispiel verwendet die Funktion **Join**, um die ausgewählten Werte des Parameters *MySelection* zu einer einzelnen Zeichenfolge zu verketten, die als Ausdruck für den Wert eines Textfeldes in einem Berichtselement festgelegt werden kann:  
   
     ```  
     = Join(Parameters!MySelection.Value)  
     ```  
   
-     Das folgende Beispiel ergibt das gleiche Ergebnis wie das obige Beispiel, und zeigt zudem eine Textzeichenfolge vor der Liste der ausgewählten Werte an.  
+     Das folgende Beispiel hat die gleiche Funktion wie das Beispiel oben und zeigt darüber hinaus vor der Liste der ausgewählten Werte eine Textzeichenfolge an:  
   
     ```  
     ="Report for " & JOIN(Parameters!MySelection.Value, " & ")  
@@ -211,7 +211,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     > [!NOTE]  
     >  Vergewissern Sie sich, dass der Wert für „Fields!Phone.Value“ keine zusätzlichen Leerzeichen enthält und vom Typ `xref:System.String` ist.  
   
-### <a name="lookup"></a>Lookup  
+### <a name="lookup"></a>Nachschlagen  
   
 -   Durch die Angabe eines Schlüsselfeldes können Sie mit der Funktion **Lookup** einen Wert aus einem Dataset für eine 1:1-Beziehung abrufen, z.B. ein Schlüssel-Wert-Paar. Der folgende Ausdruck zeigt den Produktnamen aus einem Dataset („Product“) an, wenn der Produktbezeichner übereinstimmt:  
   
@@ -227,7 +227,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> Konvertierungsfunktionen  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> Konvertierungsfunktionen  
  Mit den Visual Basic-Funktionen können Sie ein Feld des einen Datentyps in einen anderen Datentyp konvertieren. Mit Hilfe von Konvertierungsfunktionen kann der Standarddatentyp für ein Feld in den für Berechnungen erforderlichen Datentyp konvertiert oder Text kombiniert werden.  
   
 -   Der folgende Ausdruck konvertiert die Konstante „500“ in den Typ „Decimal“, um sie mit einem Datentyp „Transact-SQL money“ im Feld „Value“ für einen Filterausdruck zu vergleichen.  
@@ -242,7 +242,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> Entscheidungsfunktionen  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Entscheidungsfunktionen  
   
 -   Die Funktion **Iif** gibt einen von zwei Werten zurück, je nachdem, ob der Ausdruck wahr ist oder nicht. Der folgende Ausdruck verwendet die Funktion **Iif**, um einen booleschen Wert von **True** zurückzugeben, wenn der Wert von `LineTotal` 100 überschreitet. Andernfalls wird **False** zurückgegeben:  
   
@@ -272,7 +272,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   Mit dem Ausdruck wird der Wert des Felds `PhoneNumber` geprüft und „No Value“ zurückgegeben, wenn er **NULL** (**Nothing** in Visual Basic) ist. Andernfalls wird der Wert der Telefonnummer zurückgegeben. Dieser Ausdruck kann verwendet werden, um den Wert eines Textfeldes in einem Berichtselement zu steuern.  
+-   Mit dem Ausdruck wird der Wert des Felds `PhoneNumber` geprüft und „No Value“ zurückgegeben, wenn er **NULL** (**Nothing** in Visual Basic) ist. Andernfalls wird der Wert der Telefonnummer zurückgegeben. Mit diesem Ausdruck kann der Wert eines Textfelds in einem Berichtselement gesteuert werden.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
@@ -284,7 +284,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
     ```  
   
--   Der Ausdruck prüft, ob ein Feldwert Null ist. Dieser Ausdruck kann verwendet werden, um die Eigenschaft **Hidden** eines Bildberichtselements zu steuern. Im folgenden Beispiel wird das durch das Feld [LargePhoto] angegebene Bild nur angezeigt, wenn der Wert des Feldes nicht Null ist.  
+-   Prüft, ob ein Feldwert NULL ist. Dieser Ausdruck kann verwendet werden, um die Eigenschaft **Hidden** eines Bildberichtselements zu steuern. Im folgenden Beispiel wird das durch das Feld [LargePhoto] angegebene Bild nur angezeigt, wenn der Wert des Feldes nicht Null ist.  
   
     ```  
     =IIF(IsNothing(Fields!LargePhoto.Value),True,False)  
@@ -297,10 +297,10 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
   
     ```  
   
-##  <a name="ReportFunctions"></a> Berichtsfunktionen  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> Berichtsfunktionen  
  In einem Ausdruck können Sie einen Verweis auf zusätzliche Berichtsfunktionen hinzufügen, die Daten in einem Bericht bearbeiten. Dieser Abschnitt enthält Beispiele für zwei dieser Funktionen. 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
 -   Die Funktion **Sum** kann die Werte in einer Gruppe oder einem Datenbereich addieren. Diese Funktion kann in der Kopf- oder Fußzeile einer Gruppe nützlich sein. Der folgende Ausdruck zeigt die Summe der Daten in der Gruppe oder im Datenbereich „Order“ an:  
   
@@ -308,26 +308,26 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Sum(Fields!LineTotal.Value, "Order")  
     ```  
   
--   Sie können die Funktion **Sum** auch für bedingte Aggregatberechnungen verwenden. Wenn ein Dataset beispielsweise ein Feld mit dem Namen „State“ mit den möglichen Werten „Not Started“, „Started“, „Finished“ enthält, berechnet der folgende Ausdruck, wenn er in eine Gruppenkopfzeile platziert wird, die aggregierte Summe nur für den Wert „Finished“:  
+-   Sie können die Funktion **Sum** auch für bedingte Aggregatberechnungen verwenden. Wenn ein Dataset ein Feld mit dem Namen State und den möglichen Werten Not Started, Started und Finished enthält, wird mit dem folgenden Ausdruck die Aggregatsumme bei Platzierung in einem Gruppenheader nur für den Wert Finished berechnet:  
   
     ```  
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   Die Funktion **RowNumber** zeigt bei Verwendung in einem Textfeld innerhalb eines Datenbereichs die Zeilennummer für jede Instanz des Textfelds an, in dem der Ausdruck erscheint. Diese Funktion kann für die Nummerierung von Zeilen in einer Tabelle verwendet werden. Sie kann auch für komplexere Aufgaben sinnvoll sein, wie z.B. das Bereitstellen von Seitenumbrüchen basierend auf der Anzahl der Zeilen. Weitere Informationen finden Sie unter [Seitenumbrüche](#PageBreaks) in diesem Thema.  
   
-     Der Bereich, den Sie für **RowNumber** angeben, steuert, wann die Neunummerierung beginnt. Das Schlüsselwort **Nothing** zeigt an, dass die Funktion mit dem Zählen in der ersten Zeile im äußersten Datenbereich beginnt. Um die Zählung innerhalb verschachtelter Datenbereiche zu starten, verwenden Sie den Namen des Datenbereichs. Um die Zählung innerhalb einer Gruppe zu starten, verwenden Sie den Namen der Gruppe.  
+     Der Bereich, den Sie für **RowNumber** -Steuerelemente angeben, wenn die Neunumerierung beginnt. Das Schlüsselwort **Nothing** zeigt an, dass die Funktion mit dem Zählen in der ersten Zeile im äußersten Datenbereich beginnt. Um die Zählung innerhalb verschachtelter Datenbereiche zu starten, verwenden Sie den Namen des Datenbereichs. Um die Zählung innerhalb einer Gruppe zu starten, verwenden Sie den Namen der Gruppe.  
   
     ```  
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> Darstellung von Berichtsdaten  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> Darstellung von Berichtsdaten  
  Mit Ausdrücken können Sie bearbeiten, wie Daten in einem Bericht angezeigt werden. Beispielsweise können Sie die Werte von zwei Feldern in einem einzigen Textfeld anzeigen, Informationen über den Bericht anzeigen oder bestimmen, wie Seitenumbrüche in den Bericht eingefügt werden.  
   
-###  <a name="PageHeadersandFooters"></a> Kopf- und Fußzeilen für Seiten  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> Kopf- und Fußzeilen für Seiten  
  Wenn Sie einen Bericht erstellen, können Sie den Namen des Berichts und die Seitennummer in der Fußzeile des Berichts anzeigen. Dafür können Sie die folgenden Ausdrücke verwenden:  
   
 -   Der folgende Ausdruck gibt den Namen des Berichts und die Uhrzeit seiner Ausführung an. Er kann in ein Textfeld in der Fußzeile des Berichts oder im Textkörper des Berichts eingefügt werden. Die Uhrzeit wird mit der Formatierungszeichenfolge von .NET Framework für das kurze Datum formatiert:  
@@ -342,7 +342,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Globals.PageNumber & " of " & Globals.TotalPages  
     ```  
   
- Die folgenden Beispiele beschreiben, wie Sie den ersten und letzten Wert einer Seite in der Kopfzeile der Seite anzeigen können, ähnlich wie bei einer Verzeichnisliste. Das Beispiel geht von einem Datenbereich aus, der ein Textfeld mit dem Namen `LastName` enthält.  
+ Die folgenden Beispiele beschreiben, wie Sie den ersten und letzten Wert einer Seite in der Kopfzeile der Seite anzeigen können, ähnlich wie bei einer Verzeichnisliste. Im Beispiel wird angenommen, dass der Datenbereich ein Textfeld mit dem Namen `LastName` enthält.  
   
 -   Der folgende Ausdruck, der in einem Textfeld auf der linken Seite des Kopfzeile der Seiten eingefügt wird, gibt den ersten Wert des `LastName`-Textfelds auf der Seite an:  
   
@@ -367,7 +367,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
 > [!NOTE]  
 >  Sie können nur auf ein Berichtselement pro Ausdruck in einer Kopf- oder Fußzeile einer Seite verweisen. Sie können in Kopf- und Fußzeilenausdrücken einer Seite auch auf den Namen des Textfeldes verweisen, aber nicht auf den eigentlichen Datenausdruck innerhalb des Textfeldes.  
   
-###  <a name="PageBreaks"></a> Seitenumbrüche  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> Seitenumbrüche  
  In einigen Berichten möchten Sie möglicherweise einen Seitenumbruch am Ende einer bestimmten Anzahl von Zeilen anstelle von oder zusätzlich zu Gruppen oder Berichtselementen einfügen. Erstellen Sie dazu eine Gruppe, die die gewünschten Gruppen oder Datensätze enthält, fügen Sie der Gruppe einen Seitenumbruch hinzu, und fügen Sie dann einen Gruppenausdruck zur Gruppe anhand einer bestimmten Anzahl von Zeilen hinzu.  
   
 -   Wenn der folgende Ausdruck im Gruppenausdruck eingefügt wird, weist er jedem Satz von 25 Zeilen eine Nummer zu. Wenn für die Gruppe ein Seitenumbruch definiert ist, wird durch diesen Ausdruck alle 25 Zeilen ein Seitenumbruch erzeugt.  
@@ -382,10 +382,10 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> Eigenschaften  
+##  <a name="properties"></a><a name="Properties"></a> Eigenschaften  
  Ausdrücke werden nicht nur zum Anzeigen von Daten in Textfeldern verwendet. Sie können auch verwendet werden, um die Anwendung von Eigenschaften auf Berichtselemente zu ändern. Sie können Stilinformationen für ein Berichtselement oder seine Sichtbarkeit ändern.  
   
-###  <a name="Formatting"></a> Formatierung  
+###  <a name="formatting"></a><a name="Formatting"></a> Formatierung  
   
 -   Der folgende Ausdruck ändert bei Verwendung in der Eigenschaft „Color“ eines Textfelds die Farbe des Textes in Abhängigkeit vom Wert des Feldes `Profit`:  
   
@@ -415,8 +415,8 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
 ### <a name="chart-colors"></a>Diagrammfarben  
  Um Farben für ein Formdiagramm festzulegen, können Sie mit benutzerdefiniertem Code die Reihenfolge steuern, in der Farben den Datenpunktwerten zugeordnet werden. Auf diese Weise können Sie konsistente Farben für mehrere Diagramme mit gleichen Kategoriegruppen verwenden. 
   
-###  <a name="Visibility"></a> Sichtbarkeit  
- Sie können Elemente in einem Bericht über die Sichtbarkeitseigenschaften des Berichtselements ein- und ausblenden. In einem Datenbereich wie einer Tabelle können Sie Detailzeilen zunächst basierend auf dem Wert in einem Ausdruck ausblenden.  
+###  <a name="visibility"></a><a name="Visibility"></a> Sichtbarkeit  
+ Berichtselemente können mithilfe der Sichtbarkeitseigenschaften ein- und ausgeblendet werden. In einem Datenbereich wie einer Tabelle können Sie Detailzeilen zunächst basierend auf dem Wert in einem Ausdruck ausblenden.  
   
 -   Wenn der folgende Ausdruck für die ursprüngliche Sichtbarkeit von Detailzeilen in einer Gruppe verwendet wird, werden die Detailzeilen für alle Umsätze angezeigt, die im `PctQuota`-Feld den Wert 90 % übersteigen:  
   
@@ -424,7 +424,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Iif(Fields!PctQuota.Value>.9, False, True)  
     ```  
   
--   Wenn der folgende Ausdruck in der Eigenschaft „Hidden“ einer Tabelle angegeben wird, wird die Tabelle nur angezeigt, wenn sie mehr als 12 Zeilen hat:  
+-   Wenn der folgende Ausdruck in der Hidden-Eigenschaft einer Tabelle festgelegt ist, wird die Tabelle mithilfe des Ausdrucks nur angezeigt, wenn sie mehr als 12 Zeilen enthält:  
   
     ```  
     =IIF(CountRows()>12,false,true)  
@@ -436,7 +436,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URLs  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URLs  
  Sie können URLs mithilfe von Berichtsdaten anpassen und außerdem bedingt steuern, ob URLs als Aktion für ein Textfeld hinzugefügt werden.  
   
 -   Wenn der folgende Ausdruck als Aktion auf einem Textfeld verwendet wird, wird eine benutzerdefinierte URL generiert, die das Datasetfeld `EmployeeID` als URL-Parameter angibt.  
@@ -445,16 +445,16 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     ="https://adventure-works/MyInfo?ID=" & Fields!EmployeeID.Value  
     ```  
   
--   Der folgende Ausdruck steuert bedingt, ob eine URL in ein Textfeld hinzugefügt werden soll. Dieser Ausdruck hängt von einem Parameter namens `IncludeURLs` ab, mit dem ein Benutzer entscheiden kann, ob aktive URLs in einen Bericht aufgenommen werden sollen. Dieser Ausdruck wird als eine Aktion in einem Textfeld festgelegt. Indem Sie den Parameter auf „False“ festlegen und dann den Bericht anzeigen, können Sie den Bericht ohne Hyperlinks in Microsoft Excel exportieren.  
+-   Der folgende Ausdruck steuert bedingt, ob eine URL in einem Textfeld hinzugefügt wird. Dieser Ausdruck hängt von einem Parameter namens `IncludeURLs` ab, mit dem ein Benutzer entscheiden kann, ob aktive URLs in einen Bericht aufgenommen werden sollen. Dieser Ausdruck wird als eine Aktion in einem Textfeld festgelegt. Indem Sie den Parameter auf FALSE festlegen und dann den Bericht anzeigen, können Sie den Bericht ohne Links nach Microsoft Excel exportieren.  
   
     ```  
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> Berichtsdaten  
+##  <a name="report-data"></a><a name="ReportData"></a> Berichtsdaten  
  Mit Ausdrücken können die im Bericht verwendeten Daten bearbeitet werden. Sie können auf Parameter und sonstige Berichtsinformationen verweisen. Es ist sogar möglich, die Abfrage zu ändern, mit der Daten für den Bericht abgerufen werden.  
   
-###  <a name="Parameters"></a> Parameter  
+###  <a name="parameters"></a><a name="Parameters"></a> Parameter  
  Ausdrücke können in einem Parameter verwendet werden, um den Standardwert für den Parameter zu ändern. Beispielsweise können Sie mithilfe eines Parameters Daten nach einem bestimmten Benutzer basierend auf der Benutzer-ID filtern, mit der der Bericht ausgeführt wird.  
   
 -   Wenn der folgende Ausdruck als Standardwert für einen Parameter verwendet wird, wird die Benutzer-ID der Person abgerufen, die den Bericht ausführt:  
@@ -475,14 +475,14 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> Benutzerdefinierter Code  
+##  <a name="custom-code"></a><a name="CustomCode"></a> Benutzerdefinierter Code  
  Sie können in einem Bericht eingebetteten benutzerdefinierten Code verwenden. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Verwenden von Gruppenvariablen für benutzerdefinierte Aggregation  
  Sie können den Wert für eine Gruppenvariable initialisieren, die zu einem bestimmten Gruppenbereich lokal ist, und anschließend einen Verweis auf diese Variable in den Ausdrücken einbinden. Eine der Methoden, wie Sie eine Gruppenvariable mit benutzerdefiniertem Code verwenden können, besteht darin, ein benutzerdefiniertes Aggregat zu implementieren. 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>Unterdrücken von NULL oder 0 zur Laufzeit  
- Einige Werte in einem Ausdruck können zur Berichtsverarbeitungszeit mit NULL oder „nicht definiert“ ausgewertet werden. Dies kann zu Laufzeitfehlern und zur Anzeige von **#Error** im Textfeld anstelle des ausgewerteten Ausdrucks führen. Die **IIF**-Funktion ist für dieses Verhalten besonders empfindlich, da im Gegensatz zu einer If-Then-Else-Anweisung jeder Teil der **IIF** -Anweisung (einschließlich Funktionsaufrufe) ausgewertet wird, bevor er an die Routine zur Prüfung auf **true** oder **false** übergeben wird. Die Anweisung `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` generiert **#Error** im gerenderten Bericht, wenn `Fields!Sales.Value` NOTHING ist.  
+ Einige Werte in einem Ausdruck können zur Berichtsverarbeitungszeit mit NULL oder „nicht definiert“ ausgewertet werden. Dies kann zu Laufzeitfehlern und zur Anzeige von **#Error** im Textfeld anstelle des ausgewerteten Ausdrucks führen. Die **IIF** -Funktion ist für dieses Verhalten besonders empfindlich, da im Gegensatz zu einer If-Then-Else-Anweisung jeder Teil der **IIF** -Anweisung (einschließlich Funktionsaufrufe) ausgewertet wird, bevor er an die Routine zur Prüfung auf **TRUE** oder **FALSE**übergeben wird. Die Anweisung `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` generiert **#Error** im gerenderten Bericht, wenn `Fields!Sales.Value` NOTHING ist.  
   
  Wählen Sie eine der folgenden Strategien aus, um diesen Fehler zu vermeiden:  
   
@@ -514,7 +514,7 @@ Weitere Informationen über einfache und komplexe Ausdrücke, über die Anwendun
   
      Dadurch wird die Ausführung von Laufzeitausnahmen vermieden. Sie können nun einen Ausdruck wie `=IIF(Me.Value < 0, "red", "black")` in der Eigenschaft **Color** des Textfelds verwenden, um den Text unter Bedingungen anzuzeigen, nämlich abhängig davon, ob die Werte größer oder kleiner als 0 sind.  
   
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
   

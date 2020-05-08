@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710204"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted im Power BI-Berichtsserver
@@ -27,7 +27,7 @@ Zur Zeit schränkt der Power BI-Berichtsserver den Zugriff auf die Always Encryp
 
 ### <a name="key-storage-strategies"></a>Strategien für Schlüsselspeicher
 
-|Speicher  |Unterstützt  |
+|Storage  |Unterstützt  |
 |---------|---------|
 |Windows-Zertifikatspeicher | Ja |
 |Azure Key Vault | Nein |
@@ -69,13 +69,13 @@ Die Parameterverwendung gilt nur für die deterministische Verschlüsselung.
 
 ## <a name="datatype-support"></a>Datentypunterstützung
 
-| SQL-Datentyp | Unterstützt das Lesen eines Felds | Unterstützt die Verwendung als GROUP BY-Element | Unterstützte Aggregationen (COUNT, DISTINCT, MAX, MIN, SUM, etc.) | Unterstützt das Filtern mithilfe von Gleichheitsparametern | Hinweise |
+| SQL-Datentyp | Unterstützt das Lesen eines Felds | Unterstützt die Verwendung als GROUP BY-Element | Unterstützte Aggregationen (COUNT, DISTINCT, MAX, MIN, SUM, etc.) | Unterstützt das Filtern mithilfe von Gleichheitsparametern | Notizen |
 | --- | --- | --- | --- | --- | --- |
 | int | Ja | Ja | COUNT, DISTINCT | ja, als ganze Zahl |   |
 | float | Ja | Ja | COUNT, DISTINCT | ja, als Float |   |
-| nvarchar | Ja | Ja | COUNT, DISTINCT | ja, als Text | Die deterministische Verschlüsselung muss eine Spaltensortierung mit einer binary2-Sortierreihenfolge für Zeichenspalten verwenden. Weitere Informationen finden Sie im [Artikel zu Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) von SQL Server.  |
+| NVARCHAR | Ja | Ja | COUNT, DISTINCT | ja, als Text | Die deterministische Verschlüsselung muss eine Spaltensortierung mit einer binary2-Sortierreihenfolge für Zeichenspalten verwenden. Weitere Informationen finden Sie im [Artikel zu Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) von SQL Server.  |
 | varchar | Ja | Ja | COUNT, DISTINCT | Nein |   |
-| decimal | Ja | Ja | COUNT, DISTINCT | Nein |   |
+| Decimal | Ja | Ja | COUNT, DISTINCT | Nein |   |
 | numeric | Ja | Ja | COUNT, DISTINCT | Nein |   |
 | datetime | Ja | Ja | COUNT, DISTINCT | Nein |   |
 | datetime2 | Ja | Ja | COUNT, DISTINCT | ja, als Datum/Uhrzeit | Dies wird unterstützt, wenn eine Spalte keine Genauigkeit im Millisekundenbereich aufweist, d. h., wenn datetime2(0) nicht vorliegt. |
@@ -88,7 +88,7 @@ Derzeit werden nur solche Aggregationen für deterministische Always Encrypted-S
 
 Sie müssen Always Encrypted in der Verbindungszeichenfolge für eine SQL Server-Datenquelle aktivieren. Lesen Sie hierzu mehr unter [Aktivieren von Always Encrypted für Anwendungsabfragen](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) für SQL Server und Azure SQL-Datenbank
 

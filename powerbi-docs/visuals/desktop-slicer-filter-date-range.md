@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006783"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Verwenden eines Slicers und Filters für relative Datumsbereiche in Power BI
@@ -42,7 +42,7 @@ Für die erste Einstellung im *relativen Datenschnitt mit Datum* stehen folgende
 
 ![Screenshot: Konfigurationsoption „Relative“ mit der ersten Einstellung hervorgehoben](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Letzte
+* Letztes
 
 * Weiter
 
@@ -52,11 +52,11 @@ Mit der zweiten (mittleren) Einstellung im *relativen Datenschnitt mit Datum* k�
 
 ![Screenshot: relative Konfigurationsoptionen mit der zweiten Einstellung hervorgehoben](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-Mit der dritten Einstellung können Sie den Datumswert auswählen. Die folgenden Auswahlmöglichkeiten stehen zur Verfügung:
+Mit der dritten Einstellung können Sie den Datumswert auswählen. Folgende Optionen stehen zur Auswahl:
 
 ![Screenshot: Konfigurationsoption „Relative“ mit der dritten Einstellung hervorgehoben](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
-* Tage
+* Days
 
 * Wochen
 
@@ -68,7 +68,7 @@ Mit der dritten Einstellung können Sie den Datumswert auswählen. Die folgenden
 
 * Jahre
 
-* Years (Calendar)
+* Jahre (Kalender)
 
 Wenn Sie in dieser Liste **Monate** auswählen und *2* in der mittleren Einstellung eingeben, geschieht Folgendes:
 
@@ -104,6 +104,6 @@ Die folgenden Überlegungen und Einschränkungen betreffen derzeit den **relativ
 
 * Sie können Daten, die in einer lokalen Zeitzone erfasst wurden, mithilfe des **Abfrage-Editors** in UTC konvertieren.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Erfahren Sie, wie Sie [Gruppierung und Quantisierung in Power BI Desktop verwenden](../desktop-grouping-and-binning.md).

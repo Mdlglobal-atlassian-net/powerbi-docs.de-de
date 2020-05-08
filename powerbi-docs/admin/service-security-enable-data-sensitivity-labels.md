@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537230"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Aktivieren von Vertraulichkeitsbezeichnungen für Daten in Power BI (Vorschau)
@@ -66,7 +66,7 @@ Power BI verwendet Microsoft Information Protection-Vertraulichkeitsbezeichnunge
 * Benutzer, die Vertraulichkeitsbezeichnungen auf Power BI-Assets anwenden müssen, müssen über eine Power BI Pro-Lizenz verfügen.
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In diesem Artikel wurde beschrieben, wie Sie Vertraulichkeitsbezeichnungen auf Daten in Power BI anwenden. Die folgenden Artikel stellen ausführlichere Informationen zum Datenschutz in Power BI bereit. 
 

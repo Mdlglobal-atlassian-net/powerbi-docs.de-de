@@ -11,10 +11,10 @@ ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894813"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Filtern und Freigeben eines Power BI-Berichts
@@ -55,7 +55,7 @@ Speichern Sie den Bericht.
 
 ## <a name="share-the-filtered-report"></a>Freigeben des gefilterten Berichts
 
-1. Wählen Sie **Freigeben**aus.
+1. Wählen Sie **Freigeben** aus.
 
    ![„Freigeben“ auswählen](media/service-share-reports/power-bi-share.png)
 
@@ -78,9 +78,9 @@ Speichern Sie den Bericht.
 7. Wenn Sie diesen Link freigeben, sehen Empfänger den gefilterten Bericht. 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Freigeben Ihrer Arbeit in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Freigeben eines Dashboards](service-share-dashboards.md)
-* Haben Sie dazu Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/).
-* Haben Sie Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.
+* Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/).
+* Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.
 

@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040144"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
@@ -127,12 +127,12 @@ Weitere Informationen finden Sie unter [Favoriten](end-user-favorite.md).
 Weitere Informationen finden Sie unter [Zuletzt verwendete Inhalte in Power BI](end-user-recent.md).
 
 ### <a name="search-and-sort-content"></a>Suchen und Sortieren von Inhalten
-Wenn Sie beginnen, mit dem Power BI-Dienst zu arbeiten, verfügen Sie nur über wenige Inhalte. Wenn aber Ihre Kollegen Inhalte mit Ihnen teilen und Sie Apps herunterladen, wird die Liste Ihrer Inhalte schnell immer länger. In diesem Fall sind Funktionen zum Suchen und Sortieren sehr nützlich.
+Wenn Sie beginnen, mit dem Power BI-Dienst zu arbeiten, verfügen Sie nur über wenige Inhalte. Wenn aber Ihre Kollegen Inhalte mit Ihnen teilen, und Sie Apps herunterladen, wird die Liste Ihrer Inhalte schnell immer länger. In diesem Fall sind Funktionen zum Suchen und Sortieren sehr nützlich.
 
-Sie können die Suchfunktion in fast jedem Bereich des Power BI-Dienstes nutzen. Suchen Sie einfach nach dem Suchfeld oder dem Lupensymbol.    
+Sie können die Suchfunktion in fast jedem Bereich des Power BI-Diensts nutzen. Suchen Sie einfach nach dem Suchfeld oder dem Lupensymbol.    
 ![Lupensymbol](./media/end-user-experience/power-bi-search-icon.png)
 
-Geben Sie in das Suchfeld den Namen eines Dashboards, Berichts, einer Arbeitsmappe, einer App oder eines Besitzers ganz oder teilweise ein. Power BI durchsucht dann den gesamten Inhalt.
+Geben Sie in das Suchfeld ganz oder teilweise den Namen eines Dashboards, Berichts, einer Arbeitsmappe, einer App oder eines Besitzers ein. Power BI durchsucht dann den gesamten Inhalt.
 
 ![Nach Bericht suchen](./media/end-user-experience/power-bi-search-field.png)
 
@@ -168,7 +168,7 @@ Sobald Sie diesen Schnellstart abgeschlossen haben, können Sie das Dashboard, d
 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 > [!div class="nextstepaction"]
 > [Leseansicht im Power BI-Dienst](end-user-reading-view.md)

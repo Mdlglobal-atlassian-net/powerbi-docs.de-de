@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874972"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867781"
 ---
 # <a name="intro-to-power-bi-qa"></a>Einführung in Power BI Q&A
 
@@ -67,9 +67,9 @@ Während Sie Ihre Frage eingeben, versucht Q&A, die Antwort sofort zu interpreti
 - Liniendiagramm
 - Balkendiagramm
 - Matrix
-- Tabelle
+- Tabelle (Table)
 - Karte
-- Fläche
+- Area
 - Kreisdiagramm
 - Punkt-/Blasendiagramm
  
@@ -97,7 +97,7 @@ Standardmäßig steht Q&A im oberen Bereich eines Dashboards zur Verfügung. Geb
 
 ![Q&A-Dashboard](media/qna-dashboard.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Sie können natürliche Sprache auf verschiedene Weise in Ihre Berichte integrieren. Weitere Informationen finden Sie in folgenden Artikeln:
 
