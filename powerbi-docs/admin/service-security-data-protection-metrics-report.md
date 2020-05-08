@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79112495"
 ---
 # <a name="data-protection-metrics-report-preview"></a>Bericht zu Datenschutzmetriken (Vorschau)
@@ -52,7 +52,7 @@ Verbesserte Versionen des Berichts zu Datenschutzmetriken werden in regelmäßig
 * Wenn Sie sich entscheiden, Informationen aus dem Bericht zu Datenschutzmetriken für einen Benutzer freizugeben, der kein Power BI-Administrator ist, beachten Sie, dass dieser Bericht vertrauliche Informationen über Ihre Organisation enthält.
 * Der Bericht zu Datenschutzmetriken ist ein besonderer Bericht und wird nicht in den Listen „Für mich freigegeben“, „Zuletzt geöffnet“ und „Favoriten“ angezeigt.
 * Der Bericht zu Datenschutzmetriken steht [externen Benutzern (Azure Active Directory B2B-Gastbenutzern)](../service-admin-azure-ad-b2b.md) nicht zur Verfügung.
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Datenschutz in Power BI (Vorschauversion)](./service-security-data-protection-overview.md)
 * [Verwenden von Microsoft Cloud App Security-Steuerelementen in Power BI (Vorschauversion)](./service-security-using-microsoft-cloud-app-security-controls.md)
 * [Grundlegendes zur Dienstadministratorrolle in Power BI](../service-admin-role.md)

@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439823"
 ---
 # <a name="use-buttons-in-power-bi"></a>Verwenden von Schaltflächen in Power BI
@@ -49,7 +49,7 @@ Mithilfe folgender Karten im Bereich **Visualisierungen** können Sie die Format
 
 * Schaltflächentext
 * Symbol
-* Kontur
+* Gliederung
 * Füllung
 
 Erweitern Sie eine dieser Karten, und klicken Sie auf das Dropdownmenü, das im oberen Bereich der Karte angezeigt wird, um auszuwählen, wie die Schaltfläche für jeden Zustand angezeigt werden soll. Auf der folgenden Abbildung wird veranschaulicht, wie die erweiterte Karte **Symbol** aussieht. Dabei zeigt das ausgewählte Dropdownmenü die drei Zustände an.
@@ -89,7 +89,7 @@ Sie können schnell einen benutzerdefinierten Navigationsbereich erstellen. Sie 
 
 Außerdem können Sie die QuickInfo bedingt formatieren. Dies ist auch für andere Schaltflächenarten möglich.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu Features, die Schaltflächen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Verwenden der Drillthroughfunktion in Power BI Desktop](desktop-drillthrough.md)

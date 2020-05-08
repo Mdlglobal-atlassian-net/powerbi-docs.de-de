@@ -62,7 +62,7 @@
             - name: Q&A mit natürlicher Sprache
               items:
                 - name: Einführung in Q&A
-                  href: ../natural-language/q-and-a-intro.md
+                  href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Einführung in Q&A-Tools
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Erweiterte Q&A-Tools

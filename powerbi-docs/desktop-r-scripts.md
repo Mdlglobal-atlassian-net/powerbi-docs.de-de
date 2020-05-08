@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161525"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Ausführen von R-Skripts in Power BI Desktop
@@ -61,11 +61,11 @@ Sie können steuern, welche R-Installation zur Skriptausführung verwendet wird.
 
 ![Optionen für R-Skripts, Dialogfeld „Optionen“, Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
-### <a name="refresh"></a>Aktualisieren
+### <a name="refresh"></a>Vorschau
 
 Sie können ein R-Skript in Power BI Desktop aktualisieren. Wenn Sie ein R-Skript aktualisieren, führt Power BI Desktop das R-Skript in der Power BI Desktop-Umgebung erneut aus.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Betrachten Sie die folgenden zusätzlichen Informationen über R in Power BI.
 

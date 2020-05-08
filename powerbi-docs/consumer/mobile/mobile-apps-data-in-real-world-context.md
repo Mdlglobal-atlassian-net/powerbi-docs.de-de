@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114564"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Erfassen von realen Daten mit den mobilen Power BI-Apps
@@ -49,7 +49,7 @@ Kategorisieren Sie geografische Daten in einem Bericht in Power BI Desktop. Ihre
 
 Weitere Informationen finden Sie unter [Filter a report by location in the Power BI mobile apps for iOS](mobile-apps-geographic-filtering.md) (Filtern eines Berichts nach Speicherort in den mobilen Power BI-Apps für iOS).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Erstellen eines QR-Codes für eine Kachel in Power BI](../../service-create-qr-code-for-tile.md)
 * [Erstellen eines QR-Codes für einen Bericht in Power BI](../../service-create-qr-code-for-report.md)
 

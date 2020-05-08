@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/23/2020
 ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114771"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Programmgesteuertes Konfigurieren von Anmeldeinformationen für Power BI
@@ -115,7 +115,7 @@ Folgen Sie diesen Schritten, um Anmeldeinformationen für Power BI programmgeste
     var gateway = gateways.First();
     ```
 
-3. Erstellen Sie mithilfe des öffentlichen Gatewayschlüssels, den Sie in **Schritt 2** abgerufen haben, Details zu Anmeldeinformationen. Eine Beschreibung dieses Vorgangs finden Sie unter [Aktualisieren eines Anmeldeinformationsflows für Datenquellen](#update-credentials-flow-for-data-sources).
+3. Erstellen Sie mithilfe des öffentlichen Gatewayschlüssels, den Sie in [Schritt 2](#update-credentials-flow-for-data-sources) abgerufen haben, Details zu Anmeldeinformationen. Eine Beschreibung dieses Vorgangs finden Sie unter **Aktualisieren eines Anmeldeinformationsflows für Datenquellen**.
 
 4. Erstellen Sie den Anforderungstext.
 

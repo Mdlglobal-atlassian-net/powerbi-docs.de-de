@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709773"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Verwenden der Leistungsanalyse zum Untersuchen der Leistung von Berichtselementen
@@ -82,12 +82,12 @@ Sie können die von der Leistungsanalyse generierten Informationen zu einem Beri
 ![Speichern der Protokolldatei für die Leistungsanalyse](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu **Power BI Desktop** und den ersten Schritten finden Sie in den folgenden Artikeln.
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Übersicht zu Abfragen mit Power BI Desktop](desktop-query-overview.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)   

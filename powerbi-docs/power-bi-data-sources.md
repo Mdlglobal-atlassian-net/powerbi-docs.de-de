@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041675"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-Datenquellen
@@ -23,7 +23,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 > Es gibt zahlreiche Datenconnectors für Power BI Desktop, die für die Authentifizierung Internet Explorer 10 (oder höher) benötigen. 
 
 
-| Datenquellen- | Verbindung vom Desktop aus | Verbindung und Aktualisierung vom Dienst aus | DirectQuery-/Liveverbindung | Gateway (unterstützt) | Gateway (erforderlich) |
+| Datenquelleneinstellungen | Verbindung vom Desktop aus | Verbindung und Aktualisierung vom Dienst aus | DirectQuery-/Liveverbindung | Gateway (unterstützt) | Gateway (erforderlich) |
 |---|---|---|---|---|---|---|---|
 | Access-Datenbank | Ja | Ja | Nein | Ja <sup>1</sup> | Ja |
 | ActiveDirectory | Ja | Ja | Nein | Ja | Ja |
@@ -31,8 +31,8 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Amazon Redshift | Ja | Ja | Ja | Ja | Nein |
 | appFigures | Ja | Ja | Nein | Nein | Nein |
 | AtScale-Cubes | Ja | Ja | Ja | Ja | Nein |
-| Azure Analysis Services | Ja | Ja | Ja | Ja <sup>2</sup> | Nein |
-| Azure Blob Storage | Ja | Ja | Nein | Ja | Nein |
+| Azure Analysis Services | Ja | Ja | Ja | Ja<sup>2</sup> | Nein |
+| Azure-BLOB-Speicher | Ja | Ja | Nein | Ja | Nein |
 | Azure Cosmos DB | Ja | Ja | Nein | Nein | Nein |
 | Azure Cost Management | Ja | Ja | Nein | Nein | Nein |
 | Azure Data Explorer (Kusto) | Ja | Ja | Ja | Nein | Nein |
@@ -42,9 +42,9 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Azure DevOps Server | Ja | Ja | Nein | Ja | Ja |
 | Azure HDInsight (HDFS) | Ja | Ja | Nein | Nein | Nein |
 | Azure HDInsight Spark | Ja | Ja | Ja | Nein | Nein |
-| Azure SQL-Datenbank | Ja | Ja | Ja | Ja <sup>2</sup> | Nein |
-| Azure SQL Data Warehouse | Ja | Ja | Ja | Ja <sup>2</sup> | Nein |
-| Azure-Tabellenspeicher | Ja | Ja | Nein | Ja | Nein |
+| Azure SQL-Datenbank | Ja | Ja | Ja | Ja<sup>2</sup> | Nein |
+| Azure SQL Data Warehouse | Ja | Ja | Ja | Ja<sup>2</sup> | Nein |
+| Azure Table Storage | Ja | Ja | Nein | Ja | Nein |
 | BI-Connector | Ja | Ja | Ja | Ja | Ja |
 | BI360 – Budgeting & Financial Reporting | Ja | Ja | Nein | Nein | Nein |
 | Common Data Service | Ja | Ja | Nein | Nein | Nein |
@@ -66,7 +66,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Ordner | Ja | Ja | Nein | Ja | Ja |
 | GitHub | Ja | Ja | Nein | Nein | Nein |
 | Google Analytics | Ja | Ja | Nein | Nein | Nein |
-| Google BigQuery | Ja | Ja | Nein | Nein | Nein |
+| BigQuery von Google | Ja | Ja | Nein | Nein | Nein |
 | Hadoop-Datei (HDFS) | Ja | Nein | Nein | Nein | Nein |
 | HDInsight Interactive Query | Ja | Ja | Ja | Nein | Nein |
 | IBM DB2 | Ja | Ja | Ja | Ja | Nein |
@@ -92,7 +92,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | MySQL | Ja | Ja | Nein | Ja | Ja |
 | OData | Ja | Ja | Nein | Ja | Nein |
 | ODBC | Ja | Ja | Nein | Ja | Ja |
-| OLE DB | Ja | Ja | Nein | Ja | Ja |
+| OLEDB | Ja | Ja | Nein | Ja | Ja |
 | Oracle | Ja | Ja | Ja | Ja | Ja |
 | Paxata | Ja | Ja | Nein | Ja | Nein |
 | PDF | Ja | Ja | Nein | Ja | Nein <sup>4</sup> |
@@ -116,7 +116,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | SAP HANA | Ja | Ja | Ja | Ja | Ja |
 | SharePoint-Ordner | Ja | Ja | Nein | Ja | Nein <sup>4</sup> |
 | SharePoint-Liste | Ja | Ja | Nein | Ja | Nein <sup>4</sup> |
-| SharePoint-Online-Liste | Ja | Ja | Nein | Ja <sup>2</sup> | Nein |
+| SharePoint-Online-Liste | Ja | Ja | Nein | Ja<sup>2</sup> | Nein |
 | Smartsheet | Ja | Ja | Nein | Nein | Nein |
 | Snowflake | Ja | Ja | Ja | Ja | Nein |
 | Spark | Ja | Ja | Ja | Ja | Nein |
@@ -134,7 +134,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Twilio | Ja | Ja | Nein | Nein | Nein |
 | tyGraph | Ja | Ja | Nein | Nein | Nein |
 | Vertica | Ja | Ja | Ja | Ja | Ja |
-| Web | Ja | Ja | Nein | Ja | Ja <sup>6</sup> |
+| Datenquellen-Anmeldeinformationen | Ja | Ja | Nein | Ja | Ja <sup>6</sup> |
 | Webtrends | Ja | Ja | Nein | Nein | Nein |
 | Workforce Dimensions | Ja | Ja | Nein | Ja | Nein |
 | XML | Ja | Ja | Nein | Ja | Nein <sup>4</sup> |
@@ -172,7 +172,7 @@ Die SSO-Option gilt für alle Datasets, die diese Datenquelle verwenden. Sie hat
 > [!Note]
 > Azure Multi-Factor Authentication (MFA) wird nicht unterstützt. Benutzer, die SSO mit DirectQuery verwenden möchten, müssen von MFA ausgenommen werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Verbinden mit Daten in Power BI Desktop](desktop-quickstart-connect-to-data.md)  
 [Verwendung von DirectQuery in Power BI](desktop-directquery-about.md)  

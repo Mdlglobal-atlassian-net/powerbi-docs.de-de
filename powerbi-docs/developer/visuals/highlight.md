@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114150"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Hervorheben von Datenpunkten in Power BI-Visuals
@@ -645,7 +645,7 @@ Als Ergebnis erhalten Sie das Visual mit Schaltflächen und den Werten `highligh
 
 ![Das Visual mit Zuordnung der Matrixdaten in der Ansicht und Hervorhebung](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Weitere Informationen zu Zuordnungen von Matrixdaten in der Ansicht](dataview-mappings.md#matrix-data-mapping)
 

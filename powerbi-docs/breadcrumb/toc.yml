@@ -10,10 +10,10 @@
           tocHref: /power-bi/
           topicHref: /power-bi/
           items:
-            - name: Verbraucher
+            - name: Consumer
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: Mobil
+            - name: Mobile
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
             - name: Entwickler
@@ -26,10 +26,10 @@
                 - name: Power BI-Visuals
                   tocHref: /power-bi/developer/visuals/
                   topicHref: /power-bi/developer/visuals/
-                - name: Automatisierung
+                - name: Automation
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: Geführtes Lernen
+            - name: Angeleitetes Lernen
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
             - name: Ausbildungskatalog
@@ -38,7 +38,7 @@
             - name: Berichtsserver
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
-            - name: Leitfaden
+            - name: Anleitungen
               tocHref: /power-bi/guidance/
               topicHref: /power-bi/guidance/index
             - name: 'Zusammenarbeit, Freigabe, Integration'
@@ -47,7 +47,7 @@
             - name: Erstellen von Berichten und Dashboards
               tocHref: /power-bi/create-reports/
               topicHref: /power-bi/create-reports/index
-            - name: Verbinden mit Daten
+            - name: Herstellen einer Datenverbindung
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
             - name: Erste Schritte
