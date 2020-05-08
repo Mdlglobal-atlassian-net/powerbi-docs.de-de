@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d3f359ad4c968407dff143458b65954844f9a22d
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829280"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Überwachen von Metriken mit der neuen Arbeitsbereichsfunktion
@@ -95,7 +95,7 @@ Der Bericht mit verbesserten Nutzungsmetriken enthält die folgenden Berichtssei
 | Berichtsleistung | Tägliche Leistung | Diese Metrik berechnet die Leistung für 10 %, 50 % und 90 % der Aktionen zum Öffnen von Berichten für jeden einzelnen Tag. |
 | Berichtsleistung | 7-tägige Leistung | Diese Metrik berechnet die Leistung für 10 %, 50 % und 90 % der Aktionen zum Öffnen von Berichten für jeden der letzten 7 Tage. |
 | Berichtsleistung | Verwendungsmethode | Diese Metrik gibt an, wie Benutzer den Bericht geöffnet haben, z. B. über den Power BI-Dienst (powerbi.com), Power BI Embedded oder ein Mobilgerät. |
-| Berichtsleistung | Browser | Diese Metrik gibt an, welchen Browser Benutzer zum Öffnen des Berichts verwenden, z. B. Firefox, Microsoft Edge und Google Chrome. |
+| Berichtsleistung | Browsers | Diese Metrik gibt an, welchen Browser Benutzer zum Öffnen des Berichts verwenden, z. B. Firefox, Microsoft Edge und Google Chrome. |
 
 ## <a name="update-usage-metrics-report-credentials"></a>Aktualisieren der Anmeldeinformationen für einen Bericht zu Nutzungsmetriken
 
@@ -328,7 +328,7 @@ Die Plattform gibt an, welche Technologie ein Aufrufer verwendet hat, um einen B
 
 ## <a name="troubleshoot-delete-the-dataset"></a>Problembehandlung: Dataset löschen
 
-Wenn Sie Probleme bei der Datenkonsistenz oder der Aktualisierung vermuten, könnte es sinnvoll sein, das vorhandene Dataset für den Bericht zu Nutzungsmetriken zu löschen. Anschließend können Sie „Nutzungsmetriken anzeigen“ noch mal ausführen, um ein neues Dataset mit den zugehörigen verbesserten Berichten zu Nutzungsmetriken zu generieren. Führen Sie folgende Schritte durch:
+Wenn Sie Probleme bei der Datenkonsistenz oder der Aktualisierung vermuten, könnte es sinnvoll sein, das vorhandene Dataset für den Bericht zu Nutzungsmetriken zu löschen. Anschließend können Sie „Nutzungsmetriken anzeigen“ noch mal ausführen, um ein neues Dataset mit den zugehörigen verbesserten Berichten zu Nutzungsmetriken zu generieren. Führen Sie die folgenden Schritte aus.
 
 ### <a name="delete-the-dataset"></a>Dataset löschen
 
@@ -372,4 +372,4 @@ Wenn Sie Probleme bei der Datenkonsistenz oder der Aktualisierung vermuten, kön
 
 [Verwalten von Power BI im Verwaltungsportal](service-admin-portal.md)
 
-Haben Sie dazu Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

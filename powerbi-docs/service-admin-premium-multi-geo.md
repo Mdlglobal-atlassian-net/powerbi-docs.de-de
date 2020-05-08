@@ -10,25 +10,25 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80147352"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Konfigurieren von Multi-Geo-Unterstützung für Power BI Premium
 
 Multi-Geo ist ein Power BI Premium-Feature, das multinationale Kunden bei der Erfüllung von regionalen, branchenspezifischen oder organisationsbezogenen Data Residency-Anforderungen unterstützt. Als Power BI Premium-Kunde können Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen. Eine geografische Region (Geografie) kann mehr als eine Region umfassen. Die USA sind z.B. eine geografische Region und „USA, Westen-Mitte“ und „USA, Süden-Mitte“ Regionen innerhalb der USA. Außerdem können Sie Inhalte für eine der folgenden geografischen Regionen bereitstellen:
 
-- USA
-- Kanada
-- Vereinigtes Königreich
-- Brasilien
+- United States
+- Canada
+- United Kingdom
+- Brazil
 - Europa
 - Japan
 - Indien
 - Asien-Pazifik
-- Australien
+- Australia
 - Afrika
 
 Multi-Geo ist nicht für Power BI Deutschland, Power BI China (betrieben von 21Vianet) oder Power BI für die US-Regierung verfügbar.
@@ -43,7 +43,7 @@ Aktivieren Sie für die Verwendung der neuen Funktionen Multi-Geo, indem Sie ein
 
 Nachdem Sie die Kapazität erstellt haben, verbleibt sie in dieser Region und die Inhalte aller erstellten Arbeitsbereiche werden in dieser Region gespeichert. Auf der Seite mit den Arbeitsbereichseinstellungen können Sie über die Dropdownliste Arbeitsbereiche von einer Region zu einer anderen migrieren.
 
-![Arbeitsbereich bearbeiten: Wählen Sie eine verfügbare Kapazität aus. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![Auswählen einer verfügbaren Kapazität auf der Seite „Arbeitsbereich bearbeiten“ Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 Diese Meldung wird angezeigt, um die Änderung zu bestätigen.
 
@@ -96,7 +96,7 @@ Sie haben zwei Möglichkeiten, Arbeitsbereiche aus der Multi-Geo-Kapazität zu e
 
 - Das [Dataflows](service-dataflows-overview.md)-Feature wird aktuell für Multi-Geo nicht unterstützt.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Was ist Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo für Power BI Embedded-Kapazitäten](developer/embedded/embedded-multi-geo.md)

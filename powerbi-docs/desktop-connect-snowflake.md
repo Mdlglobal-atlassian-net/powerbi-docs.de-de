@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464299"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Verbinden mit einem Snowflake Computing-Warehouse in Power BI Desktop
@@ -53,11 +53,11 @@ Nachdem die Verbindung erfolgreich hergestellt wurde, wird das Fenster **Navigat
 
 Sie können die ausgewählte Tabelle **laden**, um die gesamte Tabelle in **Power BI Desktop** zu importieren, oder Sie können die Abfrage **bearbeiten**. Wenn Sie „Bearbeiten“ auswählen, wird der **Abfrage-Editor** geöffnet, sodass Sie den Satz der zu verwendenden Daten filtern und aufbereiten können, um diesen aufbereiteten Satz von Daten anschließend in **Power BI Desktop** zu laden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

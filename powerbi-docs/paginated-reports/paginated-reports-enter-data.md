@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
 ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922089"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator: Power BI
@@ -27,7 +27,7 @@ In diesem Artikel erhalten Sie Informationen zu einem Feature in der neuen Versi
 
 ## <a name="get-started"></a>Erste Schritte
 
-Wenn Sie den Berichts-Generator heruntergeladen und installiert haben, ändert sich der Workflow zum Hinzufügen einer eingebetteten Datenquelle und eines eingebetteten Datensets in Ihren Bericht nicht. In der folgenden Prozedur wird unter **Datenquellen** eine neue Option angezeigt: **Daten eingeben**.  Die müssen diese Datenquelle einmal pro Bericht einrichten. Anschließend können Sie mehrere Tabellen mit eingegebenen Daten als separate Datasets erstellen, die alle dieselbe Datenquelle verwenden.
+Wenn Sie den Berichts-Generator heruntergeladen und installiert haben, ändert sich der Workflow zum Hinzufügen einer eingebetteten Datenquelle und eines eingebetteten Datensets in Ihren Bericht nicht. In der folgenden Prozedur wird unter **Datenquelle** die neue Option **Daten eingeben** angezeigt.  Die müssen diese Datenquelle einmal pro Bericht einrichten. Anschließend können Sie mehrere Tabellen mit eingegebenen Daten als separate Datasets erstellen, die alle dieselbe Datenquelle verwenden.
 
 1. Klicken Sie im Bereich **Berichtsdaten** auf **Neu** > **Dataset**.
 
@@ -95,7 +95,7 @@ Nach der Bearbeitung sollte die Liste mit Datenanbietern in der Konfigurationsda
 
 Jetzt können Sie Berichte für Ihren Berichtsserver veröffentlichen, die diese neue Funktion verwenden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
 - [Was ist der Power BI-Berichtsserver?](../report-server/get-started.md)

@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889303"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Problembehandlung bei „In Excel analysieren“
@@ -94,7 +94,7 @@ Sie haben verschiedene Möglichkeiten, dieses Problem zu beheben:
 
 Sobald die Measures im Modell des Power BI-Diensts definiert wurden, können Sie diese im Bereich **Werte** der Excel-PivotTables verwenden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [In Excel analysieren](service-analyze-in-excel.md)
 
 [Tutorial: Erstellen eigener Measures in Power BI Desktop](desktop-tutorial-create-measures.md)

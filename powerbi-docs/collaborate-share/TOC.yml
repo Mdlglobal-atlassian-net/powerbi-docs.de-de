@@ -16,7 +16,7 @@
           href: ../service-usage-metrics.md
         - name: Überwachen der Nutzung in neuen Arbeitsbereichen
           href: ../service-modern-usage-metrics.md
-    - name: Exemplarische Vorgehensweisen
+    - name: Gewusst-wie-Anleitungen
       expanded: true
       items:
         - name: Zusammenarbeit in Power BI
@@ -73,7 +73,7 @@
               href: ../service-analyze-in-excel.md
             - name: Problembehandlung bei „In Excel analysieren“
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden'
+            - name: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden.'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate und Power BI
               href: ../service-flow-integration.md

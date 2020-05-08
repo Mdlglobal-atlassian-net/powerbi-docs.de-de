@@ -9,10 +9,10 @@ ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: afbc31e3ece8bc72ad52bb2fe7c3d871b2f68e1b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922940"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>Berichtsvorschau im Power BI-Berichts-Generator
@@ -32,9 +32,9 @@ ms.locfileid: "78922940"
 -   Hinzufügen, Ändern und Löschen eines Datasets. Das zwischengespeicherte Dataset enthält alle Datasets, die ein Bericht verwendet. Änderungen an einem Dataset machen das zwischengespeicherte Dataset ungültig. Dazu gehören Änderungen des Namens, der Abfrage oder der Felder im Dataset.  
   
     > [!NOTE]  
-    >  Wenn das Dataset viele Felder enthält, die Sie mit hoher Wahrscheinlichkeit nicht verwenden werden, sollten Sie in Erwägung ziehen, diese Felder aus dem Dataset zu entfernen. Dadurch wird zwar eine neue Bearbeitungssitzung erstellte, und die erste Berichtsvorschau wird langsamer geladen, es ist jedoch allgemein besser für die Leistung des Berichtsservers, mit einem kleineren zwischengespeicherten Dataset zu arbeiten.  
+    >  Wenn das Dataset viele Felder enthält, die Sie mit hoher Wahrscheinlichkeit nicht verwenden werden, sollten Sie in Erwägung ziehen, diese Felder aus dem Dataset zu entfernen. Obwohl dies eine neue Bearbeitungssitzung erstellt und die erste Vorschau des Bericht langsamer erzeugt wird, ist das kleinere zwischengespeichertes Dataset für die Leistung des Berichtsservers insgesamt nützlich.  
   
--   Hinzufügen, Ändern und Löschen einer Datenquelle. Dazu gehören Änderungen des Namens oder der Eigenschaften der Datenquelle, der Datenerweiterung der Datenquelle oder der Eigenschaften der Verbindung mit der Datenquelle.  
+-   Hinzufügen, Ändern oder Löschen einer Datenquelle. Dies schließt das Ändern des Namens oder der Eigenschaften der Datenquelle, der Datenerweiterung der Datenquelle sowie der Eigenschaften der Verbindung mit der Datenquelle ein.  
   
 -   Ändern der Datenquelle des Berichts.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78922940"
   
 -   Hinzufügen, Ändern oder Löschen der Abfrageparameter oder Parameterwerte im Bericht.  
   
- Änderungen des Berichtslayouts und der Datenformatierung wirken sich nicht auf das zwischengespeicherte Dataset aus. Die folgenden Aktionen wirken sich nicht auf das zwischengespeicherte Dataset aus:  
+ Änderungen des Berichtslayouts und der Datenformatierung wirken sich nicht auf das zwischengespeicherte Dataset aus. Sie können die folgenden Aktionen ausführen, ohne dass das zwischengespeicherte Dataset aktualisiert wird:  
   
 -   Hinzufügen oder Entfernen von Datenbereichen wie z. B. Tabellen, Matrizen oder Diagrammen.  
   
@@ -65,12 +65,12 @@ Die Bearbeitungssitzung wird erstellt, wenn Sie die Berichtsvorschau zum ersten 
 Standardmäßig kann der Datencache bis zu fünf Datasets enthalten. Wenn Sie viele verschiedene Kombinationen von Parameterwerten verwenden, kann es sein, dass der Bericht mehr Daten benötigt. Dann muss der Cache aktualisiert werden, und der Bericht wird beim nächsten Anzeigen der Vorschau langsamer gerendert. 
   
 ## <a name="concurrency-of-report-updates"></a>Parallelität von Berichtsaktualisierungen  
-Wenn Sie einen Bericht aktualisieren und dann im Power BI-Dienst speichern, zeigen Sie davor oft eine Vorschau des Berichts an. Wenn Sie einen Bericht aktualisieren, kann es sein, dass jemand zur selben Zeit den Bericht aktualisiert und speichert. Der Bericht, der zuletzt gespeichert wird, ist die Version, die dann angezeigt und wieder aktualisiert werden kann. Das bedeutet, dass die Version des Berichts, die Sie in der Vorschau gesehen haben, nicht unbedingt mit der Version des Berichts beim nächsten Öffnen übereinstimmt. Sie können den Bericht über die Option **Save As** (Speichern unter) im Menü des Berichts-Generators unter einem neuen Namen speichern.  
+Wenn Sie einen Bericht aktualisieren und dann im Power BI-Dienst speichern, zeigen Sie davor oft eine Vorschau des Berichts an. Wenn Sie einen Bericht aktualisieren, kann es sein, dass jemand zur selben Zeit den Bericht aktualisiert und speichert. Der zuletzt gespeicherte Bericht ist die Berichtsversion, die zukünftig zum Anzeigen und Aktualisieren verfügbar ist. Das bedeutet, dass die Version des Berichts, die Sie in der Vorschau gesehen haben, nicht unbedingt mit der Version des Berichts beim nächsten Öffnen übereinstimmt. Sie können den Bericht über die Option **Save As** (Speichern unter) im Menü des Berichts-Generators unter einem neuen Namen speichern.  
   
 ## <a name="external-report-items"></a>Externe Berichtselemente  
- Es kann sein, dass Ihr Bericht Elemente wie z. B. externe Bilder enthält, die separat vom Bericht gespeichert werden. Da diese Elemente separat gespeichert werden, kann es sein, dass diese ein einen anderen Speicherort verschoben oder gelöscht werden. Wenn dies geschieht, kann es sein, dass keine Vorschau Ihres Berichts angezeigt werden kann. Sie können der Bericht entweder mit dem neuen Speicherort des Elements aktualisieren, das gelöschte Element durch ein anderes ersetzen oder den Verweis auf das Element gänzlich aus dem Bericht entfernen.  
+ Es kann sein, dass Ihr Bericht Elemente wie z. B. externe Bilder enthält, die separat vom Bericht gespeichert werden. Da diese Elemente separat gespeichert werden, kann es sein, dass diese ein einen anderen Speicherort verschoben oder gelöscht werden. In diesem Fall kann der Bericht möglicherweise nicht in der Vorschau angezeigt werden. Sie können der Bericht entweder mit dem neuen Speicherort des Elements aktualisieren, das gelöschte Element durch ein anderes ersetzen oder den Verweis auf das Element gänzlich aus dem Bericht entfernen.  
   
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
   

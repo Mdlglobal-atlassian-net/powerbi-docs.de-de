@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609890"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Verwenden von benutzerdefinierten Datenconnectors mit dem lokalen Datengateway
@@ -30,7 +30,7 @@ Wenn Sie Berichte in Power BI Desktop erstellen, die benutzerdefinierte Datencon
 
 Wenn Sie die Version vom Juli 2018 oder eine neuere Version des lokalen Datengateways installieren, wird Ihnen die Registerkarte **Connectors** in der App des lokalen Datengateways angezeigt. Wählen Sie im Feld **Benutzerdefinierte Datenconnectors aus folgendem Ordner laden** einen Ordner aus, auf den der Benutzer zugreifen kann, der den Gatewaydienst ausführt. Der Standardbenutzer ist *NT SERVICE\PBIEgwService*. Das Gateway lädt automatisch die Dateien des benutzerdefinierten Connectors, die sich in diesem Ordner befinden. Sie werden in der Datenconnectorliste angezeigt.
 
-![Benutzerdefinierte Datenconnectors](media/service-gateway-custom-connectors/gateway-onprem-customconnector1.png)
+![Benutzerdefinierte Datenkonnektoren](media/service-gateway-custom-connectors/gateway-onprem-customconnector1.png)
 
 Wenn Sie das lokale Datengateway (persönlicher Modus) verwenden, können Sie an dieser Stelle Ihren Power BI-Bericht im Power BI-Dienst hochladen und das Gateway zum Aktualisieren verwenden.
 
@@ -48,14 +48,14 @@ Wenn diese Option aktiviert ist, werden Ihre benutzerdefinierten Connectors als 
 * Damit benutzerdefinierte Connectors mit dem lokalen Datengateway verwendet werden können, muss in deren Code ein „TestConnection“-Abschnitt implementiert werden. Dieser Abschnitt ist nicht erforderlich, wenn Sie benutzerdefinierte Connectors mit Power BI Desktop verwenden. Daher können Sie einen benutzerdefinierten Connector nutzen, der zwar mit Power BI Desktop, aber nicht mit dem Gateway verwendet werden kann. Weitere Informationen zur Implementierung eines TestConnection-Abschnitts finden Sie in [dieser Dokumentation](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support).
 * OAuth für benutzerdefinierte Connectors über Gateways wird derzeit nur für Gatewayadministratoren unterstützt, für andere Datenquellenbenutzer jedoch nicht.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Verwalten Ihrer Datenquelle – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Verwalten Ihrer Datenquelle –SAP HANA](service-gateway-enterprise-manage-sap.md)  
 * [Verwalten Ihrer Datenquelle – SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Verwalten der Datenquelle – Oracle](service-gateway-onprem-manage-oracle.md)  
 * [Verwalten der Datenquelle: Import/Geplante Aktualisierung](service-gateway-enterprise-manage-scheduled-refresh.md)
-* [Configure proxy settings for the on-premises data gateway (Konfigurieren von Proxyeinstellungen für das lokale Datengateway)](/data-integration/gateway/service-gateway-proxy)
+* [Konfigurieren von Proxyeinstellungen für das lokale Datengateway](/data-integration/gateway/service-gateway-proxy)
 * [Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen](service-gateway-sso-kerberos.md)  
 
 Weitere Fragen? Stellen Sie Ihre Frage in der [Power BI-Community](https://community.powerbi.com/).

@@ -35,7 +35,7 @@
           href: ../desktop-bidirectional-filtering.md
         - name: Verwenden von mehrdimensionalen Modellen in Power BI
           href: ../desktop-default-member-multidimensional-models.md
-    - name: Exemplarische Vorgehensweisen
+    - name: Gewusst-wie-Anleitungen
       items:
         - name: Durchführen allgemeiner Abfrageaufgaben
           href: ../desktop-common-query-tasks.md
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: Verwenden von KI Insights (Vorschau)
               href: ../desktop-ai-insights.md
-        - name: Modellieren Ihrer Daten
+        - name: Modellieren der Daten
           items:
             - name: Erstellen von Quickmeasures für gängige Berechnungsfunktionen
               href: ../desktop-quick-measures.md
@@ -83,7 +83,7 @@
               href: ../service-dataflows-create-use.md
             - name: Höherstufen oder Zertifizieren von Dataflows
               href: service-dataflows-promote-certify.md
-            - name: Verwenden der erweiterten Compute-Engine mit Dataflows
+            - name: Verwenden der erweiterten Compute-Engine mit Datenflüssen
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Berechnete Entitäten mit Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md
@@ -105,7 +105,7 @@
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
             - name: Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion)
               href: ../service-dataflows-configure-workspace-storage-settings.md
-            - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)
+            - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschau)
               href: ../service-dataflows-add-cdm-folder.md
             - name: Integrieren von Machine Learning in Power BI
               href: ../service-machine-learning-integration.md
@@ -113,7 +113,7 @@
               href: ../service-cognitive-services.md
             - name: Automatisiertes Machine Learning in Power BI
               href: ../service-machine-learning-automated.md
-    - name: Referenz
+    - name: Verweis
       items:
         - name: Tastenkombinationen des Formel-Editors
           href: ../desktop-formula-editor.md

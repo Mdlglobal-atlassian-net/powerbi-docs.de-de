@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 0207cbdbc3fae8636f8fd73a008d54ee7d10c5f9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 05/04/2020
+ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921606"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781614"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Veröffentlichen eines paginierten Berichts im Power BI-Dienst
 
@@ -107,9 +107,6 @@ Wie bei allen Power BI-Berichten müssen Sie im Falle einer lokalen Berichtsdate
 
 1. Im Power BI-Artikel [Was ist ein lokales Datengateway](../service-gateway-onprem.md) finden Sie weitere Informationen und Anleitungen.
 
-### <a name="gateway-limitations"></a>Gatewayeinschränkungen
-
-Derzeit unterstützen Gateways keine mehrwertigen Parameter.
 
 
 ## <a name="next-steps"></a>Nächste Schritte

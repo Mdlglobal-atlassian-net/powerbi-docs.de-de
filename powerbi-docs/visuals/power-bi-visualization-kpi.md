@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974985"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Erstellen von KPI-Visualisierungen (Key Performance Indicator)
@@ -25,7 +25,7 @@ Ein Key Performance Indicator (KPI) ist ein visueller Hinweis, mit dem der Forts
 
 Schauen Sie Will beim Erstellen von Einzelmetrikvisualisierungen wie Messgeräten, Karten und KPIs zu.
    > [!NOTE]
-   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
+   > Dieses Video verwendet eine ältere Version von Power BI Desktop.
    > 
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -46,7 +46,7 @@ Ein KPI-Dataset muss Zielwerte für eine KPI enthalten. Wenn Ihr Dataset keine Z
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) verwendet.
+Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Wählen Sie im oberen linken Bereich der Menüleiste **Datei** > **Öffnen** aus.
 
@@ -99,7 +99,7 @@ KPIs sind auch im Power BI-Dienst und auf Ihren Mobilgeräten verfügbar. So ver
 
 Wenn die KPI nicht wie in der Abbildung oben aussieht, haben Sie möglicherweise keine Sortierung nach **FiscalMonth** ausgeführt. KPIs haben keine Sortieroption. Sie müssen neu beginnen und nach **FiscalMonth** sortieren, *bevor* Sie die Visualisierung in eine KPI umwandeln.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Tipps und Tricks für Power BI-Kartenvisualisierungen](power-bi-map-tips-and-tricks.md)
 

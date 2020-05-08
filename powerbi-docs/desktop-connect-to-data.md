@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539144"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Datenquellen in Power BI Desktop
@@ -39,7 +39,7 @@ Wählen Sie **Data** > **Other** > **Web** (Daten abrufen > Sonstige > Web) aus.
 
 ![Eingeben einer Webquelladresse](media/desktop-connect-to-data/connecttodata_3.png)
 
-Mit der Auswahl von **OK**beginnt die *Abfragefunktion* von Power BI Desktop ihre Arbeit. Power BI Desktop kontaktiert die Webressource und gibt im Fenster **Navigator** die auf der Webseite gefundenen Ergebnisse zurück. In diesem Fall wurde eine Tabelle und das gesamte Dokument gefunden. Da Sie an der Tabelle interessiert sind, wählen Sie diese aus der Liste aus. Im Fenster **Navigator** wird eine Vorschau angezeigt.
+Mit der Auswahl von **OK** beginnt die *Abfragefunktion* von Power BI Desktop ihre Arbeit. Power BI Desktop kontaktiert die Webressource und gibt im Fenster **Navigator** die auf der Webseite gefundenen Ergebnisse zurück. In diesem Fall wurde eine Tabelle und das gesamte Dokument gefunden. Da Sie an der Tabelle interessiert sind, wählen Sie diese aus der Liste aus. Im Fenster **Navigator** wird eine Vorschau angezeigt.
 
 ![Vorschau der Daten im Fenster „Navigator“](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
@@ -67,8 +67,8 @@ Nachdem das Datenmodell in der **Berichtsansicht** in Power BI Desktop geladen i
 
 Mit einer einzelnen Datenverbindung ist dieses Modell auf jeden Fall einfach. Die meisten Power BI Desktop-Berichte haben Verbindungen zu verschiedenen Datenquellen, die Ihren Anforderungen entsprechend aufgebaut sind, und zwar mit Beziehungen, die ein umfangreiches Datenmodell ergeben.
 
-## <a name="next-steps"></a>Nächste Schritte
-Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in den folgenden Ressourcen:
+## <a name="next-steps"></a>Weitere Schritte
+Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Informationen zum Abfrage-Editor in Power BI Desktop](desktop-query-overview.md)
@@ -78,5 +78,5 @@ Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informatione
 
 Möchten Sie uns Feedback senden? Sehr gut! Verwenden Sie das Menüelement **Vorschlag einreichen** in Power BI Desktop, oder besuchen Sie die Seite [Communityfeedback](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Wir freuen uns, von Ihnen zu hören!
 
-![Vorschlag einreichen](media/desktop-connect-to-data/sendfeedback.png)
+![Senden von Vorschlägen](media/desktop-connect-to-data/sendfeedback.png)
 

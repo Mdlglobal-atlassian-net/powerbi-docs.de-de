@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647668"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
@@ -61,10 +61,10 @@ Alle Tests wurden so entworfen, dass sie einen End-to-End-Vorgang (z.B. das Rend
 > [!NOTE]
 > Das Tool wird nicht offiziell von Microsoft unterstützt, das Produktteam trägt jedoch zum Projekt bei und beantwortet Fragen von anderen Mitwirkenden.
 
-### <a name="workloads"></a>Workloads
-Beim Testen werden zwei Workloadprofile verwendet: „Power BI-Bericht – stark“ und „Paginierter Bericht – stark“. In der folgenden Tabelle wird die Verteilung der für den Berichtsserver ausgeführten Anforderungen beschrieben.
+### <a name="workloads"></a>Arbeitsauslastungen
+Bei beiden Tests werden zwei Arbeitsauslastungsprofile verwendet: „Power BI-Bericht – stark“ und „Paginierter Bericht – stark“. In der folgenden Tabelle wird die Verteilung der für den Berichtsserver ausgeführten Anforderungen beschrieben.
 
-| Aktivität | Power BI-Bericht – stark, Häufigkeit des Vorkommens | Paginierter Bericht – stark, Häufigkeit des Vorkommens |
+| Activity | Power BI-Bericht – stark, Häufigkeit des Vorkommens | Paginierter Bericht – stark, Häufigkeit des Vorkommens |
 | --- | --- | --- |
 | **Rendern von Power BI-Berichten** |60 % |10 % |
 | **Rendern von paginierten Berichten (RDL)** |30 % |60 % |
@@ -102,7 +102,7 @@ Die in diesem Dokument beschriebenen Ergebnisse wurden aus dem Ausführen eines 
 
 Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie im [Abschnitt „Allgemein“](https://azure.microsoft.com/pricing/details/virtual-machines/windows/).
 
-| Typ des virtuellen Computers | Prozessor | Arbeitsspeicher | Azure VM-Größe |
+| Typ des virtuellen Computers | Prozessor | Memory | Azure VM-Größe |
 | --- | --- | --- | --- |
 | **Active Directory-Domänencontroller** |2 Kerne |7 GB |Standard_DS2_v2 |
 | **SQL Server-Datenbank-Engine und Analysis Services** |16 Kerne |56 GB |Standard_DS5_v2 |
@@ -112,7 +112,7 @@ Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unters
 
 Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu dieser VM-Größe finden Sie im [Abschnitt „Allgemein“](https://azure.microsoft.com/pricing/details/virtual-machines/windows/.).
 
-| Virtueller Computer | Prozessor | Arbeitsspeicher | Azure VM-Größe |
+| Virtueller Computer | Prozessor | Memory | Azure VM-Größe |
 | --- | --- | --- | --- |
 | **Power BI-Berichtsserver (klein)** |8 Kerne |32 GB |Standard_D8S_v3 |
 | **Power BI-Berichtsserver (groß)** |16 Kerne |64 GB |vStandard_D16S_v3 |
