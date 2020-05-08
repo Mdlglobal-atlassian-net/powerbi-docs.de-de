@@ -3,13 +3,13 @@
   items:
     - name: Geschäftsentscheidungsträger
       href: learning-catalog-bdm.md
-    - name: Verbraucher
+    - name: Consumer
       href: learning-catalog-consumer.md
     - name: Berichtsersteller
       href: learning-catalog-report-creator.md
     - name: Datenanalysten
       href: learning-catalog-data-analyst.md
-    - name: Administrators
+    - name: Administratoren
       href: learning-catalog-administrator.md
     - name: Entwickler
       href: learning-catalog-developer.md

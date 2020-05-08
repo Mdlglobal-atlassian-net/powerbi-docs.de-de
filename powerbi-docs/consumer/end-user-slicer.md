@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6ae8efdeb6004d700cd10fee447499a33c88e642
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268234"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Slicer im Power BI-Dienst
@@ -65,7 +65,7 @@ Klicken Sie zum Deaktivieren eines Slicers auf das Radierersymbol.
 
 ![Radierersymbol](media/end-user-slicer/power-bi-eraser.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 [Visualisierungstypen in Power BI](end-user-visualizations.md)
