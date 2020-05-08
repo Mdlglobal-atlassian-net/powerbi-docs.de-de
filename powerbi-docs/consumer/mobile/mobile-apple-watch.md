@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114512"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Auswerten von Daten in der mobilen Power BI-App auf Ihrer Apple Watch
@@ -31,7 +31,7 @@ Die Power BI Apple Watch-App besteht aus zwei Teilen.
 * Der **Index-Bildschirm** ermöglicht einen schnellen Überblick über alle Kacheln für Karten und KPIs aus dem synchronisierten Dashboard.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* Die **Kachel im Fokus**: Klicken Sie auf eine Kachel auf dem Indexbildschirm für ein ausführliches Bild einer bestimmten Kachel.
+* Die **Kachel im Fokus**: Klicken Sie auf eine Kachel auf dem Index-Bildschirm für ein ausführliches Bild einer bestimmten Kachel.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
@@ -82,7 +82,7 @@ Für den kleinen Bereich auf dem Zifferblatt der Apple Watch können Sie mithilf
 > 
 > 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig implementieren. Geben Sie deshalb bitte Ihr Votum ab, welche Features Sie sich in den Power BI Mobile-Apps wünschen. 
 
 * Laden Sie die [mobile Power BI iPhone-App](https://go.microsoft.com/fwlink/?LinkId=522062) herunter.

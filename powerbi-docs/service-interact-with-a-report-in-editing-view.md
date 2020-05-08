@@ -10,10 +10,10 @@ ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 791df63db1ef87bd5d61d80f97e225ae63feae2c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79201509"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Interagieren mit einem Bericht in der Bearbeitungsansicht im Power BI-Dienst
@@ -41,7 +41,7 @@ Sehen Sie sich die Themenliste unter der Überschrift **Berichte** im Inhaltsver
 Eine Power BI Pro-Lizenz ist erforderlich, wenn Sie Berichte bearbeiten möchten, die von anderen Personen erstellt wurden, und um zugleich Ihre Berichte mit anderen zu teilen.  Wenn Sie nicht über eine Pro-Lizenz verfügen, können Sie weiterhin Berichte erstellen, können diese aber [nicht freigeben](service-share-reports.md).
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Über diesen Link navigieren Sie zurück zum Artikel [Schnellstart: Informationen zu Funktionen für Benutzer in Power BI](consumer/end-user-reading-view.md).
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

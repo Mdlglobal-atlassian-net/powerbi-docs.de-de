@@ -9,10 +9,10 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205663"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Eine Schnelleinführung in die Startseite der mobilen App
@@ -84,7 +84,7 @@ Der Header stellt die folgenden Navigationselemente bereit:
 
     ![Seite „Suchen“](./media/mobile-apps-home-page/powerbi-mobile-app-search-page.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 In dieser Einführung haben Sie die Startseite der mobilen Power BI-App kennengelernt. Weitere Informationen zur Verwendung der mobilen Power BI-App finden Sie unter: 
 * [Erkunden von Dashboards und Berichten in den mobilen Power BI-Apps](../../mobile-apps-quickstart-view-dashboard-report.md)
 * [Durchsuchen von Berichten in den mobilen Power BI-Apps](../../mobile-reports-in-the-mobile-apps.md)

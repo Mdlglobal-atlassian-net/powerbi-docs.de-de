@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114247"
 ---
 # <a name="reports-in-power-bi"></a>Berichte in Power BI
@@ -55,13 +55,13 @@ Das bedeutet nicht, dass Sie Ihre Änderungen nicht speichern können. Das könn
 
 [Dashboards](end-user-dashboards.md) werden oft mit Berichten verwechselt, weil es sich bei einem Dashboard ebenfalls um eine Canvas handelt, die Visuals enthält. Es gibt aber einige wichtige Unterschiede.  
 
-| **Eigenschaften** | **Dashboards** | **Berichte** |
+| **Funktion** | **Dashboards** | **Berichte** |
 | --- | --- | --- |
-| Seiten |Eine Seite |Eine oder mehrere Seiten |
+| Pages |Eine Seite |Eine oder mehrere Seiten |
 | Datenquellen |Ein oder mehrere Berichte und ein oder mehrere Datasets pro Dashboard |Ein Dataset pro Bericht |
 | Filterung |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
 | Benachrichtigungen festlegen |Kann Ihnen Benachrichtigungen per E-Mail senden, wenn das Dashboard bestimmte Bedingungen erfüllt |Nein |
-| Feature |Kann ein Dashboard als Favorit festlegen |Ein ausgewählter Bericht kann nicht erstellt werden. |
+| Funktion |Kann ein Dashboard als Favorit festlegen |Ein ausgewählter Bericht kann nicht erstellt werden. |
 | Zugrunde liegende Dataset-Tabellen und Felder sichtbar |Nein. Kann Daten exportieren, aber keine Dataset-Tabellen und Felder im Dashboard selbst einsehen |Ja. Kann Dataset-Tabellen, Felder und Werte einsehen, für die Sie über die Berechtigungen verfügen |
 | Anpassung |Nein  |Kann filtern, exportieren, verwandte Inhalte anzeigen, Lesezeichen hinzufügen, QR-Codes generieren, in Excel analysieren und mehr |
 
@@ -82,7 +82,7 @@ Oder Sie sind ein *Berichtsnutzer*, der Berichte von anderen erhält. Dann sollt
 > [!TIP]
 > Wenn Sie die gesuchten Informationen hier nicht finden, verwenden Sie das Inhaltsverzeichnis auf der linken Seite, um alle Artikel zu *Berichten* zu durchsuchen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Öffnen und Anzeigen eines Berichts](end-user-report-open.md)    
 [Dashboards im Power BI-Dienst](end-user-dashboards.md)

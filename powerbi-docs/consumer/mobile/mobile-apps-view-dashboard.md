@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205525"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
@@ -59,7 +59,7 @@ Hier sehen Sie ein Power BI-Dashboard im Power BI-Dienst:
     Drehen Sie Ihr Smartphone alternativ auf die Seite, um das Dashboard im Querformat auf Ihrem Smartphone anzuzeigen.
    
     ![Dashboard in Querformatansicht](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
-3. Streichen Sie nach oben oder unten, um alle Kacheln im Dashboard anzuzeigen. Sie können:
+3. Streichen Sie nach oben oder unten, um alle Kacheln im Dashboard anzuzeigen. Sie haben folgende Möglichkeiten:
    
    * [Tippen Sie auf eine Kachel](mobile-tiles-in-the-mobile-apps.md), um sie im Fokusmodus zu öffnen und mit ihr zu interagieren.
    * Tippen Sie auf den Stern ![Favoriten-Stern](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png), um [sie als Favoriten festzulegen](mobile-apps-favorites.md).
@@ -152,9 +152,9 @@ Wenn Sie der Besitzer des Dashboards sind, können Sie *im Power BI-Dienst* eine
 
 Lesen Sie mehr unter [Create a phone view of a dashboard in Power BI](../../service-create-dashboard-mobile-phone-view.md) (Erstellen einer Telefonansicht eines Dashboards in Power BI).
 
-## <a name="next-steps"></a>Nächste Schritte
-* [Herunterladen der Android-App](https://go.microsoft.com/fwlink/?LinkID=544867) aus dem Google Play Store  
+## <a name="next-steps"></a>Weitere Schritte
+* [Herunterladen der Android-App](https://go.microsoft.com/fwlink/?LinkID=544867) von Google Play.  
 * [Erste Schritte mit der Android-App für Power BI](mobile-android-app-get-started.md)  
 * [Was ist Power BI?](../../fundamentals/power-bi-overview.md)
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

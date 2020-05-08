@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114128"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navigation für Power BI-Consumer: globale Suche
@@ -58,7 +58,7 @@ Nicht alle Spalten können sortiert werden. Zeigen Sie auf die Spaltenüberschri
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 * Für Datasets kann mit der Option **Sortieren nach** nicht nach Besitzer sortiert werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Sortieren von Visuals in Berichten](end-user-change-sort.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133192"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Problembehandlung zur Anmeldung bei Power BI Desktop
@@ -55,7 +55,7 @@ Aktuelle Versionen von **Power BI Desktop** verwenden die aktuelle Version der A
 
 Die folgenden Ausnahmen in *Power BI Desktop*-Ablaufverfolgungsdateien sind mit diesem Fehler verknüpft:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Nicht-HTTPS-URL-Umleitung wird in Webansicht nicht unterstützt.*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Nicht-HTTPS-URL-Umleitung wird in Webansicht nicht unterstützt*
 * *ErrorCode: non_https_redirect_failed*
 
 Wenn *ErrorCode: non_https_redirect_failed* auftritt, bedeutet dies, dass mindestens eine Umleitungsseite oder ein Anbieter in der Umleitungskette kein HTTPS-geschützter Endpunkt ist, oder dass ein Zertifikatsaussteller einer oder mehrerer Umleitungen nicht zu den vertrauenswürdigen Stammzertifizierungsstellen des Geräts zählt. Alle Anbieter in einer Anmeldeumleitungskette müssen eine HTTPS-URL verwenden. Um dieses Problem zu behandeln, wenden Sie sich an Ihren Administrator, und fordern Sie an, dass gesicherte URLs für ihre Authentifizierungswebsites verwendet werden. 

@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496415"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Drillmodus in einem Visual in Power BI
@@ -146,10 +146,10 @@ Beachten Sie, dass die Summen für **Stadt**, **Postleitzahl** und **Name** glei
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 - Standardmäßig filtern Drillvorgänge keine anderen visuellen Elemente in einem Bericht. Der Berichts-Designer kann dieses Standardverhalten jedoch ändern. Während Sie einen Drillvorgang ausführen, prüfen Sie, ob die anderen Visuals auf der Seite Kreuzfilterungen oder übergreifende Hervorhebungen sind.
 
-- Für das Anzeigen eines für Sie freigegebenen Berichts ist eine Power BI Pro- oder Premium-Lizenz erforderlich. [Welche Lizenz habe ich?](end-user-license.md)
+- Für das Anzeigen eines für Sie freigegebenen Berichts ist eine Power BI Pro- oder Premium-Lizenz erforderlich. [So ermitteln Sie Ihren Lizenztyp](end-user-license.md)
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Visuals in Power BI-Berichten](../visuals/power-bi-report-visualizations.md)
 

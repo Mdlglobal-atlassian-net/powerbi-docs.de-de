@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 86728adbad8a96875fc21bb9fe5c5267a2ce6651
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206353"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Verbesserung von Power BI-Berichten anhand von Visualelementen
@@ -60,7 +60,7 @@ Wenn Sie den Seitenhintergrund auf eine Transparenz von mehr als 50 % festlegen,
 Es gilt unbedingt zu beachten, dass die gepunktete Begrenzung *nur* bei der Bearbeitung des Berichts und *nicht* Personen angezeigt wird, die Ihren veröffentlichten Bericht anzeigen, z.B. wenn dieser im **Power BI-Dienst** angezeigt wird.
 
 > [!NOTE]
-> Wenn Sie dunkle Farben für Ihre Hintergründe verwenden und die Textfarbe auf weiß oder sehr hell festlegen, sollten Sie darauf achten, dass das Feature **Exportieren in eine PDF-Datei** kein Hintergrundbild enthält, sodass alle Exporte mit weißen Schriftarten in der exportierten PDF-Datei so gut wie unsichtbar sind. Weitere Informationen zum **Exportieren in eine PDF-Datei** finden Sie unter [In PDF exportieren](desktop-export-to-pdf.md).
+> Wenn Sie dunkle Farben für Ihre Hintergründe verwenden und die Textfarbe auf weiß oder sehr hell festlegen, sollten Sie darauf achten, dass das Feature **Exportieren in eine PDF-Datei** kein Hintergrundbild enthält, sodass alle Exporte mit weißen Schriftarten in der exportierten PDF-Datei so gut wie unsichtbar sind. Weitere Informationen zum [Exportieren in eine PDF-Datei](desktop-export-to-pdf.md) finden Sie unter **In PDF exportieren**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Verwendung von verbesserten Visualheadern in Power BI-Berichten
@@ -97,12 +97,12 @@ Die neuen Visualheader stellen das Standardverhalten für alle neuen Berichte da
 ![Bei vorhandenen Berichten muss für die Verwendung der verbesserten Visualheader das Kontrollkästchen „Optionen“ aktiviert werden.](media/desktop-visual-elements-for-reports/visual-elements-for-reports_06.png)
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu **Power BI Desktop** und den ersten Schritten finden Sie in den folgenden Artikeln.
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Übersicht zu Abfragen mit Power BI Desktop](desktop-query-overview.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)   

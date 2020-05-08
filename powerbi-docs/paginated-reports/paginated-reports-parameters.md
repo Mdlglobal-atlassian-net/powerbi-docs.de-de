@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 42b9057ccfaa918593e1be8a182c7b0ee57f9760
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920985"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Erstellen von Parametern für paginierte Berichte im Power BI-Dienst
@@ -52,7 +52,7 @@ Die folgende Abbildung zeigt die Designansicht im Power BI-Berichts-Generator f�
   
 7.  Damit Benutzer mehrere Werte für den Parameter auswählen können, wählen Sie **Mehrere Werte zulassen** aus.  
   
-8.  Legen Sie die Sichtbarkeitsoption fest.  
+8.  Legen Sie die Sichtbarkeit fest.  
   
     -   Um den Parameter in der Symbolleiste oben im Bericht anzuzeigen, wählen Sie **Sichtbar** aus.  
   
@@ -60,14 +60,14 @@ Die folgende Abbildung zeigt die Designansicht im Power BI-Berichts-Generator f�
   
     -   Um den Parameter auszublenden und vor Änderungen auf dem Berichtsserver nach der Veröffentlichung des Berichts zu schützen, wählen Sie **Intern** aus. Der Berichtsparameter lässt sich dann nur noch in der Berichtsdefinition anzeigen. Bei dieser Option müssen Sie einen Standardwert festlegen oder einen Nullwert für den Parameter zulassen.  
   
-9. Wählen Sie **OK** aus. 
+9. Klicken Sie auf **OK**. 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 
 - Wenn Sie ein Power BI-Dataset oder ein Analysis Services-Modell als Datenquelle verwenden, können Sie aufgrund von DAX-Beschränkungen nicht mehr als 1.000 Parameterwerte in einer einzigen Anforderung übergeben. 
 
  
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Unter [Anzeigen von Parametern für paginierte Berichte](../consumer/paginated-reports-view-parameters.md) erfahren Sie, wie die Parameter im Power BI-Dienst angezeigt werden.
 

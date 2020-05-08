@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113151"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Von Power BI unterstützte Einblicke
@@ -51,7 +51,7 @@ Hebt hervor, wenn es signifikante Trendänderungen in einer Zeitreihe von Daten 
 
 ![Beispiel für Änderungspunkte im Laufe der Zeit](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>Korrelation
+### <a name="correlation"></a>Correlation
 Dieser erkennt Fälle, in denen mehrere Measures ein ähnliches Muster oder einen ähnlichen Trend aufweisen, wenn diese in einer Kategorie oder in einem Wert im Dataset dargestellt werden.
 
 ![Beispiel für Korrelation](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
@@ -88,7 +88,7 @@ Erkennt in Daten auf einer Zeitreihe, wenn bestimmte Datums- oder Zeitangaben mi
 
 ![Beispiel für Ausreißer im Laufe der Zeit](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Power BI-Einblicke](end-user-insights.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)

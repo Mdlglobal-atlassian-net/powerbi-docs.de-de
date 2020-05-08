@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378591"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Stichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI
@@ -39,7 +39,7 @@ Für ein Visual mit hoher Dichte teilt **Power BI** Ihre Daten auf intelligente 
 ### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Mindest- und Höchstwerte für visuelle Linienelemente mit hoher Dichte
 Für jedes visuelle Element gelten die folgenden visuellen Einschränkungen:
 
-* Die maximale Anzahl von Datenpunkten, die in den meisten Visuals *angezeigt* werden können, beträgt **3.500**, unabhängig von der Anzahl der zugrunde liegenden Datenpunkte oder -reihen (weitere Informationen finden Sie unter den *Ausnahmen* in der folgenden Aufzählung). Bei 10 Reihen mit jeweils 350 Datenpunkten hat das visuelle Element deshalb die Höchstgrenze an Datenpunkten erreicht. Wenn Sie eine Reihe haben, kann diese bis zu 3.500 Datenpunkte haben, wenn der neue Algorithmus dies für die beste Stichprobenentnahme für die zugrunde liegenden Daten hält.
+* Die maximale Anzahl von Datenpunkten, die in den meisten Visuals **angezeigt** werden können, beträgt *3.500*, unabhängig von der Anzahl der zugrunde liegenden Datenpunkte oder -reihen (weitere Informationen finden Sie unter den *Ausnahmen* in der folgenden Aufzählung). Bei 10 Reihen mit jeweils 350 Datenpunkten hat das visuelle Element deshalb die Höchstgrenze an Datenpunkten erreicht. Wenn Sie eine Reihe haben, kann diese bis zu 3.500 Datenpunkte haben, wenn der neue Algorithmus dies für die beste Stichprobenentnahme für die zugrunde liegenden Daten hält.
 
 * Jedes visuelle Element kann maximal **60 Reihen** enthalten. Wenn Sie mehr als 60 Reihen haben, teilen Sie die Daten auf, und erstellen Sie mehrere Visuals mit jeweils höchstens 60 Reihen. Es wird empfohlen, einen **Datenschnitt** zu verwenden, um nur Segmente der Daten anzuzeigen (nur bestimmte Reihen). Wenn Sie z.B. alle Unterkategorien in der Legende anzeigen, können Sie einen Datenschnitt verwenden, um nach der übergeordneten Kategorie auf der gleichen Berichtseite zu filtern.
 
@@ -91,7 +91,7 @@ Der neue Algorithmus für Linienstichproben mit hoher Dichte ist eine wichtige V
 * Die Einstellung **Show Items with no data** (Elemente ohne Daten anzeigen) wird vom neuen Algorithmus nicht unterstützt.
 * Der neue Algorithmus wird nicht unterstützt, wenn Sie die Liveverbindung zu einem Modell verwenden, das in SQL Server Analysis Services (Version 2016 oder früher) gehostet wird. Er wird aber in Modellen unterstützt, die in **Power BI** oder Azure Analysis Services gehostet werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Informationen über die Stichprobenentnahme mit hoher Dichte in Punktdiagrammen finden Sie im folgenden Artikel.
 
 * [Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen](desktop-high-density-scatter-charts.md)

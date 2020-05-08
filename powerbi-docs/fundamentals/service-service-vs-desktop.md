@@ -11,10 +11,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79126257"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
@@ -56,7 +56,7 @@ Nachdem Sie Ihre Berichte erstellt haben, können Sie diese in einem *Arbeitsber
 
 Dataflows unterstützen Organisationen dabei, Daten aus unterschiedlichen Quellen zusammenzuführen und zur Modellierung vorzubereiten. Analysten können mit vertrauten Self-Service-Tools ganz einfach Dataflows erstellen. Sie werden zum Erfassen, Transformieren, Integrieren und Anreichern von Big Data verwendet, indem unter anderem Datenquellenverbindungen, ETL-Logik und Aktualisierungspläne definiert werden. Weitere Informationen finden Sie unter [Self-Service-Datenvorbereitung mit Dataflows](../service-dataflows-overview.md).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Was ist Power BI Desktop?](../desktop-what-is-desktop.md)
 

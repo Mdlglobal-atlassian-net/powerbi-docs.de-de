@@ -10,16 +10,16 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401216"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Voraussetzungen für Power BI-Datenquellen
 Power BI unterstützt für jeden Datenanbieter einer bestimmten Anbieterversion auf Objekten. Weitere Informationen zu den für Power BI verfügbaren Datenquellen finden Sie unter [Datenquellen](desktop-data-sources.md). Diese Anforderungen sind in der folgenden Tabelle beschrieben.
 
-| Datenquellen- | Anbieter | Minimale Anbieterversion | Minimale Datenquellenversion | Unterstützte Datenquellenobjekte | Download-Link |
+| Datenquelleneinstellungen | Anbieter | Minimale Anbieterversion | Minimale Datenquellenversion | Unterstützte Datenquellenobjekte | Downloadlink |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (in .Net Framework integriert) |.NET Framework 3.5 (ausschließlich) |SQL Server 2005 und höher |Tabellen/Ansichten, skalare Funktionen, Tabellenfunktionen |In .NET Framework 3.5 oder höher enthalten |
 | Zugriff |Microsoft Access-Datenbank-Engine (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen/Ansichten |[Downloadlink](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |

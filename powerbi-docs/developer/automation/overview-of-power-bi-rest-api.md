@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
 ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488430"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Welche Möglichkeiten bietet die Power BI-API für Entwickler?
@@ -26,7 +26,7 @@ Einige der Möglichkeiten, die die Power BI-APIs bieten:
 | **Weitere Informationen** | **Referenz zu diesen Informationen** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Einbetten von Dashboards, Berichten und Kacheln für Benutzer, die Power BI verwenden und nicht verwenden | [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](../embedded/embed-sample-for-customers.md) |
-| Ausführen von Verwaltungsaufgaben für Power BI-Objekte | [Referenz zur Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) |
+| Ausführen von Verwaltungsaufgaben für Power BI-Objekte | [Referenz für Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) |
 | Erweitern eines vorhandenen Geschäftsworkflows, um wichtige Daten per Push in ein Power BI-Dashboard zu übertragen. | [Übertragen von Daten in ein Dashboard per Push](walkthrough-push-data.md) |
 | Authentifizieren bei Power BI. | [Authentifizieren bei Power BI](../embedded/get-azuread-access-token.md) |
 
@@ -51,9 +51,9 @@ Sie können die Power BI-API zum [Übertragen von Daten in ein Dataset mithilfe 
 
 * [Power BI-Beispiele für Entwickler](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+* [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md)
 * [Entwickeln eines Power BI-Visuals](../visuals/custom-visual-develop-tutorial.md)
