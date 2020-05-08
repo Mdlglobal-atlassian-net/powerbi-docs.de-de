@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380401"
 ---
 # <a name="add-drill-down-support"></a>Hinzufügen von Unterstützung für Drilldowns
@@ -205,7 +205,7 @@ button {
 
 Bereiten Sie Beispieldaten vor, um das Visual zu testen:
 
-|   H1  |   H2    | H3  |   WERTE  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
 |   A   |    A1  |    A11 |    1   |
 |   A    |    A1    |    A12    |    2    |
@@ -616,6 +616,6 @@ Im letzten Schritt sollte das Visual mit einem Kontextmenü angezeigt werden:
 
 ![Das Visual mit Drilldownunterstützung](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen finden Sie unter [Grundlegendes zur Zuordnung von Datenansichten in Power BI-Visuals](dataview-mappings.md).

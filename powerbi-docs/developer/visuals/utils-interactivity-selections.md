@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379258"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Interaktivitätshilfsprogramme für Power BI-Visuals
@@ -186,7 +186,7 @@ Normalerweise enthalten Datenpunkte Auswahlmöglichkeiten und Werte. Die Schnitt
     }
     ```
 
-5. Um Klicks auf Elemente zu verarbeiten, rufen Sie die `on`-Methode des Auswahlobjekts *d3* auf. Dies gilt auch für `elementsSelection` und `clearCatcherSelection`.
+5. Um Klicks auf Elemente zu verarbeiten, rufen Sie die *-Methode des Auswahlobjekts* d3`on` auf. Dies gilt auch für `elementsSelection` und `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {
@@ -285,7 +285,7 @@ Normalerweise enthalten Datenpunkte Auswahlmöglichkeiten und Werte. Die Schnitt
         // ...
       }
       ```
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Verarbeiten von Auswahlmöglichkeiten bei wechselnden Lesezeichen](bookmarks-support.md#visuals-with-selection)
 

@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207595"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Bearbeiten oder Entfernen einer Dashboardkachel
@@ -117,7 +117,7 @@ Standardmäßig gelangen Sie durch Auswählen einer Kachel zu dem Bericht, in de
 
     ![Dialog „Funktionalität“](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. Klicken Sie auf **Übernehmen**.
+3. Wählen Sie **Übernehmen**.
 
 4. Auf der Kachel wird der neue Titel angezeigt.  Und wenn Sie die Kachel auswählen, wird in Power BI das Personalwesen-Dashboard geöffnet. 
 
@@ -140,7 +140,7 @@ Standardmäßig gelangen Sie durch Auswählen einer Kachel zu dem Bericht, in de
 2. Durch Löschen einer Kachel wird nicht die zugrunde liegende Visualisierung gelöscht. Öffnen Sie den zugrunde liegenden Bericht, indem Sie die Kachel „Betrag“ auswählen. Öffnen Sie die letzte Seite im Bericht, um sich zu vergewissern, dass die ursprüngliche Visualisierung nicht aus dem Bericht gelöscht wurde. 
 
 - - -
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Dashboardkacheln in Power BI](consumer/end-user-tiles.md)
 
 [Dashboards in Power BI](consumer/end-user-dashboards.md)

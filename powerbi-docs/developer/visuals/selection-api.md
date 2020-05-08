@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113690"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Hinzufügen von Interaktivität zu Visuals mithilfe von Auswahlmöglichkeiten für Power BI-Visuals
@@ -81,7 +81,7 @@ Dieses Objekt verfügt über entsprechende Methoden zum Erstellen von `selection
 
 Sehen wir uns an, wie Auswahloptionen in der Kategoriezuordnung der Datenansicht für ein Beispieldataset dargestellt werden:
 
-| Hersteller | Typ | Wert |
+| Hersteller | type | Werte |
 | - | - | - |
 | Chrysler | Kfz aus Inlandsfertigung | 28883 |
 | Chrysler | LKW aus Inlandsfertigung | 117131 |
@@ -161,7 +161,7 @@ Und ein Visual sollte auch in der Lage sein, einen Datenschnitt für `Manufactur
 
 Wenn der Benutzer beispielsweise `Chrysler` als `Manufacturer` auswählt, sollten die anderen Visuals folgende Daten anzeigen:
 
-| Hersteller | Typ | Wert |
+| Hersteller | type | Werte |
 | - | - | - |
 | **Chrysler** | Kfz aus Inlandsfertigung | 28883 |
 | **Chrysler** | LKW aus Inlandsfertigung | 117131 |
@@ -170,7 +170,7 @@ Wenn der Benutzer beispielsweise `Chrysler` als `Manufacturer` auswählt, sollte
 
 Wenn der Benutzer `Import Car` nach `Type` (wählt Daten nach Reihe aus) auswählt, sollten die anderen Visuals folgende Daten anzeigen:
 
-| Hersteller | Typ | Wert |
+| Hersteller | type | Werte |
 | - | - | - |
 | Chrysler | **Import-Kfz** | 0 |
 | Ford | **Import-Kfz** | 0 |
@@ -372,7 +372,7 @@ button.addEventListener("click", (mouseEvent) => {
 });
 ```
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Erfahren Sie, wie Sie die Auswahl für das Binden von Visualeigenschaften an Datenpunkte verwenden](objects-properties.md#objects-selector)
 

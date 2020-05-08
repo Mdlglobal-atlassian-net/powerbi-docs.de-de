@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487807"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Administratorleitfaden zu Mandanteneinstellungen
@@ -25,7 +25,7 @@ Hier finden Sie Anleitungen für bestimmte Mandanteneinstellungen, mit denen Sie
 
 ## <a name="improve-power-bi-experience"></a>Optimieren von Power BI
 
-### <a name="publish-get-help-information"></a>Informationen zu "Hilfe anfordern" veröffentlichen
+### <a name="publish-get-help-information"></a>Veröffentlichen von Informationen zu „Hilfe erhalten“
 
 Es ist empfehlenswert, interne Power BI-bezogene Websites mit [Microsoft Teams](/microsoftteams) oder anderen Plattformen für die Zusammenarbeit einzurichten. Über diese Websites können z. B. Trainingsdokumentation gespeichert, Diskussionen gehostet, Lizenzanforderungen gesendet und auf Hilfeanfragen geantwortet werden.
 
@@ -76,7 +76,7 @@ Achten Sie darauf, dass Ihre Benutzer (die nicht zum Erstellen von Arbeitsbereic
 
 ![Die Einstellung „Arbeitsbereichseinstellungen“ wird angezeigt.](media/admin-tenant-settings/create-workspaces.png)
 
-### <a name="share-content-with-external-users"></a>Inhalt für externe Benutzer freigeben
+### <a name="share-content-with-external-users"></a>Inhalten für externe Benutzer freigeben
 
 Benutzer können Berichte und Dashboards für Personen außerhalb Ihrer Organisation freigeben.
 
@@ -86,11 +86,11 @@ Es wird empfohlen, dass Sie mindestens eine Sicherheitsgruppe zuweisen. Diesen G
 
 ![Die Einstellung „Inhalt für externe Benutzer freigeben“ wird angezeigt.](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>Im Web veröffentlichen
+### <a name="publish-to-web"></a>Webveröffentlichung
 
 Mit dem Feature [Im Web veröffentlichen](../service-publish-to-web.md) können öffentliche Berichte im Internet veröffentlicht werden. Wenn das Feature unangemessen eingesetzt wird, besteht das Risiko, dass vertrauliche Informationen live im Internet verfügbar gemacht werden.
 
-Die Einstellung **Im Web veröffentlichen** ist zwar standardmäßig für die gesamte Organisation aktiviert, allerdings dürfen Benutzer, die keine Administratoren sind, nur Einbindungscode erstellen. Sie finden die Einstellung in der Gruppe **Einstellungen für Export und Freigabe**.
+Die Einstellung **Im Web veröffentlichen** ist zwar standardmäßig für die gesamte Organisation aktiviert, allerdings dürfen Benutzer, die keine Administratoren sind, nur Einbindungscode erstellen. Sie finden sie in der Gruppe **Einstellungen für Export und Freigabe**.
 
 Wenn sie aktiviert ist, wird empfohlen, dass Sie mindestens eine Sicherheitsgruppe zuweisen. Diesen Gruppen kann die Berechtigung, Berichte zu veröffentlichen, erteilt _oder verweigert_ werden.
 
@@ -137,11 +137,11 @@ Wenn Sie nicht vorhaben, mithilfe der Entwickler-APIs Inhalte einzubetten, sollt
 
 ![Die Entwicklereinstellungen werden angezeigt.](media/admin-tenant-settings/developer-settings.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Was ist die Power BI-Verwaltung?](../service-admin-administering-power-bi-in-your-organization.md)
 - [Verwalten von Power BI im Verwaltungsportal](../service-admin-portal.md)
-- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)

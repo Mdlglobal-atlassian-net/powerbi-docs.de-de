@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273361"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen
@@ -84,7 +84,7 @@ Der Algorithmus der Stichprobenentnahme mit hoher Dichte ist eine wichtige Verbe
 
 * Der Algorithmus der **Stichprobenentnahme mit hoher Dichte** kann nur für Liveverbindungen mit auf dem Power BI-Dienst basierenden Modellen, importierten Modellen oder DirectQuery ausgeführt werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen über die Stichprobenentnahme mit hoher Dichte finden Sie in den folgenden Artikeln:
 

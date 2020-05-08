@@ -10,10 +10,10 @@ ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378706"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop
@@ -84,7 +84,7 @@ Es gibt viele Verwendungsmöglichkeiten für manuell festgelegte QuickInfos. Sie
 
 ## <a name="reverting-to-default-tooltips"></a>Wiederherstellen der Standard-QuickInfos
 
-Wenn Sie für ein Visual eine manuelle QuickInfo erstellt haben, stattdessen jedoch die Standard-QuickInfo anzeigen möchten, können Sie jederzeit zur Standard-QuickInfo von Power BI zurückkehren. Wählen Sie dazu in der erweiterten **QuickInfo**-Karte des ausgewählten Visuals aus der Dropdownliste **Seite** die Option *Auto* aus, um zur Standardauswahl zurückzukehren.
+Wenn Sie für ein Visual eine manuelle QuickInfo erstellt haben, stattdessen jedoch die Standard-QuickInfo anzeigen möchten, können Sie jederzeit zur Standard-QuickInfo von Power BI zurückkehren. Wählen Sie dazu in der erweiterten **QuickInfo**-Karte des ausgewählten Visuals aus der Dropdownliste *Seite* die Option **Auto** aus, um zur Standardauswahl zurückzukehren.
 
 ![Wiederherstellen der Standard-QuickInfo für ein Visual](media/desktop-tooltips/desktop-tooltips_11.png)
 
@@ -118,7 +118,7 @@ Folgende Einschränkungen und Überlegungen sollten Sie bei **QuickInfos** berü
 
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Weitere Informationen zu Features, die QuickInfos für Berichte ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Verwenden der Drillthroughfunktion in Power BI Desktop](desktop-drillthrough.md)

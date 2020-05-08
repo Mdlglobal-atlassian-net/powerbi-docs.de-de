@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: a9d30d1346bf2801cd6cba44cc7cc33d734fccbb
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699565"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Leitfaden zum Bereitstellen eines Datengateways für Power BI
@@ -44,7 +44,9 @@ Eine Einschränkung in Power BI ist, dass nur *ein* Gateway pro *Bericht* zuläs
 
 Power BI bietet zwei Arten von Verbindungen: DirectQuery und Import. Nicht alle Datenquellen unterstützen beide Verbindungstypen. Viele Faktoren können zu Ihrer Wahl beitragen, z. B. Sicherheitsanforderungen, Leistung, Datengrenzwerte und Datenmodellgrößen. Weitere Informationen zu Verbindungstypen und unterstützten Datenquellen finden Sie in der [Liste der verfügbaren Datenquellentypen](service-gateway-data-sources.md#list-of-available-data-source-types).
 
-Je nachdem, welcher Verbindungstyp verwendet wird, kann die Gatewaynutzung variieren. Versuchen Sie z.B. DirectQuery-Datenquellen nach Möglichkeit von Datenquellen mit geplanter Aktualisierung zu trennen. Dabei wird angenommen, dass Sie sich in verschiedenen Berichten befinden und getrennt werden können. Durch das Trennen von Quellen wird verhindert, dass sich im Gateway tausende DirectQuery-Anforderungen in der Warteschlange befinden, wenn gleichzeitig die morgendlich geplante Aktualisierung eines großen Datenmodells stattfindet, das für das Hauptdashboard des Unternehmens verwendet wird. 
+Je nachdem, welcher Verbindungstyp verwendet wird, kann die Gatewaynutzung variieren. Versuchen Sie z.B. DirectQuery-Datenquellen nach Möglichkeit von Datenquellen mit geplanter Aktualisierung zu trennen. Dabei wird angenommen, dass Sie sich in verschiedenen Berichten befinden und getrennt werden können.
+ Durch das Trennen von Quellen wird verhindert, dass sich im Gateway tausende DirectQuery-Anforderungen in der Warteschlange befinden, wenn gleichzeitig die morgendlich geplante Aktualisierung eines großen Datenmodells stattfindet, das für das Hauptdashboard des Unternehmens verwendet wird.
+ 
 
 Berücksichtigen Sie deshalb für jede Option Folgendes:
 
@@ -56,7 +58,8 @@ Informationen zu den Anforderungen an die Computerinstallation finden Sie in den
 
 ### <a name="location"></a>Standort
 
-Der Speicherort der Gatewayinstallation kann erhebliche Auswirkungen auf die Abfrageleistung haben. Stellen Sie sicher, dass der physische Abstand zwischen Ihrem Gateway, den Speicherorten der Datenquellen und dem Power BI-Mandanten so gering wie möglich ist, um die Netzwerklatenz zu minimieren. Um den Speicherort Ihres Power BI-Mandaten im Power BI-Dienst zu bestimmen, wählen Sie das Fragezeichen **?** Symbol rechts oben. Wählen Sie dann **Info** aus.
+Der Speicherort der Gatewayinstallation kann erhebliche Auswirkungen auf die Abfrageleistung haben. Stellen Sie sicher, dass der physische Abstand zwischen Ihrem Gateway, den Speicherorten der Datenquellen und dem Power BI-Mandanten so gering wie möglich ist, um die Netzwerklatenz zu minimieren.
+ Um den Speicherort Ihres Power BI-Mandaten im Power BI-Dienst zu bestimmen, wählen Sie das Fragezeichen **?** Symbol rechts oben. Wählen Sie dann **Info** aus.
 
 ![Ermitteln des Speicherorts des Power BI-Mandanten](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_02.png)
 
@@ -65,7 +68,7 @@ Wenn Sie das Power BI-Gateway mit Azure Analysis Services verwenden möchten, st
 ## <a name="next-steps"></a>Nächste Schritte
 
 * [Konfigurierung von Proxyeinstellungen](/data-integration/gateway/service-gateway-proxy)  
-* [Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)  
+* [Lokales Datengateway – Power BI](service-gateway-onprem-tshoot.md)  
 * [On-premises data gateway FAQ - Power BI (Häufig gestellte Fragen zum lokalen Datengateway – Power BI)](service-gateway-power-bi-faq.md)  
 
 Weitere Fragen? Wenden Sie sich an die [Power BI-Community](https://community.powerbi.com/).

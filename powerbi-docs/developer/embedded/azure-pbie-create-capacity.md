@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Power BI Embedded-Kapazität im Azure-Portal | Microsoft-Dokumentation
+title: Einrichten von Power BI Embedded-Kapazität im Azure-Portal | Microsoft-Dokumentation
 description: In diesem Artikel erfahren Sie, wie Sie eine Power BI Embedded-Kapazität in Microsoft Azure erstellen.
 author: KesemSharabi
 ms.author: kesharab
@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
 ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114794"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Erstellen einer Power BI Embedded-Kapazität im Azure-Portal
@@ -24,7 +24,7 @@ Wenn Sie kein Azure-Abonnement haben, erstellen Sie ein [kostenloses Konto](http
 
 > [!VIDEO https://www.youtube.com/embed/aXrvFfg_iSk]
 
-## <a name="before-you-begin"></a>Vorbereitung
+## <a name="before-you-begin"></a>Vorbereitende Schritte
 
 Für diesen Schnellstart benötigen Sie Folgendes:
 
@@ -41,7 +41,7 @@ Für diesen Schnellstart benötigen Sie Folgendes:
 
 3. Wählen Sie in Power BI Embedded **Erstellen** aus.
 
-4. Geben Sie die erforderlichen Informationen ein, und wählen Sie dann **Erstellen** aus.
+4. Geben Sie die erforderlichen Informationen ein, und klicken Sie auf **Erstellen**.
 
     ![Felder zum Ausfüllen beim Erstellen einer neuen Kapazität](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -49,18 +49,18 @@ Für diesen Schnellstart benötigen Sie Folgendes:
     |---------|---------|
     |**Ressourcenname**|Ein Name zur Identifizierung der Kapazität. Der Ressourcenname wird im Power BI-Verwaltungsportal zusätzlich zum Azure-Portal angezeigt.|
     |**Abonnement**|Das Abonnement, für das Sie die Kapazität erstellen möchten.|
-    |**Ressourcengruppe**|Die Ressourcengruppe, die die neue Kapazität enthält. Wählen Sie eine vorhandene Ressourcengruppe aus, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Übersicht über Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
+    |**Ressourcengruppe**|Die Ressourcengruppe, die die neue Kapazität enthält. Wählen Sie eine vorhandene Ressourcengruppe aus, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Übersicht über den Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Power BI-Kapazitätsadministrator**|Power BI-Kapazitätsadministratoren können die Kapazität im Power BI-Verwaltungsportal ansehen und anderen Benutzern Zuweisungsberechtigungen erteilen. Standardmäßig ist der Kapazitätsadministrator Ihr Konto. Der Kapazitätsadministrator muss sich in Ihrem Power BI-Mandanten befinden.|
-    |**Speicherort**|Der Speicherort, an dem Power BI für Ihren Mandanten gehostet wird. Der standardmäßige Standort ist Ihre Heimatregion, aber Sie können den Standort über die [Multi-Geo-Optionen](embedded-multi-geo.md) ändern.
+    |**Speicherort**|Der Standort, an dem Power BI für Ihren Mandanten gehostet wird. Der standardmäßige Standort ist Ihre Heimatregion, aber Sie können den Standort über die [Multi-Geo-Optionen](embedded-multi-geo.md) ändern.
     |**Tarif**|Wählen Sie die SKU aus (Anzahl von V-Kernen und Arbeitsspeichergröße), die Ihren Anforderungen entspricht.  Weitere Informationen finden Sie unter [Power BI Embedded – Preise](https://azure.microsoft.com/pricing/details/power-bi-embedded/).|
 
 Sie können zu **Alle Dienste** > **Power BI Embedded** navigieren, um zu überprüfen, ob Ihre Kapazität einsatzbereit ist. Alternativ können Sie im Abschnitt „Benachrichtigungen“ oder auf dem Blatt auf **An Dashboard anheften** klicken, um zum Dashboard zu navigieren und die neue Kapazität anzuzeigen.
 
 ![Dashboard im Azure-Portal mit Power BI Embedded-Kapazität](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
-Wenn Sie Ihre neue Power BI Embedded-Kapazität verwenden möchten, öffnen Sie das Power BI-Verwaltungsportal, um Arbeitsbereiche zuzuweisen. Weitere Informationen finden Sie unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](https://powerbi.microsoft.com/documentation/powerbi-admin-premium-manage/).
+Um Ihre neue Power BI Embedded-Kapazität zu nutzen, wechseln Sie zum Power BI-Verwaltungsportal, um Arbeitsbereiche zuzuweisen. Weitere Informationen finden Sie unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](https://powerbi.microsoft.com/documentation/powerbi-admin-premium-manage/).
 
 Wenn Sie eine Kapazität nicht benötigen, können Sie sie anhalten, damit sie nicht in Rechnung gestellt wird. Weitere Informationen finden Sie unter [Anhalten und Starten einer Power BI Embedded-Kapazität im Azure-Portal](azure-pbie-pause-start.md).
 

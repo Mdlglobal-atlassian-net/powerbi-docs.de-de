@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376751"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Freigeben Ihrer Arbeit in Power BI
@@ -132,7 +132,7 @@ Mit **Im Web veröffentlichen** können Sie Power BI-Berichte im Internet veröf
 *Vorlagen-Apps* wurden dafür entwickelt, öffentlich verteilt zu werden, z. B. in Microsoft AppSource. Wenn Sie eine App erstellt haben, können Sie diese ohne oder mit wenig Programmieraufwand für Power BI-Kunden bereitstellen. Ihre Kunden stellen Verbindungen mit ihren eigenen Daten her und instanziieren ihre eigenen Konten. Weitere Informationen zu diesem Thema finden Sie in diesem Artikel zu [Vorlagen-Apps in Power BI](service-template-apps-overview.md).
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 * [Freigeben von Dashboards für Kollegen und andere](service-share-dashboards.md)
 * [Erstellen und Veröffentlichen einer App in Power BI](service-create-distribute-apps.md)

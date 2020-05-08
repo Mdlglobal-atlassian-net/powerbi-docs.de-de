@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435580"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
@@ -41,7 +41,7 @@ Sie erhalten Benachrichtigungen bezüglich Ihrer Power BI-Erfahrung direkt im Po
    Sie können [ändern, wie Sie von Power BI benachrichtigt werden](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device).
 2. Wenn Sie Benachrichtigungen erhalten haben, sehen Sie bei der Anmeldung bei Power BI auf Ihrem mobilen Gerät einen gelben Punkt auf der Benachrichtigungsglocke ![Benachrichtigungsglocke](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS und Android) oder auf der globalen Navigationsschaltfläche ![Punkt auf „Benachrichtigungen“](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10-Geräte). 
 
-3. Tippen Sie auf die Benachrichtigungsglocke ![Benachrichtigungsglocke](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS und Android) oder auf das Symbol der Mitteilungszentrale ![Symbol „Benachrichtigungen“](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10-Geräte), um die Benachrichtigungen in der Mitteilungszentrale zu sehen.
+3. Tippen Sie auf die Benachrichtigungsglocke ![Benachrichtigungsglocke](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS und Android) oder auf das Symbol der Mitteilungszentrale ![Symbol „Benachrichtigungen“](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10-Geräte).
    
     Die neuesten Benachrichtigungen werden immer ganz oben angezeigt und die ungelesenen hervorgehoben. Benachrichtigungen werden 90 Tage lang aufbewahrt, es sei denn, Sie löschen sie oder erreichen das zulässige Maximum von 100 Benachrichtigungen.
    
@@ -71,7 +71,7 @@ Sie können ändern, wie Sie von Power BI benachrichtigt werden.
 
     ![Auswählen von „Benachrichtigungen“](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Datenwarnungen im Power BI-Dienst](../../service-set-data-alerts.md)
 * [Festlegen von Datenwarnungen in der iPhone-App (Power BI für iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Festlegen von Datenwarnungen in der mobilen Power BI-App für Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)

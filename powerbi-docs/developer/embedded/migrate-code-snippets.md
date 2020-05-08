@@ -9,21 +9,21 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114482"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codeausschnitte zum Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung
 
 Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind. Zugehörige Flows für bestimmte Berichtstypen finden Sie unter [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlungen zu Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
-Ein **Migrationstool** steht Ihnen zur Verfügung, um Sie beim Kopieren von Inhalt aus Power BI Embedded (PaaS) in den Power BI-Dienst (SaaS) zu unterstützen. Insbesondere, wenn Sie viel Inhalt haben. Weitere Informationen finden Sie unter [Power BI Embedded-Migrationstool](migrate-tool.md).
+Ein **Migrationstool** steht Ihnen zur Verfügung, um Sie beim Kopieren von Inhalt aus Power BI Embedded (PaaS) in den Power BI-Dienst (SaaS) zu unterstützen. Insbesondere, wenn Sie viel Inhalt haben. Weitere Informationen finden Sie unter [Power BI Embedded Migrationstool](migrate-tool.md).
 
 Der folgende Code besteht aus Beispielen, in denen C# und das [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) verwendet werden.
 
-Stellen Sie sicher, dass Sie die folgenden Namespaces verwenden, wenn Sie die weiter unten folgenden Codeausschnitte ausführen.
+Stellen Sie sicher, dass Sie die folgenden Namespaces verwenden, um die folgenden Codeausschnitte auszuführen.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,12 +227,12 @@ Für diesen Codeausschnitt wird angenommen, dass sich das im Pushverfahren über
     }
 ```
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Power BI Embedded-Migrationstool](migrate-tool.md)  
 [Einbetten mit Power BI](embedding.md)  
 [Migrieren von Inhalten aus Power BI Embedded-Arbeitsbereichsammlungen zu Power BI](migrate-from-powerbi-embedded.md)  
-[Wie soll ich Power BI-Dashboards, -Berichte und -Kacheln einbetten?](embed-sample-for-your-organization.md)  
+[Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embed-sample-for-your-organization.md)  
 [Power BI Premium – Beschreibung](../../service-premium-what-is.md)  
 [JavaScript-API-Git-Repository](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI-C#-Git-Repository](https://github.com/Microsoft/PowerBI-CSharp)  
