@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979843"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Datenquellen für Power BI-Berichte in Power BI-Berichtsserver
@@ -28,7 +28,7 @@ Diese Datenquellen sind spezifisch für Power BI-Berichte, die in Power BI-Beric
 
 Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste der unterstützten Datenquellen aufgeführt werden.
 
-| **Datenquelle** | **Zwischengespeicherte Daten** | **Geplante Aktualisierung** | **Live/DirectQuery** |
+| **Datenquellen-** | **Zwischengespeicherte Daten** | **Geplante Aktualisierung** | **Live/DirectQuery** |
 | --- | --- | --- | --- |
 | SQL Server-Datenbank |Ja |Ja |Ja |
 | SQL Server Analysis Services |Ja |Ja |Ja |
@@ -38,11 +38,11 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | Access-Datenbank |Ja |Ja |Nein |
 | Active Directory |Ja |Ja |Nein |
 | Amazon Redshift |Ja |Nein |Nein |
-| Azure Blob Storage |Ja |Ja |Nein |
+| Azure-BLOB-Speicher |Ja |Ja |Nein |
 | Azure Data Lake Store |Ja |Nein |Nein |
 | Azure HDInsight (HDFS) |Ja |Nein |Nein |
 | Azure HDInsight (Spark) |Ja |Nein |Nein |
-| Azure-Tabellenspeicher |Ja |Ja |Nein |
+| Azure Table Storage |Ja |Ja |Nein |
 | Dynamics 365 (online) |Ja |Nein |Nein |
 | Facebook |Ja |Nein |Nein |
 | Ordner |Ja |Ja |Nein |
@@ -57,9 +57,9 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | OData-Feed |Ja |Ja |Nein |
 | ODBC |Ja |Ja |Nein |
 | OLE DB |Ja |Ja |Nein |
-| Oracle-Datenbank |Ja |Ja |Ja |
+| Oracle Database |Ja |Ja |Ja |
 | PostgreSQL-Datenbank |Ja |Ja |Nein |
-| Power BI-Dienst |Nein |Nein |Nein |
+| Power BI-Dienst |Nein |Nein |Nein |
 | R-Skript |Ja |Nein |Nein |
 | Salesforce-Objekte |Ja |Nein |Nein |
 | Salesforce-Berichte |Ja |Nein |Nein |
@@ -72,7 +72,7 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | Sybase-Datenbank |Ja |Ja |Nein |
 | Teradata |Ja |Ja |Ja |
 | Text/CSV |Ja |Ja |Nein |
-| Web |Ja |Ja |Nein |
+| Datenquellen-Anmeldeinformationen |Ja |Ja |Nein |
 | XML |Ja |Ja |Nein |
 | appFigures (Beta) |Ja |Nein |Nein |
 | Azure Analysis Services-Datenbank |Ja |Nein |Ja |
@@ -80,7 +80,7 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | Azure HDInsight Spark (Beta) |Ja |Nein |Nein |
 | Common Data Service (Beta) |Ja |Nein |Nein |
 | comScore Digital Analytix (Beta) |Ja |Nein |Nein |
-| Dynamics 365 for Customer Insights (Beta) |Ja |Nein |Nein |
+| Dynamics 365 für Customer Insights (Beta) |Ja |Nein |Nein |
 | Dynamics 365 for Financials (Beta) |Ja |Nein |Nein |
 | GitHub (Beta) |Ja |Nein |Nein |
 | BigQuery von Google (Beta) |Ja |Nein |Nein |
@@ -116,20 +116,20 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 
 Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authentifizierung für die Aktualisierung des Modells. Einige Datenquellen wie Excel oder Access-Datenbanken nutzen bei der Verbindungserstellung zu Daten einen Zwischenschritt wie eine Datei oder das Web.
 
-| **Datenquelle** | **Anonyme Authentifizierung** | **Schlüsselauthentifizierung** | **Benutzername und Kennwort** | **Windows-Authentifizierung** |
+| **Datenquellen-** | **Anonyme Authentifizierung** | **Schlüsselauthentifizierung** | **Benutzername und Kennwort** | **Windows-Authentifizierung** |
 | --- | --- | --- | --- | --- |
 | SQL Server-Datenbank |Nein |Nein |Ja |Ja |
 | SQL Server Analysis Services |Nein |Nein |Ja |Ja |
-| Web |Ja |Nein |Ja |Ja |
+| Datenquellen-Anmeldeinformationen |Ja |Nein |Ja |Ja |
 | Azure SQL-Datenbank |Nein |Nein |Ja |Nein |
 | Azure SQL Data Warehouse |Nein |Nein |Ja |Nein |
 | Active Directory |Nein |Nein |Ja |Ja |
 | Amazon Redshift |Nein |Nein |Nein |Nein |
-| Azure Blob Storage |Ja |Ja |Nein |Nein |
+| Azure-BLOB-Speicher |Ja |Ja |Nein |Nein |
 | Azure Data Lake Store |Nein |Nein |Nein |Nein |
 | Azure HDInsight (HDFS) |Nein |Nein |Nein |Nein |
 | Azure HDInsight (Spark) |Nein |Nein |Nein |Nein |
-| Azure-Tabellenspeicher |Nein |Ja |Nein |Nein |
+| Azure Table Storage |Nein |Ja |Nein |Nein |
 | Dynamics 365 (online) |Nein |Nein |Nein |Nein |
 | Facebook |Nein |Nein |Nein |Nein |
 | Ordner |Nein |Nein |Nein |Ja |
@@ -143,9 +143,9 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 | OData-Feed |Ja |Ja |Ja |Ja |
 | ODBC |Ja |Nein |Ja |Ja |
 | OLE DB |Ja |Nein |Ja |Ja |
-| Oracle-Datenbank |Nein |Nein |Ja |Ja |
+| Oracle Database |Nein |Nein |Ja |Ja |
 | PostgreSQL-Datenbank |Nein |Nein |Ja |Nein |
-| Power BI-Dienst |Nein |Nein |Nein |Nein |
+| Power BI-Dienst |Nein |Nein |Nein |Nein |
 | R-Skript |Nein |Nein |Nein |Nein |
 | Salesforce-Objekte |Nein |Nein |Nein |Nein |
 | Salesforce-Berichte |Nein |Nein |Nein |Nein |
@@ -163,7 +163,7 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 | Azure HDInsight Spark (Beta) |Nein |Nein |Nein |Nein |
 | Common Data Service (Beta) |Nein |Nein |Nein |Nein |
 | comScore Digital Analytix (Beta) |Nein |Nein |Nein |Nein |
-| Dynamics 365 for Customer Insights (Beta) |Nein |Nein |Nein |Nein |
+| Dynamics 365 für Customer Insights (Beta) |Nein |Nein |Nein |Nein |
 | Dynamics 365 for Financials (Beta) |Nein |Nein |Nein |Nein |
 | GitHub (Beta) |Nein |Nein |Nein |Nein |
 | BigQuery von Google (Beta) |Nein |Nein |Nein |Nein |
@@ -196,20 +196,20 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 
 Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authentifizierung für DirectQuery.
 
-| **Datenquelle** | **Anonyme Authentifizierung** | **Schlüsselauthentifizierung** | **Benutzername und Kennwort** | **Windows-Authentifizierung** | **Integrierte Windows-Authentifizierung** |
+| **Datenquellen-** | **Anonyme Authentifizierung** | **Schlüsselauthentifizierung** | **Benutzername und Kennwort** | **Windows-Authentifizierung** | **Integrierte Windows-Authentifizierung** |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server-Datenbank |Nein |Nein |Ja |Ja |Ja |
 | SQL Server Analysis Services |Nein |Nein |Ja |Ja |Ja |
 | Azure SQL-Datenbank |Nein |Nein |Ja |Nein |Nein |
 | Azure SQL Data Warehouse |Nein |Nein |Ja |Nein |Nein |
-| Oracle-Datenbank |Nein |Nein |Ja |Ja |Ja |
+| Oracle Database |Nein |Nein |Ja |Ja |Ja |
 | SAP Business Warehouse-Server |Nein |Nein |Ja |Nein |Nein |
 | SAP HANA-Datenbank |Nein |Nein |Ja |Ja |Ja** |
 | Teradata |Nein |Nein |Ja |Ja |Ja |
 
 ** SAP HANA unterstützt DirectQuery mit integrierter Windows-Authentifizierung nur bei Verwendung als relationale Datenbank in der veröffentlichten Power BI Desktop-Datei (.pbix).
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Nachdem Sie die Verbindung mit Ihrer Datenquelle hergestellt haben, [erstellen Sie einen Power BI-Bericht](quickstart-create-powerbi-report.md) anhand der Daten aus der betreffenden Datenquelle.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

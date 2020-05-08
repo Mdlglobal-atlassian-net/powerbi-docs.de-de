@@ -62,7 +62,7 @@
             - name: Q&A mit natürlicher Sprache
               items:
                 - name: Einführung in Q&A
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: Einführung in Q&A-Tools
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Erweiterte Q&A-Tools
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Häufig gestellte Fragen zu paginierten Berichten
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Bereitstellungspipelines
+          items:
+            - name: Einführung in Bereitstellungspipelines
+              href: deployment-pipelines-overview.md
+            - name: Verstehen des Bereitstellungsprozesses
+              href: deployment-pipelines-process.md
+            - name: Bewährte Methoden
+              href: deployment-pipelines-best-practices.md
     - name: Exemplarische Vorgehensweisen
       items:
         - name: Power BI-Berichte
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Erstellen von Drillthrough-Schaltflächen
               href: ../desktop-drill-through-buttons.md
+            - name: Verwenden des Drillthroughfeatures
+              href: ../desktop-drillthrough.md
+            - name: Verwenden des berichtsübergreifenden Drillthroughfeatures
+              href: ../desktop-cross-report-drill-through.md
             - name: Erstellen von Lesezeichen zum Speichern und Freigeben von Erkenntnissen
               href: ../desktop-bookmarks.md
             - name: Verwenden von Berichtsdesigns
               href: ../desktop-report-themes.md
             - name: Verwenden von Filtern in Berichten
               href: ../power-bi-report-filter.md
-            - name: Verwenden des Drillthroughfeatures
-              href: ../desktop-drillthrough.md
-            - name: Verwenden des berichtsübergreifenden Drillthroughfeatures
-              href: ../desktop-cross-report-drill-through.md
+            - name: Hinzufügen eines Filters zu einem Bericht
+              href: ../power-bi-report-add-filter.md
             - name: Anwenden von Gruppierung und Diskretisierung
               href: ../desktop-grouping-and-binning.md
-            - name: Erstellen von Power BI-Visuals mit R
-              href: ../desktop-r-visuals.md
-            - name: Herunterladen und Verwenden von R-gestützten Power BI-Visuals
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Anwenden von Gitternetzlinien und der Ausrichtung am Raster
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Anwenden von Einstellungen für die Seitenanzeige in Berichten
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: Relative Datenschnitte mit Datum und relativen Datumsfiltern
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Relative Datenschnitte und Filter nach Zeit
+              href: slicer-filter-relative-time.md
             - name: Erstellen eines Slicers mit der Möglichkeit zur Größenanpassung
               href: ../power-bi-slicer-filter-responsive.md
             - name: Hinzufügen mehrerer Felder zu einem Datenschnitt
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Erstellen eines Berichts aus einem Dataset
               href: ../service-report-create-new.md
-            - name: Hinzufügen eines Filters zu einem Bericht
-              href: ../power-bi-report-add-filter.md
             - name: Speichern eines Berichts
               href: ../service-report-save.md
             - name: Interagieren mit einem Bericht in der Bearbeitungsansicht
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Erstellen eines QR-Codes für einen Bericht
               href: ../service-create-qr-code-for-report.md
+            - name: 'Ermöglichen, dass Kunden visuelle Elemente anpassen können (Vorschau)'
+              href: power-bi-personalize-visuals.md
             - name: Exportieren eines Power BI-Berichts nach Power BI Desktop (Vorschauversion)
               href: ../service-export-to-pbix.md
             - name: Veröffentlichen von Datasets und Berichten
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: R-Visuals
               href: ../visuals/service-r-visuals.md
+            - name: Erstellen von Power BI-Visuals mit R
+              href: ../desktop-r-visuals.md
+            - name: Herunterladen und Verwenden von R-gestützten Power BI-Visuals
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Radiale Messgerätdiagramme
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Menübanddiagramme
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Dashboarddesigns
               href: ../service-dashboard-themes.md
+        - name: Bereitstellungspipelines
+          items:
+            - name: Erste Schritte
+              href: deployment-pipelines-get-started.md
+            - name: Problembehandlung
+              href: deployment-pipelines-troubleshooting.md
         - name: Weitere Aufgaben
           items:
             - name: Umbenennen von Inhalt

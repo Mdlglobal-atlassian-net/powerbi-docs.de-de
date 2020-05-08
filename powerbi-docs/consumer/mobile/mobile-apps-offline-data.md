@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
 ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435442"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Offlinemodus zum Anzeigen von Daten in mobilen Power BI-Apps
@@ -61,7 +61,7 @@ Wenn Sie Power BI auf Ihrem Mobilgerät im Offlinemodus nutzen, gelten diese Ein
 * In den mobilen Power BI-Apps können Sie keine Power BI Desktop-Dateien (PBIX-Dateien) anzeigen, die im Power BI-Berichtsserver gespeichert sind. 
 * Paginierte Berichte (RDL) sind nicht verfügbar, wenn das Netzwerk offline ist.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig implementieren. Geben Sie deshalb Ihr Votum ab, welche Features Sie sich in den Power BI Mobile-Apps wünschen. 
 
 * [Power BI-Apps für mobile Geräte](mobile-apps-for-mobile-devices.md)

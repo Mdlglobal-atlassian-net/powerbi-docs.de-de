@@ -11,10 +11,10 @@ ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006662"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Aktivieren der Verschlüsselung für SAP HANA
@@ -104,7 +104,7 @@ Testen Sie die Verbindung in Power BI Desktop oder im Power BI-Dienst.
 
         ![Serverzertifikat überprüfen: Dienst](media/desktop-sap-hana-encryption/validate-server-certificate-service.png)
 
-    - Power BI-Dienst
+    - Power BI-Dienst
 
         ![Serverzertifikat überprüfen: Desktop](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 

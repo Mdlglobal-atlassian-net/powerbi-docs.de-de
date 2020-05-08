@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268809"
 ---
 # <a name="report-creator-learning-catalog"></a>Lernkatalog für Berichtersteller
@@ -39,7 +39,7 @@ Der folgende Katalog ist von allgemeinen bis hin zu spezifischen und fortgeschri
 ## <a name="report-design"></a>Entwerfen von Berichten<a name="report-design"></a>
 | Inhalt | Beschreibung  | Format | Länge   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
-| [Data Storytelling with Power BI (Daten-Storytelling mit Power BI) von Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo)  | Data Storytelling with Power BI (Daten-Storytelling mit Power BI) von Tristan Malherbe  | YouTube-Video | 59:54 Min.    |
+| [Data Storytelling with Power BI (Daten-Storytelling mit Power BI) von Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo)  | Daten-Storytelling mit Power BI von Tristan Malherbe  | YouTube-Video | 59:54 Min.    |
 | [Power Tricks, Tips and Tools from the owners of PowerBI.Tips (Tricks, Tipps und Tools für Power BI von den Inhabern von PowerBI.Tips)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | In diesem ganz besonderen Benutzergruppentreffen präsentieren die Inhaber von PowerBI.Tips und Power BI-MVPs Seth Bauer und Mike Carlo Tricks, Tipps und Tools für Power BI aus ihrem großen Fundus, die sie in den letzten 18 Monaten auf http://PowerBI.Tips veröffentlicht haben. Dabei werden ihr Designgenerator und das Hinzufügen von Datentypen im Abfrage-Editor gezeigt. Außerdem präsentieren sie ihr neuestes Angebot: Power BI-Layouts (und zeigen dabei ihr neuestes Layout „Cool Blue“).  | Webinar       | 1:07:04 Std. |
 | [Webinar vom 11.09.2018: New tools and new templates, including a walkthrough of what’s changed in the Color (Neue Tools und Vorlagen einschließlich Erläuterung von Änderungen in Bezug auf Farben)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | Sehen Sie, wie Charles Sterling und die Macher von PowerBI.Tips und Microsoft MVPs Seth Bauer und Mike Carlo Tricks, Tipps und Tools für Power BI aus ihrem stetig wachsenden Fundus präsentieren, die sie in den letzten 6 Monaten auf https://PowerBI.Tips veröffentlicht haben. Dabei zeigen sie ihren neuesten Designgenerator, Tipps und Tricks und die neuesten Power BI-Layouts.  | Webinar       | 53:34 Min.    |
 | [Power BI: Analytics Done Right](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html) (Power BI: Analysen richtig aufbereitet)  | An alle Analyse- und Excel-Visionäre: Lernen Sie, wie Sie ansprechende Berichte für Benutzer erstellen, wie Sie interessante, leicht verständliche Erkenntnisse teilen und wie Sie Silos komplexer Daten sicher aufbrechen, um sie zugänglich zu machen. Wir sprechen über neue Produktinnovationen und unsere Vision für moderne Enterprise BI und Self-Service-BI, damit Ihr Unternehmen eine datengesteuerte Kultur aufbauen kann.  | Webinar       |                |

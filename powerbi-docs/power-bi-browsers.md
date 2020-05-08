@@ -10,10 +10,10 @@ ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273269"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Unterstützte Browser für Power BI
@@ -31,7 +31,7 @@ Diese Browser werden von Power BI auf allen Plattformen unterstützt, für die s
 > [!NOTE]
 > Power BI kann nicht in Browsern unter iOS 10 oder älteren Versionen ausgeführt werden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Was ist Power BI?](power-bi-overview.md)
 * Stellen Sie Ihre Frage in der [Power BI-Community](https://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Besuchen Sie die [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
