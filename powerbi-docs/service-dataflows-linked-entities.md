@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762184"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Verknüpfen von Entitäten zwischen Dataflows in Power BI
@@ -84,7 +84,7 @@ Es gibt einige Einschränkungen, die es bei der Arbeit mit verknüpften Entität
 * Wenn eine Abfrage (z. B. Abfrage A) in der Berechnung einer anderen Abfrage (Abfrage B) in Dataflows auftritt, wird Abfrage B zu einer berechneten Entität. Berechnete Entitäten können sich nicht auf lokale Quellen beziehen.
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Die folgenden Artikeln können für das Erstellen oder Arbeiten mit Dataflows nützlich sein: 
 
@@ -98,6 +98,6 @@ Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)
 * [Konfigurieren geplanter Aktualisierungen](refresh-scheduled-refresh.md)
 
-Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 

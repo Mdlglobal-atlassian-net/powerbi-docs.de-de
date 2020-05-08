@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760880"
 ---
 # <a name="work-with-modeling-view-in-power-bi-desktop"></a>Arbeiten mit der Modellierungsansicht in Power BI Desktop
@@ -50,7 +50,7 @@ Sie können beispielsweise den [Speichermodus](desktop-storage-mode.md) für meh
 ![Auswahl mehrerer Tabellen durch Halten der STRG-Taste und anschließende Festlegung allgemeiner Eigenschaften für alle ausgewählten Tabellen](media/desktop-modeling-view/modeling-view_06.png)
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Die folgenden Artikeln enthalten weitere Informationen über Datenmodelle sowie Details zu DirectQuery.
 

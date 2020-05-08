@@ -1,5 +1,5 @@
 ---
-title: Direktes Eingeben von Daten in Power BI Desktop
+title: Enter data directly into Power BI Desktop (Direktes Eingeben von Daten in Power BI Desktop)
 description: Einfaches direktes Hinzufügen von Daten in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -11,13 +11,13 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3c6cd3feb15001cd170d48e306ee1f8a5ba8b2dc
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160942"
 ---
-# <a name="enter-data-directly-into-power-bi-desktop"></a>Eingeben von Daten direkt in Power BI Desktop
+# <a name="enter-data-directly-into-power-bi-desktop"></a>Enter data directly into Power BI Desktop (Direktes Eingeben von Daten in Power BI Desktop)
 
 Mit Power BI Desktop können Sie Daten direkt eingeben und diese Daten in Ihren Berichten und Visualisierungen verwenden. Beispielsweise können Sie Teile einer Arbeitsmappe oder einer Webseite kopieren und anschließend in Power BI Desktop einfügen.
 
@@ -39,7 +39,7 @@ Und das ist auch schon alles! So einfach ist es, Daten in Power BI Desktop einzu
 
 Sie können die Daten jetzt in Power BI Desktop verwenden. Erstellen Sie Visualisierungen oder Berichte, oder interagieren Sie mit anderen Daten, die Sie möglicherweise verknüpfen und importieren möchten, z. B. Excel-Arbeitsmappen, Datenbanken oder beliebige andere Datenquellen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 

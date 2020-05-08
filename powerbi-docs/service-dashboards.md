@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160786"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Einführung in Dashboards für Power BI-Designer
@@ -33,7 +33,7 @@ Die Visualisierungen eines Dashboards stammen aus Berichten. Jeder Bericht basie
 ![Diagramm, das die Beziehungen zwischen Dashboards, Berichten und Datasets anzeigt](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Vorteile von Dashboards
-Mit Dashboards können Sie die Entwicklung Ihres Geschäfts verfolgen und die wichtigsten Metriken immer im Auge behalten. Jede Visualisierung eines Dashboards kann auf einem oder vielen Datasets, auf einem einzelnen Bericht oder zahllosen Berichten basieren. Ein Dashboard fasst lokale und Clouddaten zusammen und bietet eine konsolidierte Ansicht – unabhängig vom Speicherort der Daten.
+Mit Dashboards können Sie die Entwicklung Ihres Geschäfts verfolgen und die wichtigsten Metriken immer im Auge behalten. Jede Visualisierung eines Dashboards kann auf einem oder vielen Datasets, auf einem einzelnen Bericht oder zahllosen Berichten basieren. Auf einem Dashboard werden lokale Daten und Clouddaten zusammengefasst, sodass Sie eine konsolidierte Ansicht erhalten, die unabhängig vom Speicherort der Daten ist.
 
 Ein Dashboard ist nicht nur schön anzusehen. Es ist ausgesprochen interaktiv, und die Kacheln aktualisieren sich automatisch, wenn sich die zugrunde liegenden Daten ändern.
 
@@ -47,21 +47,21 @@ Die Fähigkeit zum Erstellen eines Dashboards ist eine Funktion für *Ersteller*
 ## <a name="dashboards-versus-reports"></a>Vergleich: Dashboards und Berichte
 [Berichte](service-reports.md) und Dashboards sehen ähnlich aus, da sie beide Canvases sind, die mit Visualisierungen gefüllt sind. Es gibt jedoch wesentliche Unterschiede, wie in der folgenden Tabelle zu sehen ist.
 
-| **Eigenschaften** | **Dashboards** | **Berichte** |
+| **Funktion** | **Dashboards** | **Berichte** |
 | --- | --- | --- |
-| Seiten |Eine Seite |Eine oder mehrere Seiten |
+| Pages |Eine Seite |Eine oder mehrere Seiten |
 | Datenquellen |Ein oder mehrere Berichte und ein oder mehrere Datasets pro Dashboard |Ein Dataset pro Bericht |
 | In Power BI Desktop verfügbar |Nein | Ja. Berichte können in Power BI Desktop erstellt und angezeigt werden |
 | Abonnieren |Ja. Dashboards können abonniert werden. |Ja. Kann eine Berichtsseite abonnieren. |
 | Filterung |Nein. Keine Filter, keine Slices |Ja. Viele Filter, Hervorhebungen und Slices |
 | Empfohlen |Ja. Kann ein Dashboard als Ihr *Ausgewähltes* Dashboard festlegen |Nein |
-| Favorit | Ja. Kann mehrere Dashboards als *Favoriten* festlegen. | Ja. Kann mehrere Berichte als *Favoriten* festlegen.
+| Zu Favoriten hinzufügen | Ja. Kann mehrere Dashboards als *Favoriten* festlegen. | Ja. Kann mehrere Berichte als *Favoriten* festlegen.
 | Benachrichtigungen festlegen |Ja. Unter bestimmten Umständen für Dashboardkacheln verfügbar |Nein |
 | Abfragen in natürlicher Sprache (Q&A) |Ja | Ja, vorausgesetzt, Sie verfügen über Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset. |
 | Zugrunde liegende Dataset-Tabellen und Felder sichtbar |Nein. Kann Daten exportieren, Tabellen und Felder sind im Dashboard aber nicht sichtbar. |Ja |
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](sample-tutorial-connect-to-the-samples.md) ansehen.
 * Wichtige Informationen über [Dashboardkacheln](service-dashboard-tiles.md)
 * Sie möchten eine bestimmte Dashboardkachel im Auge behalten und eine E-Mail erhalten, wenn ein bestimmter Grenzwert erreicht wird? [Erstellen einer Warnung auf einer Kachel](service-set-data-alerts.md).

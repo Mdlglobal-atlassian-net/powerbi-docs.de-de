@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919842"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Installieren des Berichts-Generators (Power BI-Berichtsserver)
@@ -46,7 +46,7 @@ Sie können den Berichts-Generator über ein Webportal des Power BI-Berichtsserv
     ![Bildschirm „Neuer Bericht oder neues Dataset“](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> Installieren des Berichts-Generator über das Download Center  
+##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> Installieren des Berichts-Generator über das Download Center  
   
 1.  Klicken Sie auf der [Berichts-Generator-Seite im Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkID=734968) auf **Herunterladen**.  
   
@@ -59,6 +59,6 @@ Sie können den Berichts-Generator über ein Webportal des Power BI-Berichtsserv
 5.  Klicken Sie auf **Installieren**, um die Installation des Berichts-Generators abzuschließen.  
  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Was ist der Power BI-Berichtsserver?](get-started.md)

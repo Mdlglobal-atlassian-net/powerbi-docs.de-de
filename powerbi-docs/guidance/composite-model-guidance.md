@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: fa9ecd66d30839e169252065f7f736189b71b6ce
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889478"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Leitfaden für zusammengesetzte Modelle in Power BI Desktop
@@ -67,7 +67,7 @@ Zusammenfassend empfiehlt sich Folgendes:
 - Optimieren Sie DirectQuery-Datenquellen mit geeigneten Indizes für effiziente Joins, Filter, Gruppierungen.
 - Laden Sie sensible Daten nicht in Tabellen mit dem Modus „Import“ oder „Dual“, wenn das Risiko besteht, dass eine native Abfrage abgefangen wird. Weitere Informationen hierzu finden Sie unter [Verwenden zusammengesetzter Modelle in Power BI Desktop (Abschnitt „Folgen für die Sicherheit“)](../desktop-composite-models.md#security-implications).
 
-### <a name="aggregations"></a>Aggregations
+### <a name="aggregations"></a>Aggregationen
 
 Sie können den DirectQuery-Tabellen in Ihrem zusammengesetzten Modell Aggregationen hinzufügen. Aggregationen werden im Modell zwischengespeichert. Deshalb verhalten sie sich wie Tabellen mit dem Modus „Import“, können aber nicht wie Modelltabellen verwendet werden. Ihr Zweck besteht darin, die Leistung bei Abfragen mit höherer Granularität zu verbessern. Weitere Informationen finden Sie unter [Aggregationen in Power BI Desktop](../desktop-aggregations.md).
 
@@ -85,5 +85,5 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 - [Power BI-Datenquellen](../power-bi-data-sources.md)
 - [Speichermodus in Power BI Desktop](../desktop-storage-mode.md)
 - [Aggregationen in Power BI Desktop](../desktop-aggregations.md)
-- Fragen? [Fragen Sie die Power BI-Community](https://community.powerbi.com/)
+- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)

@@ -10,13 +10,13 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885241"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Schnellstart: Verbinden mit Daten in Power BI Desktop
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Schnellstart: Herstellen einer Verbindung mit Daten in Power BI Desktop
 
 In dieser Schnellstartanleitung stellen Sie über Power BI Desktop eine Verbindung mit Daten her. Darin besteht der erste Schritt beim Erstellen von Datenmodellen und Berichten.
 
@@ -38,7 +38,7 @@ Nachdem Sie Power BI Desktop installiert haben, starten Sie die Anwendung, sodas
 
 ![Power BI Desktop mit leerer Canvas](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>Verbinden mit Daten
+## <a name="connect-to-data"></a>Herstellen einer Datenverbindung
 
 Mit Power BI Desktop können Sie Verbindungen mit verschiedenen Arten von Daten herstellen. Diese umfassen Standarddatenquellen wie Microsoft Excel-Dateien. Sie können eine Verbindung mit Onlinediensten herstellen, die unterschiedlichste Datentypen enthalten, z. B. Salesforce, Microsoft Dynamics, Azure Blob Storage und viele weitere.
 
@@ -66,12 +66,12 @@ Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf **Laden**, um die Date
 
 Nachdem Sie die Tabellen geladen haben, werden die Daten im Bereich **Felder** angezeigt. Sie können jede Tabelle erweitern, indem Sie auf den Pfeil neben dem Tabellennamen klicken. In der folgenden Abbildung ist die Tabelle *financials* erweitert, und jedes Feld wird angezeigt.
 
-![Daten abrufen](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![Abrufen von Daten](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 Und das ist auch schon alles! Sie haben in Power BI Desktop eine Verbindung mit Daten hergestellt, diese Daten geladen und können jetzt alle verfügbaren Felder in diesen Tabellen anzeigen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 In Power BI Desktop können Sie nach dem Herstellen einer Verbindung mit Daten verschiedene Aufgaben ausführen. Sie können beispielsweise Visuals und Berichte erstellen. Sehen Sie sich folgende Ressourcen an, um loszulegen:
 
-* [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
+* [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)

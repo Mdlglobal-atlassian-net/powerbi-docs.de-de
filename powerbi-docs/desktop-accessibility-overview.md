@@ -10,10 +10,10 @@ ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609848"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Übersicht über die Barrierefreiheit in Power BI
@@ -48,7 +48,7 @@ US Section 508 ist eine Norm, die Regierungen und Bundesbehörden vorschreibt, i
 
 EN 301 549 ist die einheitliche europäische Norm für Barrierefreiheitsanforderungen für IKT-Produkte und -Dienste.  
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zur Barrierefreiheit in Power BI finden Sie in den folgenden Ressourcen:
 

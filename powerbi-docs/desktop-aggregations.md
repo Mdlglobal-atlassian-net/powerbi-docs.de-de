@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427652"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Verwenden von Aggregationen in Power BI Desktop
@@ -50,7 +50,7 @@ Das Dropdownmenü **Zusammenfassung** des Dialogfelds **Aggregationen verwalten*
 - GroupBy
 - Max
 - Min
-- Summe
+- Sum
 - Count table rows
 
 ![Dialogfeld „Manage aggregations“ (Aggregationen verwalten)](media/desktop-aggregations/aggregations_07.jpg)
@@ -118,9 +118,9 @@ Wenn die folgenden Dimensionstabellen am häufigsten für Abfragen mit hohem Unt
 
 - Geografie
 - Kunde
-- Datum
+- Datum (Date)
 - Product Subcategory
-- Product Category
+- Produktkategorie
 
 Die folgende Abbildung zeigt dieses Modell.
 
@@ -295,7 +295,7 @@ Der folgende JSON-Codeausschnitt ist ein Beispiel für die Ausgabe des Ereigniss
 
 Aggregationen, bei denen die Speichermodi „DirectQuery“, „Import“ und/oder „Dual“ kombiniert werden, können unterschiedliche Daten zurückgeben, es sei denn, der In-Memory-Cache wird dauerhaft mit den Quelldaten synchronisiert. Die Abfrageausführung versucht beispielsweise nicht, Datenprobleme zu maskieren, indem DirectQuery-Ergebnisse entsprechend den zwischengespeicherten Werten gefiltert werden. Bei Bedarf können Sie auf etablierte Verfahren zum Umgang mit derartigen Problemen an der Quelle zurückgreifen. Leistungsoptimierungen sollten nur auf eine Weise verwendet werden, die Ihre Geschäftsanforderungen nicht gefährdet. Es liegt in Ihrer Verantwortung, Ihre eigenen Datenflüsse zu kennen und den Entwurf entsprechend anzupassen. 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen über zusammengesetzte Modelle finden Sie unter:
 

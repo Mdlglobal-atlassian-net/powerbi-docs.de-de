@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558564"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
@@ -25,8 +25,8 @@ In diesem Artikel werden die Mindestanforderungen an die Hardware und Software z
 | --- | --- |
 | .NET Framework |4,7<br><br>Über [Microsoft .NET Framework 4.7 (Webinstaller) für Windows](https://support.microsoft.com/en-us/kb/3186500) können Sie .NET Framework manuell installieren.<br/><br/> Weitere Informationen, Empfehlungen und Anleitungen zu .NET Framework 4.7 finden Sie im [Handbuch für die Bereitstellung von .NET Framework für Entwickler](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 und Windows Server 2012 R2 erfordern die Installation von [KB2919355](https://support.microsoft.com/kb/2919355) vor der Installation von .NET Framework 4.7. |
 | Festplatte |Power BI-Berichtsserver erfordert mindestens 1 GB verfügbaren Speicherplatz auf der Festplatte.<br><br>Außerdem ist zusätzlicher Speicherplatz auf dem Datenbankserver erforderlich, der die Berichtsserver-Datenbank hostet. |
-| Arbeitsspeicher |**Minimum:** 1 GB<br/><br/> **Empfohlen:** Mindestens 4 GB |
-| Prozessorgeschwindigkeit |**Minimum:** x64-Prozessor: 1,4 GHz<br/><br/> **Empfohlen:** 2,0 GHz oder schneller |
+| Memory |**Minimum:** 1GB<br/><br/> **Empfohlen:** Mindestens 4 GB |
+| Prozessorgeschwindigkeit |**Minimum:** x64-Prozessor, 1,4 GHz<br/><br/> **Empfohlen:** 2,0 GHz oder schneller |
 | Prozessortyp |x64-Prozessor: AMD Opteron, AMD Athlon 64, Intel Xeon mit Intel EM64T-Unterstützung, Intel Pentium IV mit EM64T-Unterstützung |
 | Betriebssystem |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
@@ -49,7 +49,7 @@ Wenn Sie die Berichtsserver-Datenbank auf einem Remotecomputer erstellen, müsse
 
 ## <a name="considerations"></a>Überlegungen
 
-Power BI-Berichtsserver installiert Standardwerte zum Konfigurieren der Haupteinstellungen, die für die Inbetriebnahme eines Berichtsservers erforderlich sind. Es gelten die folgenden Anforderungen:
+Power BI-Berichtsserver installiert Standardwerte zum Konfigurieren der Haupteinstellungen, die für die Inbetriebnahme eines Berichtsservers erforderlich sind. Es bestehen folgende Anforderungen:
 
 * Für Microsoft Power BI-Berichtsserver werden die folgenden Sprachen unterstützt: Englisch, Deutsch, Spanisch, Japanisch, Italienisch, Französisch, Russisch, vereinfachtes Chinesisch, traditionelles Chinesisch, Portugiesisch (Brasilien), Koreanisch.
 * Eine SQL Server-Datenbank-Engine muss nach dem Setup und vor der Konfiguration der Datenbank für den Berichtsserver verfügbar sein. Die Instanz der Datenbank-Engine hostet die Berichtsserver-Datenbank, die der Konfigurations-Manager für Reporting Services erstellt. Die Datenbank-Engine ist für das eigentliche Setup nicht erforderlich.
@@ -60,7 +60,7 @@ Power BI-Berichtsserver installiert Standardwerte zum Konfigurieren der Hauptein
 
 ## <a name="read-only-domain-controller-rodc"></a>Schreibgeschützter Domänencontroller (RODC)
 
- Sie können den Berichtsserver in einer Umgebung installieren, die über einen schreibgeschützten Domänencontroller (RODC) verfügt. Reporting Services benötigt jedoch Zugriff auf einen Domänencontroller mit Lese-/Schreibzugriff, um ordnungsgemäß zu funktionieren. Wenn Reporting Services nur auf einen RODC zugreifen kann, können beim Versuch, den Dienst zu verwalten, Fehler auftreten.
+ Sie können den Berichtsserver in einer Umgebung installieren, die über einen schreibgeschützten Domänencontroller (RODC) verfügt. Reporting Services benötigt jedoch Zugriff auf einen Domänencontroller mit Lese-/Schreibzugriff, um ordnungsgemäß zu funktionieren. Wenn Reporting Services nur Zugriff auf einen schreibgeschützten Domänencontroller hat, können beim Verwalten des Diensts Fehler auftreten.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI-Berichte und Analysis Services-Liveverbindungen
 
@@ -72,12 +72,12 @@ Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanz
 | 2014 |Business Intelligence und Enterprise SKU |
 | 2016 und höher |Standard-SKU oder höher |
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Was ist der Power BI-Berichtsserver?](get-started.md)  
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Herunterladen der SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download der neuesten SQL Server-Datatools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
