@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 ms.openlocfilehash: e066ea5128709a0e16873bba5f025e96938cac54
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113644"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Problembehandlung bei Power BI-Visuals
@@ -40,6 +40,6 @@ Führen Sie den Server für Visuals mit dem Befehl `pbiviz start` über die Befe
 
 Zögern Sie nicht, sich mit Fragen, Kommentaren oder Problemen an das Power BI-Visuals-Supportteam (pbicvsupport@microsoft.com) zu wenden.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen finden Sie in den [häufig gestellten Fragen zu Power BI-Visuals](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464692"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Neustarten einer Power BI Premium-Kapazität
@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um eine Kapazität neu zu starten.
 
 1. Navigieren Sie im Power BI-Verwaltungsportal auf der Registerkarte **Kapazitätseinstellungen** zu Ihrer Kapazität. 
 
-1. Fügen Sie das *Featureflag* **CapacityRestart** zu Ihrer Kapazitäts-URL hinzu: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
+1. Fügen Sie das **Featureflag** *CapacityRestart* zu Ihrer Kapazitäts-URL hinzu: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. Wählen Sie unter **Erweiterte Einstellungen** > **CAPACITY RESTART** (Neustart der Kapazität) die Option **Restart capacity** (Kapazität neu starten) aus.
 
@@ -56,7 +56,7 @@ Sie können Probleme am besten verhindern, indem Sie die Benutzer über die effi
 
 Zudem wird Ihnen die [Überwachung Ihrer Kapazitäten](service-admin-premium-monitor-capacity.md) in regelmäßigen Zeitabständen empfohlen, um nach Trends zu suchen, die auf zugrunde liegende Probleme hinweisen. Für die Überwachungs-App und weitere Tools sind regelmäßige Releases geplant, damit Sie Ihre Kapazitäten effektiver überwachen und verwalten können.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 [Was ist Power BI Premium?](service-premium-what-is.md)
 

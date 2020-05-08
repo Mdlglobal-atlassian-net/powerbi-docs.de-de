@@ -44,7 +44,7 @@
               href: ../service-premium-capacity-scenarios.md
             - name: Power BI Premium – Häufig gestellte Fragen
               href: ../service-premium-faq.md
-    - name: Vorgehensweise
+    - name: Anleitung
       items:
         - name: Lizenzierung und Registrierung
           items:
@@ -74,7 +74,7 @@
           href: ../service-admin-azure-ad-b2b.md
         - name: Verwalten des Power BI Desktop-Anmeldeformulars
           href: ../desktop-admin-sign-in-form.md
-        - name: Datenschutz
+        - name: Schutz von Daten
           items:
             - name: Übersicht zum Datenschutz
               href: service-security-data-protection-overview.md
@@ -102,7 +102,7 @@
               href: ../service-admin-premium-monitor-capacity.md
             - name: Überwachen von Premium-Workloadmetriken
               href: ../service-premium-metrics-app.md
-            - name: Überwachen von Kapazitäten im Verwaltungsportal
+            - name: Überwachen von Kapazitäten über das Verwaltungsportal
               href: ../service-admin-premium-monitor-portal.md
             - name: Konfigurieren großer Modelle (Vorschauversion)
               href: ../service-premium-large-models.md
@@ -114,7 +114,7 @@
               href: ../service-admin-premium-restart.md
             - name: Konnektivität mit Datasets mithilfe des XMLA-Endpunkts (Vorschau)
               href: ../service-premium-connect-tools.md
-    - name: Referenz
+    - name: Verweis
       items:
         - name: 'PowerShell, REST-APIs und das .NET SDK'
           href: ../service-admin-reference.md
@@ -147,5 +147,3 @@
           href: ../service-admin-alternate-email-address-for-power-bi.md
         - name: Verwenden der gleichen Kontoanmeldung für Power BI und Azure
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 dediziert – bekannte Probleme
-          href: ../service-admin-office-365-dedicated-known-issues.md

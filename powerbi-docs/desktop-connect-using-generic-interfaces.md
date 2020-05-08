@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761454"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Herstellen einer Verbindung mit Daten mithilfe der generischen Power BI Desktop-Schnittstellen 
@@ -106,11 +106,11 @@ In der folgenden Liste sind einige Beispiele für Datenquellen aufgeführt, mit 
 | R-Skript |SPSS-Dateien |[Anleitung zu R-Skript vom CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 | R-Skript |R-Statistikdateien |[Anleitung zu R-Skript vom CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von **Power BI Desktop** eine Verbindung mit allen Arten von Datenquellen herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Eingeben von Daten direkt in Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   

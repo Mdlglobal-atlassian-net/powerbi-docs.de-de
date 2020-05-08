@@ -13,13 +13,13 @@ metadata:
   ms.author: maggies
   ms.date: 02/25/2020
   ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 03/07/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "78924136"
 landingContent:
-- title: Mit Daten in Power BI verbinden
+- title: Verbinden mit Daten in Power BI
   linkLists:
   - linkListType: concept
     links:
@@ -57,7 +57,7 @@ landingContent:
       url: ../service-template-apps-create.md
     - text: Verteilen von Vorlagen-Apps in Ihrer Organisation
       url: ../service-template-apps-install-distribute.md
-- title: Daten aktualisieren
+- title: Aktualisieren von Daten
   linkLists:
   - linkListType: concept
     links:

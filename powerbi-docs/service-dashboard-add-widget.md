@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282035"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Hinzufügen von Bildern, Videos und mehr in Dashboards
@@ -62,7 +62,7 @@ Wenn Sie Ihr Unternehmenslogo oder ein anderes Bild zum Dashboard hinzufügen m�
 
       Wenn Arbeitskollegen auf das Bild oder den Titel klicken, gelangen sie zur angegebenen URL.
 
-   d. Klicken Sie auf **Übernehmen**. 
+   d. Wählen Sie **Übernehmen**. 
 
       ![Fenster „Bildkachel hinzufügen“](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
 
@@ -84,7 +84,7 @@ Fügen Sie eine Dashboardüberschrift hinzu, indem Sie diese in das Textfeld ein
 
    c. Legen Sie optional einen benutzerdefinierten Link für den Titel fest. Bei einem benutzerdefinierten Link kann es sich um eine externe Website oder ein Dashboard oder einen Bericht im Arbeitsbereich handeln. Allerdings wurden in diesem Beispiel Links innerhalb des Textfelds hinzugefügt, lassen Sie **Benutzerdefinierte Verknüpfung festlegen** daher deaktiviert.
 
-   d. Klicken Sie auf **Übernehmen**. 
+   d. Wählen Sie **Übernehmen**. 
 
      ![Fenster „Textfeldkachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
@@ -104,7 +104,7 @@ Wenn Sie Ihrem Dashboard eine YouTube- oder Vimeo-Videokachel hinzufügen, wird 
 
    c. Fügen Sie einen Link für den **Titel** und den **Untertitel** hinzu, damit Ihre Arbeitskollegen sich die ganze Wiedergabeliste auf YouTube ansehen können, nachdem sie das eingebettete Video gesehen haben. Aktivieren Sie hierzu das Kontrollkästchen **Benutzerdefinierte Verknüpfung festlegen** unter **Funktionalität**, und geben Sie dann die **URL** für die Wiedergabeliste ein.
 
-   d. Klicken Sie auf **Übernehmen**.  
+   d. Wählen Sie **Übernehmen**.  
 
    ![Fenster „Videokachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-video-new.png)
 
@@ -124,7 +124,7 @@ Sie können PubNub verwenden, um Streamingdaten, wie z. B. Twitter-Feeds oder S
 2. Klicken Sie auf **Streamingdataset hinzufügen**.
 3. Erstellen Sie ein **neues Streamingdataset** mit der Power BI-API oder mit PubNub.
 4. Füllen Sie die Felder **Datasetname**, **Abonnementschlüssel** und **Kanalname** aus. Wenn es sich um eine sichere Verbindung handelt, müssen Sie auch einen Autorisierungsschlüssel angeben. Sie können die Beispielwerte von PubNub zum Testen verwenden.
-5. Wählen Sie **Weiter** aus.
+5. Wählen Sie **Weiter**.
     Daraufhin werden die Felder mit den jeweiligen Datentypen und dem JSON-Format angezeigt, die im Dataset zur Verfügung stehen.
 6. Wählen Sie **Verbinden** aus.
     Somit haben Sie ein Streamingdataset erstellt.
@@ -133,7 +133,7 @@ Sie können PubNub verwenden, um Streamingdaten, wie z. B. Twitter-Feeds oder S
 9. Wählen Sie den gewünschten Visualtyp aus. Für diese Art von Daten eignet sich meist ein Liniendiagramm.
 10. Wählen Sie die **Achse**, **Legende** und **Werte** aus.
 11. Legen Sie den Zeitraum in Sekunden, Minuten oder Stunden fest, der angezeigt werden soll.
-12. Wählen Sie **Weiter** aus.
+12. Wählen Sie **Weiter**.
 13. Geben Sie einen **Titel** und **Untertitel** ein, wenn Sie möchten.
 14. Heften Sie die Kachel an Ihr Dashboard an.
 
@@ -146,7 +146,7 @@ Sie können PubNub verwenden, um Streamingdaten, wie z. B. Twitter-Feeds oder S
 
 4. Füllen Sie die Felder **Datasetname**, **Abonnementschlüssel** und **Kanalname** aus. Wenn es sich um eine sichere Verbindung handelt, müssen Sie auch einen Autorisierungsschlüssel angeben. Sie können die Beispielwerte von PubNub zum Testen verwenden.
 
-5. Wählen Sie **Weiter** aus.
+5. Wählen Sie **Weiter**.
 
    Daraufhin werden die Felder mit den jeweiligen Datentypen und dem JSON-Format angezeigt, die im Dataset zur Verfügung stehen.
 
@@ -164,7 +164,7 @@ Sie können PubNub verwenden, um Streamingdaten, wie z. B. Twitter-Feeds oder S
 
 11. Legen Sie den Zeitraum in Sekunden, Minuten oder Stunden fest, der angezeigt werden soll.
 
-12. Wählen Sie **Weiter** aus.
+12. Wählen Sie **Weiter**.
 
 13. Geben Sie optional einen **Titel** und einen **Untertitel** ein.
 
@@ -181,7 +181,7 @@ Sie können beliebigen HTML-Inhalt als Kachel in Ihren Bericht oder Ihr Dashboar
 
    b. Geben Sie den Einbettungscode ein. In diesem Beispiel wird ein Twitter-Feed kopiert und eingefügt.
 
-   c. Klicken Sie auf **Übernehmen**.
+   c. Wählen Sie **Übernehmen**.
 
    ![Fenster „Webinhaltskachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
@@ -240,7 +240,7 @@ So nehmen Sie Änderungen an einer vorhandenen Kachel vor:
 * Fügen Sie einen Titel und einen optionalen Untertitel hinzu, um das Verschieben der Kachel in Ihrem Dashboard zu vereinfachen.
 * Wenn Sie Inhalte von einer Website einbetten möchten, die Website aber keinen Einbettungscode zum Kopieren bereitstellt, finden Sie Informationen zum Erstellen des Einbettungscodes unter embed.ly.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 [Einführung in Dashboardkacheln für Power BI-Designer](service-dashboard-tiles.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/).

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114602"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens wird als nicht vertrauenswürdig eingestuft“ – Power BI
@@ -42,7 +42,7 @@ Die Zeitzoneneinstellungen auf Ihrem Gerät sind möglicherweise falsch.
 ## <a name="custom-authentication-server"></a>Benutzerdefinierter Authentifizierungsserver
 Wenn Sie einen benutzerdefinierten Authentifizierungsserver verwenden, ist das SSL-Zertifikat im Authentifizierungsserver des Unternehmens möglicherweise ungültig. Arbeiten Sie mit der IT-Abteilung Ihrer Organisation zusammen, um die Konfiguration des Authentifizierungsservers des Unternehmens gemäß der Anleitung in [diesem Artikel](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce) zu testen.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 * [Herunterladen der Android-App](https://go.microsoft.com/fwlink/?LinkID=544867) aus dem Android App Store.
-* Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/) 
+* Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/) 
 

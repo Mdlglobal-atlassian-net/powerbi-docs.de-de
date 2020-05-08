@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f76d3e61c3817d3e5ab4480c935abe4dc7346e54
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761517"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>Verbinden mit Webseiten von Power BI Desktop
@@ -45,10 +45,10 @@ Von dort aus können Sie diese Felder auf den Berichtszeichenbereich ziehen und 
 
 Sehen Sie sich das Handbuch [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) an, um einen detaillierteren Einblick in das Verbinden mit einer Webseite zu erhalten.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datenquellen in Power BI-Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   
 * [Verbinden mit CSV-Dateien in Power BI Desktop](desktop-connect-csv.md)   

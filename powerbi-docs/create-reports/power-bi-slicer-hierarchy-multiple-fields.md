@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c41fa1e0c8510f64f9c6e53c83fe9ee8a2e75e67
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006891"
 ---
 # <a name="add-multiple-fields-to-a-slicer-preview"></a>Hinzufügen mehrerer Felder zu einem Slicer (Vorschauversion)
@@ -40,7 +40,7 @@ Sie können ihn auf den Einzelauswahlmodus festlegen. Bei Elementen, für die ei
  
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Hierarchieslicer für die Einzelauswahl in Power BI":::
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Datenschnitte in Power BI](../visuals/power-bi-visualization-slicers.md)
 - Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

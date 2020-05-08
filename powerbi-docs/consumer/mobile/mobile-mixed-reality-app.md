@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205916"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
@@ -96,7 +96,7 @@ Es gibt einige Einschränkungen und Überlegungen zur holografischen Ansicht, di
 - Die Dashboards und Berichte aktualisieren sich alle 45 Minuten, sobald Datenänderungen auftreten.
 
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Weitere Schritte
 
 - [Erfassen von realen Daten mit den mobilen Power BI-Apps](mobile-apps-data-in-real-world-context.md)
 

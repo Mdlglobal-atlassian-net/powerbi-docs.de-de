@@ -17,13 +17,13 @@
     - name: Konzepte
       expanded: true
       items:
-        - name: Neuigkeiten
+        - name: Neues
           href: whats-new.md
         - name: Administratorübersicht
           href: admin-handbook-overview.md
         - name: Änderungsprotokoll
           href: changelog.md
-        - name: Support-Ablauffristen
+        - name: Supportzeitachse
           href: support-timeline.md
         - name: Always Encrypted-Unterstützung
           href: always-encrypted-support.md
@@ -55,7 +55,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: Einbetten von Berichten
               href: quickstart-embed.md
-    - name: Vorgehensweise
+    - name: Anleitung
       items:
         - name: Installieren von Power BI Desktop
           href: install-powerbi-desktop.md
@@ -105,7 +105,7 @@
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Hosten von Excel-Arbeitsmappen
               href: excel-oos.md
-    - name: Referenz
+    - name: Verweis
       items:
         - name: REST-API
           href: rest-api.md

@@ -29,13 +29,13 @@
               href: ../service-self-service-signup-for-power-bi.md
             - name: Funktionen nach Lizenztyp
               href: ../service-features-license-type.md
-    - name: Exemplarische Vorgehensweisen
+    - name: Gewusst-wie-Anleitungen
       items:
-        - name: Power BI Desktop erwerben
+        - name: Erwerben von Power BI Desktop
           href: ../desktop-get-the-desktop.md
-        - name: Erste Schritte mit Power BI Desktop
+        - name: "Erste Schritte mit Power\_BI Desktop"
           href: ../desktop-getting-started.md
-    - name: Referenz
+    - name: Verweis
       items:
         - name: Unterstützte Sprachen und Länder/Regionen
           href: ../supported-languages-countries-regions.md
