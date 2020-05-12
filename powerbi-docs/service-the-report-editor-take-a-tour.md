@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871357"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Einführung in den Berichts-Editor in Power BI
@@ -60,11 +60,11 @@ Im **Bereich Filter** werden alle Filter für das visuelle Element, die Seite od
 
 **Unten im Bereich „Visualisierung“** befinden sich drei Registerkarten:
 
-![Felder in der Visualisierung](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png): **Felder** zeigt die Felder im visuellen Element an. Möglicherweise müssen Sie nach unten scrollen, um alle Details anzuzeigen. Im Diagramm werden StoreNumberName und „This Year Sales“ verwendet.
+![Felder in der Visualisierung](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **Felder** zeigt die Felder im visuellen Element an. Möglicherweise müssen Sie nach unten scrollen, um alle Details anzuzeigen. Im Diagramm werden StoreNumberName und „This Year Sales“ verwendet.
 
-![Farbrollensymbol](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **Format**: Klicken Sie auf das Farbrollensymbol, um den Formatierungsbereich der ausgewählten Visualisierung anzuzeigen.
+![Farbrollensymbol](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **Format** Klicken Sie auf das Farbrollensymbol, um den Formatierungsbereich der ausgewählten Visualisierung anzuzeigen.
 
-![Lupensymbol](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **Analysen**: Wählen Sie das Lupensymbol aus, um den Analysebereich anzuzeigen.
+![Lupensymbol](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **Analysen** Wählen Sie das Lupensymbol aus, um den Analysebereich anzuzeigen.
 
 **Im Bereich „Felder“** werden alle verfügbaren Tabellen im Datenmodell aufgelistet. Wenn Sie eine Tabelle erweitern, werden die Felder in dieser Tabelle angezeigt. Am gelben Häkchen können Sie erkennen, dass mindestens ein Feld aus dieser Tabelle in einer Visualisierung verwendet wird.
 

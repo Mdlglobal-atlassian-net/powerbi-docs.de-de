@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885268"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865566"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Erstellen und Anzeigen des visuellen Analysebaumelements in Power BI (Vorschau)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Mit dem Analysebaumvisual in Power BI ist es möglich, dimensionsübergreifend Daten zu visualisieren. Es aggregiert Daten automatisch und ermöglicht einen Drilldown für Ihre Dimensionen in beliebiger Reihenfolge. Gleichzeitig handelt es sich um eine KI-Visualisierung, sodass Sie basierend auf bestimmten Kriterien eine Suche nach der nächsten Dimension anfordern können, für die Sie einen Drilldown durchführen möchten. Dies macht es zu einem nützlichen Werkzeug für die Ad-hoc-Erkundung und die Durchführung von Ursachenanalysen.
@@ -29,6 +32,8 @@ In diesem Tutorial werden zwei Beispiele verwendet:
 - Ein Lieferkettenszenario, das den Prozentsatz der Produkte analysiert, die ein Unternehmen nicht vorrätig hat (Produkt ist vergriffen).  
 - Ein Vertriebsszenario, das den Verkauf von Videospielen nach zahlreichen Faktoren wie Spielgenre und Herausgeber aufgliedert.
 
+> [!NOTE]
+> Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird.    
 
 ## <a name="get-started"></a>Erste Schritte
 Wählen Sie im Bereich „Visualisierungen“ das Symbol für den Analysebaum aus.

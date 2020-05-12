@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113898"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613532"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>So lassen Sie sich ein Power BI-Visual zertifizieren
 
@@ -82,8 +82,6 @@ Verwenden Sie die neueste Version von [powerbi-visuals-tools](https://www.npmjs.
 
 Sie müssen das Power BI-Visual mit `pbiviz package` kompilieren. Wenn Sie eigene Buildskripts verwenden, geben Sie einen benutzerdefinierten `npm run package`-Buildbefehl an.
 
-
-
 ### <a name="source-code-requirements"></a>Anforderungen in Bezug auf den Quellcode
 
 Stellen Sie sicher, dass alle Richtlinien in der Liste der [zusätzlichen Zertifizierungsanforderungen für Power BI-Visuals](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) eingehalten werden. Wenn Ihre Einreichung nicht mit diesen Richtlinien übereinstimmt, werden Ihnen in der Ablehnungs-E-Mail von Partner Center die unter diesem Link aufgeführten Richtliniennummern mitgeteilt.
@@ -150,6 +148,25 @@ Sobald ein Power BI-Visual zertifiziert ist, erhält es einen entsprechenden Bad
     ![Power BI-Oberfläche mit zertifiziertem Power BI-Visual](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * Sie können ausschließlich zertifizierte Power BI-Visuals anzeigen, indem Sie die Filteroption *Power BI-zertifiziert* auswählen.
+
+## <a name="publication-timeline"></a>Veröffentlichungszeitachse
+
+Das Bereitstellen in AppSource ist ein Prozess, der einige Zeit in Anspruch nehmen kann. Wenn dieser Prozess abgeschlossen ist, sind Ihre visuellen Power BI-Elemente zum Herunterladen aus AppSource verfügbar.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>Wann können Benutzer mein visuelles Element herunterladen?
+
+* Wenn Sie ein visuelles Power BI-Element erstmals übermittelt haben, können Benutzer das Element einige Stunden herunterladen, nachdem Sie eine E-Mail von AppSource empfangen haben.
+
+* Wenn Sie ein Update für ein vorhandenes visuelles Power BI-Element übermittelt haben, können Benutzer dieses Update innerhalb eines Monats nach Ihrer Übermittlung herunterladen.
+
+    >[!NOTE]
+    > Das Feld *Version* in AppSource wird mit dem Tag aktualisiert, an dem Ihr visuelles Power BI-Element von AppSource genehmigt wurde, ungefähr eine Woche, nachdem Sie Ihr visuelles Element übermittelt haben. Benutzer können das aktualisierte visuelle Element herunterladen, aber die aktualisierten Funktionen werden nicht wirksam. Die neuen Funktionen Ihres visuellen Elements werden nach ungefähr einem Monat in den Berichten der Benutzer wirksam. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>Wann wird von meinem visuellen Power BI-Element ein Zertifizierungsbadge angezeigt?
+
+* Wenn Sie ein visuelles Power BI-Element erstmals übermittelt haben, wird der Zertifizierungsbadge innerhalb eines Tages nach Erhalt der Genehmigungs-E-Mail von AppSource angezeigt.
+
+* Wenn Sie eine Zertifizierung für ein vorhandenes visuelles Power BI-Element anfordern, wird der Zertifizierungsbadge innerhalb eines Monats ihrer Übermittlung angezeigt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

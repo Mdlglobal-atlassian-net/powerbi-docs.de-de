@@ -10,10 +10,10 @@ ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699335"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Lokales Datengateway – Problembehandlung
@@ -240,7 +240,7 @@ Weitere Informationen zur Problembehandlung bei Aktualisierungsfehlern finden Si
 
 ## <a name="fiddler-trace"></a>Ablaufverfolgung mit Fiddler
 
-[Fiddler](https://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann. Sie können den Datenaustausch zwischen dem Power BI-Dienst und dem Clientcomputer verfolgen. In dieser Datenverkehrsliste können Fehler und andere zugehörige Informationen enthalten sein.
+[Fiddler](https://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Datenverkehr überwacht wird. Sie können eingehenden und ausgehenden Datenverkehr für den Power BI-Dienst vom Clientcomputer aus prüfen. In dieser Datenverkehrsliste können Fehler und andere zugehörige Informationen enthalten sein.
 
 ![Verwenden der Fiddler-Ablaufverfolgung](media/service-gateway-onprem-tshoot/fiddler.png)
 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75757874"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866959"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Erstellen und Verwenden einfacher Flächendiagramme
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -26,6 +28,9 @@ Flächendiagramme betonen das Ausmaß von Veränderungen im Laufe der Zeit und k
 
 ![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
+> [!NOTE]
+> Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird.
+
 ## <a name="when-to-use-a-basic-area-chart"></a>Wann ein einfaches Flächendiagramm verwendet werden sollte
 Einfache Flächendiagramme sind gut geeignet,
 
@@ -33,7 +38,7 @@ Einfache Flächendiagramme sind gut geeignet,
 * für individuelle Reihen, die einen physisch zählbaren Satz darstellen
 
 ### <a name="prerequisites"></a>Voraussetzungen
-Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einzelhandel](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) verwendet.
 
 1. Wählen Sie im oberen linken Bereich der Menüleiste **Datei** > **Öffnen** aus.
    
@@ -41,7 +46,7 @@ Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Ein
 
 1. Öffnen Sie die **PBIX-Datei mit einem Analysebeispiel für den Einzelhandel** in der Berichtsansicht ![Screenshot des Berichtsansichtssymbols.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
 
 ## <a name="create-a-basic-area-chart"></a>Erstellen eines grundlegenden Flächendiagramms
@@ -63,7 +68,7 @@ Dieses Tutorial verwendet die [PBIX-Datei mit einem Analysebeispiel für den Ein
    d.  Wählen Sie die Auslassungspunkte in der oberen, rechten Ecke der Visualisierung aus, und wählen Sie **Nach FiscalMonth sortieren**, um das Diagramm sortiert nach Monaten anzuzeigen. Wenn Sie die Sortierreihenfolge ändern möchten, klicken Sie erneut auf die Auslassungspunkte und anschließend auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
-Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen von Filtern zu Berichten](../power-bi-report-add-filter.md).
+Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
 
 Um einen bestimmten Bereich im Diagramm hervorheben, wählen Sie diesen Bereich oder seinen oberen Rahmen aus.  Im Gegensatz zu anderen Visualisierungstypen erfolgt durch Hervorheben eines grundlegenden Flächendiagramms keine Kreuzfilterung der anderen Visualisierungen auf der Berichtsseite (sofern auf derselben Seite weitere Visualisierungen vorhanden sind). Flächendiagramme sind jedoch ein Ziel für das Kreuzfiltern, das von anderen Visualisierungen auf der Berichtsseite ausgelöst wird. 
 

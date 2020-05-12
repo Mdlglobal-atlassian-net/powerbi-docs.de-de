@@ -3,21 +3,23 @@ title: Radialmessgerät-Diagramme in Power BI
 description: Radialmessgerät-Diagramme in Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6Epqa
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880906"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866930"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radialmessgerät-Diagramme in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,12 +29,8 @@ Ein Diagramm für ein radiales Messgerät verfügt über einen Kreisbogen und ze
 
 In diesem Beispiel sind Sie ein Autohändler, der die durchschnittlichen Verkäufe seines Vertriebsteams pro Monat verfolgt. Die Nadel stellt ein Verkaufsziel von 140 Autos dar. Der kleinste Wert für die durchschnittlichen Verkäufe ist 0, und der höchste Wert ist auf 200 festgelegt.  Die blaue Schattierung zeigt, dass das Team im aktuellen Monat einen Durchschnitt von ca. 120 Verkäufen erzielt hat. Glücklicherweise ist noch eine Woche Zeit, um das Ziel zu erreichen.
 
-Schauen Sie Will beim Erstellen von Einzelmetrikvisualisierungen wie Messgeräten, Karten und KPIs zu.
-   > [!NOTE]
-   > In diesem Video wird eine ältere Version von Power BI Desktop verwendet.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+> [!NOTE]
+> Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird.
 
 ## <a name="when-to-use-a-radial-gauge"></a>Einsatzmöglichkeiten für ein radiales Messgerät
 

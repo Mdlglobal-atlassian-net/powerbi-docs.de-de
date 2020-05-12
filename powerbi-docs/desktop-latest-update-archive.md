@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 26b49e1b94db0d6c46639118e3e7cc3218bb4e1e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6c1cf92db936f980a505516ee525a532714c8325
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80551057"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866677"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -32,6 +32,103 @@ Bedeutung der Links neben den einzelnen Updates:
 Sie können das Video **Neueste Updates** auch direkt aus diesem Artikel von Beginn an ansehen. Hierzu klicken Sie einfach auf das Symbol **Wiedergeben** auf dem Videobild unter der Liste mit den Updates.
 
 In den folgenden Abschnitten werden die Updates von **Power BI Desktop** der vorherigen Monate beschrieben.
+
+
+## <a name="march-2020-update-2795768562"></a>Update März 2020 (2.79.5768.562)
+
+Wir haben uns sehr darüber gefreut, Ihnen unser März-Update für Power BI Desktop bereitstellen zu können. 
+
+Laden Sie die neueste Version von Power BI Desktop aus dem [Download Center](https://www.microsoft.com/download/details.aspx?id=58494) herunter. Wenn Sie Windows 10 verwenden, können Sie Power BI Desktop auch aus dem [Microsoft Store](https://aka.ms/pbidesktopstore) abrufen. Unabhängig davon, wie Sie Power BI Desktop installieren, sind die monatlichen Versionen identisch, auch wenn sich die Versionsnummerierung unterscheiden kann. Weitere Informationen zum Herunterladen und Installieren von Power BI Desktop finden Sie unter [Power BI Desktop erwerben](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> Seit dem Release im September 2019 wird Power BI Desktop nur als einzelne EXE-Datei mit allen unterstützten Sprachen herausgegeben. Die MSI-Version wird nicht mehr herausgegeben.
+
+
+Die Links neben den einzelnen Features in der Power BI Desktop-Updateliste werden wie folgt interpretiert:
+
+* \[Blog\]: Die meisten Features werden in einem Abschnitt im Blogbeitrag zum monatlichen Update erläutert.
+* \[Video\]: Für einige Features wird auf einer neuen Registerkarte des Browsers ein Video wiedergeben, in dem das Feature erläutert wird.
+* \[Artikel\]: Einige Features werden in einem Artikel ausführlich erläutert.
+* Die übrigen Features sind selbsterklärend, sodass sie keinen Artikel und kein Video erfordern.
+
+Sie können sich auch das gesamte [Video zu den monatlichen Updates von Power BI Desktop](#power-bi-desktop-monthly-update-video) ansehen.
+
+In diesem Monat bietet das Power BI Desktop die folgenden Updates:
+
+
+### <a name="reporting"></a>Berichterstellung
+* Neue Aktionstypen für Schaltflächen [[Video]](https://youtu.be/DMjvJGGB_LQ?t=45)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_action_types) 
+* Mehrspaltige Sortierung für Tabellen [[Video]](https://youtu.be/DMjvJGGB_LQ?t=414)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Multi-column_sort) 
+* Doppelachse für Liniendiagramm [[Video]](https://youtu.be/DMjvJGGB_LQ?t=504)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Dual_axis) 
+* Filterbereichsuche [[Video]](https://youtu.be/DMjvJGGB_LQ?t=553)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Filter_pane_search) 
+* Updates für Analysebaumvisuals [[Video]](https://youtu.be/DMjvJGGB_LQ?t=688)  [[Artikel]](visuals/power-bi-visualization-decomposition-tree.md)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Updates_to_decomp_tree) 
+* Neues standardmäßiges Menüband [[Video]](https://youtu.be/DMjvJGGB_LQ?t=785)  [[Artikel]](desktop-ribbon.md)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_ribbon) 
+
+
+
+
+### <a name="modeling"></a>Modellierung
+* Neue DAX-Funktion: COALESCE [[Video]](https://youtu.be/DMjvJGGB_LQ?t=830)  [[Artikel]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+) 
+
+### <a name="visuals"></a>Visuals
+* Updates für ArcGIS-Karten [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1043) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Updates_to_ArcGIS) 
+* Neue Power BI-Visuals [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1025)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Waterfall_chart
+)
+
+
+### <a name="template-apps"></a>Vorlagen-Apps
+* Azure DevOps-Dashboard von Data Maru [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1116)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Azure_DevOps_dashboard) 
+* TeamsPower von Encamina [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1135)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_TeamsPower)
+
+
+### <a name="data-preparation"></a>Datenvorbereitung
+* Abfragediagnose jetzt allgemein verfügbar [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1144)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Query_diagnostics) 
+
+
+### <a name="data-connectivity"></a>Datenkonnektivität
+* Hive LLAP-Connector (Vorschauversion)  [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1165)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Hive_LLAP_connector) 
+* Cognite-Connector (Vorschauversion) [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1165)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Cognite) 
+
+
+### <a name="other-features"></a>Andere Funktionen
+* Erweiterte Datasetmetadaten (Vorschauversion) [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1184)  [[Artikel]](desktop-enhanced-dataset-metadata.md)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Enhanced_dataset_metadata) 
+* Verwenden standardmäßiger Systemanmeldeinformationen für Webproxys [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1239)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Using_default_system) 
+* Neuer, von einem Dozenten geleiteter Administrator in einem Trainingstag [[Video]](https://youtu.be/DMjvJGGB_LQ?t=1247)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_administrator) 
+
+
+Ausführliche Informationen zu diesen neuen Features finden Sie im [Blogbeitrag mit einer Zusammenfassung der Power BI Desktop-Features](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/).
+
+Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+> [!NOTE]
+> Sehen Sie sich die [verfügbaren Datenquellen für Power BI Desktop](desktop-data-sources.md) an. Unsere Liste wird ständig erweitert, sehen Sie sich diese also regelmäßig an.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
+Das folgende Video beschreibt die einzelnen Updates. Sie können sich das Video auch im Blogbeitrag ansehen:
+
+> [!VIDEO https://www.youtube.com/embed/DMjvJGGB_LQ]
+
+Sie können auch frühere Versionen von Power BI Desktop herunterladen, wenn Ihre Organisation sie benötigt. Sie sollten stets die neueste Version von Power BI Desktop statt einer früheren Version verwenden. Alle früheren Versionen weisen die folgenden Einschränkungen auf:
+
+* Für frühere Versionen von Power BI Desktop wird kein Service geboten – Sie sollten immer die neueste Version verwenden, um die neuesten Features und Updates zu nutzen.
+* Möglicherweise können Sie in neueren Releases von Power BI Desktop erstellte oder gespeicherte Dateien mit früheren Versionen von Power BI Desktop nicht öffnen. 
+* Wenn Sie beim Laden eines Berichts, der in einer neueren Version von Power BI Desktop gespeichert wurde, eine Warnmeldung erhalten, und den Bericht dann in der vorherigen Version speichern, verlieren Sie alle mit den neuen Features in Zusammenhang stehenden Informationen.
+* Wir archivieren nur die englischen Versionen von Power BI Desktop.
+
+Wählen Sie die folgenden Links zum Herunterladen dieser früheren Version aus: 
+
+* [Version März 2020 von Power BI Desktop – 32-Bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03.exe)
+* [Version März 2020 von Power BI Desktop – 64-Bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03_x64.exe)
+
+
+
+
+
+
+
+
 
 
 ## <a name="february-2020-update-2785740642"></a>Update von Februar 2020 (2.78.5740.642)
@@ -91,7 +188,7 @@ Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-wha
 > Sehen Sie sich die [verfügbaren Datenquellen für Power BI Desktop](desktop-data-sources.md) an. Unsere Liste wird ständig erweitert, sehen Sie sich diese also regelmäßig an.
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
+### <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
 Das folgende Video beschreibt die einzelnen Updates. Sie können sich das Video auch im Blogbeitrag ansehen:
 
 > [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
@@ -173,7 +270,7 @@ Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-wha
 > Sehen Sie sich die [verfügbaren Datenquellen für Power BI Desktop](desktop-data-sources.md) an. Unsere Liste wird ständig erweitert, sehen Sie sich diese also regelmäßig an.
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
+### <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
 Das folgende Video beschreibt die einzelnen Updates. Sie können sich das Video auch im Blogbeitrag ansehen:
 
 > [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
@@ -249,7 +346,7 @@ Ausführliche Informationen zu diesen neuen Features finden Sie unter [Zusammenf
 Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
+### <a name="power-bi-desktop-monthly-update-video"></a>Video zu den monatlichen Updates von Power BI Desktop
 Das folgende Video beschreibt die einzelnen Updates. Sie können sich das Video auch im Blogbeitrag ansehen:
 
 > [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
@@ -344,19 +441,6 @@ Das folgende Video beschreibt und zeigt die einzelnen Updates. Sie finden das Vi
 
 > [!NOTE]
 > Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
-
-Sie können auch frühere Versionen von Power BI Desktop herunterladen, wenn Ihre Organisation sie benötigt. Sie sollten stets die neueste Version von Power BI Desktop statt einer früheren Version verwenden. Alle früheren Versionen weisen die folgenden Einschränkungen auf:
-
-* Für frühere Versionen von Power BI Desktop wird kein Service geboten – Sie sollten immer die neueste Version verwenden, um die neuesten Features und Updates zu nutzen.
-* Möglicherweise können Sie in neueren Releases von Power BI Desktop erstellte oder gespeicherte Dateien mit früheren Versionen von Power BI Desktop nicht öffnen. 
-* Wenn Sie beim Laden eines Berichts, der in einer neueren Version von Power BI Desktop gespeichert wurde, eine Warnmeldung erhalten, und den Bericht dann in der vorherigen Version speichern, verlieren Sie alle mit den neuen Features in Zusammenhang stehenden Informationen.
-* Wir archivieren nur die englischen Versionen von Power BI Desktop.
-
-Wählen Sie die folgenden Links zum Herunterladen dieser früheren Version aus: 
-
-* [Version Oktober 2019 von Power BI Desktop – 32-Bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-10.exe)
-* [Version Oktober 2019 von Power BI Desktop – 64-Bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-10_x64.exe)
-
 
 
 

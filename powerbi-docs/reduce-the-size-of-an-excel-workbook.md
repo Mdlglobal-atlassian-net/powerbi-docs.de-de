@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860566"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI
@@ -50,7 +50,7 @@ Beachten Sie diese Tipps, wenn Sie Daten in Excel importieren:
 * **In Power Query**: Deaktivieren Sie das Kontrollkästchen **In Arbeitsblatt laden**.
   
   Die Daten werden nur in das Datenmodell importiert, ohne Daten in Excel-Arbeitsblättern.
-* **Auf der Registerkarte „Excel-Daten“** , falls Sie im Import-Assistenten die Option **Tabelle** aktiviert haben: Wechseln Sie zu **Vorhandene Verbindungen**, klicken Sie auf die Verbindung, und wählen Sie **Nur Verbindung erstellen**. Löschen Sie die ursprünglichen Tabellen, die Sie während des ersten Importvorgangs erstellt haben.
+* **Auf der Registerkarte „Excel-Daten“** , falls Sie im Import-Assistenten die Option **Tabelle** aktiviert haben: Wechseln Sie zu **Vorhandene Verbindungen** \> klicken Sie auf die Verbindung \> wählen Sie **Nur Verbindung erstellen** aus. Löschen Sie die ursprünglichen Tabellen, die Sie während des ersten Importvorgangs erstellt haben.
 * **Auf der Registerkarte „Excel-Daten“** : Achten Sie darauf, dass die Option **Tabelle** im Feld **Daten importieren** nicht aktiviert ist.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer

@@ -4,17 +4,17 @@ description: Sie erhalten einen Überblick über den Power BI-Berichtsserver, um
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/22/2019
+ms.date: 04/29/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 26593f4869d6b8d2c1c206a8bedd3c0d214581b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73859558"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613586"
 ---
 # <a name="what-is-power-bi-report-server"></a>Was ist der Power BI-Berichtsserver?
 
@@ -41,7 +41,7 @@ Abhängig von Ihren Berechtigungen können Sie den Inhalt im Webportal verwalten
 Weitere Informationen zum [Webportal (einheitlicher SSRS-Modus)](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Power BI-Berichte
-Sie erstellen Power BI-Berichte (PBIX) mit der für den Berichtsserver optimierten Version von Power BI Desktop. Anschließend veröffentlichen Sie sie und zeigen sie im Webportal in Ihrer Umgebung an.
+Sie erstellen Power BI-Berichte (PBIX) mit der für den Berichtsserver optimierten Version von Power BI Desktop. Anschließend veröffentlichen Sie diese und zeigen sie im Webportal in Ihrer Umgebung an.
 
 ![Power BI-Berichte im Power BI-Berichtsserver](media/get-started/powerbi-reports.png)
 

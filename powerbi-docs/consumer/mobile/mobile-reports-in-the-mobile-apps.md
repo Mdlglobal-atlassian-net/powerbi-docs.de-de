@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435764"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841731"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -45,7 +45,7 @@ Es gibt zwei Symbole für Berichte in den mobilen Power BI-Apps:
 * ![Symbol für Smartphonebericht](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) Dieses Symbol gibt an, dass der Bericht mindestens eine für Smartphones optimierte Seite enthält, die im Hochformat angezeigt wird.
 
 > [!NOTE]
-> Wenn Sie Ihr Smartphone im Querformat halten, wird immer das Querformat angezeigt, auch wenn die Berichtsseite ein Layout für Smartphones aufweist.
+> Wenn Sie Ihr Smartphone im Querformat halten, wird immer das Querformat angezeigt, auch wenn die Berichtsseite in einem Layout für Mobilgeräte vorliegt.
 
 Tippen Sie auf **Weitere Optionen** (...) in der rechten oberen Ecke einer Kachel, und wählen Sie dann **Bericht öffnen** aus, um einen Bericht eines Dashboards abzurufen:
   

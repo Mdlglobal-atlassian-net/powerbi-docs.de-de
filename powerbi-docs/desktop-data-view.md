@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206951"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866723"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Arbeiten mit der Datenansicht in Power BI Desktop
 
 Die *Datenansicht* hilft Ihnen, Daten in einem *Power BI Desktop-Modell* zu überprüfen, zu untersuchen und zu verstehen. Sie unterscheidet sich von der Anzeige von Tabellen, Spalten und Daten im *Power Query-Editor*. In der Datenansicht sehen Sie die Daten, *nachdem* sie in das Modell geladen wurden.
+
+> [!NOTE]
+> Da in der Datenansicht Daten angezeigt werden, nachdem sie in das Modell geladen wurden, ist das Datenansicht-Symbol nicht sichtbar, wenn alle Datenquellen auf DirectQuery basieren. 
 
 Wenn Sie Ihre Daten modellieren, möchten Sie möglicherweise sehen, was tatsächlich in einer Tabelle oder Spalte vorhanden ist, ohne ein Visual im Berichtszeichenbereich zu erstellen. Möglicherweise möchten Sie auch bis auf Zeilenebene Einblick erhalten. Dies Funktion ist besonders nützlich, wenn Sie Measures und berechnete Spalten erstellen oder einen Datentyp/eine Datenkategorie identifizieren müssen.
 
@@ -48,3 +51,14 @@ Sie können einzelne Werte filtern oder erweiterte Filter auf Grundlage der Date
 
 > [!NOTE]
 > Wenn ein Power BI-Modell in einer anderen Kultur als der aktuellen Benutzeroberfläche erstellt wird, wird das Suchfeld in der Benutzeroberfläche der Datenansicht nur für Textfelder angezeigt. Dies gilt beispielsweise für ein Modell, das in der Sprache Englisch (USA) erstellt wurde und das Sie sich auf Spanisch anzeigen lassen.
+
+
+## <a name="next-steps"></a>Nächste Schritte
+
+Mit Power BI Desktop können Sie vielfältige Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in den folgenden Ressourcen:
+
+* [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
+* [Übersicht zu Abfragen mit Power BI Desktop](desktop-query-overview.md)
+* [Datentypen in Power BI Desktop](desktop-data-types.md)
+* [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)

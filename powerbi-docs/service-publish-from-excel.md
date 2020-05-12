@@ -1,20 +1,20 @@
 ---
 title: Veröffentlichen in Power BI aus Microsoft Excel
-description: Erfahren Sie, wie Sie eine Excel-Arbeitsmappe auf Ihrer Power BI-Website veröffentlichen.
+description: Erfahren Sie, wie Sie eine Excel-Arbeitsmappe auf Ihrer Power BI-Website veröffentlichen.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329610"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866792"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Veröffentlichen in Power BI aus Microsoft Excel
 Ab Microsoft Excel 2016 können Sie Ihre Excel-Arbeitsmappen direkt in Ihrem [Power BI](https://powerbi.microsoft.com)-Arbeitsbereich veröffentlichen. Dort können Sie hoch interaktive Berichte und Dashboards auf Grundlage der Daten in Ihrer Arbeitsmappe erstellen. Sie können Ihre Einblicke dann für andere Personen in Ihrer Organisation freigeben.
@@ -42,7 +42,7 @@ Excel unterstützt die Veröffentlichung von lokalen Excel-Dateien. Die Dateien 
 > Lokale Dateien können nur unter Excel 2016 (oder höher) mit einem Office 365-Abonnement veröffentlicht werden. Mit einer eigenständigen Excel 2016-Installation können Sie nur in Power BI veröffentlichen, wenn Sie die Arbeitsmappe in OneDrive for Business oder SharePoint Online speichern.
 > 
 
-Nachdem Sie auf **Veröffentlichen** geklickt haben, können Sie den für die Veröffentlichung gewünschten Arbeitsbereich auswählen. Dabei kann es sich um Ihren persönlichen Arbeitsbereich oder einen Gruppenarbeitsbereich handeln, auf den Sie Zugriff haben (wie in der folgenden Abbildung dargestellt).
+Nachdem Sie auf **Veröffentlichen** geklickt haben, können Sie den für die Veröffentlichung gewünschten Arbeitsbereich auswählen. Wenn sich Ihre Excel-Datei in OneDrive for Business befindet, können Sie diese nur in *Mein Arbeitsbereich* veröffentlichen. Wenn sich Ihre Excel-Datei auf einem lokalen Laufwerk befindet, können Sie diese in *Mein Arbeitsbereich* oder in einem freigegebenen Arbeitsbereich veröffentlichen, auf den Sie Zugriff haben.
 
 ![In Power BI veröffentlichen](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -81,7 +81,7 @@ Wählen Sie die Option **Veröffentlichen**, wenn Sie die Funktionen „Daten ab
 
 Die Verwendung der Option **Exportieren** ähnelt der Vorgehensweise **Daten abrufen > Datei > OneDrive for Business > Excel-Daten in Power BI exportieren** von Power BI in Ihrem Browser.
 
-## <a name="publishing"></a>Veröffentlichung
+## <a name="publishing"></a>Veröffentlichen
 Bei beiden Optionen meldet sich Excel mit Ihrem aktuellen Konto bei Power BI an, und die Arbeitsmappe wird anschließend in Ihrem Power BI-Arbeitsbereich veröffentlicht. Auf der Statusleiste in Excel wird der Fortschritt des Veröffentlichungsprozesses angezeigt.
 
 ![Statusleiste für die Veröffentlichung in Power BI](media/service-publish-from-excel/pbi_publishingstatus.png)
@@ -90,7 +90,7 @@ Nach Abschluss des Vorgangs können Sie direkt von Excel zu Power BI wechseln.
 
 ![Wechseln zu Power BI](media/service-publish-from-excel/pbi_gotopbi.png)
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 [Excel-Daten in Power BI](service-excel-workbook-files.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
 
