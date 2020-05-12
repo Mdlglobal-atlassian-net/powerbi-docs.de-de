@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548597"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Herstellen einer Verbindung mit Office365Mon mithilfe von Power BI
@@ -34,7 +34,7 @@ Stellen Sie eine Verbindung mit der [Office365Mon-Vorlagen-App](https://msit.pow
 3. Wählen Sie **Office365Mon** \> **Abrufen** aus.
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. Wählen Sie als Authentifizierungsmethode die Option **oAuth2** \> **Anmelden** aus.
+4. Wählen Sie für die Authentifizierungsmethode **oAuth2** \> **Anmelden** aus.
    
    Wenn Sie dazu aufgefordert werden, geben Sie Ihre Office365Mon-Administratoranmeldeinformationen ein, und führen Sie den Authentifizierungsvorgang aus.
    

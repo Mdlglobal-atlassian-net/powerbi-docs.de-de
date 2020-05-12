@@ -3,18 +3,19 @@ title: Exportieren von Berichten aus Power BI nach PowerPoint
 description: Erfahren Sie, wie Sie einen Power BI-Bericht nach PowerPoint exportieren.
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377161"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841104"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportieren von Berichten aus Power BI nach PowerPoint
 
@@ -22,7 +23,9 @@ ms.locfileid: "79377161"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Mit Power BI können Sie Berichte in Microsoft PowerPoint veröffentlichen und darauf basierend einfach eine Foliengruppe erstellen. Beim Export nach PowerPoint geschieht Folgendes:
+![Grafik mit Power BI-Logo und PowerPoint-Logo](media/end-user-powerpoint/logos.png)
+
+Mit dem Power BI-Dienst (app.powerbi.com) können Sie Berichte in Microsoft PowerPoint veröffentlichen und auf Basis eines Power BI-Berichts einfach eine Präsentation erstellen. Beim Export nach PowerPoint geschieht Folgendes:
 
 * Jede Seite im Power BI-Bericht entspricht einer einzelnen Folie in PowerPoint.
 * Jede Seite im Power BI-Bericht wird beim Export in ein einzelnes hochauflösendes Bild in PowerPoint umgewandelt.
@@ -30,6 +33,10 @@ Mit Power BI können Sie Berichte in Microsoft PowerPoint veröffentlichen und d
 * In PowerPoint wird ein Link zum Power BI-Bericht erstellt.
 
 **Power BI-Berichte** lassen sich ganz schnell nach **PowerPoint** exportieren. Befolgen Sie dazu die Schritte im nächsten Abschnitt.
+
+Sie können auch bestimmte visuelle Elemente aus dem Power BI-Dienst kopieren und in PowerPoint einfügen. Wählen Sie das Symbol **Als Bild kopieren** aus, um das visuelle Element in die Zwischenablage zu kopieren. Öffnen Sie dann PowerPoint, und fügen Sie das visuelle Element ein.
+
+![Symbol „Als Bild kopieren“ auswählen](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Exportieren eines Power BI-Berichts nach PowerPoint
 Wählen Sie im **Power BI-Dienst** einen Bericht aus, der im Zeichenbereich angezeigt werden soll. Sie können auch einen Bericht auf der Seite **Home**, aus **Apps** oder einem anderen Container im Navigationsbereich auswählen.
@@ -77,12 +84,13 @@ Wie Sie mit dem PowerPoint-Stapel und den hochauflösenden Bildern weiter verfah
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Bei der Arbeit mit der Funktion **Nach PowerPoint exportieren** sind einige Aspekte und Einschränkungen zu beachten.
 
-* Visuelle R- und Python-Elemente werden aktuell nicht unterstützt. Diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
+
+* Der Exportvorgang des Berichts nach PowerPoint kann einige Minuten dauern. Zu den Faktoren, die die benötigte Zeit beeinflussen, zählen die Struktur des Berichts sowie die jeweils aktuelle Auslastung des Power BI-Diensts.
 * Zertifizierte Power BI-Visuals werden unterstützt. Weitere Informationen zu zertifizierten benutzerdefinierten Visuals sowie zum Zertifizieren von benutzerdefinierten Visuals finden Sie unter [Wie wird ein benutzerdefiniertes Visual zertifiziert?](../developer/power-bi-custom-visuals-certified.md). Benutzerdefinierte Visuals, die nicht zertifiziert wurden, werden nicht unterstützt. Sie werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
-* Dieses visuelle ESRI-Element wird nicht unterstützt.
+* URL-Filter werden zurzeit nicht beachtet, wenn Sie **Aktuelle Werte** für Ihren Export auswählen.
+* Das visuelle Element [ESRI ArcGIS](../visuals/power-bi-visualizations-arcgis.md) wird nicht unterstützt.
 * Berichte mit mehr als 30 Berichtsseiten können derzeit nicht exportiert werden.
 * Visuals mit Scrollleiste werden im Standardzustand exportiert. Das Visual zeigt in PowerPoint nur den oberen Teil der Daten an. Das Scrollen ist in PowerPoint nicht verfügbar, da jede Folie ein Bild ist. 
-* Der Exportvorgang des Berichts nach PowerPoint kann einige Minuten dauern. Zu den Faktoren, die die benötigte Zeit beeinflussen, zählen die Struktur des Berichts sowie die jeweils aktuelle Auslastung des Power BI-Diensts.
 * Wenn das Menüelement **Nach PowerPoint exportieren** im Power BI-Dienst nicht verfügbar ist, hat der Administrator Ihres Mandanten diese Funktion wahrscheinlich deaktiviert. Wenden Sie sich an den Mandantenadministrator, um Einzelheiten zu erfahren.
 * Hintergrundbilder werden an der Begrenzung des Diagramms abgeschnitten. Es wird empfohlen, Hintergrundbilder vor dem Export als PowerPoint-Datei zu entfernen.
 * Seiten werden in PowerPoint immer mit dem Standardseitenverhältnis von 9:16 erstellt, unabhängig von den ursprünglichen Seitengrößen oder -abmessungen im Power BI-Bericht.
@@ -93,7 +101,10 @@ Bei der Arbeit mit der Funktion **Nach PowerPoint exportieren** sind einige Aspe
 * Der Power BI-Dienst verwendet Ihre Power BI-Spracheinstellung, um die Sprache für den PowerPoint-Export festzulegen. Sie können die Spracheinstellung anzeigen oder festlegen, indem Sie das Zahnradsymbol ![Zahnradsymbol](media/end-user-powerpoint/power-bi-settings-icon.png) > **Einstellungen** > **Allgemein** > **Sprache** auswählen.
 * Das Datum und die Uhrzeit unter **Heruntergeladen am** auf der Deckfolie für die exportierte PowerPoint-Datei ist auf den Zeitpunkt des Exports entsprechend der Zeitzone des Computers festgelegt.
 * Beim Exportieren in PPTX wird bei Berichten, die Designs mit benutzerdefinierten Schriftarten verwenden, die benutzerdefinierte Schriftart durch eine Standardschriftart ersetzt.
-* URL-Filter werden zurzeit nicht beachtet, wenn Sie **Aktuelle Werte** für Ihren Export auswählen.
+* Visuelle Elemente (Visuals), die mit R und Python erstellt wurden, werden zurzeit nicht unterstützt. Diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
+
+
 
 ## <a name="next-steps"></a>Nächste Schritte
+[Kopieren von visuellen Elementen als statische Bilder](../power-bi-visualization-copy-paste.md)    
 [Drucken eines Berichts](end-user-print.md)

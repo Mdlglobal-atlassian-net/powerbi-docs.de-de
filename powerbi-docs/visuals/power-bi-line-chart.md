@@ -2,27 +2,35 @@
 title: Liniendiagramme in Power BI
 description: Liniendiagramme in Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871075"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867022"
 ---
 # <a name="line-charts-in-power-bi"></a>Liniendiagramme in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 Ein Liniendiagramm ist eine Reihe von Datenpunkten, die durch Punkte dargestellt und durch gerade Linien verbunden sind. Ein Liniendiagramm kann aus einer oder mehreren Linien bestehen. Liniendiagramme haben eine X- und eine Y-Achse. 
 
 ![einfaches Liniendiagramm](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Erstellen eines Liniendiagramms
 Mit dieser Anleitung erstellen Sie anhand der Beispiel-App für Vertrieb und Marketing ein Liniendiagramm, das den Absatz des laufenden Jahres nach Kategorie anzeigt. Rufen Sie hierfür die Beispiel-App aus appsource.com ab.
+
+> [!NOTE]
+> Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird.
 
 1. Beginnen Sie auf einer leeren Berichtsseite. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) zu öffnen.
 

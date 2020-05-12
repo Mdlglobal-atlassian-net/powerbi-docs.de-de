@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 401cc419401756c9576ce6efc25a34b7aa667024
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207733"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781532"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Unterstützte Sprachen und Länder/Regionen für Power BI
 
-Dieser Artikel enthält eine der Liste der unterstützten Sprachen und Länder/Regionen für den Power BI-Dienst, Power BI Desktop und die Power BI-Dokumentation.
+In diesem Artikel geht es um die unterstützten Sprachen und Länder/Regionen für den Power BI-Dienst, Power BI Desktop und die Power BI-Dokumentation.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Länder und Regionen, in denen Power BI erhältlich ist
 Eine Liste der Länder und Regionen, in denen Power BI verfügbar ist, finden Sie unter [Internationale Verfügbarkeit](https://products.office.com/business/international-availability). 
@@ -72,7 +72,7 @@ Der Power BI-Dienst (im Browser) ist in den folgenden 44 Sprachen verfügbar:
 * Vietnamesisch – Tiếng Việt
 
 ### <a name="whats-translated"></a>Was ist übersetzt?
-Power BI übersetzt Menüs, Schaltflächen, Meldungen und andere Benutzeroberflächenelemente der in Ihre Sprache. Berichtsinhalte wie automatisch generierte Titel, Filter und QuickInfos werden zwar übersetzt, aber Ihre Daten werden nicht automatisch übersetzt. In den Berichten ändert sich das Layout der Visuals nicht, wenn Sie eine Sprache verwenden, die von rechts nach links gelesen wird (z. B. Hebräisch).
+Power BI übersetzt Menüs, Schaltflächen, Meldungen und andere Benutzeroberflächenelemente der in Ihre Sprache. Beispielsweise übersetzt Power BI Berichtsinhalte, etwa automatisch generierte Titel, Filter und QuickInfos. Ihre Daten werden jedoch nicht automatisch übersetzt. In den Berichten ändert sich das Layout der Visuals nicht, wenn Sie eine Sprache verwenden, die von rechts nach links gelesen wird (z. B. Hebräisch).
 
 Einige Features sind derzeit nur auf Englisch verfügbar:
 
@@ -118,7 +118,7 @@ Power BI erkennt Ihre Sprache ausgehend von den Spracheinstellungen auf Ihrem Co
 Es gibt zwei Möglichkeiten, Power BI Desktop zu erhalten: Sie können es als eigenständiges Installationsprogramm herunterladen oder aus dem Windows Store installieren.
 
 * Wenn Sie Power BI Desktop aus dem Windows Store installieren, werden sämtliche Sprachen installiert, und es wird standardmäßig die Sprache angezeigt, die der Windows-Standardsprache entspricht.
-* Wenn Sie Power BI Desktop als eigenständiges Installationsprogramm herunterladen, wählen Sie die Standardsprache beim Ausführen des Installationsprogramms aus. Sie können sie zu einem späteren Zeitpunkt ändern.
+* Wenn Sie Power BI Desktop als eigenständiges Installationsprogramm herunterladen, wählen Sie die Standardsprache beim Ausführen des Installationsprogramms aus. Sie können diese Sprache zu einem späteren Zeitpunkt ändern.
 * Sie können auch [ein beim Importieren von Daten zu verwendendes Gebietsschema](#choose-the-locale-for-importing-data-into-power-bi-desktop) für einen bestimmten Bericht auswählen.
 
 > [!NOTE]
@@ -126,11 +126,12 @@ Es gibt zwei Möglichkeiten, Power BI Desktop zu erhalten: Sie können es als ei
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Auswählen einer Sprache für Power BI Desktop 
 1. Installieren Sie Power BI Desktop [aus dem Windows Store](https://aka.ms/pbidesktopstore) oder als [eigenständiges Installationsprogramm](https://aka.ms/pbiSingleInstaller).
-2. Suchen Sie zum Ändern der Sprache auf Ihrem Computer nach **Windows-Einstellungen**. 
-3. Wählen Sie **Zeit & Sprache** aus.
+2. Um die Sprache zu ändern, wählen Sie im Windows-Menü die Option **Einstellungen** aus.
+
+3. Wählen Sie in **Windows-Einstellungen** den Eintrag **Zeit und Sprache** aus.
    
      ![Dialogfeld „Windows-Einstellungen“](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. Wählen Sie **Region & Sprache** aus, wählen Sie eine Sprache und anschließend **Als Standard festlegen** aus.
+4. Wählen Sie **Sprache** aus, und wählen Sie eine Sprache aus. Wählen Sie ggf. **Windows-Anzeigesprache im Microsoft Store hinzufügen** aus.
    
      ![Windows-Dialogfeld mit Spracheinstellungen](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
@@ -143,8 +144,30 @@ Gehen Sie folgendermaßen vor, um die Standardeinstellung zu überschreiben und 
 
 In Power BI Desktop können nur die Sprachen ausgewählt werden, die in der Dropdownliste „Anwendungssprache“ angezeigt werden.
 
+### <a name="verify-power-bi-desktop-default-number-and-date-formatting"></a>Überprüfen der Standardzahlen- und -datumsformatierung von Power BI Desktop
+
+Für Power BI Desktop wird die Standformatierung für Zahlen und Datumsangaben aus den Einstellungen der Windows-Region ermittelt. Sie können diese Einstellungen bei Bedarf überprüfen oder ändern.
+
+1. Wählen Sie im Windows-Menü die Option **Einstellungen** aus.
+
+2. Wählen Sie in **Windows-Einstellungen** den Eintrag **Zeit und Sprache** aus.
+   
+     ![Dialogfeld „Windows-Einstellungen“](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+
+3. Wählen Sie **Region** > **Zusätzliche Datums-, Uhrzeit- und Ländereinstellungen** aus.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="Zusätzliche Datums-, Uhrzeit- und Ländereinstellungen":::
+
+4. Wählen Sie in **Zeit und Region** die Option **Datums-, Uhrzeit- oder Zahlenformat ändern** aus.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-check-region-settings.png" alt-text="Einstellungen für Uhrzeit und Region":::
+
+5. Stellen Sie sicher, dass **Windows-Anzeigesprache verwenden** ausgewählt ist, oder ändern Sie die Einstellung bei Bedarf.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-match-windows.png" alt-text="Windows-Anzeigesprache verwenden":::
+
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Auswählen des Gebietsschemas für den Import von Daten in Power BI Desktop
-Egal, ob Sie Power BI Desktop herunterladen oder aus dem Windows Store installieren, Sie können für einen bestimmten Bericht ein anderes Gebietsschema als das in Ihrer Version von Power BI Desktop geltende Gebietsschema auswählen. Das Gebietsschema ändert die Interpretationsweise der Daten beim Import aus der Datenquelle. Dabei wird z. B. festgelegt, ob „3/4/2017“ als 3. April oder als 4. März interpretiert wird. 
+Egal, ob Sie Power BI Desktop herunterladen oder aus dem Windows Store installieren, Sie können für einen bestimmten Bericht ein anderes Gebietsschema als das in Ihrer Version von Power BI Desktop geltende Gebietsschema auswählen. Das Gebietsschema wirkt sich darauf aus, wie Daten in Power BI interpretiert werden, wenn sie aus Ihrer Datenquelle importiert werden. Wird beispielsweise „3/4/2017“ als 3. April oder am 4. März interpretiert?
 
 1. Öffnen Sie in Power BI Desktop **Datei** > **Optionen und Einstellungen** > **Optionen**.
 2. Wählen Sie unter **Aktuelle Datei** die Option **Regionale Einstellungen** aus.
@@ -158,10 +181,10 @@ Egal, ob Sie Power BI Desktop herunterladen oder aus dem Windows Store installie
 Neben der Sprache für die Power BI Desktop-Anwendung können Sie auch die Modellsprache festlegen. Die Modellsprache betrifft hauptsächlich zwei Aspekte:
 
 - Vergleichen und Sortieren von Zeichenfolgen. Da z.B. das Türkische über zwei verschiedene Buchstaben „i“ verfügt, kann es sein, dass je nach Sortierung der Datenbank die beiden Buchstaben beim Sortieren an unterschiedlichen Stellen in der Reihenfolge stehen. 
-- Die Sprache, die Power BI Desktop beim Erstellen ausgeblendeter Datumstabellen aus Datumsfeldern verwendet. Die Felder heißen z.B. „Month“, „Monat“, „Mois“ usw.
+- Die Sprache, die Power BI Desktop beim Erstellen ausgeblendeter Datumstabellen aus Datumsfeldern verwendet. Die Felder heißen z. B. „Month“, „Monat“, „Mois“ usw.
 
 > [!NOTE]
-> Das Modell von Power BI verwendet derzeit ein Gebietsschema, das nicht die Groß-/Kleinschreibung (bzw. Unterscheidung nach Kana) berücksichtigt, sodass „ABC“ und „abc“ gleichwertig behandelt werden. Wenn „ABC“ zuerst in die Datenbank geladen wird, werden sonstige Zeichenfolgen, die sich wie „Abc“ nur durch den Fall unterscheiden, nicht als separate Werte geladen.
+> Für das Modell von Power BI wird derzeit ein Gebietsschema verwendet, das nicht die Groß-/Kleinschreibung (bzw. Unterscheidung nach Kana) berücksichtigt, sodass „ABC“ und „abc“ als gleichwertig behandelt werden. Wenn „ABC“ zuerst in die Datenbank geladen wird, werden sonstige Zeichenfolgen, die sich wie „Abc“ nur durch den Fall unterscheiden, nicht als separate Werte geladen.
 > 
 >
 

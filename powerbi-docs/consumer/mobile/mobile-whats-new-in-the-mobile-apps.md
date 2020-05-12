@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802093"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841708"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -24,6 +24,14 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 
 >[!NOTE]
 >Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>April 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>Freigeben aus Arbeitsbereichen ist jetzt verfügbar
+Es wurde die Möglichkeit hinzugefügt, Berichte und Dashboards aus Arbeitsbereichen freizugeben. Sie können Ihre Inhalte nun aus „Mein Arbeitsbereich“ und aus anderen Arbeitsbereichen freigeben, wenn der Besitzer des Arbeitsbereichs dies zulässt, so wie im Power BI-Dienst. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>Für Dashboards wird jetzt der Vollbildmodus (iOS und Android) unterstützt
+Sie können Ihre Dashboards nun im Vollbildmodus anzeigen, wodurch Sie mehr Platz zum Anzeigen von Dashboardinhalten erhalten. 
 
 ## <a name="march-2020"></a>März 2020
 
@@ -871,4 +879,4 @@ Verbesserungen an den mobilen Power BI-Apps – Android, iOS (iPhone und iPad) u
 * Verbessertes Kartenkachelrendering im Fokusmodus, um die Bildschirmfläche zu maximieren.
 * Verbesserte Benutzerfunktionalität beim Zugriff auf Dashboards mithilfe der rollenbasierten Sicherheit. 
 * Mit einer neue Funktion können Sie Dashboardkacheln vorwärts und rückwärts durchsuchen, sodass Sie direkt im Fokusmodus untersucht werden können, ohne zurück ins Dashboard wechseln zu müssen, um die nächste Kachel auszuwählen.
-* Zusätzliche Verbesserungen an Stabilität und Leistung. 
+* Zusätzliche Verbesserungen an Stabilität und Leistung.

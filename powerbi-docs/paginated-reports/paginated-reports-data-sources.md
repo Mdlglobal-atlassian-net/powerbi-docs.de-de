@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255763"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692890"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Unterstützte Datenquellen für paginierte Power BI-Berichte
 
@@ -25,7 +25,7 @@ Paginierte Berichte unterstützen nativ die folgende Liste von Datenquellen:
 
 | Datenquelle | Authentifizierung | Hinweise |
 | --- | --- | --- |
-| Azure SQL-Datenbank <br>Azure SQL Data Warehouse | Basic, Einmaliges Anmelden (SSO) OAuth2 |   |
+| Azure SQL-Datenbank <br>Azure SQL Data Warehouse | Basic, Einmaliges Anmelden (SSO) OAuth2 | Sie können ein Enterprise Gateway mit einer Azure SQL-Datenbank verwenden. Allerdings können Sie weder SSO noch oAuth2 verwenden, um sich in solchen Szenarien zu authentifizieren.   |
 | Verwaltete Azure SQL-Datenbank-Instanz | Standard | über einen öffentlichen oder einen privaten Endpunkt (ein privater Endpunkt muss über ein Unternehmensgateway weitergeleitet werden)  |
 | Azure Analysis Services | SSO, OAuth2 | Die Firewall von AAS muss deaktiviert oder so konfiguriert sein, dass sie sämtliche IP-Adressbereiche zulässt.|
 | Power BI-Dataset | SSO | Für Power BI Premium-Datasets und Power BI Nicht-Premium-Datasets ist eine Leseberechtigung erforderlich. |

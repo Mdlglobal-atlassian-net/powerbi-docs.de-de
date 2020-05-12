@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841915"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866846"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best Practices zum Optimieren von Q&A in Power BI
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Noch besser ist es, wenn Ihre Daten Ihnen Antworten liefern – und genau das ist mit Q&A in Power BI möglich.
@@ -195,8 +195,10 @@ Dieser Schritt bezieht sich speziell auf Q&A (und nicht auf Power BI-Berichte im
 
 Dieser Schritt kann von Bedeutung sein. Selbst bei unkomplizierten Tabellen- und Spaltennamen stellen die Benutzer von Q&A Fragen mit den Wörtern, die ihnen spontan einfallen. Sie wählen nicht aus einer vordefinierten Liste von Spalten aus. Je mehr sinnvolle Synonyme Sie hinzufügen können, desto höher ist die Benutzerfreundlichkeit Ihres Berichts. Um Synonyme hinzuzufügen, wechseln Sie in Power BI Desktop zur Modellansicht, klicken Sie auf die Registerkarte „Modellierung“, und wählen Sie ein Feld oder eine Tabelle aus. Das Eigenschaftenfenster zeigt das Feld **Synonyme** an, in dem Sie Synonyme hinzufügen können.
 
-
-
-![Q&A-Eigenschaftenfenster für Synonyme](media/qna-modelling-pane-synonyms.png)
+![Q&A-Eigenschaftenfenster für Synonyme](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  Seien Sie beim Hinzufügen von Synonymen vorsichtig. Das Hinzufügen desselben Synonyms zu mehr als einer Spalte oder Tabelle führt zu Mehrdeutigkeit. Q&A nutzt nach Möglichkeit den Kontext, um bei mehrdeutigen Synonymen zu entscheiden, allerdings ist nicht bei allen Fragen ausreichend Kontext vorhanden. Wenn der Benutzer z.B. „Kunden zählen“ eingibt und im Modell an drei Stellen das Synonym „Kunden“ vorkommt, wird vermutlich nicht die gesuchte Antwort zurückgegeben. Stellen Sie in diesen Fällen sicher, dass das primäre Synonym eindeutig ist, da dies in der Anpassung verwendet wird. So kann der Benutzer auf die Mehrdeutigkeit hingewiesen werden (z.B. bei der Anpassung „show the number of archived customer records“), sodass er die Frage noch einmal anders formulieren kann.
+
+## <a name="next-steps"></a>Nächste Schritte
+
+[Einführung in Power BI Q&A](q-and-a-intro.md)

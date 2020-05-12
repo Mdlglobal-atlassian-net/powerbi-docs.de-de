@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621457"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613555"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Veröffentlichen von Power BI-Visuals in Partner Center
 
@@ -101,9 +101,11 @@ Führen Sie die unten genannten Schritte aus, um Ihr Power BI-Visual an Partner
 
 ## <a name="tracking-submission-status-and-usage"></a>Nachverfolgen des Übermittlungsstatus und der Verwendung
 
-Sie können sich mit den [Überprüfungsrichtlinien](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) vertraut machen.
+* Sie können sich mit den [Überprüfungsrichtlinien](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) vertraut machen.
 
-Nach der Übermittlung können Sie im [App-Dashboard](https://sellerdashboard.microsoft.com/Application/Summary/) den Übermittlungsstatus anzeigen.
+* Nach der Übermittlung können Sie im [App-Dashboard](https://sellerdashboard.microsoft.com/Application/Summary/) den Übermittlungsstatus anzeigen.
+
+* Wenn Sie wissen möchten, wann Ihr Power BI-Visual in AppSource zum Herunterladen verfügbar sein wird, lesen Sie den Abschnitt [Veröffentlichungszeitachse](power-bi-custom-visuals-certified.md#publication-timeline) für Power BI-Visuals (visuelle Power BI-Elemente).
 
 ## <a name="certify-your-visual"></a>Zertifizieren Ihrer Visualisierung
 

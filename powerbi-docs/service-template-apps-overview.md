@@ -4,16 +4,16 @@ description: Dieser Artikel enthält eine Übersicht über Vorlagen-Apps in Powe
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066323"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781315"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Was sind Power BI-Vorlagen-Apps?
 
@@ -103,6 +103,7 @@ Weitere Vorschläge finden Sie unter [Tips for authoring template apps in Power 
 | Dataset: arbeitsbereichübergreifend | Arbeitsbereichübergreifende Datasets sind nicht zulässig.  |
 | Abfrageparameter | Nicht unterstützt: Parameter vom Typ „Any“ oder „Binary“ blockieren den Aktualisierungsvorgang für Datasets. |
 | Power BI-Visuals | Es werden nur öffentlich verfügbare Power BI-Visuals unterstützt. [Power BI-Organisationsvisuals](developer/visuals/power-bi-custom-visuals-organization.md) werden nicht unterstützt. |
+| Sovereign Clouds | Vorlagen-Apps sind in Sovereign Clouds nicht verfügbar. |
 
 ## <a name="support"></a>Support
 Unterstützung während der Entwicklung finden Sie unter [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Diese Website wird aktiv überwacht und verwaltet. Kundenanfragen werden schnell an das entsprechende Team weitergeleitet.

@@ -1,19 +1,19 @@
 ---
 title: Trainieren von Q&A zum Verständnis von Fragen und Begriffen in Power BI Q&A
 description: Verwenden von Power BI Q&A zum Untersuchen Ihrer Daten
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874927"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865782"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Trainieren von Q&A zum Verständnis von Fragen und Begriffen in Power BI Q&A
 
@@ -26,7 +26,7 @@ Im Abschnitt **Q&A trainieren** der Q&A-Einrichtung können Sie Q&A trainieren, 
 
 1. Wählen Sie in Power BI Desktop im Menüband **Modellierung** die Option **Q&A-Setup** > **Q&A trainieren** aus.
 
-    ![Q&A trainieren: rot markiertes Synonym](media/qna-tooling-teach-synonym-red.png)
+    ![Q&A trainieren: rot markiertes Synonym](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. Geben Sie einen Satz mit einem Begriff ein, den Q&A nicht erkennt, und klicken Sie auf **Übermitteln**.
 
@@ -36,7 +36,7 @@ Im Abschnitt **Q&A trainieren** der Q&A-Einrichtung können Sie Q&A trainieren, 
     
 3. Geben Sie unter **Definieren Sie die Begriffe, die in Q&A nicht verstanden wurden** eine Definition an.
 
-    ![Q&A trainieren: Synonymvorschau](media/qna-tooling-teach-fixpreview.png)
+    ![Q&A trainieren: Synonymvorschau](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. Klicken Sie auf **Speichern**, um eine Vorschau des aktualisierten Visuals anzuzeigen.
 
@@ -61,7 +61,7 @@ Q&A erkennt durch Rückgriff auf Informationen in Microsoft Office automatisch, 
 
 Geben Sie im Feld den Begriff aus Ihren Daten ein.
 
-![Q&A trainieren: Synonymaufforderung](media/qna-tooling-synonym-prompt.png)
+![Q&A trainieren: Synonymaufforderung](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Wenn Sie kein Feld aus dem Datenmodell angeben, kann es zu unerwünschten Ergebnissen kommen.
 
@@ -73,19 +73,28 @@ Gelegentlich kann es sinnvoll sein, Begriffe zu definieren, die als Bedingung f�
 
 Geben Sie die Bedingung in das Feld ein.
 
-![Q&A trainieren: Synonymaufforderung](media/qna-tooling-adjectives.png)
+![Q&A trainieren: Synonymaufforderung](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Nachfolgend einige Beispielbedingungen, die Sie definieren können:
 
-- „Land/Region“ mit dem Wert „USA“
-- „Land/Region“ mit einem anderen Wert als „USA“
-- „Gewicht“ > 2000
-- „Gewicht“ = 2000
-- „Gewicht“ < 2000
+- Land/Region mit dem Wert USA
+- Land/Region mit einem anderen Wert als USA
+- Produkte > 100
+- Produkte größer als 100
+- Produkte = 100
+- Produkte ist 100
+- Produkte < 100
+- Produkte kleiner als 100
 
-Sie können in den Tools nur ein einzige Bedingung definieren. Um komplexe Bedingungen zu definieren, erstellen Sie mit DAX eine berechnete Spalte und verwenden Sie dann den Toolabschnitt, um eine einzelne Bedingung für diese berechnete Spalte zu erstellen. Measures werden nicht unterstützt. Verwenden Sie stattdessen berechnete Spalten.
+In diesen Beispielen kann „Produkte“ sowohl ein Spaltenname als auch ein Measure sein. 
 
-## <a name="manage-terms"></a>Verwalten von Begriffen
+Sie können auch eine Aggregation im Q&A-Ausdruck selbst angeben. Wenn es sich bei „Beliebte Produkte“ beispielsweise um Produkte handelt, von denen mindestens 100 Einheiten verkauft wurden, können Sie Produkte mit „Summe der verkauften Einheiten > 100“ als beliebt definieren.  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="„Beliebte Produkte“ definieren":::
+
+Sie können in den Tools nur ein einzige Bedingung definieren. Um komplexere Bedingungen zu definieren, erstellen Sie mit DAX eine berechnete Spalte oder ein berechnetes Measure, und verwenden Sie dann den Toolabschnitt, um eine einzelne Bedingung für diese Spalte oder dieses Measure zu erstellen.
+
+## <a name="manage-terms"></a>Begriffe verwalten
 
 Nachdem Sie Definitionen angegeben haben, können Sie zurückwechseln, um alle vorgenommenen Korrekturen anzuzeigen und sie zu bearbeiten oder zu löschen. 
 
@@ -93,10 +102,8 @@ Nachdem Sie Definitionen angegeben haben, können Sie zurückwechseln, um alle v
 
 2. Löschen Sie alle Begriffe, die Sie nicht länger benötigen. Aktuell können Begriffe nicht bearbeitet werden. Um einen Begriff neu zu definieren, löschen Sie den Begriff, und definieren Sie ihn neu.
 
-    ![Verwalten von Begriffen in Q&A](media/qna-manage-terms.png)
+    ![Verwalten von Begriffen in Q&A](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Es gibt verschiedene Best Practices zur Verbesserung der Engine zur Verarbeitung natürlicher Sprache. Weitere Informationen finden Sie im folgenden Artikel:
-
-* [Q&A: Best Practices](q-and-a-best-practices.md)
+Es gibt verschiedene Best Practices zur Verbesserung der Engine zur Verarbeitung natürlicher Sprache. Weitere Informationen finden Sie unter [Q&A: Best Practices](q-and-a-best-practices.md).

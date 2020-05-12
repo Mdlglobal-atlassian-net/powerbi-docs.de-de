@@ -4,16 +4,16 @@ description: Erfahren Sie mehr über das Installieren, Anpassen und Verteilen vo
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436109"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781676"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation
 
@@ -65,7 +65,7 @@ Sie benötigen Folgendes zum Installieren, Anpassen und Verteilen einer Vorlagen
 
 1. Klicken Sie auf **Verbinden**.
     
-    Dadurch wird ein Dialogfeld oder eine Reihe von Dialogfeldern geöffnet, in denen Sie die Datenquelle der Beispieldaten in Ihre eigene Datenquelle ändern können. Dies bedeutet im Allgemeinen, dass Sie Datasetparameter und Datenquellenanmeldeinformationen neu definieren. Weitere Informationen finden Sie unter [Bekannte Einschränkungen](service-template-apps-tips.md#known-limitations).
+    Dadurch wird ein Dialogfeld oder eine Reihe von Dialogfeldern geöffnet, in denen Sie die Datenquelle der Beispieldaten in Ihre eigene Datenquelle ändern können. Dies bedeutet im Allgemeinen, dass Sie Datasetparameter und Datenquellenanmeldeinformationen neu definieren. Weitere Informationen finden Sie unter [Bekannte Einschränkungen](service-template-apps-overview.md#known-limitations).
     
     Im folgenden Beispiel umfasst das Herstellen einer Verbindung mit Daten zwei Dialogfelder.
 
@@ -95,14 +95,18 @@ Wenn Sie alle gewünschten Änderungen an den Artefakten im Arbeitsbereich vorge
 
 Von Zeit zu Zeit veröffentlichen Ersteller von Vorlagen-Apps neue, verbesserte Versionen ihrer Vorlagen-Apps entweder über AppSource, direkte Links oder beides.
 
-Wenn Sie die App ursprünglich von AppSource heruntergeladen haben und eine neue Version der Vorlagen-App verfügbar ist, wird im Power BI-Dienst ein Updatebanner angezeigt, das Sie darüber informiert, dass eine neue Version der App verfügbar ist.
+Wenn Sie die App ursprünglich aus AppSource heruntergeladen haben, werden Sie auf zwei Arten benachrichtigt, wenn eine neue Version der Vorlagen-App verfügbar geworden ist:
+* Ein Aktualisierungsbanner wird im Power BI-Dienst angezeigt, in dem Ihnen mitgeteilt wird, dass eine neue App-Version verfügbar ist.
+  ![Benachrichtigung für Update einer Vorlagen-App](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Sie erhalten eine Benachrichtigung im Benachrichtigungsbereich von Power BI.
 
-  ![Benachrichtigung für Update einer Vorlagen-App](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Benachrichtigung für Update einer Vorlagen-App](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Wenn Sie die App ursprünglich über einen direkten Link anstelle von AppSource erhalten haben, können Sie lediglich den Ersteller der Vorlagen-App kontaktieren, um herauszufinden, wann eine neue Version verfügbar ist.
 
-  Klicken Sie zum Installieren des Updates entweder im Benachrichtigungsbanner auf **Get it** (Herunterladen), oder suchen Sie die App noch mal in AppSource, und klicken Sie dann auf **Jetzt herunterladen**. Wenn Sie vom Ersteller der Vorlagen-App einen direkten Link für das Update erhalten haben, klicken Sie einfach auf den Link.
+  Um das Update zu installieren, klicken entweder im Benachrichtigungsbanner oder in der Mitteilungszentrale auf **Abrufen**, oder suchen Sie erneut in AppSource nach der App, und klicken Sie dann auf **Jetzt abrufen**. Wenn Sie vom Ersteller der Vorlagen-App einen direkten Link für das Update erhalten haben, klicken Sie einfach auf den Link.
   
   Sie werden gefragt, ob Sie die aktuelle Version überschreiben oder die neue Version in einem neuen Arbeitsbereich installieren möchten. Standardmäßig ist „Überschreiben“ ausgewählt.
 

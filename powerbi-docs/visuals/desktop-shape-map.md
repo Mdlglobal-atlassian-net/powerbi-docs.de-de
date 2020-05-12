@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525658"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866539"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Erstellen von Visualisierungen für Flächenkartogramme in Power BI Desktop (Vorschau)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Erstellen Sie ein Visual für die **Formenzuordnung**, um Regionen auf einer Karte voneinander abzutrennen. Im Gegensatz zum Visual **Karte** kann das Visual **Formenzuordnung** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen soll es vor allem Regionen auf einer Karte in Beziehung zueinander setzen, indem diese unterschiedliche Farben erhalten.
 
 Visuals für die **Formenzuordnung** basieren auf TopoJSON-Karten. Diese Karten können von Ihnen erstellte benutzerdefinierte Karten verwenden. Benutzerdefinierte Karten sind beispielswiese die Folgenden: geografische Pläne, Sitz- oder Raumpläne. In diesem Vorschaurelease von **Flächenkartogramm** ist es nicht möglich, benutzerdefinierte Karten zu verwenden.
+
+> [!NOTE]
+> Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird.
 
 ## <a name="creating-shape-maps"></a>Erstellen von Flächenkartogrammen
 Sie können das Steuerelement **Flächenkartogramm** mit den Karten testen, die mit dieser Vorschauversion geliefert werden. Alternativ können Sie eine eigene benutzerdefinierte Karte verwenden, sofern sie die im folgenden Abschnitt **Verwenden benutzerdefinierter Karten** genannten Anforderungen erfüllt.
@@ -113,9 +118,9 @@ Für dieses Vorschaurelease von **Flächenkartogramm** gibt es einige Bedingunge
 
 Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um **Flächenkartogramm** zu testen.
 
-### <a name="australia-states"></a>Australia: States
+### <a name="australia-states"></a>Australien: Staaten
 
-| ID | abbr | iso | Name | postal |
+| ID | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,9 +131,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Austria: States
+### <a name="austria-states"></a>Österreich: Staaten
 
-| ID | iso | Name | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -136,11 +141,11 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | at-st |AT-6 |Steiermark |Styria |ST |
 | at-sz |AT-5 |Salzburg |Salzburg |SZ |
 | at-oo |AT-4 |Oberösterreich |Upper Austria |OO |
-| at-no |AT-3 |Niederösterreich |Lower Austria |NEIN |
+| at-no |AT-3 |Niederösterreich |Lower Austria |NO |
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brazil: States
+### <a name="brazil-states"></a>Brasilien: Staaten
 
 | ID |
 | --- |
@@ -176,9 +181,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Canada: Provinces
+### <a name="canada-provinces"></a>Kanada: Provinzen
 
-| ID | iso | Name | postal |
+| ID | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -194,9 +199,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>France: Regions
+### <a name="france-regions"></a>Frankreich: Regionen
 
-| ID | Name | name-en |
+| ID | name | name-en |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -216,9 +221,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Germany: States
+### <a name="germany-states"></a>Deutschland: Staaten
 
-| ID | iso | Name | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -237,7 +242,7 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | de-by |DE-BY |Bayern |Bavaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
-### <a name="ireland-counties"></a>Ireland: Counties
+### <a name="ireland-counties"></a>Irland: Grafschaften
 
 | ID |
 | --- |
@@ -268,9 +273,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italy: Regions
+### <a name="italy-regions"></a>Italien: Regionen
 
-| ID | iso | Name | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -279,7 +284,7 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | it-tc |IT-52 |Toscana |Tuscany |TC |
 | it-sc |IT-82 |Sicilia |Sicily |SC |
 | it-sd |IT-88 |Sardegna |Sardinia |SD |
-| it-pm |IT-21 |Piemonte |Piedmont |PM |
+| it-pm |IT-21 |Piemonte |Piedmont |Uhr |
 | it-ml |IT-67 |Molise |Molise |ML |
 | it-mh |IT-57 |Marche |Marche |MH |
 | it-lm |IT-25 |Lombardia |Lombardy |LM |
@@ -293,9 +298,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Mexico: States
+### <a name="mexico-states"></a>Mexiko: Staaten
 
-| ID | abreviatura | iso | Name | name-en | postal |
+| ID | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -330,9 +335,9 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Netherlands: Provinces
+### <a name="netherlands-provinces"></a>Niederlande: Provinzen
 
-| ID | iso | Name | name-en |
+| ID | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -347,18 +352,18 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>UK: Countries
+### <a name="uk-countries"></a>Vereinigtes Königreich: Länder
 
-| ID | iso | Name |
+| ID | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>USA: States
+### <a name="usa-states"></a>USA: Staaten
 
-| ID | Name | postal |
+| ID | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -367,7 +372,7 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | us-la |Louisiana |LA |
 | us-ar |Arkansas |AR |
 | us-sc |South Carolina |SC |
-| us-ga |Georgien |GA |
+| us-ga |Georgia |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
@@ -397,11 +402,11 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | us-pa |Pennsylvania |PA |
 | us-ny |New York |NY |
 | us-ne |Nebraska |NE |
-| us-ma |Massachusetts |NI |
+| us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
 | us-or |Oregon |OR |
-| us-mn |Minnesota |BB |
+| us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |
 | us-wi |Wisconsin |WI |
@@ -412,7 +417,7 @@ Verwenden Sie in dieser Vorschauversion die folgenden **Regionsschlüssel**, um 
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 * [Matrixvisuals in Power BI](desktop-matrix-visual.md)
 
