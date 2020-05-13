@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492604"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279386"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Bewährte Methoden für die Leistung von Power BI Embedded
 
@@ -59,7 +59,7 @@ Generieren Sie beim Einbetten mehrerer Berichte in den gleichen iFrame nicht fü
 
 Organisationen mit Power BI Premium-Funktionen oder Power BI Embedded-Funktionen können von der Zwischenspeicherung von Abfragen profitieren, um Berichte, die einem Dataset zugeordnet sind, zu beschleunigen.
 
-[Weitere Informationen zum Zwischenspeichern von Abfragen in Power BI](../../power-bi-query-caching.md).
+[Weitere Informationen zum Zwischenspeichern von Abfragen in Power BI](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Vorab Laden
 
@@ -99,7 +99,7 @@ Zwischengespeicherte Daten werden gerendert, wenn sie verfügbar sind, es wird a
 Um die Leistung der Berichtselemente zu untersuchen, können Sie die Leistungsanalyse in Power BI Desktop verwenden.
 Mit der Leistungsanalyse können Sie Protokolle aufzeichnen und anzeigen, die die Leistung jedes Ihrer Berichtselemente messen.
 
-[Weitere Informationen zur Leistungsanalyse](../../desktop-performance-analyzer.md)
+[Weitere Informationen zur Leistungsanalyse](../../create-reports/desktop-performance-analyzer.md)
 
 > [!NOTE]
 > Denken Sie immer daran, die Leistung eines eingebetteten Berichts mit der Leistung auf powerbi.com zu vergleichen. Dies kann Ihnen dabei helfen, den Ursprung von Leistungsproblemen zu verstehen.

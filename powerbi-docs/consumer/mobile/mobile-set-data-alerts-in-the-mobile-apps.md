@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435810"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279547"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Festlegen von Datenwarnungen in den mobilen Power BI-Apps
 Gilt für:
@@ -29,7 +29,7 @@ Sie können Warnungen für Kacheln festlegen, wenn Sie über eine Power BI Pro-L
 > [!WARNING]
 > Datengesteuerte Warnungsbenachrichtigungen liefern Informationen über Ihre Daten. Wenn das Gerät gestohlen wird, sollten Sie im Power BI-Dienst alle Regeln für datengesteuerte Warnungen deaktivieren. 
 > 
-> Erfahren Sie mehr über das [Verwalten von Datenwarnungen im Power BI-Dienst](../../service-set-data-alerts.md).
+> Erfahren Sie mehr über das [Verwalten von Datenwarnungen im Power BI-Dienst](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ Sie können Warnungen für Kacheln festlegen, wenn Sie über eine Power BI Pro-L
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Verwalten von Warnungen auf dem iPhone oder iPad
-Sie können einzelne Warnungen auf dem Mobilgerät verwalten oder [alle Warnungen im Power BI-Dienst verwalten](../../service-set-data-alerts.md).
+Sie können einzelne Warnungen auf dem Mobilgerät verwalten oder [alle Warnungen im Power BI-Dienst verwalten](../../create-reports/service-set-data-alerts.md).
 
 1. Tippen Sie in einem Dashboard auf eine Zahlen- oder Maßstabkachel, die eine Warnung aufweist.  
    
@@ -92,7 +92,7 @@ Sie können einzelne Warnungen auf dem Mobilgerät verwalten oder [alle Warnunge
 8. Tippen Sie auf **Speichern**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Verwalten von Warnungen auf einem Android-Gerät
-Sie können einzelne Warnungen in der mobilen Power BI-App verwalten oder [alle Warnungen im Power BI-Dienst verwalten](../../service-set-data-alerts.md).
+Sie können einzelne Warnungen in der mobilen Power BI-App verwalten oder [alle Warnungen im Power BI-Dienst verwalten](../../create-reports/service-set-data-alerts.md).
 
 1. Tippen Sie in einem Dashboard auf eine Karten- oder Maßstabkachel, die eine Warnung aufweist.  
 2. Tippen Sie auf das Glockensymbol ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ Sie können einzelne Warnungen in der mobilen Power BI-App verwalten oder [alle 
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Verwalten von Warnungen auf einem Windows-Gerät
-Sie können einzelne Warnungen in der mobilen Power BI-App verwalten oder [alle Warnungen im Power BI-Dienst verwalten](../../service-set-data-alerts.md).
+Sie können einzelne Warnungen in der mobilen Power BI-App verwalten oder [alle Warnungen im Power BI-Dienst verwalten](../../create-reports/service-set-data-alerts.md).
 
 1. Tippen Sie in einem Dashboard auf eine Karten- oder Maßstabkachel, die eine Warnung aufweist.  
 2. Tippen Sie auf das Glockensymbol ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ Häufig wird die tägliche Aktualisierung von Datenquellen festgelegt, manche we
 * Warnungen können nicht mit Kacheln verwendet werden, die Streamingdaten enthalten.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Verwalten von Warnungen im Power BI-Dienst](../../service-set-data-alerts.md)
+* [Verwalten von Warnungen im Power BI-Dienst](../../create-reports/service-set-data-alerts.md)
 * [Mobile Power BI-Mitteilungszentrale](mobile-apps-notification-center.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

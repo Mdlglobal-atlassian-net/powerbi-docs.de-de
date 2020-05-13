@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 441400a5d32ea776288f976aa1d2155a971f3c72
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73875570"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278995"
 ---
 # <a name="guidance-for-power-bi"></a>Anleitung für Power BI
 
@@ -36,6 +36,6 @@ Hier finden Sie Anleitungen und bewährte Methoden für Power BI. Diese Anleitun
 
 | Leitfaden | Beschreibung |
 | --- | --- |
-| [Bewährte Methoden für Dataflows](../service-dataflows-best-practices.md) | In diesem Artikel werden bewährte Methoden für das Entwerfen von Dataflows in Power BI beschrieben. |
+| [Bewährte Methoden für Dataflows](../transform-model/service-dataflows-best-practices.md) | In diesem Artikel werden bewährte Methoden für das Entwerfen von Dataflows in Power BI beschrieben. |
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

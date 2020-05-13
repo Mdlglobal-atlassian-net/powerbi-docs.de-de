@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841731"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279501"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -27,7 +27,7 @@ Gilt für:
 
 Ein Power BI-Bericht ist eine interaktive Ansicht Ihrer Daten, und mit den darin enthaltenen Visuals werden unterschiedliche Ergebnisse und Erkenntnisse zu diesen Daten dargestellt. Das Anzeigen von Berichten in den mobilen Power BI-Apps ist der dritte Schritt in einem dreistufigen Prozess:
 
-1. [Erstellen Sie Berichte in Power BI Desktop](../../desktop-report-view.md). Sie können in Power BI Desktop sogar [einen Bericht für Telefone optimieren](mobile-apps-view-phone-report.md).
+1. [Erstellen Sie Berichte in Power BI Desktop](../../create-reports/desktop-report-view.md). Sie können in Power BI Desktop sogar [einen Bericht für Telefone optimieren](mobile-apps-view-phone-report.md).
 2. Veröffentlichen Sie diese Berichte im Power BI-Dienst [(https://powerbi.com)](https://powerbi.com) oder auf dem [Power BI-Berichtsserver](../../report-server/get-started.md).  
 3. Anschließend können Sie in den mobilen Power BI-Apps mit den Berichten interagieren.
 
@@ -100,7 +100,7 @@ Berichtsautoren können Hierarchien in den Daten und Beziehungen zwischen Berich
 Wenn Sie auf einen bestimmten Teil eines Visuals tippen und dann die Option *Drillthrough* auswählen, navigiert Power BI zu einer anderen Seite im Bericht mit dem angetippten Wert als Filter. Der Berichtsautor kann mindestens eine Drillthroughoption festlegen, durch die Sie auf eine andere Seite weitergeleitet werden. In diesem Fall können Sie entscheiden, für welche Option Sie einen Drillthrough durchführen möchten. Mit der Schaltfläche „Zurück“ gelangen Sie zurück zur vorherigen Seite.
 
 
-Weitere Informationen finden Sie unter [Hinzufügen der Drillthroughfunktion in Power BI Desktop](../../desktop-drillthrough.md).
+Weitere Informationen finden Sie unter [Hinzufügen der Drillthroughfunktion in Power BI Desktop](../../create-reports/desktop-drillthrough.md).
    
    > [!IMPORTANT]
    > In mobilen Power BI-Apps werden Drillaktionen in Matrizen und Tabellenvisuals nur über Zellenwerte erlaubt, und nicht über Spalten oder Zeilenheader.
@@ -164,6 +164,5 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Konfigu
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Anzeigen von und Interagieren mit Power BI-Berichten, die für das Smartphone optimiert sind](mobile-apps-view-phone-report.md)
-* [Erstellen einer für Smartphones optimierten Version eines Berichts](../../desktop-create-phone-report.md)
+* [Erstellen einer für Smartphones optimierten Version eines Berichts](../../create-reports/desktop-create-phone-report.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

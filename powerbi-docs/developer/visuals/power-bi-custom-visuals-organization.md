@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464582"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278811"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Visuals für Organisationen in Power BI
 
@@ -42,8 +42,6 @@ Weitere Informationen über die Verwaltung und Bereitstellung von Power BI-Visua
 Es gibt einige Überlegungen und Einschränkungen, die Sie berücksichtigen müssen.
 
 Administrator:
-
-* Veraltete Power BI-Visuals (z. B. Power BI-Visuals, die nicht mit den neuen API-Versionen erstellt wurden) werden nicht unterstützt.
 
 * Wenn ein Power BI-Visual aus ApSource oder einer Datei aus dem Repository gelöscht wird, wird das Rendern aller vorhandenen Berichte beendet, die das gelöschte Visual verwenden. Das Löschen aus dem Repository kann nicht rückgängig gemacht werden. Verwenden Sie die Funktion „Deaktivieren“, um ein Power BI-Visual aus ApSource oder einer Datei vorübergehend zu deaktivieren.
 

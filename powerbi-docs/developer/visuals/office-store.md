@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613555"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148333"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Veröffentlichen von Power BI-Visuals in Partner Center
 
@@ -27,7 +27,7 @@ Nachdem Sie ein Power BI-Visual erstellt haben, sollten Sie es in AppSource ver
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Vorbereiten der Übermittlung Ihres Power BI-Visuals
 
-Bevor Sie ein Power BI-Visual an AppSource übermitteln, lesen Sie die [Richtlinien für Power BI-Visuals](guidelines-powerbi-visuals.md), und stellen Sie sicher, dass Ihr [benutzerdefiniertes Visual getestet wurde](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md).
+Bevor Sie ein Power BI-Visual an AppSource übermitteln, lesen Sie die [Richtlinien für Power BI-Visuals](guidelines-powerbi-visuals.md), und stellen Sie sicher, dass Ihr [benutzerdefiniertes Visual getestet wurde](./submission-testing.md).
 
 Wenn Sie dazu bereit sind, Ihr Power BI-Visual zu übermitteln, überprüfen Sie, ob Ihr Visual alle unten aufgeführten Anforderungen erfüllt.
 
@@ -99,9 +99,10 @@ Führen Sie die unten genannten Schritte aus, um Ihr Power BI-Visual an Partner
 
 10. Wählen Sie **Produkteinrichtung** aus, und klicken Sie auf **Überprüfen und veröffentlichen**.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>Nachverfolgen des Übermittlungsstatus und der Verwendung
 
-* Sie können sich mit den [Überprüfungsrichtlinien](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) vertraut machen.
+Sie können sich mit den [Überprüfungsrichtlinien](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) vertraut machen.
 
 * Nach der Übermittlung können Sie im [App-Dashboard](https://sellerdashboard.microsoft.com/Application/Summary/) den Übermittlungsstatus anzeigen.
 
