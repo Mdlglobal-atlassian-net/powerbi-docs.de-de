@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638523"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347928"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Aktivieren des neuen Designs für den Arbeitsbereich (Vorschauversion)
 
-Das Design für Arbeitsbereiche wurde überarbeitet, sodass es dem [neuen Design](../service-new-look.md) für den Power BI-Dienst entspricht. Alle Benutzer, die den Power BI-Dienst (app.powerbi.com) verwenden, können dieses aktivieren. Wenn Sie das **neue Design** in der schwarzen Kopfzeile einschalten, aktivieren Sie das neue Design für Berichte und Arbeitsbereiche. Das neue Design kann für alle Arbeitsbereiche (klassische und neue) verwendet werden.
+Das Design für Arbeitsbereiche wurde überarbeitet, sodass es dem [neuen Design](../consumer/service-new-look.md) für den Power BI-Dienst entspricht. Alle Benutzer, die den Power BI-Dienst (app.powerbi.com) verwenden, können dieses aktivieren. Wenn Sie das **neue Design** in der schwarzen Kopfzeile einschalten, aktivieren Sie das neue Design für Berichte und Arbeitsbereiche. Das neue Design kann für alle Arbeitsbereiche (klassische und neue) verwendet werden.
 
-Suchen Sie nach Informationen zum neuen Design in **Power BI Desktop**? Lesen Sie [Verwenden des aktualisierten Menübands in Power BI Desktop](../desktop-ribbon.md).
+Suchen Sie nach Informationen zum neuen Design in **Power BI Desktop**? Lesen Sie [Verwenden des aktualisierten Menübands in Power BI Desktop](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Features des neuen Designs
 
@@ -50,7 +50,6 @@ Wenn Sie das alte Design benötigen, können Sie die Option ![Neues Design ein](
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-- [Verwenden des aktualisierten Menübands in Power BI Desktop](../desktop-ribbon.md)
-- [Das neue Design des Power BI-Diensts](../service-new-look.md)
+- [Verwenden des aktualisierten Menübands in Power BI Desktop](../create-reports/desktop-ribbon.md)
+- [Das neue Design des Power BI-Diensts](../consumer/service-new-look.md)
 - Haben Sie Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
-

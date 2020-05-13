@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77259802"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347215"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Erste Schritte mit der mobilen Power BI-App auf Android-Geräten
 Die Android-App für Microsoft Power BI bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. 
@@ -46,7 +46,7 @@ Machen Sie sich [mit den Neuerungen bei mobilen Power BI-Apps](../../mobile-wha
 Wenn Sie sich noch nicht registriert haben, wechseln Sie zum [Power BI-Dienst](https://powerbi.com/), um sich für ein eigenes Konto zum Erstellen und Speichern von Dashboards und Berichten und zum Zusammenführen Ihrer Daten zu registrieren. Melden Sie sich dann auf Ihrem Android-Gerät bei Power BI an, um die eigenen Dashboards von überall aus anzeigen zu können.
 
 1. Tippen Sie im Power BI-Dienst auf [Registrieren](https://go.microsoft.com/fwlink/?LinkID=513879), um ein Power BI-Konto zu erstellen.
-2. Beginnen Sie mit dem [Erstellen eigener Dashboards und Berichte](../../service-get-started.md).
+2. Beginnen Sie mit dem [Erstellen eigener Dashboards und Berichte](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Erste Schritte mit der Power BI-App auf Ihrem Gerät
 1. Öffnen Sie auf dem Startbildschirm Ihres Android-Geräts die Power BI für Android-App.
@@ -94,17 +94,17 @@ Mit Microsoft Intune können Unternehmen Einstellungen steuern, z.B. eine Zugrif
 > 
 > 
 
-Erfahren Sie mehr über das [Konfigurieren der mobilen Power BI-Apps mit Microsoft Intune](../../service-admin-mobile-intune.md). 
+Erfahren Sie mehr über das [Konfigurieren der mobilen Power BI-Apps mit Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Nächste Schritte
 Hier finden Sie weitere Möglichkeiten, die die Android-Geräte-App für Power BI für Dashboards und Berichte in Power BI sowie für Berichte und KPIs im Webportal von Power BI-Berichtsserver und Reporting Services bietet.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI- Dashboards und -Berichte
-* Zeigen Sie [Ihre Apps](../../service-create-distribute-apps.md) an.
+* Zeigen Sie [Ihre Apps](../../collaborate-share/service-create-distribute-apps.md) an.
 * Zeigen Sie Ihre [Dashboards](../../mobile-apps-view-dashboard.md) an.
 * Untersuchen Sie die [Kacheln auf Ihren Dashboards](../../mobile-tiles-in-the-mobile-apps.md).
 * Öffnen der [Power BI-Berichte](../../mobile-reports-in-the-mobile-apps.md).
-* Zeigen Sie [Ihre Apps](../../service-create-distribute-apps.md) an.
+* Zeigen Sie [Ihre Apps](../../collaborate-share/service-create-distribute-apps.md) an.
 * [Kommentieren und teilen Sie Kacheln](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Geben Sie [Dashboards](../../mobile-share-dashboard-from-the-mobile-apps.md) frei.
 * [Scannen Sie einen Power BI-QR-Code](../../mobile-apps-qr-code.md) mit Ihrem Android-Smartphone, um das zugehörige Dashboard oder die zugehörige Kachel zu öffnen. 
@@ -119,5 +119,3 @@ Hier finden Sie weitere Möglichkeiten, die die Android-Geräte-App für Power B
 * [Herunterladen der Android-App](https://go.microsoft.com/fwlink/?LinkID=544867) aus dem Android App Store.
 * [Was ist Power BI?](../../fundamentals/power-bi-overview.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-
-

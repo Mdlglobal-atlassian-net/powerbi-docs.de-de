@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675638"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349170"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Onlinekurs: Paginierte Power BI-Berichte in einem Tag
 
@@ -100,11 +100,11 @@ Sehen Sie sich am besten zunächst den Onlinekurs an. Durch Öffnen der Datei **
 Wenn Sie mit dem ersten Lab beginnen möchten, öffnen Sie die Datei **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. Darin erhalten Sie Anweisungen zum Anmelden beim Power BI-Dienst, zum Hochladen eines Datasets und zum Installieren des [Power BI-Berichts-Generators](report-builder-power-bi.md).
 
 > [!NOTE]
-> Hierfür benötigen Sie ein eigenes Power BI-Konto. Falls Sie noch keines besitzen, lesen Sie den Artikel [Registrieren für Power BI als Einzelperson](../service-self-service-signup-for-power-bi.md).
+> Hierfür benötigen Sie ein eigenes Power BI-Konto. Falls Sie noch keines besitzen, lesen Sie den Artikel [Registrieren für Power BI als Einzelperson](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Damit Sie eine Power BI Desktop-Datei in einem Arbeitsbereich veröffentlichen können, müssen Sie sich bei Power BI anmelden. Bei der Veröffentlichung wird ein Dataset generiert, das als Berichtsdatenquelle verwendet wird. Sie benötigen weder eine Power BI Pro-Lizenz noch ein Power BI Premium-Abonnement, um ein Dataset als Berichtsdatenquelle verwenden zu können.
 >
-> Einige Aufgaben des Labs beinhalten jedoch das Veröffentlichen des paginierten Berichts in einem Arbeitsbereich. Ein paginierter Bericht kann nur geöffnet werden, wenn er in einem Arbeitsbereich auf [dedizierter Kapazität](../service-premium-what-is.md#dedicated-capacities) gespeichert ist, für den die Workload für paginierte Berichte aktiviert wurde. Wenn Sie keinen Zugriff auf einen geeigneten Arbeitsbereich haben, erhalten Sie einen Link zu einem Video mit Informationen zur Berichtsveröffentlichung.
+> Einige Aufgaben des Labs beinhalten jedoch das Veröffentlichen des paginierten Berichts in einem Arbeitsbereich. Ein paginierter Bericht kann nur geöffnet werden, wenn er in einem Arbeitsbereich auf [dedizierter Kapazität](../admin/service-premium-what-is.md#dedicated-capacities) gespeichert ist, für den die Workload für paginierte Berichte aktiviert wurde. Wenn Sie keinen Zugriff auf einen geeigneten Arbeitsbereich haben, erhalten Sie einen Link zu einem Video mit Informationen zur Berichtsveröffentlichung.
 
 ## <a name="instructor-kit"></a>Anleitungskit
 

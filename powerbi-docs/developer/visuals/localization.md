@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379855"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349285"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Hinzufügen des Gebietsschemas in Power BI für benutzerdefinierte Power BI-Visuals
 
 Mit Visuals lässt sich das Power BI-Gebietsschema abrufen, um den Inhalt in der relevanten Sprache zu lokalisieren.
 
-Weitere Informationen zu [Unterstützte Sprachen und Länder/Regionen für Power BI](./../../supported-languages-countries-regions.md)
+Weitere Informationen zu [Unterstützte Sprachen und Länder/Regionen für Power BI](./../../fundamentals/supported-languages-countries-regions.md)
 
 Ein Beispiel ist das Abrufen des Gebietsschemas im Visual mit dem Beispielbalkendiagramm.
 

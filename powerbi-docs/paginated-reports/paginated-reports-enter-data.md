@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922089"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348664"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator: Power BI
 
@@ -22,7 +22,7 @@ In diesem Artikel erhalten Sie Informationen zu einem Feature in der neuen Versi
 ## <a name="prerequisites"></a>Voraussetzungen
 
 - Wenn Sie Daten direkt in einen paginierten Bericht eingeben möchten, installieren Sie die neue Version des [Berichts-Generators über das Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Zum Speichern Ihres paginierten Berichts im Power BI-Dienst benötigen Sie ein [Konto für Power BI Pro](../service-self-service-signup-for-power-bi.md) und Schreibzugriff auf einen Arbeitsbereich in einer [Power BI Premium-Kapazität](../service-premium-what-is.md).
+- Zum Speichern Ihres paginierten Berichts im Power BI-Dienst benötigen Sie ein [Konto für Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) und Schreibzugriff auf einen Arbeitsbereich in einer [Power BI Premium-Kapazität](../admin/service-premium-what-is.md).
 - Zum Speichern Ihres paginierten Berichts im Berichtsserver benötigen Sie Berechtigungen zum [Bearbeiten der RsReportServer.config-Datei](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Erste Schritte

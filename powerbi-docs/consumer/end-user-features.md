@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065728"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348411"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Power BI-Featureliste für *Anwender* und andere Benutzer mit kostenlosen Lizenzen
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065728"
 
 *Benutzer* verwenden den Power BI-Dienst zum Analysieren von Berichten und Dashboards, um fundierte Entscheidungen für ihr Unternehmen zu treffen. Diese Berichte und Dashboards werden von *Designern* mit einer *Power BI Pro-Lizenz* erstellt. Benutzer mit einer Pro-Lizenz haben die Möglichkeit, Inhalte für ihre Kollegen freizugeben und zu steuern, welche Aktionen diese damit ausführen dürfen. Designer können Inhalte freigeben, indem sie einen Link zu diesem Inhalt versenden. Inhalte können in Power BI auch automatisch unter **Apps** oder **Für mich freigegeben** installiert werden.
 
-Designer besitzen viele verschiedene Möglichkeiten zur Freigabe von Inhalten. Dieser Artikel richtet sich jedoch an Power BI-*Anwender* und enthält daher nur für Anwender relevante Informationen zum Umgang mit Inhalten. Informationen zu anderen Möglichkeiten der Freigabe von Inhalten finden Sie unter [Freigeben Ihrer Arbeit in Power BI](../service-how-to-collaborate-distribute-dashboards-reports.md).
+Designer besitzen viele verschiedene Möglichkeiten zur Freigabe von Inhalten. Dieser Artikel richtet sich jedoch an Power BI-*Anwender* und enthält daher nur für Anwender relevante Informationen zum Umgang mit Inhalten. Informationen zu anderen Möglichkeiten der Freigabe von Inhalten finden Sie unter [Freigeben Ihrer Arbeit in Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Power BI-Navigationsbereich](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ Verfügt eine Organisation über ein Abonnement mit Premium-Kapazität, können 
 ### <a name="licenses"></a>Lizenzen 
 Jeder Power BI-Dienstbenutzer verfügt entweder über eine Free- oder Pro-Lizenz. *Anwender* besitzen kostenlose Lizenzen.
 
-- Eine **Free-Lizenz** wird in der Regel *Anwendern* innerhalb einer Organisation zugewiesen (wie auf dem ersten folgenden Bild). Diese wird auch allen Benutzern zugewiesen, die sich als Einzelperson für den Power BI-Dienst registrieren und den [Power BI-Dienst im eigenständigen Modus](../service-self-service-signup-for-power-bi.md) (wie auf dem zweiten folgenden Bild) testen möchten. 
+- Eine **Free-Lizenz** wird in der Regel *Anwendern* innerhalb einer Organisation zugewiesen (wie auf dem ersten folgenden Bild). Diese wird auch allen Benutzern zugewiesen, die sich als Einzelperson für den Power BI-Dienst registrieren und den [Power BI-Dienst im eigenständigen Modus](../fundamentals/service-self-service-signup-for-power-bi.md) (wie auf dem zweiten folgenden Bild) testen möchten. 
 
     ![Screenshot: Free-Benutzer](media/end-user-features/power-bi-free-organization.png)
 

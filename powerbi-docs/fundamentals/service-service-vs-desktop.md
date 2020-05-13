@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126257"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349216"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
 
@@ -23,7 +23,7 @@ Im folgenden Venn-Diagramm werden im mittleren Bereich die Gemeinsamkeiten darge
 
 ![Venn-Diagramm von Power BI Desktop und dem Power BI-Dienst](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** ist ein umfassendes Tool zur Datenanalyse und Berichterstellung, das Sie kostenlos auf Ihrem lokalen Computer installieren können. Es enthält den Abfrage-Editor, in dem Sie eine Verbindung mit vielen unterschiedlichen Datenquellen herstellen und diese in einem Datenmodell kombinieren können. Der letztgenannte Vorgang wird oft auch als Modellierung bezeichnet. Anschließend können Sie einen Bericht entwerfen, der auf diesem Datenmodell basiert. Im Leitfaden [Erste Schritte mit Power BI Desktop](../desktop-getting-started.md) wird der Prozess ausführlich beschrieben.
+**Power BI Desktop** ist ein umfassendes Tool zur Datenanalyse und Berichterstellung, das Sie kostenlos auf Ihrem lokalen Computer installieren können. Es enthält den Abfrage-Editor, in dem Sie eine Verbindung mit vielen unterschiedlichen Datenquellen herstellen und diese in einem Datenmodell kombinieren können. Der letztgenannte Vorgang wird oft auch als Modellierung bezeichnet. Anschließend können Sie einen Bericht entwerfen, der auf diesem Datenmodell basiert. Im Leitfaden [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) wird der Prozess ausführlich beschrieben.
 
 Der **Power BI-Dienst** ist cloudbasiert. Er unterstützt die Bearbeitung einfacher Berichte und die Zusammenarbeit in Teams und Organisationen. Sie können im Power BI-Dienst auch eine Verbindung mit Datenquellen herstellen, Modellierungen sind jedoch nur eingeschränkt möglich. 
 
@@ -50,19 +50,18 @@ Im folgenden Video wird der Berichts-Editor in Power BI Desktop gezeigt.
 ### <a name="collaborating"></a>Zusammenarbeiten
 
 
-Nachdem Sie Ihre Berichte erstellt haben, können Sie diese in einem *Arbeitsbereich* im **Power BI-Dienst** speichern, in dem Sie und Ihre Kollegen zusammenarbeiten. Zusätzlich zu diesen Berichten erstellen Sie *Dashboards*. Anschließend geben Sie die Dashboards und Berichte für Berichtsbenutzer innerhalb und außerhalb Ihrer Organisation frei. Die Berichtbenutzer lassen sich diese im Power BI-Dienst in der *Leseansicht* und nicht in der Bearbeitungsansicht anzeigen. Diese Personen können nicht auf alle Features zugreifen, die für Berichtersteller verfügbar sind.  Sie können Ihre Datasets auch freigeben, damit andere Benutzer mit diesen eigene Berichte erstellen können. Weitere Informationen finden Sie unter [Zusammenarbeiten im Power BI-Dienst](../service-new-workspaces.md).
+Nachdem Sie Ihre Berichte erstellt haben, können Sie diese in einem *Arbeitsbereich* im **Power BI-Dienst** speichern, in dem Sie und Ihre Kollegen zusammenarbeiten. Zusätzlich zu diesen Berichten erstellen Sie *Dashboards*. Anschließend geben Sie die Dashboards und Berichte für Berichtsbenutzer innerhalb und außerhalb Ihrer Organisation frei. Die Berichtbenutzer lassen sich diese im Power BI-Dienst in der *Leseansicht* und nicht in der Bearbeitungsansicht anzeigen. Diese Personen können nicht auf alle Features zugreifen, die für Berichtersteller verfügbar sind.  Sie können Ihre Datasets auch freigeben, damit andere Benutzer mit diesen eigene Berichte erstellen können. Weitere Informationen finden Sie unter [Zusammenarbeiten im Power BI-Dienst](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Self-Service-Datenvorbereitung mit Dataflows
 
-Dataflows unterstützen Organisationen dabei, Daten aus unterschiedlichen Quellen zusammenzuführen und zur Modellierung vorzubereiten. Analysten können mit vertrauten Self-Service-Tools ganz einfach Dataflows erstellen. Sie werden zum Erfassen, Transformieren, Integrieren und Anreichern von Big Data verwendet, indem unter anderem Datenquellenverbindungen, ETL-Logik und Aktualisierungspläne definiert werden. Weitere Informationen finden Sie unter [Self-Service-Datenvorbereitung mit Dataflows](../service-dataflows-overview.md).
+Dataflows unterstützen Organisationen dabei, Daten aus unterschiedlichen Quellen zusammenzuführen und zur Modellierung vorzubereiten. Analysten können mit vertrauten Self-Service-Tools ganz einfach Dataflows erstellen. Sie werden zum Erfassen, Transformieren, Integrieren und Anreichern von Big Data verwendet, indem unter anderem Datenquellenverbindungen, ETL-Logik und Aktualisierungspläne definiert werden. Weitere Informationen finden Sie unter [Self-Service-Datenvorbereitung mit Dataflows](../transform-model/service-dataflows-overview.md).
 
 ## <a name="next-steps"></a>Weitere Schritte
 
-[Was ist Power BI Desktop?](../desktop-what-is-desktop.md)
+[Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 
-[Erstellen eines Berichts](../service-report-create-new.md) im Power BI-Dienst
+[Erstellen eines Berichts](../create-reports/service-report-create-new.md) im Power BI-Dienst
 
-[Grundlegende Konzepte für Berichts-Designer](../service-basic-concepts.md)
+[Grundlegende Konzepte für Berichts-Designer](service-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
-

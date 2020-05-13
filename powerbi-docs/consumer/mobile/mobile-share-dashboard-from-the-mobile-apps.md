@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435787"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349331"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
 Gilt für:
@@ -25,7 +25,7 @@ Gilt für:
 >[!NOTE]
 >Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-Mit einer [Power BI Pro-Lizenz](../../service-features-license-type.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](../../service-premium-what-is.md) handeln.
+Mit einer [Power BI Pro-Lizenz](../../fundamentals/service-features-license-type.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](../../admin/service-premium-what-is.md) handeln.
 
 Aus den mobilen Power BI-Apps für iOS und Android können Sie auch [eine Momentaufnahme einer Kachel, eines Berichts oder einer Visualisierung mit Anmerkungen versehen und freigeben](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 
@@ -42,7 +42,7 @@ Aus den mobilen Power BI-Apps für iOS und Android können Sie auch [eine Moment
    * Tippen Sie in der mobilen Power BI-App auf der Navigationsleiste auf **Weitere Optionen** (...), und wählen Sie ![Für mich freigegeben](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Für mich freigegeben** aus.
    * Klicken Sie im Power BI-Dienst im linken Navigationsbereich auf ![Für mich freigegeben](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Für mich freigegeben**.
    
-   Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../service-share-dashboards.md).
+   Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../collaborate-share/service-share-dashboards.md).
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>Aufheben der Freigabe über Ihr iPhone oder iPad
 Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
@@ -67,7 +67,7 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
    * Tippen Sie in der mobilen Power BI-App auf der Navigationsleiste auf **Weitere Optionen** (...), und wählen Sie ![Für mich freigegeben](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Für mich freigegeben** aus.
    * Klicken Sie im Power BI-Dienst im linken Navigationsbereich auf ![Für mich freigegeben](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Für mich freigegeben**.
    
-   Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../service-share-dashboards.md).
+   Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../collaborate-share/service-share-dashboards.md).
 
 
 ### <a name="unshare-from-your-android-device"></a>Aufheben der Freigabe über Ihr Android-Gerät
@@ -97,10 +97,9 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
    * Tippen Sie in der mobilen Power BI-App auf der Navigationsleiste auf **Weitere Optionen** (...), und wählen Sie ![Für mich freigegeben](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Für mich freigegeben** aus.
    * Klicken Sie im Power BI-Dienst im linken Navigationsbereich auf ![Für mich freigegeben](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Für mich freigegeben**.
    
-   Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../service-share-dashboards.md).
+   Weitere Informationen finden Sie in den [Hinweisen zum Freigeben für Kollegen](../../collaborate-share/service-share-dashboards.md).
 
 ## <a name="next-steps"></a>Weitere Schritte
 * [Kommentieren und Freigeben einer Momentaufnahme einer Kachel, eines Berichts oder einer Visualisierung in den mobilen Apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere](../../service-share-dashboards.md)
+* [Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere](../../collaborate-share/service-share-dashboards.md)
 * Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

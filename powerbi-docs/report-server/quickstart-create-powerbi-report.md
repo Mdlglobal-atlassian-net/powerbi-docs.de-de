@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975008"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349469"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Erstellen eines Power BI-Berichts für den Power BI-Berichtsserver
 Sie können Power BI-Berichte lokal im Webportal von Power BI-Berichtsserver ebenso wie in der Cloud im Power BI-Dienst https://powerbi.com) speichern und verwalten. Sie erstellen und bearbeiten Berichte in Power BI Desktop und veröffentlichen sie im Webportal. Anschließend können Leser in Ihrer Organisation die Berichte in einem Browser oder einer mobilen Power BI-App auf einem Mobilgerät anzeigen.
@@ -79,7 +79,7 @@ Sie können z.B. ein Trichterdiagramm von Kunden und Gruppenwerten nach Jahresei
 2. Ziehen Sie das zu zählende Feld in den Bereich **Werte**. Wenn es sich nicht um ein numerisches Feld handelt, wird es von Power BI Desktop automatisch als *Anzahl* des Werts angezeigt.
 3. Ziehen Sie das Feld, anhand dessen gruppiert wird, in den Bereich **Gruppe**.
 
-Erfahren Sie mehr über das [Entwerfen eines Power BI-Berichts](../desktop-report-view.md).
+Erfahren Sie mehr über das [Entwerfen eines Power BI-Berichts](../create-reports/desktop-report-view.md).
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>Schritt 4: Speichern des Berichts auf dem Berichtsserver
 Wenn Ihr Bericht fertig ist, speichern Sie ihn auf dem Power BI-Berichtsserver, den Sie in Schritt 2 ausgewählt haben.
@@ -98,7 +98,7 @@ Wenn Ihr Bericht fertig ist, speichern Sie ihn auf dem Power BI-Berichtsserver, 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 Power BI Desktop bietet zahlreiche nützliche Ressourcen zum Erstellen von Berichten. Dieser Link ist ein guter Ausgangspunkt.
 
-* [Erste Schritte mit Power BI Desktop](../desktop-getting-started.md)
+* [Erste Schritte mit Power BI Desktop](../fundamentals/desktop-getting-started.md)
 * Lernen mit Anleitungen: [Power BI Desktop im Überblick](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI-Berichtsserver

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381305"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348158"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 
@@ -23,8 +23,8 @@ Laden Sie den [Power BI-Berichtsserver und Power BI Desktop mit Optimierung für
 
 Informationen zu verwandten Power BI-Neuigkeiten finden Sie hier:
 
-* [Neuigkeiten beim Power BI-Dienst](../service-whats-new.md)
-* [Neuigkeiten in Power BI Desktop](../desktop-latest-update.md)
+* [Neuigkeiten beim Power BI-Dienst](../fundamentals/service-whats-new.md)
+* [Neuigkeiten in Power BI Desktop](../fundamentals/desktop-latest-update.md)
 * [Neuigkeiten bei den mobilen Apps für Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>Januar 2020
@@ -128,7 +128,7 @@ Diesen Monat wird ein neues Dateiformat eingeführt: .pbids. Damit wird die Opti
 
 Wenn ein Berichtersteller eine PBIDS-Datei öffnet, verlangt Power BI Desktop eine Authentifizierung zur Herstellung einer Verbindung mit der in der Datei angegebenen Datenquelle. Anschließend wählt der Benutzer die Tabellen aus, die in das Modell geladen werden sollen. Er muss möglicherweise auch die Datenbanken auswählen, wenn sie nicht in der Datei angegeben werden. Dann kann der Berichtersteller mit dem Erstellen von Visualisierungen beginnen.
 
-Ausführliche Informationen und Beispiele finden Sie im Abschnitt [Verwenden von PBIDS-Dateien zum Abrufen von Daten](../desktop-data-sources.md#using-pbids-files-to-get-data) im Artikel „Datenquellen in Power BI Desktop“.
+Ausführliche Informationen und Beispiele finden Sie im Abschnitt [Verwenden von PBIDS-Dateien zum Abrufen von Daten](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data) im Artikel „Datenquellen in Power BI Desktop“.
 
 *Leistungsverbesserungen für Modellierungsvorgänge*
 
@@ -239,11 +239,11 @@ Im Folgenden werden einige Highlights des Release aufgeführt:
 
 #### <a name="performance-analyzer"></a>Performance Analyzer 
 
-Wenn Ihr Bericht langsamer als erwartet ausgeführt wird, verwenden Sie die Leistungsanalyse in Power BI Desktop. Wenn Sie die Leistungsanalyse starten, wird eine Protokolldatei mit Informationen zu allen Aktionen erstellt, die Sie im Bericht vornehmen. Weitere Informationen finden Sie unter [Leistungsanalyse](../desktop-performance-analyzer.md).
+Wenn Ihr Bericht langsamer als erwartet ausgeführt wird, verwenden Sie die Leistungsanalyse in Power BI Desktop. Wenn Sie die Leistungsanalyse starten, wird eine Protokolldatei mit Informationen zu allen Aktionen erstellt, die Sie im Bericht vornehmen. Weitere Informationen finden Sie unter [Leistungsanalyse](../create-reports/desktop-performance-analyzer.md).
 
 #### <a name="new-modeling-view"></a>Neue Modellierungsansicht
 
-In der neuen Modellierungsansicht in Power BI Desktop können Sie komplexe Datasets mit vielen Tabellen anzeigen und mit diesen arbeiten. Zu den Highlights gehören mehrere Diagrammlayouts und die Massenbearbeitung von Spalten, Measures und Tabellen. Weitere Informationen finden Sie unter [Modellierungsansicht](../desktop-modeling-view.md).
+In der neuen Modellierungsansicht in Power BI Desktop können Sie komplexe Datasets mit vielen Tabellen anzeigen und mit diesen arbeiten. Zu den Highlights gehören mehrere Diagrammlayouts und die Massenbearbeitung von Spalten, Measures und Tabellen. Weitere Informationen finden Sie unter [Modellierungsansicht](../transform-model/desktop-modeling-view.md).
 
 #### <a name="accessible-visual-interaction"></a>Zugängliche Interaktion mit Visuals
 
@@ -251,11 +251,11 @@ Sie können nun mithilfe der Tastaturnavigation auf die Datenpunkte vieler integ
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Bedingte Formatierung für Titel und Web-URL-Aktionen
 
-Power BI-Berichte sind interaktiv. Es ist sinnvoll, dass Titel in einem Bericht dynamisch sind, um den aktuellen Zustand des Berichts widerzuspiegeln. Sie können dieselbe ausdrucksbasierte Formatierung verwenden, um dynamische URLs für Ihre Schaltflächen, Formen und Bilder zu erstellen. Weitere Informationen finden Sie unter [Ausdrucksbasierte Titel](../desktop-conditional-format-visual-titles.md).
+Power BI-Berichte sind interaktiv. Es ist sinnvoll, dass Titel in einem Bericht dynamisch sind, um den aktuellen Zustand des Berichts widerzuspiegeln. Sie können dieselbe ausdrucksbasierte Formatierung verwenden, um dynamische URLs für Ihre Schaltflächen, Formen und Bilder zu erstellen. Weitere Informationen finden Sie unter [Ausdrucksbasierte Titel](../create-reports/desktop-conditional-format-visual-titles.md).
 
 #### <a name="cross-highlight-by-axis-labels"></a>Kreuzhervorhebung mit Achsenbezeichnungen
 
-Wählen Sie die Achsenkategoriebezeichnungen in einem Visual aus, um die anderen Elemente auf einer Seite auf gleicher Weise übergreifend hervorzuheben, wie Sie Datenpunkte in einem Visual auswählen würden. Weitere Informationen finden Sie unter [Kreuzhervorhebung](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+Wählen Sie die Achsenkategoriebezeichnungen in einem Visual aus, um die anderen Elemente auf einer Seite auf gleicher Weise übergreifend hervorzuheben, wie Sie Datenpunkte in einem Visual auswählen würden. Weitere Informationen finden Sie unter [Kreuzhervorhebung](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
 #### <a name="all-the-new-features"></a>Alle neuen Features
 

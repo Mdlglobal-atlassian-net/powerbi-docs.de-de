@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841708"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349262"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
 
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
-* [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)
+* [Neuigkeiten in Power BI Desktop](../../fundamentals/desktop-latest-update.md)  
+* [Neuigkeiten beim Power BI-Dienst](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
 >Die Unterstützung für die mobile Power BI-App für **Smartphones mit Windows 10 Mobile** wird am 16. März 2021 eingestellt. [Weitere Informationen](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -476,7 +476,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom Juli 2017](https://po
 
 ### <a name="june-2107"></a>Juni 2107
 #### <a name="all-devices"></a>Alle Geräte
-**Speichern von Apps als Favoriten** Es ist bereits möglich, Dashboards als Favoriten zu speichern. Jetzt können Sie auch die [kürzlich in Power BI eingeführten Apps](../../service-create-distribute-apps.md) als Favoriten zu speichern. 
+**Speichern von Apps als Favoriten** Es ist bereits möglich, Dashboards als Favoriten zu speichern. Jetzt können Sie auch die [kürzlich in Power BI eingeführten Apps](../../collaborate-share/service-create-distribute-apps.md) als Favoriten zu speichern. 
 
 ### <a name="may-2017"></a>Mai 2017
 #### <a name="all-devices"></a>Alle Geräte
@@ -493,7 +493,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom Juli 2017](https://po
 Lesen Sie die [Featurezusammenfassung für mobile Apps vom April 2017](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/).
 
 #### <a name="all-devices"></a>Alle Geräte
-**Hintergrundfarbe für Smartphoneberichte** Wenn Sie eine Hintergrundfarbe für einen Bericht in Power BI Desktop definieren, hat der Smartphonebericht die gleiche Hintergrundfarbe. Weitere Informationen finden Sie unter [Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind](../../desktop-create-phone-report.md).
+**Hintergrundfarbe für Smartphoneberichte** Wenn Sie eine Hintergrundfarbe für einen Bericht in Power BI Desktop definieren, hat der Smartphonebericht die gleiche Hintergrundfarbe. Weitere Informationen finden Sie unter [Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind](../../create-reports/desktop-create-phone-report.md).
 
 **Entwickeln von Power BI-Visuals für Mobilgeräte** In diesem [Entwicklerhandbuch](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) finden Sie Tipps zum Erstellen von Power BI-Visuals, deren Darstellung und Funktion auf mobile Geräte abgestimmt sind.
 
@@ -553,7 +553,7 @@ Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Janua
 #### <a name="all-devices"></a>Alle Geräte
 **Mehr als 100 Zeilen in Tabellen und Matrizen laden** Bei umfangreichen Tabellen und Matrizen in Dashboards und Berichten werden so viele Daten wie möglich auf der Kachel angezeigt. Im Fokusmodus können Sie nach unten scrollen, um weitere Zeilen zu laden.
 
-**Smartphonebericht – allgemein verfügbar** Power BI-Smartphoneberichte sind ab jetzt allgemein verfügbar. In Power BI Desktop können Sie eine Hochformatansicht eines bestehenden Berichts für mobile Viewer erstellen. Hier erfahren Sie mehr über das [Erstellen von Smartphoneberichten in Power BI Desktop](../../desktop-create-phone-report.md) und die [Berichtsumgebung auf Smartphones](mobile-apps-view-phone-report.md).
+**Smartphonebericht – allgemein verfügbar** Power BI-Smartphoneberichte sind ab jetzt allgemein verfügbar. In Power BI Desktop können Sie eine Hochformatansicht eines bestehenden Berichts für mobile Viewer erstellen. Hier erfahren Sie mehr über das [Erstellen von Smartphoneberichten in Power BI Desktop](../../create-reports/desktop-create-phone-report.md) und die [Berichtsumgebung auf Smartphones](mobile-apps-view-phone-report.md).
 
 #### <a name="ios"></a>iOS
 **SSRS-Authentifizierung unter Verwendung der Active Directory-Verbunddienste (ADFS) – Vorschau** Ab jetzt können Sie sich bei lokalen Servern für SQL Server Reporting Services über mobile Geräte mit einem Organisationskonto anmelden. Weitere Informationen finden Sie unter [OAuth verwenden, um Verbindungen mit SSRS-Servern herzustellen](mobile-oauth-ssrs.md).
@@ -644,7 +644,7 @@ Lesen Sie die [Power BI-Featurezusammenfassung für mobile Apps vom Oktober 2016
 #### <a name="all-phones"></a>Alle Telefone
 **Favoriten** Sie können die als Favoriten gespeicherten Dashboards aus allen mobilen Power BI-Apps anzeigen und die Favoritenliste über die mobilen Apps für iOS- und Windows 10-Geräte verwalten. Weitere Informationen zu [Favoriten in den mobilen Power BI-Apps](mobile-apps-favorites.md).
 
-**Datenklassifizierung für Dashboards** Hier werden die Datenklassifizierungen angezeigt, die die Dashboardbesitzer ihren Dashboards zugewiesen haben. Weitere Informationen zum [Klassifizieren von Dashboards](../../service-data-classification.md).
+**Datenklassifizierung für Dashboards** Hier werden die Datenklassifizierungen angezeigt, die die Dashboardbesitzer ihren Dashboards zugewiesen haben. Weitere Informationen zum [Klassifizieren von Dashboards](../../create-reports/service-data-classification.md).
 
 **Datengesteuerte Warnungen** Sie erhalten eine Warnung, wenn sich Ihre Daten in vordefinierter Art und Weise für KPI, Maßstäbe und Kartenkacheln ändern. Weitere Informationen:
 
@@ -659,14 +659,14 @@ Lesen Sie die [Power BI-Featurezusammenfassung für mobile Apps vom Oktober 2016
 
 **Unterstützung für Intune MAM** Funktionen der mobilen Anwendungsverwaltung (Mobile Application Management, MAM) von Microsoft Intune werden jetzt unterstützt.
 
-Weitere Informationen zum [Konfigurieren mobiler Power BI-Apps mit Microsoft Intune](../../service-admin-mobile-intune.md).
+Weitere Informationen zum [Konfigurieren mobiler Power BI-Apps mit Microsoft Intune](../../admin/service-admin-mobile-intune.md).
 
 #### <a name="windows-10-devices"></a>Windows 10-Geräte
 **Vollbild- und Präsentationsmodus** Sie können Berichte auf dem Surface Hub im Präsentationsmodus sowie Dashboards, Berichte und Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen.
 
 ### <a name="july-2016"></a>Juli 2016
 #### <a name="all-phones"></a>Alle Telefone
-Sie können im Power BI-Dienst jetzt [speziell für Telefone eine Ansicht des Dashboards](../../service-create-dashboard-mobile-phone-view.md) im Hochformat erstellen. 
+Sie können im Power BI-Dienst jetzt [speziell für Telefone eine Ansicht des Dashboards](../../create-reports/service-create-dashboard-mobile-phone-view.md) im Hochformat erstellen. 
 
 #### <a name="android-phones"></a>Android-Telefone
 **Registerkarte „Favoriten“** Greifen Sie von einer zentralen Stelle aus auf all Ihre bevorzugten Dashboards zu.
@@ -795,7 +795,7 @@ Alle Verbesserungen vom Januar sind bereits in der neuen [Power BI-App für Wind
 
 **R-Kacheln und Webwidgets** Diese neuen Kacheltypen können Sie in Dashboards auf Ihrem mobilen Gerät anzeigen.
 
-**Bing-Dashboards** Im Power BI-Dienst können Sie jetzt [Dashboards mit Bing-Suchergebnissen erstellen](../../service-connect-to-services.md) und auf Ihrem Mobilgerät anzeigen.
+**Bing-Dashboards** Im Power BI-Dienst können Sie jetzt [Dashboards mit Bing-Suchergebnissen erstellen](../../connect-data/service-connect-to-services.md) und auf Ihrem Mobilgerät anzeigen.
 
 **Als Kacheln an Dashboards angeheftete Berichtsseiten** Sie können jetzt im Power BI-Dienst eine gesamte Berichtsseite an ein Dashboard anheften und dadurch Berichtsseiten in der Power BI-App auf Ihrem iPhone oder Android-Smartphone anzeigen.
 
@@ -805,41 +805,42 @@ Das Power BI-Team lief Ende 2015 mit mehreren wichtigen Ergänzungen und Updates
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>Mobile SQL Server 2016 Reporting Services-Berichte in iOS
 Sie können in der Power BI-App auf Ihrem iOS-Gerät (iPad oder iPhone) mobile SQL Server-Berichte anzeigen. Weitere Informationen:
 
-* Blogbeitrag zu [SQL 16 SSRS auf der Power BI-App für iOS](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx)
+* Blogbeitrag zu [SQL 16 SSRS auf der Power BI-App für iOS](https://powerbi.microsoft.com/blog/sql-16-ssrs-on-power-bi-app-for-ios/
+)
 * Dokumentation zu [mobilen SQL Server-Berichten und -KPIs in der iPhone- und iPad-App](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Power BI-App für Windows 10 Phones
 Die Power BI-App für Windows 10 Phones ist für Toucheingaben und mobile Produktivität optimiert. Untersuchen Sie Dashboards und Berichte, laden Sie Kollegen zum Anzeigen von Daten ein, oder teilen Sie Erkenntnisse per E-Mail, um Ihr Team nach vorn zu bringen. Darüber hinaus können Sie [Power BI-Dashboards an Ihren Windows Phone-Startbildschirm anheften](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
-* Lesen Sie den Blogbeitrag zur [Power BI-App für Windows 10 Smartphones](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx).
+* Lesen Sie den Blogbeitrag zur [Power BI-App für Windows 10 Smartphones](https://powerbi.microsoft.com/blog/announcing-the-power-bi-app-for-windows-10-mobile/).
 * [Erste Schritte mit der Power BI-App für Windows 10 Smartphones](mobile-windows-10-phone-app-get-started.md).
 
 #### <a name="other-additions"></a>Weitere Ergänzungen
-Lesen Sie den [Blogbeitrag vom Dezember zu den Power BI-Mobile Apps](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx), der weitere Details bietet.
+Lesen Sie den [Blogbeitrag vom Dezember zu den Power BI-Mobile Apps](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-december-2015/), der weitere Details bietet.
 
 * Erhalten Sie Benachrichtigungen, wenn ein Kollege ein Dashboard für Sie freigegeben hat. (iOS)
 * Zeigen Sie ganze angeheftete Berichtsseiten in Ihren Dashboards an. (iOS und Android)
-* [Scannen Sie einen QR-Code](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx), und wechseln Sie direkt zu einer relevanten Kachel auf Ihrem Android-Smartphone.
+* [Scannen Sie einen QR-Code](https://powerbi.microsoft.com/blog/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes/), und wechseln Sie direkt zu einer relevanten Kachel auf Ihrem Android-Smartphone.
 
 ### <a name="november-2015"></a>November 2015
-Lesen Sie den Blogbeitrag [„Power BI mobile apps update“ vom November 2015](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx).
+Lesen Sie den Blogbeitrag [„Power BI mobile apps update“ vom November 2015](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-november-2015/).
 
 #### <a name="all-power-bi-mobile-apps"></a>Alle mobilen Apps für Power BI
 * Ein neuer Installationsvorgang.
 * Mehr Kapazität für Diagrammdaten.
 
 #### <a name="ios-and-android-mobile-apps"></a>Mobile iOS- und Android-Apps
-* Unternehmen können jetzt [Power BI-Mobile Apps für iOS und Android mit Microsoft Intune konfigurieren](../../service-admin-mobile-intune.md), um Geräte und Anwendungen zu verwalten.
+* Unternehmen können jetzt [Power BI-Mobile Apps für iOS und Android mit Microsoft Intune konfigurieren](../../admin/service-admin-mobile-intune.md), um Geräte und Anwendungen zu verwalten.
 
 #### <a name="iphone-mobile-app"></a>Mobile iPhone-App
 * Direktes [Hinzufügen einer Bilderkachel zu einem Dashboard](mobile-iphone-app-get-started.md) auf Ihrem iPhone.
-* [Erstellen von QR-Codes im Power BI-Dienst](../../service-create-qr-code-for-tile.md) für späteres Scannen mit dem iPhone, um die Power BI-App auf einer bestimmten Kachel zu öffnen.
+* [Erstellen von QR-Codes im Power BI-Dienst](../../create-reports/service-create-qr-code-for-tile.md) für späteres Scannen mit dem iPhone, um die Power BI-App auf einer bestimmten Kachel zu öffnen.
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>Power BI-App für Windows-Geräte
-* [Direktes Verknüpfen einer Kachel mit einer bestimmten URL](../../service-dashboard-edit-tile.md#hyperlink).
+* [Direktes Verknüpfen einer Kachel mit einer bestimmten URL](../../create-reports/service-dashboard-edit-tile.md#hyperlink).
 
 ### <a name="october-2015"></a>Oktober 2015
-Lesen Sie den [Blogbeitrag zu Power BI Mobile vpn Mitte Oktober](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx).
+Lesen Sie den [Blogbeitrag zu Power BI Mobile vpn Mitte Oktober](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-october-updates-are-here/).
 
 #### <a name="all-power-bi-mobile-apps"></a>Alle mobilen Apps für Power BI
 * Liniendiagramme mit prozentbasierter Y-Achse berechnen jetzt den visuellen Bereich auf Basis Ihrer tatsächlichen Daten. Der Graph startet nun mit dem niedrigsten Datenpunkt im Diagramm anstatt mit einem Standardwert.
@@ -851,12 +852,12 @@ Lesen Sie den [Blogbeitrag zu Power BI Mobile vpn Mitte Oktober](https://blogs.m
 * Bleiben Sie im Hinblick auf die neuesten Dashboards Ihrer Gruppe immer auf dem neuesten Stand. Empfangen Sie jedes Mal, wenn ein Teammitglied ein Dashboard zu einer Ihrer Gruppen hinzufügt, eine Benachrichtigung auf Ihrem iPhone.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* Sie können Dashboards jetzt auch horizontal anzeigen, indem Sie Ihr Telefon einfach drehen. Erfahren Sie mehr über das [Querformat in der iPhone-App](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx).
+* Sie können Dashboards jetzt auch horizontal anzeigen, indem Sie Ihr Telefon einfach drehen. Erfahren Sie mehr über das [Querformat in der iPhone-App](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/).
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>September 2015
-Verbesserungen an den mobilen Power BI-Apps – Android, iOS (iPhone und iPad) und Windows. Lesen Sie den [Blogbeitrag zu Power BI Mobile von Mitte September](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
+Verbesserungen an den mobilen Power BI-Apps – Android, iOS (iPhone und iPad) und Windows. Lesen Sie den [Blogbeitrag zu Power BI Mobile von Mitte September](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/).
 
 #### <a name="android"></a>Android-
 * Unterstützung für Gruppenarbeitsbereiche: Arbeiten Sie mit Kollegen in Gruppenarbeitsbereichen zusammen. 

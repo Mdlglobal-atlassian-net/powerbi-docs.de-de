@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114391"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347330"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Anzeigen verwandter Inhalte im Power BI-Dienst
 
@@ -47,12 +47,12 @@ Der Bereich **Verwandte Inhalte** wird geöffnet. Für Dashboards finden Sie hie
 
 ![Bereich „Verwandte Inhalte“](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen.  Wählen Sie beispielsweise einen Berichts- oder Dashboardnamen aus, um das Dashboard/den Bericht zu öffnen.  Für einen aufgelisteten Bericht können Sie ein Symbol auswählen, um ihn [In Excel zu analysieren](../service-analyze-in-excel.md) oder [Erkenntnisse abzurufen](end-user-insights.md). Für ein Dataset können Sie Datum und Uhrzeit der letzten Aktualisierung anzeigen, es [in Excel analysieren](../service-analyze-in-excel.md) und [Erkenntnisse abrufen](end-user-insights.md).  
+Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen.  Wählen Sie beispielsweise einen Berichts- oder Dashboardnamen aus, um das Dashboard/den Bericht zu öffnen.  Für einen aufgelisteten Bericht können Sie ein Symbol auswählen, um ihn [In Excel zu analysieren](../collaborate-share/service-analyze-in-excel.md) oder [Erkenntnisse abzurufen](end-user-insights.md). Für ein Dataset können Sie Datum und Uhrzeit der letzten Aktualisierung anzeigen, es [in Excel analysieren](../collaborate-share/service-analyze-in-excel.md) und [Erkenntnisse abrufen](end-user-insights.md).  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Anzeigen verwandter Inhalte für ein Dataset
-Zum Öffnen des Bereichs *Verwandte Inhalte* benötigen Sie mindestens **Anzeigeberechtigungen** für ein Dataset. In diesem Beispiel verwenden wir das [Analysebeispiel für Beschaffung](../sample-procurement.md).
+Zum Öffnen des Bereichs *Verwandte Inhalte* benötigen Sie mindestens **Anzeigeberechtigungen** für ein Dataset. In diesem Beispiel verwenden wir das [Analysebeispiel für Beschaffung](../create-reports/sample-procurement.md).
 
 Suchen Sie im Navigationsbereich die Überschrift **Arbeitsbereiche**, und wählen Sie in der Liste einen Arbeitsbereich aus. Wenn ein Arbeitsbereich Inhalte enthält, werden diese im Zeichenbereich auf der rechten Seite angezeigt. 
 
@@ -67,7 +67,7 @@ Wählen Sie das Symbol aus, um den Bereich **Verwandte Inhalte** zu öffnen.
 
 ![Bereich „Verwandte Inhalte“ wird über der Inhalteansicht von Power BI geöffnet](media/end-user-related/power-bi-dataset.png)
 
-Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen. Wählen Sie beispielsweise einen Dashboard- oder Berichtsnamen aus, um das entsprechende Dashboard oder den entsprechenden Bericht zu öffnen.  Für jedes Dashboard in der Liste können Sie durch Auswählen eines Symbols [das Dashboard für andere freigeben](../service-share-dashboards.md) oder das Fenster **Einstellungen** für das Dashboard öffnen. Durch Auswählen eines Symbols für einen Bericht können Sie ihn [in Excel analysieren](../service-analyze-in-excel.md), [umbenennen](../service-rename.md) oder [Einblicke erhalten](end-user-insights.md).  
+Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen. Wählen Sie beispielsweise einen Dashboard- oder Berichtsnamen aus, um das entsprechende Dashboard oder den entsprechenden Bericht zu öffnen.  Für jedes Dashboard in der Liste können Sie durch Auswählen eines Symbols [das Dashboard für andere freigeben](../collaborate-share/service-share-dashboards.md) oder das Fenster **Einstellungen** für das Dashboard öffnen. Durch Auswählen eines Symbols für einen Bericht können Sie ihn [in Excel analysieren](../collaborate-share/service-analyze-in-excel.md), [umbenennen](../create-reports/service-rename.md) oder [Einblicke erhalten](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Einschränkungen und Problembehandlung
 * Wenn Sie „Verwandte Inhalte anzeigen“ nicht sehen, suchen Sie stattdessen nach ![Symbol „Verwandte Inhalte anzeigen“](./media/end-user-related/power-bi-view-related-icon-new.png). Wählen Sie das Symbol aus, um den Bereich **Verwandte Inhalte** zu öffnen.
@@ -75,6 +75,5 @@ Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen.
 * Das Feature „Verwandte Inhalte“ kann nicht für Streamingdatasets verwendet werden.
 
 ## <a name="next-steps"></a>Weitere Schritte
-* [Erste Schritte mit dem Power BI-Dienst](../service-get-started.md)
+* [Erste Schritte mit dem Power BI-Dienst](../fundamentals/service-get-started.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525397"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348204"
 ---
 # <a name="data-lineage"></a>Datenherkunft
 In Projekten mit moderner Business Intelligence (BI) kann es eine Herausforderung sein, den Datenfluss von der Datenquelle bis zum Ziel zu verstehen. Die Herausforderung ist noch größer, wenn Sie erweiterte analytische Projekte erstellt haben, die mehrere Datenquellen, Artefakte und Abhängigkeiten umfassen. Es kann schwierig sein, Fragen wie „Was geschieht, wenn ich diese Daten ändere?“ oder „Warum ist dieser Bericht nicht auf dem neusten Stand?“ zu beantworten. Sie benötigen möglicherweise ein Team von Experten oder eine umfassende Untersuchung, um das zu verstehen. Wir haben die Datenherkunftsansicht entworfen, um Sie beim Beantworten dieser Fragen zu unterstützen.
@@ -88,9 +88,9 @@ Die Herkunftsansicht ist eine interaktive Canvas. Mit der Maus und dem Touchpad 
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
-- Die Herkunftsansicht ist in Internet Explorer nicht verfügbar. Weitere Informationen finden Sie unter [Unterstützte Browser für Power BI](../power-bi-browsers.md).
+- Die Herkunftsansicht ist in Internet Explorer nicht verfügbar. Weitere Informationen finden Sie unter [Unterstützte Browser für Power BI](../fundamentals/power-bi-browsers.md).
 
 ## <a name="next-steps"></a>Weitere Schritte
 
-* [Einführung in die Verwendung von Datasets in mehreren Arbeitsbereichen (Vorschau)](../service-datasets-across-workspaces.md)
+* [Einführung in die Verwendung von Datasets in mehreren Arbeitsbereichen (Vorschau)](../connect-data/service-datasets-across-workspaces.md)
 * [Datasetauswirkungsanalyse](service-dataset-impact-analysis.md)
