@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403829"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349837"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
 
@@ -31,7 +31,7 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 
 Sie benötigen Folgendes, um direkt mit dem Tutorial loslegen zu können:
 
-* Ein [Power BI Pro-Konto](../../service-self-service-signup-for-power-bi.md) (ein Hauptkonto, d.h. ein Benutzername und ein Kennwort zur Anmeldung in Ihrem Power BI Pro-Konto) oder einen [Dienstprinzipal (Token nur für Anwendungen)](embed-service-principal.md)
+* Ein [Power BI Pro-Konto](../../fundamentals/service-self-service-signup-for-power-bi.md) (ein Hauptkonto, d.h. ein Benutzername und ein Kennwort zur Anmeldung in Ihrem Power BI Pro-Konto) oder einen [Dienstprinzipal (Token nur für Anwendungen)](embed-service-principal.md)
 * Einen individuell eingerichteten [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md)
 
 Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/pricing/), bevor Sie beginnen.
@@ -58,7 +58,7 @@ Wenn Sie jedoch mit einem Dienstprinzipal fortfahren, müssen Sie eine **servers
 
 ### <a name="create-a-workspace"></a>Arbeitsbereich erstellen
 
-Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem Arbeitsbereich platzieren. Zur Einrichtung stehen verschiedene Arten von Arbeitsbereichen zur Auswahl: der [traditionelle Arbeitsbereich](../../service-create-workspaces.md) oder [neue Arbeitsbereiche](../../service-create-the-new-workspaces.md). Wenn Sie ein *Hauptkonto* verwenden, spielt es keine Rolle, welche Art von Arbeitsbereich Sie verwenden. Wenn Sie jedoch einen *[Dienstprinzipal](embed-service-principal.md)* verwenden, um sich in der Anwendung anzumelden, müssen Sie neue Arbeitsbereiche verwenden. In beiden Szenarien müssen das *Hauptkonto* oder der *Dienstprinzipal* Administratorkonten für die Arbeitsbereiche Ihrer Anwendung sein.
+Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem Arbeitsbereich platzieren. Zur Einrichtung stehen verschiedene Arten von Arbeitsbereichen zur Auswahl: der [traditionelle Arbeitsbereich](../../collaborate-share/service-create-workspaces.md) oder [neue Arbeitsbereiche](../../collaborate-share/service-create-the-new-workspaces.md). Wenn Sie ein *Hauptkonto* verwenden, spielt es keine Rolle, welche Art von Arbeitsbereich Sie verwenden. Wenn Sie jedoch einen *[Dienstprinzipal](embed-service-principal.md)* verwenden, um sich in der Anwendung anzumelden, müssen Sie neue Arbeitsbereiche verwenden. In beiden Szenarien müssen das *Hauptkonto* oder der *Dienstprinzipal* Administratorkonten für die Arbeitsbereiche Ihrer Anwendung sein.
 
 ### <a name="create-and-publish-your-reports"></a>Erstellen und Veröffentlichen von Berichten
 
@@ -409,7 +409,7 @@ Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren Arbei
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
 
 Wenn Sie eine dedizierte Kapazität erstellen, können Sie Ihrem Kunden eine dedizierte Ressource zuweisen. Sie können unter zwei Typen von Kapazität wählen:
-* **Power BI Premium**: Ein Office 356-Abonnement auf Mandantenebene, das in zwei SKU-Familien erhältlich ist, *EM* und *P*. Beim Einbetten von Power BI-Inhalten wird diese Lösung als *Power BI-Einbettung* bezeichnet. Weitere Informationen zu diesem Abonnement finden Sie unter [Was ist Power BI Premium?](../../service-premium-what-is.md).
+* **Power BI Premium**: Ein Office 356-Abonnement auf Mandantenebene, das in zwei SKU-Familien erhältlich ist, *EM* und *P*. Beim Einbetten von Power BI-Inhalten wird diese Lösung als *Power BI-Einbettung* bezeichnet. Weitere Informationen zu diesem Abonnement finden Sie unter [Was ist Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded:** Sie können eine dedizierte Kapazität im [Microsoft Azure-Portal](https://portal.azure.com) erwerben. Dieses Abonnement verwendet die *A*-SKUs. Weitere Informationen zum Erstellen einer Power BI Embedded-Kapazität finden Sie unter [Erstellen einer Power BI Embedded-Kapazität im Azure-Portal](azure-pbie-create-capacity.md).
 > [!NOTE]
 > Mit A-SKUs können Sie mit einer KOSTENLOSEN Power BI-Lizenz nicht auf Power BI-Inhalte zugreifen.

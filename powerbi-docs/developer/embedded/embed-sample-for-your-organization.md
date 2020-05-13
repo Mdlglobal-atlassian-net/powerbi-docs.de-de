@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621652"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349791"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
 
@@ -31,7 +31,7 @@ In diesem Tutorial lernen Sie Folgendes:
 
 Sie benötigen Folgendes, um direkt mit dem Tutorial loslegen zu können:
 
-* Ein [Power BI Pro-Konto](../../service-self-service-signup-for-power-bi.md)
+* Ein [Power BI Pro-Konto](../../fundamentals/service-self-service-signup-for-power-bi.md)
 * Ein [Microsoft Azure](https://azure.microsoft.com/)-Abonnement
 * Einen individuell eingerichteten [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md)
 * Zum Einbetten von paginierten Berichten benötigen Sie mindestens eine P1-Kapazität. Weitere Informationen finden Sie unter [Welche Premium-Kapazitätsgröße benötige ich für paginierte Berichte?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
@@ -60,7 +60,7 @@ Nachdem Sie Ihre Anwendung in Azure erstellt haben, öffnen Sie Ihre Anwendung i
 
 ### <a name="create-a-workspace"></a>Arbeitsbereich erstellen
 
-Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem Arbeitsbereich platzieren. Zur Einrichtung stehen verschiedene Arten von Arbeitsbereichen zur Auswahl: der [traditionelle Arbeitsbereich](../../service-create-workspaces.md) oder [neue Arbeitsbereiche](../../service-create-the-new-workspaces.md).
+Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem Arbeitsbereich platzieren. Zur Einrichtung stehen verschiedene Arten von Arbeitsbereichen zur Auswahl: der [traditionelle Arbeitsbereich](../../collaborate-share/service-create-workspaces.md) oder [neue Arbeitsbereiche](../../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Erstellen und Veröffentlichen Ihrer Power BI-Berichte
 
@@ -381,9 +381,9 @@ Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren Arbei
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
 
-Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen Vorteile für den Inhalt in Ihrem Arbeitsbereich verwenden. Bei paginierten Berichten müssen Sie Ihren Arbeitsbereich mit mindestens einer P1-Kapazität sichern. Sie können mit [Power BI Premium](../../service-premium-what-is.md) eine dedizierte Kapazität erstellen.
+Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen Vorteile für den Inhalt in Ihrem Arbeitsbereich verwenden. Bei paginierten Berichten müssen Sie Ihren Arbeitsbereich mit mindestens einer P1-Kapazität sichern. Sie können mit [Power BI Premium](../../admin/service-premium-what-is.md) eine dedizierte Kapazität erstellen.
 
-In der folgenden Tabelle werden die verfügbaren Power BI Premium-SKUs in [Microsoft Office 365](../../service-admin-premium-purchase.md) aufgelistet:
+In der folgenden Tabelle werden die verfügbaren Power BI Premium-SKUs in [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) aufgelistet:
 
 | Kapazitätsknoten | Gesamtanzahl virtueller Kerne<br/>(Back-End + Front-End) | virtuelle Back-End-Kerne | virtuelle Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ Nachdem Sie eine dedizierte Kapazität erstellt haben, können Sie dieser Ihren 
 
 ## <a name="admin-settings"></a>Administratoreinstellungen
 
-Globale Administratoren oder Power BI-Dienstadministratoren können die Möglichkeit der Verwendung der REST-APIs für einen Mandanten aktivieren oder deaktivieren. Power BI-Administratoren können diese Einstellung für die gesamte Organisation oder für einzelne Sicherheitsgruppen festlegen. In der Standardeinstellung ist sie für die gesamte Organisation aktiviert. Sie können diese Änderungen im [Power BI-Verwaltungsportal](../../service-admin-portal.md) vornehmen.
+Globale Administratoren oder Power BI-Dienstadministratoren können die Möglichkeit der Verwendung der REST-APIs für einen Mandanten aktivieren oder deaktivieren. Power BI-Administratoren können diese Einstellung für die gesamte Organisation oder für einzelne Sicherheitsgruppen festlegen. In der Standardeinstellung ist sie für die gesamte Organisation aktiviert. Sie können diese Änderungen im [Power BI-Verwaltungsportal](../../admin/service-admin-portal.md) vornehmen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
