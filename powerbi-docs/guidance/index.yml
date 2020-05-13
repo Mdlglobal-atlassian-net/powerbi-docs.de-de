@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
-  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+  ms.openlocfilehash: 8ca7d8b2d4582b309d06363d0c6b87383e1b2550
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "82841577"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273337"
 landingContent:
 - title: Power BI-Leitfaden
   linkLists:
@@ -40,7 +40,7 @@ landingContent:
     - text: Verweis auf Power Query-Abfragen
       url: power-query-referenced-queries.md
     - text: Bewährte Methoden für Dataflows
-      url: ../service-dataflows-best-practices.md
+      url: ../transform-model/service-dataflows-best-practices.md
 - title: Datenmodellierung
   linkLists:
   - linkListType: concept
@@ -53,7 +53,7 @@ landingContent:
       url: auto-date-time.md
     - text: 1:1-Beziehungen
       url: relationships-one-to-one.md
-    - text: m:n-Beziehungen
+    - text: M:n-Beziehungen
       url: relationships-many-to-many.md
     - text: Aktive und inaktive Beziehungen im Vergleich
       url: relationships-active-inactive.md

@@ -21,7 +21,7 @@
             - name: Deaktivieren der Hintergrundaktualisierung in Power Query
               href: power-query-background-refresh.md
             - name: Bewährte Methoden für Dataflows
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: Datenmodellierung
           items:
             - name: Was ist ein Sternschema?
@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: '1:1-Beziehungen'
               href: relationships-one-to-one.md
-            - name: 'm:n-Beziehungen'
+            - name: 'M:n-Beziehungen'
               href: relationships-many-to-many.md
             - name: Aktive und inaktive Beziehungen im Vergleich
               href: relationships-active-inactive.md
@@ -46,7 +46,7 @@
               href: composite-model-guidance.md
         - name: DAX
           items:
-            - name: Vergleich zwischen DIVIDE-Funktion und Divisionsoperator (/)
+            - name: Vergleich zwischen der DIVIDE-Funktion und dem Divisionsoperator (/)
               href: dax-divide-function-operator.md
             - name: Angemessene Verwendung von Fehlerfunktionen
               href: dax-error-functions.md

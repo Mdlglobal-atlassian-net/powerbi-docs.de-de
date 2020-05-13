@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79112771"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275177"
 landingContent:
 - title: Erste Schritte bei der Zusammenarbeit und der Freigabe
   linkLists:
   - linkListType: overview
     links:
     - text: Freigeben Ihrer Arbeit
-      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+      url: service-how-to-collaborate-distribute-dashboards-reports.md
 - title: Zusammenarbeit mit Kollegen
   linkLists:
   - linkListType: concept
     links:
     - text: Einführung in arbeitsbereichsübergreifende Datasets
-      url: ../service-datasets-across-workspaces.md
+      url: ../connect-data/service-datasets-across-workspaces.md
     - text: Erstellungsberechtigungen für freigegebene Datasets
-      url: ../service-datasets-build-permissions.md
+      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Organisieren der Arbeit in neuen Arbeitsbereichen
-      url: ../service-new-workspaces.md
+      url: service-new-workspaces.md
 - title: Freigeben Ihrer Arbeit
   linkLists:
   - linkListType: concept
     links:
     - text: Veröffentlichen einer App
-      url: ../service-create-distribute-apps.md
+      url: service-create-distribute-apps.md
     - text: Überwachen von Nutzungsmetriken
-      url: ../service-modern-usage-metrics.md
+      url: service-modern-usage-metrics.md
   - linkListType: how-to-guide
     links:
     - text: Freigeben von Berichten und Dashboards
-      url: ../service-share-dashboards.md
+      url: service-share-dashboards.md
     - text: Filtern und Freigeben eines Berichts
-      url: ../service-share-reports.md
+      url: service-share-reports.md
     - text: Freigeben eines Datasets
-      url: ../service-datasets-share.md
+      url: ../connect-data/service-datasets-share.md
 - title: Integration in andere Dienste
   linkLists:
   - linkListType: concept
     links:
     - text: Azure und Power BI
-      url: ../service-azure-and-power-bi.md
+      url: ../connect-data/service-azure-and-power-bi.md
     - text: In Excel analysieren
-      url: ../service-analyze-in-excel.md
+      url: service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:
     - text: In SharePoint Online einbetten
-      url: ../service-embed-report-spo.md
+      url: service-embed-report-spo.md

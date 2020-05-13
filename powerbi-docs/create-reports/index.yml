@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464676"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275982"
 landingContent:
 - title: Erste Schritte
   linkLists:
   - linkListType: get-started
     links:
     - text: Verwenden des aktualisierten Menübands
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: Übersicht zu Bedienungshilfen
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: Abrufen von Beispieldaten
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: Importieren und Öffnen von Beispielpaketen
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: 'Beispiel zu COVID-19: Daten aus den USA'
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: Report themes
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: Textfelder und Formen
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: Bedingte Tabellenformatierung
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: Verwenden von Gruppierungen und der Quantisierung
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: Hinzufügen von Lesezeichen zu einem Bericht
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: Entwerfen von Berichtsinteraktionen
   linkLists:
   - linkListType: concept
     links:
     - text: Berichtsansicht in Power BI Desktop
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Erkunden von Daten mit Q&A
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: Verwenden eines Drillthroughs in einem Bericht
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: Hinzufügen von Lesezeichen zu einem Bericht
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: Hinzufügen von Filtern zu einem Bericht
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Paginierte Power BI-Berichte
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: Einführung in Dashboards
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: Erstellen eines Dashboards
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: Anheften einer Kachel an ein Dashboard
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: Hinzufügen von Bildern oder Videos zu einem Dashboard
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

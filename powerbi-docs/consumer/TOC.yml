@@ -27,9 +27,9 @@
         - name: Stellen von Fragen in natürlicher Sprache
           href: end-user-q-and-a.md
         - name: Navigieren durch das neue Design
-          href: ../service-new-look.md
+          href: service-new-look.md
         - name: 'Das „neue Design“: Wo sind die Aktionen jetzt?'
-          href: ../service-new-look-where-actions.md
+          href: service-new-look-where-actions.md
     - name: Vorgehensweise
       items:
         - name: Dashboards
@@ -93,7 +93,7 @@
             - name: Durchführen von Drilldown in einer Visualisierung
               href: end-user-drill.md
             - name: Interagieren mit ArcGIS-Karten
-              href: ../power-bi-visualizations-arcgis.md
+              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Häufige Aufgaben
           items:
             - name: Exportieren von Daten in Excel

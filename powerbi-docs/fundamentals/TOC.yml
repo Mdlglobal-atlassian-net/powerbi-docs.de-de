@@ -6,50 +6,50 @@
       expanded: true
       items:
         - name: Was ist Power BI?
-          href: ../power-bi-overview.md
+          href: power-bi-overview.md
         - name: Was ist Power BI Desktop?
-          href: ../desktop-what-is-desktop.md
+          href: desktop-what-is-desktop.md
         - name: Was ist der Power BI-Dienst?
-          href: ../power-bi-service-overview.md
+          href: power-bi-service-overview.md
         - name: Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
-          href: ../service-service-vs-desktop.md
+          href: service-service-vs-desktop.md
     - name: Konzepte
       items:
         - name: Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
-          href: ../desktop-latest-update.md
+          href: desktop-latest-update.md
         - name: Neuigkeiten bei Power BI
-          href: ../service-whats-new.md
+          href: service-whats-new.md
         - name: Grundlegendes zum Power BI-Dienst
-          href: ../service-basic-concepts.md
+          href: service-basic-concepts.md
         - name: 'Zehn Tipps, um Hilfe zu erhalten'
-          href: ../service-tips-for-finding-help.md
+          href: service-tips-for-finding-help.md
         - name: Lizenzierung
           items:
             - name: "Registrieren bei Power\_BI"
-              href: ../service-self-service-signup-for-power-bi.md
+              href: service-self-service-signup-for-power-bi.md
             - name: Funktionen nach Lizenztyp
-              href: ../service-features-license-type.md
-    - name: Gewusst-wie-Anleitungen
+              href: service-features-license-type.md
+    - name: Exemplarische Vorgehensweisen
       items:
-        - name: Erwerben von Power BI Desktop
-          href: ../desktop-get-the-desktop.md
-        - name: "Erste Schritte mit Power\_BI Desktop"
-          href: ../desktop-getting-started.md
-    - name: Verweis
+        - name: Power BI Desktop erwerben
+          href: desktop-get-the-desktop.md
+        - name: Erste Schritte mit Power BI Desktop
+          href: desktop-getting-started.md
+    - name: Referenz
       items:
         - name: Unterstützte Sprachen und Länder/Regionen
-          href: ../supported-languages-countries-regions.md
+          href: supported-languages-countries-regions.md
         - name: Unterstützte Browser
-          href: ../power-bi-browsers.md
+          href: power-bi-browsers.md
     - name: Ressourcen
       items:
         - name: Videos
-          href: ../videos.md
+          href: videos.md
         - name: Webinare
-          href: ../webinars.md
+          href: webinars.md
         - name: Power BI Desktop-Videos
-          href: ../desktop-videos.md
+          href: desktop-videos.md
         - name: Archiv der Power BI Desktop-Updates
-          href: ../desktop-latest-update-archive.md
+          href: desktop-latest-update-archive.md
         - name: Datenschutzbestimmungen für Lächeln senden in Power BI Desktop
-          href: ../desktop-send-smile-privacy-statement.md
+          href: desktop-send-smile-privacy-statement.md

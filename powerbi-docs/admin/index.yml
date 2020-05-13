@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 12bd1e2ac706925301ca139bd84cef249c71e18c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d64c608be40aa156b3df23d5dd5ad01d50ab00dc
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79488474"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83130071"
 landingContent:
 - title: Power BI für Administratoren und Unternehmen
   linkLists:
   - linkListType: overview
     links:
     - text: Was ist die Power BI-Verwaltung?
-      url: ../service-admin-administering-power-bi-in-your-organization.md
+      url: service-admin-administering-power-bi-in-your-organization.md
     - text: Was ist Power BI Premium?
-      url: ../service-premium-what-is.md
+      url: service-premium-what-is.md
   - linkListType: concept
     links:
     - text: Administratorrolle in Office 365
-      url: ../service-admin-role.md
+      url: service-admin-role.md
 - title: Erste Schritte
   linkLists:
   - linkListType: concept
     links:
     - text: Lizenzierung für Ihre Organisation
-      url: ../service-admin-licensing-organization.md
+      url: service-admin-licensing-organization.md
     - text: Verwenden des Verwaltungsportals
-      url: ../service-admin-portal.md
+      url: service-admin-portal.md
   - linkListType: how-to-guide
     links:
     - text: Power BI Pro kaufen
-      url: ../service-admin-purchasing-power-bi-pro.md
+      url: service-admin-purchasing-power-bi-pro.md
     - text: Registrieren für eine Office 365-Testversion
-      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+      url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
     - text: Hinzufügen von Power BI bei einem Office 365-Partner
-      url: ../service-admin-syndication-partner.md
+      url: service-admin-syndication-partner.md
 - title: Verwalten Ihrer Organisation
   linkLists:
   - linkListType: concept
     links:
     - text: Szenarios mit Premium-Kapazitäten
-      url: ../service-premium-capacity-scenarios.md
+      url: service-premium-capacity-scenarios.md
   - linkListType: how-to-guide
     links:
     - text: Wo befindet sich mein Mandant?
-      url: ../service-admin-where-is-my-tenant-located.md
+      url: service-admin-where-is-my-tenant-located.md
     - text: Suchen nach angemeldeten Benutzern
-      url: ../service-admin-access-usage.md
+      url: service-admin-access-usage.md
     - text: Power BI-Überwachung
-      url: ../service-admin-auditing.md
+      url: service-admin-auditing.md
     - text: Nachverfolgen der Dienstintegrität
-      url: ../service-admin-health.md
+      url: service-admin-health.md
     - text: Schließen des Power BI-Kontos
-      url: ../service-admin-closing-your-account.md
+      url: service-admin-closing-your-account.md
