@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377188"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279432"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
@@ -152,7 +152,7 @@ Entwickler von Berichten können eine Power App erstellen und in einen Power BI-
 ![Visuals für Fragen und Antworten](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->Ähnlich wie bei der [Verwendung der Q&A-Funktion in Dashboards](../power-bi-tutorial-q-and-a.md) können Sie mit dem Visual für Fragen und Antworten Fragen zu Ihren Daten in natürlicher Sprache stellen. 
+>Ähnlich wie bei der [Verwendung der Q&A-Funktion in Dashboards](../create-reports/power-bi-tutorial-q-and-a.md) können Sie mit dem Visual für Fragen und Antworten Fragen zu Ihren Daten in natürlicher Sprache stellen. 
 
 Weitere Informationen finden Sie unter [Visuals für Fragen und Antworten in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
@@ -248,3 +248,4 @@ Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Frag
 ## <a name="next-steps"></a>Nächste Schritte
 [Interagieren mit Visuals in Berichten, Dashboards und Apps](end-user-visualizations.md)    
 [„The right visual reference“ von sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

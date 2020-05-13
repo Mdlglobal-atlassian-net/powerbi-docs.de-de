@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114656"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149255"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Multi-Geo-Unterstützung für Power BI Embedded
 
 Die **Multi-Geo-Unterstützung für Power BI Embedded** bewirkt, dass unabhängige Softwarehersteller (ISVs) und Organisationen, die Anwendungen mit Power BI Embedded entwickeln, um eine Analyse in ihre Apps zu integrieren, ihre Daten jetzt in unterschiedlichen Regionen auf der ganzen Welt bereitstellen können.
 
-Kunden, die **Power BI Embedded** verwenden, können ab sofort eine **A-Kapazität** mit **Multi-Geo**-Optionen einrichten, basierend auf den gleichen Features und Einschränkungen, die für [Power BI Premium mit Verwendung von Multi-Geo](../../service-admin-premium-Multi-Geo.md) gelten.
+Kunden, die **Power BI Embedded** verwenden, können ab sofort eine **A-Kapazität** mit **Multi-Geo**-Optionen einrichten, basierend auf den gleichen Features und Einschränkungen, die für [Power BI Premium mit Verwendung von Multi-Geo](../../admin/service-admin-premium-Multi-Geo.md) gelten.
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Erstellen einer neuen Power BI Embedded-Kapazitätsressource mit Multi-Geo
 
@@ -89,6 +89,6 @@ Weitere Informationen zu Power BI Embedded-Kapazitäten und Multi-Geo-Optionen f
 
 * [Erstellen einer Power BI Embedded-Kapazität](azure-pbie-create-capacity.md)
 
-* [Multi-Geo in Power BI Premium-Kapazitäten](../../service-admin-premium-multi-geo.md)
+* [Multi-Geo in Power BI Premium-Kapazitäten](../../admin/service-admin-premium-multi-geo.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

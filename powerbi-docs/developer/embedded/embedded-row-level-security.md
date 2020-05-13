@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550972"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277017"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicherheit auf Zeilenebene mit Power BI Embedded
 
@@ -21,7 +21,7 @@ Mit der **Sicherheit auf Zeilenebene (Row-Level Security, RLS)** kann der Benutz
 
 Wenn Sie Berichte für Benutzer einbetten, die nicht Power BI verwenden (d.h. die App ist Besitzer der Daten), was normalerweise bei ISVs der Fall ist, ist dieser Artikel für Sie relevant. Konfigurieren Sie das Einbettungstoken, um den Benutzer und die Rolle anzugeben.
 
-Wenn Sie Berichte für Power BI-Benutzer in der Organisation einbetten (der Benutzer ist der Besitzer der Daten), funktioniert RLS auf die gleiche Weise wie direkt im Power BI-Dienst. Sie müssen in der Anwendung keine weiteren Aktionen ausführen. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene (row-level Security; RLS) mit Power BI](../../service-admin-rls.md).
+Wenn Sie Berichte für Power BI-Benutzer in der Organisation einbetten (der Benutzer ist der Besitzer der Daten), funktioniert RLS auf die gleiche Weise wie direkt im Power BI-Dienst. Sie müssen in der Anwendung keine weiteren Aktionen ausführen. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene (row-level Security; RLS) mit Power BI](../../admin/service-admin-rls.md).
 
 ![Die für die Sicherheit auf Zeilenebene relevanten Elemente.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ Sie müssen drei wichtige Konzepte verstehen, um RLS nutzen zu können: Benutzer
 
 **Benutzer**: Endbenutzer, die das Artefakt (Dashboard, Kachel, Bericht oder Dataset) anzeigen. In Power BI Embedded werden Benutzer durch die username-Eigenschaft in einem Einbettungstoken identifiziert.
 
-**Rollen**: Benutzer gehören Rollen an. Eine Rolle ist ein Container für Regeln. Sie kann z.B. mit *Vertriebsleiter* oder *Vertriebsmitarbeiter* benannt werden. Rollen werden in Power BI Desktop erstellt. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene (row-level Security; RLS) mit Power BI Desktop](../../desktop-rls.md).
+**Rollen**: Benutzer gehören Rollen an. Eine Rolle ist ein Container für Regeln. Sie kann z.B. mit *Vertriebsleiter* oder *Vertriebsmitarbeiter* benannt werden. Rollen werden in Power BI Desktop erstellt. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene (row-level Security; RLS) mit Power BI Desktop](../../create-reports/desktop-rls.md).
 
 **Regeln**: Für Rollen gelten Regeln, und diese Regeln sind die Filter, die auf die Daten anzuwenden sind. Dabei kann es sich um eine einfache Regel (z. B. „Land = USA“) oder eine dynamischere Regel handeln.
 Im Rest dieses Artikels wird ein Beispiel für das Erstellen von RLS beschrieben, das dann in einer eingebetteten Anwendung verwendet wird. In unserem Beispiel wird die PBIX-Datei [Retail Analysis Sample](https://go.microsoft.com/fwlink/?LinkID=780547) (Analysebeispiel für den Einzelhandel) verwendet.
@@ -135,7 +135,7 @@ Die effektive Identität, die für die username-Eigenschaft bereitgestellt wird,
 
 ### <a name="on-premises-data-gateway-configuration"></a>Konfiguration des lokalen Datengateways
 
-Beim Arbeiten mit Liveverbindungen von Analysis Services wird ein [lokales Datengateway](../../service-gateway-onprem.md) verwendet. Beim Generieren eines Einbettungstokens mit einer angegebenen Identität muss das Hauptkonto als Administrator des Gateways aufgeführt werden. Wenn das Hauptkonto nicht aufgeführt ist, wird die Sicherheit auf Zeilenebene nicht auf die Eigenschaft der Daten angewendet. Ein Benutzer des Gateways ohne Administratorrechte kann Rollen bereitstellen, er muss jedoch den eigenen Benutzernamen als effektive Identität angeben.
+Beim Arbeiten mit Liveverbindungen von Analysis Services wird ein [lokales Datengateway](../../connect-data/service-gateway-onprem.md) verwendet. Beim Generieren eines Einbettungstokens mit einer angegebenen Identität muss das Hauptkonto als Administrator des Gateways aufgeführt werden. Wenn das Hauptkonto nicht aufgeführt ist, wird die Sicherheit auf Zeilenebene nicht auf die Eigenschaft der Daten angewendet. Ein Benutzer des Gateways ohne Administratorrechte kann Rollen bereitstellen, er muss jedoch den eigenen Benutzernamen als effektive Identität angeben.
 
 ### <a name="use-of-roles"></a>Verwenden von Rollen
 
@@ -235,9 +235,9 @@ Im Folgenden finden Sie die Schritte, mit denen Sie mit der Einrichtung der Cust
 
 Zur Filterung Ihrer Daten im Bericht können Sie die **Sicherheit auf Zeilenebene** (RLS) oder **JavaScript-Filter** verwenden.
 
-Die [Sicherheit auf Zeilenebene](../../service-admin-rls.md) ist ein Feature, das Daten auf Datenmodellebene filtert. Ihre Back-End-Datenquelle steuert die RLS-Einstellungen. Basierend auf dem Datenmodell werden beim Generieren des Einbettungstokens der Benutzername und die Rollen für die Sitzung festgelegt. RLS kann durch clientseitigen Code nicht überschrieben, entfernt oder gesteuert werden, weshalb dieses Feature als sicher eingestuft wird. RLS wird zur sicheren Filterung von Daten empfohlen. Sie können Daten mit RLS filtern, indem Sie eine der folgenden Optionen verwenden.
+Die [Sicherheit auf Zeilenebene](../../admin/service-admin-rls.md) ist ein Feature, das Daten auf Datenmodellebene filtert. Ihre Back-End-Datenquelle steuert die RLS-Einstellungen. Basierend auf dem Datenmodell werden beim Generieren des Einbettungstokens der Benutzername und die Rollen für die Sitzung festgelegt. RLS kann durch clientseitigen Code nicht überschrieben, entfernt oder gesteuert werden, weshalb dieses Feature als sicher eingestuft wird. RLS wird zur sicheren Filterung von Daten empfohlen. Sie können Daten mit RLS filtern, indem Sie eine der folgenden Optionen verwenden.
 
-* [Konfigurieren von Rollen in einem Power BI-Bericht](../../desktop-rls.md).
+* [Konfigurieren von Rollen in einem Power BI-Bericht](../../create-reports/desktop-rls.md).
 * Konfigurieren von Rollen auf Datenquellenebene (nur Liveverbindung mit Analysis Services).
 * Programmgesteuert mit einem [Einbettungstoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) und `EffectiveIdentity`. Beim Verwenden eines Einbettungstokens durchläuft der eigentliche Filter das Einbettungstoken für eine bestimmte Sitzung.
 

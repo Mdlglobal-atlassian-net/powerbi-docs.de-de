@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435327"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276212"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtern eines Berichts nach geografischem Standort in den mobilen Power BI-Apps
 Gilt für:
@@ -39,17 +39,16 @@ Wird beim Betrachten eines Power BI-Berichts auf Ihrem mobilen Gerät in der rec
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>Warum sehe ich im Bericht keine Positionsmarkierungen?
 Alle drei der folgenden Bedingungen müssen erfüllt sein, damit Positionsmarkierungen angezeigt werden. 
 
-* Der Ersteller des Berichts hat in Power BI Desktop in mindestens einer Spalte [geografische Daten kategorisiert](../../desktop-mobile-geofiltering.md) (wie Stadt, Bundesland, Land/Region).
+* Der Ersteller des Berichts hat in Power BI Desktop in mindestens einer Spalte [geografische Daten kategorisiert](../../transform-model/desktop-mobile-geofiltering.md) (wie Stadt, Bundesland, Land/Region).
 * Sie befinden sich an einem Standort, für den Daten in einer dieser Spalten vorhanden sind.
 * Sie verwenden eines dieser mobilen Geräte:
   * iOS (iPad, iPhone, iPod)
   * Android (Smartphone, Tablet)
   * Windows 10-Smartphone (andere Windows 10-Geräte wie PCs und Tablets unterstützten geografische Filter nicht)
 
-Weitere Informationen finden Sie unter [Einrichten von geografischen Filtern](../../desktop-mobile-geofiltering.md) in Power BI Desktop.
+Weitere Informationen finden Sie unter [Einrichten von geografischen Filtern](../../transform-model/desktop-mobile-geofiltering.md) in Power BI Desktop.
 
 ### <a name="next-steps"></a>Weitere Schritte
 * [Connect to Power BI data from the real world](mobile-apps-data-in-real-world-context.md) (Verbinden mit realen Power BI-Daten mit den Apps für mobile Geräte)
-* [Datenkategorisierung in Power BI Desktop](../../desktop-data-categorization.md) 
+* [Datenkategorisierung in Power BI Desktop](../../transform-model/desktop-data-categorization.md) 
 * Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

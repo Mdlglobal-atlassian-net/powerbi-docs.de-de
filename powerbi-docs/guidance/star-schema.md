@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751605"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273452"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informationen zum Sternschema und der Wichtigkeit für Power BI
 
@@ -42,7 +42,7 @@ Denken Sie daran, dass jede Power BI-Berichtvisualisierung eine Abfrage generier
 - Dimensionstabellen unterstützen die _Filterung_ und _Gruppierung_.
 - Faktentabellen unterstützen die _Zusammenfassung_.
 
-Es gibt keine Tabelleneigenschaft, die Modellierer festlegen können, um den Tabellentyp als Dimension oder Fakt zu konfigurieren. Der Typ wird durch die Modellbeziehungen bestimmt. Eine Modellbeziehung erstellt einen Filterweitergabepfad zwischen zwei Tabellen. Dabei wird der Tabellentyp von der **Kardinalitätseigenschaft** der Beziehung bestimmt. Gängige Beziehungskardinalitäten sind _1:n_ und dessen umgekehrte Variante _n:1_. Die Seite „1“ ist immer eine Dimensionstabelle, während die Seite „n“ immer eine Faktentabelle ist. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop](../desktop-relationships-understand.md).
+Es gibt keine Tabelleneigenschaft, die Modellierer festlegen können, um den Tabellentyp als Dimension oder Fakt zu konfigurieren. Der Typ wird durch die Modellbeziehungen bestimmt. Eine Modellbeziehung erstellt einen Filterweitergabepfad zwischen zwei Tabellen. Dabei wird der Tabellentyp von der **Kardinalitätseigenschaft** der Beziehung bestimmt. Gängige Beziehungskardinalitäten sind _1:n_ und dessen umgekehrte Variante _n:1_. Die Seite „1“ ist immer eine Dimensionstabelle, während die Seite „n“ immer eine Faktentabelle ist. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop](../transform-model/desktop-relationships-understand.md).
 
 ![Konzeptionelles Sternschema](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Dieser m:n-Entwurfsansatz ist gut dokumentiert und ist auch ohne Überbrückungs
 Weitere Informationen zum Entwurf von Sternschemas und Power BI-Modellen finden Sie in den folgenden Artikeln:
 
 - [Wikipedia-Artikel zur dimensionalen Modellierung](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Erstellen und Verwalten von Beziehungen in Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Erstellen und Verwalten von Beziehungen in Power BI Desktop](../transform-model/desktop-create-and-manage-relationships.md)
 - [Leitfaden zu 1:1-Beziehungen](relationships-one-to-one.md)
 - [Leitfaden zu m:n-Beziehungen](relationships-many-to-many.md)
 - [Leitfaden zu bidirektionalen Beziehungen](relationships-bidirectional-filtering.md)
 - [Aktive und inaktive Beziehungen im Vergleich – Leitfaden](relationships-active-inactive.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
+
+

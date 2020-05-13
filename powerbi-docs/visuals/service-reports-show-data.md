@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758621"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276557"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Anzeigen der zugrunde liegenden Daten einer Visualisierung
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Anzeigen von Daten
 Eine Power BI-Visualisierung wird mithilfe von Daten aus Ihren Datasets erstellt. Sie haben in Power BI die Möglichkeit, die Daten *anzuzeigen*, die der Visualisierung zugrunde liegen. Wenn Sie **Daten anzeigen** auswählen, werden die Daten in Power BI unter (oder neben) der Visualisierung angezeigt.
@@ -24,7 +26,7 @@ Eine Power BI-Visualisierung wird mithilfe von Daten aus Ihren Datasets erstellt
 Sie können die Daten, mit denen die Visualisierung erstellt wurde, auch als XLSX- oder CSV-Datei exportieren und in Excel anzeigen. Weitere Informationen finden Sie unter [Exportieren von Daten aus Power BI-Visualisierungen](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> *Daten anzeigen* und *Daten exportieren* sind sowohl im Power BI-Dienst als auch in Power BI Desktop verfügbar. Power BI Desktop bietet jedoch eine zusätzliche Detailebene. [Mit *Datensätze anzeigen* werden die tatsächlichen Zeilen aus dem Dataset angezeigt](../desktop-see-data-see-records.md).
+> *Daten anzeigen* und *Daten exportieren* sind sowohl im Power BI-Dienst als auch in Power BI Desktop verfügbar. Power BI Desktop bietet jedoch eine zusätzliche Detailebene. [Mit *Datensätze anzeigen* werden die tatsächlichen Zeilen aus dem Dataset angezeigt](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ Sie können den Fokus auch auf einen Datensatz einer Visualisierung legen und di
 [Exportieren von Daten aus Power BI-Visualisierungen](power-bi-visualization-export-data.md)    
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+
 

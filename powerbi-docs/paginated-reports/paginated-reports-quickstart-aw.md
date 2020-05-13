@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404887"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145229"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Erstellen und Hochladen eines paginierten Berichts in den Power BI-Dienst
 
@@ -43,7 +43,7 @@ Im Folgenden werden die Voraussetzungen für die Erstellung eines paginierten Be
 Im Folgenden werden die Voraussetzungen zum Hochladen Ihres paginierten Berichts in den Power BI-Dienst aufgeführt:
 
 - Sie benötigen eine [Power BI Pro-Lizenz](../service-admin-power-bi-pro-in-your-organization.md).
-- Sie benötigen einen Arbeitsbereich für den Dienst in einer [Power BI Premium-Kapazität](../service-premium-what-is.md). Diese ist durch ein Diamantsymbol ![Premium-Diamantsymbol](media/paginated-reports-quickstart-aw/premium-diamond.png) neben den Namen des Arbeitsbereichs gekennzeichnet.
+- Sie benötigen einen Arbeitsbereich für den Dienst in einer [Power BI Premium-Kapazität](../admin/service-premium-what-is.md). Diese ist durch ein Diamantsymbol ![Premium-Diamantsymbol](media/paginated-reports-quickstart-aw/premium-diamond.png) neben den Namen des Arbeitsbereichs gekennzeichnet.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Erstellen der Matrix mit einem Assistenten
   
@@ -329,4 +329,3 @@ Nachdem Sie diesen paginierten Bericht erstellt haben, können Sie ihn in den Po
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
-

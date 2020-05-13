@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435902"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273084"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -52,7 +52,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    Links können zu anderen Power BI-Dashboards oder einer externen URL führen. Sie können [auf den Link tippen](../../service-dashboard-edit-tile.md#hyperlink), um ihn in der Power BI-App zu öffnen. Bei einer externen Website fragt Power BI Sie, ob diese zugelassen werden soll.
+    Links können zu anderen Power BI-Dashboards oder einer externen URL führen. Sie können [auf den Link tippen](../../create-reports/service-dashboard-edit-tile.md#hyperlink), um ihn in der Power BI-App zu öffnen. Bei einer externen Website fragt Power BI Sie, ob diese zugelassen werden soll.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    Links können zu anderen Power BI-Dashboards oder einer externen URL führen. Sie können [auf den Link tippen](../../service-dashboard-edit-tile.md#hyperlink), um ihn in der Power BI-App zu öffnen. Bei einer externen Website fragt Power BI Sie, ob diese zugelassen werden soll.
+    Links können zu anderen Power BI-Dashboards oder einer externen URL führen. Sie können [auf den Link tippen](../../create-reports/service-dashboard-edit-tile.md#hyperlink), um ihn in der Power BI-App zu öffnen. Bei einer externen Website fragt Power BI Sie, ob diese zugelassen werden soll.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
     Tippen Sie auf **Bericht öffnen** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), um [den zugrunde liegenden Bericht anzuzeigen](mobile-reports-in-the-mobile-apps.md).
    
-    [Öffnen Sie den Link](../../service-dashboard-edit-tile.md#hyperlink), sofern vorhanden. Links können zu Power BI-Dashboards oder einer externen URL führen.
+    [Öffnen Sie den Link](../../create-reports/service-dashboard-edit-tile.md#hyperlink), sofern vorhanden. Links können zu Power BI-Dashboards oder einer externen URL führen.
 3. Tippen Sie auf **Kachel erweitern** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Sie wird im Fokusmodus geöffnet, was es einfacher macht, die Kacheldaten anzuzeigen und zu durchsuchen. In diesem Modus können Sie:
    
    Drehen Sie ein Kreisdiagramm, um die Werte eines Segments am oberen Rand des Kreises anzuzeigen.  
@@ -130,4 +130,3 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
 ## <a name="next-steps"></a>Nächste Schritte
 * [Was ist Power BI?](../../fundamentals/power-bi-overview.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

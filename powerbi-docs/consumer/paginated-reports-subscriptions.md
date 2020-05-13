@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: d3813636010dcbf5c866248111755beb0dca99b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c7f377c1295d4cd8f0d226331fcb6db697786e5a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834630"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141271"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Abonnieren von paginierten Berichten für sich selbst und andere im Power BI-Dienst 
 
@@ -39,7 +39,6 @@ Durch das Einrichten von Abonnements können Sie entscheiden, ob Sie die E-Mails
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Subscribe yourself and others to reports and dashboards in the Power BI service (Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere)](../service-report-subscribe.md)
+[Subscribe yourself and others to reports and dashboards in the Power BI service (Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere)](../collaborate-share/service-report-subscribe.md)
 
 [Paginierte Berichte im Power BI-Dienst](end-user-paginated-report.md)
-

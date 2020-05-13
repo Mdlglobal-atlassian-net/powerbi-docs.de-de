@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615701"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272808"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Unterberichte in paginierten Power BI-Berichten
 
@@ -74,7 +74,7 @@ Nachdem Sie nun beide Berichte im selben Premium-Arbeitsbereich gespeichert habe
   
  Ein Unterbericht kann im Hauptteil des Berichts oder in einem Datenbereich platziert werden. Wenn Sie einen Unterbericht in einem Datenbereich platzieren, wird der Unterbericht mit jeder Instanz der Gruppe oder Zeile im Datenbereich wiederholt. Sie können einen Wert aus der Gruppe oder Zeile an den Unterbericht übergeben. Verwenden Sie in der Wert-Eigenschaft des Unterberichts einen Feldausdruck für das Feld, das den Wert enthält, den Sie an den Unterberichtsparameter übergeben möchten.  
   
- Weitere Informationen zum Arbeiten mit Parametern und Unterberichten finden Sie unter [Hinzufügen eines Unterberichts und von Parametern](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md) in der SQL Server Reporting Services-Dokumentation.  
+ Weitere Informationen zum Arbeiten mit Parametern und Unterberichten finden Sie unter [Hinzufügen eines Unterberichts und von Parametern](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) in der SQL Server Reporting Services-Dokumentation.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Anzeigen der Vorschau eines paginierten Berichts im Berichts-Generator
 

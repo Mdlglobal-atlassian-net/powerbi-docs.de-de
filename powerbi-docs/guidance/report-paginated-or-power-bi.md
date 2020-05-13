@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920732"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127811"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Wann sollten paginierte Berichte in Power BI verwendet werden?
 
 Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Berichte für Power BI entwerfen. Er enthält Vorschläge, die Ihnen bei der Wahl des Zeitpunkts für die Entwicklung von [paginierten Berichten in Power BI Reports](../paginated-reports/paginated-reports-report-builder-power-bi.md) helfen.
 
 > [!NOTE]
-> Für die Veröffentlichung von paginierten Berichten in Power BI ist ein Power BI Premium-Abonnement erforderlich. Berichte werden nur dann gerendert, wenn sie sich in einem Arbeitsbereich mit einer dedizierten Kapazität befinden, in dem die [Workload für paginierte Berichte aktiviert ist](../service-admin-premium-workloads.md#paginated-reports).
+> Für die Veröffentlichung von paginierten Berichten in Power BI ist ein Power BI Premium-Abonnement erforderlich. Berichte werden nur dann gerendert, wenn sie sich in einem Arbeitsbereich mit einer dedizierten Kapazität befinden, in dem die [Workload für paginierte Berichte aktiviert ist](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 Paginierte Berichte in Power BI sind für den **Druckvorgang** oder die **PDF-Erstellung** optimiert. Sie bieten Ihnen auch die Möglichkeit, stark formatierte, pixelgenaue Layouts zu erstellen. Daher sind paginierte Berichte ideal für betriebliche Berichte wie Verkaufsrechnungen.
 
@@ -36,7 +36,7 @@ Wir empfehlen Ihnen in folgenden Situationen die Verwendung eines paginierten Be
 
 Wenn Sie bereits über [RDL](/sql/reporting-services/reports/report-definition-language-ssrs)-Berichte (Report Definition Language) der SQL Server Reporting Services (SSRS) verfügen, können Sie diese als [Power BI-Berichte](../consumer/end-user-reports.md) neu entwickeln oder als paginierte Berichte zu Power BI migrieren. Weitere Informationen finden Sie unter [Migrieren von SQL Server Reporting Services-Berichten zu Power BI](migrate-ssrs-reports-to-power-bi.md).
 
-Nach der Veröffentlichung in einem Power BI-Arbeitsbereich stehen die paginierten Berichte neben den Power BI-Berichten zur Verfügung. Sie können dann einfach über [Power BI-Apps](../service-create-distribute-apps.md) verteilt werden.
+Nach der Veröffentlichung in einem Power BI-Arbeitsbereich stehen die paginierten Berichte neben den Power BI-Berichten zur Verfügung. Sie können dann einfach über [Power BI-Apps](../collaborate-share/service-create-distribute-apps.md) verteilt werden.
 
 Sie könnten erwägen, SSRS-Berichte neu zu entwickeln, anstatt sie zu migrieren. Dies gilt insbesondere für die Berichte, die analytische Erfahrungen liefern sollen. In diesen Fällen werden die Power BI-Berichte wahrscheinlich bessere Benutzererfahrungen hinsichtlich der Berichte liefern.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e82c82430b42874e512265b9dae113b86925a51d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114054"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273268"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
 
@@ -69,7 +69,7 @@ Benötigen Sie Hilfe, um die Grundkomponenten zu verstehen, aus denen Power BI b
 3. Wählen Sie zum Schließen des Aktionsmenüs eine leere Fläche im Zeichenbereich aus.
 
 ### <a name="select-click-a-tile"></a>Auswählen einer Kachel
-Wenn Sie eine Kachel auswählen, hängt das, was als Nächstes geschieht, davon ab, wie die Kachel erstellt wurde und ob sie über einen [benutzerdefinierten Link](../service-dashboard-edit-tile.md) verfügt. Wenn sie einen benutzerdefinierten Link aufweist, bringt Sie das Auswählen der Kachel zum Ziel dieses Links. Andernfalls gelangen Sie nach Auswählen der Kachel zu dem Bericht, der Excel Online-Arbeitsmappe, dem lokalen SSRS-Bericht oder der Q&A-Frage, der/die zum Erstellen der Kachel verwendet wurde.
+Wenn Sie eine Kachel auswählen, hängt das, was als Nächstes geschieht, davon ab, wie die Kachel erstellt wurde und ob sie über einen [benutzerdefinierten Link](../create-reports/service-dashboard-edit-tile.md) verfügt. Wenn sie einen benutzerdefinierten Link aufweist, bringt Sie das Auswählen der Kachel zum Ziel dieses Links. Andernfalls gelangen Sie nach Auswählen der Kachel zu dem Bericht, der Excel Online-Arbeitsmappe, dem lokalen SSRS-Bericht oder der Q&A-Frage, der/die zum Erstellen der Kachel verwendet wurde.
 
 > [!NOTE]
 > Eine Ausnahme sind Videokacheln, die mit **Kachel hinzufügen** direkt auf dem Dashboard erstellt wurden. Bei Auswählen einer Videokachel (die auf diese Weise erstellt wurde) wird das Video direkt auf dem Dashboard wiedergegeben.   
@@ -85,6 +85,8 @@ Wenn Sie eine Kachel auswählen, hängt das, was als Nächstes geschieht, davon 
 * Wenn sich die ursprüngliche Visualisierung ändert, die zum Erstellen der Kachel verwendet wurde, ändert sich die Kachel nicht.  Wenn der *Designer* beispielsweise ein Liniendiagramm aus einem Bericht angeheftet und dann das Liniendiagramm in ein Balkendiagramm geändert hat, wird auf der Dashboardkachel weiterhin ein Liniendiagramm angezeigt. Die Daten werden aktualisiert, der Visualisierungstyp hingegen nicht.
 
 ## <a name="next-steps"></a>Weitere Schritte
-[Datenaktualisierung](../refresh-data.md)
+[Datenaktualisierung](../connect-data/refresh-data.md)
 
 [Power BI – Grundkonzepte](end-user-basic-concepts.md)
+
+

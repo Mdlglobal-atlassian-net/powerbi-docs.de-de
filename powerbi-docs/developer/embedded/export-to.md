@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525466"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144711"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Exportieren eines Power BI-Berichts in eine Datei (Vorschau)
 
@@ -34,7 +34,7 @@ Sie können das Exportfeature auf unterschiedlichste Weise verwenden. Hier sind 
 
 ## <a name="using-the-api"></a>Verwenden der API
 
-Bevor Sie die API verwenden, vergewissern Sie sich, dass die folgenden [Mandanteneinstellungen für den Administrator](../../service-admin-portal.md#tenant-settings) aktiviert sind:
+Bevor Sie die API verwenden, vergewissern Sie sich, dass die folgenden [Mandanteneinstellungen für den Administrator](../../admin/service-admin-portal.md#tenant-settings) aktiviert sind:
 * **Berichte als PowerPoint-Präsentationen oder PDF-Dokumente exportieren**: standardmäßig aktiviert.
 * **Berichte als Bilddateien exportieren**: Diese Einstellung ist nur für das *PNG*-Format erforderlich und standardmäßig deaktiviert.
 

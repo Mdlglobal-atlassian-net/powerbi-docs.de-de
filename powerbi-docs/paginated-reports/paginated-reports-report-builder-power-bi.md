@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621550"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144749"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Was sind paginierte Berichte in Power BI Premium?
 
@@ -23,7 +23,7 @@ Paginierte Berichte können viele Seiten umfassen. Dieser Bericht umfasst beispi
 
 ![Paginiert](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Sie können eine Vorschau Ihres Berichts im Berichts-Generator anzeigen und dann im Power BI-Dienst unter `https://app.powerbi.com` veröffentlichen. Sie benötigen eine Power BI Pro-Lizenz, um einen Bericht im Dienst zu veröffentlichen. Sie können paginierte Berichte unter „Mein Arbeitsbereich“ oder in anderen Arbeitsbereichen veröffentlichen und freigeben, solange sich der Arbeitsbereich in einer Power BI Premium-Kapazität befindet. Außerdem muss ein Power BI-Administrator paginierte Berichte im Abschnitt [Premium-Kapazitäten](../service-admin-premium-workloads.md#paginated-reports) des Power BI-Administratorportals aktivieren. 
+Sie können eine Vorschau Ihres Berichts im Berichts-Generator anzeigen und dann im Power BI-Dienst unter `https://app.powerbi.com` veröffentlichen. Sie benötigen eine Power BI Pro-Lizenz, um einen Bericht im Dienst zu veröffentlichen. Sie können paginierte Berichte unter „Mein Arbeitsbereich“ oder in anderen Arbeitsbereichen veröffentlichen und freigeben, solange sich der Arbeitsbereich in einer Power BI Premium-Kapazität befindet. Außerdem muss ein Power BI-Administrator paginierte Berichte im Abschnitt [Premium-Kapazitäten](../admin/service-admin-premium-workloads.md#paginated-reports) des Power BI-Administratorportals aktivieren. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Erstellen von Berichten im Power BI-Berichts-Generator
 

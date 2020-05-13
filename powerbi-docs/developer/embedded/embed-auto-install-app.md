@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114679"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148067"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Automatisches Installieren von Power BI-Apps bei der Einbettung für Ihre Organisation
 
-Wenn Inhalte aus einer App eingebettet werden sollen, muss der Benutzer, der die Einbettung vornimmt, [Zugriff auf die App](../../service-create-distribute-apps.md) haben. Wenn die App für den Benutzer installiert ist, funktioniert das Einbetten reibungslos. Weitere Informationen finden Sie unter [Einbetten von Berichten oder Dashboards aus Apps](embed-from-apps.md). Unter PowerBI.com lässt sich festlegen, dass alle Apps [automatisch installiert](https://powerbi.microsoft.com/blog/automatically-install-apps/) werden können. Diese Aktion erfolgt jedoch auf Mandantenebene und gilt für alle Apps.
+Wenn Inhalte aus einer App eingebettet werden sollen, muss der Benutzer, der die Einbettung vornimmt, [Zugriff auf die App](../../collaborate-share/service-create-distribute-apps.md) haben. Wenn die App für den Benutzer installiert ist, funktioniert das Einbetten reibungslos. Weitere Informationen finden Sie unter [Einbetten von Berichten oder Dashboards aus Apps](embed-from-apps.md). Unter PowerBI.com lässt sich festlegen, dass alle Apps [automatisch installiert](https://powerbi.microsoft.com/blog/automatically-install-apps/) werden können. Diese Aktion erfolgt jedoch auf Mandantenebene und gilt für alle Apps.
 
 ## <a name="auto-install-app-on-embedding"></a>Automatisches Installieren einer App bei der Einbettung
 

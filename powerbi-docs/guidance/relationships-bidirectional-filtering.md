@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263689"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273185"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Leitfaden zu bidirektionalen Beziehungen
 
@@ -134,10 +134,11 @@ Das folgende Tabellenvisual zeigt Statistiken zu jedem verkauften Produkt an. Di
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modellieren von Beziehungen in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informationen zum Sternschema und dessen Wichtigkeit für Power BI](star-schema.md)
 - [Leitfaden zu 1:1-Beziehungen](relationships-one-to-one.md)
 - [Leitfaden zu m:n-Beziehungen](relationships-many-to-many.md)
 - [Leitfaden zur Problembehandlung bei Beziehungen](relationships-troubleshoot.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
+

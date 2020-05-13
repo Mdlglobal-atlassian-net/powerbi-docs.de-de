@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114306"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145385"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Drucken im Power BI-Dienst
 
@@ -116,7 +116,6 @@ Berichte können seitenweise gedruckt werden.
 * A: Wechseln Sie zurück zum Dashboard oder Bericht in der Standardansicht, und öffnen Sie das Visual noch mal im Fokusmodus und anschließend im Vollbildmodus. 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Freigeben von Dashboards und Berichten für Kollegen und andere Personen](../service-share-dashboards.md)
+[Freigeben von Dashboards und Berichten für Kollegen und andere Personen](../collaborate-share/service-share-dashboards.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
-

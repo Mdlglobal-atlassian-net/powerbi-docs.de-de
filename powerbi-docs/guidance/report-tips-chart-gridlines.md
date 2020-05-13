@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065523"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272762"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>Tipps zum Steuern von Diagrammgitternetzlinien in Power BI-Berichten
 
@@ -36,7 +36,8 @@ Hier die drei Top-Tipps zum Steuern von Diagrammgitternetzlinien in Power BI-Ber
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Tipps zum Erstellen überzeugender Berichte](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Tipps zum Erstellen überzeugender Berichte](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-Video: [Top 3 Tips to Control Chart Gridlines in Power BI](https://www.youtube.com/watch?v=Y-igshes2LI) (Drei Top-Tipps zum Steuern von Diagrammgitternetzlinien in Power BI-Berichten)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
+

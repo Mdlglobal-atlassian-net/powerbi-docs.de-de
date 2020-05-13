@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120273"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275522"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
 
@@ -65,7 +65,7 @@ Sie können auch in Microsoft AppSource Apps suchen und installieren. Dort werde
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Abrufen einer App von der Microsoft AppSource-Website 
 
-In diesem Beispiel wird eine der Beispiel-Apps von Microsoft geöffnet. Unter AppSource finden Sie Apps für viele der Dienste, die Sie zur Unterstützung Ihrer Geschäftstätigkeit verwenden.  Dienste wie Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo und viele mehr. Weitere Informationen finden Sie unter [Apps für Dienste, die Sie mit Power BI verwenden](../service-connect-to-services.md). 
+In diesem Beispiel wird eine der Beispiel-Apps von Microsoft geöffnet. Unter AppSource finden Sie Apps für viele der Dienste, die Sie zur Unterstützung Ihrer Geschäftstätigkeit verwenden.  Dienste wie Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo und viele mehr. Weitere Informationen finden Sie unter [Apps für Dienste, die Sie mit Power BI verwenden](../connect-data/service-connect-to-services.md). 
 
 1. Öffnen Sie [https://appsource.microsoft.com](https://appsource.microsoft.com) in einem Browser, und wählen Sie **Power BI-Apps** aus.
 
@@ -142,3 +142,4 @@ Von Zeit zu Zeit veröffentlichen App-Ersteller neue Versionen ihrer Apps. Wie S
 * [Zurück zur App-Übersicht](end-user-apps.md)
 * [Anzeigen eines Power BI-Berichts](end-user-report-open.md)
 * [Andere Möglichkeiten, wie Inhalte für Sie freigegeben werden](end-user-shared-with-me.md)
+

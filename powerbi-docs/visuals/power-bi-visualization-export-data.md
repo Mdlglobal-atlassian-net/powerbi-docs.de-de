@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781729"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273015"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportieren der Daten, die zum Erstellen einer Visualisierung verwendet wurden
 
@@ -54,7 +54,7 @@ Sehen Sie zu, wie Will Daten aus einer der Visualisierungen in seinem Bericht ex
 
 ## <a name="export-data-from-a-report"></a>Exportieren von Daten aus einem Bericht
 
-Öffnen Sie den Bericht [Procurement analysis sample](../sample-procurement.md) (Analysebeispiel für Beschaffung) in der Bearbeitungsansicht im Power BI-Dienst, um dem Tutorial besser folgen zu können. Fügen Sie eine neue leere Berichtsseite hinzu. Führen Sie anschließend die untenstehenden Schritte aus, um eine Aggregation, eine Hierarchie und einen Filter auf Visualisierungsebene hinzuzufügen.
+Öffnen Sie den Bericht [Procurement analysis sample](../create-reports/sample-procurement.md) (Analysebeispiel für Beschaffung) in der Bearbeitungsansicht im Power BI-Dienst, um dem Tutorial besser folgen zu können. Fügen Sie eine neue leere Berichtsseite hinzu. Führen Sie anschließend die untenstehenden Schritte aus, um eine Aggregation, eine Hierarchie und einen Filter auf Visualisierungsebene hinzuzufügen.
 
 ### <a name="create-a-stacked-column-chart"></a>Erstellen eines neuen Diagramms mit gestapelten Säulen
 
@@ -94,7 +94,7 @@ Wählen Sie die Option **Zusammengefasste Daten** aus, wenn Sie die im Visual an
 
     - **Zugrunde liegende Daten**
 
-    Weitere Informationen zu Aggregaten finden Sie unter [Aggregate in Power BI](../service-aggregates.md).
+    Weitere Informationen zu Aggregaten finden Sie unter [Aggregate in Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Wenn Sie **Exportieren** auswählen, exportiert Power BI die Daten in eine *XLSX
 
     - **Zugrunde liegende Daten**
 
-    Weitere Informationen zu Aggregaten finden Sie unter [Aggregate in Power BI](../service-aggregates.md).
+    Weitere Informationen zu Aggregaten finden Sie unter [Aggregate in Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI-Administratoren und -designer haben verschiedene Möglichkeiten, propri
 
 - Power BI-Administratoren können den Datenexport für ihre Organisation deaktivieren. 
 
-- Besitzer von Datasets können Sicherheit auf Zeilenebene (Row Level Security, RLS) festlegen. Die RLS schränkt den Zugriff für Benutzer mit Leseberechtigung ein. Wenn Sie jedoch einen App-Arbeitsbereich konfiguriert und den Mitgliedern die Berechtigung zum Bearbeiten erteilt haben, werden keine RLS-Rollen auf diese angewendet. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene](../service-admin-rls.md).
+- Besitzer von Datasets können Sicherheit auf Zeilenebene (Row Level Security, RLS) festlegen. Die RLS schränkt den Zugriff für Benutzer mit Leseberechtigung ein. Wenn Sie jedoch einen App-Arbeitsbereich konfiguriert und den Mitgliedern die Berechtigung zum Bearbeiten erteilt haben, werden keine RLS-Rollen auf diese angewendet. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene](../admin/service-admin-rls.md).
 
 - Berichts-Designer können Spalten ausblenden, sodass sie nicht in der Liste **Felder** angezeigt werden. Weitere Informationen finden Sie unter [Dataseteigenschaften](../developer/automation/api-dataset-properties.md).
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525374"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145191"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Einbetten von Power BI-Inhalten in Ihre Anwendung für nationale Clouds
 
@@ -38,7 +38,7 @@ Folgende sind verfügbar:
 
 ![Eingebettetes Dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie je nach Behörde oder Land die passende nationale Cloud auswählen. Sie können sich für ein [Power BI-Konto für US-Behörden](../../service-govus-signup.md), ein [Power BI Deutschland-Cloudkonto](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) oder ein [Power BI China-Cloudkonto](https://www.21vbluecloud.com/powerbi/) registrieren.
+Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie je nach Behörde oder Land die passende nationale Cloud auswählen. Sie können sich für ein [Power BI-Konto für US-Behörden](../../admin/service-govus-signup.md), ein [Power BI Deutschland-Cloudkonto](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) oder ein [Power BI China-Cloudkonto](https://www.21vbluecloud.com/powerbi/) registrieren.
 
 > [!NOTE]
 > Möchten Sie stattdessen ein Dashboard für Ihre Organisation einbetten? Siehe [Integrieren eines Dashboards in eine App für Ihre Organisation](embed-sample-for-your-organization.md).

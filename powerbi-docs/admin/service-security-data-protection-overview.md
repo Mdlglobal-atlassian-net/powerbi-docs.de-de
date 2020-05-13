@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637606"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132035"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Datenschutz in Power BI (Vorschauversion)
 
@@ -113,6 +113,6 @@ In der folgenden Liste finden Sie einige Einschränkungen für Vertraulichkeitsb
 Dieser Artikel bietet eine Übersicht über den Schutz von Daten in Power BI. In den folgenden Artikeln finden Sie ausführlichere Informationen zum Datenschutz in Power BI. 
 
 * [Aktivieren von Vertraulichkeitsbezeichnungen für Daten in Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Verwenden von Microsoft Cloud App Security-Steuerelementen in Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Bericht zu Datenschutzmetriken](service-security-data-protection-metrics-report.md)

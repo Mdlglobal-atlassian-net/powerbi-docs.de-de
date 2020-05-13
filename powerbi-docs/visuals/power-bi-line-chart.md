@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867022"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274188"
 ---
 # <a name="line-charts-in-power-bi"></a>Liniendiagramme in Power BI
 
@@ -32,7 +32,7 @@ Mit dieser Anleitung erstellen Sie anhand der Beispiel-App für Vertrieb und Mar
 > [!NOTE]
 > Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird.
 
-1. Beginnen Sie auf einer leeren Berichtsseite. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) zu öffnen.
+1. Beginnen Sie auf einer leeren Berichtsseite. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](../create-reports/service-interact-with-a-report-in-editing-view.md) zu öffnen.
 
 2. Wählen Sie im Bereich „Felder“ **SalesFact** \> **Gesamtanzahl der Einheiten** und dann **Datum** > **Monat** aus.  Power BI erstellt ein Säulendiagramm im Zeichenbereich des Berichts.
 
@@ -74,7 +74,7 @@ Um stark abweichende Werte im gleichen Diagramm anzuzeigen, verwenden Sie ein Ko
    ![stark abweichende Werte](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
-Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
+Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../create-reports/power-bi-report-add-filter.md).
 
 Die Auswahl eines Datenpunkts auf einem Liniendiagramm ermöglicht das Kreuzhervorheben und Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Öffnen Sie hierfür die Registerkarte **Marktanteil**.  
 
@@ -86,7 +86,7 @@ In diesem Beispiel haben wir einen Datenpunkt ausgewählt, der Folgendes umfasst
 
 Beachten Sie, dass das Säulendiagramm kreuzhervorgehoben und das Messgerät kreuzgefiltert ist.
 
-Informationen zum Steuern der Kreuzhervorhebung und Kreuzfilterung von Diagrammen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
+Informationen zum Steuern der Kreuzhervorhebung und Kreuzfilterung von Diagrammen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 * Ein Liniendiagramm kann keine zwei Y-Achsen haben.  Sie müssen stattdessen ein Kombinationsdiagramm verwenden.
@@ -95,5 +95,8 @@ Informationen zum Steuern der Kreuzhervorhebung und Kreuzfilterung von Diagramme
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537391"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131975"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Verwenden von Microsoft Cloud App Security-Steuerelementen in Power BI (Vorschauversion)
 
@@ -60,7 +60,7 @@ Cloud App Security verfügt auch über zwei dedizierte, integrierte Erkennungsfu
 
 Mithilfe von Vertraulichkeitsbezeichnungen können Sie sensible Inhalte klassifizieren und schützen, sodass die Mitarbeiter in Ihrer Organisation mit externen Partnern zusammenarbeiten und gleichzeitig den Schutz vertraulicher Inhalte und Daten gewährleisten können. 
 
-Im Artikel zu [Vertraulichkeitsbezeichnungen in Power BI](../designer/service-security-apply-data-sensitivity-labels.md) finden Sie Details zum Prozess der Verwendung von Vertraulichkeitsbezeichnungen für Power BI. Im Folgenden finden Sie ein [Beispiel einer Power BI Richtlinie, die auf Vertraulichkeitsbezeichnungen](#example) basiert.
+Im Artikel zu [Vertraulichkeitsbezeichnungen in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md) finden Sie Details zum Prozess der Verwendung von Vertraulichkeitsbezeichnungen für Power BI. Im Folgenden finden Sie ein [Beispiel einer Power BI Richtlinie, die auf Vertraulichkeitsbezeichnungen](#example) basiert.
 
 ## <a name="built-in-microsoft-cloud-app-security-detections-for-power-bi"></a>Integrierte Microsoft Cloud App Security-Erkennungsfunktionen für Power BI
 
@@ -136,7 +136,7 @@ In diesem Artikel wurde beschrieben, wie Microsoft Cloud App Security den Schutz
 
 * [Übersicht über den Datenschutz in Power BI](service-security-data-protection-overview.md)
 * [Aktivieren von Vertraulichkeitsbezeichnungen für Daten in Power BI](service-security-enable-data-sensitivity-labels.md)
-* [Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 Folgende Azure- und Sicherheitsartikel könnten Sie ebenfalls interessieren:
 

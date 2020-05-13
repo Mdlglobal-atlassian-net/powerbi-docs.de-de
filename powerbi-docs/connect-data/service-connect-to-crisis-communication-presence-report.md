@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752255"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275499"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Herstellen einer Verbindung mit dem Präsenzbericht zur Krisenkommunikation
 
@@ -89,20 +89,20 @@ Beachten Sie beim Installieren des Beispiels für die Krisenkommunikation den [�
 
 ## <a name="schedule-report-refresh"></a>Planen der Berichtsaktualisierung
 
-Wenn die Daten vollständig aktualisiert wurden, [richten Sie einen Aktualisierungszeitplan ein](../refresh-scheduled-refresh.md), um die Berichtsdaten aktuell zu halten.
+Wenn die Daten vollständig aktualisiert wurden, [richten Sie einen Aktualisierungszeitplan ein](../connect-data/refresh-scheduled-refresh.md), um die Berichtsdaten aktuell zu halten.
 
 1. Klicken Sie im oberen Header auf **Power BI**.
 
    ![Power BI-Breadcrumb](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. Suchen Sie im linken Navigationsbereich unter **Arbeitsbereiche** nach dem Arbeitsbereich „Supportdashboard für Notfalleinsätze im Krankenhaus“, und befolgen Sie die im Artikel [Konfigurieren von geplanten Aktualisierungen](../refresh-scheduled-refresh.md) beschriebenen Anweisungen.
+1. Suchen Sie im linken Navigationsbereich unter **Arbeitsbereiche** nach dem Arbeitsbereich „Supportdashboard für Notfalleinsätze im Krankenhaus“, und befolgen Sie die im Artikel [Konfigurieren von geplanten Aktualisierungen](../connect-data/refresh-scheduled-refresh.md) beschriebenen Anweisungen.
 
 ## <a name="customize-and-share"></a>Anpassen und freigeben
 
-Weitere Informationen finden Sie unter [Anpassen und Freigeben der App](../service-template-apps-install-distribute.md#customize-and-share-the-app). Lesen Sie sich unbedingt die [Haftungsausschlüsse zum Bericht](../create-reports/sample-covid-19-us.md#disclaimers) durch, bevor Sie die App veröffentlichen oder verteilen.
+Weitere Informationen finden Sie unter [Anpassen und Freigeben der App](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Lesen Sie sich unbedingt die [Haftungsausschlüsse zum Bericht](../create-reports/sample-covid-19-us.md#disclaimers) durch, bevor Sie die App veröffentlichen oder verteilen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Einrichten und Kennenlernen der Beispielvorlage für die Krisenkommunikation in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-* [Was sind Power BI-Vorlagen-Apps?](../service-template-apps-overview.md)
-* [Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation](../service-template-apps-install-distribute.md)
+* [Was sind Power BI-Vorlagen-Apps?](../connect-data/service-template-apps-overview.md)
+* [Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation](../connect-data/service-template-apps-install-distribute.md)

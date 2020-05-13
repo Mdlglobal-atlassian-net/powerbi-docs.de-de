@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b951e96a5d81603dc91e4fc47a2b412d4140f85d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752048"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279248"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Herstellen einer Verbindung mit dem Supportdashboard für Notfalleinsätze im Krankenhaus
 Die Vorlagen-App für das Supportdashboard für Notfalleinsätze im Krankenhaus ist die Berichterstattungskomponente der [Microsoft Power Platform-Lösung für Notfalleinsätze](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Das Dashboard zeigt Krisenmanagern aggregierte Daten aus dem gesamten Gesundheitssystem an, mit deren Hilfe sie schnelle und richtige Entscheidungen treffen können.
@@ -86,21 +86,21 @@ Achten Sie beim Installieren der Power Platform-Lösung für Notfalleinsätze im
 
 ## <a name="schedule-report-refresh"></a>Planen der Berichtsaktualisierung
 
-Wenn die Daten vollständig aktualisiert wurden, [richten Sie einen Aktualisierungszeitplan ein](../refresh-scheduled-refresh.md), um die Berichtsdaten aktuell zu halten.
+Wenn die Daten vollständig aktualisiert wurden, [richten Sie einen Aktualisierungszeitplan ein](../connect-data/refresh-scheduled-refresh.md), um die Berichtsdaten aktuell zu halten.
 
 1. Klicken Sie im oberen Header auf **Power BI**.
 
    ![Power BI-Breadcrumb](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-powerbi-breadcrumb.png)
 
-1. Suchen Sie im linken Navigationsbereich unter **Arbeitsbereiche** nach dem Arbeitsbereich „Supportdashboard für Notfalleinsätze im Krankenhaus“, und befolgen Sie die im Artikel [Konfigurieren von geplanten Aktualisierungen](../refresh-scheduled-refresh.md) beschriebenen Anweisungen.
+1. Suchen Sie im linken Navigationsbereich unter **Arbeitsbereiche** nach dem Arbeitsbereich „Supportdashboard für Notfalleinsätze im Krankenhaus“, und befolgen Sie die im Artikel [Konfigurieren von geplanten Aktualisierungen](../connect-data/refresh-scheduled-refresh.md) beschriebenen Anweisungen.
 
 ## <a name="customize-and-share"></a>Anpassen und freigeben
 
-Weitere Informationen finden Sie unter [Anpassen und Freigeben der App](../service-template-apps-install-distribute.md#customize-and-share-the-app). Lesen Sie sich unbedingt die [Haftungsausschlüsse zum Bericht](../create-reports/sample-covid-19-us.md#disclaimers) durch, bevor Sie die App veröffentlichen oder verteilen.
+Weitere Informationen finden Sie unter [Anpassen und Freigeben der App](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Lesen Sie sich unbedingt die [Haftungsausschlüsse zum Bericht](../create-reports/sample-covid-19-us.md#disclaimers) durch, bevor Sie die App veröffentlichen oder verteilen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Grundlegendes zum Bericht für Notfalleinsätze im Krankenhaus](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
 * [Einrichten und Kennenlernen der Beispielvorlage für die Krisenkommunikation in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-* [Was sind Power BI-Vorlagen-Apps?](../service-template-apps-overview.md)
-* [Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation](../service-template-apps-install-distribute.md)
+* [Was sind Power BI-Vorlagen-Apps?](../connect-data/service-template-apps-overview.md)
+* [Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation](../connect-data/service-template-apps-install-distribute.md)

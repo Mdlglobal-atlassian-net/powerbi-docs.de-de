@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921767"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276902"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Erstellen einer eingebetteten Datenquelle für paginierte Berichte im Power BI-Dienst
 
@@ -27,11 +27,11 @@ In diesem Artikel erfahren Sie, wie eine eingebettete Datenquelle für einen pag
 - Oracle 
 - Teradata 
 
-Verwenden Sie für folgende Datenquellen die Option der [SQL Server Analysis Services-Verbindung](../service-premium-connect-tools.md):
+Verwenden Sie für folgende Datenquellen die Option der [SQL Server Analysis Services-Verbindung](../admin/service-premium-connect-tools.md):
 
 - Power BI Premium-Datasets
 
-Paginierte Berichte stellen über ein [Power BI-Gateway](../service-gateway-onprem.md) eine Verbindung mit lokalen Datenquellen her. Sie richten Sie das Gateway ein, nachdem Sie den Bericht im Power BI-Dienst veröffentlicht haben.
+Paginierte Berichte stellen über ein [Power BI-Gateway](../connect-data/service-gateway-onprem.md) eine Verbindung mit lokalen Datenquellen her. Sie richten Sie das Gateway ein, nachdem Sie den Bericht im Power BI-Dienst veröffentlicht haben.
 
 Ausführlichere Informationen finden Sie unter [Berichtsdaten im Power BI-Berichts-Generator](report-builder-data.md).
 
@@ -93,3 +93,4 @@ Für paginierte Berichte, die eine Verbindung mit Power BI-Datasets herstellen, 
 
 - [Erstellen eines eingebetteten Datasets für einen paginierten Bericht im Power BI-Dienst](paginated-reports-create-embedded-dataset.md)
 - [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
+

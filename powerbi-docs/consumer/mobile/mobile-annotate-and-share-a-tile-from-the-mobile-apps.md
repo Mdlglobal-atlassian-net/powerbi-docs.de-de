@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205502"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149203"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Kommentieren und Freigeben von Kacheln, Berichten oder Visuals in den mobilen Power BI-Apps
 Gilt für:
@@ -28,7 +28,7 @@ Sie können eine Momentaufnahme einer Kachel, eines Berichts oder einer Visualis
 
 *Ein Bericht mit Anmerkungen*
 
-Die E-Mail mit der Momentaufnahme der Kachel, des Berichts oder der Visualisierung enthält auch einen Link zu dem tatsächlichen Objekt im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)). Die Empfänger können auf den Link klicken und direkt zu dieser Kachel, diesem Bericht oder diesem Visual gelangen, wenn Sie das Element für die Empfänger freigegeben haben, und sowohl Sie als auch die Empfänger über Power BI Pro-Lizenzen verfügen, oder wenn es sich um Inhalte in einer [Premium-Kapazität](../../service-premium-what-is.md) handelt. 
+Die E-Mail mit der Momentaufnahme der Kachel, des Berichts oder der Visualisierung enthält auch einen Link zu dem tatsächlichen Objekt im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)). Die Empfänger können auf den Link klicken und direkt zu dieser Kachel, diesem Bericht oder diesem Visual gelangen, wenn Sie das Element für die Empfänger freigegeben haben, und sowohl Sie als auch die Empfänger über Power BI Pro-Lizenzen verfügen, oder wenn es sich um Inhalte in einer [Premium-Kapazität](../../admin/service-premium-what-is.md) handelt. 
 
 Sie können auch [eine Kachel in der mobilen Power BI-App für Windows 10-Geräte freigeben](mobile-windows-10-phone-app-get-started.md), können diese aber nicht kommentieren.
 
@@ -74,4 +74,3 @@ Sie können auch [eine Kachel in der mobilen Power BI-App für Windows 10-Gerät
 ## <a name="next-steps"></a>Weitere Schritte
 * [Freigeben eines Dashboards in den mobilen Power BI-Apps](mobile-share-dashboard-from-the-mobile-apps.md)
 * Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

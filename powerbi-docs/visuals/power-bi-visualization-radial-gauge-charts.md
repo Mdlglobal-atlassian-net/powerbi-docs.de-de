@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866930"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276350"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radialmessgerät-Diagramme in Power BI
 
@@ -116,7 +116,7 @@ In Schritt 2 verwendete Power BI das Feld **Wert**, um den kleinsten und den h
 
 ### <a name="step-5-save-your-report"></a>Schritt 5: Bericht speichern
 
-1. [Speichern Sie den Bericht](../service-report-save.md).
+1. [Speichern Sie den Bericht](../create-reports/service-report-save.md).
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>Verwenden manueller Formatierungsoptionen zum Festlegen der Werte für Minimum, Maximum und Ziel
 
@@ -151,3 +151,4 @@ Nachdem Sie diese Schritte abgeschlossen haben, haben Sie ein Messgerätdiagramm
 * [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+

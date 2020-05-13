@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866907"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276833"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Punktdiagramme, Punktplotdiagramme und Blasendiagramme in Power BI
 
@@ -177,13 +177,13 @@ Wenn dies mit Ihren Daten nicht möglich ist, erstellen Sie ein Feld, in dem die
 
 ![Screenshot eines Punktdiagramms, wobei TempTime dem Bereich „Details“ hinzugefügt ist.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-Um ein neues Feld zu erstellen, [fügen Sie mit dem Abfrage-Editor von Power BI Desktop dem Dataset eine Indexspalte hinzu](../desktop-add-custom-column.md). Fügen Sie diese Spalte dann dem Bereich **Details** Ihrer Visualisierung hinzu.
+Um ein neues Feld zu erstellen, [fügen Sie mit dem Abfrage-Editor von Power BI Desktop dem Dataset eine Indexspalte hinzu](../create-reports/desktop-add-custom-column.md). Fügen Sie diese Spalte dann dem Bereich **Details** Ihrer Visualisierung hinzu.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Folgende Artikel könnten Sie ebenfalls interessieren:
 
-* [Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen](desktop-high-density-scatter-charts.md)
+* [Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen](../create-reports/desktop-high-density-scatter-charts.md)
 * [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Tipps zum Sortieren und Verteilen von Datenplots in Power BI-Berichten](../guidance/report-tips-sort-distribute-data-plots.md)
 

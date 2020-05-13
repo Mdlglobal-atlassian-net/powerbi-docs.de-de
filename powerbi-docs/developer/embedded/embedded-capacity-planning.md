@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493248"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145132"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Planen der Kapazität in Power BI Embedded Analytics
 
@@ -51,7 +51,7 @@ Es folgen einige Beispiele, wie Sie das Planungstool einsetzen können.
 
 Um die Auswirkungen des Lasttests in der Metrik-App nach den Testläufen zu beobachten, folgen Sie den nachstehenden Anweisungen. Rechnen Sie mit einer Verzögerung von bis zu 15 Minuten ab dem Zeitpunkt, an dem der Test beginnt, Last zu generieren, bis zu dem Zeitpunkt, an dem die Last in den Metriken sichtbar wird.
 
-1. Erweitern Sie die Registerkarte **Datasets** auf der Zielseite Ihrer [Metrik-App](../../service-admin-premium-monitor-capacity.md).
+1. Erweitern Sie die Registerkarte **Datasets** auf der Zielseite Ihrer [Metrik-App](../../admin/service-admin-premium-monitor-capacity.md).
 2. Lösen Sie eine bedarfsgesteuerte Aktualisierung aus, indem Sie auf **Jetzt aktualisieren** klicken. Administratoren sollten einen Blick hierauf werfen.
 
     ![Power BI Premium-Kapazitätsmetriken](media/embedded-capacity-planning/embedded-capacity-planning.png)

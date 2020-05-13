@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841777"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273521"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 
@@ -48,7 +48,7 @@ Wenn bei einem für das Smartphone optimierten Bericht Filter definiert wurden, 
 ## <a name="cross-highlight-visuals"></a>Kreuzhervorhebung visuelle Objekte
 Die Kreuzhervorhebung von Visuals im Hochformat funktioniert genauso wie im Power BI-Dienst und bei Smartphones im Querformat: Wenn Sie Daten in einem Visual auswählen, werden die verknüpften Daten in den anderen Visuals auf der jeweiligen Seite hervorgehoben.
 
-Erfahren Sie mehr über das [Filtern und Hervorheben in Power BI](../../power-bi-reports-filters-and-highlighting.md).
+Erfahren Sie mehr über das [Filtern und Hervorheben in Power BI](../../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="select-visuals"></a>Auswählen visueller Elemente
 Wenn Sie in Smartphoneberichten ein visuelles Element auswählen, wird dieses hervorgehoben, und es erhält den Fokus. Gesten für den Zeichenbereich werden unwirksam.
@@ -131,8 +131,7 @@ Berichtsautoren können beim Erstellen eines Berichts einen [Drillthrough defini
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind](../../desktop-create-phone-report.md)
-* [Erstellen einer Telefonansicht eines Dashboards in Power BI](../../service-create-dashboard-mobile-phone-view.md)
+* [Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind](../../create-reports/desktop-create-phone-report.md)
+* [Erstellen einer Telefonansicht eines Dashboards in Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../../visuals/desktop-create-responsive-visuals.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

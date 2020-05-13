@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263666"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273222"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Aktive und inaktive Beziehungen im Vergleich – Leitfaden
 
@@ -114,7 +114,7 @@ Dieser Modellentwurf unterstützt das Generieren des folgenden Berichtsdesigns.
 
 Die Berichtsseite führt eine Filterung nach dem 4. Quartal 2019 durch. Das Tabellenvisual führt eine Gruppierung nach Monat durch und zeigt verschiedene Vertriebsstatistiken an. Die Measures **Orders** und **Orders Shipped** führen zu unterschiedlichen Ergebnissen. Sie verwenden jeweils die gleiche Zusammenfassungslogik (Zählen der Zeilen der Tabelle **Sales**), aber eine unterschiedliche Weitergabe der **Date**-Tabellenfilter.
 
-Beachten Sie, dass der Slicer „Quarter“ ein LEERES Element enthält. Dieser Slicer wird als Ergebnis einer [Tabellenerweiterung](../desktop-relationships-understand.md#strong-relationships) angezeigt. Während jede **Sales**-Tabellenzeile ein Auftragsdatum enthält, ist das Versanddatum in einigen Zeilen LEER – diese Bestellungen wurden noch nicht versendet. Bei der Tabellenerweiterung werden auch inaktive Beziehungen berücksichtigt, sodass LEERE Werte aufgrund von LEEREN Werten auf der n-Seite der Beziehung oder aufgrund von Datenintegritätsproblemen auftreten können.
+Beachten Sie, dass der Slicer „Quarter“ ein LEERES Element enthält. Dieser Slicer wird als Ergebnis einer [Tabellenerweiterung](../transform-model/desktop-relationships-understand.md#strong-relationships) angezeigt. Während jede **Sales**-Tabellenzeile ein Auftragsdatum enthält, ist das Versanddatum in einigen Zeilen LEER – diese Bestellungen wurden noch nicht versendet. Bei der Tabellenerweiterung werden auch inaktive Beziehungen berücksichtigt, sodass LEERE Werte aufgrund von LEEREN Werten auf der n-Seite der Beziehung oder aufgrund von Datenintegritätsproblemen auftreten können.
 
 ## <a name="recommendations"></a>Empfehlungen
 
@@ -129,7 +129,7 @@ Unter bestimmten Umständen können Sie jedoch eine oder mehrere inaktive Bezieh
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modellieren von Beziehungen in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informationen zum Sternschema und dessen Wichtigkeit für Power BI](star-schema.md)
 - [Leitfaden zur Problembehandlung bei Beziehungen](relationships-troubleshoot.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

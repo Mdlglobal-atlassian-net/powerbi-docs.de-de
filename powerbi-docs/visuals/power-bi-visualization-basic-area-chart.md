@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866959"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277155"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Erstellen und Verwenden einfacher Flächendiagramme
 
@@ -68,7 +68,7 @@ In diesem Tutorial wird die [PBIX-Datei mit einem Analysebeispiel für den Einze
    d.  Wählen Sie die Auslassungspunkte in der oberen, rechten Ecke der Visualisierung aus, und wählen Sie **Nach FiscalMonth sortieren**, um das Diagramm sortiert nach Monaten anzuzeigen. Wenn Sie die Sortierreihenfolge ändern möchten, klicken Sie erneut auf die Auslassungspunkte und anschließend auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
-Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
+Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../create-reports/power-bi-report-add-filter.md).
 
 Um einen bestimmten Bereich im Diagramm hervorheben, wählen Sie diesen Bereich oder seinen oberen Rahmen aus.  Im Gegensatz zu anderen Visualisierungstypen erfolgt durch Hervorheben eines grundlegenden Flächendiagramms keine Kreuzfilterung der anderen Visualisierungen auf der Berichtsseite (sofern auf derselben Seite weitere Visualisierungen vorhanden sind). Flächendiagramme sind jedoch ein Ziel für das Kreuzfiltern, das von anderen Visualisierungen auf der Berichtsseite ausgelöst wird. 
 
@@ -78,7 +78,7 @@ Um einen bestimmten Bereich im Diagramm hervorheben, wählen Sie diesen Bereich 
 
     ![Filterbeispiele](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Weitere Informationen finden Sie unter [Interaktionen mit Visuals in einem Power BI-Bericht](../service-reports-visual-interactions.md)
+Weitere Informationen finden Sie unter [Interaktionen mit Visuals in einem Power BI-Bericht](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung   
@@ -87,4 +87,6 @@ Weitere Informationen finden Sie unter [Interaktionen mit Visuals in einem Power
 
 ## <a name="next-step"></a>Nächster Schritt
 [Berichte in Power BI](power-bi-visualization-card.md)  
+
+
 

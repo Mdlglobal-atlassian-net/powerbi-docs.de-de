@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865458"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272900"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Erstellen und Verwenden von Flächenkartogrammen (Choroplethenkarten) in Power BI
 
@@ -92,12 +92,12 @@ In diesem Tutorial wird die [PBIX-Beispieldatei für Vertrieb und Marketing](htt
 7. Das Flächenkartogramm ist grün und rot schattiert. Rot steht dabei für schlechtere und grün für bessere (d.h. positive) Stimmungsdaten.  Ziehen Sie ein Feld in den QuickInfo-Bereich, um weitere Details anzuzeigen.  Hier haben wir **SalesFact** > **Sentiment gap** (SalesFact > Stimmungslücke) hinzugefügt. Wenn Sie den Status von Idaho (ID) hervorheben, sehen Sie, dass die Stimmungslücke bei 6 liegt und damit niedrig ist.
    ![Flächenkartogramm mit QuickInfos zu Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [Speichern Sie den Bericht](../service-report-save.md).
+10. [Speichern Sie den Bericht](../create-reports/service-report-save.md).
 
 Mithilfe von Power BI können Sie die Darstellung Ihres Flächenkartogramms umfassend steuern. Verschieben Sie die Steuerelemente für die Datenfarbe, bis Ihnen das Ergebnis gefällt. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
-Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
+Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../create-reports/power-bi-report-add-filter.md).
 
 Das Markieren eines Orts in einem Flächenkartogramm ermöglicht das Kreuzfiltern anderer Visualisierungen auf der Berichtsseite – und umgekehrt.
 
@@ -136,3 +136,5 @@ Weitere Hilfe zu Kartenvisualisierungen finden Sie unter [Tipps und Tricks für 
 [Formenzuordnung](desktop-shape-map.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

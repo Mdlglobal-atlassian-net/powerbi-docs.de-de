@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381443"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274165"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Anwenden von Datenpunktgrenzwerten und Strategien nach Visualtyp
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Beim Rendern eines Visuals in Power BI muss die Visualisierung schnell und genau sein. Dafür müssen für jeden Visualtyp grundlegende Algorithmen konfiguriert werden. Visuals in Power BI müssen über ausreichend Flexibilität verfügen, um verschiedene Größen von Datasets zu verarbeiten. Einige Datasets enthalten nur wenige Datenpunkte, während andere mehrere Petabytes aufweisen. In diesem Artikel werden die von Power BI verwendeten Strategien zum Rendern von Visualisierungen beschrieben.
 
@@ -57,7 +59,7 @@ Dynamische Grenzwerte werden automatisch angewendet, wenn der Server wie in den 
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Strategien und Datenpunktgrenzwerte nach Visualtyp
 
 ### <a name="area-chart"></a>Flächendiagramm
-Siehe [Funktionsweise der Stichprobenentnahme für Linienelemente](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Siehe [Funktionsweise der Stichprobenentnahme für Linienelemente](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Balken-/Säulendiagramme
 - Im kategorischen Modus
@@ -97,10 +99,10 @@ Flächenkartogramme können Statistiken oder dynamische Grenzwerte verwenden. Po
 - Unterste 3.500
 
 ### <a name="line-chart"></a>Liniendiagramm
-Siehe [Funktionsweise der Stichprobenentnahme für Linienelemente](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Siehe [Funktionsweise der Stichprobenentnahme für Linienelemente](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>Liniendiagramm mit hoher Dichte
-Siehe [Stichprobenentnahme mit hoher Dichte](../desktop-high-density-sampling.md)
+Siehe [Stichprobenentnahme mit hoher Dichte](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Zuordnung 
 - Maximale Anzahl von Datenpunkten: 3.500
@@ -109,9 +111,9 @@ Je nach Konfiguration kann eine Karte Folgendes enthalten:
 - Ort: Oberste 3.500
 - Ort, Größe: Oberste 3.500
 - Ort, Aggregierte Breitengrade und Längengrade (+/-Größe): Oberste 3.500
-- Breitengrade, Längengrade: siehe [Punktdiagramme mit hoher Dichte](desktop-high-density-scatter-charts.md)
+- Breitengrade, Längengrade: siehe [Punktdiagramme mit hoher Dichte](../create-reports/desktop-high-density-scatter-charts.md)
 - Breitengrad, Längengrad, Größe: Oberste 3.500
-- Legende, Breitengrade, Längengrade: siehe [Punktdiagramme mit hoher Dichte](desktop-high-density-scatter-charts.md)
+- Legende, Breitengrade, Längengrade: siehe [Punktdiagramme mit hoher Dichte](../create-reports/desktop-high-density-scatter-charts.md)
 - Legende, Breitengrade, Längengrade, Größe: Oberste 233 Legenden, oberste 15 Breitengrade und Längengrade (hier könnten Statistiken oder dynamische Grenzwerte angewandt werden)
 - Ort, Legende, Aggregierte Breitengrade und Längengrade (+/-Größe): Oberste 233 Orte, oberste 15 Legenden (hier könnten Statistiken oder dynamische Grenzwerte angewandt werden)
 

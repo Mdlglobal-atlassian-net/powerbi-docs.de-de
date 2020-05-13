@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e317b9205878ca9a22a652a7ffb1f4718ab63efc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435580"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276097"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
 Gilt für:
@@ -72,8 +72,7 @@ Sie können ändern, wie Sie von Power BI benachrichtigt werden.
     ![Auswählen von „Benachrichtigungen“](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
 ## <a name="next-steps"></a>Weitere Schritte
-* [Datenwarnungen im Power BI-Dienst](../../service-set-data-alerts.md)
+* [Datenwarnungen im Power BI-Dienst](../../create-reports/service-set-data-alerts.md)
 * [Festlegen von Datenwarnungen in der iPhone-App (Power BI für iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Festlegen von Datenwarnungen in der mobilen Power BI-App für Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Laden Sie die neueste Version der Power BI-Apps](https://powerbi.microsoft.com/mobile/) für mobile Geräte herunter
-

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752669"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275476"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Herstellen einer Verbindung mit dem Bericht zur Nachverfolgung von COVID-19 in den USA
 In diesem Artikel erfahren Sie, wie Sie die Vorlagen-App für den Bericht zur Nachverfolgung von COVID-19 installieren und eine Verbindung mit den Datenquellen herstellen.
@@ -54,14 +54,14 @@ Nachdem Sie die Vorlagen-App installiert und eine Verbindung mit den Datenquelle
 
 ## <a name="schedule-report-refresh"></a>Planen der Berichtsaktualisierung
 
-Wenn die Datenaktualisierung abgeschlossen ist, befinden Sie sich im Arbeitsbereich, der der App zugeordnet ist. [Richten Sie einen Aktualisierungszeitplan ein](../refresh-scheduled-refresh.md), um die Berichtsdaten aktuell zu halten.
+Wenn die Datenaktualisierung abgeschlossen ist, befinden Sie sich im Arbeitsbereich, der der App zugeordnet ist. [Richten Sie einen Aktualisierungszeitplan ein](../connect-data/refresh-scheduled-refresh.md), um die Berichtsdaten aktuell zu halten.
 
 ## <a name="customize-and-share"></a>Anpassen und freigeben
 
-Weitere Informationen finden Sie unter [Anpassen und Freigeben der App](../service-template-apps-install-distribute.md#customize-and-share-the-app). Lesen Sie sich unbedingt die [Haftungsausschlüsse zum Bericht](../create-reports/sample-covid-19-us.md#disclaimers) durch, bevor Sie die App veröffentlichen oder verteilen.
+Weitere Informationen finden Sie unter [Anpassen und Freigeben der App](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Lesen Sie sich unbedingt die [Haftungsausschlüsse zum Bericht](../create-reports/sample-covid-19-us.md#disclaimers) durch, bevor Sie die App veröffentlichen oder verteilen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Beispiel zur Nachverfolgung von COVID-19-Daten für US-Behörden auf bundesstaatlicher und kommunaler Ebene](../create-reports/sample-covid-19-us.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-* [Was sind Power BI-Vorlagen-Apps?](../service-template-apps-overview.md)
-* [Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation](../service-template-apps-install-distribute.md)
+* [Was sind Power BI-Vorlagen-Apps?](../connect-data/service-template-apps-overview.md)
+* [Installieren und Verteilen von Vorlagen-Apps in Ihrer Organisation](../connect-data/service-template-apps-install-distribute.md)

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537230"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131916"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Aktivieren von Vertraulichkeitsbezeichnungen für Daten in Power BI (Vorschau)
 
 Für das Aktivieren von [Microsoft Information Protection-Vertraulichkeitsbezeichnungen für Daten](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) in Power BI gilt Folgendes:
 
-* Bestimmte Benutzer und Sicherheitsgruppen in einer Organisation können [Vertraulichkeitsbezeichnungen](../designer/service-security-apply-data-sensitivity-labels.md) festlegen und auf ihre Power BI-Dashboards, -Berichte, -Datasets und Dataflows (nachfolgend als *Assets* bezeichnet) anwenden.
+* Bestimmte Benutzer und Sicherheitsgruppen in einer Organisation können [Vertraulichkeitsbezeichnungen](../collaborate-share/service-security-apply-data-sensitivity-labels.md) festlegen und auf ihre Power BI-Dashboards, -Berichte, -Datasets und Dataflows (nachfolgend als *Assets* bezeichnet) anwenden.
 * Alle Mitglieder der Organisation können diese Bezeichnungen anzeigen.
 
 Vertraulichkeitsbezeichnungen für Daten fördern den Datenschutz, indem sie Power BI-Autoren und -Consumer auf die Vertraulichkeit von Daten aufmerksam machen und Informationen dazu bereitstellen, was die Klassifizierung bedeutet und wie mit derart klassifizierten Daten umgegangen werden sollte.
@@ -71,6 +71,6 @@ Power BI verwendet Microsoft Information Protection-Vertraulichkeitsbezeichnunge
 In diesem Artikel wurde beschrieben, wie Sie Vertraulichkeitsbezeichnungen auf Daten in Power BI anwenden. Die folgenden Artikel stellen ausführlichere Informationen zum Datenschutz in Power BI bereit. 
 
 * [Übersicht über den Datenschutz in Power BI](service-security-data-protection-overview.md)
-* [Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Anwenden von Vertraulichkeitsbezeichnungen auf Daten in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Verwenden von Microsoft Cloud App Security-Steuerelementen in Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Bericht zu Datenschutzmetriken](service-security-data-protection-metrics-report.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585070"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276327"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 
@@ -24,11 +24,11 @@ Angenommen, die Leser des Berichts sollen die gesamten Vertriebsmetriken einsehe
 
 ![Animation eines Slicers](media/power-bi-visualization-slicers/slicer2.gif)
 
-Dieser Artikel führt Sie durch das Erstellen und Formatieren eines einfachen Datenschnitts mit dem kostenlosen [Analysebeispiel für den Einzelhandel](../sample-retail-analysis.md). Es wird auch gezeigt, wie Sie steuern können, welche Visuals von einem Datenschnitt betroffen sind und wie eine Synchronisierung mit Datenschnitten auf anderen Seiten durchführen. Hier finden Sie weitere Artikel, in denen erläutert wird, wie bestimmte Datenschnitttypen erstellt werden:
+Dieser Artikel führt Sie durch das Erstellen und Formatieren eines einfachen Datenschnitts mit dem kostenlosen [Analysebeispiel für den Einzelhandel](../create-reports/sample-retail-analysis.md). Es wird auch gezeigt, wie Sie steuern können, welche Visuals von einem Datenschnitt betroffen sind und wie eine Synchronisierung mit Datenschnitten auf anderen Seiten durchführen. Hier finden Sie weitere Artikel, in denen erläutert wird, wie bestimmte Datenschnitttypen erstellt werden:
 
-- [Datenschnitt für numerischen Bereich](../desktop-slicer-numeric-range.md)
+- [Datenschnitt für numerischen Bereich](../create-reports/desktop-slicer-numeric-range.md)
 - [Relativer Datenschnitt mit Datum](desktop-slicer-filter-date-range.md)
-- Reaktionsfähige und [größenveränderbare Datenschnitte](../power-bi-slicer-filter-responsive.md)
+- Reaktionsfähige und [größenveränderbare Datenschnitte](../create-reports/power-bi-slicer-filter-responsive.md)
 - [Hierarchiedatenschnitte](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) mit mehreren Feldern
 
 ## <a name="when-to-use-a-slicer"></a>Verwenden von Slicern
@@ -92,7 +92,7 @@ Mithilfe visueller Interaktionen können Sie ausschließen, dass einige Seitenvi
 
    Wenn Sie in den Slicern Namen und Datumsbereiche ausgewählt haben, bleibt das Diagramm **Total Sales Variance by FiscalMonth and District Manager** (Abweichung vom Gesamtumsatz nach Geschäftsmonat und Bezirksleiter) unverändert.
 
-Weitere Informationen zur Bearbeitung von Interaktionen finden Sie unter [Ändern der Interaktion von Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
+Weitere Informationen zur Bearbeitung von Interaktionen finden Sie unter [Ändern der Interaktion von Visualisierungen in einem Power BI-Bericht](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Synchronisieren und Verwenden von Slicern auf anderen Seiten
 Ab dem Power BI-Update von Februar 2018 können Sie einen Slicer synchronisieren und auf einer beliebigen Seite oder allen Seiten in einem Bericht verwenden. 
@@ -134,7 +134,7 @@ Im aktuellen Bericht enthält die Seite **District Monthly Sales** (Monatsumsät
 ## <a name="filtering-slicers"></a>Filterslicer
 Sie können Filter auf Visualebene auf Slicer anwenden, um die Liste der Werte zu reduzieren, die im Slicer angezeigt werden. Beispielsweise können Sie leere Werte aus einem Listenslicer oder bestimmte Datumsangaben aus einem Bereichsslicer herausfiltern. Hierbei werden nur *die Werte beeinflusst, die im Slicer angezeigt werden*, nicht *der Filter, den der Slicer auf andere Visuals anwendet*, wenn Sie eine Auswahl treffen. Angenommen, Sie wenden einen Filter auf einen Bereichsslicer an, um nur bestimmte Datumsangaben anzuzeigen. Die Auswahl im Slicer zeigt nur die ersten und letzten Datumsangaben aus dem Bereich an, die anderen Datumsangaben werden jedoch in Ihren anderen Visuals angezeigt. Sobald Sie Änderungen am ausgewählten Bereich im Slicer vornehmen, werden auch die anderen Visuals geändert. Wenn der Slicer gelöscht wird, werden wieder alle Datumsangaben angezeigt.
 
-Weitere Informationen über Filter auf Visualebene finden Sie unter [Filtertypen](../power-bi-report-filter-types.md).
+Weitere Informationen über Filter auf Visualebene finden Sie unter [Filtertypen](../create-reports/power-bi-report-filter-types.md).
 
 ## <a name="format-slicers"></a>Formatieren von Slicern
 Abhängig vom Slicertyp sind verschiedene Formatierungsoptionen verfügbar. Wenn Sie die Ausrichtung **Horizontal**, das Layout **Dynamisch** und die Farbgebung für **Elemente** auswählen, können Sie anstelle von Standardlistenelementen Schaltflächen oder Kacheln erstellen und die Größe von Slicerelementen an verschiedene Bildschirmgrößen und Layouts anpassen.  
@@ -169,7 +169,7 @@ Abhängig vom Slicertyp sind verschiedene Formatierungsoptionen verfügbar. Wenn
 
     ![Horizontale Optionen](media/power-bi-visualization-slicers/6-buttons.png)
 
-Weitere Informationen zur horizontalen Ausrichtung und zum dynamischen Layout finden Sie unter [Erstellen eines dynamischen Datenschnitts mit anpassbarer Größe in Power BI](../power-bi-slicer-filter-responsive.md).
+Weitere Informationen zur horizontalen Ausrichtung und zum dynamischen Layout finden Sie unter [Erstellen eines dynamischen Datenschnitts mit anpassbarer Größe in Power BI](../create-reports/power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Optionen für Auswahlsteuerelemente (nur bei Slicern für Listen)
 1. Legen Sie unter **Auswahlsteuerelemente** die Option **Option "Alles auswählen" anzeigen** auf **Ein** fest, um dem Slicer das Element **Alle auswählen** hinzuzufügen. 
@@ -222,4 +222,3 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 - [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Tabellen in Power BI](power-bi-visualization-tables.md)
-

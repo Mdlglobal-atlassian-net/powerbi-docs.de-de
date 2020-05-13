@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865251"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272854"
 ---
 # <a name="create-and-use-funnel-charts"></a>Erstellen und Verwenden von Trichterdiagrammen
 
@@ -94,20 +94,23 @@ Erstellen Sie jetzt ein eigenes Trichterdiagramm, das die Anzahl der Verkaufscha
      
      ![Details für die Angebotsleiste](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Speichern Sie den Bericht](../service-report-save.md).
+6. [Speichern Sie den Bericht](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
-Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
+Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../create-reports/power-bi-report-add-filter.md).
 
 Durch Markieren eines Balkens in einem Trichterdiagramm werden Kreuzfilter zu anderen Visualisierungen auf der Berichtsseite aktiviert und umgekehrt. Fügen Sie hierfür der Berichtsseite, die das Trichterdiagramm enthält, einige weitere visuelle Elemente hinzu.
 
 1. Wählen Sie im Trichterdiagramm den Balken **Angebot** aus. Dadurch erfolgt eine Kreuzhervorhebung der anderen Visualisierungen auf der Seite. Mit STRG können Sie mehrere Elemente auswählen.
    
    ![Kurzes Video, das visuelle Interaktionen zeigt](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Informationen zum Festlegen der Einstellungen für die Kreuzhervorhebung und Kreuzfilterung von visuellen Elementen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
+2. Informationen zum Festlegen der Einstellungen für die Kreuzhervorhebung und Kreuzfilterung von visuellen Elementen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Messanzeigen in Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

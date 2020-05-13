@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219867"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148186"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Anzeigen von Power BI-Inhalten, die von einer externen Organisation für Sie freigegeben wurden
 
@@ -28,7 +28,7 @@ Gilt für:
 
 ## <a name="accessing-shared-content"></a>Zugreifen auf freigegebene Inhalte
 
-**Zunächst benötigen Sie eine Person aus einer externen Organisation, die ein Element für Sie freigibt.** Wenn jemand [ein Element für Sie freigibt](../../service-share-dashboards.md) (aus derselben Organisation oder aus einer externen Organisation), erhalten Sie eine E-Mail mit einem Link zu diesem freigegebenen Element. Wenn Sie diesen Link auf Ihrem mobilen Gerät folgen, wird der mobile Power BI-App geöffnet. Wenn die APP erkennt, dass das Element von einer externen Organisation freigegeben wurde, stellt die App erneut eine Verbindung mit dieser Organisation mit ihrer Identität her. Anschließend lädt die APP alle Elemente, die für Sie von dieser Organisation freigegeben wurden.
+**Zunächst benötigen Sie eine Person aus einer externen Organisation, die ein Element für Sie freigibt.** Wenn jemand [ein Element für Sie freigibt](../../collaborate-share/service-share-dashboards.md) (aus derselben Organisation oder aus einer externen Organisation), erhalten Sie eine E-Mail mit einem Link zu diesem freigegebenen Element. Wenn Sie diesen Link auf Ihrem mobilen Gerät folgen, wird der mobile Power BI-App geöffnet. Wenn die APP erkennt, dass das Element von einer externen Organisation freigegeben wurde, stellt die App erneut eine Verbindung mit dieser Organisation mit ihrer Identität her. Anschließend lädt die APP alle Elemente, die für Sie von dieser Organisation freigegeben wurden.
 
 ![Öffnen eines freigegebenen Elements über E-Mail in Power BI ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

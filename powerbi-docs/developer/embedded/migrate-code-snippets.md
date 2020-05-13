@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2976511577dc6e83aa17c83c6c6c560f0755d15
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114482"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141194"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codeausschnitte zum Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung
 
@@ -233,7 +233,7 @@ Für diesen Codeausschnitt wird angenommen, dass sich das im Pushverfahren über
 [Einbetten mit Power BI](embedding.md)  
 [Migrieren von Inhalten aus Power BI Embedded-Arbeitsbereichsammlungen zu Power BI](migrate-from-powerbi-embedded.md)  
 [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embed-sample-for-your-organization.md)  
-[Power BI Premium – Beschreibung](../../service-premium-what-is.md)  
+[Power BI Premium – Beschreibung](../../admin/service-premium-what-is.md)  
 [JavaScript-API-Git-Repository](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI-C#-Git-Repository](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

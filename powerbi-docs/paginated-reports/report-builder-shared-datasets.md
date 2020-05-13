@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923193"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276626"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Erstellen eines paginierten Berichts basierend auf einem freigegebenen Power BI-Dataset
 
@@ -20,14 +20,14 @@ Sie können ein Dataset, das Sie in Power BI Desktop erstellt haben, als Datenqu
 
 ![Power BI Desktop- und paginierter Berichts-Generator-Bericht](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-Der Datensatz muss sich nicht in einem Arbeitsbereich in einer Premium-Kapazität befinden, und Sie müssen kein Mitglied dieses Arbeitsbereichs sein. Sie müssen lediglich die [Erstellungsberechtigung](../service-datasets-build-permissions.md) für das Dataset haben. Um Ihren paginierten Bericht veröffentlichen zu können, benötigen Sie eine Power BI Pro-Lizenz. Außerdem benötigen Sie mindestens eine „Mitwirkender“-Rolle für einen Arbeitsbereich in einer Premium-Kapazität.
+Der Datensatz muss sich nicht in einem Arbeitsbereich in einer Premium-Kapazität befinden, und Sie müssen kein Mitglied dieses Arbeitsbereichs sein. Sie müssen lediglich die [Erstellungsberechtigung](../connect-data/service-datasets-build-permissions.md) für das Dataset haben. Um Ihren paginierten Bericht veröffentlichen zu können, benötigen Sie eine Power BI Pro-Lizenz. Außerdem benötigen Sie mindestens eine „Mitwirkender“-Rolle für einen Arbeitsbereich in einer Premium-Kapazität.
 
 ## <a name="what-you-need"></a>Voraussetzung
 
 Im folgenden finden Sie eine Liste der Elemente, die Sie benötigen oder nicht benötigen, um ein freigegebenes Dataset im Power BI Berichts-Generator zu verwenden.
 
 - Power BI-Berichts-Generator. [Laden Sie den Power BI-Berichts-Generator herunter, und installieren Sie ihn](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Um auf ein Power BI-Dataset zugreifen zu können, benötigen Sie die Erstellungsberechtigung für das Dataset. Erfahren Sie mehr über [Erstellungsberechtigung](../service-datasets-build-permissions.md).
+- Um auf ein Power BI-Dataset zugreifen zu können, benötigen Sie die Erstellungsberechtigung für das Dataset. Erfahren Sie mehr über [Erstellungsberechtigung](../connect-data/service-datasets-build-permissions.md).
 - Sie benötigen keine Power BI Pro-Lizenz, um im Berichts-Generator einen paginierten Bericht zu erstellen. 
 - Sie benötigen eine Power BI Pro-Lizenz, um Ihren paginierten Bericht veröffentlichen zu können. Außerdem benötigen Sie mindestens eine „Mitwirkender“-Rolle für einen Arbeitsbereich in einer Premium-Kapazität. 
 - Optional: Wenn Sie den Schritten in diesem Artikel folgen möchten, laden Sie die Power BI Desktop-Datei [Retail Analysis Sample PBIX.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) herunter, öffnen Sie die Datei in Power BI Desktop, und fügen Sie eine Tabelle mit vielen Spalten hinzu. Deaktivieren Sie im Bereich **Format** die Option **Gesamt**. Veröffentlichen Sie die Datei dann in einem Arbeitsbereich im Power BI-Dienst.
@@ -74,7 +74,7 @@ Dies sind die erforderlichen Schritte zum Abrufen der Abfrage.
 1. Öffnen Sie den Power BI-Bericht (PBIX-Datei) in Power BI Desktop.
 1. Vergewissern Sie sich, dass es in Ihrem Bericht eine Tabelle gibt, die alle Daten enthält, die Sie in Ihrem paginierten-Bericht benötigen. Die Tabelle muss diese beiden Anforderungen erfüllen:
     - Es muss sich um eine flache Tabelle und nicht um eine Matrix oder ein anderes Visual handeln. Konvertieren Sie das Element jetzt in eine Tabelle, wenn es sich nicht um eine Tabelle handelt. Führen Sie dann die folgenden Schritte der Leistungsanalyse aus, und konvertieren Sie sie anschließend wieder ins gewünschte Visual.
-    - Verwenden Sie *vordefinierte Measures* für Ihre numerischen Felder. Neben diesen befindet sich ein Taschenrechnersymbol. Informieren Sie sich über das [Erstellen von Measures](../desktop-measures.md). 
+    - Verwenden Sie *vordefinierte Measures* für Ihre numerischen Felder. Neben diesen befindet sich ein Taschenrechnersymbol. Informieren Sie sich über das [Erstellen von Measures](../transform-model/desktop-measures.md). 
 
         ![Taschenrechnersymbol](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114839"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276189"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Virtueller Q&A-Analyst in iOS-Apps – Power BI
 
@@ -102,7 +102,7 @@ Mit gezielteren Fragen erhalten Sie und Ihre Kunden bessere Ergebnisse, wenn Sie
 * Befolgen Sie diese [Tipps zum Stellen von Fragen mit dem virtuellen Q&A-Analysten](../end-user-q-and-a-tips.md) im Power BI-Dienst und in der mobilen iOS-App.
 
 ### <a name="how-to-enhance-the-dataset"></a>Verbessern von Datasets
-* Verbessern Sie ein Dataset in Power BI Desktop und im Power BI-Dienst zum [Optimieren Ihrer Daten mit Q&A und dem virtuellen Q&A-Analysten](../../service-prepare-data-for-q-and-a.md).
+* Verbessern Sie ein Dataset in Power BI Desktop und im Power BI-Dienst zum [Optimieren Ihrer Daten mit Q&A und dem virtuellen Q&A-Analysten](../../create-reports/service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Q&A im Power BI-Dienst](../end-user-q-and-a.md)

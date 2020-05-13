@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496261"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142311"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Inhalte auf der Power BI-Startseite von Kollegen unter „Empfohlen“ anzeigen
 
@@ -24,9 +24,9 @@ Sie können Dashboards, Berichte und Apps empfehlen, sodass diese auf der Power 
 
 ## <a name="who-can-feature-content"></a>Wer kann Inhalte empfehlen?
 
-Ihr Power BI-Mandantenadministrator kann das Anzeigen von Inhalten unter „Empfohlen“ für Ihren Mandanten aktivieren. Der Administrator entscheidet auch, wer Inhalte empfehlen kann. Weitere Informationen finden Sie in dem Artikel über das [Verwaltungsportal](../service-admin-portal.md#featured-content).
+Ihr Power BI-Mandantenadministrator kann das Anzeigen von Inhalten unter „Empfohlen“ für Ihren Mandanten aktivieren. Der Administrator entscheidet auch, wer Inhalte empfehlen kann. Weitere Informationen finden Sie in dem Artikel über das [Verwaltungsportal](../admin/service-admin-portal.md#featured-content).
 
-Wenn Sie zu den wenigen Personen in Ihrer Organisation mit dieser Aufgabe gehören, benötigen Sie eine Power BI Pro-Lizenz. Wenn Sie Dashboards und Berichte empfehlen möchten, müssen Sie im entsprechenden Arbeitsbereich die Rolle „Administrator“, „Mitglied“ oder „Mitwirkender“ innehaben. Wenn Sie die App selbst empfehlen möchten, müssen Sie im entsprechenden Arbeitsbereich die Rolle „Administrator“ oder „Mitglied“ innehaben. Weitere Informationen finden Sie im Abschnitt [Rollen in den neuen Arbeitsbereichen](../service-new-workspaces.md#roles-in-the-new-workspaces).
+Wenn Sie zu den wenigen Personen in Ihrer Organisation mit dieser Aufgabe gehören, benötigen Sie eine Power BI Pro-Lizenz. Wenn Sie Dashboards und Berichte empfehlen möchten, müssen Sie im entsprechenden Arbeitsbereich die Rolle „Administrator“, „Mitglied“ oder „Mitwirkender“ innehaben. Wenn Sie die App selbst empfehlen möchten, müssen Sie im entsprechenden Arbeitsbereich die Rolle „Administrator“ oder „Mitglied“ innehaben. Weitere Informationen finden Sie im Abschnitt [Rollen in den neuen Arbeitsbereichen](service-new-workspaces.md#roles-in-the-new-workspaces).
 
 ## <a name="who-sees-featured-content"></a>Wer sieht empfohlene Inhalte?
 
@@ -58,7 +58,6 @@ Nun wird diese App allen Benutzern mit Zugriff auf diese App auf der Seite **Hom
 
 ## <a name="next-steps"></a>Weitere Schritte
 
-* [Wie kann ich Dashboards und Berichte freigeben?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Verwalten von empfohlenen Inhalten](../service-admin-portal.md#manage-featured-content)
+* [Wie kann ich Dashboards und Berichte freigeben?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Verwalten von empfohlenen Inhalten](../admin/service-admin-portal.md#manage-featured-content)
 * Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
-
