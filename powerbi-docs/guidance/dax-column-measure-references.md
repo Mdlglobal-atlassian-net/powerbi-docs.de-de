@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498735"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279616"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Spalten- und Measureverweise
 
@@ -43,7 +43,7 @@ Es wird empfohlen, immer vollqualifizierte Spaltenverweise zu verwenden. Die Gr�
 
 ## <a name="measures"></a>Measures
 
-Ein Measure ist ein Objekt auf Modellebene. Deshalb müssen Measurenamen eindeutig innerhalb eines Modells sein. Im Bereich **Felder** sehen Berichtersteller jedoch, dass jedem Measure eine einzelne Modelltabelle zugeordnet ist. Diese Zuordnung wurde aus kosmetischen Gründen vorgenommen, und Sie können sie konfigurieren, indem Sie für das Measure die Eigenschaft **Hometabelle** festlegen. Weitere Informationen finden Sie unter [Organisieren Ihrer Measures](../desktop-measures.md#organizing-your-measures).
+Ein Measure ist ein Objekt auf Modellebene. Deshalb müssen Measurenamen eindeutig innerhalb eines Modells sein. Im Bereich **Felder** sehen Berichtersteller jedoch, dass jedem Measure eine einzelne Modelltabelle zugeordnet ist. Diese Zuordnung wurde aus kosmetischen Gründen vorgenommen, und Sie können sie konfigurieren, indem Sie für das Measure die Eigenschaft **Hometabelle** festlegen. Weitere Informationen finden Sie unter [Organisieren Ihrer Measures](../transform-model/desktop-measures.md#organizing-your-measures).
 
 Sie können in Ihren Ausdrücken ein vollqualifiziertes Measure verwenden. Über DAX IntelliSense werden Ihnen sogar Vorschläge gemacht. Das ist jedoch nicht zwingend erforderlich und keine empfohlene Praxis. Wenn Sie die Hometabelle in ein Measure ändern, funktionieren alle Ausdrücke nicht mehr, die einen vollqualifizierten Measureverweis verwenden. In diesem Fall müssen Sie alle defekten Formeln bearbeiten, um den Measureverweis zu entfernen (oder zu aktualisieren).
 
@@ -68,3 +68,4 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [DAX-Referenz (Data Analysis Expressions)](/dax/)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+

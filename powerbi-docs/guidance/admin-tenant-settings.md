@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487807"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279754"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Administratorleitfaden zu Mandanteneinstellungen
 
@@ -21,7 +21,7 @@ Dieser Artikel richtet sich an Power BI-Administratoren, die für das Einrichten
 
 Hier finden Sie Anleitungen für bestimmte Mandanteneinstellungen, mit denen Sie Power BI optimieren oder Ihre Organisation einem Risiko aussetzen können. Es wird empfohlen, dass Sie Ihren Mandanten immer so konfigurieren, dass er den Richtlinien und Prozessen Ihrer Organisation entspricht.
 
-[Mandanteneinstellungen](../service-admin-portal.md#tenant-settings) werden im [Verwaltungsportal](https://app.powerbi.com/admin-portal/tenantSettings) verwaltet und können von einem [Power BI-Dienstadministrator](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi) konfiguriert werden. Viele Mandanteneinstellungen können Funktionen und Features auf eine begrenzte Anzahl von Benutzern einschränken. Daher ist es empfehlenswert, dass Sie sich zuerst mit den Einstellungen vertraut machen, um die benötigten Sicherheitsgruppen zu planen. Möglicherweise können Sie dieselbe Sicherheitsgruppe auf mehrere Einstellungen anwenden.
+[Mandanteneinstellungen](../admin/service-admin-portal.md#tenant-settings) werden im [Verwaltungsportal](https://app.powerbi.com/admin-portal/tenantSettings) verwaltet und können von einem [Power BI-Dienstadministrator](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi) konfiguriert werden. Viele Mandanteneinstellungen können Funktionen und Features auf eine begrenzte Anzahl von Benutzern einschränken. Daher ist es empfehlenswert, dass Sie sich zuerst mit den Einstellungen vertraut machen, um die benötigten Sicherheitsgruppen zu planen. Möglicherweise können Sie dieselbe Sicherheitsgruppe auf mehrere Einstellungen anwenden.
 
 ## <a name="improve-power-bi-experience"></a>Optimieren von Power BI
 
@@ -88,7 +88,7 @@ Es wird empfohlen, dass Sie mindestens eine Sicherheitsgruppe zuweisen. Diesen G
 
 ### <a name="publish-to-web"></a>Webveröffentlichung
 
-Mit dem Feature [Im Web veröffentlichen](../service-publish-to-web.md) können öffentliche Berichte im Internet veröffentlicht werden. Wenn das Feature unangemessen eingesetzt wird, besteht das Risiko, dass vertrauliche Informationen live im Internet verfügbar gemacht werden.
+Mit dem Feature [Im Web veröffentlichen](../collaborate-share/service-publish-to-web.md) können öffentliche Berichte im Internet veröffentlicht werden. Wenn das Feature unangemessen eingesetzt wird, besteht das Risiko, dass vertrauliche Informationen live im Internet verfügbar gemacht werden.
 
 Die Einstellung **Im Web veröffentlichen** ist zwar standardmäßig für die gesamte Organisation aktiviert, allerdings dürfen Benutzer, die keine Administratoren sind, nur Einbindungscode erstellen. Sie finden sie in der Gruppe **Einstellungen für Export und Freigabe**.
 
@@ -109,7 +109,7 @@ Die Einstellung **Daten exportieren** ist standardmäßig für die gesamte Organ
 Es wird empfohlen, dass Sie mindestens eine Sicherheitsgruppe zuweisen. Diesen Gruppen kann die Berechtigung, Berichte zu veröffentlichen, erteilt _oder verweigert_ werden.
 
 > [!IMPORTANT]
-> Wenn Sie die Einstellung deaktivieren, wird auch die Verwendung der Features [In Excel analysieren](../service-analyze-in-excel.md) und [Liveverbindung](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) (Power BI-Dienst) eingeschränkt.
+> Wenn Sie die Einstellung deaktivieren, wird auch die Verwendung der Features [In Excel analysieren](../collaborate-share/service-analyze-in-excel.md) und [Liveverbindung](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) (Power BI-Dienst) eingeschränkt.
 
 ![Die Einstellung „Daten exportieren“ wird angezeigt.](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ Es wird empfohlen, dass Sie mindestens eine Sicherheitsgruppe zuweisen. Diesen G
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in der Organisation erlauben
 
-Es ist möglich, dass externe Gastbenutzer Power BI-Inhalte bearbeiten und verwalten können. Weitere Informationen finden Sie unter [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B](../service-admin-azure-ad-b2b.md).
+Es ist möglich, dass externe Gastbenutzer Power BI-Inhalte bearbeiten und verwalten können. Weitere Informationen finden Sie unter [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B](../admin/service-admin-azure-ad-b2b.md).
 
 Die Einstellung **Externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in der Organisation erlauben** ist standardmäßig für die gesamte Organisation aktiviert. Sie finden sie in der Gruppe **Einstellungen für Export und Freigabe**.
 
@@ -141,7 +141,8 @@ Wenn Sie nicht vorhaben, mithilfe der Entwickler-APIs Inhalte einzubetten, sollt
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Was ist die Power BI-Verwaltung?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Verwalten von Power BI im Verwaltungsportal](../service-admin-portal.md)
+- [Was ist die Power BI-Verwaltung?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Verwalten von Power BI im Verwaltungsportal](../admin/service-admin-portal.md)
 - Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
+
