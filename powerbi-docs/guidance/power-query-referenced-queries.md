@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290566"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278673"
 ---
 # <a name="referencing-power-query-queries"></a>Verweis auf Power Query-Abfragen
 
@@ -42,7 +42,7 @@ Die Verwendung der Funktion [Table.Buffer](/powerquery-m/table-buffer) in **Abfr
 
 Im Allgemeinen wird empfohlen, auf Abfragen zu verweisen, um eine Duplizierung der Logik in Ihren Abfragen zu vermeiden. Dieser Entwurf kann jedoch, wie in diesem Artikel beschrieben, zu einer verlangsamten Aktualisierung von Daten führen und Datenquellen überlasten.
 
-Daher empfehlen wir, stattdessen einen [Dataflow](../service-dataflows-overview.md) zu erstellen. Die Verwendung eines Dataflows kann die Datenaktualisierung beschleunigen und die negativen Auswirkungen auf Ihre Datenquellen reduzieren.
+Daher empfehlen wir, stattdessen einen [Dataflow](../transform-model/service-dataflows-overview.md) zu erstellen. Die Verwendung eines Dataflows kann die Datenaktualisierung beschleunigen und die negativen Auswirkungen auf Ihre Datenquellen reduzieren.
 
 Sie können den Dataflow so entwerfen, dass die Quelldaten und Transformationen gekapselt werden. Da es sich bei einem Dataflow um einen persistenten Datenspeicher im Power BI-Dienst handelt, erfolgen Datenabrufe schnell. Daher lassen sich die Datenaktualisierungen beschleunigen, auch wenn verweisende Abfragen zu mehreren Anforderungen für den Dataflow führen.
 
@@ -52,7 +52,7 @@ Wenn **Abfrage 1** im Beispiel als Dataflowentität entworfen wird, kann sie vo
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Self-Service-Datenaufbereitung in Power BI](../service-dataflows-overview.md)
-- [Erstellen und Verwenden von Dataflows in Power BI](../service-dataflows-create-use.md)
+- [Self-Service-Datenaufbereitung in Power BI](../transform-model/service-dataflows-overview.md)
+- [Erstellen und Verwenden von Dataflows in Power BI](../transform-model/service-dataflows-create-use.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

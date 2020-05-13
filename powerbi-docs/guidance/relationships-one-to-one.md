@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263804"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278259"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Leitfaden zu 1:1-Beziehungen
 
@@ -99,7 +99,7 @@ Es wird empfohlen, das Erstellen von 1:1-Modellbeziehungen nach Möglichkeit zu 
 - Das Design schränkt die Möglichkeit zum Erstellen von Hierarchien ein, weil die Ebenen auf Spalten aus _derselben Tabelle_ basieren müssen.
 - Dieses Design kann zu unerwarteten Ergebnissen führen, wenn die Zeilen zwischen den Tabellen nicht vollständig übereinstimmen. 
 
-Die spezifischen Empfehlungen weichen ab – je nachdem, ob es sich um eine _inselinterne_ oder um eine _inselübergreifende_ 1:1-Beziehung handelt. Weitere Informationen zur Beziehungsauswertung finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../desktop-relationships-understand.md#relationship-evaluation).
+Die spezifischen Empfehlungen weichen ab – je nachdem, ob es sich um eine _inselinterne_ oder um eine _inselübergreifende_ 1:1-Beziehung handelt. Weitere Informationen zur Beziehungsauswertung finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ### <a name="intra-island-one-to-one-relationship"></a>Inselinterne 1:1-Beziehung
 
@@ -107,7 +107,7 @@ Wenn zwischen Tabellen eine _inselinterne_ 1:1-Beziehung vorliegt, wird eine Kon
 
 Die folgenden Schritte zeigen eine Methodik zum Konsolidieren und Modellieren der Daten in einer 1:1-Beziehung:
 
-1. **Zusammenführen der Abfragen**: Achten Sie beim [Kombinieren der beiden Abfragen](../desktop-shape-and-combine-data.md#combine-queries) auf die Vollständigkeit der Daten in jeder Abfrage. Wenn eine Abfrage einen vollständigen Satz von Zeilen enthält (beispielsweise eine Masterliste), führen Sie die andere Abfrage mit ihr zusammen. Konfigurieren Sie die Zusammenführungstransformation so, dass sie eine _linke äußere Verknüpfung_ verwendet (die standardmäßig Verknüpfung). Dieser Verknüpfungstyp stellt sicher, dass alle Zeilen der ersten Abfrage beibehalten und mit allen übereinstimmenden Zeilen der zweiten Abfrage ergänzt werden. Erweitern Sie alle erforderlichen Spalten der zweiten Abfrage in die erste Abfrage.
+1. **Zusammenführen der Abfragen**: Achten Sie beim [Kombinieren der beiden Abfragen](../connect-data/desktop-shape-and-combine-data.md#combine-queries) auf die Vollständigkeit der Daten in jeder Abfrage. Wenn eine Abfrage einen vollständigen Satz von Zeilen enthält (beispielsweise eine Masterliste), führen Sie die andere Abfrage mit ihr zusammen. Konfigurieren Sie die Zusammenführungstransformation so, dass sie eine _linke äußere Verknüpfung_ verwendet (die standardmäßig Verknüpfung). Dieser Verknüpfungstyp stellt sicher, dass alle Zeilen der ersten Abfrage beibehalten und mit allen übereinstimmenden Zeilen der zweiten Abfrage ergänzt werden. Erweitern Sie alle erforderlichen Spalten der zweiten Abfrage in die erste Abfrage.
 2. **Deaktivieren des Ladevorgangs für Abfragen**: Stellen Sie sicher, dass Sie für die zweite Abfrage den [Ladevorgang für Abfragen deaktivieren](import-modeling-data-reduction.md#disable-power-query-query-load). Auf diese Weise werden die Ergebnisse nicht als Modelltabelle geladen. Diese Konfiguration verringert die Speichergröße des Datenmodells und trägt zur Übersichtlichkeit des Bereichs **Fields** bei.
 
     In unserem Beispiel wird den Berichtsautoren im Bereich **Fields** jetzt eine einzelne Tabelle namens **Product** angezeigt. Diese enthält alle produktbezogenen Felder.
@@ -131,11 +131,11 @@ In unserem Beispiel steht für Berichtsautoren das Feld **Category** innerhalb d
 
 ![Der Bereich „Fields“ zeigt das Feld „Category“ innerhalb eines Ordners namens „Marketing“ an.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Sollten Sie sich dennoch entscheiden, in Ihrem Modell inselinterne 1:1-Beziehungen zu definieren, stellen Sie nach Möglichkeit sicher, dass übereinstimmende Zeilen in den Bezugstabellen vorhanden sind. Da eine inselinterne 1:1-Beziehung als [starke Beziehung](../desktop-relationships-understand.md#strong-relationships) ausgewertet wird, könnten Datenintegritätsprobleme in Ihren Berichtsvisuals zu LEEREN Werten führen. (Ein Beispiel für eine LEERE Gruppierung finden Sie im ersten gezeigten Berichtsvisual in diesem Artikel.)
+Sollten Sie sich dennoch entscheiden, in Ihrem Modell inselinterne 1:1-Beziehungen zu definieren, stellen Sie nach Möglichkeit sicher, dass übereinstimmende Zeilen in den Bezugstabellen vorhanden sind. Da eine inselinterne 1:1-Beziehung als [starke Beziehung](../transform-model/desktop-relationships-understand.md#strong-relationships) ausgewertet wird, könnten Datenintegritätsprobleme in Ihren Berichtsvisuals zu LEEREN Werten führen. (Ein Beispiel für eine LEERE Gruppierung finden Sie im ersten gezeigten Berichtsvisual in diesem Artikel.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>Inselübergreifende 1:1-Beziehung
 
-Wenn zwischen zwei Tabellen eine _inselübergreifende_ 1:1-Beziehung vorliegt, gibt es kein alternatives Modelldesign – es sei denn, Sie führen vorab eine Konsolidierung der Daten in Ihren Datenquellen durch. Power BI wertet die 1:1-Modellbeziehung als [schwache Beziehung](../desktop-relationships-understand.md#weak-relationships) aus. Achten Sie deshalb darauf, dass es übereinstimmende Zeilen in den Bezugstabellen gibt, da nicht übereinstimmende Zeilen aus den Abfrageergebnissen entfernt werden.
+Wenn zwischen zwei Tabellen eine _inselübergreifende_ 1:1-Beziehung vorliegt, gibt es kein alternatives Modelldesign – es sei denn, Sie führen vorab eine Konsolidierung der Daten in Ihren Datenquellen durch. Power BI wertet die 1:1-Modellbeziehung als [schwache Beziehung](../transform-model/desktop-relationships-understand.md#weak-relationships) aus. Achten Sie deshalb darauf, dass es übereinstimmende Zeilen in den Bezugstabellen gibt, da nicht übereinstimmende Zeilen aus den Abfrageergebnissen entfernt werden.
 
 Betrachten wir, was passiert, wenn Felder aus beiden Tabellen zu einem Tabellenvisual hinzugefügt werden und eine schwache Beziehung zwischen den Tabellen besteht.
 
@@ -147,7 +147,7 @@ Die Tabelle zeigt nur zwei Zeilen an. Die Produkt-SKU CL-02 fehlt, weil keine ü
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modellieren von Beziehungen in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informationen zum Sternschema und dessen Wichtigkeit für Power BI](star-schema.md)
 - [Leitfaden zur Problembehandlung bei Beziehungen](relationships-troubleshoot.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065937"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278903"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Tipps zum Sortieren und Verteilen von Datenplots in Power BI-Berichten
 
@@ -42,7 +42,8 @@ Zusammengefasst sind die besten neun Tipps zum Sortieren und Verteilen von Daten
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Tipps zum Erstellen überzeugender Berichte](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Tipps zum Erstellen überzeugender Berichte](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-Video: [Die besten neun Tipps zum Sortieren und Verteilen von Datenplots in Power BI](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
+

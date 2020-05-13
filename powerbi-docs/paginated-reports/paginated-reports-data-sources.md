@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692890"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279156"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Unterstützte Datenquellen für paginierte Power BI-Berichte
 
@@ -38,7 +38,7 @@ Für Azure SQL-Datenbankdaten-Datenquellen müssen Sie weitere Informationen ber
 
 ## <a name="other-data-sources"></a>Andere Datenquellen
 
-Zusätzlich zu den oben genannten nativ unterstützten Datenquellen können Sie über ein [Power BI-Datengateway](../service-gateway-onprem.md) auf die folgenden Datenquellen zugreifen:
+Zusätzlich zu den oben genannten nativ unterstützten Datenquellen können Sie über ein [Power BI-Datengateway](../connect-data/service-gateway-onprem.md) auf die folgenden Datenquellen zugreifen:
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ Damit das einmalige Anmelden (SSO) und OAuth2 ordnungsgemäß funktionieren, mus
 [Anzeigen eines paginierten Berichts im Power BI-Dienst](../consumer/paginated-reports-view-power-bi-service.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+

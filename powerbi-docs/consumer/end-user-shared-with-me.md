@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302487"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277523"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Anzeigen der Dashboards und Berichte, die mit mir geteilt wurden
 
@@ -26,7 +26,7 @@ Wenn ein Kollege Inhalte mit Ihnen teilt und dazu die Schaltfläche **Freigeben*
 
 ![Symbol „Freigeben“](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläutert und veranschaulicht, wie Sie durch die Liste navigieren und sie filtern. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren. Damit Sie Dashboards anzeigen können, die für Sie freigegeben sind, benötigen Sie eine Power BI Pro-Lizenz. Details finden Sie unter [Was ist Power BI Premium?](../service-premium-what-is.md).
+Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläutert und veranschaulicht, wie Sie durch die Liste navigieren und sie filtern. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren. Damit Sie Dashboards anzeigen können, die für Sie freigegeben sind, benötigen Sie eine Power BI Pro-Lizenz. Details finden Sie unter [Was ist Power BI Premium?](../admin/service-premium-what-is.md).
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Die Aktionen, die Ihnen zur Verfügung stehen, hängen von den Einstellungen ab,
 * [Zeigen Sie Erkenntnis an](end-user-insights.md), die Power BI in den Daten findet ![Symbol „Erkenntnisse“](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
-  > Um Informationen zu EGRC-Klassifizierungen zu erhalten, wählen Sie die **Klassifizierungsschaltfläche** aus, oder besuchen Sie [Datenklassifizierung für Dashboards](../service-data-classification.md).
+  > Um Informationen zu EGRC-Klassifizierungen zu erhalten, wählen Sie die **Klassifizierungsschaltfläche** aus, oder besuchen Sie [Datenklassifizierung für Dashboards](../create-reports/service-data-classification.md).
   > 
 
 

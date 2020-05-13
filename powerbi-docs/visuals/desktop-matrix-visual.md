@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866585"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279179"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Erstellen von Matrixvisualisierungen in Power BI
 
@@ -62,7 +62,7 @@ Der Erweiterungsstatus der Matrix wird zusammen mit dem Bericht gespeichert. Ein
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Wenn Sie einen Bericht auf der Grundlage eines mehrdimensionalen Analysis Services-Modells entwickeln, gibt es für das Erweitern/Reduzieren einiges zu beachten, wenn das Modell das Feature für Standardmember verwendet. Weitere Informationen finden Sie unter [Verwenden von mehrdimensionalen Modellen in Power BI](../desktop-default-member-multidimensional-models.md).
+> Wenn Sie einen Bericht auf der Grundlage eines mehrdimensionalen Analysis Services-Modells entwickeln, gibt es für das Erweitern/Reduzieren einiges zu beachten, wenn das Modell das Feature für Standardmember verwendet. Weitere Informationen finden Sie unter [Verwenden von mehrdimensionalen Modellen in Power BI](../connect-data/desktop-default-member-multidimensional-models.md).
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Verwenden von Drilldown mit dem Matrixvisual
 Mit dem Matrixvisual können Sie viele interessante Drilldownaktionen durchführen, die zuvor nicht verfügbar waren. Hierzu zählt die Möglichkeit des Drilldowns auf Zeilen, Spalten und sogar einzelne Abschnitte und Zellen. Im Folgenden befassen Sie sich mit der Funktionsweise.
@@ -211,7 +211,7 @@ Wenn Sie über eine Spalte oder ein Measure verfügen, das Website-URLs enthält
 
 Aktivieren Sie die Option **Web-URL**, und wählen Sie das Feld aus, das als URL für die Spalte verwendet werden soll. Die Werte in dem Feld bzw. der Spalte, für die Sie die bedingte Formatierung konfiguriert haben, werden nun zu aktiven Links. Wenn Sie den Mauszeiger auf einen der Links bewegen, können Sie ihn anklicken und gelangen so zur verlinkten Seite. 
 
-Weitere Informationen finden Sie unter [Verwenden bedingter Formatierungen in Tabellen](../desktop-conditional-table-formatting.md).
+Weitere Informationen finden Sie unter [Verwenden bedingter Formatierungen in Tabellen](../create-reports/desktop-conditional-table-formatting.md).
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Schattierung und Schriftfarben für Matrixvisuals
 Mit dem Matrixvisual können Sie bedingte Formatierung (Farben, Schattierung und Datenbalken) auf den Hintergrund von Zellen in der Matrix und bedingte Formatierung auf den Text und die Werte selbst anwenden.
@@ -233,3 +233,5 @@ Wählen Sie *Erweiterte Steuerelemente* aus, um ein Dialogfeld anzuzeigen, in de
 [Power Apps-Visual für Power BI](power-bi-visualization-powerapp.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

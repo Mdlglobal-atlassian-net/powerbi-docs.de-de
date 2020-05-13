@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260446"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278328"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Leitfaden zu m:n-Beziehungen
 
@@ -161,7 +161,7 @@ Das Visual stellt ein korrektes Ergebnis dar. Der Nutzen des Modells ist allerdi
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Anleitung, um Fakten in m:n-Beziehung zu bringen
 
-Prinzipiell wird davon abgeraten, zwei Faktentabellen mithilfe einer m:n-Kardinalität direkt aufeinander zu beziehen. Der Hauptgrund dafür ist, dass Ihre Berichtsvisuals nicht flexibel gefiltert oder angeordnet werden können. Im Beispiel können Visuals nur nach der Spalte **OrderID** der Tabelle **Order** gefiltert oder angeordnet werden. Außerdem kann die Qualität Ihrer Daten beeinträchtigt werden. Wenn es bei Ihren Daten Integritätsprobleme gibt, werden bei der Abfrage manchmal einige Reihen ausgelassen. Das liegt daran, dass es sich um eine _schwache Beziehung_ handelt. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../desktop-relationships-understand.md#relationship-evaluation).
+Prinzipiell wird davon abgeraten, zwei Faktentabellen mithilfe einer m:n-Kardinalität direkt aufeinander zu beziehen. Der Hauptgrund dafür ist, dass Ihre Berichtsvisuals nicht flexibel gefiltert oder angeordnet werden können. Im Beispiel können Visuals nur nach der Spalte **OrderID** der Tabelle **Order** gefiltert oder angeordnet werden. Außerdem kann die Qualität Ihrer Daten beeinträchtigt werden. Wenn es bei Ihren Daten Integritätsprobleme gibt, werden bei der Abfrage manchmal einige Reihen ausgelassen. Das liegt daran, dass es sich um eine _schwache Beziehung_ handelt. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Anstatt Faktentabellen direkt aufeinander zu beziehen, sollten Sie lieber das [Sternschema](star-schema.md) als Designansatz verwenden. Dazu fügen Sie Dimensionstabellen hinzu. Die Dimensionstabellen werden dann mithilfe von 1:n-Beziehungen mit den Faktentabellen verbunden. Dieser Designansatz ist stabil, da er flexible Berichterstellungsoptionen bietet. Sie können nach einer beliebigen Spalte der Dimensionstabellen filtern oder anordnen und Zusammenfassungen aller verbunden Faktentabellen erstellen.
 
@@ -184,7 +184,7 @@ Wenn Sie sich die Zeit nehmen, die Designprinzipien des Sternschemas anzuwenden,
 - Ihre Berichtsvisuals können nach jeder eingeblendeten Spalte der Dimensionstabellen _gefiltert oder angeordnet werden_.
 - Ihre Berichtsvisuals können _Zusammenfassungen_ jeder eingeblendeten Spalte der Faktentabellen erstellen.
 - Filter, die auf die Tabellen **OrderLine**, **OrderDate** oder **Product** angewendet sind, werden für beide Faktentabellen übernommen.
-- Alle Beziehungen sind 1:n-Beziehungen und damit _starke Beziehungen_. Probleme mit der Datenintegrität können nicht mehr unentdeckt bleiben. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../desktop-relationships-understand.md#relationship-evaluation).
+- Alle Beziehungen sind 1:n-Beziehungen und damit _starke Beziehungen_. Probleme mit der Datenintegrität können nicht mehr unentdeckt bleiben. Weitere Informationen zu Beziehungen finden Sie unter [Modellbeziehungen in Power BI Desktop (Beziehungsauswertung)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Herstellen von Beziehungen zwischen Fakten mit höherer Granularität
 
@@ -209,7 +209,7 @@ Die Beziehung zwischen den Tabellen **Date** und **Target** sollte eine 1:n-Bezi
 
 Dabei müssen Sie sorgfältig vorgehen, damit Filter auf Monats- oder Datumsebene sinnvolle Ergebnisse liefern. Ohne spezielle Berechnungslogik geben Berichtsvisuals in Berichten möglicherweise den ersten Tag eines jeweiligen Jahres als Datum für Verkaufsziele an. Die Zusammenfassung für alle anderen Tage und Monate (mit Ausnahme des Januars) ergeben als Zielmenge LEER.
 
-Im folgenden Matrixvisual sehen Sie, was geschieht, wenn sich ein Berichtbenutzer die Monate eines Jahres ansehen möchte. Im Visual ist eine Zusammenfassung der Spalte **TargetQuantity** dargestellt. Die Option [Elemente ohne Daten anzeigen](../desktop-show-items-no-data.md) wurde für die Matrixzeilen aktiviert.
+Im folgenden Matrixvisual sehen Sie, was geschieht, wenn sich ein Berichtbenutzer die Monate eines Jahres ansehen möchte. Im Visual ist eine Zusammenfassung der Spalte **TargetQuantity** dargestellt. Die Option [Elemente ohne Daten anzeigen](../create-reports/desktop-show-items-no-data.md) wurde für die Matrixzeilen aktiviert.
 
 ![Ein Matrixvisual zeigt für das Jahr 2020 ein Verkaufsziel von 270 an. Wenn das Jahr aufgeklappt wird, um die Monate von 2020 anzuzeigen, beträgt das Verkaufsziel für Januar 270. Für alle anderen Monate wird ein leeres Feld als Verkaufsziel angezeigt.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Wenn Sie eine Beziehung zwischen einer Dimensionstabelle und einer Faktentabelle
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modellieren von Beziehungen in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Informationen zum Sternschema und dessen Wichtigkeit für Power BI](star-schema.md)
 - [Leitfaden zur Problembehandlung bei Beziehungen](relationships-troubleshoot.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

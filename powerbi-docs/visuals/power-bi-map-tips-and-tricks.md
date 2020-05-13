@@ -2,22 +2,25 @@
 title: Tipps und Tricks für Zuordnungen (einschließlich der Integration von Bing Maps)
 description: 'Tipps und Tricks für Power BI-Kartenvisualisierungen, Visuals, Standorte, Längen- und Breitengrad und deren Funktionsweise mit Bing Maps. '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525911"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277822"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 
 
 Sie oder der Administrator müssen möglicherweise die Firewall aktualisieren, um den Zugriff auf die von Bing für die Geocodierung verwendeten URLs zuzulassen.  Diese URLs lauten:
@@ -47,7 +50,7 @@ Wenn Sie Zugriff auf das Dataset haben, das zum Erstellen der Kartenvisualisieru
 
 **1. Kategorisieren von geografischen Feldern in Power BI Desktop**
 
-In Power BI Desktop können Sie sicherstellen, dass Felder richtig geocodiert sind, indem Sie die *Datenkategorie* der Datenfelder festlegen. Wählen Sie in der Datenansicht die gewünschte Spalte aus. Wählen Sie über das Menüband die Registerkarte **Modellierung** aus, und legen Sie dann die **Datenkategorie** auf **Adresse**, **Ort**, **Kontinent**, **Land/Region**, **Landkreis**, **Postleitzahl**, **Bundesland** oder **Kanton** fest. Diese Datentypkategorien helfen Bing, das Datum richtig zu codieren. Weitere Informationen finden Sie unter [Datenkategorisierung in Power BI Desktop](../desktop-data-categorization.md). Wenn Sie eine Liveverbindung mit SQL Server Analysis Services herstellen, müssen Sie die Kategorisierung von Daten außerhalb von Power BI mit [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) festlegen.
+In Power BI Desktop können Sie sicherstellen, dass Felder richtig geocodiert sind, indem Sie die *Datenkategorie* der Datenfelder festlegen. Wählen Sie in der Datenansicht die gewünschte Spalte aus. Wählen Sie über das Menüband die Registerkarte **Modellierung** aus, und legen Sie dann die **Datenkategorie** auf **Adresse**, **Ort**, **Kontinent**, **Land/Region**, **Landkreis**, **Postleitzahl**, **Bundesland** oder **Kanton** fest. Diese Datentypkategorien helfen Bing, das Datum richtig zu codieren. Weitere Informationen finden Sie unter [Datenkategorisierung in Power BI Desktop](../transform-model/desktop-data-categorization.md). Wenn Sie eine Liveverbindung mit SQL Server Analysis Services herstellen, müssen Sie die Kategorisierung von Daten außerhalb von Power BI mit [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) festlegen.
 
 **2. Verwenden mehrerer Standortspalten**    
  Manchmal reicht es trotz Einstellen der Datenkategorien für die Zuordnung nicht aus, dass Bing Ihre Absichten richtig errät. Einige Bezeichnungen sind mehrdeutig, wenn der Ort in mehreren Ländern oder Regionen vorhanden ist. So gibt es beispielsweise ***Southampton*** in England sowie in den Bundesstaaten Pennsylvania und New York.
@@ -94,4 +97,5 @@ Beim Drilling in geografischen Hierarchien müssen Sie wissen, wie die einzelnen
 [Power Bi-Visualisierungen](power-bi-report-visualizations.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
+
 

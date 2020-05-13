@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377740"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277845"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Erweitern von Visuals mit QuickInfos für Berichtsseiten
 
-Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Power BI-Berichte entwerfen. Er enthält Vorschläge und Empfehlungen für das Erstellen von [QuickInfos für Berichtsseiten](../desktop-tooltips.md).
+Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Power BI-Berichte entwerfen. Er enthält Vorschläge und Empfehlungen für das Erstellen von [QuickInfos für Berichtsseiten](../create-reports/desktop-tooltips.md).
 
 ## <a name="suggestions"></a>Vorschläge
 
@@ -29,7 +29,7 @@ QuickInfos für Berichtsseiten können die Möglichkeiten für die Benutzer von 
 > [!NOTE]
 > In einem Berichtsvisual kann nur eine QuickInfo für eine Seite angezeigt werden, wenn die Filter für die QuickInfo der Seite mit dem Design des Visuals kompatibel sind. Beispielsweise ist ein Visual, das nach _product_ gruppiert, mit einer Seite für QuickInfos kompatibel, die nach _product_ filtert.
 >
-> QuickInfos für eine Seite unterstützen keine Interaktivität. Wenn Sie möchten, dass die Benutzer des Berichts interagieren, erstellen Sie stattdessen eine [Drillthroughseite](../desktop-drillthrough.md).
+> QuickInfos für eine Seite unterstützen keine Interaktivität. Wenn Sie möchten, dass die Benutzer des Berichts interagieren, erstellen Sie stattdessen eine [Drillthroughseite](../create-reports/desktop-drillthrough.md).
 >
 > Power BI-Visuals unterstützen keine QuickInfos für Seiten.
 
@@ -65,7 +65,7 @@ Visualheader können so konfiguriert werden, dass für diese QuickInfos für Sei
 
 Interessanterweise können für die QuickInfo für die Seite eines Visualheaders auch Schaltflächen, Bilder, Textfelder und Formen angezeigt werden.
 
-Im folgenden Beispiel wird gezeigt, was geschieht, wenn der Benutzer des Berichts mit dem Mauszeiger auf das [Symbol für den Visualheader](../desktop-visual-elements-for-reports.md) zeigt.
+Im folgenden Beispiel wird gezeigt, was geschieht, wenn der Benutzer des Berichts mit dem Mauszeiger auf das [Symbol für den Visualheader](../create-reports/desktop-visual-elements-for-reports.md) zeigt.
 
 ![Der Benutzer eines Berichts hat mit dem Mauszeiger auf das Symbol des Visualheaders gezeigt (Fragezeichen). Es wurde eine umfangreich formatierte QuickInfo angezeigt.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ Zur Entwurfszeit des Berichts werden wir die folgenden Vorgehensweisen empfohlen
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop](../desktop-tooltips.md)
-- [Anpassen von QuickInfos in Power BI Desktop](../desktop-custom-tooltips.md)
-- [Use visual elements to enhance Power BI reports (Erweitern von Power BI-Berichten durch Visualelemente)](../desktop-visual-elements-for-reports.md)
+- [Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [Anpassen von QuickInfos in Power BI Desktop](../create-reports/desktop-custom-tooltips.md)
+- [Use visual elements to enhance Power BI reports (Erweitern von Power BI-Berichten durch Visualelemente)](../create-reports/desktop-visual-elements-for-reports.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

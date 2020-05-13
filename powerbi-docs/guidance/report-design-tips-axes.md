@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 110aadce6bafd61b3c8b60a7370cedecf0d27ae0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066148"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278098"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Tipps zum Verwalten von Achsen in Power BI-Berichten
 
@@ -41,7 +41,8 @@ Hier die acht Top-Tipps zum effektiven Verwalten von Achsen in Power BI-Berichte
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Tipps zum Erstellen überzeugender Berichte](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Tipps zum Erstellen überzeugender Berichte](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-Video: [Top 8 Tips To Effectively Manage Axes in Power BI](https://www.youtube.com/watch?v=3t9W7Xvpzo0) (Acht Top-Tipps zum effektiven Verwalten von Achsen in Power BI)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com)
+

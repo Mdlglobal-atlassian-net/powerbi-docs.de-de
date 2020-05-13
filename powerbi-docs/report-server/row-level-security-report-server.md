@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859178"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277983"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicherheit auf Zeilenebene auf dem Power BI-Berichtsserver
 
@@ -33,7 +33,7 @@ Standardmäßig werden beim Filtern mit Sicherheit auf Zeilenebene einzelne unid
 
 Aktivieren Sie dieses Kontrollkästchen, wenn Sie die [dynamische Sicherheit auf Zeilenebene](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) basierend auf dem Benutzernamen oder der Anmelde-ID implementieren. 
 
-Weitere Informationen finden Sie unter [Bidirektionale Kreuzfilterung mithilfe von DirectQuery in Power BI Desktop](../desktop-bidirectional-filtering.md) und im Whitepaper [Securing the Tabular BI Semantic Model (Sichern des semantischen BI-Tabellenmodells)](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
+Weitere Informationen finden Sie unter [Bidirektionale Kreuzfilterung mithilfe von DirectQuery in Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md) und im Whitepaper [Securing the Tabular BI Semantic Model (Sichern des semantischen BI-Tabellenmodells)](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ Nachfolgend finden Sie die aktuellen Einschränkungen für die Sicherheit auf Ze
 
 Benutzer, die Berichte besessen haben, die die DAX-Funktion username() verwendet haben, bemerken ein neues Verhalten: der Benutzerprinzipalname (UPN) wird zurückgegeben, es sei denn, der DirectQuery-Modus mit integrierter Sicherheit wird verwendet.  Da die RLS in diesem Szenario nicht berücksichtigt wird, bleibt das Verhalten in diesem Szenario unverändert.
 
-Sie können die RLS nur in den mithilfe von Power BI Desktop erstellten Datasets definieren. Wenn Sie die RLS für mit Excel erstellte Datasets aktivieren möchten, müssen Sie Ihre Dateien zunächst in PBIX-Dateien (Power BI Desktop) konvertieren. Erfahren Sie mehr über das [Konvertieren von Excel-Dateien](../desktop-import-excel-workbooks.md).
+Sie können die RLS nur in den mithilfe von Power BI Desktop erstellten Datasets definieren. Wenn Sie die RLS für mit Excel erstellte Datasets aktivieren möchten, müssen Sie Ihre Dateien zunächst in PBIX-Dateien (Power BI Desktop) konvertieren. Erfahren Sie mehr über das [Konvertieren von Excel-Dateien](../connect-data/desktop-import-excel-workbooks.md).
 
 Es werden nur Verbindungen zum Extrahieren, Transformieren und Laden (ETL) und DirectQuery-Verbindungen unterstützt, die gespeicherte Anmeldeinformationen verwenden. Liveverbindungen zu Analysis Services und DirectQuery-Verbindungen über die integrierte Authentifizierung werden in den zugrunde liegenden Datenquellen behandelt. 
 
@@ -122,3 +122,4 @@ Ja, wenn Sie bereits vorhandene Rollen auf dem Power BI-Berichtsserver definiert
 [Power BI-Berichtsserver](admin-handbook-overview.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+

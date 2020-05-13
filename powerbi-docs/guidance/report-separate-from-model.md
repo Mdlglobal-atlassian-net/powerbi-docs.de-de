@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525253"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277431"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Trennen von Berichten und Modellen in Power BI Desktop
 
 Wenn Sie eine neue Power BI Desktop-Lösung erstellen besteht einer der ersten Schritte in der Datenbeschaffung. Die Datenbeschaffung kann zu zwei deutlich unterschiedlichen Ergebnissen führen. Folgendes ist möglich:
 
-- Sie können eine [Liveverbindung](../desktop-report-lifecycle-datasets.md) mit einem bereits veröffentlichten Modell herstellen, bei dem es sich um ein Power BI-Dataset oder ein remote gehostetes Analysis Services-Modell handeln kann.
+- Sie können eine [Liveverbindung](../connect-data/desktop-report-lifecycle-datasets.md) mit einem bereits veröffentlichten Modell herstellen, bei dem es sich um ein Power BI-Dataset oder ein remote gehostetes Analysis Services-Modell handeln kann.
 - Sie können mit der Entwicklung eines neuen Modells beginnen, bei dem es sich entweder um ein Importmodell, ein DirectQuery-Modell oder ein zusammengesetztes Modell handeln kann.
 
 In diesem Artikel wird das zweite Szenario behandelt. Er bietet Entscheidungshilfen, ob ein Bericht und ein Modell in einer einzigen Power BI Desktop-Datei kombiniert werden sollten.
@@ -67,7 +67,7 @@ Es wird empfohlen, dass Sie sich an den Besitzer jedes zugehörigen Artefakts we
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop](../desktop-report-lifecycle-datasets.md)
+- [Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Anzeigen zugehöriger Inhalte im Power BI-Dienst](../consumer/end-user-related.md)
 - [Datenherkunft](../collaborate-share/service-data-lineage.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114445"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277661"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Überblick über den Berichtsbereich „Filter“
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114445"
 
 Dieser Artikel befasst sich mit dem Berichtsbereich **Filter** im Power BI-Dienst. Sie können Filter verwenden, um neue Erkenntnisse zu Ihren Daten zu gewinnen.
 
-Es gibt viele verschiedene Wege, Daten in Power BI zu filtern. Weitere Informationen zu Filtern finden Sie unter [Filters and highlighting in Power BI reports (Filter und Hervorhebungen in Power BI-Berichten)](../power-bi-reports-filters-and-highlighting.md).
+Es gibt viele verschiedene Wege, Daten in Power BI zu filtern. Weitere Informationen zu Filtern finden Sie unter [Filters and highlighting in Power BI reports (Filter und Hervorhebungen in Power BI-Berichten)](../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ![Screenshot: Bericht im Browser mit einem Pfeil, der auf die Option „Filter“ zeigt](media/end-user-report-filter/power-bi-report.png)
 

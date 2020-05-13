@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867597"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279202"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Verwenden eines Slicers und Filters für relative Zeitbereiche in Power BI
 
@@ -24,7 +24,7 @@ Bei sich schnell ändernden Szenarios kann es nützlich sein, hinsichtlich eines
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Beispiel für relative Zeit":::
 
-Sie müssen das Feature nicht zusammen mit der Funktion für [automatische Seitenaktualisierung](../desktop-automatic-page-refresh.md) verwenden. Viele relative Zeitszenarien lassen sich jedoch gut mit der Funktion für automatische Seitenaktualisierung kombinieren.  
+Sie müssen das Feature nicht zusammen mit der Funktion für [automatische Seitenaktualisierung](../create-reports/desktop-automatic-page-refresh.md) verwenden. Viele relative Zeitszenarien lassen sich jedoch gut mit der Funktion für automatische Seitenaktualisierung kombinieren.  
 
 > [!NOTE]
 > Wenn Sie einen Filter oder Slicer für relative Zeitbereiche auf Seiten- oder Berichtsebene anwenden, werden alle visuellen Elemente (Visuals) auf dieser Seite oder in diesem Bericht für den exakt identischen Zeitbereich gefiltert, wozu eine gemeinsame *Anker*-Zeit verwendet wird. Da visuelle Elemente möglicherweise geringfügig abweichende Ausführungszeiten haben, wird durch diese gemeinsame Ankerzeit sichergestellt, dass die visuellen Elemente auf der gesamten Seite oder im gesamten Bericht synchronisiert werden. Weitere Informationen zu [Ankerzeit](#understanding-anchor-time) finden Sie in diesem Artikel.
@@ -107,4 +107,3 @@ Die folgenden Einschränkungen und Überlegungen betreffen derzeit den Slicer un
 
 - [Verwenden eines Slicers und Filters für relative Datumsbereiche in Power BI](../visuals/desktop-slicer-filter-date-range.md)
 - [Datenschnitte in Power BI](../visuals/power-bi-visualization-slicers.md)
-

@@ -4,22 +4,24 @@ description: Übersicht über Berichtsvisualisierungen (Visuals) in Microsoft Po
 author: mihart
 ms.author: mihart
 ms.reviewer: ''
-featuredvideoid: SYk_gWrtKvM
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65a6ab132cccc56d96f5ac22fef5d80f59f96ca9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381466"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277546"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
 
-Visualisierungen (kurz: Visuals) veranschaulichen Erkenntnisse an, die in den Daten ermittelt wurden. Ein Power BI-Bericht kann eine einzelne Seite mit einem Visual oder mehrere mit Visuals gefüllte Seiten enthalten. Im Power BI-Dienst können Visuals [aus Berichten an Dashboards angeheftet](../service-dashboard-pin-tile-from-report.md) sein.
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
+Visualisierungen (kurz: Visuals) veranschaulichen Erkenntnisse an, die in den Daten ermittelt wurden. Ein Power BI-Bericht kann eine einzelne Seite mit einem Visual oder mehrere mit Visuals gefüllte Seiten enthalten. Im Power BI-Dienst können Visuals [aus Berichten an Dashboards angeheftet](../create-reports/service-dashboard-pin-tile-from-report.md) sein.
 
 Es ist wichtig zwischen *Berichts-Designern* und *Berichtskonsumenten* zu unterscheiden.  Wenn Sie den Bericht erstellen oder ändern, sind Sie der Designer.  Designer verfügen über Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset. In Power BI Desktop bedeutet dies, dass Sie das Dataset in der Datensicht öffnen und in der Berichtsansicht Visuals erstellen können. Im Power BI-Dienst bedeutet dies, dass Sie das Dataset oder den Bericht im Berichts-Editor in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md) öffnen können. Wenn ein Bericht oder Dashboard [für Sie freigegeben](../consumer/end-user-shared-with-me.md) wurde, sind Sie ein *Nutzer* des Berichts. Sie können den Bericht und seine Visuals anzeigen und mit ihnen interagieren, jedoch nicht so viele Änderungen vornehmen, wie es ein *Designer* kann.
 
@@ -28,9 +30,6 @@ Im Power BI-Bereich „Visualisierungen“ stehen viele verschiedene Visualtypen
 ![Bereich mit Symbolen für jeden Visualisierungstyp](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Eine noch größere Auswahl finden Sie auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com). Dort können Sie [Power BI-Visuals](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) suchen und [herunterladen](../developer/visuals/custom-visual-develop-tutorial.md), die von Microsoft und der Community bereitgestellt werden.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
-
 
 Wenn Sie noch nicht mit Power BI gearbeitet haben oder Ihre Kenntnisse auffrischen möchten, finden Sie unten Links zu den Grundlagen von Power BI-Visualisierungen.  Alternativ finden Sie im Inhaltsverzeichnis (links neben diesem Artikel) weitere hilfreiche Informationen.
 
@@ -60,7 +59,7 @@ Versuchen Sie [den Visualisierungstyp zu ändern](power-bi-report-change-visuali
 
 ## <a name="pin-the-visualization"></a>Anheften der Visualisierung
 
-Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie im Power BI-Dienst als Kachel an ein [Dashboard anheften](../service-dashboard-pin-tile-from-report.md). Wenn Sie die im Bericht verwendete Visualisierung ändern, nachdem Sie sie angeheftet haben, wird die Kachel im Dashboard nicht geändert. Wenn die Visualisierung ein Liniendiagramm war, bleibt sie ein Liniendiagramm, selbst wenn Sie sie im Bericht in ein Ringdiagramm geändert haben.
+Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie im Power BI-Dienst als Kachel an ein [Dashboard anheften](../create-reports/service-dashboard-pin-tile-from-report.md). Wenn Sie die im Bericht verwendete Visualisierung ändern, nachdem Sie sie angeheftet haben, wird die Kachel im Dashboard nicht geändert. Wenn die Visualisierung ein Liniendiagramm war, bleibt sie ein Liniendiagramm, selbst wenn Sie sie im Bericht in ein Ringdiagramm geändert haben.
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 - Abhängig von der Datenquelle und der Anzahl an Feldern (Measures oder Spalten) kann es sein, dass ein Visual nur langsam geladen wird.  Aus Gründen der Lesbarkeit und Leistung wird empfohlen, Visuals auf 10 bis 20 Felder zu beschränken. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584931"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277891"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>Beispiel zur Nachverfolgung von COVID-19-Daten für US-Behörden auf bundesstaatlicher und kommunaler Ebene
 
@@ -48,7 +48,7 @@ Wenn Sie die interaktive Grafik auf Ihrer Website einbinden möchten, kopieren S
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Der Einbettungscode ist ein iFrame-Element im HTML-Format, das Sie in eine beliebige HTML-Seite einfügen können. Passen Sie die Breite und Höhe des iFrame-Elements entsprechend Ihrer Website an. Der Beispielbericht wurde im Format 16:9 erstellt. Wählen Sie daher eine Größe aus, bei der dieses Seitenverhältnis beibehalten wird. Bei korrekter Implementierung wird die Grafik ohne einen grauen Rahmen angezeigt. Vor der Durchführung dieser Anpassungen ist es hilfreich, die [Tipps und Tricks für die iFrame-Höhe und -Breite](../service-publish-to-web.md#tips-for-iframe-height-and-width) zu lesen.
+Der Einbettungscode ist ein iFrame-Element im HTML-Format, das Sie in eine beliebige HTML-Seite einfügen können. Passen Sie die Breite und Höhe des iFrame-Elements entsprechend Ihrer Website an. Der Beispielbericht wurde im Format 16:9 erstellt. Wählen Sie daher eine Größe aus, bei der dieses Seitenverhältnis beibehalten wird. Bei korrekter Implementierung wird die Grafik ohne einen grauen Rahmen angezeigt. Vor der Durchführung dieser Anpassungen ist es hilfreich, die [Tipps und Tricks für die iFrame-Höhe und -Breite](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width) zu lesen.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Option 2: Anpassen der Power BI-Beispieldatei
 
@@ -93,18 +93,18 @@ Laden Sie zunächst die PBIX-Datei [hier](https://go.microsoft.com/fwlink/?linki
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Veröffentlichen des Berichts im Power BI-Dienst
 
-Nachdem Sie den Bericht Ihren Vorstellungen entsprechend angepasst haben, [führen Sie die in diesem Artikel beschriebenen Schritte aus](../desktop-upload-desktop-files.md), um den Bericht im Power BI-Dienst zu veröffentlichen.
+Nachdem Sie den Bericht Ihren Vorstellungen entsprechend angepasst haben, [führen Sie die in diesem Artikel beschriebenen Schritte aus](../create-reports/desktop-upload-desktop-files.md), um den Bericht im Power BI-Dienst zu veröffentlichen.
 
 ### <a name="configure-scheduled-refresh"></a>Konfigurieren von geplanten Aktualisierungen
 
-Damit die Daten in Ihrem Bericht immer aktuell sind, können Sie nach der Veröffentlichung des Berichts [geplante Aktualisierungen konfigurieren](../refresh-scheduled-refresh.md).
+Damit die Daten in Ihrem Bericht immer aktuell sind, können Sie nach der Veröffentlichung des Berichts [geplante Aktualisierungen konfigurieren](../connect-data/refresh-scheduled-refresh.md).
 
 Wählen Sie bei der Konfiguration die folgenden Optionen aus:
 
 1. Authentifizierungsmethode für Datenquellen-Anmeldeinformationen: Anonym
 2. Datenschutzebene für diese Datenquelle: Öffentlich
 
-Wenn Sie die Aktualisierungseinstellung testen möchten, wählen Sie die Option [Jetzt aktualisieren](../refresh-data.md#data-refresh) des Datasetelements aus.
+Wenn Sie die Aktualisierungseinstellung testen möchten, wählen Sie die Option [Jetzt aktualisieren](../connect-data/refresh-data.md#data-refresh) des Datasetelements aus.
 
 Die aktualisierten Daten werden bei jeder Zeitplanausführung geladen. Die von USAFacts bereitgestellten Daten werden möglicherweise seltener aktualisiert als in Ihrem Aktualisierungszeitplan definiert. Den Zeitpunkt der letzten Aktualisierung der Daten finden Sie auf der [Website von USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/). 
 
@@ -112,7 +112,7 @@ Wenn Sie den angepassten Bericht auf Ihrer Website veröffentlichen möchten, so
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Erstellen eines Einbettungscodes für die Webveröffentlichung 
 
-Führen Sie zur Einbettung des angepassten Berichts auf Ihrer Website die Schritte aus, die im Artikel [Erstellen von Einbettungscode für die Webveröffentlichung](../service-publish-to-web.md#create-embed-codes-with-publish-to-web) beschrieben werden.
+Führen Sie zur Einbettung des angepassten Berichts auf Ihrer Website die Schritte aus, die im Artikel [Erstellen von Einbettungscode für die Webveröffentlichung](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web) beschrieben werden.
 
 Nach der Veröffentlichung des Einbettungscodes können Sie mithilfe des iFrame-Elements im Bestätigungsdialogfeld die Einbettung in Ihre Website vornehmen.
 
@@ -143,7 +143,7 @@ Sie können die Daten in diesem Bericht auch mit Daten aus einer anderen Quelle 
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="Laden von Daten aus dem Web":::
 
-    Weitere Informationen zum Laden von Daten aus dem Web finden Sie im Artikel [Verbinden mit Webseiten von Power BI Desktop](../desktop-connect-to-web.md).
+    Weitere Informationen zum Laden von Daten aus dem Web finden Sie im Artikel [Verbinden mit Webseiten von Power BI Desktop](../connect-data/desktop-connect-to-web.md).
     
 Anschließend können Sie die Daten mit Power BI Desktop visualisieren. Führen Sie zuletzt die unter **Option 2:** [Veröffentlichen des Berichts im Power BI-Dienst](#publish-your-report-to-the-power-bi-service) beschriebenen Schritte aus, um den Bericht zu veröffentlichen und einen benutzerdefinierten Einbettungscode zu erstellen. 
 
@@ -168,4 +168,8 @@ Die Daten der Johns-Hopkins-Universität sind urheberrechtlich geschützt durch 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Abrufen von Beispielen für Power BI](../sample-datasets.md)
+[Abrufen von Beispielen für Power BI](../create-reports/sample-datasets.md)
+
+
+
+

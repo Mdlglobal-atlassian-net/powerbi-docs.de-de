@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114335"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277615"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Anzeigen eines Berichts im Power BI-Dienst für *Kunden*
 
@@ -99,14 +99,14 @@ Berichte können aus einem Dashboard geöffnet werden. Die meisten [Dashboardkac
     ![Bericht in „Leseansicht“ öffnen](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Nicht alle Kacheln führen zu einem Bericht. Wenn Sie eine Kachel auswählen, die [mit Q&A erstellt wurde](end-user-q-and-a.md), wird der Q&A-Bildschirm geöffnet. Wenn Sie eine Kachel auswählen, die [mit dem Widget **Kachel hinzufügen** erstellt](../service-dashboard-add-widget.md) wurde, kann dies verschiedene Folgen haben: ein Video könnte abgespielt werden, eine Website geöffnet werden und vieles mehr.  
+> Nicht alle Kacheln führen zu einem Bericht. Wenn Sie eine Kachel auswählen, die [mit Q&A erstellt wurde](end-user-q-and-a.md), wird der Q&A-Bildschirm geöffnet. Wenn Sie eine Kachel auswählen, die [mit dem Widget **Kachel hinzufügen** erstellt](../create-reports/service-dashboard-add-widget.md) wurde, kann dies verschiedene Folgen haben: ein Video könnte abgespielt werden, eine Website geöffnet werden und vieles mehr.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Weitere Möglichkeiten zum Öffnen eines Berichts
 Wie Sie mit der Navigation im Power BI-Dienst besser vertraut sind, werden Sie feststellen, welche Arbeitsabläufe für Sie am besten geeignet sind. Weitere Möglichkeiten zum Zugriff auf Berichte:
 - Über den Navigationsbereich mithilfe der Optionen [Favoriten](end-user-favorite.md) und [Zuletzt verwendet](end-user-recent.md)    
 - Mit [Verwandte Inhalte anzeigen](end-user-related.md)    
-- Über eine E-Mail, wenn jemand [einen Bericht für Sie freigibt](../service-share-reports.md) oder Sie [eine Benachrichtigung](end-user-alerts.md) festgelegt haben.    
+- Über eine E-Mail, wenn jemand [einen Bericht für Sie freigibt](../collaborate-share/service-share-reports.md) oder Sie [eine Benachrichtigung](end-user-alerts.md) festgelegt haben.    
 - Über die [Mitteilungszentrale](end-user-notification-center.md)    
 - Aus einem Arbeitsbereich
 - usw.

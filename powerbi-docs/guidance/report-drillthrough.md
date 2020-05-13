@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290581"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278075"
 ---
 # <a name="use-report-page-drillthrough"></a>Verwenden des Drillthrough für Berichtsseiten
 
-Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Power BI-Berichte entwerfen. Er enthält Vorschläge und Empfehlungen für das Erstellen von [Drillthroughs für Berichtsseiten](../desktop-drillthrough.md).
+Dieser Artikel richtet sich an Berichtsautoren wie Sie, die Power BI-Berichte entwerfen. Er enthält Vorschläge und Empfehlungen für das Erstellen von [Drillthroughs für Berichtsseiten](../create-reports/desktop-drillthrough.md).
 
 Es wird empfohlen, den Bericht so zu entwerfen, dass dieser Berichtsbenutzern den folgenden Flow ermöglicht:
 
@@ -58,8 +58,8 @@ Zur Entwurfszeit des Berichts werden wir die folgenden Vorgehensweisen empfohlen
 - **Drillthroughfilter:** Legen Sie Drillthroughfilter fest, damit Sie ein realistisches Ergebnis anzeigen können, während Sie die Drillthroughseite entwerfen. Achten Sie darauf, dass Sie diese Filter vor dem Veröffentlichen des Berichts entfernen.
 - **Zusätzliche Funktionen:** Eine Drillthroughseite kann wie jede beliebige Berichtsseite verwendet werden. Sie können diese sogar um zusätzliche interaktive Funktionen wie Slicer oder Filter erweitern.
 - **Leere Seiten:** Fügen Sie keine Visuals hinzu, die eine leere Seite anzeigen oder beim Anwenden von Drillthroughfiltern zu Fehler führen könnten.
-- **Sichtbarkeit der Seite:** Denken Sie daran, Drillthroughseiten zu verbergen. Wenn Sie eine Drillthroughseite anzeigen möchten, stellen Sie sicher, dass Sie eine Schaltfläche hinzufügen, die es Benutzern ermöglicht, alle zuvor festgelegten Drillthroughfilter zu löschen. Weisen Sie der Schaltfläche ein [Lesezeichen](../desktop-bookmarks.md) zu. Das Lesezeichen sollte so konfiguriert werden, dass alle Filter entfernt werden.
-- **Schaltfläche „Zurück“:** Eine [Schaltfläche](../desktop-buttons.md) „Zurück“ wird automatisch hinzugefügt, wenn Sie einen Drillthroughfilter zuweisen. Es wird empfohlen, diese beizubehalten, denn so können die Benutzer des Berichts einfach zur Ausgangsseite zurückkehren.
+- **Sichtbarkeit der Seite:** Denken Sie daran, Drillthroughseiten zu verbergen. Wenn Sie eine Drillthroughseite anzeigen möchten, stellen Sie sicher, dass Sie eine Schaltfläche hinzufügen, die es Benutzern ermöglicht, alle zuvor festgelegten Drillthroughfilter zu löschen. Weisen Sie der Schaltfläche ein [Lesezeichen](../create-reports/desktop-bookmarks.md) zu. Das Lesezeichen sollte so konfiguriert werden, dass alle Filter entfernt werden.
+- **Schaltfläche „Zurück“:** Eine [Schaltfläche](../create-reports/desktop-buttons.md) „Zurück“ wird automatisch hinzugefügt, wenn Sie einen Drillthroughfilter zuweisen. Es wird empfohlen, diese beizubehalten, denn so können die Benutzer des Berichts einfach zur Ausgangsseite zurückkehren.
 - **Auffinden:** Helfen Sie, die Aufmerksamkeit auf eine Drillthroughseite zu lenken, indem Sie einen Text für das Symbol im Visualheader festlegen oder Anweisungen zu einem Textfeld hinzufügen. Alternativ können Sie eine Überlagerung entwerfen, wie im [diesem Blogbeitrag](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/) beschrieben.
 
 > [!TIP]
@@ -69,6 +69,6 @@ Zur Entwurfszeit des Berichts werden wir die folgenden Vorgehensweisen empfohlen
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Verwenden der Drillthroughfunktion in Power BI Desktop](../desktop-drillthrough.md)
+- [Verwenden der Drillthroughfunktion in Power BI Desktop](../create-reports/desktop-drillthrough.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

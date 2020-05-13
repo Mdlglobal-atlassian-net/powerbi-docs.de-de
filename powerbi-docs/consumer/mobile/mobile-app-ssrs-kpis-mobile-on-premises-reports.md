@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220053"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278857"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Anzeigen lokaler Berichte und KPIs eines Berichtsservers in den mobilen Power BI-Apps
 
@@ -107,7 +107,7 @@ Power BI-Berichte, mobile Reporting Services-Berichte und KPIs werden in den gle
   > Die Ausführung eines Drilldowns und Drillups ist derzeit in Power BI-Berichten auf einem Power BI-Berichtsserver nicht aktiviert.
   
     ![Power BI-Bericht](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* In Power BI Desktop können die Besitzer von Berichten [einen Bericht für die mobilen Power BI-Apps optimieren](../../desktop-create-phone-report.md). Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für optimierten Power BI-Bericht](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
+* In Power BI Desktop können die Besitzer von Berichten [einen Bericht für die mobilen Power BI-Apps optimieren](../../create-reports/desktop-create-phone-report.md). Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für optimierten Power BI-Bericht](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
   
     ![Für Mobilgeräte optimierter Power BI-Bericht](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Tippen Sie auf einen KPI, um diesen im Fokusmodus anzuzeigen.
@@ -133,4 +133,3 @@ Sie können KPIs und Berichte im Webportal als Favoriten markieren und dann bequ
 ## <a name="next-steps"></a>Weitere Schritte
 * [Was ist Power BI?](../../fundamentals/power-bi-overview.md)  
 * Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

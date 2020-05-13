@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496286"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277914"
 ---
 # <a name="view-a-dashboard"></a>Anzeigen eines Dashboards
 
@@ -49,10 +49,10 @@ Sie können Dashboards in allen im Navigationsbereich angezeigten Containern fin
 - **Zuletzt verwendet** – falls Sie zuletzt ein Dashboard besucht haben.
 - **Apps** – die meisten Apps enthalten sowohl Dashboards als auch Berichte.
 - **Für mich freigegeben** – wenn ein Kollege [ein Dashboard für Sie freigegeben hat](end-user-shared-with-me.md).
-- **Mein Arbeitsbereich** – wenn Sie eins der [Power BI-Beispiele](../sample-datasets.md) heruntergeladen haben.
+- **Mein Arbeitsbereich** – wenn Sie eins der [Power BI-Beispiele](../create-reports/sample-datasets.md) heruntergeladen haben.
 
 
 
 ## <a name="next-steps"></a>Weitere Schritte
-* Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](../sample-tutorial-connect-to-the-samples.md) ansehen.    
+* Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](../create-reports/sample-tutorial-connect-to-the-samples.md) ansehen.    
 * Informieren Sie sich über [Dashboardkacheln](end-user-tiles.md), und erfahren Sie, wie Sie damit interagieren.

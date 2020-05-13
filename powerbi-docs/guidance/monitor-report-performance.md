@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525535"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279018"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Überwachen der Berichtsleistung in Power BI
 
-Überwachen Sie die Berichtsleistung in Power BI Desktop mithilfe der [Power BI Premium Metrics-App](../service-premium-metrics-app.md), ermitteln Sie Engpässe, und erfahren Sie, wie Sie die Berichtsleistung verbessern können.
+Überwachen Sie die Berichtsleistung in Power BI Desktop mithilfe der [Power BI Premium Metrics-App](../admin/service-premium-metrics-app.md), ermitteln Sie Engpässe, und erfahren Sie, wie Sie die Berichtsleistung verbessern können.
 
 Die Überwachung der Leistung ist in den folgenden Situationen relevant:
 
@@ -39,7 +39,7 @@ Verwenden Sie die [Abfragediagnose](/power-query/QueryDiagnostics) in Power BI D
 
 ## <a name="use-performance-analyzer"></a>Verwenden der Leistungsanalyse
 
-Mit der [Leistungsanalyse](../desktop-performance-analyzer.md) in Power BI Desktop können Sie die Leistung für jedes Ihrer Berichtselemente – beispielsweise visuelle Elemente und DAX-Formeln – ermitteln. Sie eignet sich insbesondere, um zu ermitteln, ob die Leistung durch eine Abfrage oder beim Rendern eines visuellen Elements beeinträchtigt wird.
+Mit der [Leistungsanalyse](../create-reports/desktop-performance-analyzer.md) in Power BI Desktop können Sie die Leistung für jedes Ihrer Berichtselemente – beispielsweise visuelle Elemente und DAX-Formeln – ermitteln. Sie eignet sich insbesondere, um zu ermitteln, ob die Leistung durch eine Abfrage oder beim Rendern eines visuellen Elements beeinträchtigt wird.
 
 ## <a name="use-sql-server-profiler"></a>Verwenden von SQL Server Profiler
 
@@ -77,15 +77,15 @@ Ein Vorteil bei Verwendung von SQL Server Profiler ist, dass Sie eine Ablaufverf
 
 ## <a name="monitor-premium-metrics"></a>Überwachen von Premium-Metriken
 
-Um die Integrität und Kapazität Ihres Power BI Premium-Abonnements zu überwachen, können Sie die **Power BI Premium Metrics-App** verwenden. Weitere Informationen finden Sie unter [Power BI Premium Metrics-App](../service-premium-metrics-app.md).
+Um die Integrität und Kapazität Ihres Power BI Premium-Abonnements zu überwachen, können Sie die **Power BI Premium Metrics-App** verwenden. Weitere Informationen finden Sie unter [Power BI Premium Metrics-App](../admin/service-premium-metrics-app.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
 - [Abfragediagnose](/power-query/QueryDiagnostics)
-- [Leistungsanalyse](../desktop-performance-analyzer.md)
+- [Leistungsanalyse](../create-reports/desktop-performance-analyzer.md)
 - [Problembehandlung für die Berichtsleistung in Power BI](report-performance-troubleshoot.md)
-- [Power BI Premium Metrics-App](../service-premium-metrics-app.md)
+- [Power BI Premium Metrics-App](../admin/service-premium-metrics-app.md)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)

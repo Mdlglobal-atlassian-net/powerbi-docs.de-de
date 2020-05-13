@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114247"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277454"
 ---
 # <a name="reports-in-power-bi"></a>Berichte in Power BI
 
@@ -76,7 +76,7 @@ Oder Sie sind ein *Berichtsnutzer*, der Berichte von anderen erhält. Dann sollt
 
 * Beginnen Sie mit einer [Tour des Power BI-Diensts](end-user-basic-concepts.md), um zu erfahren, wo Sie Berichte und Berichtstools finden.
 * Erfahren Sie, wie Sie [einen Bericht öffnen](end-user-report-open.md), und lernen Sie alle [für Consumer verfügbaren Interaktionen](end-user-reading-view.md) kennen.
-* Machen Sie sich mit Berichten vertraut, indem Sie sich eine Tour durch eines unserer [Beispiele](../sample-tutorial-connect-to-the-samples.md) ansehen.  
+* Machen Sie sich mit Berichten vertraut, indem Sie sich eine Tour durch eines unserer [Beispiele](../create-reports/sample-tutorial-connect-to-the-samples.md) ansehen.  
 * Informationen dazu, welches Dataset ein Bericht verwendet und welche Dashboards Visuals aus dem Bericht anzeigen (*Pins*), finden Sie unter [Anzeigen verwandter Inhalte im Power BI-Dienst](end-user-related.md).
 
 > [!TIP]
@@ -86,3 +86,4 @@ Oder Sie sind ein *Berichtsnutzer*, der Berichte von anderen erhält. Dann sollt
 
 [Öffnen und Anzeigen eines Berichts](end-user-report-open.md)    
 [Dashboards im Power BI-Dienst](end-user-dashboards.md)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378867"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278605"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Leitfaden für die Optimierung von Power BI
 
@@ -26,7 +26,7 @@ Dieser Artikel enthält Anweisungen, mit denen Entwickler und Administratoren op
 
 ## <a name="optimizing-the-data-model"></a>Optimieren des Datenmodells
 
-Das Datenmodell unterstützt das gesamte Visualisierungserlebnis. Datenmodelle werden entweder extern oder intern gehostet und in Power BI als _Datasets_ bezeichnet. Sie sollten mit den verfügbaren Optionen vertraut sein und den geeigneten Typ von Dataset für Ihre Lösung auswählen. Sie können zwischen drei Datasetmodi wählen: „Import“, „DirectQuery“ und „Zusammengesetzt“. Weitere Informationen finden Sie unter [Datasets im Power BI-Dienst](../service-datasets-understand.md) und [Datasetmodi im Power BI-Dienst](../service-dataset-modes-understand.md).
+Das Datenmodell unterstützt das gesamte Visualisierungserlebnis. Datenmodelle werden entweder extern oder intern gehostet und in Power BI als _Datasets_ bezeichnet. Sie sollten mit den verfügbaren Optionen vertraut sein und den geeigneten Typ von Dataset für Ihre Lösung auswählen. Sie können zwischen drei Datasetmodi wählen: „Import“, „DirectQuery“ und „Zusammengesetzt“. Weitere Informationen finden Sie unter [Datasets im Power BI-Dienst](../connect-data/service-datasets-understand.md) und [Datasetmodi im Power BI-Dienst](../connect-data/service-dataset-modes-understand.md).
 
 Spezifische Anweisungen zu Datasetmodi finden Sie hier:
 
@@ -40,7 +40,7 @@ Bei Power BI-Visualisierungen kann es sich um Dashboards, Power BI-Berichte oder
 
 ### <a name="dashboards"></a>Dashboards
 
-Power BI verfügt über einen Cache für Ihre Dashboardkacheln (mit Ausnahme von Liveberichtskacheln und Streamingkacheln). Weitere Informationen finden Sie unter [Aktualisieren von Daten in Power BI (Kachelaktualisierung)](../refresh-data.md#tile-refresh). Wenn Ihr Dataset eine dynamische [Sicherheit auf Zeilenebene (Row-Level Security, RLS)](../service-admin-rls.md) erzwingt, sollten Sie mit den Auswirkungen auf die Leistung vertraut sein, da Kacheln pro Benutzer zwischengespeichert werden.
+Power BI verfügt über einen Cache für Ihre Dashboardkacheln (mit Ausnahme von Liveberichtskacheln und Streamingkacheln). Weitere Informationen finden Sie unter [Aktualisieren von Daten in Power BI (Kachelaktualisierung)](../connect-data/refresh-data.md#tile-refresh). Wenn Ihr Dataset eine dynamische [Sicherheit auf Zeilenebene (Row-Level Security, RLS)](../admin/service-admin-rls.md) erzwingt, sollten Sie mit den Auswirkungen auf die Leistung vertraut sein, da Kacheln pro Benutzer zwischengespeichert werden.
 
 Wenn Sie Liveberichtskacheln im Dashboard anheften, werden sie nicht aus dem Abfragecache bereitgestellt. Stattdessen entspricht das Verhalten dem regulären Berichtsverhalten, sodass Abfragen nach Bedarf an Back-End-Kerne erfolgen.
 
@@ -75,7 +75,7 @@ Achten Sie darauf, jedes benutzerdefinierte Visual zu analysieren, um eine hohe 
 
 Paginierte Power BI-Berichtsentwürfe können optimiert werden, indem Sie bewährte Methoden für den Datenabruf des Berichts anwenden. Weitere Informationen finden Sie unter [Leitfaden zum Datenabruf von paginierten Berichten](report-paginated-data-retrieval.md).
 
-Stellen Sie außerdem sicher, dass im Rahmen Ihrer Kapazität genügend Arbeitsspeicher für die [Workload paginierter Berichte](../service-admin-premium-workloads.md#paginated-reports) zugeordnet ist.
+Stellen Sie außerdem sicher, dass im Rahmen Ihrer Kapazität genügend Arbeitsspeicher für die [Workload paginierter Berichte](../admin/service-admin-premium-workloads.md#paginated-reports) zugeordnet ist.
 
 ## <a name="optimizing-the-environment"></a>Optimieren der Umgebung
 
@@ -83,11 +83,11 @@ Sie können die Power BI-Umgebung optimieren, indem Sie Kapazitätseinstellungen
 
 ### <a name="capacity-settings"></a>Kapazitätseinstellungen
 
-Bei Verwendung dedizierter Kapazitäten – verfügbar mit Power BI Premium (P-SKUs) oder Power BI Embedded (A-SKUs, A4-A6) – haben Sie die Möglichkeit, Kapazitätseinstellungen zu verwalten. Weitere Informationen finden Sie unter [Verwalten von Premium-Kapazitäten](../service-premium-capacity-manage.md). Eine Anleitung zur Optimierung Ihrer Kapazität finden Sie unter [Optimieren von Premium-Kapazitäten](../service-premium-capacity-optimize.md).
+Bei Verwendung dedizierter Kapazitäten – verfügbar mit Power BI Premium (P-SKUs) oder Power BI Embedded (A-SKUs, A4-A6) – haben Sie die Möglichkeit, Kapazitätseinstellungen zu verwalten. Weitere Informationen finden Sie unter [Verwalten von Premium-Kapazitäten](../admin/service-premium-capacity-manage.md). Eine Anleitung zur Optimierung Ihrer Kapazität finden Sie unter [Optimieren von Premium-Kapazitäten](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Festlegen der Gatewaygröße
 
-Ein Gateway ist immer dann erforderlich, wenn Power BI Zugriff auf Daten benötigt, die nicht direkt über das Internet zugänglich sind. Sie können das [lokale Datengateway](../service-gateway-onprem.md) entweder auf einem lokalen Server oder in einem VM-gehosteten IaaS-Dienst (Infrastructure-as-a-Service) installieren.
+Ein Gateway ist immer dann erforderlich, wenn Power BI Zugriff auf Daten benötigt, die nicht direkt über das Internet zugänglich sind. Sie können das [lokale Datengateway](../connect-data/service-gateway-onprem.md) entweder auf einem lokalen Server oder in einem VM-gehosteten IaaS-Dienst (Infrastructure-as-a-Service) installieren.
 
 Empfehlungen zu Gatewayworkloads und zur Festlegung der Größe finden Sie unter [Festlegen der Größe des lokalen Datengateways](gateway-onprem-sizing.md).
 
@@ -96,7 +96,7 @@ Empfehlungen zu Gatewayworkloads und zur Festlegung der Größe finden Sie unter
 Die Netzwerklatenz kann die Leistung eines Berichts beeinträchtigen, wenn es länger dauert, bis Anforderungen den Power BI-Dienst erreichen und Antworten übermittelt werden. Mandanten in Power BI werden einer bestimmten Region zugewiesen.
 
 > [!TIP]
-> Im Artikel [Wo befindet sich mein Power BI-Mandant?](../service-admin-where-is-my-tenant-located.md) erfahren Sie, wie Sie ermitteln, in welcher Region sich Ihr Mandant befindet.
+> Im Artikel [Wo befindet sich mein Power BI-Mandant?](../admin/service-admin-where-is-my-tenant-located.md) erfahren Sie, wie Sie ermitteln, in welcher Region sich Ihr Mandant befindet.
 
 Wenn Benutzer von einem Mandanten aus auf den Power BI-Dienst zugreifen, werden ihre Anforderungen immer an diese Region weitergeleitet. Wenn die Anforderungen den Power BI-Dienst erreichen, kann der Dienst zusätzliche Anforderungen senden (z.B. an die zugrunde liegende Datenquelle oder das Gateway), die ebenfalls der Netzwerklatenz unterliegen.
 
@@ -115,3 +115,7 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 - Whitepaper: [Planning a Power BI Enterprise Deployment](https://go.microsoft.com/fwlink/?linkid=2057861)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
+
+
+
+

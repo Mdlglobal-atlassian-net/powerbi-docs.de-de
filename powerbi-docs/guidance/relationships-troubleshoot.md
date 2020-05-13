@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ccff80391ed0625aac063af3bf7a86b83cd7e85
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263643"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278121"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>Leitfaden zur Problembehandlung bei Beziehungen
 
@@ -44,18 +44,18 @@ Im Folgenden finden Sie eine Liste aller Probleme sowie mögliche Lösungen.
 
 |Problem|Mögliche Ursachen|
 |---------|---------|
-|Das Visual zeigt kein Ergebnis an.|– In das Modell müssen noch Daten geladen werden.<br />– Im Filterkontext sind keine Daten vorhanden.<br />– Die Sicherheit auf Zeilenebene wird erzwungen.<br />– Beziehungen werden zwischen Tabellen nicht weitergegeben: _Befolgen Sie die oben aufgeführte Checkliste_.<br />– Die Sicherheit auf Zeilenebene wird erzwungen, aber eine bidirektionale Beziehung ist nicht für die Weitergabe aktiviert: Informationen hierzu finden Sie unter [Sicherheit auf Zeilenebene (RLS) mit Power BI Desktop](../desktop-rls.md).|
+|Das Visual zeigt kein Ergebnis an.|– In das Modell müssen noch Daten geladen werden.<br />– Im Filterkontext sind keine Daten vorhanden.<br />– Die Sicherheit auf Zeilenebene wird erzwungen.<br />– Beziehungen werden zwischen Tabellen nicht weitergegeben: _Befolgen Sie die oben aufgeführte Checkliste_.<br />– Die Sicherheit auf Zeilenebene wird erzwungen, aber eine bidirektionale Beziehung ist nicht für die Weitergabe aktiviert: Informationen hierzu finden Sie unter [Sicherheit auf Zeilenebene (RLS) mit Power BI Desktop](../create-reports/desktop-rls.md).|
 |Das Visual zeigt für jede Gruppierung denselben Wert an. |– Es sind keine Beziehungen vorhanden.<br />– Beziehungen werden zwischen Tabellen nicht weitergegeben: _Befolgen Sie die oben aufgeführte Checkliste_.|
 |Das Visual zeigt Ergebnisse an, diese sind aber nicht richtig.|– Das Visual ist falsch konfiguriert.<br />– Die Measurelogik ist falsch.<br />– Die Modelldaten müssen aktualisiert werden.<br />– Die Quelldaten sind falsch.<br />– Zwischen den Spalten wurde eine falsche Beziehung hergestellt (Beispiel: Die Spalte **ProductID** wurde der Spalte **CustomerID** zugeordnet).<br />– Es handelt sich um eine Beziehung zwischen zwei DirectQuery-Tabellen, und die 1-Seite einer Beziehung enthält doppelte Werte.|
-|Es werden LEERE Gruppierungen oder Slicer- bzw. Filterelemente angezeigt, und die Quellspalten enthalten keine LEEREN Werte.|– Es handelt sich um eine starke Beziehung und die Spalte der n-Seite enthält Werte, die in der Spalte der 1-Seite nicht gespeichert sind: Informationen hierzu finden Sie unter [Modellieren von Beziehungen in Power BI Desktop (starke Beziehungen)](../desktop-relationships-understand.md#strong-relationships).<br />– Es handelt sich um eine starke 1:1-Beziehung, und zugeordnete Spalten enthalten LEERE Werte: Informationen hierzu finden Sie unter [Modellieren von Beziehungen in Power BI Desktop (starke Beziehungen)](../desktop-relationships-understand.md#strong-relationships).<br />– Eine Spalte der n-Seite einer inaktiven Beziehung enthält LEERE Werte oder Werte, die auf der 1-Seite nicht gespeichert sind.|
-|Im Visual fehlen Daten.|– Es wurden falsche oder unerwartete Filter angewendet.<br />– Die Sicherheit auf Zeilenebene wird erzwungen.<br />– Es handelt sich um eine schwache Beziehung, und in zugeordneten Spalten befinden sich LEERE Werte, oder es liegen Datenintegritätsprobleme vor: Informationen hierzu finden Sie unter [Modellieren von Beziehungen in Power BI Desktop (schwache Beziehungen)](../desktop-relationships-understand.md#weak-relationships).<br />– Es handelt sich um eine Beziehung zwischen zwei DirectQuery-Tabellen, die Beziehung ist so konfiguriert, dass [referenzielle Integrität vorausgesetzt wird](../desktop-relationships-understand.md#assume-referential-integrity), aber es liegen Probleme mit der Datenintegrität vor (nicht übereinstimmende Werte in zugeordneten Spalten).|
-|Die Sicherheit auf Zeilenebene wird nicht ordnungsgemäß erzwungen.|– Beziehungen werden zwischen Tabellen nicht weitergegeben: _Befolgen Sie die oben aufgeführte Checkliste_.<br />– Die Sicherheit auf Zeilenebene wird erzwungen, aber eine bidirektionale Beziehung ist nicht für die Weitergabe aktiviert: Informationen hierzu finden Sie unter [Sicherheit auf Zeilenebene (RLS) mit Power BI Desktop](../desktop-rls.md).|
+|Es werden LEERE Gruppierungen oder Slicer- bzw. Filterelemente angezeigt, und die Quellspalten enthalten keine LEEREN Werte.|– Es handelt sich um eine starke Beziehung und die Spalte der n-Seite enthält Werte, die in der Spalte der 1-Seite nicht gespeichert sind: Informationen hierzu finden Sie unter [Modellieren von Beziehungen in Power BI Desktop (starke Beziehungen)](../transform-model/desktop-relationships-understand.md#strong-relationships).<br />– Es handelt sich um eine starke 1:1-Beziehung, und zugeordnete Spalten enthalten LEERE Werte: Informationen hierzu finden Sie unter [Modellieren von Beziehungen in Power BI Desktop (starke Beziehungen)](../transform-model/desktop-relationships-understand.md#strong-relationships).<br />– Eine Spalte der n-Seite einer inaktiven Beziehung enthält LEERE Werte oder Werte, die auf der 1-Seite nicht gespeichert sind.|
+|Im Visual fehlen Daten.|– Es wurden falsche oder unerwartete Filter angewendet.<br />– Die Sicherheit auf Zeilenebene wird erzwungen.<br />– Es handelt sich um eine schwache Beziehung, und in zugeordneten Spalten befinden sich LEERE Werte, oder es liegen Datenintegritätsprobleme vor: Informationen hierzu finden Sie unter [Modellieren von Beziehungen in Power BI Desktop (schwache Beziehungen)](../transform-model/desktop-relationships-understand.md#weak-relationships).<br />– Es handelt sich um eine Beziehung zwischen zwei DirectQuery-Tabellen, die Beziehung ist so konfiguriert, dass [referenzielle Integrität vorausgesetzt wird](../transform-model/desktop-relationships-understand.md#assume-referential-integrity), aber es liegen Probleme mit der Datenintegrität vor (nicht übereinstimmende Werte in zugeordneten Spalten).|
+|Die Sicherheit auf Zeilenebene wird nicht ordnungsgemäß erzwungen.|– Beziehungen werden zwischen Tabellen nicht weitergegeben: _Befolgen Sie die oben aufgeführte Checkliste_.<br />– Die Sicherheit auf Zeilenebene wird erzwungen, aber eine bidirektionale Beziehung ist nicht für die Weitergabe aktiviert: Informationen hierzu finden Sie unter [Sicherheit auf Zeilenebene (RLS) mit Power BI Desktop](../create-reports/desktop-rls.md).|
 |||
 
 ## <a name="next-steps"></a>Weitere Schritte
 
 Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 
-- [Modellieren von Beziehungen in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modellieren von Beziehungen in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 - Vorschläge? [Einbringen von Ideen zur Verbesserung von Power BI](https://ideas.powerbi.com/)
