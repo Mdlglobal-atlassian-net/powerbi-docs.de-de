@@ -12,6 +12,10 @@
       items:
         - name: Entwickeln eines Power BI-Visuals
           href: custom-visual-develop-tutorial.md
+        - name: Erstellen von reaktionsbasierten Visuals
+          href: create-react-visual.md
+        - name: Erstellen eines Balkendiagramms
+          href: create-bar-chart.md
         - name: Hinzufügen von Formatierungsoptionen
           href: custom-visual-develop-tutorial-format-options.md
         - name: Hinzufügen von Komponententests für Visualprojekte
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Modus „Erweiterte Bearbeitung“
           href: advanced-edit-mode.md
+        - name: supportsKeyboardFocus-Feature
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: Vorgehensweise
       items:
         - name: "So lassen Sie sich ein Power\_BI-Visual zertifizieren"
           href: power-bi-custom-visuals-certified.md
         - name: Veröffentlichen von Power BI-Visuals in AppSource
           href: office-store.md
+        - name: Testen eines Power BI-Visuals
+          href: submission-testing.md
         - name: Verwenden von R-gestützten Power BI-Visuals in Power BI
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Visualinteraktionen
           href: visuals-interactions.md
         - name: Hinzufügen von Auswahloptionen
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Hinzufügen von Unterstützung für Drilldowns
           href: drill-down-support.md
+        - name: Hinzufügen von Farben zum Visual
+          href: add-colors-power-bi-visual.md
         - name: Hervorheben von Daten in Visuals
           href: highlight.md
         - name: Unterstützung des Modus für hohen Kontrast
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Referenz
       items:
+        - name: Änderungsprotokoll
+          href: changelog.md
         - name: Startseite
           href: landing-page.md
         - name: Start-URL
           href: launch-url.md
+        - name: Visual-API
+          href: visual-api.md
         - name: API für lokalen Speicher
           href: local-storage.md
         - name: Rendern von Ereignissen
@@ -119,8 +135,8 @@
         - name: Dev Center
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Beispiele für Power BI-Visuals
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI-Visuals-Git-Repository
+          href: samples.md
+        - name: Git-Repository für benutzerdefinierte Visuals
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: Erstellen eines SSL-Zertifikats
           href: create-ssl-certificate.md
