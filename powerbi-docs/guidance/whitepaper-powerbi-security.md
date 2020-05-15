@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279087"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407535"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper zur Sicherheit in Power BI
 
@@ -263,7 +263,7 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 
     &ensp;&ensp;ein. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten zwischengespeichert.
 
-    &ensp;&ensp;b. Für Power BI-Berichte werden die Daten für die angezeigten Visuals verschlüsselt in Azure SQL-Datenbank zwischengespeichert.
+    &ensp;&ensp;b. Bei Power BI Berichten werden die Daten für die angezeigten Visuals der Berichte zwischengespeichert und im visuellen Daten Cache gespeichert, der im folgenden Abschnitt beschrieben wird.
  
 
 4. Ursprüngliche Power BI Desktop- (.pbix) oder Excel-Dateien (.xlsx), die in Power BI veröffentlicht werden.
@@ -272,11 +272,20 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards und Dashboardkacheln
 
-1. Caches: Die erforderlichen Daten für die Visuals im Dashboard werden in der Regel in einer Azure SQL-Datenbank-Instanz verschlüsselt zwischengespeichert. Andere Kacheln, z.B. angeheftete Visuals aus Excel oder SSRS (SQL Server Reporting Services), werden im Azure-Blobspeicher als Bilder gespeichert, die ebenfalls verschlüsselt sind.
+1. Caches – die Daten, die von den visuellen Elementen auf dem Dashboard benötigt werden, werden normalerweise zwischengespeichert und im visuellen Daten Cache gespeichert, der im folgenden Abschnitt beschrieben wird. Andere Kacheln, z.B. angeheftete Visuals aus Excel oder SSRS (SQL Server Reporting Services), werden im Azure-Blobspeicher als Bilder gespeichert, die ebenfalls verschlüsselt sind.
 
 2. Statische Daten –, die Artefakte enthalten, wie z. b. Hintergrundbilder und Power BI Visuals, die in Azure BLOB Storage gespeichert werden.
 
-Microsoft verwaltet die Verschlüsselung der Schlüssel für Kunden unabhängig von der verwendeten Verschlüsselungsmethode in einem Geheimnisspeicher oder im Azure Key Vault.
+Unabhängig von der verwendeten Verschlüsselungsmethode verwaltet Microsoft die Schlüssel Verschlüsselung im Auftrag des Kunden.
+
+#### <a name="visual-data-cache"></a>Visueller Daten Cache
+
+Visuelle Daten werden an verschiedenen Speicherorten zwischengespeichert, je nachdem, ob das Dataset auf einer Power BI Premium Kapazität gehostet wird. Bei Datasets, die nicht auf einer Kapazität gehostet werden, werden die visuellen Daten zwischengespeichert und in einer Azure SQL-Datenbank verschlüsselt gespeichert. Bei Datasets, die auf einer Kapazität gehostet werden, können die visuellen Daten an einem der folgenden Speicherorte zwischengespeichert werden:
+
+* Azure Blob Storage
+* Azure Premium-Dateien
+* Der Knoten "Power BI Premium Kapazität"
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Vorübergehend auf nichtflüchtigen Speichergeräten gespeicherte Daten
 
