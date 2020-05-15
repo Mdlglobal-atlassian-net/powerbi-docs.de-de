@@ -72,6 +72,8 @@
               href: end-user-bookmarks.md
             - name: Hinzufügen eines Spotlights zu einem Bericht
               href: end-user-spotlight.md
+            - name: Personalisieren eines Visuals
+              href: end-user-personalize-visuals.md
             - name: Paginierte Berichte in Power BI
               items:
                 - name: Paginierte Berichte
