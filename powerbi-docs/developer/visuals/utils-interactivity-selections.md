@@ -186,7 +186,7 @@ Normalerweise enthalten Datenpunkte Auswahlmöglichkeiten und Werte. Die Schnitt
     }
     ```
 
-5. Um Klicks auf Elemente zu verarbeiten, rufen Sie die *-Methode des Auswahlobjekts* d3`on` auf. Dies gilt auch für `elementsSelection` und `clearCatcherSelection`.
+5. Um Klicks auf Elemente zu verarbeiten, rufen Sie die `on`-Methode des Auswahlobjekts *d3* auf. Dies gilt auch für `elementsSelection` und `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {

@@ -115,7 +115,7 @@ Folgen Sie diesen Schritten, um Anmeldeinformationen für Power BI programmgeste
     var gateway = gateways.First();
     ```
 
-3. Erstellen Sie mithilfe des öffentlichen Gatewayschlüssels, den Sie in [Schritt 2](#update-credentials-flow-for-data-sources) abgerufen haben, Details zu Anmeldeinformationen. Eine Beschreibung dieses Vorgangs finden Sie unter **Aktualisieren eines Anmeldeinformationsflows für Datenquellen**.
+3. Erstellen Sie mithilfe des öffentlichen Gatewayschlüssels, den Sie in **Schritt 2** abgerufen haben, Details zu Anmeldeinformationen. Eine Beschreibung dieses Vorgangs finden Sie unter [Aktualisieren eines Anmeldeinformationsflows für Datenquellen](#update-credentials-flow-for-data-sources).
 
 4. Erstellen Sie den Anforderungstext.
 

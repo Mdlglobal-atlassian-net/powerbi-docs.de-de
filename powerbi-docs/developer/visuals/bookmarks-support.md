@@ -187,7 +187,7 @@ Weitere Informationen finden Sie im [Zeitachsenslicer-Repository](https://github
 
 Durch die `filterState`-Eigenschaft wird eine Eigenschaft zum Bestandteil der Filterung. Das Visual ist in der Lage, verschiedene Werte in Lesezeichen zu speichern.
 
-Wenn Sie den Eigenschaftswert als Filterzustand speichern möchten, markieren Sie die Objekteigenschaft in der Datei `"filterState": true`capabilities.json*als*.
+Wenn Sie den Eigenschaftswert als Filterzustand speichern möchten, markieren Sie die Objekteigenschaft in der Datei *capabilities.json* als `"filterState": true`.
 
 Beispielsweise speichert der Zeitachsenslicer die Eigenschaftswerte für `Granularity` in einem Filter. Dadurch kann sich die aktuelle Granularität ändern, während Sie die Lesezeichen ändern.
 

@@ -26,7 +26,7 @@ Diese Funktion ermöglicht das sichere Anzeigen einer Teilmenge von Daten, ohne 
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Konfigurieren eines Parameters zum Filtern des Datasets
 
-Beim Anwenden der Sicherheit auf Zeilenebene auf einen paginierten Power BI-Bericht müssen Sie dem [UserID](../../paginated-reports/report-builder-parameters.md)-Attribut einen **Parameter** zuweisen. Dieser Parameter schränkt die Daten ein, die aus dem Dataset abgerufen werden, bevor der Bericht eingebettet wird.
+Beim Anwenden der Sicherheit auf Zeilenebene auf einen paginierten Power BI-Bericht müssen Sie dem **UserID**-Attribut einen [Parameter](../../paginated-reports/report-builder-parameters.md) zuweisen. Dieser Parameter schränkt die Daten ein, die aus dem Dataset abgerufen werden, bevor der Bericht eingebettet wird.
 
 Verwenden Sie nach dem Zuweisen des Parameter zum **UserID**-Attribut die API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup), um das Token für die Einbettung zu erhalten.
 

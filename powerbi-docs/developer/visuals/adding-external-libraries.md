@@ -63,7 +63,7 @@ Ein vollständiges Beispiel finden Sie im Code [Power BI-Visualisierungen](https
     npm install bootstrap --save
     ```
 
-2. Fügen Sie in `import` die Anweisung `visual.less` hinzu.
+2. Fügen Sie in `visual.less` die Anweisung `import` hinzu.
 
     ```less
     @import (less) "node_modules/bootstrap/dist/css/bootstrap.css";
