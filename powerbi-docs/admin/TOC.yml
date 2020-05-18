@@ -112,8 +112,10 @@
               href: service-encryption-byok.md
             - name: Neu starten einer Premium-Kapazität
               href: service-admin-premium-restart.md
-            - name: Konnektivität mit Datasets mithilfe des XMLA-Endpunkts (Vorschau)
+            - name: Konnektivität mit Datasets mithilfe des XMLA-Endpunkts
               href: service-premium-connect-tools.md
+            - name: Automatisierung mit Dienstprinzipalen
+              href: service-premium-service-principal.md
     - name: Referenz
       items:
         - name: 'PowerShell, REST-APIs und das .NET SDK'
