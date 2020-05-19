@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76894986"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276603"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tipps und Tricks zur Farbformatierung in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI bietet viele unterschiedliche Methoden zum Anpassen der Dashboards und Berichte. In diesem Artikel erhalten Sie Tipps, wie Sie Ihre Power BI-Visualisierungen ansprechender, interessanter und personalisierter gestalten können.
 
 Nachfolgend finden Sie einige Tipps. Haben Sie weitere tolle Tipps? Sehr gut! Wenn Sie sie uns zukommen lassen, nehmen wir sie möglicherweise in diese Liste auf.
@@ -40,7 +43,7 @@ Wenn die Bereiche **Filter** und **Visualisierungen** auf der rechten Seite des 
 ![Berichtszeichenbereich in der Bearbeitungsansicht](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 ## <a name="apply-a-theme"></a>Anwenden eines Designs
-Mit Berichtsdesigns können Sie Entwurfsänderungen auf den gesamten Bericht anwenden, z. B. die Verwendung von Unternehmensfarben, das Ändern von Symbolsätzen oder das Anwenden der neuen Standardformatierung für Visuals. Wenn Sie ein Berichtsdesign anwenden, verwenden alle Visuals im Bericht die Farben und Formatierung des ausgewählten Designs. Weitere Informationen finden Sie unter [Verwenden von Berichtdesigns](../desktop-report-themes.md).
+Mit Berichtsdesigns können Sie Entwurfsänderungen auf den gesamten Bericht anwenden, z. B. die Verwendung von Unternehmensfarben, das Ändern von Symbolsätzen oder das Anwenden der neuen Standardformatierung für Visuals. Wenn Sie ein Berichtsdesign anwenden, verwenden alle Visuals im Bericht die Farben und Formatierung des ausgewählten Designs. Weitere Informationen finden Sie unter [Verwenden von Berichtdesigns](../create-reports/desktop-report-themes.md).
 
 ![Symbol „Design wechseln“ in der Menüleiste](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
 
@@ -149,6 +152,8 @@ Klicken Sie auf **Auf Standardwert zurücksetzen**, um alle Änderungen zu verwe
 ## <a name="feedback"></a>Feedback
 Haben Sie einen Tipp, von dem Sie berichten möchten? Bitte lassen Sie ihn uns zukommen –möglicherweise nehmen wir ihn in diese Liste auf.
 
-## <a name="next-steps"></a>Weitere Schritte
-[Erste Schritte mit Farbformatierung und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
+## <a name="next-steps"></a>Nächste Schritte
+[Erste Schritte mit Farbeinstellungen und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
+
+[Freigeben von Berichten](../collaborate-share/service-share-reports.md).
 

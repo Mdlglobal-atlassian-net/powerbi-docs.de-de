@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381420"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276810"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 ## <a name="power-bi-visualizations"></a>Power BI-Visualisierungen
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Karte (Kachel für groß
 ![Kombinationsdiagramme](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->Ein Kombinationsdiagramm vereinigt Säulendiagramm und Liniendiagramm. Wählen Sie entweder *Linien- und gestapeltes Säulendiagramm* oder *Linien- und gruppiertes Säulendiagramm*aus.
+>Ein Kombinationsdiagramm vereinigt Säulendiagramm und Liniendiagramm. Wählen Sie entweder *Linien- und gestapeltes Säulendiagramm* oder *Linien- und gruppiertes Säulendiagramm* aus.
 
 Weitere Informationen finden Sie unter [Kombinationsdiagramme in Power BI](power-bi-visualization-combo-chart.md).
 
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie unter [KPIs in Power BI](power-bi-visualization
 >[!TIP]
 >Diese heben die allgemeine Form einer ganzen Wertereihe hervor, in der Regel im Zeitverlauf.
 
-### <a name="maps-basic-maps"></a>Karten: Einfache Karten
+### <a name="maps-basic-maps"></a>Karten: einfache Karten
 ![Einfache Karte](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -115,7 +115,7 @@ Weitere Informationen finden Sie unter [Tipps und Tricks für Kartenvisualisieru
 
 Weitere Informationen finden Sie unter [ArcGIS Maps in Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten
+### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten (Choropleth)
 ![Flächenkartogramm](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -157,12 +157,12 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Power Apps-Visuals zu 
 ![Visuals für Fragen und Antworten](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->Ähnlich wie bei der [Verwendung der Q&A-Funktion in Dashboards](../power-bi-tutorial-q-and-a.md) können Sie mit dem Visual für Fragen und Antworten Fragen zu Ihren Daten in natürlicher Sprache stellen. 
+>Ähnlich wie bei der [Verwendung der Q&A-Funktion in Dashboards](../create-reports/power-bi-tutorial-q-and-a.md) können Sie mit dem Visual für Fragen und Antworten Fragen zu Ihren Daten in natürlicher Sprache stellen. 
 
 Weitere Informationen finden Sie unter [Visuals für Fragen und Antworten in Power BI](power-bi-visualization-q-and-a.md).
 
 ### <a name="r-script-visuals"></a>Visuelle R-Skriptelemente
-![Visuelle R-Elemente](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
+![R-Visuals](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
 >Mit R-Skripts erstellte visuelle Elemente, sogenannte*Visuelle R-Skriptelemente*, können erweiterte Datenstrukturierung und -analysen wie z.B. Vorhersagen darstellen, indem sie sich das Leistungsvermögen von R hinsichtlich Analysen und Visualisierung zu Nutze machen. Visuelle R-Elemente können in Power BI Desktop erstellt und im Power BI-Dienst veröffentlicht werden.   
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie unter [Punktdiagramme in Power BI](power-bi-vis
 >[!TIP]
 >Wenn es zu viele Datenpunkte für ein Visual gibt, kann dies Einfluss auf dessen Leistung haben. Daher wird ein ausgereifter Algorithmus für die Stichprobenentnahme verwendet, um die Genauigkeit der Visualisierung sicherzustellen.
 
-Weitere Informationen finden Sie unter [High Density Scatter charts in Power BI (Punktdiagramme mit hoher Dichte in Power BI)](desktop-high-density-scatter-charts.md).
+Weitere Informationen finden Sie unter [High Density Scatter charts in Power BI (Punktdiagramme mit hoher Dichte in Power BI)](../create-reports/desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Datenschnitte
 ![Datenschnitt](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ Weitere Informationen finden Sie unter [Slicer in Power BI](power-bi-visualizati
 ### <a name="standalone-images"></a>Eigenständige Bilder
 ![Eigenständige Bilder](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Weitere Informationen finden Sie unter [Hinzufügen eines Widgets zu einem Dashboard](../service-dashboard-add-widget.md).
+Weitere Informationen finden Sie unter [Hinzufügen eines Widgets zu einem Dashboard](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tabellen
 ![Tabellenvisual](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -227,13 +227,16 @@ Weitere Informationen finden Sie unter [Treemaps in Power BI](power-bi-visualiza
 
 Weitere Informationen finden Sie unter [Wasserfalldiagramme in Power BI](power-bi-visualization-waterfall-charts.md).
 
-## <a name="tell-qa-which-visualization-to-use"></a>Angeben der verwendeten Visualisierung für den Bereich für Fragen und Antworten
+## <a name="tell-qa-which-visualization-to-use"></a>Angeben der verwendeten Visualisierung für Q&A
 Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Fragen und Antworten in Power BI können Sie den Visualisierungstyp in der Abfrage angeben.  Beispiel:
 
 ***Umsätze nach Bundesland als Treemap***
 
+Wenn Ihr Dashboard über kein Feld für Fragen und Antworten verfügt, wurde es möglicherweise vom Administrator Ihres Mandanten deaktiviert. 
+
 ![Q&A-Fragefeld mit dem angegebenen Visualisierungstyp](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)    
 [„The right visual reference“ von sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

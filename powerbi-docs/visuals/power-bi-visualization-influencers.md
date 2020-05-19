@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e7c59ddd15a85eeabe0edae6d6a9649f56092ab7
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885327"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141417"
 ---
 # <a name="create-key-influencers-visualizations"></a>Erstellen von Visualisierungen für „Wichtige Einflussfaktoren“
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -401,7 +403,7 @@ Das Visual wertet alle erläuternden Faktoren zusammen aus. So kann ein Faktor f
 - Die Anzahl der Schlafzimmer stellt somit kein so wichtiger Faktor mehr dar wie vor der Berücksichtigung der Hausgröße. 
 
 
-
+Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird. Weitere Informationen finden Sie unter [Freigeben von Berichten](../collaborate-share/service-share-reports.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 - [Kombinationsdiagramm in Power BI](power-bi-visualization-combo-chart.md)

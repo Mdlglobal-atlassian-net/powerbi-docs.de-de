@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895229"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276580"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Einstieg in den Formatierungsbereich
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Wenn Sie über die nötigen Berechtigungen zum Bearbeiten von Berichten verfügen, stehen Ihnen zahlreiche Formatierungsoptionen zur Verfügung. In Power BI-Berichten können Sie die Farbe von Datenreihen und Datenpunkten und sogar den Hintergrund von Visualisierungen ändern. Sie können ändern, wie die x- und die y-Achse dargestellt werden. Sie können auch die Schriftarteigenschaften von Visualisierungen, Formen und Titeln formatieren. Power BI bietet Ihnen vollständige Kontrolle darüber, wie Ihre Berichte aussehen.
 
 Öffnen Sie zunächst einen Bericht in Power BI Desktop oder im Power BI-Dienst. Beide Dienste bieten beinahe identische Formatierungsoptionen. Wenn Sie einen Bericht im Power BI-Dienst öffnen, müssen Sie in der Menüleiste auf **Bearbeiten** klicken. 
@@ -154,8 +157,10 @@ Wir haben die Visualisierung ausgewählt, um Sie zu aktivieren, und die Register
 Das sind nur ein paar der vielen möglichen Formatierungsaufgaben. Öffnen Sie einen Bericht im Bearbeitungsmodus, und machen Sie sich mit der Registerkarte „Formatierung“ vertraut, um ansprechende und informative Visualisierungen zu erstellen.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Weitere Informationen finden Sie im folgenden Artikel:  
+Weitere Informationen finden Sie im folgenden Artikel: 
+
+* [Freigeben von Berichten](../collaborate-share/service-share-reports.md)
 
 * [Tipps und Tricks zur Farbformatierung in Power BI](service-tips-and-tricks-for-color-formatting.md)  
-* [Bedingte Formatierung in Tabellen](../desktop-conditional-table-formatting.md)
+* [Bedingte Formatierung in Tabellen](../create-reports/desktop-conditional-table-formatting.md)
 

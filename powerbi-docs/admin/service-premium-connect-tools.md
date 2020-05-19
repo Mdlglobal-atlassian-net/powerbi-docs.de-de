@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274441"
+ms.locfileid: "83382736"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Konnektivität mit Datasets mithilfe des XMLA-Endpunkts (Vorschau)
 
@@ -29,6 +29,9 @@ Power BI Premium-Arbeitsbereiche und Datasets mit dem Kompatibilitätsgrad 1500 
 Power BI Premium verwendet das [XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)-Protokoll (XMLA) für den Datenaustausch zwischen Clientanwendungen und der Engine, die Ihre Power BI-Arbeitsbereiche und -Datasets verwaltet. Diese Kommunikationsvorgänge erfolgen über das, was allgemein als XMLA-Endpunkte bezeichnet wird. XMLA ist das gleiche Kommunikationsprotokoll, das von der Microsoft Analysis Services-Engine verwendet wird, die hinter den Kulissen arbeitet und die semantische Modellierung, die Governance, den Lebenszyklus und die Datenverwaltung von Power BI ausführt.
 
 Standardmäßig ist die Konnektivität mit *Lesezugriff* unter Verwendung des Endpunkts für die **Datasetworkload** in einer Kapazität aktiviert. Mit schreibgeschützten Anwendungen und Tools für die Datenvisualisierung können Modelldaten, Metadaten, Ereignisse und Schemas von Datasets abgefragt werden. *Lese-/Schreibvorgänge*, die den Endpunkt verwenden, können aktiviert werden und bieten zusätzliche Funktionen für die Verwaltung von Datasets, Governance, erweiterte semantische Modellierung, Debugging und Überwachung. Mit aktiviertem Lese-/Schreibzugriff sind Power BI Premium-Datasets mit Azure Analysis Services- und SQL Server Analysis Services-Tools und Prozessen für die tabellarische Modellierung auf Unternehmensebene gleichwertiger.
+
+> [!NOTE]
+> Es wird empfohlen, die neue Arbeitsbereichsfunktion zu verwenden, insbesondere wenn Sie eine Verbindung mit Ihren Datasets über den XMLA-Endpunkt herstellen. Vorgänge wie das Erstellen oder Löschen von Datasets werden in klassischen Arbeitsbereichen nicht unterstützt. Informationen zum Aktualisieren klassischer Arbeitsbereiche auf die moderne Darstellung finden Sie unter [Aktualisieren von klassischen Arbeitsbereichen in Power BI](../collaborate-share/service-upgrade-workspaces.md).
 
 ## <a name="data-modeling-and-management-tools"></a>Tools für Datenmodellierung und -verwaltung
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403767"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276051"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Tutorial: Einbetten von paginierten Power BI-Berichten in eine Anwendung für Kunden (Vorschauversion)
 
@@ -34,14 +34,14 @@ Sie benötigen Folgendes, um direkt mit dem Tutorial loslegen zu können:
 * [Dienstprinzipal (Token nur für Anwendungen)](embed-service-principal.md)
 * [Microsoft Azure](https://azure.microsoft.com/)-Abonnement
 * individuell eingerichtetes [Azure Active Directory-Mandantensetup](create-an-azure-active-directory-tenant.md)
-* mindestens A4- oder P1-[Kapazität](#create-a-dedicated-capacity) mit aktivierter Workload für [paginierte Berichte](../../service-admin-premium-workloads.md#paginated-reports)
+* mindestens A4- oder P1-[Kapazität](#create-a-dedicated-capacity) mit aktivierter Workload für [paginierte Berichte](../../admin/service-admin-premium-workloads.md#paginated-reports)
 
 Wenn Sie kein Azure-Abonnement haben, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
 
 > [!IMPORTANT]
 > * Sie müssen einen **Dienstprinzipal** verwenden. Hauptbenutzer werden nicht unterstützt.
 > * Datenquellen, die Single Sign-on (SSO) erfordern, werden nicht unterstützt.
-> * Power BI-DataSet wird als [Datenquelle](../../service-get-data.md) nicht unterstützt.
+> * Power BI-DataSet wird als [Datenquelle](../../connect-data/service-get-data.md) nicht unterstützt.
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
@@ -49,12 +49,12 @@ Sie müssen einer dedizierten Kapazität einen Arbeitsbereich zuweisen und den B
 
 ### <a name="create-an-app-workspace"></a>App-Arbeitsbereich erstellen
 
-Da Sie einen [Dienstprinzipal](embed-service-principal.md) für die Anmeldung bei Ihrer Anwendung nutzen, müssen Sie [neue Arbeitsbereiche](../../service-create-the-new-workspaces.md) verwenden. Als *Dienstprinzipal* müssen Sie außerdem Administrator oder Mitglied des App-Arbeitsbereichs sein, der im Zusammenhang mit Ihrer App steht.
+Da Sie einen [Dienstprinzipal](embed-service-principal.md) für die Anmeldung bei Ihrer Anwendung nutzen, müssen Sie [neue Arbeitsbereiche](../../collaborate-share/service-create-the-new-workspaces.md) verwenden. Als *Dienstprinzipal* müssen Sie außerdem Administrator oder Mitglied des App-Arbeitsbereichs sein, der im Zusammenhang mit Ihrer App steht.
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
 
 Bevor Sie einen einzubettenden paginierten Bericht importieren oder hochladen, muss der Arbeitsbereich, der den Bericht enthält, mindestens der A4- oder P1-Kapazität zugewiesen werden. Sie können zwei Arten von Kapazität auswählen:
-* **Power BI Premium:** Für das Einbetten eines paginierten Berichts ist eine *P*-SKU-Kapazität erforderlich. Beim Einbetten von Power BI-Inhalten wird diese Lösung als *Power BI-Einbettung* bezeichnet. Weitere Informationen zu diesem Abonnement finden Sie unter [Was ist Power BI Premium?](../../service-premium-what-is.md).
+* **Power BI Premium:** Für das Einbetten eines paginierten Berichts ist eine *P*-SKU-Kapazität erforderlich. Beim Einbetten von Power BI-Inhalten wird diese Lösung als *Power BI-Einbettung* bezeichnet. Weitere Informationen zu diesem Abonnement finden Sie unter [Was ist Power BI Premium?](../../admin/service-premium-what-is.md).
 * **Azure Power BI Embedded:** Sie können eine dedizierte Kapazität im [Microsoft Azure-Portal](https://portal.azure.com) erwerben. Dieses Abonnement verwendet die *A*-SKUs. Sie benötigen mindestens ein *A4*-Abonnement, um paginierte Berichte einzubetten. Weitere Informationen zum Erstellen einer Power BI Embedded-Kapazität finden Sie unter [Erstellen einer Power BI Embedded-Kapazität im Azure-Portal](azure-pbie-create-capacity.md).
 
 In der Tabelle unten sind die Ressourcen und Grenzen der einzelnen SKUs beschrieben. Um zu bestimmen, welche Kapazität sich optimal für Ihre Anforderungen eignet, lesen Sie die Tabelle [Welche SKU soll ich für mein Szenario erwerben](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Erstellen des Einbettungstokens
 
-Generieren Sie ein Einbettungstoken, das aus der JavaScript-API verwendet werden kann. Verwenden Sie die [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)-API, um ein Einbettungstoken zum Einbetten von paginierten Power BI-Berichten zu erstellen.
+Generieren Sie ein Einbettungstoken, das aus der JavaScript-API verwendet werden kann. Verwenden Sie die [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)-API, um ein Einbettungstoken zum Einbetten von paginierten Power BI-Berichten zu erstellen.
 
 Ein Beispiel zum Erstellen eines Einbettungstokens finden Sie in der Datei  *Services\EmbedService.cs* in der [Beispielanwendung](https://github.com/Microsoft/PowerBI-Developer-Samples).
 

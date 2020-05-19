@@ -1,20 +1,23 @@
 ---
 title: Verwenden von Q&A-Visuals in Power BI
 description: So richten Sie Q&A-Visuals in Power BI ein.
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762276"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148347"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Einführung in Q&A-Visualisierungen in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -45,10 +48,12 @@ Q&A-Visuals bestehen aus vier Kernkomponenten:
 
 1. Öffnen Sie die Datei in der Berichtsansicht. ![Screenshot des Symbols für die Berichtsansicht](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Exklusiv ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
+1. Auswählen ![Screenshot der gelben Registerkarte.,](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) um eine neue Seite hinzuzufügen.
 
+Wird beim Erstellen eines Q&A-Visuals ein Fehler angezeigt, überprüfen Sie im Artikel zu den [Einschränkungen](../natural-language/q-and-a-limitations.md), ob die Datenquellenkonfiguration unterstützt wird.    
 
-Wird beim Erstellen eines Q&A-Visuals ein Fehler angezeigt, überprüfen Sie im Artikel zu den [Einschränkungen](../natural-language/q-and-a-limitations.md), ob die Datenquellenkonfiguration unterstützt wird.
+> [!NOTE]
+> Eine Freigabe Ihres Berichts für einen Power BI-Kollegen erfordert, dass Sie und Ihr Kollege jeweils eine eigene Power BI Pro-Lizenz haben oder dass der Bericht in der Premium-Kapazität gespeichert wird. Weitere Informationen finden Sie unter [Freigeben von Berichten](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Erstellen eines Q&A-Visuals über eine vorgeschlagene Frage
 In dieser Übung wird zum Erstellen eines Q&A-Visuals eine der vorgeschlagenen Fragen ausgewählt. 
@@ -87,7 +92,7 @@ Wenn Sie sich nicht sicher sind, wie die Frage aussehen oder welche Terminologie
 
 5. Mithilfe der Vorschläge von Power BI war es schließlich möglich, eine Frage bestehend aus erkannten Begriffen zu formulieren. Power BI stellt die Ergebnisse als Liniendiagramm dar. 
 
-    ![Visuelle Ergebnisse in Q&A](media/power-bi-visualization-q-and-a/power-bi-type.png)
+    ![Q&A-Visual mit Ergebnissen](media/power-bi-visualization-q-and-a/power-bi-type.png)
 
 
 6. Auf die folgende Weise können Sie das Visual in ein Säulendiagramm ändern. 
@@ -146,7 +151,7 @@ Im Bereich „Tools“ können Sie Q&A für nicht erkannte Begriffe trainieren, 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Q&A-Visuals sind in Office und Bing integriert, um gängige nicht erkannte Wörter nach Möglichkeit mit Feldern in Ihrem Dataset abzugleichen.  
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 Sie können natürliche Sprache auf verschiedene Weise integrieren. Weitere Informationen finden Sie in den folgenden Artikeln:
 

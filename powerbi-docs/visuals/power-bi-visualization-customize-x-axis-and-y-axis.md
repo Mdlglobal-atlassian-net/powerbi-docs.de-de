@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758104"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944818"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Anpassen der Eigenschaften der X- und Y-Achse
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ Bei einer so komplexen Visualisierung ist es hilfreich, wenn den Achsen Titel hi
 
 1. Formatieren Sie die Titel. In diesem Beispiel haben wir einen der Titel verkürzt und den Schriftgrad für beide reduziert. 
     - Schriftgrad: **9**
-    - Gekürzter **Achsentitel** für die erste Y-Achse (das Säulendiagramm): Verkäufe im Vorjahr und dieses Jahr
+    - Gekürzter **Achsentitel** für die erste Y-Achse (das Säulendiagramm): Umsatz im letzten und diesem Jahr 
+    
+     ![Screenshot des Kombinationsdiagramms mit der Anzeige der vollständigen Titel.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![Screenshot des Kombinationsdiagramms mit der Anzeige der vollständigen Titel.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-Weitere Informationen finden Sie unter [Tipps und Tricks zur Farbformatierung in Power BI](service-tips-and-tricks-for-color-formatting.md) und [Anpassen der Titel, Legenden und Hintergründe von Visualisierungen](power-bi-visualization-customize-title-background-and-legend.md). Bald gibt es auch neue Updates zur Formatierung von Titeln. 
+    Weitere Informationen finden Sie unter [Tipps und Tricks zur Farbformatierung in Power BI](service-tips-and-tricks-for-color-formatting.md) und [Anpassen der Titel, Legenden und Hintergründe von Visualisierungen](power-bi-visualization-customize-title-background-and-legend.md). 
+    
 
 ## <a name="next-steps"></a>Nächste Schritte
 
