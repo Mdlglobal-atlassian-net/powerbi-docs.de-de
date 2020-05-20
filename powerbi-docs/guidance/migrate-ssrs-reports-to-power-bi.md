@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 06bff0a199db9955f11487a05ba78268bb8a942d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348181"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561591"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migrieren von SQL Server Reporting Services-Berichten zu Power BI
 
@@ -194,7 +194,7 @@ Weitere Informationen zu diesem Artikel finden Sie in den folgenden Ressourcen:
 - [Leitfaden zum Datenabruf bei paginierten Berichten](report-paginated-data-retrieval.md)
 - [Wann sollten paginierte Berichte in Power BI verwendet werden?](report-paginated-or-power-bi.md)
 - [Paginierte Berichte in Power BI: häufig gestellte Fragen](../paginated-reports/paginated-reports-faq.md)
-- [Onlinekurs: Paginierte Power BI-Berichte in einem Tag](../paginated-reports/paginated-reports-online-course.md)
+- [Onlinekurs: Paginierte Power BI-Berichte in einem Tag](../learning-catalog/paginated-reports-online-course.md)
 - [Power BI Premium – Häufig gestellte Fragen (FAQ)](../admin/service-premium-faq.md)
 - [RDL-Migrationstool](https://github.com/microsoft/RdlMigration)
 - Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

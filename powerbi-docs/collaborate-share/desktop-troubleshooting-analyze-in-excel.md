@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275269"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563182"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Problembehandlung bei „In Excel analysieren“
 
@@ -84,7 +84,7 @@ Wenn der Fehler **Token abgelaufen** angezeigt wird, bedeutet dies, dass die Fun
 Bei dem Versuch, auf ein Dataset zuzugreifen, das Verbindungen zu lokalen Analysis Services-Daten enthält, kann eine Fehlermeldung angezeigt werden. **In Excel analysieren** unterstützt das Herstellen einer Verbindung mit Datasets und Berichten in lokalen **Analysis Services** mit einer Verbindungszeichenfolge, solange der Computer sich in der gleichen Domäne wie der **Analysis Services**-Server befindet und Ihr Konto Zugriff auf den **Analysis Services**-Server hat.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>Ziehen in den Wertebereich von PivotTables nicht möglich (keine Measures)
-Wenn über **In Excel analysieren** eine Verbindung zu einem externen OLAP-Modell hergestellt wird (Verbindungsmethode von Excel zu Power BI), benötigt die *PivotTable* [**Measures**, die im externen Modell festgelegt werden](https://support.microsoft.com/kb/234700), da alle Berechnungen auf dem Server ausgeführt werden. Hier besteht ein Unterschied zur Arbeit mit einer lokalen Datenquelle (wie Tabellen in Excel oder Datensätzen in **Power BI Desktop** oder beim **Power BI-Dienst**). In diesem Fall steht das Tabellenmodell lokal zur Verfügung. Daher können Sie [implizite Measures verwenden](https://msdn.microsoft.com/library/gg399077.aspx). Diese werden dynamisch generiert und nicht im Datenmodell gespeichert. Hierbei unterscheidet sich das Verhalten in Excel von dem in **Power BI Desktop** oder im **Power BI-Dienst**: Die Daten können Spalten enthalten, die in Power BI als Measures verarbeitet werden, in Excel aber nicht als Werte (Measures) verwendet werden können.
+Wenn über **In Excel analysieren** eine Verbindung zu einem externen OLAP-Modell hergestellt wird (Verbindungsmethode von Excel zu Power BI), benötigt die *PivotTable* [**Measures**, die im externen Modell festgelegt werden](https://support.microsoft.com/kb/234700), da alle Berechnungen auf dem Server ausgeführt werden. Hier besteht ein Unterschied zur Arbeit mit einer lokalen Datenquelle (wie Tabellen in Excel oder Datensätzen in **Power BI Desktop** oder beim **Power BI-Dienst**). In diesem Fall steht das Tabellenmodell lokal zur Verfügung. Daher können Sie [implizite Measures verwenden](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4). Diese werden dynamisch generiert und nicht im Datenmodell gespeichert. Hierbei unterscheidet sich das Verhalten in Excel von dem in **Power BI Desktop** oder im **Power BI-Dienst**: Die Daten können Spalten enthalten, die in Power BI als Measures verarbeitet werden, in Excel aber nicht als Werte (Measures) verwendet werden können.
 
 Sie haben verschiedene Möglichkeiten, dieses Problem zu beheben:
 
@@ -99,7 +99,7 @@ Sobald die Measures im Modell des Power BI-Diensts definiert wurden, können Sie
 
 [Tutorial: Erstellen eigener Measures in Power BI Desktop](../transform-model/desktop-tutorial-create-measures.md)
 
-[Measures in PowerPivot](https://msdn.microsoft.com/library/gg399077.aspx)
+[Measures in PowerPivot](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [Erstellen eines Measures in PowerPivot](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 

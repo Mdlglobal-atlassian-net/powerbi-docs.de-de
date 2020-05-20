@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079667"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561499"
 ---
 # <a name="dataset-properties"></a>Dataseteigenschaften
 
@@ -46,8 +46,8 @@ isHidden     | Boolesch        | Wenn „true“, wird die Tabelle in Clienttool
 Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich
 ---------|---------|---------|---------|---------
 Name     |  Zeichenfolge        | Benutzerdefinierter Name der Spalte.        |  False       | True       
-dataType     |  Zeichenfolge       |  Unterstützte [EDM-Datentypen](https://msdn.microsoft.com/library/ee382832.aspx) und Einschränkungen. Siehe [Datentypeinschränkungen](#data-type-restrictions).      |  False       | True        
-formatString     | Zeichenfolge        | Eine Zeichenfolge, die beschreibt, wie der Wert für die Anzeige formatiert werden soll. Weitere Informationen zur Formatierung von Zeichenfolgen finden Sie unter [FORMAT_STRING-Inhalte](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
+dataType     |  Zeichenfolge       |  Unterstützte [EDM-Datentypen](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) und Einschränkungen. Siehe [Datentypeinschränkungen](#data-type-restrictions).      |  False       | True        
+formatString     | Zeichenfolge        | Eine Zeichenfolge, die beschreibt, wie der Wert für die Anzeige formatiert werden soll. Weitere Informationen zur Formatierung von Zeichenfolgen finden Sie unter [FORMAT_STRING-Inhalte](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | False        | False        
 sortByColumn    | Zeichenfolge        |   Zeichenfolgenname einer Spalte in der gleichen Tabelle, die zum Sortieren der aktuellen Spalte verwendet werden soll.     | False        | False       
 dataCategory     | Zeichenfolge        |  Zeichenfolgenwert, der als Datenkategorie verwendet werden soll, die die Daten in dieser Spalte beschreibt. Beispiele für häufig verwendete Werte: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
 isHidden    |  Boolesch       |  Eigenschaft, die angibt, ob die Spalte ausgeblendet wird. Standardwert ist „false“.       | False        | False        
@@ -59,7 +59,7 @@ Name  |type  |Beschreibung  |Schreibgeschützt  |Erforderlich
 ---------|---------|---------|---------|---------
 Name     | Zeichenfolge        |  Benutzerdefinierter Name des Measures.       |  False       | True        
 expression     | Zeichenfolge        | Ein gültiger DAX-Ausdruck.        | False        |  True       
-formatString     | Zeichenfolge        |  Eine Zeichenfolge, die beschreibt, wie der Wert für die Anzeige formatiert werden soll. Weitere Informationen zur Formatierung von Zeichenfolgen finden Sie unter [FORMAT_STRING-Inhalte](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
+formatString     | Zeichenfolge        |  Eine Zeichenfolge, die beschreibt, wie der Wert für die Anzeige formatiert werden soll. Weitere Informationen zur Formatierung von Zeichenfolgen finden Sie unter [FORMAT_STRING-Inhalte](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | False        | False        
 isHidden     | Zeichenfolge        |  Wenn „true“, wird die Tabelle in Clienttools ausgeblendet.       |  False       | False       
 
 ## <a name="relationship"></a>Beziehung

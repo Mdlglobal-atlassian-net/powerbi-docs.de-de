@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377142"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561987"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Grundkonzepte für Benutzer des Power BI-Diensts
 
@@ -116,7 +116,7 @@ Einige der Visualisierungen, die Ihnen in Power BI begegnen, sind Wasserfalldiag
 
    ![Ein Screenshot von acht Beispielen visueller Elemente.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Hier finden Sie eine vollständige Liste der [Visualisierungstypen in Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+Hier finden Sie eine vollständige Liste der [Visualisierungstypen in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 Als *Power BI-Visuals* bezeichnete Visualisierungen werden auch von der Community zur Verfügung gestellt. Wenn Sie einen Bericht mit einem Visual erhalten und dieses nicht erkennen, handelt es sich wahrscheinlich um ein benutzerdefiniertes Visual. Wenn Sie Hilfe beim Interpretieren des benutzerdefinierten visuellen Elements benötigen, können Sie den Namen des *Designers* des Berichts oder Dashboards suchen und ihn oder sie kontaktieren.
 

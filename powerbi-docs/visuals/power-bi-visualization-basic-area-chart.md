@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277155"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563851"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Erstellen und Verwenden einfacher Flächendiagramme
 
@@ -82,11 +82,8 @@ Weitere Informationen finden Sie unter [Interaktionen mit Visuals in einem Power
 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung   
-* [Den Bericht zugänglicher für Menschen mit Behinderungen machen](../desktop-accessibility.md)
+* [Den Bericht zugänglicher für Menschen mit Behinderungen machen](../create-reports/desktop-accessibility-overview.md)
 * Grundlegende Flächendiagramme sind beim Vergleichen der Werte nicht effektiv, was am Einschluss der überlappenden Bereiche liegt. Power BI verwendet Transparenz, um die Überlappung von Bereichen anzuzeigen. Dies funktioniert jedoch nur mit zwei oder drei unterschiedlichen Bereiche gut. Wenn Sie den Trend für mehr als drei Measures vergleichen möchten, sollten Sie Liniendiagramme verwenden. Wenn Sie das Volumen für mehr als drei Measures vergleichen möchten, sollten Sie Treemaps verwenden.
 
 ## <a name="next-step"></a>Nächster Schritt
 [Berichte in Power BI](power-bi-visualization-card.md)  
-
-
-

@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279248"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407565"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Herstellen einer Verbindung mit dem Supportdashboard für Notfalleinsätze im Krankenhaus
 Die Vorlagen-App für das Supportdashboard für Notfalleinsätze im Krankenhaus ist die Berichterstattungskomponente der [Microsoft Power Platform-Lösung für Notfalleinsätze](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Das Dashboard zeigt Krisenmanagern aggregierte Daten aus dem gesamten Gesundheitssystem an, mit deren Hilfe sie schnelle und richtige Entscheidungen treffen können.
@@ -32,11 +32,11 @@ Achten Sie beim Installieren der Power Platform-Lösung für Notfalleinsätze im
 
 ## <a name="install-the-app"></a>Installieren der App
 
-1. Klicken Sie auf den folgenden Link, um die App zu erhalten: [Vorlagen-App für das Supportdashboard für Notfalleinsätze im Krankenhaus](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. Klicken Sie auf den folgenden Link, um die App zu erhalten: [Vorlagen-App für das Supportdashboard für Notfalleinsätze im Krankenhaus](https://aka.ms/AppSource_Hospital_offer)
 
-1. Klicken Sie auf der AppSource-Seite für die App auf [**JETZT HOLEN**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare).
+1. Klicken Sie auf der AppSource-Seite für die App auf [**JETZT HOLEN**](https://aka.ms/AppSource_Hospital_offer).
 
-    [![App für das Supportdashboard für Notfalleinsätze im Krankenhaus in AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![App für das Supportdashboard für Notfalleinsätze im Krankenhaus in AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. Lesen Sie die Informationen unter **Noch etwas**, und klicken Sie auf **Weiter**.
 

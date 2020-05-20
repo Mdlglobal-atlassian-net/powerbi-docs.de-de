@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348917"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561660"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Einführung in Dashboardkacheln für Power BI-Designer
 
@@ -23,7 +23,7 @@ Eine Kachel ist eine Momentaufnahme Ihrer Daten, die an das Dashboard geheftet i
 
 ![Power BI-Dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Zwar können Sie auf mobilen Geräten keine Dashboards erstellen, doch Sie können sie auf diesen [anzeigen und freigeben]../consumer/mobile/mobile-apps-view-dashboard.md).
+Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Auf mobilen Geräten können Sie keine Dashboards erstellen, aber Sie können sie [anzeigen und freigeben](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 Sie können Kacheln nicht nur anheften, sondern auch eigenständige Kacheln direkt auf dem Dashboard mithilfe des Steuerelements [Kachel hinzufügen](service-dashboard-add-widget.md) erstellen. Eigenständige Kacheln können Textfelder, Bilder, Videos, Streamingdaten und Webinhalte enthalten.
 
@@ -98,6 +98,6 @@ Wenn Sie eine Kachel auswählen, hängt das, was anschließend geschieht, davon 
 - [Aktualisieren von Daten in Power BI](../connect-data/refresh-data.md)
 - [Grundlegende Konzepte für Designer im Power BI-Dienst](../fundamentals/service-basic-concepts.md)
 - [Integrieren von Power BI Kacheln in Office-Dokumente](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Anheften von Reporting Services-Elementen an Power BI-Dashboards](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Anheften von Reporting Services-Elementen an Power BI-Dashboards](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/).

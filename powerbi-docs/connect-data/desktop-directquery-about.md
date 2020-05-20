@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292913"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563285"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Verwenden von DirectQuery in Power BI
 
@@ -371,7 +371,7 @@ Beim Navigieren zum übergeordneten Ordner des Ordners wird der Ordner angezeigt
 
 Innerhalb dieses Ordners befindet sich der Ordner *\\Data*. Er enthält die Ablaufverfolgungsdatei *FlightRecorderCurrent.trc* für die aktuelle Power BI-Sitzung. Der entsprechende Arbeitsbereichsordner wird gelöscht, wenn die zugehörige Power BI Desktop-Sitzung endet.
 
-Die Ablaufverfolgungsdateien können mit dem Tool *SQL Server Profiler* gelesen werden. Sie erhalten es als Teil des kostenlosen Downloads von [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx).
+Die Ablaufverfolgungsdateien können mit dem Tool *SQL Server Profiler* gelesen werden. Sie erhalten es als Teil des kostenlosen Downloads von [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
 
 Nachdem Sie SQL Server Management Studio heruntergeladen und installiert haben, führen Sie den SQL Server Profiler aus.
 

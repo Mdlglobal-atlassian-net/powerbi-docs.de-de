@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: a29dcd8c89d064678e558d5ebfee7ccb3cc8a8e0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330104"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438083"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-Datenquellen
 
@@ -66,7 +66,7 @@ In der folgenden Tabelle werden die von Power BI für Datasets unterstützten D
 | Ordner | Ja | Ja | Nein | Ja | Ja |
 | GitHub | Ja | Ja | Nein | Nein | Nein |
 | Google Analytics | Ja | Ja | Nein | Nein | Nein |
-| BigQuery von Google | Ja | Ja | Nein | Nein | Nein |
+| BigQuery von Google | Ja | Ja | Ja | Nein | Nein |
 | Hadoop-Datei (HDFS) | Ja | Nein | Nein | Nein | Nein |
 | HDInsight Interactive Query | Ja | Ja | Ja | Nein | Nein |
 | IBM DB2 | Ja | Ja | Ja | Ja | Nein |

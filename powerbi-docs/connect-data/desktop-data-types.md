@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293166"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561568"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Datentypen in Power BI Desktop
 Dieser Artikel beschreibt Datentypen, die im Power BI Desktop und von DAX (Data Analysis Expressions) unterstützt werden. 
@@ -72,7 +72,7 @@ Power BI Desktop unterstützt fünf Datum/Uhrzeit-Datentypen in der Abfrageansic
 **Wahr/Falsch** – Ein boolescher Wert, der entweder auf Wahr oder Falsch gesetzt wird.
 
 ### <a name="blanksnulls-type"></a>Leerzeichen-/Null-Typ
-**Leer** – Ein Datentyp in DAX, der SQL-Nullen darstellt und ersetzt. Sie können mit der [BLANK](https://msdn.microsoft.com/library/ee634820.aspx)-Funktion ein Leerzeichen erstellen und mit der logischen [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx)-Funktion nach Leerzeichen suchen.
+**Leer** – Ein Datentyp in DAX, der SQL-Nullen darstellt und ersetzt. Sie können mit der [BLANK](/dax/blank-function-dax)-Funktion ein Leerzeichen erstellen und mit der logischen [ISBLANK](/dax/isblank-function-dax)-Funktion nach Leerzeichen suchen.
 
 ### <a name="binary-data-type"></a>Binary-Datentyp
 
@@ -86,7 +86,7 @@ Der Datentyp „Binary“ kann zum Darstellen beliebiger anderer Daten mit einem
 > 
 
 ### <a name="table-data-type"></a>Tabellendatentyp
-DAX verwendet einen Tabellendatentyp in vielen Funktionen, z. B. in Aggregationen und Zeitintelligenzberechnungen. Einige Funktionen erfordern einen Verweis auf eine Tabelle, während andere Funktionen eine Tabelle zurückgeben, die dann als Eingabe für andere Funktionen verwendet werden kann. In einigen Funktionen, die eine Tabelle als Eingabe erfordern, können Sie einen Ausdruck angeben, der eine Tabelle ergibt. Bei einigen Funktionen ist ein Verweis auf eine Basistabelle erforderlich. Informationen zu den Anforderungen bestimmter Funktionen finden Sie unter [DAX-Funktionsreferenz](https://msdn.microsoft.com/library/ee634396.aspx).
+DAX verwendet einen Tabellendatentyp in vielen Funktionen, z. B. in Aggregationen und Zeitintelligenzberechnungen. Einige Funktionen erfordern einen Verweis auf eine Tabelle, während andere Funktionen eine Tabelle zurückgeben, die dann als Eingabe für andere Funktionen verwendet werden kann. In einigen Funktionen, die eine Tabelle als Eingabe erfordern, können Sie einen Ausdruck angeben, der eine Tabelle ergibt. Bei einigen Funktionen ist ein Verweis auf eine Basistabelle erforderlich. Informationen zu den Anforderungen bestimmter Funktionen finden Sie unter [DAX-Funktionsreferenz](/dax/dax-function-reference).
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>Implizite und explizite Datentypkonvertierungen in DAX-Formeln
 Jede DAX-Funktion hat bestimmte Anforderungen im Hinblick auf die Datentypen, die als Eingaben und Ausgaben verwendet werden. Einige Funktionen erfordern z. B. ganze Zahlen für einige Argumente und Daten für andere, während für andere Funktionen Text oder Tabellen erforderlich sind.
@@ -197,4 +197,3 @@ Wie Leerzeichen in Operationen wie Addition oder Verkettung behandelt werden, h�
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Fehler |
 | BLANK AND BLANK |BLANK |Fehler |
-

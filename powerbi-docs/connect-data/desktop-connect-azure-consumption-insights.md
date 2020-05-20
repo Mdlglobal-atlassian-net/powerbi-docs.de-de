@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5cc566798d53a29ef1f205c34d7e97d9331a164d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8959e703da2587b7633df4313606bdb11a8c983b
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347974"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407497"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Azure Consumption Insights-Daten in Power BI Desktop
 
@@ -184,7 +184,7 @@ Die Spalten- und Detailnamen im Azure-Portal sind in der API und im Connector ä
 | --- | --- | --- | --- |
 | AccountName |accountName |Account Name |Nein |
 | AccountId |accountId | |Ja |
-| AcccountOwnerId |accountOwnerEmail |AccountOwnerId |Nein |
+| AccountOwnerId |accountOwnerEmail |AccountOwnerId |Nein |
 | AdditionalInfo |additionalInfo |AdditionalInfo |Nein |
 | AdditionalInfold | | |Ja |
 | Verbrauchte Menge |consumedQuantity |Verbrauchte Menge |Nein |
