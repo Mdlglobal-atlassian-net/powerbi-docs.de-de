@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314855"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565808"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimieren von Dashboards für Mobiltelefone: Power BI 
 Wenn Sie Dashboards im Hochformat auf einem Smartphone anzeigen, werden Sie bemerken, dass die Dashboardkacheln nacheinander angeordnet sind und die gleiche Größe aufweisen. Sie können im Power BI-Dienst eine benutzerdefinierte Ansicht eines Dashboards erstellen, speziell für den Hochformatmodus auf Smartphones. Selbst wenn Sie eine Smartphoneansicht erstellen, wenn Sie das Smartphone um 90° drehen, wird das Dashboard in seinem Layout im Dienst angezeigt.
@@ -57,5 +57,5 @@ Suchen Sie nach Informationen über das Anzeigen von Dashboards auf einem mobile
 
 ## <a name="next-steps"></a>Weitere Schritte
 * [Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind](desktop-create-phone-report.md)
-* [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../visuals/desktop-create-responsive-visuals.md)
+* [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../visuals/power-bi-report-visualizations.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

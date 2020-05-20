@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348848"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564550"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Einführung in Dashboards für Power BI-Designer
 
@@ -22,7 +22,7 @@ Ein Power BI-*Dashboard* ist eine einzelne Seite (häufig als Canvas bezeichnet)
 
 ![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
-Dashboards sind ein reines Feature des Power BI-Diensts. Sie sind in Power BI Desktop nicht verfügbar. Zwar können Sie auf mobilen Geräten keine Dashboards erstellen, doch können Sie sie auf diesen [anzeigen und freigeben]../consumer/mobile/mobile-apps-view-dashboard.md).
+Dashboards sind ein reines Feature des Power BI-Diensts. Sie sind in Power BI Desktop nicht verfügbar. Zwar können Sie auf mobilen Geräten keine Dashboards erstellen, doch können Sie sie [anzeigen und freigeben](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 ## <a name="dashboard-basics"></a>Dashboard-Grundlagen 
 

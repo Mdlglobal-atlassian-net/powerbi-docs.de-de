@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348365"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565739"
 ---
 # <a name="export-reports-to-powerpoint"></a>Exportieren von Berichten in PowerPoint
 
@@ -31,7 +31,7 @@ Mit dem Power BI-Dienst (app.powerbi.com) können Sie Berichte in Microsoft Powe
 
 **Power BI-Berichte** lassen sich ganz schnell nach **PowerPoint** exportieren. Befolgen Sie dazu die Schritte im nächsten Abschnitt.
 
-Sie können auch jeweils ein Visual aus dem Power BI-Dienst kopieren und in PowerPoint (oder ein anderes Programm, das Einfügen unterstützt) einfügen. Wählen Sie das Symbol **Als Bild kopieren** aus, um das visuelle Element in die Zwischenablage zu kopieren. Öffnen Sie dann PowerPoint, und fügen Sie das visuelle Element ein. Weitere Informationen finden Sie unter [Kopieren von Visuals als statische Bilder](../power-bi-visualization-copy-paste.md).
+Sie können auch jeweils ein Visual aus dem Power BI-Dienst kopieren und in PowerPoint (oder ein anderes Programm, das Einfügen unterstützt) einfügen. Wählen Sie das Symbol **Als Bild kopieren** aus, um das visuelle Element in die Zwischenablage zu kopieren. Öffnen Sie dann PowerPoint, und fügen Sie das visuelle Element ein. Weitere Informationen finden Sie unter [Kopieren von Visuals als statische Bilder](../visuals/power-bi-visualization-copy-paste.md).
 
 ![Symbol „Als Bild kopieren“ auswählen](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ Wie Sie mit dem PowerPoint-Stapel und den hochauflösenden Bildern weiter verfah
 Bei der Arbeit mit der Funktion **Nach PowerPoint exportieren** sind einige Aspekte und Einschränkungen zu beachten.
  
 
-* [URL-Filter](../service-url-filters.md) werden zurzeit nicht beachtet, wenn Sie **Aktuelle Werte** für Ihren Export auswählen.
+* [URL-Filter](../collaborate-share/service-url-filters.md) werden zurzeit nicht beachtet, wenn Sie **Aktuelle Werte** für Ihren Export auswählen.
 
 * Wenn der Bericht beim Export in PowerPoint eine benutzerdefinierte Schriftart hat, wird diese durch eine Standardschriftart ersetzt.
 
 * Die folgenden Visualtypen werden nicht unterstützt und nicht in PowerPoint exportiert:
-   - [Nicht zertifizierte benutzerdefinierte Visuals](../developer/power-bi-custom-visuals-certified.md) werden nicht unterstützt. 
+   - [Nicht zertifizierte benutzerdefinierte Visuals](../developer/visuals/power-bi-custom-visuals-certified.md) werden nicht unterstützt. 
    - Das visuelle Element [ESRI ArcGIS](../visuals/power-bi-visualizations-arcgis.md) wird nicht unterstützt.
    - R- und Python-Visuals werden nicht unterstützt.
    - Hintergrundbilder werden an der Begrenzung des Diagramms abgeschnitten. Es wird empfohlen, Hintergrundbilder vor dem Export als PowerPoint-Datei zu entfernen.
@@ -109,5 +109,5 @@ Bei der Arbeit mit der Funktion **Nach PowerPoint exportieren** sind einige Aspe
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Kopieren von visuellen Elementen als statische Bilder](../power-bi-visualization-copy-paste.md)    
+[Kopieren von visuellen Elementen als statische Bilder](../visuals/power-bi-visualization-copy-paste.md)    
 [Drucken eines Berichts](end-user-print.md)

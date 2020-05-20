@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114959"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565716"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
 
@@ -60,7 +60,7 @@ Für Reporting Services muss nicht viel konfiguriert werden. Sie müssen ledigli
 
 Der SPN ist ein eindeutiger Bezeichner für einen Dienst, der die Kerberos-Authentifizierung verwendet. Sie müssen sicherstellen, dass ein gültiger HTTP-SPN für den Berichtsserver vorhanden ist.
 
-Informationen zum Konfigurieren des richtigen Dienstprinzipalnamens (Service Principal Name, SPN) für den Berichtsserver finden Sie unter [Registrieren eines Dienstprinzipalnamens (SPN) für einen Berichtsserver](https://msdn.microsoft.com/library/cc281382.aspx).
+Informationen zum Konfigurieren des richtigen Dienstprinzipalnamens (Service Principal Name, SPN) für den Berichtsserver finden Sie unter [Registrieren eines Dienstprinzipalnamens (SPN) für einen Berichtsserver](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server).
 
 ### <a name="enabling-negotiate-authentication"></a>Aktivieren der Aushandlungsauthentifizierung
 
@@ -74,7 +74,7 @@ Damit ein Berichtsserver die Kerberos-Authentifizierung verwenden kann, müssen 
 </AuthenticationTypes>
 ```
 
-Weitere Informationen finden Sie unter [Ändern einer Reporting Services-Konfigurationsdatei (RSreportserver.config)](https://msdn.microsoft.com/library/bb630448.aspx) und [Konfigurieren der Windows-Authentifizierung auf dem Berichtsserver](https://msdn.microsoft.com/library/cc281253.aspx).
+Weitere Informationen finden Sie unter [Ändern einer Reporting Services-Konfigurationsdatei (RSreportserver.config)](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) und [Konfigurieren der Windows-Authentifizierung auf dem Berichtsserver](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>AD FS-Konfiguration (Active Directory Federation Services, Active Directory-Verbunddienste)
 
@@ -248,9 +248,9 @@ Wenn die Anmeldung bei Verwendung von Fiddler erfolgreich ist, liegt möglicherw
 
 ## <a name="next-steps"></a>Weitere Schritte
 
-[Registrieren eines Dienstprinzipalnamens (SPN) für einen Berichtsserver](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Ändern einer Reporting Services-Konfigurationsdatei (RSreportserver.config)](https://msdn.microsoft.com/library/bb630448.aspx)  
-[Konfigurieren der Windows-Authentifizierung auf dem Berichtsserver](https://msdn.microsoft.com/library/cc281253.aspx)  
+[Registrieren eines Dienstprinzipalnamens (SPN) für einen Berichtsserver](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Ändern einer Reporting Services-Konfigurationsdatei (RSreportserver.config)](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[Konfigurieren der Windows-Authentifizierung auf dem Berichtsserver](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directory-Verbunddienste](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Webanwendungsproxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Veröffentlichen von Anwendungen mit AD FS-Vorauthentifizierung](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

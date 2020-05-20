@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349239"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565831"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Erstellen von berechneten Spalten in Power BI Desktop
 
@@ -46,7 +46,7 @@ Angenommen, Sie möchten im Verkaufsbericht Produktkategorien und Unterkategorie
 
 2. Standardmäßig wird eine neue berechnete Spalte einfach **Spalte** benannt. Wenn Sie diese nicht umbenennen, werden weitere neue Spalten **Spalte 2**, **Spalte 3** usw. benannt. Wenn Sie die Spalte eindeutiger bezeichnen möchten, geben Sie für die bereits markierte **Spalte** in der Bearbeitungsleiste den Namen **ProductFullCategory** und anschließend ein Gleichheitszeichen ( **=** ) ein.
 
-3. Die Werte in der neuen Spalte sollen mit dem Namen im Feld **ProductCategory** beginnen. Da sich diese Spalte in einer anderen, aber verknüpften Tabelle befindet, können Sie die Funktion [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) zum Abrufen der Spalte verwenden.
+3. Die Werte in der neuen Spalte sollen mit dem Namen im Feld **ProductCategory** beginnen. Da sich diese Spalte in einer anderen, aber verknüpften Tabelle befindet, können Sie die Funktion [RELATED](/dax/related-function-dax) zum Abrufen der Spalte verwenden.
 
    Geben Sie hinter dem Gleichheitszeichen ein **R** ein. In einer Dropdown-Vorschlagsliste werden alle DAX-Funktionen angezeigt, die mit dem Buchstaben „R“ beginnen. Wenn Sie eine Funktion auswählen, wird jeweils die Beschreibung ihrer Auswirkungen angezeigt. Während der Eingabe wird die Skalierung der Vorschlagsliste immer genauer an die von Ihnen gewünschte Funktion angepasst. Klicken Sie auf **RELATED**, und drücken Sie dann die **EINGABETASTE**.
 
@@ -97,7 +97,7 @@ Jetzt können Sie die neue Spalte **ProductFullCategory** verwenden, um **SalesA
 
 Das Beispiel „Contoso Sales Sample“ enthält Verkaufsdaten für aktive und inaktive Geschäfte. Stellen Sie sicher, dass in Ihrem Bericht der Umsatz von aktiven und inaktiven Geschäften deutlich voneinander getrennt dargestellt wird. Erstellen Sie hierfür das Feld **Active StoreName**. In der neuen berechneten Spalte **Active StoreName** wird jedes aktive Geschäft mit vollständigem Namen angezeigt, während alle inaktiven Geschäfte zusammen unter der Position **Inactive** gruppiert werden.
 
-Die Tabelle **Stores** besitzt glücklicherweise eine Spalte namens **Status** mit den Werten „On“ für aktive Geschäfte und „Off“ für inaktive Geschäfte. Verwenden Sie diese Werte, um Werte für die neue **Active StoreName**-Spalte zu erstellen. Die DAX-Formel verwendet die logische Funktion [IF](https://msdn.microsoft.com/library/ee634824.aspx), um den **Status** jedes Geschäfts zu überprüfen und je nach Ergebnis einen bestimmten Wert zurückzugeben. Wenn der **Status** eines Geschäfts „On“ ist, gibt die Formel den Namen des Geschäfts zurück. Ist der Status „Off“, weist die Formel für **Active StoreName** den Wert „Inactive“ zu.
+Die Tabelle **Stores** besitzt glücklicherweise eine Spalte namens **Status** mit den Werten „On“ für aktive Geschäfte und „Off“ für inaktive Geschäfte. Verwenden Sie diese Werte, um Werte für die neue **Active StoreName**-Spalte zu erstellen. Die DAX-Formel verwendet die logische Funktion [IF](/dax/if-function-dax), um den **Status** jedes Geschäfts zu überprüfen und je nach Ergebnis einen bestimmten Wert zurückzugeben. Wenn der **Status** eines Geschäfts „On“ ist, gibt die Formel den Namen des Geschäfts zurück. Ist der Status „Off“, weist die Formel für **Active StoreName** den Wert „Inactive“ zu.
 
 1. Erstellen Sie in der Tabelle **Stores** eine neue berechnete Spalte, und benennen Sie sie in der Bearbeitungsleiste **Active StoreName**.
 
@@ -133,4 +133,4 @@ Berechnete Spalten können Ihre Daten bereichern und Einsichten leichter zugäng
 
 Ausführlichere Information zu DAX-Formeln und der Erstellung von berechneten Spalten unter Verwendung von komplexeren Formeln finden Sie unter [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Dieser Artikel konzentriert sich auf grundlegende Konzepte in DAX, wie etwa Syntax, Funktionen und ein tiefer gehendes Verständnis von Kontext.
 
-Denken Sie daran, die [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) zu Ihren Favoriten hinzuzufügen. Dort finden Sie detaillierte Informationen zur DAX-Syntax, Operatoren und über 200 DAX-Funktionen.
+Denken Sie daran, die [DAX-Referenz (Data Analysis Expressions)](/dax/) zu Ihren Favoriten hinzuzufügen. Dort finden Sie detaillierte Informationen zur DAX-Syntax, Operatoren und über 200 DAX-Funktionen.

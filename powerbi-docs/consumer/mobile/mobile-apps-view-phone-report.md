@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273521"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565121"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 
@@ -60,7 +60,7 @@ Telefonberichte bieten zudem einen Fokusmodus: Dabei können Sie ein einzelnes V
 
 * Tippen Sie in einem Smartphonebericht auf die Auslassungspunkte ( **...** ) in der oberen rechten Ecke eines visuellen Elements und dann auf **Auf Fokusmodus erweitern**.
   
-    ![Auf Fokusmodus erweitern](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Auf Fokusmodus erweitern](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 Ihre Aktionen im Fokusmodus werden im Berichtszeichenbereich übernommen und umgekehrt. Wenn Sie z. B. einen Wert in einem Visual hervorheben und dann zum gesamten Bericht zurückkehren, wird der Bericht nach dem Wert gefiltert, den Sie im Visual hervorgehoben haben.
 
@@ -72,7 +72,7 @@ Aufgrund der Einschränkungen durch die Bildschirmgröße können manche Aktione
   
     Um alle Untersuchungsschritte aus einem visuellen Element zu löschen, tippen Sie auf die Auslassungspunkte ( **...** ) und dann auf **Zurücksetzen**.
   
-    ![Zurücksetzen](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Zurücksetzen](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     Die Option zum Zurücksetzen ist sowohl auf der Berichts- als auch auf der Visualebene verfügbar. Auf der Berichtsebene werden die Untersuchungsschritte aus sämtlichen Visuals gelöscht, auf der Visualebene nur aus dem ausgewählten Visual.   
 
@@ -86,14 +86,14 @@ Die folgenden Drilldown-Typen sind verfügbar:
 2. Daraufhin wird eine QuickInfo angezeigt. Wurde eine Hierarchie definiert, werden in der Fußzeile der QuickInfo Pfeile für den Drilldown und Drillup angezeigt.
 3. Tippen Sie für einen Drilldown auf den Pfeil nach unten.
 
-    ![Tippen auf Drilldown-Pfeil](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Tippen auf Drilldown-Pfeil](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Tippen Sie für einen Drillup auf den Pfeil nach oben.
 
 ### <a name="drill-to-next-level"></a>Drilldown zur nächsten Ebene
 1. Tippen Sie in einem Bericht auf einem Smartphone auf die Auslassungspunkte ( **...** ) in der oberen rechten Ecke und dann auf **Auf Fokusmodus erweitern**.
    
-    ![Auf Fokusmodus erweitern](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Auf Fokusmodus erweitern](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     In diesem Beispiel zeigen die Balken die Werte für Bundesländer an.
 2. Tippen Sie auf das Symbol „Durchsuchen“ ![Symbol „Durchsuchen“](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) in der unteren linken Ecke.
@@ -111,7 +111,7 @@ Die folgenden Drilldown-Typen sind verfügbar:
     ![Immer noch auf die untere Ebene erweitert](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Um auf die ursprüngliche Ebene zurückzukehren, tippen Sie erneut auf die Auslassungspunkte ( **...** ) und dann auf **Zurücksetzen**.
    
-    ![Zurücksetzen](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Zurücksetzen](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Drillthrough von einem Wert
 Bei einem Drillthrough werden Werte auf einer Berichtseite mit anderen Berichtseiten verknüpft. Wenn Sie einen Drillthrough von einem Datenpunkt zu einer anderen Berichtseite ausführen, werden die Datenpunktwerte zum Filtern der anderen Seite verwendet oder in Kontext zu den ausgewählten Daten gesetzt.
@@ -121,11 +121,11 @@ Berichtsautoren können beim Erstellen eines Berichts einen [Drillthrough defini
 2. Daraufhin wird eine QuickInfo angezeigt. Wurde ein Drillthrough definiert, wird in der Fußzeile der QuickInfo ein Pfeil nach rechts für den Drillthrough angezeigt.
 3. Tippen Sie für einen Drillthrough auf den Pfeil nach rechts.
 
-    ![Tippen auf Drillthrough-Pfeil](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Tippen auf Drillthrough-Pfeil](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Wählen Sie die Berichtseite aus, für die der Drillthrough ausgeführt werden soll.
 
-    ![Berichtseite auswählen](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Berichtseite auswählen](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Über die Schaltfläche „Zurück“ im App-Header gelangen Sie zurück auf die ursprüngliche Seite.
 
@@ -133,5 +133,5 @@ Berichtsautoren können beim Erstellen eines Berichts einen [Drillthrough defini
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind](../../create-reports/desktop-create-phone-report.md)
 * [Erstellen einer Telefonansicht eines Dashboards in Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../../visuals/desktop-create-responsive-visuals.md)
+* [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../../visuals/power-bi-report-visualizations.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

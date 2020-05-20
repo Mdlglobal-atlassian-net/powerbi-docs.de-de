@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297973"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564744"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Optimieren von Power BI-Berichten für die mobile App
 Sie können die Benutzererfahrung beim Anzeigen von Berichten in den mobilen Apps verbessern, indem Sie ein Layout im Hochformat erstellen. In Power BI Desktop und dem Power BI-Dienst ordnen Sie die visuellen Elemente von Berichten in Größe und Position neu an, um eine optimale Erfahrung in der Hochformatdarstellung zu erzielen.  
@@ -58,7 +58,7 @@ Wenn Sie die Größe des visuellen Elements ändern, hat die Datenansicht in Pow
 
 ![Größenänderung eines dynamischen Visuals](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Die Dynamik wird für jedes Visual separat festgelegt. Erfahren Sie mehr über das [Optimieren von Visuals](../visuals/desktop-create-responsive-visuals.md).
+Die Dynamik wird für jedes Visual separat festgelegt. Erfahren Sie mehr über das [Optimieren von Visuals](../visuals/power-bi-report-visualizations.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Überlegungen zum Erstellen von Smartphoneberichtslayouts
 * Sie können für Berichte mit mehreren Seiten alle Seiten oder nur einige Seiten optimieren. 
@@ -108,5 +108,5 @@ Leser des Berichts können die Ausrichtung ihres Smartphones oder Tablets änder
 ## <a name="next-steps"></a>Weitere Schritte
 * [Erstellen einer Telefonansicht eines Dashboards in Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind](../consumer/mobile/mobile-apps-view-phone-report.md)
-* [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../visuals/desktop-create-responsive-visuals.md)
+* [Erstellen von dynamischen Visuals, die für eine beliebige Größe optimiert sind](../visuals/power-bi-report-visualizations.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

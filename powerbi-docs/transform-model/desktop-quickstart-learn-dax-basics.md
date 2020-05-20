@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313383"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565854"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Anwenden von DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er gibt eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einfacher Berechnungen und Datenanalyseprobleme. Es sind Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und eine Wissensbeurteilung zum Prüfen des Gelernten enthalten. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -66,7 +66,7 @@ Wenn es zu einem Bericht hinzugefügt wird, berechnet dieses Measure Werte, inde
 
 Sie denken jetzt vielleicht: „Macht dieses Measure nicht etwas, was ich einfach durch Hinzufügen des Felds ‚SalesAmount‘ (Umsatzbetrag) zum Bericht erreichen kann?“ Ja, stimmt. Es gibt aber einen guten Grund, ein eigenes Measure zum Addieren von Werten aus dem Feld „SalesAmount“ zu verwenden: Wir können es als Argument in anderen Formeln verwenden. Zu Beginn kann das verwirrend sein, aber in dem Maß, wie Ihre Fähigkeiten im Umgang mit DAX-Formeln zunehmen, macht Ihr Wissen über dieses Measure Ihre Formeln und Modelle effizienter. Und Sie finden das Measure „Total Sales“ (Gesamtumsatz) im weiteren Verlauf in anderen Formeln.
 
-Gehen wir noch ein paar weitere Dinge in dieser Formel durch. Insbesondere haben wir eine Funktion [SUM](https://msdn.microsoft.com/library/ee634387.aspx) eingeführt. Funktionen sind vorbereitete Formeln, die das Ausführen komplexer Berechnungen und Manipulationen mit Zahlen, Datumswerten, Uhrzeiten, Text und mehr erleichtern. Im weiteren Verlauf erfahren Sie mehr über Funktionen.
+Gehen wir noch ein paar weitere Dinge in dieser Formel durch. Insbesondere haben wir eine Funktion [SUM](/dax/sum-function-dax) eingeführt. Funktionen sind vorbereitete Formeln, die das Ausführen komplexer Berechnungen und Manipulationen mit Zahlen, Datumswerten, Uhrzeiten, Text und mehr erleichtern. Im weiteren Verlauf erfahren Sie mehr über Funktionen.
 
 Sie sehen außerdem, dass dem Spaltennamen „[SalesAmount]“ der Name der Tabelle („Sales“) voransteht, in die die Spalte gehört. Dieser Name wird als ein vollqualifizierter Spaltenname bezeichnet, da er den Spaltennamen mit dem vorangestellten Tabellennamen enthält. Für Spalten, auf die in derselben Tabelle verwiesen wird, ist nicht erforderlich, dass der Tabellenname in der Formel enthalten ist. Dadurch werden lange Formeln, die auf viele Spalten verweisen, kürzer und leichter lesbar. Allerdings empfiehlt es sich, den Tabellennamen selbst innerhalb derselben Tabelle in Ihre Measureformeln mit aufzunehmen.
 
@@ -121,7 +121,7 @@ Sie haben‘s geschafft! Sie haben gerade mithilfe von DAX ein komplexes Measure
 
 Damit wurden mehrere wichtige Aspekte von DAX-Formeln eingeführt: 
 
-- Diese Formel enthielt zwei Funktionen. [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) ist eine Zeitintelligenzfunktion ist, die als Argument verschachtelt ist, das an die Filterfunktion [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) übergeben wird. 
+- Diese Formel enthielt zwei Funktionen. [PREVIOUSQUARTER](/dax/previousquarter-function-dax) ist eine Zeitintelligenzfunktion ist, die als Argument verschachtelt ist, das an die Filterfunktion [CALCULATE](/dax/calculate-function-dax) übergeben wird. 
 
    DAX-Formeln können bis zu 64 geschachtelte Funktionen enthalten. Es ist unwahrscheinlich, dass eine Formel jemals so viele verschachtelte Funktionen enthalten sollte. Eine solche Formel wäre tatsächlich schwer zu erstellen und zu debuggen, und wahrscheinlich wäre sie auch nicht sehr schnell.
 
@@ -142,7 +142,7 @@ Die Antworten finden Sie am Ende dieses Artikels.
 ### <a name="functions"></a>Funktionen
 Funktionen sind vordefinierte Formeln, die Berechnungen ausführen, indem sie bestimmte Werte, die Argumente genannt werden, in einer bestimmten Reihenfolge oder Struktur verwenden. Als Argumente können andere Funktionen, eine andere Formel, ein Ausdruck, Spaltenverweise, Zahlen, Text, logische Werte wie WAHR oder FALSCH oder Konstanten dienen.
 
-DAX enthält die folgenden Kategorien von Funktionen: [Datum und Uhrzeit](https://msdn.microsoft.com/library/ee634786.aspx), [Zeitintelligenz](https://msdn.microsoft.com/library/ee634763.aspx), [Information](https://msdn.microsoft.com/library/ee634552.aspx), [Logisch](https://msdn.microsoft.com/library/ee634365.aspx), [Mathematisch](https://msdn.microsoft.com/library/ee634241.aspx), [Statistisch](https://msdn.microsoft.com/library/ee634822.aspx), [Text](https://msdn.microsoft.com/library/ee634938.aspx), [Über-/Untergeordnet](https://msdn.microsoft.com/library/mt150102.aspx) sowie [sonstige](https://msdn.microsoft.com/library/mt150101.aspx) Funktionen. Wenn Sie mit Funktionen in Excel-Formeln vertraut sind, werden Ihnen viele der Funktionen in DAX ähnlich vorkommen; Sie sind jedoch in diesen Punkten einzigartig:
+DAX enthält die folgenden Kategorien von Funktionen: [Datum und Uhrzeit](/dax/date-and-time-functions-dax), [Zeitintelligenz](/dax/time-intelligence-functions-dax), [Information](/dax/information-functions-dax), [Logisch](/dax/logical-functions-dax), [Mathematisch](/dax/math-and-trig-functions-dax), [Statistisch](/dax/statistical-functions-dax), [Text](/dax/text-functions-dax), [Über-/Untergeordnet](/dax/parent-and-child-functions-dax) sowie [sonstige](/dax/other-functions-dax) Funktionen. Wenn Sie mit Funktionen in Excel-Formeln vertraut sind, werden Ihnen viele der Funktionen in DAX ähnlich vorkommen; Sie sind jedoch in diesen Punkten einzigartig:
 
 * Eine DAX-Funktion verweist immer auf eine gesamte Spalte oder eine Tabelle. Wenn Sie nur bestimmte Werte aus einer Tabelle oder Spalte verwenden möchten, können Sie der Formel Filter hinzufügen.
 * Wenn Sie Berechnungen zeilenweise anpassen müssen, bietet DAX Funktionen, bei denen Sie den Wert der aktuellen Zeile oder einen damit zusammenhängenden Wert als eine Art Argument verwenden können, um Berechnungen durchzuführen, die sich je nach Kontext unterscheiden. Sie erfahren später noch mehr über Kontext.
@@ -150,7 +150,7 @@ DAX enthält die folgenden Kategorien von Funktionen: [Datum und Uhrzeit](https:
 * DAX beinhaltet eine Vielzahl von Zeitintelligenzfunktionen. Mit diesen Funktionen können Sie Datumsbereiche definieren oder auswählen und dynamische Berechnungen auf ihrer Grundlage durchführen. Beispielsweise können Sie Summen über parallele Zeiträume vergleichen.
 * Excel verfügt über die beliebte Funktion SVERWEIS. DAX-Funktionen nehmen keine Zelle oder einen Zellbereich als Verweis an, wie SVERWEIS in Excel. DAX-Funktionen nehmen eine Spalte oder eine Tabelle als Verweis an. Bedenken Sie, dass Sie in Power BI Desktop mit einem relationalen Datenmodell arbeiten. Das Nachschlagen von Werten in einer anderen Tabelle ist einfach, und in den meisten Fällen müssen Sie dafür gar keine Formel erstellen.
   
-  Wie Sie sehen können, können Funktionen in DAX Ihnen beim Erstellen leistungsfähiger Formeln helfen. Wir haben wirklich gerade eben nur die Grundlagen von Funktionen berührt. Mit wachsenden DAX-Fertigkeiten erstellen Sie Formeln, die viele verschiedene Funktionen verwenden. Eine der besten Quellen für Details zu jeder der DAX-Funktionen ist die [DAX-Funktionsreferenz](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference).
+  Wie Sie sehen können, können Funktionen in DAX Ihnen beim Erstellen leistungsfähiger Formeln helfen. Wir haben wirklich gerade eben nur die Grundlagen von Funktionen berührt. Mit wachsenden DAX-Fertigkeiten erstellen Sie Formeln, die viele verschiedene Funktionen verwenden. Eine der besten Quellen für Details zu jeder der DAX-Funktionen ist die [DAX-Funktionsreferenz](/dax/).
 
 ### <a name="functions-quickquiz"></a>Funktionen-Kurzquiz
 1. Worauf verweist eine Funktion in jedem Fall?
@@ -210,7 +210,7 @@ Sie können sich sicher vorstellen, dass die Möglichkeit, Filterkontexte innerh
 Die Antworten finden Sie am Ende dieses Artikels.
 
 ## <a name="summary"></a>Zusammenfassung
-Jetzt, da Sie über ein grundlegendes Verständnis der wichtigsten Konzepte in DAX verfügen, können Sie beginnen, auf eigene Faust DAX-Formeln für Measures zu erstellen. DAX ist ein bisschen schwierig zu lernen, Ihnen stehen aber viele Ressourcen zur Verfügung. Nach dem Lesen dieses Artikels und ein paar Experimenten mit eigenen Formeln können Sie mehr über andere DAX-Konzepte und -Formeln lernen, die Ihnen beim Lösen Ihrer Geschäftsprobleme helfen können. Ihnen stehen viele DAX-Ressourcen zur Verfügung. Am wichtigsten ist die [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx).
+Jetzt, da Sie über ein grundlegendes Verständnis der wichtigsten Konzepte in DAX verfügen, können Sie beginnen, auf eigene Faust DAX-Formeln für Measures zu erstellen. DAX ist ein bisschen schwierig zu lernen, Ihnen stehen aber viele Ressourcen zur Verfügung. Nach dem Lesen dieses Artikels und ein paar Experimenten mit eigenen Formeln können Sie mehr über andere DAX-Konzepte und -Formeln lernen, die Ihnen beim Lösen Ihrer Geschäftsprobleme helfen können. Ihnen stehen viele DAX-Ressourcen zur Verfügung. Am wichtigsten ist die [DAX-Referenz (Data Analysis Expressions)](/dax/).
 
 Da DAX schon seit mehreren Jahren in anderen Microsoft BI-Tools wie Power Pivot und tabellarischen Modellen von Analysis Services vorhanden ist, stehen gute Informationen in großer Menge zur Verfügung. Sie finden weitere Informationen in Büchern, Whitepapers und Blogs sowohl von Microsoft als auch von führenden BI-Experten. Das [DAX Resource Center Wiki auf TechNet](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) ist ebenfalls ein hervorragender Ausgangspunkt.
 
@@ -224,11 +224,10 @@ Funktionen:
 
 1. Eine Tabelle und eine Spalte.
 2. Ja. Eine Formel kann bis zu 64 verschachtelte Funktionen aufweisen.
-3. [Textfunktionen](https://msdn.microsoft.com/library/ee634938.aspx).
+3. [Textfunktionen](/dax/text-functions-dax).
 
 Kontext:
 
 1. Zeilenkontext und Filterkontext.
 2. Ein oder mehrere Filter in einer Berechnung, die einen einzelnen Wert bestimmt.
 3. Die aktuelle Zeile.
-

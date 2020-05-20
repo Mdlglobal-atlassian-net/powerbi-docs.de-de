@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308944"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565344"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Verwalten Ihrer Datenquelle – Analysis Services
 
@@ -54,9 +54,9 @@ Optional können Sie die Datenschutzebene für die Datenquelle konfigurieren. Di
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-Bei jeder Interaktion eines Benutzers mit einem Bericht, der mit Analysis Services verbunden ist, wird der effektive Benutzername an das Gateway und von dort aus an Ihren lokalen Analysis Services-Server übergeben. Die E-Mail-Adresse, die Sie für die Anmeldung bei Power BI verwenden, wird als effektiver Benutzer an Analysis Services übergeben. Sie wird in der Verbindungseigenschaft [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) übergeben. 
+Bei jeder Interaktion eines Benutzers mit einem Bericht, der mit Analysis Services verbunden ist, wird der effektive Benutzername an das Gateway und von dort aus an Ihren lokalen Analysis Services-Server übergeben. Die E-Mail-Adresse, die Sie für die Anmeldung bei Power BI verwenden, wird als effektiver Benutzer an Analysis Services übergeben. Sie wird in der Verbindungseigenschaft [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth) übergeben. 
 
-Die E-Mail-Adresse muss mit einem in der lokalen Active Directory-Domäne definierten Benutzerprinzipalnamen (UPN) übereinstimmen. Der UPN ist eine Eigenschaft des Active Directory-Kontos. Das Windows-Konto muss in einer Analysis Services-Rolle vorhanden sein. Wenn in Active Directory keine Übereinstimmung gefunden werden kann, ist die Anmeldung nicht erfolgreich. Weitere Informationen zu Active Directory und Benutzernamen finden Sie unter [Benutzernamenattribute](https://msdn.microsoft.com/library/ms677605.aspx).
+Die E-Mail-Adresse muss mit einem in der lokalen Active Directory-Domäne definierten Benutzerprinzipalnamen (UPN) übereinstimmen. Der UPN ist eine Eigenschaft des Active Directory-Kontos. Das Windows-Konto muss in einer Analysis Services-Rolle vorhanden sein. Wenn in Active Directory keine Übereinstimmung gefunden werden kann, ist die Anmeldung nicht erfolgreich. Weitere Informationen zu Active Directory und Benutzernamen finden Sie unter [Benutzernamenattribute](/windows/win32/ad/naming-properties).
 
 Sie können auch [Ihren Power BI-Anmeldenamen einem lokalen Verzeichnis-UPN zuordnen](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
@@ -203,7 +203,7 @@ Die Fähigkeit eines Benutzers, Daten des Modells abzufragen und anzuzeigen, wir
 - Die Rollen, denen Ihr Windows-Benutzerkonto als Mitglied angehört.
 - Dynamische Sicherheit auf Zeilenebene, sofern sie konfiguriert ist.
 
-Das Implementieren von rollenbasierter Sicherheit und dynamischer Sicherheit auf Zeilenebene in Modellen würde den Rahmen dieses Artikels sprengen. Weitere Informationen finden Sie unter [Rollen (SSAS – tabellarisch)](https://msdn.microsoft.com/library/hh213165.aspx) und [Sicherheitsrollen (Analysis Services – mehrdimensionale Daten)](https://msdn.microsoft.com/library/ms174840.aspx) auf MSDN. Eine besonders fundierte Darstellung der Sicherheit in tabellarischen Modellen finden Sie im Whitepaper [Securing the Tabular BI Semantic Model](https://msdn.microsoft.com/library/jj127437.aspx) (Sichern des semantischen BI-Tabellenmodells).
+Das Implementieren von rollenbasierter Sicherheit und dynamischer Sicherheit auf Zeilenebene in Modellen würde den Rahmen dieses Artikels sprengen. Weitere Informationen finden Sie unter [Rollen (SSAS – tabellarisch)](/analysis-services/tabular-models/roles-ssas-tabular) und [Sicherheitsrollen (Analysis Services – mehrdimensionale Daten)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data) auf MSDN. Eine besonders fundierte Darstellung der Sicherheit in tabellarischen Modellen finden Sie im Whitepaper [Securing the Tabular BI Semantic Model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Sichern des semantischen BI-Tabellenmodells).
 
 ## <a name="what-about-azure-ad"></a>Was ist mit Azure AD?
 

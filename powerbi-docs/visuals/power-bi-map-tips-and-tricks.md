@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277822"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565900"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
 
@@ -55,7 +55,7 @@ In Power BI Desktop können Sie sicherstellen, dass Felder richtig geocodiert si
 **2. Verwenden mehrerer Standortspalten**    
  Manchmal reicht es trotz Einstellen der Datenkategorien für die Zuordnung nicht aus, dass Bing Ihre Absichten richtig errät. Einige Bezeichnungen sind mehrdeutig, wenn der Ort in mehreren Ländern oder Regionen vorhanden ist. So gibt es beispielsweise ***Southampton*** in England sowie in den Bundesstaaten Pennsylvania und New York.
 
-In Power BI wird Bings [Vorlagendienst für unstrukturierte URLs](https://msdn.microsoft.com/library/ff701714.aspx) verwendet, um die Koordinaten für Breitengrad und Längengrad anhand einer Menge von Adresswerten für ein beliebiges Land zu bestimmen. Enthalten Ihre Daten nicht genügend Standortdaten, fügen Sie diese Spalten hinzu, und kategorisieren Sie diese entsprechend.
+In Power BI wird Bings [Vorlagendienst für unstrukturierte URLs](/bingmaps/rest-services/locations/find-a-location-by-address) verwendet, um die Koordinaten für Breitengrad und Längengrad anhand einer Menge von Adresswerten für ein beliebiges Land zu bestimmen. Enthalten Ihre Daten nicht genügend Standortdaten, fügen Sie diese Spalten hinzu, und kategorisieren Sie diese entsprechend.
 
  Wenn z.B. nur eine Spalte für „Ort“ vorhanden ist, ist die Geocodierung für Bing möglicherweise schwierig auszuführen. Fügen Sie weitere Geospalten hinzu, um den Standort eindeutig festzulegen.  Manchmal muss dem Dataset lediglich eine weitere Standortspalte hinzugefügt werden, in diesem Fall „Bundesland/Kanton“. Und vergessen Sie nicht die ordnungsgemäße Kategorisierung der Spalte, siehe Punkt 1 weiter oben.
 
@@ -97,5 +97,3 @@ Beim Drilling in geografischen Hierarchien müssen Sie wissen, wie die einzelnen
 [Power Bi-Visualisierungen](power-bi-report-visualizations.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](https://community.powerbi.com/)
-
-

@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349607"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564447"
 ---
 # <a name="what-is-power-bi"></a>Was ist Power BI?
 **Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Ihre Daten können als Excel-Kalkulationstabelle oder als eine hybride Sammlung von cloudbasierten und lokalen Data Warehouse-Instanzen vorliegen. Mit Power BI können Sie komfortabel Verbindungen zwischen Ihren Datenquellen herstellen, wichtige Punkte entdecken und visualisieren sowie die Ergebnisse mit den gewünschten Personen teilen.
@@ -70,6 +70,6 @@ Power BI-Berichtsserver ist eine Lösung, die Sie hinter Ihrer Firewall bereitst
 Informieren Sie sich umfassender über den [Power BI-Berichtsserver](../report-server/get-started.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-- [Schnellstart: Learn your way around the Power BI service (Schnellstart: Kennenlernen des Power BI-Diensts)](../service-the-new-power-bi-experience.md)   
+- [Schnellstart: Learn your way around the Power BI service (Schnellstart: Kennenlernen des Power BI-Diensts)](../consumer/end-user-experience.md)   
 - [Tutorial: Erste Schritte mit dem Power BI-Dienst](service-get-started.md)
 - [Schnellstart: Herstellen einer Verbindung mit Daten in Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)

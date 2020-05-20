@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277178"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563919"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Erstellen und Verwenden von Kombinationsdiagrammen in Power BI
 
@@ -123,7 +123,7 @@ Jetzt haben Sie folgende Möglichkeiten:
 
 * [Fügen Sie das Kombinationsdiagramm als Dashboardkachel hinzu.](../create-reports/service-dashboard-tiles.md)
 * [Speichern Sie den Bericht](../create-reports/service-report-save.md).
-* [Barrierefreiheit in Power BI Desktop-Berichten](../desktop-accessibility.md)
+* [Barrierefreiheit in Power BI Desktop-Berichten](../create-reports/desktop-accessibility-overview.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kreuzhervorheben und Kreuzfiltern
 
@@ -134,6 +134,3 @@ Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht 
 [Ringdiagramme in Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-
-
