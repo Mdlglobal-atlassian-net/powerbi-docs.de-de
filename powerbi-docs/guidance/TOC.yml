@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: Problembehandlung für die Berichtsleistung
               href: report-performance-troubleshoot.md
+            - name: Bewährte Methoden für Bereitstellungspipelines
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: Whitepaper
       items:
         - name: Whitepaper – Übersicht
