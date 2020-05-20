@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: Konfigurieren von geplanten Aktualisierungen
               href: refresh-scheduled-refresh.md
-            - name: Aktualisieren des Centers
-              href: refresh-center.md
+            - name: Aktualisieren von Zusammenfassungen
+              href: refresh-summaries.md
             - name: Konfigurieren inkrementeller Aktualisierungen
               href: ../admin/service-premium-incremental-refresh.md
             - name: Aktualisieren eines aus einer lokalen Power BI Desktop-Datei erstellten Datasets

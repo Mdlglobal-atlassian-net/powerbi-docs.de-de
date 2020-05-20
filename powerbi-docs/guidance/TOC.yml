@@ -118,6 +118,8 @@
           href: whitepapers.md
         - name: Whitepaper zur Sicherheit in Power BI
           href: whitepaper-powerbi-security.md
+        - name: Whitepaper zum Planen der Unternehmensbereitstellung von Power BI
+          href: whitepaper-powerbi-enterprise-deployment.md
         - name: Power BI Premium-Bereitstellung
           href: whitepaper-powerbi-premium-deployment.md
         - name: Externe Verteilung von Power BI mit Azure Active Directory B2B
