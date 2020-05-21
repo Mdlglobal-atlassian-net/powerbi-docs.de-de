@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279064"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693974"
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -21,7 +21,7 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 
 | Whitepaper | Beschreibung | Datum |
 | --- | --- | --- |
-| [Planning a Power BI Enterprise Deployment](https://go.microsoft.com/fwlink/?linkid=2057861) |Dies ist ein technisches Whitepaper, in dem Überlegungen zu einer gut funktionierenden und sicheren Power BI-Bereitstellung für eine Organisation umrissen werden. | Juli 2018 |
+| [Planning a Power BI Enterprise Deployment](https://aka.ms/PBIEnterpriseDeploymentWP) |In diesem aktualisierten technischen Whitepaper werden Überlegungen und bewährte Methoden für eine gut funktionierende und sichere Organisation Power BI Bereitstellung beschrieben. | Mai 2020 |
 | [Power BI und Dataflows](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Dieses Whitepaper beschreibt die technischen Details von Dataflows sowie die Funktionalitäten und Ansätze von Dataflowfeatures. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschreibt Power BI Premium, sowohl im Zustand beim Start als auch bei der weiteren Entwicklung. | Oktober 2017 |
 | [Power BI Premium-Planung und -Bereitstellung](whitepaper-powerbi-premium-deployment.md)| In diesem Dokument finden Sie Anleitungen und Best Practices für die Planung und Bereitstellung von Premium-Kapazität bei klar definierten Workloads.| März 2019 |
@@ -38,4 +38,4 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Haben Sie dazu Fragen? [Fragen Sie die Power BI-Community](https://community.powerbi.com/)
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

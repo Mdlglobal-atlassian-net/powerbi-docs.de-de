@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407535"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565275"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper zur Sicherheit in Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407535"
 
 **Power BI** ist ein_Saas_-oder Software-as-a-Service-Angebot (Software-as-a-Service) von Microsoft, mit dem Sie einfach und schnell Self-Service-Business Intelligence-Dashboards,-Berichte,-Datasets und-Visualisierungen erstellen können. Mithilfe von Power BI können Sie eine Verbindung mit vielen verschiedenen Datenquellen herstellen, Daten aus diesen Verbindungen kombinieren und formen und anschließend Berichte und Dashboards erstellen, die Sie mit anderen teilen können.
 
-Der Power BI-Dienst ist Gegenstand der [Microsoft Online Services-Nutzungsbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) und der [Datenschutzbestimmungen von Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Informationen zum für die Datenverarbeitung vorgesehenen Speicherort finden Sie im entsprechenden Abschnitt in den Microsoft Online Services-Nutzungsbedingungen. Complianceinformationen in Bezug auf Power BI finden Sie in erster Linie im [Microsoft Trust Center](https://www.microsoft.com/trustcenter). Das Power BI-Team arbeitet hart daran, seinen Kunden die neuesten Innovationen und Produktivitätsfunktionen zur Verfügung zu stellen. Power BI befindet sich derzeit in der Ebene D des Kompatibilitäts- [Frameworks von Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
+Der Power BI-Dienst ist Gegenstand der [Microsoft Online Services-Nutzungsbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) und der [Datenschutzbestimmungen von Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Informationen zum für die Datenverarbeitung vorgesehenen Speicherort finden Sie im entsprechenden Abschnitt in den Microsoft Online Services-Nutzungsbedingungen. Complianceinformationen in Bezug auf Power BI finden Sie in erster Linie im [Microsoft Trust Center](https://www.microsoft.com/trustcenter). Das Power BI-Team arbeitet hart daran, seinen Kunden die neuesten Innovationen und Produktivitätsfunktionen zur Verfügung zu stellen. Power BI befindet sich derzeit in der Ebene D des Microsoft 365 Compliance-Frameworks. Weitere Informationen zur Konformität finden Sie im [Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 In diesem Artikel wird die Power BI-Sicherheit anhand einer Erläuterung der Power BI-Architektur beschrieben, anschließend wird erklärt, wie Benutzer Power BI zur Authentifizierung verwenden können und wie Datenverbindungen hergestellt werden. Danach erhalten Sie Informationen dazu, wie Power BI Daten innerhalb des Diensts speichert und verschiebt. Zudem finden Sie im letzten Abschnitt Fragen und Antworten zum Thema Sicherheit.
 
@@ -87,13 +87,13 @@ Power BI verwendet zwei primäre Repositorys zum Speichern und Verwalten von Dat
 
 Wenn beispielsweise ein Benutzer eine Excel-Arbeitsmappe in den Power BI-Dienst importiert, wird eine tabellarische Analysis Services-In-Memory-Datenbank erstellt, und die Daten werden für bis zu eine Stunde (oder bis zur Auslastung des Systemspeichers) im Arbeitsspeicher gespeichert. Außerdem werden die Daten an den **Azure Blobspeicher** gesendet.
 
-Metadaten zum Power BI-Abonnement eines Benutzers, z.B. Dashboards, Berichte, kürzlich verwendete Datenquellen, Arbeitsbereiche, Informationen zu Organisation und zum Mandanten, und andere Metadaten zum System werden in **Azure SQL-Datenbank** gespeichert und aktualisiert. Alle in Azure SQL-Datenbank gespeicherten Informationen werden mithilfe der integrierten [Transparent Data Encryption](https://msdn.microsoft.com/library/dn948096.aspx)-Technologie vollständig verschlüsselt. Ebenso werden alle im Azure-Blobspeicher gespeicherten Daten verschlüsselt. Weitere Informationen zum Laden, Speichern und Verschieben von Daten werden im Abschnitt **Datenspeicherung und -verschiebung** beschrieben.
+Metadaten zum Power BI-Abonnement eines Benutzers, z.B. Dashboards, Berichte, kürzlich verwendete Datenquellen, Arbeitsbereiche, Informationen zu Organisation und zum Mandanten, und andere Metadaten zum System werden in **Azure SQL-Datenbank** gespeichert und aktualisiert. Alle in Azure SQL-Datenbank gespeicherten Informationen werden mithilfe der integrierten [Transparent Data Encryption](/azure/sql-database/transparent-data-encryption-azure-sql)-Technologie vollständig verschlüsselt. Ebenso werden alle im Azure-Blobspeicher gespeicherten Daten verschlüsselt. Weitere Informationen zum Laden, Speichern und Verschieben von Daten werden im Abschnitt **Datenspeicherung und -verschiebung** beschrieben.
 
 ## <a name="tenant-creation"></a>Mandantenerstellung
 
 Ein Mandant stellt eine dedizierte Instanz des Azure AD-Diensts dar, die eine Organisation erhält und besitzt, wenn sie sich für einen Microsoft-Clouddienst wie Azure, Microsoft Intune, Power BI oder Office 365 registriert. Jeder Azure AD-Mandant ist eindeutig und von anderen Azure AD-Mandanten getrennt.
 
-Ein Mandant enthält die Benutzer in einem Unternehmen und die dazugehörigen Informationen, wie z. B. Kennwörter, Benutzerprofildaten, Berechtigungen usw. Er enthält außerdem Gruppen, Anwendungen und andere Informationen, die eine Organisation und ihre Sicherheit betreffen. Weitere Informationen finden Sie unter [Was ist ein Azure AD](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)Mandanten.
+Ein Mandant enthält die Benutzer in einem Unternehmen und die dazugehörigen Informationen, wie z. B. Kennwörter, Benutzerprofildaten, Berechtigungen usw. Er enthält außerdem Gruppen, Anwendungen und andere Informationen, die eine Organisation und ihre Sicherheit betreffen. Weitere Informationen finden Sie unter [Was ist ein Azure AD](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)Mandanten.
 
 Power BI-Mandanten werden in dem Rechenzentrum erstellt, das anhand der für den jeweiligen Mandanten in Azure Active Directory bei der Bereitstellung von Office 365 oder des Power BI-Diensts zur Verfügung gestellten Informationen zum Land (zur Region) und zum Status als das Nächste betrachtet wird. Der Power BI-Mandant wird dann zum jeweiligen Zeitpunkt nicht aus dem Rechenzentrum verschoben.
 
@@ -198,7 +198,7 @@ Der Schlüsselverschlüsselungsschlüssel (Key Encryption Key, KEK), der dann zu
 
 Gateway-Verschlüsselungsschlüssel, die auf dem Wiederherstellungsschlüssel basieren, verlassen niemals eine lokale Infrastruktur. Power BI kann nicht auf die Werte der verschlüsselten lokalen Anmeldeinformationen zugreifen und diese Anmeldeinformationen nicht abfangen. Webclients verschlüsseln die Anmeldeinformationen mit einem öffentlichen Schlüssel, der dem bestimmten Gateway, mit dem die Kommunikation stattfindet, zugeordnet ist.
 
-Bei cloudbasierten Datenquellen verschlüsselt die Datenverschiebungsrolle die Verschlüsselungsschlüssel mit [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx)-Methoden. Weitere Informationen dazu finden Sie unter [Always Encrypted database feature (Always Encrypted (Datenbank-Engine))](https://msdn.microsoft.com/library/mt163865.aspx).
+Bei cloudbasierten Datenquellen verschlüsselt die Datenverschiebungsrolle die Verschlüsselungsschlüssel mit [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)-Methoden. Weitere Informationen dazu finden Sie unter [Always Encrypted database feature (Always Encrypted (Datenbank-Engine))](/sql/relational-databases/security/encryption/always-encrypted-database-engine).
 
 #### <a name="datasets"></a>Datasets
 
@@ -381,7 +381,7 @@ Im Folgenden finden Sie häufige Sicherheitsfragen und dazugehörige Antworten f
 
 **Wie verbinden sich Benutzer während der Verwendung von Power BI mit Datenquellen und erhalten Zugriff auf diese?**
 
-* **Power BI Anmelde Informationen und Anmelde** Informationen für die Domäne: Benutzer melden sich mit einer e-Mail-Adresse bei Power BI an. Wenn ein Benutzer versucht, eine Verbindung mit einer Daten Ressource herzustellen, übergibt Power BI die Power BI Anmelde-e-Mail-Adresse als Anmelde Informationen. Für mit Domänen verbundene Ressourcen (entweder lokal oder cloudbasiert) wird die Anmelde-E-Mail-Adresse vom Verzeichnisdienst mit einem _Benutzerprinzipalname _ ([User Principal Name, UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) abgeglichen, um zu bestimmen, ob ausreichende Anmeldeinformationen vorliegen, um den Zugriff zu ermöglichen. Für Organisationen, die geschäftliche e-Mail-Adressen verwenden, um sich bei Power BI anzumelden (dieselbe e-Mail-Adresse für die Anmeldung bei Arbeitsressourcen, z. b. _david@contoso.com_ ), kann die Zuordnung nahtlos erfolgen. bei Organisationen, die keine arbeitsbasierten e-Mail-Adressen verwendet haben ( _david@contoso.onmicrosoft.com_ Power BI z. b
+* **Power BI Anmelde Informationen und Anmelde** Informationen für die Domäne: Benutzer melden sich mit einer e-Mail-Adresse bei Power BI an. Wenn ein Benutzer versucht, eine Verbindung mit einer Daten Ressource herzustellen, übergibt Power BI die Power BI Anmelde-e-Mail-Adresse als Anmelde Informationen. Für mit Domänen verbundene Ressourcen (entweder lokal oder cloudbasiert) wird die Anmelde-E-Mail-Adresse vom Verzeichnisdienst mit einem _Benutzerprinzipalname _ ([User Principal Name, UPN](/windows/win32/secauthn/user-name-formats)) abgeglichen, um zu bestimmen, ob ausreichende Anmeldeinformationen vorliegen, um den Zugriff zu ermöglichen. Für Organisationen, die geschäftliche e-Mail-Adressen verwenden, um sich bei Power BI anzumelden (dieselbe e-Mail-Adresse für die Anmeldung bei Arbeitsressourcen, z. b. _david@contoso.com_ ), kann die Zuordnung nahtlos erfolgen. bei Organisationen, die keine arbeitsbasierten e-Mail-Adressen verwendet haben ( _david@contoso.onmicrosoft.com_ Power BI z. b
 
 * **SQL Server Analysis Services und Power BI:** Für Organisationen, die lokale SQL Server Analysis Services verwenden, bietet Power BI das lokale Daten Gateway (ein **Gateway**, das in Power BI den vorherigen Abschnitten erwähnt wurde).  Das lokale Power BI-Datengateway kann Sicherheit auf Rollenebene (role-level security, RLS) in Datenquellen erzwingen. Weitere Informationen zu RLS finden Sie weiter oben in diesem Artikel im Abschnitt **Benutzerauthentifizierung in Datenquellen**. Weitere Informationen zu Gateways finden Sie unter lokales [Daten Gateway](../connect-data/service-gateway-onprem.md).
 
@@ -471,7 +471,7 @@ Im Folgenden finden Sie häufige Sicherheitsfragen und dazugehörige Antworten f
 
 * Die Verbindungen, die für Kunden mit Power BI Premium-Abonnements eingerichtet werden, implementieren einen [Azure Business-to-Business (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)-Autorisierungsprozess, bei dem Azure Active Directory (AD) für die Zugriffssteuerung und Autorisierung verwendet wird. Power BI behandelt Verbindungen von Power BI Premium-Abonnenten mit Power BI Premium-Ressourcen wie bei jedem anderen Azure AD-Benutzer.
 
-## <a name="conclusion"></a>Schlussbemerkung
+## <a name="conclusion"></a>Zusammenfassung
 
 Die Power BI-Dienstarchitektur basiert auf zwei Clustern – dem Web-Front-End-Cluster (WFE) und dem Back-End-Cluster. Das WFE-Cluster ist zuständig für die Erstverbindung und Authentifizierung beim Power BI-Dienst. Nach erfolgter Authentifizierung steuert dann das Back-End-Cluster alle weiteren Benutzerinteraktionen. Power BI verwendet Azure Active Directory (AAD) zum Speichern und Verwalten von Benutzeridentitäten. Zum Speichern von Daten und Metadaten wird Azure Blob bzw. die Azure SQL-Datenbank verwendet.
 
@@ -487,9 +487,9 @@ Weitere Informationen zu Power BI finden Sie in den folgenden Ressourcen:
 
 - [Gruppen in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Erste Schritte mit Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI REST APIs – Overview (Power BI-REST-APIs – Übersicht)](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Power BI REST APIs (Power BI-REST-APIs)](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Lokales Datengateway](../connect-data/service-gateway-onprem.md)
+- [Power BI REST APIs – Overview (Power BI-REST-APIs – Übersicht)](/rest/api/power-bi/)
+- [Power BI REST APIs (Power BI-REST-APIs)](/rest/api/power-bi/)
+- [On-premises data gateway (Lokales Datengateway)](../connect-data/service-gateway-onprem.md)
 - [Nationale Power BI-Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Use Kerberos for SSO from Power BI to on-premises data sources (Verwenden von Kerberos für einmaliges Anmelden bei lokalen Daten über Power BI)](../connect-data/service-gateway-sso-overview.md)

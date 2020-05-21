@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843639"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565435"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure Active Directory B2B
 
@@ -415,7 +415,7 @@ Wenn dieser Benutzer nun die APP öffnet, die für ihn freigegeben wurde, wird n
 
 Ein weiteres interessantes Thema besteht darin, zu erfahren, wie die dynamische Sicherheit auf Zeilenebene (RLS) mit Azure AD B2B funktioniert.
 
-Kurz gesagt funktioniert die dynamische Sicherheit auf Zeilenebene, indem Daten im Modell basierend auf dem Benutzernamen der Person gefiltert werden, die eine Verbindung mit Power BI herstellt. Anstatt mehrere Rollen für Gruppen von Benutzern hinzuzufügen, definieren Sie die Benutzer im Modell. Das Muster wird hier nicht ausführlich beschrieben. Kasper de Jong bietet einen detaillierten Schreibvorgang für alle Varianten der Sicherheit auf Zeilenebene in [Power BI Desktop Dynamic Security Cheat Sheet](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)und in [diesem Whitepaper](https://msdn.microsoft.com/library/jj127437.aspx) .
+Kurz gesagt funktioniert die dynamische Sicherheit auf Zeilenebene, indem Daten im Modell basierend auf dem Benutzernamen der Person gefiltert werden, die eine Verbindung mit Power BI herstellt. Anstatt mehrere Rollen für Gruppen von Benutzern hinzuzufügen, definieren Sie die Benutzer im Modell. Das Muster wird hier nicht ausführlich beschrieben. Kasper de Jong bietet einen detaillierten Schreibvorgang für alle Varianten der Sicherheit auf Zeilenebene in [Power BI Desktop Dynamic Security Cheat Sheet](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)und in [diesem Whitepaper](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) .
 
 Sehen wir uns ein kleines Beispiel an: "". "" ist ein einfacher Bericht zu "Sales by Groups":
 
@@ -474,7 +474,7 @@ Mit Configuration Manager können externe Benutzerinhalte innerhalb der Organisa
 
 Das Power BI Admin-Portal enthält die Einstellung **externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in den** Einstellungen der Organisation in den Mandanten Einstellungen. Standardmäßig ist die Einstellung auf deaktiviert festgelegt, was bedeutet, dass externe Benutzer standardmäßig eine eingeschränkte schreibgeschützte Benutzerumgebung erhalten. Die Einstellung gilt für Benutzer, deren usertype in Azure AD auf Guest festgelegt ist. In der folgenden Tabelle wird das Verhalten der Benutzerfreundlichkeit in Abhängigkeit von Ihrem usertype und der Konfiguration der Einstellungen beschrieben.
 
-| **Benutzertyp in Azure AD** | **Bearbeiten und Verwalten von Inhaltseinstellungen durch externe Gastbenutzer zulassen** | **Behavior class (Behavior-Klasse)** |
+| **Benutzertyp in Azure AD** | **Bearbeiten und Verwalten von Inhaltseinstellungen durch externe Gastbenutzer zulassen** | **Verhalten** |
 | --- | --- | --- |
 | Gast | Für den Benutzer deaktiviert (Standard) | Pro Element Verbrauchs Ansicht. Ermöglicht den schreibgeschützten Zugriff auf Berichte, Dashboards und apps, wenn Sie über eine URL angezeigt werden, die an den Gastbenutzer gesendet wird. Power BI Mobile-Apps bieten dem Gastbenutzer eine schreibgeschützte Ansicht. |
 | Gast | Für den Benutzer aktiviert | Der externe Benutzer erhält Zugriff auf die vollständige Power BI, obwohl einige Features Ihnen nicht zur Verfügung stehen. Der externe Benutzer muss sich bei Power BI mithilfe der URL des Power BI Dienstanbieter mit den darin enthaltenen Mandanten Informationen anmelden. Der Benutzer erhält das Zuhause, einen eigenen Arbeitsbereich und auf der Grundlage der Berechtigungen zum Durchsuchen, anzeigen und Erstellen von Inhalt. </br></br> Power BI Mobile-Apps bieten dem Gastbenutzer eine schreibgeschützte Ansicht. |
@@ -504,7 +504,7 @@ Für Gastbenutzer, die über die Einstellung erlauben Sie externen Gastbenutzern
 
 - Direktes Veröffentlichen aus Power BI Desktop im Power BI-Dienst
 - Gastbenutzer können Power BI Desktop nicht dazu verwenden, eine Verbindung mit Dienstdatasets im Power BI-Dienst herzustellen.
-- Klassische Arbeitsbereiche, die an Office 365-Gruppen gebunden sind: Gastbenutzer können diese Arbeitsbereiche nicht erstellen oder Administratoren erstellen. Sie können Mitglieder sein.
+- Klassische Arbeitsbereiche, die an Microsoft 365 Gruppen gebunden sind: Gastbenutzer können diese Arbeitsbereiche weder erstellen noch als Administratoren erstellen. Sie können Mitglieder sein.
 - Das Senden von Ad-hoc-Einladungen wird für Arbeitsbereichszugriffslisten nicht unterstützt.
 - Power BI Publisher für Excel wird für Gastbenutzer nicht unterstützt.
 - Gastbenutzer können nicht Power BI Gateway installieren und eine Verbindung von Power BI Gateway mit Ihrer Organisation herstellen.

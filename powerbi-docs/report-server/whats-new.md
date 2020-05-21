@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348158"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565144"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 
@@ -247,7 +247,7 @@ In der neuen Modellierungsansicht in Power BI Desktop können Sie komplexe Datas
 
 #### <a name="accessible-visual-interaction"></a>Zugängliche Interaktion mit Visuals
 
-Sie können nun mithilfe der Tastaturnavigation auf die Datenpunkte vieler integrierter Visuals zugreifen. Weitere Informationen finden Sie unter [Barrierefreiheit in Power BI Desktop-Berichten](../desktop-accessibility.md).
+Sie können nun mithilfe der Tastaturnavigation auf die Datenpunkte vieler integrierter Visuals zugreifen. Weitere Informationen finden Sie unter [Barrierefreiheit in Power BI Desktop-Berichten](../create-reports/desktop-accessibility-overview.md).
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Bedingte Formatierung für Titel und Web-URL-Aktionen
 
