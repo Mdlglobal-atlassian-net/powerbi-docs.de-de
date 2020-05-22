@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565275"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792911"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper zur Sicherheit in Power BI
 
@@ -91,11 +91,11 @@ Metadaten zum Power BI-Abonnement eines Benutzers, z.B. Dashboards, Berichte, k�
 
 ## <a name="tenant-creation"></a>Mandantenerstellung
 
-Ein Mandant stellt eine dedizierte Instanz des Azure AD-Diensts dar, die eine Organisation erhält und besitzt, wenn sie sich für einen Microsoft-Clouddienst wie Azure, Microsoft Intune, Power BI oder Office 365 registriert. Jeder Azure AD-Mandant ist eindeutig und von anderen Azure AD-Mandanten getrennt.
+Bei einem Mandanten handelt es sich um eine dedizierte Instanz des Azure AD Diensts, die eine Organisation erhält und besitzt, wenn Sie sich für einen Microsoft-clouddienst wie Azure, Microsoft InTune, Power BI oder Microsoft 365 anmeldet. Jeder Azure AD-Mandant ist eindeutig und von anderen Azure AD-Mandanten getrennt.
 
 Ein Mandant enthält die Benutzer in einem Unternehmen und die dazugehörigen Informationen, wie z. B. Kennwörter, Benutzerprofildaten, Berechtigungen usw. Er enthält außerdem Gruppen, Anwendungen und andere Informationen, die eine Organisation und ihre Sicherheit betreffen. Weitere Informationen finden Sie unter [Was ist ein Azure AD](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)Mandanten.
 
-Power BI-Mandanten werden in dem Rechenzentrum erstellt, das anhand der für den jeweiligen Mandanten in Azure Active Directory bei der Bereitstellung von Office 365 oder des Power BI-Diensts zur Verfügung gestellten Informationen zum Land (zur Region) und zum Status als das Nächste betrachtet wird. Der Power BI-Mandant wird dann zum jeweiligen Zeitpunkt nicht aus dem Rechenzentrum verschoben.
+Ein Power BI Mandanten wird in dem Rechenzentrum erstellt, das dem Land (oder der Region) und den Zustandsinformationen, die für den Mandanten in Azure Active Directory bereitgestellt werden, in, das bei der anfänglichen Bereitstellung des Microsoft 365 oder Power BI-Dienst bereitgestellt wurde. Der Power BI-Mandant wird dann zum jeweiligen Zeitpunkt nicht aus dem Rechenzentrum verschoben.
 
 ### <a name="multiple-geographies-multi-geo"></a>Mehrere geografische Regionen (Multi-Geo)
 
@@ -129,7 +129,7 @@ Weitere Informationen zu Speicherort und Verwendung Ihrer Daten finden Sie im [M
 
 ## <a name="user-authentication"></a>Benutzerauthentifizierung
 
-Die Benutzerauthentifizierung für den Power BI-Dienst besteht aus mehreren Anforderungen, Antworten und Umleitungen zwischen dem Browser des Benutzers und dem Power BI-Dienst oder den Azure-Diensten, die von Power BI verwendet werden. In dieser Sequenz wird der Ablauf der Benutzerauthentifizierung in Power BI beschrieben. Weitere Informationen zu den unterschiedlichen Modellen für die Benutzerauthentifizierung einer Organisation (Anmeldemodelle) finden Sie unter [Choosing a sign-in model for Office 365 (Auswahl eines Anmeldemodells für Office 365)](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
+Die Benutzerauthentifizierung für den Power BI-Dienst besteht aus mehreren Anforderungen, Antworten und Umleitungen zwischen dem Browser des Benutzers und dem Power BI-Dienst oder den Azure-Diensten, die von Power BI verwendet werden. In dieser Sequenz wird der Ablauf der Benutzerauthentifizierung in Power BI beschrieben. Weitere Informationen zu den Optionen für die Benutzer Authentifizierungs Modelle einer Organisation (Anmelde Modelle) finden Sie unter [Auswählen eines Anmelde Modells für Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Authentifizierungssequenz
 
@@ -245,9 +245,9 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 
 1. Metadaten (Berichtsdefinition)
 
-   a. Bei Berichten kann es sich entweder um mit Excel erstellte Office 365-Berichte oder um Power BI-Berichte handeln. Für Metadaten gilt je nach Art von Bericht Folgendes:
+   a. Berichte können entweder Excel für Microsoft 365 Berichte oder Power BI Berichte sein. Für Metadaten gilt je nach Art von Bericht Folgendes:
         
-    &ensp;&ensp;ein. Excel-Berichts Metadaten werden in SQL Azure verschlüsselt gespeichert. Metadaten werden auch in Office 365 gespeichert.
+    &ensp;&ensp;ein. Excel-Berichts Metadaten werden in SQL Azure verschlüsselt gespeichert. Metadaten werden auch in Microsoft 365 gespeichert.
 
     &ensp;&ensp;b. Power BI Berichte werden in Azure SQL-Datenbank verschlüsselt gespeichert.
 
@@ -255,13 +255,13 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 
    Statische Daten umfassen Artefakte wie Hintergrundbilder und Power BI visuellen Elementen.
 
-    &ensp;&ensp;ein. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten gespeichert.
+    &ensp;&ensp;ein. Für Berichte, die mit Excel für Microsoft 365 erstellt wurden, wird nichts gespeichert.
 
     &ensp;&ensp;b. Für Power BI-Berichte werden statische Daten im Azure-Blobspeicher gespeichert und verschlüsselt.
 
 3. Caches
 
-    &ensp;&ensp;ein. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten zwischengespeichert.
+    &ensp;&ensp;ein. Für Berichte, die mit Excel für Microsoft 365 erstellt wurden, wird nichts zwischengespeichert.
 
     &ensp;&ensp;b. Bei Power BI Berichten werden die Daten für die angezeigten Visuals der Berichte zwischengespeichert und im visuellen Daten Cache gespeichert, der im folgenden Abschnitt beschrieben wird.
  
