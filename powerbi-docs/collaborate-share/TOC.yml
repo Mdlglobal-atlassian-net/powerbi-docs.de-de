@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Zusammenarbeiten in einem klassischen Arbeitsbereich
               href: service-collaborate-power-bi-workspace.md
-            - name: Verwalten Ihrer Gruppe in Power BI und Office 365
+            - name: "Verwalten Ihrer Gruppe in Power BI und Microsoft\_365"
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Veröffentlichen und Teilen Ihrer Arbeit
           items:
@@ -71,9 +71,11 @@
           items:
             - name: In Excel analysieren
               href: service-analyze-in-excel.md
+            - name: Ausgewählte Power BI-Tabellen in Excel
+              href: service-excel-featured-tables.md
             - name: Problembehandlung bei „In Excel analysieren“
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden'
+            - name: 'Fehler: Es konnten keine Daten in Ihrer Excel-Arbeitsmappe gefunden werden.'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate und Power BI
               href: service-flow-integration.md

@@ -174,7 +174,7 @@
           items:
             - name: Datasets arbeitsbereichsübergreifend verwenden
               href: service-datasets-across-workspaces.md
-            - name: Freigeben von Datasets (Vorschau)
+            - name: Freigeben von Datasets
               href: service-datasets-share.md
             - name: Erstellungsberechtigung für freigegebene Datasets
               href: service-datasets-build-permissions.md
