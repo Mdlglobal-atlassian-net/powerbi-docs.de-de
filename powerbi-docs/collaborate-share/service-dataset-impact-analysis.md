@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274855"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120324"
 ---
 # <a name="dataset-impact-analysis"></a>Datasetauswirkungsanalyse
 
@@ -54,7 +54,7 @@ Die Nutzungsmetriken beziehen sich auf die letzten 30 Tage, den aktuellen Tag a
 
 ## <a name="notify-contacts"></a>Benachrichtigen von Kontakten
 
-Wenn Sie eine Änderung an einem Dataset vorgenommen haben oder in Betracht ziehen, eine Änderung vorzunehmen, sollten Sie die betroffenen Benutzer kontaktieren, um diese darüber zu informieren. Wenn Sie Kontakte benachrichtigen, wird eine E-Mail an die [Kontaktlisten](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) aller betroffenen Arbeitsbereiche gesendet. Ihr Name wird in der E-Mail angezeigt, sodass die Kontakte Sie finden und in einem neuen E-Mail-Thread antworten können. 
+Wenn Sie eine Änderung an einem Dataset vorgenommen haben oder in Betracht ziehen, eine Änderung vorzunehmen, sollten Sie die betroffenen Benutzer kontaktieren, um diese darüber zu informieren. Wenn Sie Kontakte benachrichtigen, wird eine E-Mail an die [Kontaktlisten](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list) aller betroffenen Arbeitsbereiche gesendet. Ihr Name wird in der E-Mail angezeigt, sodass die Kontakte Sie finden und in einem neuen E-Mail-Thread antworten können. 
 
 1. Klicken Sie im Seitenbereich „Auswirkungsanalyse“ auf **Notify contacts** (Kontakte benachrichtigen). Das Dialogfeld „Notify contacts“ (Kontakte benachrichtigen) wird geöffnet.
 
