@@ -1,22 +1,22 @@
 ---
-title: Die Berechtigung „Erstellen“ für freigegebene Datasets (Vorschau)
+title: Erstellungsberechtigung für freigegebene Datasets
 description: Informieren Sie sich, wie Sie mithilfe der Berechtigung „Erstellen“ den Zugriff auf die Daten steuern können.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285346"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793012"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Die Berechtigung „Erstellen“ für freigegebene Datasets (Vorschau)
+# <a name="build-permission-for-shared-datasets"></a>Erstellungsberechtigung für freigegebene Datasets
 
 Wenn Sie einen Bericht in Power BI Desktop erstellen, werden die Daten in diesem Bericht in einem *Datenmodell* gespeichert. Wenn Sie die Berichte im dem Power BI-Dienst veröffentlichen, werden die Daten auch als *Dataset* veröffentlicht. Sie können anderen die *Berechtigung „Erstellen“* für diesen Bericht erteilen, damit diese das freigegebene Dataset suchen und wieder verwenden können. In diesem Artikel wird erläutert, wie Sie mithilfe der Berechtigung „Erstellen“ den Zugriff auf die Daten steuern können.
 
@@ -57,7 +57,7 @@ Es ist möglich, dass Sie irgendwann Benutzern eines freigegebenen Datensatzes d
 1. Wechseln Sie in einem Arbeitsbereich zur Listenseite **Datasets**. 
 1. Klicken Sie neben dem Dataset auf **Weitere Optionen** (...) und dann auf **Berechtigungen verwalten**.
 
-    ![Verwalten von Berechtigungen](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Berechtigungen verwalten](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Wählen Sie neben einem Namen **Weitere Optionen**  (...) und dann **Build entfernen** aus.
 
@@ -87,7 +87,7 @@ Angenommen, Sie haben eine App aus einem Arbeitsbereich an eine Gruppe von Benut
 1. Wechseln Sie im Arbeitsbereich zur Listenseite **Datasets**. 
 1. Klicken Sie neben dem Dataset auf **Weitere Optionen** (...) und dann auf **Berechtigungen verwalten**.
 
-    ![Verwalten von Berechtigungen](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![Berechtigungen verwalten](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. Wählen Sie neben ihrem Namen **Weitere Optionen**  (...) und dann **Build entfernen** aus.
 
@@ -105,7 +105,7 @@ Wenn Ihr Dataset von einem Bericht außerhalb des Arbeitsbereichs des Datasets v
 
 Sie können die Berechtigung „Erstellen“ entziehen. In diesem Fall können die Personen, deren Berechtigungen Sie widerrufen haben, den Bericht immer noch anzeigen, ihn aber nicht mehr bearbeiten oder dessen zugrunde liegenden Daten exportieren. Benutzer, die nur über Leseberechtigung verfügen, können zusammengefasste Daten weiterhin exportieren. 
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
-- [Verwenden von Datasets in mehreren Arbeitsbereichen (Vorschau)](service-datasets-across-workspaces.md)
-- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- [Datasets arbeitsbereichsübergreifend verwenden](service-datasets-across-workspaces.md)
+- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
