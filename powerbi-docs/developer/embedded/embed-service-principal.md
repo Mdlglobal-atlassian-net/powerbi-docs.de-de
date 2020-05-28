@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275959"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121213"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Einbetten von Power BI-Inhalten mit Dienstprinzipal und Anwendungsgeheimnis
 
@@ -188,7 +188,6 @@ Nach dem Einbetten Ihrer Inhalte können Sie in die [Produktionsphase wechseln](
 * Dedizierte Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
 * Sie können sich über den Dienstprinzipal nicht im Power BI-Portal anmelden.
 * Power BI-Administratorberechtigungen sind erforderlich, um Dienstprinzipale in den Entwicklereinstellungen im Power BI-Verwaltungsportal aktivieren zu können.
-* Sie können ein lokales Datengateway über den Dienstprinzipal weder installieren noch verwalten.
 * [Für Ihre Organisation eingebettete Anwendungen](embed-sample-for-your-organization.md) können keine Dienstprinzipale verwenden.
 * Die Verwaltung von [Datenflüssen](../../transform-model/service-dataflows-overview.md) wird nicht unterstützt.
 * Der Dienstprinzipal unterstützt aktuell überhaupt keine Administrator-APIs.
