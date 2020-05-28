@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d52b3b00902b350ebb81c66c516b5f84e97fb3d0
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 5203f2676409de28cfa9faf9442beaeb324b6f54
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694013"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812885"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -162,7 +162,7 @@ In diesem Monat bietet das Power BI Desktop die folgenden Updates:
 
 
 ### <a name="modeling"></a>Modellierung
-* Neue DAX-Funktion: COALESCE [[Video]](https://youtu.be/DMjvJGGB_LQ?t=830)  [[Artikel]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+* Neue DAX-Funktion: COALESCE [[Video]](https://youtu.be/DMjvJGGB_LQ?t=830)  [[Artikel]](https://docs.microsoft.com/dax/coalesce-function-dax)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
 ) 
 
 ### <a name="visuals"></a>Visuals

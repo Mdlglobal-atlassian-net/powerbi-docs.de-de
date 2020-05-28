@@ -9,34 +9,34 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c534a72594692c5cf404b095492e7d6425f23329
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 701f478ce4dd59d77c1722b1386cd79ad3fbf2a0
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273659"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693783"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organisieren der Arbeit in den neuen Power BI-Arbeitsbereichen
 
 *Arbeitsbereiche* sind Orte für die Zusammenarbeit mit Kollegen, um Sammlungen von Dashboards, Berichten, Datasets und paginierten Berichten zu erstellen. In der neuen Benutzeroberfläche für Arbeitsbereiche können Sie den Zugriff auf Inhalte besser verwalten. Dieser Artikel beschreibt die neuen Arbeitsbereiche und ihre Unterschiede zu den klassischen Arbeitsbereichen.  Wie klassische Arbeitsbereiche verwenden Sie die neuen weiterhin zum Erstellen und Verteilen von Apps. Möchten Sie einen neuen Arbeitsbereich erstellen? Weitere Informationen finden Sie unter [Erstellen einer neuen Arbeitsbereichsoberfläche](service-create-the-new-workspaces.md).
 
-Neue, aktualisierte Arbeitsbereiche können parallel zu vorhandenen klassischen Arbeitsbereichen vorhanden sein. Die neue Benutzeroberfläche für Arbeitsbereiche ist der Standardarbeitsbereichstyp. Sie können weiterhin bei Bedarf [klassische Arbeitsbereiche](service-create-workspaces.md) basierend auf Office 365-Gruppen erstellen und verwenden. Sind Sie bereit, Ihren klassischen Arbeitsbereich zu migrieren? Einzelheiten finden Sie unter [Aktualisieren klassischer Arbeitsbereiche auf die neuen Arbeitsbereiche in Power BI](service-upgrade-workspaces.md).
+Neue, aktualisierte Arbeitsbereiche können parallel zu vorhandenen klassischen Arbeitsbereichen vorhanden sein. Die neue Benutzeroberfläche für Arbeitsbereiche ist der Standardarbeitsbereichstyp. Sie können bei Bedarf weiterhin [klassische Arbeitsbereiche](service-create-workspaces.md) basierend auf Microsoft 365-Gruppen erstellen und verwenden. Sind Sie bereit, Ihren klassischen Arbeitsbereich zu migrieren? Einzelheiten finden Sie unter [Aktualisieren klassischer Arbeitsbereiche auf die neuen Arbeitsbereiche in Power BI](service-upgrade-workspaces.md).
 
 Mit den neuen Arbeitsbereichen können Sie Folgendes durchführen:
 
-- Arbeitsbereichsrollen Benutzergruppen zuweisen: Sicherheitsgruppen, Verteilerlisten, Office 365-Gruppen und Einzelpersonen.
-- Erstellen Sie einen Arbeitsbereich in Power BI, ohne eine zugrundeliegende, zugehörige Office 365-Gruppe anzulegen. Die gesamte Arbeitsbereichsverwaltung findet in Power BI statt, nicht in Office 365.
-- Sie können auf Wunsch den Zugriff der Benutzer auf Inhalte weiterhin über Office 365-Gruppen verwalten. Fügen Sie einfach eine Office 365-Gruppe in die Zugriffsliste des Arbeitsbereichs ein.
+- Sie können Arbeitsbereichsrollen zu den folgenden Benutzergruppen zuweisen: Sicherheitsgruppen, Verteilerlisten, Microsoft 365-Gruppen und Einzelpersonen.
+- Erstellen Sie einen Arbeitsbereich in Power BI, ohne dabei eine zugrundeliegende, zugehörige Microsoft 365-Gruppe anzulegen. Verwalten Sie alle Arbeitsbereiche in Power BI und nicht in Microsoft 365.
+- Verwalten Sie auf Wunsch den Benutzerzugriff auf Inhalte weiterhin über Microsoft 365-Gruppen. Fügen Sie einfach eine Microsoft 365-Gruppe in die Zugriffsliste des Arbeitsbereichs ein.
 - Genauere Arbeitsbereichsrollen für flexiblere Verwaltung von Berechtigungen in einem Arbeitsbereich verwenden.
 
-Power BI listet weiterhin alle Office 365-Gruppen auf, deren Mitglied Sie sind. Dadurch wird das Ändern vorhandener Workflows vermieden.
+Power BI listet weiterhin alle Microsoft 365-Gruppen auf, deren Mitglied Sie sind. Dadurch wird das Ändern vorhandener Workflows vermieden.
 
 ## <a name="new-and-classic-workspace-differences"></a>Unterschiede zwischen neuen und klassischen Arbeitsbereichen
 
 Mit den neuen Arbeitsbereichen wurden einige Features neu gestaltet. Im Folgenden werden die Hauptunterschiede erläutert.
 
-* Durch das Erstellen dieser Arbeitsbereiche werden, anders als bei klassischen Arbeitsbereichen, keine Office 365-Gruppen erstellt. Sie können jedoch jetzt eine Office 365-Gruppe verwenden, um Benutzern Zugriff auf Ihren Arbeitsbereich zu gewähren, indem Sie ihm eine Rolle zuweisen. 
-* In den klassischen Arbeitsbereichen können Sie den Listen der Mitglieder und Administratoren nur Einzelpersonen hinzufügen. In den neuen Arbeitsbereichen können Sie zu diesen Listen mehrere Active Directory-Sicherheitsgruppen, Verteilerlisten oder Office 365-Gruppen hinzufügen, um die Benutzerverwaltung zu vereinfachen. 
+- Durch das Erstellen dieser Arbeitsbereiche werden, anders als bei klassischen Arbeitsbereichen, keine Microsoft 365-Gruppen erstellt. Sie können jedoch jetzt eine Microsoft 365-Gruppe verwenden, um Benutzern Zugriff auf Ihren Arbeitsbereich zu gewähren, indem Sie ihm eine Rolle zuweisen.
+- In den klassischen Arbeitsbereichen können Sie den Listen der Mitglieder und Administratoren nur Einzelpersonen hinzufügen. In den neuen Arbeitsbereichen können Sie zu diesen Listen mehrere Active Directory-Sicherheitsgruppen, Verteilerlisten oder Microsoft 365-Gruppen hinzufügen, um die Benutzerverwaltung zu vereinfachen.
 - Sie können ein organisationsbezogenes Inhaltspaket über einen klassischen Arbeitsbereich erstellen. Über den neuen Arbeitsbereich können Sie diese nicht erstellen.
 - Sie können ein organisationsbezogenes Inhaltspaket über einen klassischen Arbeitsbereich nutzen. Über die neuen Arbeitsbereiche können Sie dieses nicht nutzen.
 
@@ -47,7 +47,7 @@ Einige Features funktionieren in den neuen Arbeitsbereichen anders als in den ak
 - **Erzwingung der Lizenzierung**: Die Veröffentlichung von Berichten auf der neuen Benutzeroberfläche für Arbeitsbereiche ist mit der Erzwingung bestehenden Lizenzierungsregeln verbunden. Benutzer, die in Arbeitsbereichen zusammenarbeiten oder Inhalte für andere Benutzer des Power BI-Diensts freigeben, benötigen eine Power BI Pro-Lizenz. Benutzern ohne Pro-Lizenz wird die Fehlermeldung „Nur Benutzer mit Power BI Pro-Lizenzen können in diesem Arbeitsbereich veröffentlichen“ angezeigt.
 - **Mitglieder können eine erneute Freigabe vornehmen oder nicht**: Die Rolle „Mitwirkender“ ersetzt diese Einstellung.
 - **Schreibgeschützte Arbeitsbereiche**: Anstatt Benutzern schreibgeschützten Zugriff auf einen Arbeitsbereich zu gewähren, weisen Sie Benutzern die Rolle „Anzeigender Benutzer“ zu. Diese Rolle ermöglicht einen ähnlichen schreibgeschützten Zugriff auf den Inhalt eines Arbeitsbereichs.
-- **Benutzer ohne Pro-Lizenz** können auf den Arbeitsbereich zugreifen, wenn der Arbeitsbereich sich in einer Power BI Premium-Kapazität befindet, auch wenn Benutzer nur die Rolle „Anzeigender Benutzer“ haben.
+- **Benutzer ohne Pro-Lizenz** können nur dann auf den Arbeitsbereich zugreifen, wenn sich der Arbeitsbereich in einer Power BI Premium-Kapazität befindet und sie über die Rolle „Anzeigender Benutzer“ verfügen.
 - **Benutzern das Exportieren von Daten erlauben**: Benutzer mit der Rolle „Anzeigender Benutzer“ können Daten exportieren, wenn sie die Berechtigung „Erstellen“ für die Datasets im Arbeitsbereich haben. Erfahren Sie mehr über die [Erstellungsberechtigung für Datasets](../connect-data/service-datasets-build-permissions.md).
 - Es gibt keine Schaltfläche **Arbeitsbereich verlassen**.
 
@@ -59,9 +59,9 @@ Erfahren Sie mehr über die [Arbeitsbereichs-Kontaktliste](service-create-the-ne
 
 ### <a name="workspace-onedrive"></a>OneDrive für Arbeitsbereich
 
-Mit dem Feature OneDrive für Arbeitsbereich können Sie eine Office 365-Gruppe konfigurieren, deren SharePoint-Dokumentbibliothek-Speicher für Arbeitsbereichsbenutzer verfügbar ist. Sie erstellen die Gruppe außerhalb von Power BI.
+Mit dem Feature „OneDrive für Arbeitsbereich“ können Sie eine Microsoft 365-Gruppe konfigurieren, deren SharePoint-Dokumentbibliothekdateispeicher für Arbeitsbereichsbenutzer verfügbar ist. Sie erstellen die Gruppe außerhalb von Power BI.
 
-Power BI synchronisiert keine Berechtigungen von Benutzern oder Gruppen, für die der Arbeitsbereichszugriff mit der Office 365-Gruppenmitgliedschaft konfiguriert ist. Die beste Vorgehensweise besteht darin, den Zugriff auf den Arbeitsbereich über dieselbe Office 365-Gruppe zu verwalten, deren Dateispeicher Sie in dieser Einstellung konfigurieren. 
+Power BI synchronisiert keine Berechtigungen von Benutzern oder Gruppen, für die der Arbeitsbereichszugriff mit der Microsoft 365-Gruppenmitgliedschaft konfiguriert ist. Die beste Vorgehensweise besteht darin, den Zugriff auf den Arbeitsbereich über dieselbe Microsoft 365-Gruppe zu verwalten, deren Dateispeicher Sie in dieser Einstellung konfigurieren.
 
 Erfahren Sie, wie Sie [OneDrive für Arbeitsbereich einstellen und darauf zugreifen können](service-create-the-new-workspaces.md#workspace-onedrive).  
 
@@ -69,7 +69,7 @@ Erfahren Sie, wie Sie [OneDrive für Arbeitsbereich einstellen und darauf zugrei
 
 Wenn Sie Zugriff auf einen neuen Arbeitsbereich gewähren möchten, fügen Sie Benutzergruppen oder Einzelpersonen einer der folgenden Arbeitsbereichsrollen hinzu: Administratoren, Mitglieder, Mitwirkende oder anzeigende Benutzer. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person mehreren Benutzergruppen angehört, erhält sie die höchste Berechtigungsstufe entsprechend der ihr zugewiesenen Rollen.
 
-Mit Rollen können Sie verwalten, wer welche Aktionen in einem Arbeitsbereich durchführen kann. So können Teams zusammenarbeiten. Mithilfe der neuen Arbeitsbereiche können Sie Einzelpersonen und Benutzergruppen Rollen zuweisen: Sicherheitsgruppen, Office 365-Gruppen und Verteilerlisten. 
+Mit Rollen können Sie verwalten, wer welche Aktionen in einem Arbeitsbereich durchführen kann. So können Teams zusammenarbeiten. Mithilfe der neuen Arbeitsbereiche können Sie Einzelpersonen und Benutzergruppen Rollen zuweisen: Sicherheitsgruppen, Microsoft 365-Gruppen und Verteilerlisten.
 
 Wenn Sie einer Benutzergruppe Rollen zuweisen, verfügen die Personen in der Gruppe über Zugriffsberechtigungen für Inhalte. Wenn Sie Benutzergruppen schachteln, verfügen alle Benutzer über die Berechtigung.
 
@@ -125,11 +125,11 @@ Nein. Links zu vorhandenen Elementen in den klassischen Arbeitsbereichen werden 
 
 **Werden vorhandene Arbeitsbereiche auf die neue Benutzeroberfläche für Arbeitsbereiche mit allgemeiner Verfügbarkeit aktualisiert?**
 
-Nein. Aufgrund der allgemeinen Verfügbarkeit der neuen Benutzeroberfläche für Arbeitsbereiche wird nur der Standardarbeitsbereichstyp in die neue Benutzeroberfläche für Arbeitsbereiche geändert. Vorhandene klassische Arbeitsbereiche, die auf Office 365-Gruppen basieren, bleiben unverändert.
+Nein. Aufgrund der allgemeinen Verfügbarkeit der neuen Benutzeroberfläche für Arbeitsbereiche wird nur der Standardarbeitsbereichstyp in die neue Benutzeroberfläche für Arbeitsbereiche geändert. Vorhandene klassische Arbeitsbereiche, die auf Microsoft 365-Gruppen basieren, bleiben unverändert.
 
-**Werden Arbeitsbereiche weiterhin automatisch für Office 365-Gruppen erstellt?**
+**Werden Arbeitsbereiche weiterhin automatisch für Microsoft 365-Gruppen erstellt?**
 
-Ja. Da wir beide Typen von Arbeitsbereichen gleichzeitig unterstützen, listen wir weiterhin alle Office 365-Gruppen auf, auf die Sie in der Liste der Arbeitsbereiche Zugriff haben.
+Ja. Da wir beide Typen von Arbeitsbereichen gleichzeitig unterstützen, listen wir weiterhin alle Microsoft 365-Gruppen auf, auf die Sie in der Liste der Arbeitsbereiche Zugriff haben.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

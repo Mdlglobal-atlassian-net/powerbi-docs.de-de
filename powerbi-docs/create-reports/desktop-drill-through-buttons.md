@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301515"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694032"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Erstellen einer Drillthroughschaltfläche in Power BI (Vorschauversion)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Erstellen einer Drillthroughschaltfläche in Power BI
 
-Wenn Sie in Power BI eine Schaltfläche erstellen möchten, können Sie auf die Aktion **Drillthrough (Vorschau)** klicken. Dieser Aktionstyp erstellt eine Schaltfläche, die einen Drillthrough zu einer bestimmten Seite ausführt, um Details zu erhalten, die in einem bestimmten Kontext gefiltert werden.
+Wenn Sie eine Schaltfläche in Power BI erstellen möchten, können Sie auf die Aktion **Drillthrough** klicken. Dieser Aktionstyp erstellt eine Schaltfläche, die einen Drillthrough zu einer bestimmten Seite ausführt, um Details zu erhalten, die in einem bestimmten Kontext gefiltert werden.
 
 Eine Drillthroughschaltfläche kann nützlich sein, wenn Sie die Auffindbarkeit wichtiger Drillthroughszenarios in Ihren Berichten verbessern möchten.
 
@@ -90,7 +90,7 @@ Die Schaltfläche funktioniert wie der normale Drillthrough, sodass Sie auch Fil
 
 Wenn Sie auf die Drillthroughschaltfläche klicken, werden die Filter sowohl für den Store als auch das Produkt angezeigt, die an die Zielseite weitergeleitet werden:
 
-![Filter auf dieser Seite](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
+![Filter für diese Seite](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
 
 ### <a name="ambiguous-filter-context"></a>Mehrdeutiger Filterkontext
 
@@ -107,7 +107,7 @@ In diesem Beispiel ist die Schaltfläche deaktiviert, da zwei Visuals jeweils ei
 - Die deaktivierte Statusformatierung für die Schaltfläche ist an die Farbklassen im Berichtsdesign gebunden. Hier finden Sie weitere Informationen zu [Farbklassen](desktop-report-themes.md#setting-structural-colors).
 - Die Drillthroughaktion funktioniert für alle integrierten und *einige* von AppSource importierten Visuals. Es kann jedoch nicht garantiert werden, dass die Arbeit mit *allen* aus AppSource importierten Visuals möglich ist.
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu Features, die Schaltflächen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Erstellen von Schaltflächen](desktop-buttons.md)

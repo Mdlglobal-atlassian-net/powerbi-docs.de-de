@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268510"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564064"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Lernkatalog für Berater für Anwendungsfunktionen
 
@@ -82,7 +82,7 @@ Eine Analyse der Arbeitsaufgaben von Funktionsberatern hat gezeigt, dass sie gru
 | [Better Together: 5 Benefits Excel Users Will Get From Using Power BI](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html) (Gemeinsam stärker: 5 Vorteile für Excel-Benutzer durch die Verwendung von Power BI)  | Excel ist eines der beliebtesten Programme der Welt. Millionen von Einzelpersonen und Unternehmen verwenden das Programm von der einfachen Dateneingabe bis hin zu Buchhaltung und komplexeren statistischen Analysen und Datenanalysen. Viele Personen wissen aber nicht, dass sie die Funktionalität von Excel deutlich erweitern können und dabei noch Zeit sparen und effizienter arbeiten können. All dies ist möglich, wenn Excel mit einem anderen Microsoft-Programm gekoppelt wird: Power BI. Wir gehen auf fünf verschiedene Gründe ein, warum Sie und Ihr Unternehmen von Excel und Power BI zusammen profitieren können. Am Ende sollten Sie über alle Kenntnisse verfügen, um direkt in Ihrer Organisation Daten analysieren, interpretieren und vermarkten zu können. | Webinar |   |
 | [Beyond the Spreadsheet](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html) (Jenseits der Tabellenkalkulation)  | Aufruf an alle Excel-Benutzer und Analysten: Arbeiten Sie intelligenter, bieten Sie Mehrwert, und konzentrieren Sie sich auf das Wesentliche. Erfahren Sie, wie Sie einwandfreie Berichte erstellen, die Personen verwenden möchten, wie Sie Daten visuell freigeben, sodass diese von Kollegen ohne weitere Erklärung verstanden werden und wie Sie Erkenntnisse für jeden erreichbar machen, der sie benötigt, um Informationen zu verstehen – ganz egal wo. In dieser Onlinesitzung erleben Sie Power BI live.  | Webinar |   |
 | [Draw the right insights with Power BI and Visio](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) (Visuelle Darstellung von Einblicken mit Power BI und Visio) | Nehmen Sie an diesem Webinar teil, um zu erfahren, wie Sie Power BI-Dashboards und Microsoft Visio-Diagramme kombinieren können, um Einblicke auf aussagekräftige Weise visuell darzustellen. Visio und Power BI sind in hohem Maß visuell und ergänzen sich auf natürliche Weise gegenseitig. Mit Visio können Sie anschauliche Diagramme erstellen, z.B. miteinander verbundene Workflows und reale Layouts. Mit Power BI erstellen Sie intuitive Dashboards anhand von Diagrammen und Zuordnungen, um KPIs zu messen und Ziele nachzuverfolgen.| Webinar |   |
-| [Power BI, Excel and Office 365: Optimize Your Enterprise Data](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website) (Power BI, Excel und Office 365: Optimieren Ihrer Unternehmensdaten)  | In dieser Sitzung mit vielen Demos erfahren Sie, wie Sie die einzigartigen Stärken von Microsoft Excel in Power BI nutzen können, um Ihre geschäftlichen Analysen und Erkenntnisse zu steigern.  | Webinar |   |
+| [Power BI, Excel, and Microsoft 365: Optimize Your Enterprise Data](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website) (Power BI, Excel und Office 365: Optimieren Ihrer Unternehmensdaten)  | In dieser Sitzung mit vielen Demos erfahren Sie, wie Sie die einzigartigen Stärken von Microsoft Excel in Power BI nutzen können, um Ihre geschäftlichen Analysen und Erkenntnisse zu steigern.  | Webinar |   |
 | [Verwenden von Power BI mit Dynamics 365 Finance and Operations](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | Registrieren Sie sich für dieses Webinar, um zu erfahren, wie die Power BI-Lösung für die Berichterstellung innerhalb von Dynamics 365 Finance and Operations mithilfe von Azure Data Lake eingebettet und verwaltet werden kann. Erfahren Sie, wie Sie mit Power BI handlungsrelevante Erkenntnisse schnell und ohne Dienstunterbrechungen bereitstellen und analytische Lösungen mit dem ganzen Unternehmen teilen können.  | Webinar |   |
 ## <a name="security"></a>Sicherheit<a name="security"></a>
 | Inhalt   | Beschreibung  | Format   | Länge   |
