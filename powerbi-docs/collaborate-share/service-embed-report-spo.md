@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143762"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693881"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Einbetten eines Berichts-Webparts in SharePoint Online
 
@@ -79,7 +79,7 @@ Nachdem Sie einen Bericht in SharePoint Online eingebettet haben, haben die Benu
 > [!IMPORTANT]
 > Überprüfen Sie im Power BI-Dienst, wer den Bericht sehen kann, und stellen Sie sicher, dass nicht aufgeführte, berechtigte Benutzer Zugriff erhalten.
 
-Es gibt zwei Möglichkeiten, den Berichtszugriff in Power BI zu erteilen. Erstens können Sie beim Erstellen der SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe den Benutzer als Mitglied des **Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** aufführen. Weitere Informationen finden Sie unter [Verwalten eines Arbeitsbereichs](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Es gibt zwei Möglichkeiten, den Berichtszugriff in Power BI zu erteilen. Erstens können Sie beim Erstellen der SharePoint Online-Teamwebsite auf Grundlage einer Microsoft 365-Gruppe den Benutzer als Mitglied des **Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** aufführen. Weitere Informationen finden Sie unter [Verwalten eines Arbeitsbereichs](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 Zweitens können Sie einen Bericht in eine App einbetten und diese direkt für Benutzer freigeben:  
 
@@ -157,7 +157,7 @@ Benutzer, die einen Bericht in SharePoint anzeigen, benötigen entweder eine **P
 
 * Power BI unterstützt nicht die gleichen lokalisierte Sprachen wie SharePoint Online. Daher wird im eingebetteten Bericht möglicherweise nicht die ordnungsgemäße Lokalisierung angezeigt.
 
-* Bei Verwendung von Internet Explorer 10 können Probleme auftreten. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Bei Verwendung von Internet Explorer 10 können Probleme auftreten. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Das Power BI-Webpart ist für [nationale Clouds](https://powerbi.microsoft.com/clouds/) nicht verfügbar.
 

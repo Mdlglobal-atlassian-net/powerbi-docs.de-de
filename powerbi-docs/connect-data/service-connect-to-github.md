@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337717"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693270"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Herstellen einer Verbindung mit GitHub mithilfe von Power BI
 In diesem Artikel wird Schritt für Schritt erläutert, wie Sie Ihre Daten aus Ihrem GitHub-Konto mit einer Power BI-Vorlagen-App abrufen. Die Vorlagen-App generiert einen Arbeitsbereich mit einem Dashboard, einer Reihe von Berichten und einem Dataset, mit deren Hilfe Sie Ihre GitHub-Daten untersuchen können. Die GitHub-App für Power BI bietet Ihnen Einblicke in Ihr GitHub-Repository mit Daten zu Beiträgen, Problemen, Pullanforderungen und aktiven Benutzern.
+
+![GitHub-Vorlagen-App](media/service-connect-to-github/service-github-app-report.png)
 
 Nachdem Sie die Vorlagen-App installiert haben, können Sie das Dashboard und den Bericht ändern. Anschließend können Sie sie als App an Kollegen in Ihrer Organisation verteilen.
 
@@ -27,55 +29,69 @@ Sie können auch das [GitHub-Tutorial](service-tutorial-connect-to-github.md) ve
 >[!NOTE]
 >Diese Vorlagen-App erfordert, dass das GitHub-Konto auf das Repository zugreifen kann. Es folgen weitere Informationen zu den Anforderungen.
 >
->Diese Vorlagen-App bietet keine Unterstützung für GitHub Enterprise. 
+>Diese Vorlagen-App bietet keine Unterstützung für GitHub Enterprise.
 
-## <a name="how-to-connect"></a>Herstellen der Verbindung
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. Wählen Sie **GitHub** \> **Jetzt anfordern** aus.
-4. Wählen Sie unter **Diese Power BI-App installieren?** die Option **Installieren** aus.
-4. Wählen Sie im Bereich **Apps** die Kachel **GitHub** aus.
+## <a name="install-the-app"></a>Installieren der App
 
-    ![Power BI: GitHub-Kachel](media/service-connect-to-github/power-bi-github-tile.png)
+1. Klicken Sie auf den folgenden Link, um die App zu erhalten: [GitHub-Vorlagen-App](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. Klicken Sie im Fenster **Erste Schritte mit Ihrer neuen App** auf **Verbinden**.
+1. Klicken Sie auf der AppSource-Seite für die App auf [**JETZT HOLEN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github).
 
-    ![Erste Schritte mit Ihrer neuen App](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![GitHub-Vorlagen-App in AppSource](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. Geben Sie den Namen und Besitzer des Repositorys ein. Nachstehend finden Sie weitere Informationen zum [Suchen dieser Parameter](#FindingParams).
-   
-    ![Power BI: Name des GitHub-Repositorys](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. Wählen Sie **Installieren** aus. 
 
-5. Geben Sie Ihre GitHub-Anmeldeinformationen ein (dieser Schritt kann übersprungen werden, wenn Sie bereits mit Ihrem Browser angemeldet sind). 
-6. Wählen Sie für **Authentifizierungsmethode** nacheinander **oAuth2** \> **Anmelden** aus. 
-7. Befolgen Sie die Anweisungen auf den Bildschirmen der GitHub-Authentifizierung. Gewähren Sie der GitHub-Vorlagen-App für Power BI die Berechtigung für den Zugriff auf die GitHub-Daten.
-   
-   ![Power BI: GitHub autorisieren](media/service-connect-to-github/github_authorize.png)
-   
-    Power BI stellt eine Verbindung mit GitHub und Ihren Daten her.  Die Daten werden einmal täglich aktualisiert. Nachdem Power BI die Daten importiert hat, werden die Inhalte Ihres neuen GitHub-Arbeitsbereichs angezeigt.
+    ![GitHub-Vorlagen-App installieren](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>Ändern und Verteilen der App
+    Nachdem die App installiert wurde, wird sie auf der Seite „Apps“ angezeigt.
 
-Sie haben die GitHub-Vorlagen-App installiert. Das bedeutet, dass Sie auch den GitHub-Arbeitsbereich erstellt haben. Im Arbeitsbereich können Sie den Bericht und das Dashboard ändern und dann als *App* an Kollegen in Ihrer Organisation verteilen. 
+   ![GitHub-App auf der Seite „Apps“](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. Klicken Sie im Navigationsberich auf den Pfeil neben dem Namen des Arbeitsbereichs. Sie sehen, dass der Arbeitsbereich ein Dashboard und einen Bericht enthält.
+## <a name="connect-to-data-sources"></a>Verbinden mit Datenquellen
 
-    ![App im Navigationsbereich](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. Klicken Sie auf das Symbol auf der Seite „Apps“, um die App zu öffnen.
 
-8. Wählen Sie das neue [GitHub-Dashboard](https://powerbi.microsoft.com/integrations/github) aus.    
-    ![GitHub-Dashboard in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. Klicken Sie auf dem Begrüßungsbildschirm auf **App erkunden**.
 
-3. Klicken Sie im Navigationsbereich auf **Arbeitsbereiche** > **GitHub**, um den gesamten Inhalt Ihres neuen GitHub-Arbeitsbereichs anzuzeigen.
- 
-   ![GitHub-Arbeitsbereich im Navigationsbereich](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![Begrüßungsbildschirm der Vorlagen-App](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    Diese Ansicht ist die Inhaltsliste für den Arbeitsbereich. In der oberen rechten Ecke wird **App aktualisieren** angezeigt. Wenn Sie bereit sind, die App an Ihre Kollegen zu verteilen, beginnen Sie hier damit. 
+   Die App wird geöffnet, und es werden Beispieldaten angezeigt.
 
-    ![GitHub-Inhaltsliste](media/service-connect-to-github/power-bi-github-content-list.png)
+1. Klicken Sie auf dem Banner oben auf der Seite auf **Ihre Daten verbinden**.
 
-2. Wählen Sie **Berichte** und **Datasets** aus, um die anderen Elemente im Arbeitsbereich anzuzeigen.
+   ![Link „Ihre Daten verbinden“ der GitHub-App](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    Informieren Sie sich über das [Verteilen von Apps](../collaborate-share/service-create-distribute-apps.md) an Ihre Kollegen.
+1. Geben Sie im daraufhin angezeigten Dialogfeld den Namen des Repositorys und den Besitzer des Repositorys an. Nachstehend finden Sie weitere Informationen zum [Suchen dieser Parameter](#FindingParams). Klicken Sie anschließend auf **Weiter**.
+
+   ![Power BI: Name des GitHub-Repositorys](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. Stellen Sie im nächsten Dialogfeld sicher, dass die Authentifizierungsmethode **OAuth2** festgelegt ist. Sie müssen nichts an den Datenschutzeinstellungen ändern. Klicken Sie abschließend auf **Anmelden**.
+
+   ![GitHub-Authentifizierungsmethode in Power BI](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. Geben Sie Ihre GitHub-Anmeldeinformationen ein, und führen Sie den GitHub-Authentifizierungsprozess durch (dieser Schritt kann übersprungen werden, wenn Sie bereits mit Ihrem Browser angemeldet sind).
+
+   ![GitHub-Authentifizierungsprozess für Power BI](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+Nachdem Sie sich angemeldet haben, stellt der Bericht eine Verbindung mit den Datenquellen her und wird mit aktuellen Daten befüllt. Währenddessen verändert sich der Aktivitätsmonitor.
+
+![GitHub-App für Power BI wird aktualisiert](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+Ihre Berichtsdaten werden automatisch einmal täglich aktualisiert, es sei denn, Sie haben dies während des Anmeldeprozesses deaktiviert. Sie können auch [Ihren eigenen Aktualisierungsplan einrichten](./refresh-scheduled-refresh.md), um die Berichtsdaten bei Bedarf auf dem neuesten Stand zu halten.
+
+## <a name="customize-and-share"></a>Anpassen und freigeben
+
+Klicken Sie in der oberen rechten Ecke der Seite auf das Stiftsymbol, um Ihre App anzupassen und freizugeben.
+
+![Bearbeiten einer App](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+Weitere Informationen zum Bearbeiten von Artefakten im Arbeitsbereich finden Sie unter den folgenden Links:
+* [Einführung in den Berichts-Editor in Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](../fundamentals/service-basic-concepts.md)
+
+Wenn Sie alle gewünschten Änderungen an den Artefakten im Arbeitsbereich vorgenommen haben, können Sie die App veröffentlichen und freigeben. Weitere Informationen hierzu finden Sie unter [Veröffentlichen der App](../collaborate-share/service-create-distribute-apps.md#publish-your-app).
 
 ## <a name="whats-included-in-the-app"></a>Was ist in der App enthalten?
 Die folgenden Daten sind über GitHub in Power BI verfügbar:     

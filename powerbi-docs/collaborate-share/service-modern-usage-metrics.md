@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142910"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693853"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Überwachen von Metriken mit der neuen Arbeitsbereichsfunktion
 
@@ -132,7 +132,7 @@ Mit der folgenden Vorgehensweise können Sie ein Dataset für einen Bericht zu N
 
 ## <a name="disable-usage-metrics-reports"></a>Deaktivieren der Berichte zu Nutzungsmetriken
 
-Berichte zu Nutzungsmetriken sind ein Feature, das Power BI- oder Office 365-Administratoren aktivieren oder deaktivieren können. Administratoren können präzise steuern, welche Benutzer Zugang zu Nutzungsmetriken haben. In der Standardeinstellung sind diese für alle Benutzer in der Organisation auf EIN festgelegt. Details zu diesen Einstellungen finden Sie unter [Steuern von Nutzungsmetriken](../admin/service-admin-portal.md#control-usage-metrics) im Artikel zum Verwaltungsportal.
+Berichte zu Nutzungsmetriken sind ein Feature, das Power BI- oder Microsoft 365-Administratoren aktivieren oder deaktivieren können. Administratoren können präzise steuern, welche Benutzer Zugang zu Nutzungsmetriken haben. In der Standardeinstellung sind diese für alle Benutzer in der Organisation auf EIN festgelegt. Details zu diesen Einstellungen finden Sie unter [Steuern von Nutzungsmetriken](../admin/service-admin-portal.md#control-usage-metrics) im Artikel zum Verwaltungsportal.
 
 > [!NOTE]
 > Nur Administratoren für den Power BI-Mandanten können die Einstellungen des Verwaltungsportals und die Bearbeitungseinstellungen sehen.

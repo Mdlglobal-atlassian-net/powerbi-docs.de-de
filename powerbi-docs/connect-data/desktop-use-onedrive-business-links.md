@@ -1,6 +1,6 @@
 ---
-title: Verwenden von OneDrive for Business-Links in Power BI Desktop
-description: Verwenden von OneDrive for Business-Links in Power BI Desktop
+title: Verwenden von OneDrive for Business-Links in Power BI Desktop
+description: Verwenden von OneDrive for Business-Links in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285806"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564148"
 ---
-# <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Verwenden von OneDrive for Business-Links in Power BI Desktop
+# <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Verwenden von OneDrive for Business-Links in Power BI Desktop
 Viele Anwender haben in OneDrive for Business Excel-Arbeitsmappen gespeichert, die sich gut für Power BI Desktop eignen. Mit Power BI Desktop können Sie Onlinelinks für in OneDrive for Business gespeicherte Excel-Dateien verwenden, um Berichte und visuelle Elemente zu erstellen. Sie können ein OneDrive for Business-Gruppenkonto oder Ihr persönliches OneDrive for Business-Konto verwenden.
 
 Um einen Onlinelink aus OneDrive for Business abzurufen, sind einige zusätzliche Schritte erforderlich. In den folgenden Abschnitten werden diese Schritte beschrieben, mithilfe derer Sie den Dateilink zwischen Gruppen, verschiedenen Computern und mit Ihren Kollegen gemeinsam nutzen können.
@@ -44,7 +44,7 @@ Sie können den Link, den Sie gerade in die Zwischenablage kopiert haben, in Pow
 3. Entfernen Sie die Zeichenfolge *?web=1* am Ende des Links, damit Power BI Desktop den Pfad zu Ihrer Datei korrekt öffnen kann, und klicken Sie anschließend auf **OK**.
    
     ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
-4. Wenn Power BI Desktop Anmeldeinformationen anfordert, wählen Sie entweder **Windows** (für lokale SharePoint-Websites) oder **Organisationskonto** (für Office 365- oder OneDrive for Business-Websites) aus.
+4. Wenn Power BI Desktop Anmeldeinformationen anfordert, klicken Sie entweder auf **Windows** (bei lokalen SharePoint-Websites) oder auf **Organisationskonto** (bei Microsoft 365- oder OneDrive for Business-Websites).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 

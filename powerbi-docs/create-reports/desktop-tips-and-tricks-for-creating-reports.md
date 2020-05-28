@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349101"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564573"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -92,7 +92,7 @@ Beginnen Sie den Vorgang, indem Sie die Option „Verweis“ für die Abfrage ve
 >[!NOTE]
 >Sie sollten sich die Sortierreihenfolge überlegt haben, bevor Sie Visuals erstellen. 
 
-Der nächste Schritt in der Vorgehensweise besteht darin, eine Beziehung zwischen den Abfragen „Buckets“ und „Details“ über die Bucketspalte zu definieren. Klicken Sie in Power BI Desktop auf **Beziehungen verwalten** im Menüband. Erstellen Sie eine Beziehung, in der sich „Buckets“ in der linken Tabelle und „Details“ in der rechten Tabelle befindet, und wählen Sie das Feld aus, das Sie für das Histogramm verwenden. 
+Der nächste Schritt in der Vorgehensweise besteht darin, eine Beziehung zwischen den Abfragen „Buckets“ und „Details“ über die Bucketspalte zu definieren. Klicken Sie in Power BI Desktop auf **Beziehungen verwalten** im Menüband. Erstellen Sie eine Beziehung, in der sich Buckets in der linken Tabelle und Details in der rechten Tabelle befindet, und klicken Sie auf das Feld, das Sie für das Histogramm verwenden. 
 
 Der letzte Schritt ist die Erstellung des Histogramms. Ziehen Sie das Bucketfeld aus der Tabelle „Buckets“. Entfernen Sie das Standardfeld aus dem resultierenden Säulendiagramm. Ziehen Sie nun das Histogrammfeld aus der Tabelle „Details“ in dasselbe visuelle Objekt. Ändern Sie in der Feldquelle das Standardaggregat in „Anzahl“. Das Ergebnis ist das Histogramm. Wenn Sie ein weiteres visuelles Objekt erstellen, etwa eine Tree Map aus der Tabelle „Details“, wählen Sie einen Datenpunkt in der Tree Map aus, um die Histogrammhervorhebung zu sehen und das Histogramm für den ausgewählten Datenpunkt in Bezug auf den Trend für das gesamte Dataset anzuzeigen.
 
@@ -158,7 +158,7 @@ DAX ist die Formelsprache für Berechnungen in Power BI Desktop. Sie ist für Bu
 
 [Erlernen der DAX-Grundlagen in Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
+[DAX-Referenz (Data Analysis Expressions)](/dax/)
 
 [DAX-Ressourcencenter](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

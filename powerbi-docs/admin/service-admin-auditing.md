@@ -10,24 +10,24 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129129"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564613"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Nachverfolgen von Benutzeraktivitäten in Power BI
 
-Es kann wichtig sein zu wissen, wer welche Aktion für welches Element im Power BI-Mandanten ausführt. Dies kann Ihrer Organisation bei der Einhaltung von Anforderungen helfen, etwa bei der Einhaltung gesetzlicher Bestimmungen und der Dokumentverwaltung. Mit Power BI stehen Ihnen zwei Optionen zum Nachverfolgen der Benutzeraktivität zur Verfügung: Das [Power BI-Aktivitätsprotokoll](#use-the-activity-log) und das [einheitliche Office 365-Überwachungsprotokoll](#use-the-audit-log). Diese Protokolle enthalten beide eine vollständige Kopie der [Power BI-Überwachungsdaten](#operations-available-in-the-audit-and-activity-logs), aber es gibt einige wesentliche Unterschiede, die in der folgenden Tabelle zusammengefasst sind:
+Es kann wichtig sein zu wissen, wer welche Aktion für welches Element im Power BI-Mandanten ausführt. Dies kann Ihrer Organisation bei der Einhaltung von Anforderungen helfen, etwa bei der Einhaltung gesetzlicher Bestimmungen und der Dokumentverwaltung. Mit Power BI stehen Ihnen zwei Optionen zum Nachverfolgen der Benutzeraktivität zur Verfügung: das [Power BI-Aktivitätsprotokoll](#use-the-activity-log) und das [einheitliche Überwachungsprotokoll](#use-the-audit-log). Diese Protokolle enthalten beide eine vollständige Kopie der [Power BI-Überwachungsdaten](#operations-available-in-the-audit-and-activity-logs), aber es gibt einige wesentliche Unterschiede, die in der folgenden Tabelle zusammengefasst sind:
 
-| **Einheitliches Office 365-Überwachungsprotokoll** | **Power BI-Aktivitätsprotokoll** |
+| **Einheitliches Überwachungsprotokoll** | **Power BI-Aktivitätsprotokoll** |
 | --- | --- |
 | Dieses Protokoll enthält Ereignisse von SharePoint Online, Exchange Online, Dynamics 365 und anderen Diensten zusätzlich zu den Power BI-Überwachungsereignissen. | Dieses Protokoll enthält nur die Power BI-Überwachungsereignisse. |
 | Nur Benutzer wie beispielsweise globale Administratoren oder Prüfer mit der Rolle „Überwachungsprotokolle nur anzeigen“ oder „Berechtigungen der Überwachungsprotokolle“ haben darauf Zugriff. | Globale Administratoren und Power BI-Dienstadministratoren haben darauf Zugriff. |
-| Globale Administratoren und Prüfer können das einheitliche Überwachungsprotokoll mithilfe des Office 365 Security & Compliance Center, des Microsoft 365 Security Center und des Microsoft 365 Compliance Center durchsuchen. | Es gibt bis jetzt keine Benutzeroberfläche, um das Aktivitätsprotokoll zu durchsuchen. |
+| Globale Administratoren und Prüfer können das einheitliche Überwachungsprotokoll über das Microsoft 365 Security Center und das Microsoft 365 Compliance Center durchsuchen. | Es gibt bis jetzt keine Benutzeroberfläche, um das Aktivitätsprotokoll zu durchsuchen. |
 | Globale Administratoren und Prüfer können Überwachungsprotokolleinträge mithilfe von Office 365-Verwaltungs-APIs und Cmdlets herunterladen. | Globale Administratoren und Power BI-Dienstadministratoren können Aktivitätsprotokolleinträge mithilfe einer Power BI-REST-API und einer Verwaltungs-Cmdlet herunterladen. |
-| Hier werden Überwachungsdaten 90 Tage gespeichert. | Hier werden Aktivitätsdaten 30 Tage gespeichert (öffentliche Vorschau). |
+| Hier werden Überwachungsdaten für 90 Tage gespeichert. | Hier werden Aktivitätsdaten 30 Tage gespeichert (öffentliche Vorschau). |
 | Überwachungsdaten werden beibehalten, auch wenn der Mandant in eine andere Azure-Region verschoben wird. | Aktivitätsdaten werden nicht beibehalten, wenn der Mandant in eine andere Azure-Region verschoben wird. |
 
 
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>Verwenden des Überwachungsprotokolls
 
-Wenn Ihre Aufgabe darin besteht, Benutzeraktivitäten in Power BI und Office 365 zu verfolgen, arbeiten Sie mit der Überwachung im Office 365 Security & Compliance Center oder verwenden Sie PowerShell. Die Überwachung baut auf in Exchange Online enthaltener Funktionalität auf, die zur Unterstützung von Power BI automatisch bereitgestellt wird.
+Wenn Ihre Aufgabe darin besteht, Benutzeraktivitäten in Power BI und Microsoft 365 nachzuverfolgen, arbeiten Sie mit der Überwachung im Office 365 Security & Compliance Center oder Sie verwenden PowerShell. Die Überwachung baut auf in Exchange Online enthaltener Funktionalität auf, die zur Unterstützung von Power BI automatisch bereitgestellt wird.
 
 Sie können die Überwachungsdaten nach Datumsbereich, Benutzer, Dashboard, Bericht, Dataset und Aktivitätstyp filtern. Sie können die Aktivitäten auch als CSV-Datei (durch Trennzeichen getrennte Datei) herunterladen, um die Analyse offline durchzuführen.
 
@@ -184,7 +184,7 @@ Der Bereich **Ergebnisse** enthält die folgenden Informationen für jedes von d
 
 #### <a name="view-the-details-for-an-event"></a>Anzeigen von Ereignisdetails
 
-Um weitere Details zu einem Ereignis anzuzeigen, wählen Sie den Eintrag eines Ereignisses in der Liste der Suchergebnisse aus. Es wird eine Seite **Details** angezeigt, die die detaillierten Eigenschaften aus dem Ereignisdatensatz enthält. Die Seite **Details** zeigt Eigenschaften abhängig von dem Office 365-Dienst an, in dem das Ereignis auftrat.
+Um weitere Details zu einem Ereignis anzuzeigen, wählen Sie den Eintrag eines Ereignisses in der Liste der Suchergebnisse aus. Es wird eine Seite **Details** angezeigt, die die detaillierten Eigenschaften aus dem Ereignisdatensatz enthält. Die Seite **Details** zeigt Eigenschaften abhängig von dem Microsoft 365-Dienst an, in dem das Ereignis aufgetreten ist.
 
 Um diese Details anzuzeigen, wählen Sie **Weitere Informationen** aus. Alle Power BI-Einträge weisen einen Wert von 20 für die RecordType-Eigenschaft auf. Informationen zu weiteren Eigenschaften finden Sie unter [Detaillierte Eigenschaften im Überwachungsprotokoll](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 

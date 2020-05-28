@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275591"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564470"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
 Mit dem Verwaltungsportal können Sie einen Power BI-*Mandanten* für Ihre Organisation verwalten. Es enthält Elemente wie z. B. Nutzungsmetriken und Zugriff auf das Microsoft 365 Admin Center sowie auf die Einstellungen.
 
-Auf das vollständige Verwaltungsportal können alle Benutzer zugreifen, die globale Administratoren in Office 365 sind oder der Power BI-Dienstadministratorrolle zugewiesen wurden. Wenn Sie keiner dieser Rollen angehören, können Sie im Portal nur die **Kapazitätseinstellungen** anzeigen. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md).
+Auf das vollständige Verwaltungsportal können alle Benutzer zugreifen, die globale Administratoren sind oder der Power BI-Dienstadministratorrolle zugewiesen wurden. Wenn Sie keiner dieser Rollen angehören, können Sie im Portal nur die **Kapazitätseinstellungen** anzeigen. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Gewusst wie: Anzeigen des Verwaltungsportals
 
-Ihr Konto muss in Office 365 oder Azure Active Directory (Azure AD) als **Globaler Administrator** markiert oder der Rolle „Power BI-Dienstadministrator“ zugewiesen sein, damit Sie Zugriff auf das Power BI-Verwaltungsportal erhalten. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md). Führen Sie zum Zugreifen auf das Power BI-Verwaltungsportal die folgenden Schritte aus.
+Ihr Konto muss in Microsoft 365 oder Azure Active Directory (Azure AD) als **globaler Administrator** markiert oder der Rolle „Power BI-Dienstadministrator“ zugewiesen sein, damit Sie Zugriff auf das Power BI-Verwaltungsportal erhalten. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md). Führen Sie zum Zugreifen auf das Power BI-Verwaltungsportal die folgenden Schritte aus.
 
 1. Wählen Sie das Zahnradsymbol für die Einstellungen oben rechts im Power BI-Dienst aus.
 
@@ -85,7 +85,7 @@ Anhand dieser Informationen gewinnen Sie wichtige Erkenntnisse zur Verwendung vo
 
 ## <a name="control-usage-metrics"></a>Steuern von Nutzungsmetriken
 
-Berichte zu Nutzungsmetriken sind ein Feature, das Power BI- oder Office 365-Administratoren aktivieren oder deaktivieren können. Administratoren können präzise steuern, welche ihrer Benutzer Zugriff auf Nutzungsmetriken haben. Sie sind standardmäßig für alle Benutzer in der Organisation **eingeschaltet**.
+Berichte zu Nutzungsmetriken sind ein Feature, das Power BI- oder Microsoft 365-Administratoren aktivieren oder deaktivieren können. Administratoren können präzise steuern, welche ihrer Benutzer Zugriff auf Nutzungsmetriken haben. Sie sind standardmäßig für alle Benutzer in der Organisation **eingeschaltet**.
 
 Die Administratoren können außerdem entscheiden, ob Inhaltsautoren benutzerspezifische Daten in den Nutzungsmetriken sehen können. 
 
@@ -189,10 +189,10 @@ In Arbeitsbereichen können Benutzer gemeinsam an Dashboards, Berichten und ande
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Neue Arbeitsbereichsoberflächen erstellen":::
 
-Für klassische Arbeitsbereiche auf Grundlage von Office 365-Gruppen wird die Verwaltung weiterhin im Office 365-Verwaltungsportal und Azure Active Directory durchgeführt.
+Für klassische Arbeitsbereiche auf Grundlage von Microsoft 365-Gruppen wird die Verwaltung weiterhin im Verwaltungsportal und Azure Active Directory durchgeführt.
 
 > [!NOTE]
-> Standardmäßig erlaubt die Einstellung **Arbeitsbereiche erstellen (neue Arbeitsbereichsoberfläche)** nur Benutzern, die Office 365-Gruppen erstellen können, das Erstellen der neuen Power BI-Arbeitsbereiche. Achten Sie darauf, dass Sie im Power BI-Verwaltungsportal einen Wert festlegen, um sicherzustellen, dass die gewünschten Benutzer diese erstellen können.
+> Standardmäßig erlaubt die Einstellung **Arbeitsbereiche erstellen (neue Arbeitsbereichsoberfläche)** nur Benutzern, die Microsoft 365-Gruppen erstellen können, das Erstellen der neuen Power BI-Arbeitsbereiche. Achten Sie darauf, dass Sie im Power BI-Verwaltungsportal einen Wert festlegen, um sicherzustellen, dass die gewünschten Benutzer diese erstellen können.
 
 **Liste mit Arbeitsbereichen**
 
@@ -334,7 +334,7 @@ Die folgende Abbildung zeigt die Option **Meine gesamte Organisation** beim Erst
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Erstellen von Vorlagen-Apps und Organisationsinhaltspaketen
 
-Benutzer in der Organisation können Vorlagen-Apps und Organisationsinhaltspakete erstellen, die Datasets verwenden, die auf einer Datenquelle in Power BI Desktop basieren. Weitere Informationen finden Sie unter [Vorlagen-Apps](../template-content-pack-authoring.md).
+Benutzer in der Organisation können Vorlagen-Apps und Organisationsinhaltspakete erstellen, die Datasets verwenden, die auf einer Datenquelle in Power BI Desktop basieren. Weitere Informationen finden Sie unter [Vorlagen-Apps](../connect-data/service-template-apps-create.md).
 
 ### <a name="push-apps-to-end-users"></a>Apps mithilfe von Push an Endbenutzer übertragen
 
@@ -625,7 +625,3 @@ Im Abschnitt [Empfohlene Inhalte](#featured-content) dieses Artikels finden Sie 
 [Überwachen von Power BI in Ihrer Organisation](service-admin-auditing.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-
-
-
-

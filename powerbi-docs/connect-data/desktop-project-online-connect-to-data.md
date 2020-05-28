@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291924"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563050"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Herstellen einer Verbindung mit Project Online-Daten über Power BI Desktop
 Sie können sich mit Daten in Project Online über Power BI Desktop verbinden.
 
-## <a name="step-1-download-power-bi-desktop"></a>Schritt 1: Herunterladen von Power BI Desktop
+## <a name="step-1-download-power-bi-desktop"></a>Schritt 1: Laden Sie Power BI Desktop herunter
 1. [Laden Sie Power BI Desktop herunter](https://go.microsoft.com/fwlink/?LinkID=521662), und führen Sie das Installationsprogramm aus, um **Power BI Desktop** auf Ihrem Computer zu installieren.
 
-## <a name="step-2-connect-to-project-online-with-odata"></a>Schritt 2: Verbinden mit Project Online mit OData
+## <a name="step-2-connect-to-project-online-with-odata"></a>Schritt 2: Verbinden mit Project Online mit OData
 1. Öffnen Sie **Power BI Desktop**.
 2. Klicken Sie auf der *Willkommensseite* auf **Daten abrufen**.
 3. Wählen Sie **OData-Feed**, und klicken Sie auf **Verbinden**.
@@ -35,7 +35,7 @@ Sie können sich mit Daten in Project Online über Power BI Desktop verbinden.
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop fordert Sie zur Authentifizierung mit Ihrem Office 365-Konto auf. Wählen Sie das Organisationskonto aus und geben Sie dann Ihre Anmeldeinformationen ein.
+5. Power BI Desktop fordert Sie zur Authentifizierung mit Ihrem Arbeits-, Schul- oder Unikonto auf. Wählen Sie das Organisationskonto aus und geben Sie dann Ihre Anmeldeinformationen ein.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

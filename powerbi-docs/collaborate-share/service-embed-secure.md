@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348135"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693833"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website
 
@@ -50,7 +50,7 @@ Die Option **Einbetten** unterstützt [URL-Filter](service-url-filters.md) und U
 
 Wenn Sie die Option **Einbetten** verwenden, erhalten Benutzer nicht automatisch die Berechtigung zum Anzeigen des Berichts. Die Leseberechtigungen werden im Power BI-Dienst festgelegt.
 
-Im Power BI-Dienst können Sie eingebettete Berichte für Benutzer freigeben, die Zugriff benötigen. Wenn Sie eine Office 365-Gruppe verwenden, können Sie Benutzer als Mitglieder des Arbeitsbereichs aufführen. Weitere Informationen dazu finden Sie unter [Verwalten Ihres Arbeitsbereichs in Power BI und Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Im Power BI-Dienst können Sie eingebettete Berichte für Benutzer freigeben, die Zugriff benötigen. Wenn Sie eine Microsoft 365-Gruppe verwenden, können Sie Benutzer als Arbeitsbereichsmitglieder aufführen. Weitere Informationen hierzu finden Sie unter [Verwalten von Arbeitsbereichen in Power BI und Microsoft 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Lizenzierung
 

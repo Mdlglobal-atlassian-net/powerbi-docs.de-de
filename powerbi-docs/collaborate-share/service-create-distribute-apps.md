@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348273"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693568"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Veröffentlichen von Apps in Power BI
 
@@ -64,7 +64,7 @@ Wenn die Dashboards und Berichte in Ihrem Arbeitsbereich bereit sind, wählen Si
 5. Entscheiden Sie unter **Berechtigungen**, wer Zugriff auf die App erhält und wie diese Benutzer die App verwenden können. 
 
     - In [klassischen Arbeitsbereichen](service-create-workspaces.md): alle Benutzer in Ihrer Organisation, bestimmte Personen oder Azure AD-Sicherheitsgruppen (Azure Active Directory).
-    - In den [Arbeitsbereichen der neuen Oberfläche ](service-create-the-new-workspaces.md): bestimmte Personen, Azure AD-Sicherheitsgruppen und -Verteilerlisten und Office 365-Gruppen. Alle Arbeitsbereichsbenutzer erhalten automatisch Zugriff auf die App für den Arbeitsbereich.
+    - In den [neuen Arbeitsbereichen](service-create-the-new-workspaces.md): bestimmte Personen, Azure AD-Sicherheitsgruppen und -Verteilerlisten sowie Microsoft 365-Gruppen. Alle Arbeitsbereichsbenutzer erhalten automatisch Zugriff auf die App für den Arbeitsbereich.
     - Sie können App-Benutzern eine Erstellungsberechtigung erteilen, damit sie eine Verbindung mit den zugrunde liegenden App-Datasets herstellen können. Die Datasets werden diesen Benutzern angezeigt, wenn sie nach freigegebenen Datasets suchen. Weitere Informationen finden Sie unter [Erteilen einer Benutzerberechtigung zum Herstellen einer Verbindung mit App-Datasets](#allow-users-to-connect-to-datasets).
     - Benutzer mit der Erstellungsberechtigung können auch über die Berechtigung verfügen, Berichte aus dieser App in einen anderen Arbeitsbereich zu kopieren. Weitere Informationen finden Sie unter [Erteilen einer Benutzerberechtigung zum Kopieren von Berichten in der App](#allow-users-to-copy-reports).
     

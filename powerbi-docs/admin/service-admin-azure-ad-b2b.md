@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129304"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564493"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B
 
@@ -130,7 +130,7 @@ Damit sich diese zugelassenen Benutzer bei Power BI anmelden können, stellen Si
 * Manche Funktionen können von [Gastbenutzern, die Inhalte in der Organisation bearbeiten und verwalten können](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), nicht genutzt werden. Zum Aktualisieren oder Veröffentlichen von Berichten müssen sie die Webbenutzeroberfläche des Power BI-Diensts verwenden, einschließlich des Befehls „Daten abrufen“ zum Hochladen von Power BI Desktop-Dateien.  Die folgenden Funktionen werden nicht unterstützt:
     * Direktes Veröffentlichen aus Power BI Desktop im Power BI-Dienst
     * Gastbenutzer können Power BI Desktop nicht dazu verwenden, eine Verbindung mit Dienstdatasets im Power BI-Dienst herzustellen.
-    * Klassische Arbeitsbereiche, die mit Office 365-Gruppen verknüpft sind:
+    * Klassische Arbeitsbereiche, die mit Microsoft 365-Gruppen verknüpft sind:
         * Gastbenutzer können keine Administratoren für diese Arbeitsbereiche erstellen oder selbst Administratoren sein
         * Gastbenutzer können Mitglieder sein
     * Das Senden von Ad-hoc-Einladungen wird für Arbeitsbereichszugriffslisten nicht unterstützt

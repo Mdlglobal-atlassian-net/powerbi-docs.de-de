@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275407"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564384"
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 
@@ -37,17 +37,17 @@ Das **Back-End**-Cluster zeigt, wie authentifizierte Clients mit dem Power BI-Di
 > [!IMPORTANT]
 > Es ist unbedingt zu beachten, dass nur **Azure API Management** (APIM) und **Gateway**-Rollen (GW) über das öffentliche Internet zugänglich sind. Sie bieten Authentifizierung, Autorisierung, DDoS-Schutz, Einschränkung, Lastenausgleich, Routing und andere Funktionen.
 
-## <a name="data-storage-security"></a>Datenspeichersicherheit 
+## <a name="data-storage-security"></a>Datenspeichersicherheit
 
 Power BI verwendet zwei primäre Repositorys zum Speichern und Verwalten von Daten: Daten, die von Benutzern hochgeladen werden, werden in der Regel an den **Azure-BLOB** Speicher gesendet, und alle Metadaten sowie Artefakte des Systems selbst werden in der **Azure SQL-Datenbank**gespeichert.
 
-Die gepunktete Linie im Bild des **-Back-End**-Clusters oben verdeutlicht die Grenze zwischen den beiden einzigen Komponenten, die für Benutzer (links neben der gepunkteten Linie) zugänglich sind, und Rollen, die nur für das System zugänglich sind. Wenn ein authentifizierter Benutzer eine Verbindung mit dem Power BI-Dienst herstellt, werden die Verbindung und jede Anforderung vom Client von der **Gateway-Rolle** akzeptiert und verwaltet (um schließlich von **Azure API Management**verwaltet zu werden), welche dann im Namen des Benutzers mit dem übrigen Power BI-Dienst interagiert. Wenn beispielsweise ein Client versucht, ein Dashboard anzuzeigen, akzeptiert die **Gateway-Rolle** die Anforderung und sendet dann separat eine Anforderung an die **Präsentationsrolle**, um die vom Browser benötigten Daten zum Rendern des Dashboards abzurufen.
+Die gepunktete Linie im Bild des **-Back-End**-Clusters oben verdeutlicht die Grenze zwischen den beiden einzigen Komponenten, die für Benutzer (links neben der gepunkteten Linie) zugänglich sind, und Rollen, die nur für das System zugänglich sind. Wenn ein authentifizierter Benutzer eine Verbindung mit dem Power BI-Dienst herstellt, werden die Verbindung und jede Anforderung vom Client von der **Gateway-Rolle** akzeptiert und verwaltet (um schließlich von **Azure API Management**verwaltet zu werden), welche dann im Namen des Benutzers mit dem übrigen Power BI-Dienst interagiert. Wenn beispielsweise ein Client versucht, ein Dashboard anzuzeigen, akzeptiert die **Gateway-Rolle** die Anforderung und sendet dann separat eine Anforderung an die **Präsentationsrolle** , um die vom Browser benötigten Daten zum Rendern des Dashboards abzurufen.
 
 ## <a name="user-authentication"></a>Benutzerauthentifizierung
 
-Power BI verwendet Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) zum Authentifizieren von Benutzern, die sich beim Power BI-Dienst anmelden, und verwendet wiederum die Power BI-Anmeldeinformationen, wenn ein Benutzer versucht, auf Ressourcen zuzugreifen, die eine Authentifizierung erfordern. Benutzer melden sich beim Power BI-Dienst mit der E-Mail-Adresse an, die sie zum Einrichten ihres Power BI-Kontos verwendet haben. Power BI verwendet diese zur Anmeldung verwendete E-Mail-Adresse als den *gültigen Benutzernamen*, der an Ressourcen übergeben wird, wenn ein Benutzer versucht, Daten abzurufen. Der *effektive Benutzername* wird dann einem *Benutzerprinzipalnamen* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) zugeordnet, und für das zugehörige Windows-Domänenkonto aufgelöst, mit dem die Authentifizierung erfolgt.
+Power BI verwendet Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) zum Authentifizieren von Benutzern, die sich beim Power BI-Dienst anmelden, und verwendet wiederum die Power BI-Anmeldeinformationen, wenn ein Benutzer versucht, auf Ressourcen zuzugreifen, die eine Authentifizierung erfordern. Benutzer melden sich beim Power BI-Dienst mit der E-Mail-Adresse an, die sie zum Einrichten ihres Power BI-Kontos verwendet haben. Power BI verwendet diese zur Anmeldung verwendete E-Mail-Adresse als den *gültigen Benutzernamen*, der an Ressourcen übergeben wird, wenn ein Benutzer versucht, Daten abzurufen. Der *effektive Benutzername* wird dann einem [*Benutzerprinzipalnamen* (User Principal Name, UPN)](/windows/win32/secauthn/user-name-formats) zugeordnet und in das zugehörige Windows-Domänenkonto aufgelöst, mit dem die Authentifizierung erfolgt.
 
-Für Organisationen, die Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. <em>david@contoso.com</em>), ist die Zuordnung von *effektivem Benutzernamen* zum Benutzerprinzipalnamen (UPN) einfach. Für Organisationen, die keine Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. <em>david@contoso.onmicrosoft.com</em>), erfordert die Zuordnung zwischen AAD und lokalen Anmeldeinformationen eine [Verzeichnissynchronisierung](https://technet.microsoft.com/library/jj573653.aspx), um ordnungsgemäß zu funktionieren.
+Für Organisationen, die Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. <em>david@contoso.com</em>), ist die Zuordnung von *effektivem Benutzernamen* zum Benutzerprinzipalnamen (UPN) einfach. Für Organisationen, die keine Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. <em>david@contoso.onmicrosoft.com</em>), erfordert die Zuordnung zwischen AAD und lokalen Anmeldeinformationen eine [Verzeichnissynchronisierung](/azure/active-directory-domain-services/synchronization), um ordnungsgemäß zu funktionieren.
 
 Die Plattformsicherheit für Power BI umfasst auch die Sicherheit der mehrinstanzenfähigen Umgebung sowie Netzwerksicherheit und die Möglichkeit zum Hinzufügen von zusätzlichen AAD-basierten Sicherheitsmaßnahmen.
 
@@ -68,4 +68,3 @@ Dieses Erzwingen lässt sich durch das Festlegen von Registrierungsschlüsseln d
 **Power BI Desktop** respektiert die in diesen Artikeln beschriebenen Registrierungsschlüsseleinstellungen, und erstellt nur Verbindungen mit der auf Grundlage dieser Registrierungseinstellungen, falls vorhanden, zulässigen Version von TLS.
 
 Weitere Informationen zum Festlegen dieser Registrierungsschlüssel finden Sie im Artikel [TLS-Registrierungseinstellungen](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
-

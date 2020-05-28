@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144122"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693772"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Erstellen der neuen Arbeitsbereiche in Power BI
 
@@ -22,8 +22,8 @@ In Power BI werden neue Arbeitsbereiche eingeführt. Arbeitsbereiche sind immer 
 
 Hier liegt der Unterschied. In den neuen Arbeitsbereichen können Sie Folgendes durchführen:
 
-- Arbeitsbereichsrollen Benutzergruppen zuweisen: Sicherheitsgruppen, Verteilerlisten, Office 365-Gruppen und Einzelpersonen.
-- Einen Arbeitsbereich in Power BI erstellen, ohne eine Office 365-Gruppe zu erstellen.
+- Sie können Arbeitsbereichsrollen zu den folgenden Benutzergruppen zuweisen: Sicherheitsgruppen, Verteilerlisten, Microsoft 365-Gruppen und Einzelpersonen.
+- Sie können einen Arbeitsbereich in Power BI erstellen, ohne eine Microsoft 365-Gruppe zu erstellen.
 - Genauere Arbeitsbereichsrollen für flexiblere Verwaltung von Berechtigungen in einem Arbeitsbereich verwenden.
 
 Sind Sie bereit, Ihren klassischen Arbeitsbereich zu migrieren? Einzelheiten finden Sie unter [Aktualisieren klassischer Arbeitsbereiche auf die neuen Arbeitsbereiche in Power BI](service-upgrade-workspaces.md).
@@ -43,7 +43,7 @@ Weitere Informationen finden Sie im Artikel [Neue Arbeitsbereiche](service-new-w
    
      ![Neue Arbeitsbereichsfunktion](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Wenn Sie **Auf klassische Version zurücksetzen** auswählen, erstellen Sie einen [Arbeitsbereich, der auf einer Office 365-Gruppe basiert](service-create-workspaces.md). 
+     Wenn Sie **Auf klassische Version zurücksetzen** auswählen, erstellen Sie einen [Arbeitsbereich, der auf einer Microsoft 365-Gruppe basiert](service-create-workspaces.md). 
 
 2. Benennen Sie den Arbeitsbereich. Wenn der Name nicht verfügbar ist, geben Sie einen eindeutigen Namen ein.
    
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie im Artikel [Neue Arbeitsbereiche](service-new-w
     
     [Fügen Sie eine **Kontaktliste**](#workspace-contact-list) hinzu. Standardmäßig sind die Arbeitsbereichsadministratoren die Kontakte. 
     
-    [Geben Sie **OneDrive für Arbeitsbereich**](#workspace-onedrive) an, indem Sie nur den Namen einer vorhandenen Office 365-Gruppe eingeben, nicht die URL. Dieser Arbeitsbereich kann nun den Dateispeicherort der Office 365-Gruppe verwenden. 
+    [Legen Sie **OneDrive für Arbeitsbereich**](#workspace-onedrive) fest, indem Sie nur den Namen einer vorhandenen Microsoft 365-Gruppe eingeben, nicht die URL. Dieser Arbeitsbereich kann nun den Dateispeicherort der Microsoft 365-Gruppe verwenden.
 
     ![Angeben eines OneDrive-Speicherorts](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ Sie können festlegen, welche Benutzer Benachrichtigungen über im Arbeitsbereic
 
 ## <a name="workspace-onedrive"></a>OneDrive für Arbeitsbereich
 
-Mit dem Feature OneDrive für Arbeitsbereich können Sie eine Office 365-Gruppe konfigurieren, deren SharePoint-Dokumentbibliothek-Speicher für Arbeitsbereichsbenutzer verfügbar ist. Sie erstellen die Gruppe zuerst außerhalb von Power BI. 
+Mit dem Feature „OneDrive für Arbeitsbereich“ können Sie eine Microsoft 365-Gruppe konfigurieren, deren SharePoint-Dokumentbibliotheksdateispeicher für Arbeitsbereichsbenutzer verfügbar ist. Sie erstellen die Gruppe zuerst außerhalb von Power BI.
 
-Power BI synchronisiert keine Berechtigungen von Benutzern oder Gruppen, für die der Arbeitsbereichszugriff mit der Office 365-Gruppenmitgliedschaft konfiguriert ist. Am besten gewähren Sie derselben Office 365-Gruppe, deren Dateispeicher Sie in dieser Einstellung konfigurieren, den [Zugriff auf den Arbeitsbereich](#give-access-to-your-workspace). Verwalten Sie dann den Zugriff auf den Arbeitsbereich durch Verwalten der Mitgliedschaft in der Office 365-Gruppe. 
+Power BI synchronisiert keine Berechtigungen von Benutzern oder Gruppen, für die der Arbeitsbereichszugriff mit der Microsoft 365-Gruppenmitgliedschaft konfiguriert ist. Die beste Vorgehensweise besteht darin, derselben Microsoft 365-Gruppe den [Zugriff auf den Arbeitsbereich](#give-access-to-your-workspace) zu gewähren, deren Dateispeicher Sie in dieser Einstellung konfigurieren. Verwalten Sie dann den Zugriff auf den Arbeitsbereich, indem Sie die Mitgliedschaft der Microsoft 365-Gruppe verwalten.
 
 1. Greifen Sie auf eine von zwei Arten auf die neue **OneDrive für Arbeitsbereich**-Einstellung zu:
 
@@ -99,7 +99,7 @@ Power BI synchronisiert keine Berechtigungen von Benutzern oder Gruppen, für di
 
     ![Arbeitsbereichseinstellungen](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. Geben Sie unter **Erweitert** > **OneDrive für Arbeitsbereich** den Namen der Office 365-Gruppe ein, die Sie zuvor erstellt haben. Power BI wählt automatisch die OneDrive-Instanz für die Gruppe aus.
+2. Geben Sie unter **Erweitert** > **OneDrive für Arbeitsbereich** den Namen der Microsoft 365-Gruppe ein, die Sie zuvor erstellt haben. Power BI wählt automatisch die OneDrive-Instanz für die Gruppe aus.
 
     ![Angeben eines OneDrive-Speicherorts](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ In den neuen Arbeitsbereichen können Sie keine organisationsbezogenen Inhaltspa
 
     ![Inhaltsliste der Arbeitsbereiche](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Fügen Sie diesen Arbeitsbereichen Sicherheitsgruppen, Verteilerlisten, Office 365-Gruppen oder Einzelpersonen als anzeigende Benutzer, Mitglieder, Mitwirkende oder Administratoren hinzu. Eine Erläuterung der verschiedenen Rollen finden Sie unter [Rollen in den neuen Arbeitsbereichen](service-new-workspaces.md#roles-in-the-new-workspaces).
+1. Fügen Sie diesen Arbeitsbereichen Sicherheitsgruppen, Verteilerlisten, Microsoft 365-Gruppen oder Einzelpersonen als anzeigende Benutzer, Mitglieder, Mitwirkende oder Administratoren hinzu. Eine Erläuterung der verschiedenen Rollen finden Sie unter [Rollen in den neuen Arbeitsbereichen](service-new-workspaces.md#roles-in-the-new-workspaces).
 
     ![Arbeitsbereiche: Hinzufügen von Mitgliedern, Administratoren und Mitwirkenden](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

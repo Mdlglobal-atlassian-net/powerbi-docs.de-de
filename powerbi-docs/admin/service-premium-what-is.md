@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274372"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438244"
 ---
 # <a name="what-is-power-bi-premium"></a>Was ist Power BI Premium?
 
@@ -59,6 +59,7 @@ Mit Power BI Premium erhalten Sie *dedizierte Kapazitäten*. Im Gegensatz zu ein
 * Excel-Arbeitsmappen (es sei denn, die Daten werden zuerst in Power BI Desktop importiert)
 * [Pushdatasets](/rest/api/power-bi/pushdatasets)
 * [Streamingdatasets](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [Q&A](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Arbeitsbereiche befinden sich innerhalb von Kapazitäten. Jeder Power BI-Benutzer verfügt über einen persönlichen Arbeitsbereich, der als **Mein Arbeitsbereich** bezeichnet wird. Zusätzliche Arbeitsbereiche, auch als **Arbeitsbereiche** bezeichnet, können erstellt werden, um die Zusammenarbeit zu ermöglichen. Standardmäßig werden Arbeitsbereiche, einschließlich persönlicher Arbeitsbereiche, in der gemeinsam genutzten Kapazität erstellt. Wenn Sie über Premium-Kapazitäten verfügen, können sowohl zu „Meine Arbeitsbereiche“ als auch zu Arbeitsbereichen Premium-Kapazitäten zugewiesen werden.
 
@@ -68,7 +69,7 @@ Wie im Abschnitt [Abonnements und Lizenzierung](#subscriptions-and-licensing) be
 
 Die Verarbeitung erfolgt mithilfe einer festgelegten Anzahl V-Kerne, die zu gleichen Teilen zwischen Back-End und Front-End aufgeteilt werden.
 
-**Back-End-V-Kerne** sind für die Power BI-Kernfunktionalität zuständig, einschließlich Abfrageverarbeitung, Cacheverwaltung, das Ausführen von R-Diensten, die Verarbeitung natürlicher Sprache (Q&A) und das serverseitige Rendern von Berichten und Bildern. Back-End-V-Kernen wird eine festgelegte Menge Arbeitsspeicher zugewiesen, der hauptsächlich zum Hosten von Modellen verwendet wird, die auch als aktive Datasets bezeichnet werden.
+**Back-End-V-Kerne** sind für die Kernfunktionalität von Power BI verantwortlich, einschließlich der Abfrageverarbeitung, der Cacheverwaltung, dem Ausführen von R-Diensten, der Modellaktualisierung und dem serverseitigen Rendering von Berichten und Bildern. Back-End-V-Kernen wird eine festgelegte Menge Arbeitsspeicher zugewiesen, der hauptsächlich zum Hosten von Modellen verwendet wird, die auch als aktive Datasets bezeichnet werden.
 
 Die **Front-End-V-Kerne** sind für den Webdienst, die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads und allgemein für alles zuständig, das mit der Benutzererfahrung zusammenhängt.
 

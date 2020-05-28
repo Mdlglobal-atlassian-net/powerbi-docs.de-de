@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129504"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438037"
 ---
 # <a name="what-is-power-bi-administration"></a>Was ist die Power BI-Verwaltung?
 
@@ -36,17 +36,17 @@ In der Power BI-Verwaltung gibt es verschiedene Rollen, die in der folgenden Tab
 
 | **Art des Administrators** | **Geltungsbereich** | **Zuständigkeit in Power BI** |
 | --- | --- | --- |
-| Globaler Office 365-Administrator | Office 365 | Kann alle Aspekte eines Power BI-Mandanten und weitere Dienste verwalten. |
-| Office 365-Abrechnungsadministrator | Office 365 | Kann über Office 365-Abonnements Power BI-Lizenzen erwerben. |
+| Globaler Administrator | Microsoft 365 | Kann alle Aspekte eines Power BI-Mandanten und weitere Dienste verwalten. |
+| Abrechnungsadministrator | Microsoft 365 | Kann über Office 365-Abonnements Power BI-Lizenzen erwerben. |
 | Power BI-Dienstadministrator | Power BI-Mandant | Verfügt über vollständige Kontrolle über einen Power BI-Mandanten und die zugehörigen Verwaltungsfunktionen (mit Ausnahme der Lizenzierung). |
 | Power BI Premium-Kapazitätsadministrator | Eine einzelne Premium-Kapazität | Verfügt über vollständige Kontrolle über eine Premium-Kapazität und die zugehörigen Verwaltungsfunktionen. |
 | Power BI Embedded-Kapazitätsadministrator | Eine einzelne Embedded-Kapazität | Verfügt über vollständige Kontrolle über eine Embedded-Kapazität und die zugehörigen Verwaltungsfunktionen. |
 
-Globale Administratoren in Office 365 oder Azure Active Directory besitzen Administratorrechte in Power BI. Ein globaler Office 365-Administrator kann andere Benutzer zur Power BI-Dienstadministratorrolle zuweisen, die Administratorrechte ausschließlich für Power BI-Funktionen gewährt.
+Globale Administratoren in Microsoft 365 oder Azure Active Directory besitzen Administratorrechte in Power BI. Ein globaler Administrator kann anderen Benutzer die Power BI-Dienstadministratorrolle zuweisen, die Administratorrechte ausschließlich für Power BI-Features gewährt.
 
 Power BI-Dienstadministratoren haben Zugriff auf das Power BI-Verwaltungsportal, das verschiedene Einstellungen auf Mandantenebene für Funktionalität, Sicherheit und Überwachung umfasst. Dienstadministratoren haben vollständigen Zugriff auf alle Ressourcen eines Power BI-Mandanten. In den meisten Fällen identifizieren Dienstadministratoren Probleme und setzen sich mit den Ressourcenbesitzern in Verbindung, um Korrekturmaßnahmen zu ergreifen.
 
-Die Rolle eines Power BI-Dienstadministrators gewährt nicht die Berechtigung, Benutzern Lizenzen zuzuweisen oder Überwachungsprotokolle in Office 365 anzuzeigen. Daher kann Power BI derzeit nicht von Benutzern verwaltet werden, die nur Mitglieder der Power BI-Dienstadministratorrolle sind.
+Die Rolle eines Power BI-Dienstadministrators gewährt nicht die Berechtigung, Benutzern Lizenzen zuzuweisen oder Überwachungsprotokolle in Microsoft 365 anzuzeigen. Daher kann Power BI derzeit nicht von Benutzern verwaltet werden, die nur Mitglieder der Power BI-Dienstadministratorrolle sind.
 
 ## <a name="administrative-tasks"></a>Verwaltungsaufgaben
 

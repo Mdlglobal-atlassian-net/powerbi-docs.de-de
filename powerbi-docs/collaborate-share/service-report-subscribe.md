@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273636"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438221"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere
 
@@ -105,12 +105,13 @@ Power BI-Administratoren können mit den Power BI-Überwachungsprotokollen Detai
 
 ### <a name="general"></a>Allgemein
 
-- In seltenen Fällen kann es länger als 15 Minuten dauern, bis E-Mail-Abonnements an ihre Empfänger übermittelt werden. In diesem Fall empfehlen wir, Ihre Datenaktualisierung und Ihr E-Mail-Abonnement zu verschiedenen Zeiten auszuführen, um eine zeitnahe Übermittlung sicherzustellen. Wenn das Problem weiterhin besteht, wenden Sie sich an den Power BI-Support.
-- Fügen Sie den Power BI-E-Mail-Alias ([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) zu Ihren Kontakten hinzu, um zu verhindern, dass Abonnement-E-Mails in Ihren Spamordner gelangen. Wenn Sie Microsoft Outlook verwenden, klicken Sie mit der rechten Maustaste auf den Alias, und wählen Sie **Zu Outlook-Kontakten hinzufügen** aus.
+- Wie bei anderen BI-Produkten beginnt die Verarbeitung des Abonnements zu dem Zeitpunkt, für den Sie Ihr Abonnement festlegen.  Wenn die Berichtsverarbeitung abgeschlossen ist, wird das Abonnement in eine Warteschlange eingereiht und per E-Mail an die Empfänger gesendet.  Wir bemühen uns, alle Abonnements schnellstmöglich zu verarbeiten und bereitzustellen. Allerdings können zu Bedarfsspitzen aufgrund der Anzahl von Abonnements, die Power BI gleichzeitig übermitteln kann, längere Verzögerungen auftreten. Für die meisten Kunden sollten jedoch keine Verzögerungen von mehr als 15 Minuten beim Verarbeiten und Senden von Berichten auftreten. Zu bestimmten Zeiten und für bestimmte Mandanten mit erheblicher Nutzung kann es bis zu 30 Minuten dauern.  Es wird jedoch in keinem Fall eine Bereitstellungsverzögerung von mehr als 60 Minuten nach Planung des Abonnements erwartet.  Wenn bei Ihnen eine so lange Verzögerung auftritt, sollten Sie zunächst sicherstellen, dass die Adresse `no-reply-powerbi@microsoft.com` sich auf der Whitelist Ihres E-Mail-Anbieters befindet.  Wenn das der Fall ist, wenden Sie sich an den Power BI-Support.
 - Sie können aktuell keine E-Mail-Abonnements von Berichten und Dashboards für andere Personen abschließen, wenn die Berichte und Dashboards Datasets mit Liveverbindung enthalten. Dies gilt nicht für paginierte Berichte. Sie können Abonnements von paginierten Berichten für andere Benutzer abschließen, indem Sie Ihren Sicherheitskontext verwenden. Weitere Informationen finden Sie unter [Abonnieren von paginierten Berichten für sich selbst und andere im Power BI-Dienst](../consumer/paginated-reports-subscriptions.md).
 - Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind und seit mehr als zwei Monaten nicht besucht wurden, wird von Power BI automatisch ausgesetzt. Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard oder der Bericht längere Zeit nicht besucht wurde.
 - Wenn Sie die E-Mails des Abonnements nicht erhalten, vergewissern Sie sich, dass Ihr Benutzerprinzipalname (User Principal Name, UPN) E-Mails empfangen kann.
 - Wenn Ihr Dashboard oder Bericht sich in einer Premium-Kapazität befindet, können Sie E-Mail-Aliase von Gruppen für Abonnements verwenden, statt für jeden Kollegen einzeln mit dessen E-Mail-Adresse ein Abonnement abschließen zu müssen. Die Aliase basieren auf dem aktuellen Verzeichnis der aktiven Benutzer.
+- Wenn Ihre Inhalte sich nicht in einer Premium-Kapazität befinden, können nur Power BI Pro-Benutzer E-Mail-Abonnements empfangen. 
+- Abonnements unterstützen derzeit keine Lesezeichen.
 
 ### <a name="dashboards"></a>Dashboards
 
@@ -118,7 +119,7 @@ Power BI-Administratoren können mit den Power BI-Überwachungsprotokollen Detai
 - In seltenen Fällen kann es länger als 15 Minuten dauern, bis E-Mail-Abonnements an ihre Empfänger übermittelt werden. In diesem Fall empfehlen wir, Ihre Datenaktualisierung und Ihr E-Mail-Abonnement zu verschiedenen Zeiten auszuführen, um eine zeitnahe Übermittlung sicherzustellen. Wenn das Problem weiterhin besteht, wenden Sie sich an den Power BI-Support.
 - Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.
 - Für Abonnements von Dashboards werden bestimmte Typen von Kacheln noch nicht unterstützt. Dazu zählen Streamingkacheln, Videokacheln und benutzerdefinierte Kacheln mit Webinhalten.
-- Wenn Sie ein Dashboard für einen Kollegen außerhalb Ihres Mandanten freigeben, können Sie nicht zusätzlich ein Abonnement für diesen Kollegen erstellen, *es sei denn*, das Dashboard befindet sich in einem Premium-Arbeitsbereich oder einer App. Wenn Sie aaron@contoso.com sind, können Sie es für anyone@fabrikam.com freigeben, aber es kann dafür derzeit kein Abonnement für anyone@fabrikam.com abgeschlossen werden.
+- Wenn Sie ein Dashboard für einen Kollegen außerhalb Ihres Mandanten freigeben, können Sie nicht zusätzlich ein Abonnement für diesen Kollegen erstellen, *es sei denn*, das Dashboard befindet sich in einem Premium-Arbeitsbereich oder einer App. Wenn Sie `aaron@contoso.com` sind, können Sie es für `anyone@fabrikam.com` freigeben, aber es kann dafür derzeit kein Abonnement für `anyone@fabrikam.com` abgeschlossen werden.
 
 ### <a name="reports"></a>Berichte
 

@@ -9,37 +9,37 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 3a6f1f692d615da14be9092290fd7c8c9e6bf168
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129421"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564043"
 ---
 # <a name="use-an-alternate-email-address"></a>Verwenden einer alternativen E-Mail-Adresse
 
 Wenn Sie sich für Power BI registrieren, müssen Sie eine E-Mail-Adresse angeben. Power BI verwendet diese Adresse standardmäßig, um Ihnen Updates zu den Aktivitäten in diesem Dienst zu senden. Wenn Ihnen beispielsweise ein Benutzer eine Freigabeeinladung sendet, wird diese Adresse verwendet.
 
-Es gibt jedoch Fälle, in denen diese E-Mails an eine andere als die bei der Registrierung verwendete Adresse gesendet werden sollen. Dieser Artikel erläutert, wie Sie in Office 365 und PowerShell eine alternative E-Mail-Adresse angeben. In diesem Artikel wird außerdem beschrieben, wie eine E-Mail-Adresse in Azure Active Directory (Azure AD) aufgelöst wird.
+Es gibt jedoch Fälle, in denen diese E-Mails an eine andere als die bei der Registrierung verwendete Adresse gesendet werden sollen. In diesem Artikel wird erläutert, wie Sie eine alternative E-Mail-Adresse in Microsoft 365 und PowerShell angeben. In diesem Artikel wird außerdem beschrieben, wie eine E-Mail-Adresse in Azure Active Directory (Azure AD) aufgelöst wird.
 
 > [!NOTE]
 > Die Angabe einer alternativen Adresse wirkt sich nicht auf die E-Mail-Adresse aus, die Power BI für Dienstupdates, Newsletter und andere Werbekommunikation verwendet. Diese Informationen werden immer an die E-Mail-Adresse gesendet, die Sie beim Registrieren für Power BI angegeben haben.
 
-## <a name="use-office-365"></a>Verwenden von Office 365
+## <a name="use-microsoft-365"></a>Verwenden von Microsoft 365
 
-Um in Office 365 eine alternative Adresse anzugeben, führen Sie die folgenden Schritte aus.
+Führen Sie die folgenden Schritte aus, um eine alternative E-Mail-Adresse in Microsoft 365 anzugeben.
 
-1. Öffnen Sie Ihre [persönliche Office 365-Informationsseite](https://portal.office.com/account/#personalinfo). Wenn die App Sie dazu auffordert, melden Sie sich mit der E-Mail-Adresse und dem Kennwort an, die Sie für Power BI verwenden.
+1. Öffnen Sie die Seite [Persönliche Informationen](https://portal.office.com/account/#personalinfo) Ihres Kontos. Wenn die App Sie dazu auffordert, melden Sie sich mit der E-Mail-Adresse und dem Kennwort an, die Sie für Power BI verwenden.
 
 1. Wählen Sie im linken Menü **Persönliche Informationen** aus.
 
 1. Klicken Sie im Abschnitt mit den **Kontaktdetails** auf **Bearbeiten**.
 
-    Wenn Sie die Informationen nicht bearbeiten können, bedeutet dies, dass Ihre E-Mail-Adresse von Ihrem Office 365-Administrator verwaltet wird. Wenden Sie sich an Ihren Administrator, um Ihre E-Mail-Adresse zu aktualisieren.
+    Wenn Sie die Informationen nicht bearbeiten können, bedeutet dies, dass Ihre E-Mail-Adresse von Ihrem Administrator verwaltet wird. Wenden Sie sich an Ihren Administrator, um Ihre E-Mail-Adresse zu aktualisieren.
 
     ![Kontaktdetails](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
-1. Geben Sie im Feld **Alternative E-Mail-Adresse** die E-Mail-Adresse ein, die von Office 365 für Power BI-Updates verwendet werden soll.
+1. Geben Sie im Feld **Alternative E-Mail-Adresse** die E-Mail-Adresse ein, die Microsoft 365 für Power BI-Updates verwenden soll.
 
 ## <a name="use-powershell"></a>Verwenden von PowerShell
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550886"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561637"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -41,7 +41,7 @@ Microsoft und Communitymitglieder stellen visuelle Power BI-Elemente für das ö
 
 ### <a name="what-is-appsource"></a>Was ist AppSource?
 
-[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) ist der Ort für Apps, Add-Ins und Erweiterungen für Ihre Microsoft-Software. In AppSource finden Millionen von Benutzern Produkte, z. B. Office 365, Azure, Dynamics 365, Cortana und Power BI, mit denen sie effizienter und besser informiert als zuvor arbeiten können.
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) ist der Ort für Apps, Add-Ins und Erweiterungen für Ihre Microsoft-Software. In AppSource finden Millionen von Benutzern Produkte, z. B. Microsoft 365, Azure, Dynamics 365, Cortana und Power BI, mit denen sie effizienter und besser informiert als zuvor arbeiten können.
 
 ### <a name="certified-power-bi-visuals"></a>Zertifizierte Power BI-Visuals
 
@@ -72,7 +72,7 @@ Wenn Sie ein Webentwickler sind und Interesse daran haben, Ihr eigenes visuelles
 > [!WARNING]
 > Ein visuelles Power BI-Element könnte dann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Vergewissern Sie sich, dass Sie dem Autor und der Quelle des visuellen Power BI-Elements vertrauen, bevor Sie es in Ihren Bericht importieren.
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 * Wenn Sie ein Entwickler sind, beginnen Sie mit dem Tutorial [Entwickeln eines visuellen Power BI-Elements](custom-visual-develop-tutorial.md).
 

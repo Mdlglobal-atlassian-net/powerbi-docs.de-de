@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/14/2020
+ms.openlocfilehash: 8d2efebcfd2d4bc4289f0c8136ef060507fe0a86
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874083"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438267"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
 
@@ -179,13 +179,14 @@ Nachdem Sie die Ermittlungs-URL eingegeben und **Anwenden** ausgewählt haben, s
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
-* Arbeitsmappen werden schreibgeschützt angezeigt.
+- Arbeitsmappen werden schreibgeschützt angezeigt.
+- Die geplante Aktualisierung wird für Excel-Arbeitsmappen in Power BI-Berichtsserver nicht unterstützt.
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download der neuesten SQL Server-Datatools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Herunterladen der SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

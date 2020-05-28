@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284794"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565458"
 ---
 # <a name="share-a-dataset-preview"></a>Freigeben eines Datasets (Vorschau)
 
@@ -24,7 +24,7 @@ Als Ersteller von *Datenmodellen* in Power BI Desktop erstellen Sie *Datasets*, 
 
 1. Erstellen Sie zunächst eine PBIX-Datei mit einem Datenmodell in Power BI Desktop. Wenn Sie planen, dieses Dataset anderen Benutzern zum Erstellen von Berichten anzubieten, können Sie eventuell sogar auf das Entwerfen eines Berichts in der PBIX-Datei verzichten.
 
-    Eine bewährte Methode besteht darin, die PBIX-Datei in einer Office 365-Gruppe zu speichern.
+    Eine bewährte Methode besteht darin, die PBIX-Datei in einer Microsoft 365-Gruppe zu speichern.
 
 1. Veröffentlichen Sie die PBIX-Datei im Power BI-Dienst in einem [Arbeitsbereich mit neuer Benutzeroberfläche](../collaborate-share/service-create-the-new-workspaces.md).
     
@@ -51,7 +51,7 @@ Wenn Sie über ein freigegebenes Dataset in Ihrem Arbeitsbereich verfügen, müs
  
     ![Verwandte Inhalte (Dialogfeld)](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 - [Verwenden von Datasets in mehreren Arbeitsbereichen (Vorschau)](service-datasets-across-workspaces.md)
-- Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+- Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
