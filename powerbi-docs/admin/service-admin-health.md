@@ -1,5 +1,5 @@
 ---
-title: Nachverfolgen der Power BI-Dienstintegrität in Office 365
+title: Nachverfolgen des Power BI-Dienststatus in Microsoft 365
 description: Erfahren Sie, wie Sie aktuelle Daten und Verlaufsdaten zur Dienstintegrität im Microsoft 365 Admin Center anzeigen.
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139744"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563713"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>Nachverfolgen der Power BI-Dienstintegrität in Office 365
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Nachverfolgen des Power BI-Dienststatus in Microsoft 365
 
 Das Microsoft 365 Admin Center stellt wichtige Tools für Power BI-Administratoren bereit. Die Tools umfassen aktuelle und Verlaufsinformationen zur Dienstintegrität. Um auf Dienstintegritätsinformationen zuzugreifen, müssen Sie eine der folgenden Rollen besitzen:
 
 * Power BI-Dienstadministrator
 
-* Globaler Office 365-Administrator
+* Globaler Administrator
 
 Weitere Informationen zu Rollen finden Sie unter [Administratorrollen in Zusammenhang mit Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 

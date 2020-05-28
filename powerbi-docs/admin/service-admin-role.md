@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136439"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438198"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Grundlegendes zur Dienstadministratorrolle in Power BI
 
-Sie müssen eine der folgenden Rollen haben, um einen Power BI-Mandanten zu verwalten: Power BI-Administrator, Power Platform-Administrator oder globaler Microsoft 365-Administrator. Administratoren für die Microsoft 365-Benutzerverwaltung weisen Benutzern im Microsoft 365 Admin Center oder mithilfe eines PowerShell-Skripts die Rolle des Power BI-Administrators oder des Power Platform-Administrators zu. Weitere Informationen finden Sie unter [Zuweisen von Rollen zu Benutzerkonten mit Office 365 PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
+Sie müssen eine der folgenden Rollen haben, um einen Power BI-Mandanten zu verwalten: Power BI-Administrator, Power Platform-Administrator oder globaler Microsoft 365-Administrator. Administratoren für die Microsoft 365-Benutzerverwaltung weisen Benutzern im Microsoft 365 Admin Center oder mithilfe eines PowerShell-Skripts die Rolle des Power BI-Administrators oder des Power Platform-Administrators zu. Weitere Informationen finden Sie unter [Zuweisen von Rollen zu Benutzerkonten mit PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
 
 Benutzer mit Power BI-Administratorrollen oder Power Platform-Administratorrollen verfügen über die vollständige Kontrolle über einen Power BI-Mandanten und die zugehörigen Verwaltungsfunktionen – mit Ausnahme der Lizenzierung. Sobald ein Benutzer zugewiesen wurde, erhält er Zugriff auf das [Power BI-Verwaltungsportal](service-admin-portal.md). Dort kann der Benutzer auf Nutzungsmetriken des Mandanten zugreifen und die Verwendung von Power BI-Funktionen im Mandanten steuern. Diese Administratorrollen sind ideal für Benutzer, die Zugriff auf das Power BI-Verwaltungsportal benötigen, ohne diesen Benutzern gleichzeitig den vollständigen Microsoft 365-Administratorzugriff zu gewähren.
 
