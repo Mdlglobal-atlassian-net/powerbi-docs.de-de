@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550762"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407431"
 ---
 # <a name="power-bi-visual-project-structure"></a>Struktur von Visualprojekten in Power BI
 
 Der einfachste Weg, ein neues Power BI-Visual zu erstellen, ist die Verwendung des Tools [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) für Power BI-Visuals.
 
-Um ein neues Power BI-Visual zu erstellen, navigieren Sie zu dem Verzeichnis, in dem Sie das Visual speichern möchten, und führen den folgenden Befehl aus:
+Um ein neues Power BI-Visual zu erstellen, navigieren Sie zu dem Verzeichnis, in dem Sie das Visual speichern möchten, und führen Sie den folgenden Befehl aus:
 
 `pbiviz new <visual project name>`
 
@@ -170,7 +170,7 @@ Die Kommentare im folgenden Code aus der Datei `pbiviz.json` beschreiben die Met
 }
 ```
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 * Informationen zu den Interaktionen zwischen einem Visual, einem Benutzer und Power BI finden Sie unter [Power BI-Visualkonzepte](./power-bi-visuals-concept.md).
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129977"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438014"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Problembehandlung für Probleme bei der Power BI-Anmeldung
 
@@ -26,7 +26,7 @@ Wenn Sie allerdings ein **Mandantenadministrator** für Ihre Organisation sind u
 
 Versuchen Sie als erstes, ein Supportticket über die [Power BI-Supportseite](https://powerbi.microsoft.com/support/) zu erstellen.
 
-Wenn Sie das Ticket nicht über die Power BI-Supportseite erstellen können, versuchen Sie, das Ticket über die [Supportseite für Office 365](https://support.office.com/home/contact) zu erstellen.
+Wenn Sie das Ticket nicht über die Power BI-Supportseite erstellen können, versuchen Sie, das Ticket über den [Office-Support](https://support.office.com/home/contact) zu erstellen.
 
 Wenn Sie ein Ticket auf keiner dieser Seiten erstellen können, versuchen Sie den Support telefonisch zu kontaktieren:
 
@@ -34,7 +34,7 @@ Wenn Sie ein Ticket auf keiner dieser Seiten erstellen können, versuchen Sie de
 * Für Kunden in Europa, im Nahen Osten und in Asien (EMEA): +44-844-800-2400
 * Für Kunden in Indien: +1-800-419-5666
 
-Eine weitere Möglichkeit, den Microsoft Support zu kontaktieren, um Hilfe zu erhalten, ist der Abschluss eines [Microsoft Premier Support](https://support.microsoft.com/premier)-Vertrags. Wenn Sie wissen, dass Ihre Organisation einen Microsoft Premier Support-Vertrag abgeschlossen hat, und Sie immer noch keinen Fall aus einem Office 365- oder Power BI-Kanal erstellen können, können Sie den Premier Support telefonisch kontaktieren:
+Eine weitere Möglichkeit, den Microsoft Support zu kontaktieren, um Hilfe zu erhalten, ist der Abschluss eines [Microsoft Premier Support](https://support.microsoft.com/premier)-Vertrags. Wenn Sie wissen, dass Ihre Organisation den Microsoft Premier-Support erworben hat, und Sie immer noch keinen Fall über einen Power BI-Kanal oder den Office-Support erstellen können, können Sie den Premier-Support telefonisch kontaktieren:
 
 * Für Kunden in Nord- und Südamerika: +1-800-936-3100
 * Für Kunden in Europa, im Nahen Osten und in Asien (EMEA): +44-844-800-8338
@@ -47,6 +47,6 @@ Eine weitere Möglichkeit, den Microsoft Support zu kontaktieren, um Hilfe zu er
 
 Wenn Sie keinen Beitrag im Power BI Communityforum erstellen können, liegt es daran, dass für das Forum ebenfalls eine Anmeldung erforderlich ist. Weitere Informationen finden Sie unter [Community-Support](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport).
 
-## <a name="next-steps"></a>Weitere Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
 [Power BI Pro und Power BI Premium: Supportoptionen](service-support-options.md)
